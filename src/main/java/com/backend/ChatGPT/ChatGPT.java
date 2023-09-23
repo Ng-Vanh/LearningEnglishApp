@@ -1,4 +1,4 @@
-package com.backend.chatGPT;
+package com.backend.ChatGPT;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -14,18 +14,18 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * modify module-info.java * to make the project require jackson databind.
  */
 
-public class chatGPT {
-    private String endpoint;
-    private String apiKey;
-    private String model;
+public class ChatGPT {
+    private static String endpoint = "https://api.openai.com/v1/chat/completions";
+    private static String apiKey = "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";
+    private static String model = "gpt-3.5-turbo";
 
-    public chatGPT() {
-        endpoint = "https://api.openai.com/v1/chat/completions";
-        apiKey = "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";
-        model = "gpt-3.5-turbo";
-    }
+//    public ChatGPT() {
+//        endpoint = "https://api.openai.com/v1/chat/completions";
+//        apiKey = "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";
+//        model = "gpt-3.5-turbo";
+//    }
 
-    public String getAnswer(String query) {
+    public static String getGPTAnswer(String query) {
         try {
             URL obj = URI.create(endpoint).toURL();
             HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
@@ -33,8 +33,9 @@ public class chatGPT {
             connection.setRequestProperty("Authorization", "Bearer " + apiKey);
             connection.setRequestProperty("Content-Type", "application/json");
 
-            // The request body
             String body = "{\"model\": \"" + model + "\", \"messages\": [{\"role\": \"user\", \"content\": \"" + query + "\"}]}";
+            System.out.println(body);
+
             connection.setDoOutput(true);
             OutputStreamWriter writer = new OutputStreamWriter(connection.getOutputStream());
             writer.write(body);
@@ -57,11 +58,10 @@ public class chatGPT {
                 // Request was successful, parse and return the response.
                 String responseBody = response.toString();
 //                System.out.println("Response: " + responseBody);
-                return getGPTresponse(responseBody);
+                return parseGPTResponse(responseBody);
             } else {
-                // Handle non-200 response codes here.
+
                 System.err.println("Error response code: " + connection.getResponseCode());
-                // You can add more detailed error handling logic here if needed.
             }
 
         } catch (IOException e) {
@@ -74,7 +74,7 @@ public class chatGPT {
         return "";
     }
 
-    public static String getGPTresponse(String text) {
+    private static String parseGPTResponse(String text) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode rootNode = objectMapper.readTree(text);

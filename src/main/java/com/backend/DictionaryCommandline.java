@@ -86,7 +86,7 @@ public class DictionaryCommandline {
             else if(userAction == 8) {
                 boolean isValid = true;
                 try {
-                    String filePath = "D:\\java\\dictionaryEn-Vi\\src\\main\\java\\com\\backend\\dictionaries.txt";
+                    String filePath = "src\\main\\java\\com\\backend\\dictionaries.txt";
                     File myObj = new File(filePath);
                     Scanner myReader = new Scanner(myObj);
                     while (myReader.hasNextLine()) {

@@ -10,6 +10,7 @@ public class MultipleChoice {
     private String question;
     private Options options;
     private String correctAnswer;
+    private String explanation;
 
     public static class Options {
         @JsonProperty("A")
@@ -77,6 +78,14 @@ public class MultipleChoice {
         return correctAnswer;
     }
 
+    public String getExplanation() {
+        return explanation;
+    }
+
+    public void setExplanation(String explanation) {
+        this.explanation = explanation;
+    }
+
     public MultipleChoice fromJson(String jsonString) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(jsonString, MultipleChoice.class);
@@ -84,9 +93,10 @@ public class MultipleChoice {
 
     public MultipleChoice() {
         try {
-            String query = "Generate a challenging English vocabulary practice exercise in JSON-like format with a sentence containing a blank in the question, four options (A, B, C, D) for completion, and a specified correct answer. The format should follow this pattern: {question: , options: {A: , B: , C: , D: }, correctAnswer: }.";
+            String query = "Generate one, only one challenging English vocabulary practice exercise in JSON-like format with a sentence containing a blank in the question, four options (A, B, C, D) for completion, a specified correct answer, and a brief explanation for the definition of each of the options. For the explanation, it should be like a paragraph, no special characters. The format should follow this pattern: {question: , options: {A: , B: , C: , D: }, correctAnswer: , explanation: }.";
             String jsonString = ChatGPT.getGPTAnswer(query);
-
+            System.out.println(jsonString);
+            System.out.println("-------------------------------------\n");
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode jsonNode = objectMapper.readTree(jsonString);
             JsonNode optionsNode = jsonNode.get("options");
@@ -94,6 +104,7 @@ public class MultipleChoice {
             String question = jsonNode.get("question").asText();
             Options options = new Options();
             String correctAnswer = jsonNode.get("correctAnswer").asText();
+            String explanation = jsonNode.get("explanation").asText();
 
             options.setOptionA(optionsNode.get("A").asText());
             options.setOptionB(optionsNode.get("B").asText());
@@ -103,6 +114,7 @@ public class MultipleChoice {
             this.question = question;
             this.options = options;
             this.correctAnswer = correctAnswer;
+            this.explanation = explanation;
 
         } catch (JsonProcessingException e) {
             e.printStackTrace();
@@ -116,5 +128,6 @@ public class MultipleChoice {
         System.out.println("C: " + options.getOptionC());
         System.out.println("D: " + options.getOptionD());
         System.out.println("Correct answer: " + correctAnswer);
+        System.out.println("Explanation: " + explanation);
     }
 }

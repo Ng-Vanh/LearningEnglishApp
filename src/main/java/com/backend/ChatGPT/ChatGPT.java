@@ -15,9 +15,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 
 public class ChatGPT {
-    private static String endpoint = "https://api.openai.com/v1/chat/completions";
-    private static String apiKey = "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";
-    private static String model = "gpt-3.5-turbo";
+    private static final String endpoint = "https://api.openai.com/v1/chat/completions";
+    private static final String apiKey = "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";
+    private static final String model = "gpt-3.5-turbo";
 
 //    public ChatGPT() {
 //        endpoint = "https://api.openai.com/v1/chat/completions";

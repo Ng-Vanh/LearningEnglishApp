@@ -4,7 +4,7 @@ import com.backend.ChatGPT.ChatGPT;
 import java.util.Scanner;
 import com.backend.ChatGPT.ChatGPT;
 import com.backend.Excercise.MultipleChoice;
-
+import com.backend.OnlineDictionary.GoogleTranslate;
 public class Main {
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
@@ -17,10 +17,16 @@ public class Main {
 
 //        System.out.println(response);
 
-        MultipleChoice mc = new MultipleChoice();
-        mc.print();
-        /// add explanation
 
+//        MultipleChoice mc = new MultipleChoice(); // tao cau hoi multiple choice
+//        mc.print();
+
+        String text;
+        text = "hello, how are you?";
+        System.out.println(GoogleTranslate.translateEnVi(text));
+
+        text = "ê đang làm gì thế?";
+        System.out.println(GoogleTranslate.translateViEn(text));
     }
 
 }

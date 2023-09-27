@@ -8,7 +8,7 @@ import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
 public class DictionaryCommandline {
     public static void main(String args[]) {
         DictionaryManagement dictionaryManagement = new DictionaryManagement();
-        System.out.println("Welcome to My Application!");
+        System.out.println("Welcome to My Application! ");
         System.out.println("[0] Exit");
         System.out.println("[1] Add");
         System.out.println("[2] Remove");

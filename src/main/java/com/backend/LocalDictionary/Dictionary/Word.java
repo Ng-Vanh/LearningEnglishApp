@@ -1,4 +1,4 @@
-package com.backend;
+package com.backend.LocalDictionary.Dictionary;
 
 public class Word {
     private String target;

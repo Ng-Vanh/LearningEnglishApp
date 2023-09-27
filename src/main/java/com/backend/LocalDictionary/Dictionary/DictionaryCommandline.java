@@ -1,10 +1,9 @@
-package com.backend;
+package com.backend.LocalDictionary.Dictionary;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import static com.backend.Checker.isValidWord;
+import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
 
 public class DictionaryCommandline {
     public static void main(String args[]) {

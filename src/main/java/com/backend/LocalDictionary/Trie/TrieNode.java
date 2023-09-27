@@ -1,6 +1,8 @@
-package com.backend;
+package com.backend.LocalDictionary.Trie;
 
-class TrieNode {
+import com.backend.LocalDictionary.Dictionary.Word;
+
+public class TrieNode {
     private TrieNode[] children;
     private Word word;
 
@@ -30,36 +32,26 @@ class TrieNode {
 
     /**
      * check trieNode has children
+     *
      * @param c digit to be checked in the trie
      * @return true if trieNode has children c , false otherwise
      */
-    public boolean hasChild (char c) {
-        if(this.children[c - 'a'] == null)   return false;
+    public boolean hasChild(char c) {
+        if (this.children[c - 'a'] == null) return false;
         return true;
     }
 
     /**
      * add digit c to trie
+     *
      * @param c digit to be added in the trie
      */
     public void addChild(char c) {
         this.children[c - 'a'] = new TrieNode();
     }
+
     public TrieNode() {
         children = new TrieNode[26];
-        word = new Word();
-    }
-}
-class Dictionary {
-    TrieNode trieNode = new TrieNode();
-    Word word = new Word();
-    public void addTo(String target , String explain) {
-        word.setTarget(target);
-        word.setExplain(explain);
-        trieNode.setWord(word);
-    }
-    public Dictionary() {
-        trieNode = new TrieNode();
         word = new Word();
     }
 }

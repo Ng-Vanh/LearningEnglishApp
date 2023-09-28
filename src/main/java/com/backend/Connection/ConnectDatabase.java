@@ -14,9 +14,9 @@ public class ConnectDatabase {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             //Tạo các thông số:
-            String url = "jdbc:mysql://localhost:3307/edict";
-            String userName = "root";
-            String passWord = "220604";
+            String url = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12649535";
+            String userName = "sql12649535";
+            String passWord = "e4BGMiE6gR";
 
             // Tạo kết nối
             connection = DriverManager.getConnection(url, userName, passWord);
@@ -60,13 +60,14 @@ public class ConnectDatabase {
         try {
             Statement statement = connection.createStatement();
             // tao cac cau lenh
-            String query = "SELECT * FROM edict.tbl_edict";
+            String query = "SELECT * FROM sql12649535.tbl_edict";
             ResultSet resultSet = statement.executeQuery(query);
 
             while (resultSet.next()){
+                int ind = resultSet.getInt("idx");
                 String word = resultSet.getString("word");
                 String detail = resultSet.getString("detail");
-                System.out.println(word);
+                System.out.println(ind+" - " +word);
             }
             ConnectDatabase.closeConnection(connection);
 

@@ -15,12 +15,12 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <TextField layoutX="264.0" layoutY="100.0" prefHeight="35.0" prefWidth="249.0" promptText="Enter the word" style="-fx-border-color: green;">
+      <TextField fx:id="wordTranslate" layoutX="264.0" layoutY="100.0" prefHeight="35.0" prefWidth="249.0" promptText="Enter the word" style="-fx-border-color: green;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <Button layoutX="520.0" layoutY="100.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" text="Translate" textFill="#110ddf">
+      <Button layoutX="520.0" layoutY="100.0" mnemonicParsing="false" onAction="#clickTranslate" prefHeight="35.0" prefWidth="94.0" text="Translate" textFill="#110ddf">
          <font>
             <Font size="14.0" />
          </font>

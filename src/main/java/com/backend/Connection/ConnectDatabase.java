@@ -14,9 +14,9 @@ public class ConnectDatabase {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             //Tạo các thông số:
-            String url = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12649535";
-            String userName = "sql12649535";
-            String passWord = "e4BGMiE6gR";
+            String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
+            String userName = "freedb_ngvanh2234";
+            String passWord = "*S$D&NpvY$V*#a6";
 
             // Tạo kết nối
             connection = DriverManager.getConnection(url, userName, passWord);
@@ -60,7 +60,7 @@ public class ConnectDatabase {
         try {
             Statement statement = connection.createStatement();
             // tao cac cau lenh
-            String query = "SELECT * FROM sql12649535.tbl_edict";
+            String query = "SELECT * FROM freedb_edictionary.tbl_edict";
             ResultSet resultSet = statement.executeQuery(query);
 
             while (resultSet.next()){

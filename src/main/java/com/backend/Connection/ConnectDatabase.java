@@ -67,7 +67,7 @@ public class ConnectDatabase {
                 int ind = resultSet.getInt("idx");
                 String word = resultSet.getString("word");
                 String detail = resultSet.getString("detail");
-                System.out.println(ind+" - " +word);
+                System.out.println(ind+" - " +word + " - " + detail);
             }
             ConnectDatabase.closeConnection(connection);
 

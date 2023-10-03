@@ -30,7 +30,7 @@ public class WordDataAccess {
             //: Tao Statement: moi lien ket toi database
             Statement statement = connect.createStatement();
             //:Tao cau lenh SQL
-            String query = "INSERT INTO edict.tbl_edict(word, detail) " +
+            String query = "INSERT INTO freedb_edictionary.tbl_edict(word, detail) " +
                     "VALUES ('" + word.getTarget() + "', '" + word.getExplain() + "')";
 
             result = statement.executeUpdate(query);
@@ -58,7 +58,7 @@ public class WordDataAccess {
             //: Tao Statement lien ket voi database
             Statement statement = conect.createStatement();
             //:Tao cau lenh SQL
-            String query = "UPDATE edict.tbl_edict" +
+            String query = "UPDATE freedb_edictionary.tbl_edict" +
                     " SET " +
                     " detail = '" + word.getExplain() + "'" +
                     " WHERE word = '" + word.getTarget() + "'";
@@ -83,7 +83,7 @@ public class WordDataAccess {
         try {
             Connection conect = ConnectDatabase.getConnection();
             Statement statement = conect.createStatement();
-            String query = "SELECT * FROM edict.tbl_edict";
+            String query = "SELECT * FROM freedb_edictionary.tbl_edict";
 
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()) {
@@ -111,7 +111,7 @@ public class WordDataAccess {
         try {
             Connection conect = ConnectDatabase.getConnection();
             Statement statement = conect.createStatement();
-            String query = "SELECT * FROM edict.tbl_edict WHERE word='" + target + "'";
+            String query = "SELECT * FROM freedb_edictionary.tbl_edict WHERE word='" + target + "'";
 
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()) {

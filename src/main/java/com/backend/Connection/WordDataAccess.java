@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class WordDataAccess {
     /**
      * The function init new object access to edict from database
-     *
      * @return new Obj
      */
     public static WordDataAccess getInstance() {

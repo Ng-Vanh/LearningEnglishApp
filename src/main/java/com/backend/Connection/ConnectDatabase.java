@@ -4,8 +4,9 @@ import java.sql.*;
 
 public class ConnectDatabase {
     /**
-     * The function connect with database
-     * @return
+     * The function connect with database.
+     *
+     * @return The function connect with database.
      */
     public static Connection getConnection() {
         Connection connection = null;

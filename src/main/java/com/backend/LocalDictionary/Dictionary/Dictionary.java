@@ -12,6 +12,12 @@ class Dictionary {
 
     TrieNode trieNode = new TrieNode();
     Word word = new Word();
+
+    /**
+     *
+     * @param target
+     * @param explain
+     */
     public void addTo(String target , String explain) {
         word.setTarget(target);
         word.setExplain(explain);

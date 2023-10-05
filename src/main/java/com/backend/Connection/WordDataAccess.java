@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class WordDataAccess {
     /**
      * The function init new object access to edict from database
+     *
      * @return new Obj
      */
     public static WordDataAccess getInstance() {
@@ -102,6 +103,7 @@ public class WordDataAccess {
 
     /**
      * The function translate English Word.
+     *
      * @param target is the English word need to translate.
      * @return the meaning of word type HTML
      */
@@ -117,6 +119,29 @@ public class WordDataAccess {
                 result = resultSet.getString("detail");
             }
             ConnectDatabase.closeConnection(conect);
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return result;
+    }
+
+    /**
+     * The function to delete word from database.
+     *
+     * @param word is the word to delete.
+     * @return the number of words deleted.
+     */
+    public int deleteWord(String word) {
+        int result = 0;
+        try {
+            Connection connect = ConnectDatabase.getConnection();
+            Statement statement = connect.createStatement();
+            String query = "DELETE FROM freedb_edictionary.tbl_edict WHERE word='" + word + "'";
+
+            result = statement.executeUpdate(query);
+            ConnectDatabase.closeConnection(connect);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

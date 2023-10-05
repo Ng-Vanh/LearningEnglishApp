@@ -1,12 +1,14 @@
 package com.backend.LocalDictionary.Dictionary;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Dictionary;
 import java.util.Scanner;
 import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
 
 public class DictionaryCommandline {
-    public static void main(String args[]) {
+    private static final String FILE_PATH = "src\\main\\java\\com\\backend\\dictionaries.txt";
+    public static void main(String args[]) throws FileNotFoundException {
         DictionaryManagement dictionaryManagement = new DictionaryManagement();
         System.out.println("Welcome to My Application! ");
         System.out.println("[0] Exit");
@@ -31,8 +33,9 @@ public class DictionaryCommandline {
             else if(userAction == 1) {
                 Scanner scanner1 = new Scanner(System.in);
                 String addedToDictionary = scanner1.nextLine();
-                String wordArray[] = addedToDictionary.split(" | ");
+                String wordArray[] = addedToDictionary.split("<html>");
                 String target = wordArray[0];
+                target = target.toLowerCase();
                 String explain = wordArray[1];
                 if(!isValidWord(target) || !isValidWord(explain)) {
                     System.out.println("not valid");
@@ -43,6 +46,7 @@ public class DictionaryCommandline {
             else if(userAction == 2) {
                 Scanner scanner2 = new Scanner(System.in);
                 String removedFromDictionary = scanner2.nextLine();
+                removedFromDictionary = removedFromDictionary.toLowerCase();
                 if(!isValidWord(removedFromDictionary)) {
                     System.out.println("not valid");
                     continue;
@@ -52,8 +56,9 @@ public class DictionaryCommandline {
             else if(userAction == 3) {
                 Scanner scanner3 = new Scanner(System.in);
                 String updatedToDictionary = scanner3.nextLine();
-                String wordArray[] = updatedToDictionary.split(" | ");
+                String wordArray[] = updatedToDictionary.split("<html>");
                 String target = wordArray[0];
+                target = target.toLowerCase();
                 String explain = wordArray[1];
                 if(!isValidWord(target) || !isValidWord(explain)) {
                     System.out.println("not valid");
@@ -67,6 +72,7 @@ public class DictionaryCommandline {
             else if(userAction == 5) {
                 Scanner scanner5 = new Scanner(System.in);
                 String target = scanner5.nextLine();
+                target = target.toLowerCase();
                 if(!isValidWord(target)) {
                     System.out.println("not valid");
                     continue;
@@ -76,6 +82,7 @@ public class DictionaryCommandline {
             else if(userAction == 6) {
                 Scanner scanner6 = new Scanner(System.in);
                 String target = scanner6.nextLine();
+                target = target.toLowerCase();
                 if(!isValidWord(target)) {
                     System.out.println("not valid.");
                     continue;
@@ -85,8 +92,7 @@ public class DictionaryCommandline {
             else if(userAction == 8) {
                 boolean isValid = true;
                 try {
-                    String filePath = "src\\main\\java\\com\\backend\\dictionaries.txt";
-                    File myObj = new File(filePath);
+                    File myObj = new File(FILE_PATH);
                     Scanner myReader = new Scanner(myObj);
                     while (myReader.hasNextLine()) {
                         String data = myReader.nextLine();
@@ -99,6 +105,25 @@ public class DictionaryCommandline {
                     myReader.close();
                 } catch (FileNotFoundException e) {
                     System.out.println("An error occurred.");
+                    e.printStackTrace();
+                }
+            }
+            else if(userAction == 9) {
+                try {
+                    File file = new File(FILE_PATH);
+                    if(file.exists()) {
+                        file.delete();
+                    }
+                    FileWriter fileWriter = new FileWriter(FILE_PATH);
+                    PrintWriter printWriter = new PrintWriter(fileWriter);
+                    ArrayList<Word> allWords = dictionaryManagement.getAllWords();
+                    for (Word word : allWords) {
+//                        System.out.println(word.getTarget());
+                        printWriter.println(word.getTarget() + "<html>" + word.getExplain());
+                    }
+                    printWriter.close();
+                    System.out.println("Data has been written to the file: " + FILE_PATH);
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }

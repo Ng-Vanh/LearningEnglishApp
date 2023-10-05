@@ -98,7 +98,7 @@ public class Trie {
             if (currentNode.hasChild(ch)) {
                 currentNode = currentNode.getChildren(ch);
             } else {
-                System.out.println("not found");
+                System.out.println("not found.");
                 return;
             }
         }

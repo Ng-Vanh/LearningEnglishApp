@@ -84,7 +84,7 @@ public class DictionaryCommandline {
                 String target = scanner6.nextLine();
                 target = target.toLowerCase();
                 if(!isValidWord(target)) {
-                    System.out.println("not valid");
+                    System.out.println("not valid.");
                     continue;
                 }
                 dictionaryManagement.searcher(target);

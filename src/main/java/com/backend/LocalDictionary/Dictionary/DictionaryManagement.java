@@ -57,6 +57,7 @@ public class DictionaryManagement {
         return trie.getAllTrieWords();
     }
     public void showAllWord() {
+
         trie.showAllWord();
     }
     public void dictionaryLookup(String target) {

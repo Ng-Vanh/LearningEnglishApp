@@ -8,7 +8,7 @@ public class Word {
         this.explain = "";
     }
     /**
-     * Constructs a new instance of the Word class.
+     * Constructs a new instance of the Word class
      * @param target The English word.
      * @param explain The Vietnamese translation of the word.
      */

@@ -19,6 +19,7 @@ public class DictionaryManagement {
     }
 
     public void showAllWord() {
+
         trie.showAllWord();
     }
     public void dictionaryLookup(String target) {

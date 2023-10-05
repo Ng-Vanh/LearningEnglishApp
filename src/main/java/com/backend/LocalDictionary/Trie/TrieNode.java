@@ -31,7 +31,7 @@ public class TrieNode {
     }
 
     /**
-     * check trieNode has children
+     * check trieNode has children.
      *
      * @param c digit to be checked in the trie
      * @return true if trieNode has children c , false otherwise

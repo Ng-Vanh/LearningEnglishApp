@@ -10,6 +10,7 @@ class Dictionary {
         word.setExplain(explain);
         trieNode.setWord(word);
     }
+
     public Dictionary() {
         trieNode = new TrieNode();
         word = new Word();

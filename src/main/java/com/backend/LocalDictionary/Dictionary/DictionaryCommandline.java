@@ -77,7 +77,7 @@ public class DictionaryCommandline {
                 Scanner scanner6 = new Scanner(System.in);
                 String target = scanner6.nextLine();
                 if(!isValidWord(target)) {
-                    System.out.println("not valid");
+                    System.out.println("not valid.");
                     continue;
                 }
                 dictionaryManagement.searcher(target);

@@ -1,9 +1,5 @@
 package com.backend;
 
-import com.backend.ChatGPT.ChatGPT;
-import java.util.Scanner;
-import com.backend.ChatGPT.ChatGPT;
-import com.backend.Excercise.MultipleChoice;
 import com.backend.OnlineDictionary.GoogleTranslate;
 public class Main {
     public static void main(String[] args) {

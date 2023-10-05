@@ -1,4 +1,4 @@
-package com.backend.Excercise;
+package com.backend.Exercise;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;

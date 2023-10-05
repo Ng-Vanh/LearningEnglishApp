@@ -20,7 +20,6 @@ public class FreeDictionary {
             URL obj = URI.create(endpoint).toURL();
             HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
 
-
             // Response
             BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String line;

@@ -9,7 +9,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 public class GoogleTranslate {
-    //private static final String webAppURL = "https://script.google.com/macros/s/AKfycby-pdZHY15gtLAGVPyJGF26kWRHD0j2R6NrLqSN2hg7XCMDoLRkmycHOrmWBJyg8A6Zyw/exec";
     private static final String webAppURL = "https://script.google.com/macros/s/AKfycbyVpfwhmbUSeWveS4uNynNJjvwZTAh356HljddZArlE8MKRlqdMUSWR-0EpP65Kno1rbQ/exec";
 
     public static String translate(String text, String langFrom, String langTo) {

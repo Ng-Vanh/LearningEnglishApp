@@ -210,6 +210,7 @@ public class Marriam {
                     System.out.println("Example: " + exampleText);
                 }
             }
+
             System.out.println("=============================");
         } catch (Exception e) {
             e.printStackTrace();

@@ -97,6 +97,7 @@ public class MultipleChoice {
             String jsonString = ChatGPT.getGPTAnswer(query);
             System.out.println(jsonString);
             System.out.println("-------------------------------------\n");
+
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode jsonNode = objectMapper.readTree(jsonString);
             JsonNode optionsNode = jsonNode.get("options");

@@ -19,12 +19,6 @@ public class ChatGPT {
     private static final String apiKey = "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";
     private static final String model = "gpt-3.5-turbo";
 
-//    public ChatGPT() {
-//        endpoint = "https://api.openai.com/v1/chat/completions";
-//        apiKey = "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";
-//        model = "gpt-3.5-turbo";
-//    }
-
     public static String getGPTAnswer(String query) {
         try {
             URL obj = URI.create(endpoint).toURL();

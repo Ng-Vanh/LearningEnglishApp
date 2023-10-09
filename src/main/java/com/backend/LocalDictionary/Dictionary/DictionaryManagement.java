@@ -1,7 +1,9 @@
 package com.backend.LocalDictionary.Dictionary;
 
+import com.backend.Connection.WordDataAccess;
 import com.backend.LocalDictionary.Dictionary.Dictionary;
 import com.backend.LocalDictionary.Trie.Trie;
+import com.backend.Connection.WordDataAccess;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -19,13 +21,13 @@ public class DictionaryManagement {
     Dictionary dictionary = new Dictionary();
     public DictionaryManagement () {
         try {
-            readData();
-        }
-        catch (IOException e) {
+//            readDataFromTxtFile();
+            readDataFromDatabase();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public void readData() throws IOException {
+    public void readDataFromTxtFile() throws IOException {
         FileReader fis = new FileReader(DATA_FILE_PATH);
         BufferedReader br = new BufferedReader(fis);
         String line;
@@ -38,9 +40,19 @@ public class DictionaryManagement {
                 dictionary.addTo(target , explain);
                 trie.insert(dictionary.word);
             }
-//            else {
-//                System.out.println(target);
-//            }
+        }
+    }
+    public void readDataFromDatabase() throws IOException {
+        WordDataAccess wordDataAccess = new WordDataAccess();
+        ArrayList<Word> allWords = wordDataAccess.getAllWord();
+        for (Word word : allWords) {
+            String target = word.getTarget();
+            String explain = word.getExplain();
+            target = target.toLowerCase();
+            if(isValidWord(target)) {
+                dictionary.addTo(target , explain);
+                trie.insert(dictionary.word);
+            }
         }
     }
     public void insertFromCommandLine(String target , String explain) {

@@ -6,9 +6,17 @@ import java.util.ArrayList;
 
 public class Trie {
     private TrieNode root;
+    private char[] characterArray = new char[30];
+    private int characterCount;
     ArrayList<Word> allWords = new ArrayList<Word>();
 
     public Trie() {
+        for (char c='a' ; c<='z' ; c++) {
+            characterArray[c-'a'] = c;
+        }
+        characterArray[26] = '-';
+        characterArray[27] = ' ';
+        characterCount = 28;
         root = new TrieNode();
     }
 
@@ -72,7 +80,8 @@ public class Trie {
             Word newWord = new Word(currentTarget, currentExplain);
             allWords.add(newWord);
         }
-        for (char c = 'a'; c <= 'z'; c++) {
+        for (int i=0 ; i<characterCount ; i++) {
+            char c = characterArray[i];
             if (currentNode.hasChild(c)) {
                 TrieNode nextNode = currentNode.getChildren(c);
                 String nextTarget = currentTarget + c;
@@ -98,7 +107,13 @@ public class Trie {
             System.out.println(word.getTarget());
         }
     }
-
+    public ArrayList<Word> getAllTrieWords() {
+        allWords.clear();
+        TrieNode currentNode = root;
+        String currentTarget = "";
+        dfsOnTrie(currentNode, currentTarget);
+        return allWords;
+    }
     public void showAllWord() {
         allWords.clear();
         TrieNode currentNode = root;

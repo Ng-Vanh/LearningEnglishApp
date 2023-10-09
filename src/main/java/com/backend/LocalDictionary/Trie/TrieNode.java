@@ -5,6 +5,16 @@ import com.backend.LocalDictionary.Dictionary.Word;
 public class TrieNode {
     private TrieNode[] children;
     private Word word;
+    public int getIndexCharacter(char c) {
+        if(c == '-') return 26;
+        if(c == ' ') return 27;
+        if(c >= 'a' && c <= 'z') {
+            return c - 'a';
+        }
+        System.out.println("vl " + c);
+        return 0;
+//        return c - 'a';
+    }
 
     public Word getWord() {
         return word;
@@ -15,7 +25,8 @@ public class TrieNode {
     }
 
     public TrieNode getChildren(char c) {
-        return children[c - 'a'];
+        int index = getIndexCharacter(c);
+        return children[index];
     }
 
     public void setChildren(TrieNode[] children) {
@@ -37,7 +48,8 @@ public class TrieNode {
      * @return true if trieNode has children c , false otherwise
      */
     public boolean hasChild(char c) {
-        if (this.children[c - 'a'] == null) return false;
+        int index = getIndexCharacter(c);
+        if (this.children[index] == null) return false;
         return true;
     }
 
@@ -47,11 +59,12 @@ public class TrieNode {
      * @param c digit to be added in the trie
      */
     public void addChild(char c) {
-        this.children[c - 'a'] = new TrieNode();
+        int index = getIndexCharacter(c);
+        this.children[index] = new TrieNode();
     }
 
     public TrieNode() {
-        children = new TrieNode[26];
+        children = new TrieNode[30];
         word = new Word();
     }
 }

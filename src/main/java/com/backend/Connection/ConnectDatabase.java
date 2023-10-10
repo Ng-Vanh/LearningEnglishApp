@@ -1,8 +1,13 @@
 package com.backend.Connection;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class ConnectDatabase {
+    protected static final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
+    protected static final String userName = "freedb_ngvanh2234";
+    protected static final String passWord = "*S$D&NpvY$V*#a6";
+    protected static final String tableName = "freedb_edictionary.tbl_edict";
     /**
      * The function connect with database.
      *
@@ -15,9 +20,9 @@ public class ConnectDatabase {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             //Tạo các thông số:
-            String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
-            String userName = "freedb_ngvanh2234";
-            String passWord = "*S$D&NpvY$V*#a6";
+//            String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
+//            String userName = "freedb_ngvanh2234";
+//            String passWord = "*S$D&NpvY$V*#a6";
 
             // Tạo kết nối
             connection = DriverManager.getConnection(url, userName, passWord);
@@ -57,24 +62,10 @@ public class ConnectDatabase {
      * @param args
      */
     public static void main(String[] args) {
-        Connection connection = ConnectDatabase.getConnection();
-        try {
-            Statement statement = connection.createStatement();
-            // tao cac cau lenh
-            String query = "SELECT * FROM freedb_edictionary.tbl_edict";
-            ResultSet resultSet = statement.executeQuery(query);
-
-            while (resultSet.next()){
-                int ind = resultSet.getInt("idx");
-                String word = resultSet.getString("word");
-                String detail = resultSet.getString("detail");
-                System.out.println(ind+" - " +word + " - " + detail);
-            }
-            ConnectDatabase.closeConnection(connection);
-
-
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        String curStr = "hi";
+        ArrayList<String> tmp = WordDataAccess.getInstance().suggestListWords(curStr);
+        for(String s: tmp){
+            System.out.println(s);
         }
     }
 }

@@ -8,6 +8,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+import static com.backend.Connection.ConnectDatabase.tableName;
+
 public class WordDataAccess {
     /**
      * The function init new object access to edict from database
@@ -30,7 +32,7 @@ public class WordDataAccess {
             //: Tao Statement: moi lien ket toi database
             Statement statement = connect.createStatement();
             //:Tao cau lenh SQL
-            String query = "INSERT INTO freedb_edictionary.tbl_edict(word, detail) " +
+            String query = "INSERT INTO "+ tableName +"(word, detail) " +
                     "VALUES ('" + word.getTarget() + "', '" + word.getExplain() + "')";
 
             result = statement.executeUpdate(query);
@@ -58,7 +60,7 @@ public class WordDataAccess {
             //: Tao Statement lien ket voi database
             Statement statement = conect.createStatement();
             //:Tao cau lenh SQL
-            String query = "UPDATE freedb_edictionary.tbl_edict" +
+            String query = "UPDATE " + tableName +
                     " SET " +
                     " detail = '" + word.getExplain() + "'" +
                     " WHERE word = '" + word.getTarget() + "'";
@@ -83,7 +85,7 @@ public class WordDataAccess {
         try {
             Connection conect = ConnectDatabase.getConnection();
             Statement statement = conect.createStatement();
-            String query = "SELECT * FROM freedb_edictionary.tbl_edict";
+            String query = "SELECT * FROM " + tableName;
 
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()) {
@@ -112,7 +114,7 @@ public class WordDataAccess {
         try {
             Connection conect = ConnectDatabase.getConnection();
             Statement statement = conect.createStatement();
-            String query = "SELECT * FROM freedb_edictionary.tbl_edict WHERE word='" + target + "'";
+            String query = "SELECT * FROM "+ tableName +" WHERE word='" + target + "'";
 
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()) {
@@ -138,10 +140,29 @@ public class WordDataAccess {
         try {
             Connection connect = ConnectDatabase.getConnection();
             Statement statement = connect.createStatement();
-            String query = "DELETE FROM freedb_edictionary.tbl_edict WHERE word='" + word + "'";
+            String query = "DELETE FROM "+ tableName +" WHERE word='" + word + "'";
 
             result = statement.executeUpdate(query);
             ConnectDatabase.closeConnection(connect);
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return result;
+    }
+    public ArrayList<String> suggestListWords(String currentWord){
+        ArrayList<String> result = new ArrayList<>();
+        try {
+            Connection conect = ConnectDatabase.getConnection();
+            Statement statement = conect.createStatement();
+            String query = "SELECT * FROM "+ tableName +" WHERE word LIKE '" + currentWord + "%'";
+
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                result.add(resultSet.getString("word"));
+            }
+            ConnectDatabase.closeConnection(conect);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

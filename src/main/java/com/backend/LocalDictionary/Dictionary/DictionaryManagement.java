@@ -72,11 +72,12 @@ public class DictionaryManagement {
 
         trie.showAllWord();
     }
-    public void dictionaryLookup(String target) {
+    public String dictionaryLookup(String target) {
         String result = trie.lookup(target);
-        System.out.println(result);
+        return result;
     }
-    public void searcher(String target) {
-        trie.search(target);
+    public ArrayList searcher(String target) {
+        ArrayList<Word> result = trie.search(target);
+        return result;
     }
 }

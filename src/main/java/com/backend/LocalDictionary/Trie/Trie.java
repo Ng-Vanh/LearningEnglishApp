@@ -90,7 +90,7 @@ public class Trie {
         }
     }
 
-    public void search(String target) {
+    public ArrayList<Word> search(String target) {
         allWords.clear();
         TrieNode currentNode = root;
         for (int i = 0; i < target.length(); i++) {
@@ -98,14 +98,13 @@ public class Trie {
             if (currentNode.hasChild(ch)) {
                 currentNode = currentNode.getChildren(ch);
             } else {
-                System.out.println("not found.");
-                return;
+                Word result = new Word("Not found!" , "");
+                allWords.add(result);
+                return allWords;
             }
         }
         dfsOnTrie(currentNode, target);
-        for (Word word : allWords) {
-            System.out.println(word.getTarget());
-        }
+        return allWords;
     }
     public ArrayList<Word> getAllTrieWords() {
         allWords.clear();

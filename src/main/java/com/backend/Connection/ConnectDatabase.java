@@ -19,11 +19,6 @@ public class ConnectDatabase {
             // Đăng ký driver (sử dụng phiên bản mới)
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            //Tạo các thông số:
-//            String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
-//            String userName = "freedb_ngvanh2234";
-//            String passWord = "*S$D&NpvY$V*#a6";
-
             // Tạo kết nối
             connection = DriverManager.getConnection(url, userName, passWord);
 
@@ -54,18 +49,6 @@ public class ConnectDatabase {
             } catch (SQLException e) {
                 throw new RuntimeException(e);
             }
-        }
-    }
-
-    /**
-     * Test connect to database: show all word from database
-     * @param args
-     */
-    public static void main(String[] args) {
-        String curStr = "hi";
-        ArrayList<String> tmp = WordDataAccess.getInstance().suggestListWords(curStr);
-        for(String s: tmp){
-            System.out.println(s);
         }
     }
 }

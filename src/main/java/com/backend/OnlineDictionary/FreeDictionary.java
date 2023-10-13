@@ -13,6 +13,7 @@ import java.net.URI;
 import java.net.URL;
 
 public class FreeDictionary {
+    private final String endpoint = "https://api.dictionaryapi.dev/api/v2/entries/en/";
     public static void main(String[] args) {
         String query = "bomb";
         String endpoint = "https://api.dictionaryapi.dev/api/v2/entries/en/" + query;

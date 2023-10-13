@@ -1,7 +1,12 @@
 package com.example.dictionaryenvi;
 
 import com.backend.Connection.WordDataAccess;
+import com.backend.LocalDictionary.Dictionary.DictionaryManagement;
+import com.backend.LocalDictionary.Dictionary.Word;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -10,11 +15,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Controller {
     @FXML
@@ -24,14 +32,40 @@ public class Controller {
     @FXML
     private ListView suggestListWords;
 
+    private DictionaryManagement myDictionary = new DictionaryManagement();
+
+    private void translate(String curWord){
+        if(!curWord.equals("")){
+            String lowerCaseWord = curWord.toLowerCase();
+            String firstLetter = curWord.substring(0, 1).toUpperCase();
+            String lastLetters = curWord.substring(1).toLowerCase();
+            String titleWord = firstLetter + lastLetters;
+            String meaning = myDictionary.dictionaryLookup(lowerCaseWord);
+            String meaningShow = "<h3 style = 'font-style: normal;'" + meaning + "</h3>";
+
+
+            String showStr = "<h2 style ='color: red; font-style: italic;'>" + titleWord +"</h2>" + meaningShow;
+
+            if (meaning.equals("not found") || curWord.equals("")) {
+                showMean.getEngine().loadContent(titleWord+ " is not found!!!");
+            } else {
+                showMean.getEngine().loadContent(showStr);
+            }
+        }else{
+            showMean.getEngine().loadContent("Not found English word!!!");
+        }
+
+
+    }
     @FXML
     public void clickTranslate(ActionEvent event){
         String curWord = wordTranslate.getText();
-        String s = WordDataAccess.getInstance().translateWord(curWord);
-        if(s.equals("")){
-            showMean.getEngine().loadContent("Not found!!!");
-        }else{
-            showMean.getEngine().loadContent(s);
+        translate(curWord);
+    }
+    public void submitTranslate(KeyEvent keyEvent) {
+        String curWord = wordTranslate.getText();
+        if(keyEvent.getCode() == KeyCode.ENTER){
+            translate(curWord);
         }
     }
 
@@ -46,5 +80,29 @@ public class Controller {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+
+    public void getSuggestListWord(KeyEvent keyEvent) {
+        String newText = wordTranslate.getText();
+        System.out.println(newText);
+        ArrayList<Word> listSuggestWord = myDictionary.searcher(newText);
+        ArrayList<String> listSuggest = new ArrayList<String>();
+        for (Word word : listSuggestWord) {
+            listSuggest.add(word.getTarget());
+        }
+        ObservableList<String> items = FXCollections.observableArrayList(listSuggest);
+        suggestListWords.setItems(items);
+
+        suggestListWords.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if (!suggestListWords.getSelectionModel().isEmpty()) {
+                    String selectedWord = (String) suggestListWords.getSelectionModel().getSelectedItem();
+                    wordTranslate.setText(selectedWord);
+                    translate(selectedWord);
+                }
+            }
+        });
     }
 }

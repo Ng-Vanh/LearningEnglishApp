@@ -16,7 +16,7 @@ public class Audio {
 //                this.audioLink = getGoogleTranslateAudioLink(text);
 //            } catch (IOException ex) {
 //                ex.printStackTrace();
-//                this.audioLink = null; // or some default/fallback value
+//                this.audioLink = null;
 //            }
 //        }
 

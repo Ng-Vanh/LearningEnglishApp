@@ -12,7 +12,6 @@ import java.net.URI;
 import java.net.URL;
 
 public class FreeDictionary {
-
     private static final String BASE_ENDPOINT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
     private ObjectMapper objectMapper;
 

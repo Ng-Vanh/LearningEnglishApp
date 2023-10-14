@@ -19,6 +19,7 @@ public class Translation {
     public String getTranslation() {
         return translation;
     }
+
     public String getGoogleTranslateTranslation(String text) throws IOException {
         GoogleTranslate googleTranslate = new GoogleTranslate(text);
         return googleTranslate.getTranslatedText();

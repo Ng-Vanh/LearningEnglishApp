@@ -22,11 +22,18 @@ public class Translation {
 
     public String getGoogleTranslateTranslation(String text) throws IOException {
         GoogleTranslate googleTranslate = new GoogleTranslate(text);
-        return googleTranslate.getTranslatedText();
+        return googleTranslate.getTranslation();
+    }
+
+    @Override
+    public String toString() {
+        return "Translation: " + translation;
     }
 
     public static void main(String[] args) {
         Translation translation = new Translation("hi");
         System.out.println(translation.getTranslation());
+
+//        System.out.println(translation);
     }
 }

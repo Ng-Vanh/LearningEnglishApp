@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 public class GoogleTranslate {
     private String audioLink;
-    private String translatedText;
+    private String translation;
 
     public GoogleTranslate() {
 
@@ -21,16 +21,16 @@ public class GoogleTranslate {
         return this.audioLink;
     }
 
-    public String getTranslatedText() {
-        return this.translatedText;
+    public String getTranslation() {
+        return this.translation;
     }
 
     public GoogleTranslate(String text) {
         String audioLink = getAudioLink(text, "en");
-        String translatedText = translate(text, "en", "vi");
+        String translation = translate(text, "en", "vi");
 
         this.audioLink = audioLink;
-        this.translatedText = translatedText;
+        this.translation = translation;
     }
 
     private static final String scriptURL = "https://script.google.com/macros/s/AKfycbyVpfwhmbUSeWveS4uNynNJjvwZTAh356HljddZArlE8MKRlqdMUSWR-0EpP65Kno1rbQ/exec";
@@ -43,21 +43,27 @@ public class GoogleTranslate {
                 + languageCode
                 + "&client=tw-ob";
 
-        try {
-            URL obj = URI.create(url).toURL();
-            StringBuilder response = new StringBuilder();
-            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
-            int responseCode = con.getResponseCode();
-
-            if (responseCode >= 200 && responseCode < 300) {
-                return url; // URL is working
-            } else {
-                return "URL is not working"; // URL is not working
-            }
-        } catch (IOException e) {
-            return "URL is not working"; // Exception occurred, URL is not working
-        }
+        return url;
+//        System.out.println(url);
+//        int responseCode = -1;
+//        try {
+//            URL obj = URI.create(url).toURL();
+//            StringBuilder response = new StringBuilder();
+//            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+//
+//            responseCode = con.getResponseCode();
+//
+//            if (responseCode >= 200 && responseCode < 300) {
+//                System.out.println("Working: " + responseCode);
+//                return url; // URL is working
+//            } else {
+//                System.out.println("Not working 1: " + responseCode);
+//                return "URL is not working 1"; // URL is not working
+//            }
+//        } catch (IOException e) {
+//            System.out.println("Not working 2: " + responseCode);
+//            return "URL is not working 2"; // Exception occurred, URL is not working
+//        }
     }
 
     public static String translate(String text, String langFrom, String langTo) {
@@ -92,10 +98,16 @@ public class GoogleTranslate {
         return translate(text, "vi", "en");
     }
 
+    @Override
+    public String toString() {
+        return "Translation text : " + translation
+                + "Audio link: " + audioLink;
+    }
     public static void main(String[] args) {
         GoogleTranslate translator = new GoogleTranslate("hi");
-        System.out.println(translator.getTranslatedText());
+        System.out.println(translator.getTranslation());
         System.out.println(translator.getAudioLink());
 
+//        System.out.println(translator);
     }
 }

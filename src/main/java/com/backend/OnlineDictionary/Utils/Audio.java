@@ -20,12 +20,14 @@ public class Audio {
 //            }
 //        }
 
-        try {
-            this.audioLink = getGoogleTranslateAudioLink(text);
-        } catch (IOException e) {
-            e.printStackTrace();
-            this.audioLink = null;
-        }
+//        try {
+//            this.audioLink = getGoogleTranslateAudioLink(text);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//            this.audioLink = null;
+//        }
+
+        this.audioLink = getGoogleTranslateAudioLink(text);
     }
 
     public String getAudioLink() {
@@ -37,13 +39,24 @@ public class Audio {
         return freeDictionary.getAudioLink(text);
     }
 
-    public String getGoogleTranslateAudioLink(String text) throws IOException {
+//    public String getGoogleTranslateAudioLink(String text) throws IOException {
+//        return GoogleTranslate.getAudioLink(text, "en");
+//    }
+
+    public String getGoogleTranslateAudioLink(String text) {
         return GoogleTranslate.getAudioLink(text, "en");
+    }
+
+    @Override
+    public String toString() {
+        return "Audio link: " + audioLink;
     }
 
     public static void main(String[] args) {
         Audio audio = new Audio("hi");
         System.out.println(audio.getAudioLink());
+
+//        System.out.println(audio);
     }
 }
 

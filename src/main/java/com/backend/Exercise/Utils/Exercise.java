@@ -1,8 +1,8 @@
 package com.backend.Exercise.Utils;
 
-import com.backend.Exercise.Dictation.Dictation;
-import com.backend.Exercise.MultipleChoice.MultipleChoice;
-import com.backend.Exercise.MultipleChoice.Options;
+import com.backend.Exercise.Exercises.Dictation.Dictation;
+import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
+import com.backend.Exercise.Exercises.MultipleChoice.Options;
 import com.backend.OnlineDictionary.Utils.AudioTranslation;
 
 public abstract class Exercise {

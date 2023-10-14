@@ -1,8 +1,7 @@
-package com.backend.Exercise.Dictation;
+package com.backend.Exercise.Exercises.Dictation;
 
 import com.backend.ChatGPT.ChatGPT;
 import com.backend.ChatGPT.PromptLoader;
-import com.backend.Exercise.MultipleChoice.Options;
 import com.backend.Exercise.Utils.Exercise;
 import com.backend.OnlineDictionary.Utils.AudioTranslation;
 import com.fasterxml.jackson.core.JsonProcessingException;

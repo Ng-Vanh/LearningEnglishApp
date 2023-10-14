@@ -1,7 +1,7 @@
 package com.backend.OnlineDictionary.Utils;
 
-import com.backend.OnlineDictionary.Dictionaries.GoogleTranslate;
-import com.backend.OnlineDictionary.Dictionaries.FreeDictionary;
+import com.backend.OnlineDictionary.OnlineDictionaries.GoogleTranslate;
+import com.backend.OnlineDictionary.OnlineDictionaries.FreeDictionary;
 
 import java.io.IOException;
 

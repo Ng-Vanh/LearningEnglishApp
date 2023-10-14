@@ -1,4 +1,4 @@
-package com.backend.Exercise.MultipleChoice;
+package com.backend.Exercise.Exercises.MultipleChoice;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

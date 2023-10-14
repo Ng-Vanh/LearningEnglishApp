@@ -1,11 +1,10 @@
-package com.backend.Exercise.MultipleChoice;
+package com.backend.Exercise.Exercises.MultipleChoice;
 
 import com.backend.Exercise.Utils.Exercise;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.backend.ChatGPT.ChatGPT;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import java.util.Map;
 import com.backend.ChatGPT.PromptLoader;
 
 public class MultipleChoice extends Exercise {

@@ -1,6 +1,6 @@
 //package com.backend;
 //
-//import com.backend.Exercise.MultipleChoice.MultipleChoice;
+//import com.backend.Exercise.Exercises.Dictation.Dictation.MultipleChoice.MultipleChoice;
 //
 //public class Main {
 //    public static void main(String[] args) {

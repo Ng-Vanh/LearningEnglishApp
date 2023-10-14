@@ -1,4 +1,4 @@
-package com.backend.OnlineDictionary.Dictionaries;
+package com.backend.OnlineDictionary.OnlineDictionaries;
 
 import java.io.BufferedReader;
 import java.io.IOException;

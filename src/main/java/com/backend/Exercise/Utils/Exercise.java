@@ -47,17 +47,19 @@ public abstract class Exercise {
     public abstract String toString();
 
     public static void main(String[] args) {
-        Exercise multipleChoice = new MultipleChoice("Blank");
+        Exercise multipleChoice = new MultipleChoice("Blank"); // Synonyms , Antonyms
         System.out.println(multipleChoice.getQuestion());
         System.out.println(multipleChoice.getOptions());
         System.out.println(multipleChoice.getCorrectAnswer());
         System.out.println(multipleChoice.getExplanation());
-        System.out.println(multipleChoice);
+//        System.out.println(multipleChoice);
+
         System.out.println("-------------------------------------------------");
+
         Exercise dictation = new Dictation("Blank");
         System.out.println(dictation.getSentenceWithBlank());
         System.out.println(dictation.getWordBlank());
         System.out.println(dictation.getAudioTranslation().getAudioLink());
-        System.out.println(dictation);
+//        System.out.println(dictation);
     }
 }

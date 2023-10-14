@@ -1,4 +1,4 @@
-package com.backend.OnlineDictionary;
+package com.backend.OnlineDictionary.Dictionaries;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

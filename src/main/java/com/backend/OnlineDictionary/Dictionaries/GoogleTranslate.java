@@ -60,7 +60,6 @@ public class GoogleTranslate {
         }
     }
 
-
     public static String translate(String text, String langFrom, String langTo) {
         try {
             String urlStr = scriptURL +

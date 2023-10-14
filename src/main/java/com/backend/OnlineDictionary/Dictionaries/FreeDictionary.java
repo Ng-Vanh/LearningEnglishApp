@@ -1,4 +1,4 @@
-package com.backend.OnlineDictionary;
+package com.backend.OnlineDictionary.Dictionaries;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -12,7 +12,6 @@ import java.net.URI;
 import java.net.URL;
 
 public class FreeDictionary {
-
     private static final String BASE_ENDPOINT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
     private ObjectMapper objectMapper;
 

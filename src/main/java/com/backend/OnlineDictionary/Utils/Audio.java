@@ -1,7 +1,7 @@
 package com.backend.OnlineDictionary.Utils;
 
 import com.backend.OnlineDictionary.Dictionaries.GoogleTranslate;
-import com.backend.OnlineDictionary.FreeDictionary;
+import com.backend.OnlineDictionary.Dictionaries.FreeDictionary;
 
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ public class Audio {
 //                this.audioLink = getGoogleTranslateAudioLink(text);
 //            } catch (IOException ex) {
 //                ex.printStackTrace();
-//                this.audioLink = null; // or some default/fallback value
+//                this.audioLink = null;
 //            }
 //        }
 

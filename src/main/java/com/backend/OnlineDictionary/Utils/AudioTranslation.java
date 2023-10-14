@@ -1,7 +1,5 @@
 package com.backend.OnlineDictionary.Utils;
 
-import java.io.IOException;
-
 public class AudioTranslation {
     private String audioLink;
     private String translation;

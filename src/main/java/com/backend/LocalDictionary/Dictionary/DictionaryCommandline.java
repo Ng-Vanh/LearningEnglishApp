@@ -1,12 +1,13 @@
 package com.backend.LocalDictionary.Dictionary;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Dictionary;
 import java.util.Scanner;
 import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
 
 public class DictionaryCommandline {
-    public static void main(String args[]) {
+    public static void main(String args[]) throws FileNotFoundException {
         DictionaryManagement dictionaryManagement = new DictionaryManagement();
         System.out.println("Welcome to My Application! ");
         System.out.println("[0] Exit");
@@ -31,34 +32,22 @@ public class DictionaryCommandline {
             else if(userAction == 1) {
                 Scanner scanner1 = new Scanner(System.in);
                 String addedToDictionary = scanner1.nextLine();
-                String wordArray[] = addedToDictionary.split(" | ");
+                String wordArray[] = addedToDictionary.split("<html>");
                 String target = wordArray[0];
                 String explain = wordArray[1];
-                if(!isValidWord(target) || !isValidWord(explain)) {
-                    System.out.println("not valid");
-                    continue;
-                }
                 dictionaryManagement.insertFromCommandLine(target , explain);
             }
             else if(userAction == 2) {
                 Scanner scanner2 = new Scanner(System.in);
                 String removedFromDictionary = scanner2.nextLine();
-                if(!isValidWord(removedFromDictionary)) {
-                    System.out.println("not valid");
-                    continue;
-                }
                 dictionaryManagement.removeFromCommandLine(removedFromDictionary);
             }
             else if(userAction == 3) {
                 Scanner scanner3 = new Scanner(System.in);
                 String updatedToDictionary = scanner3.nextLine();
-                String wordArray[] = updatedToDictionary.split(" | ");
+                String wordArray[] = updatedToDictionary.split("<html>");
                 String target = wordArray[0];
                 String explain = wordArray[1];
-                if(!isValidWord(target) || !isValidWord(explain)) {
-                    System.out.println("not valid");
-                    continue;
-                }
                 dictionaryManagement.updateFromCommandLine(target , explain);
             }
             else if(userAction == 4) {
@@ -67,40 +56,27 @@ public class DictionaryCommandline {
             else if(userAction == 5) {
                 Scanner scanner5 = new Scanner(System.in);
                 String target = scanner5.nextLine();
-                if(!isValidWord(target)) {
-                    System.out.println("not valid");
-                    continue;
-                }
-                dictionaryManagement.dictionaryLookup(target);
+                String result = dictionaryManagement.dictionaryLookup(target);
+                System.out.println(result);
             }
             else if(userAction == 6) {
                 Scanner scanner6 = new Scanner(System.in);
                 String target = scanner6.nextLine();
-                if(!isValidWord(target)) {
-                    System.out.println("not valid.");
-                    continue;
+                ArrayList<Word> allWords = dictionaryManagement.searcher(target);
+                for (Word word : allWords) {
+                    System.out.println(word.getTarget());
                 }
-                dictionaryManagement.searcher(target);
             }
             else if(userAction == 8) {
-                boolean isValid = true;
                 try {
-                    String filePath = "src\\main\\java\\com\\backend\\dictionaries.txt";
-                    File myObj = new File(filePath);
-                    Scanner myReader = new Scanner(myObj);
-                    while (myReader.hasNextLine()) {
-                        String data = myReader.nextLine();
-                        String wordArray[] = data.split(" ");
-                        String target = wordArray[0];
-                        String explain = wordArray[1];
-                        dictionaryManagement.insertFromCommandLine(target , explain);
-                    }
-                    if(!isValid)    continue;
-                    myReader.close();
-                } catch (FileNotFoundException e) {
-                    System.out.println("An error occurred.");
+                    dictionaryManagement.readDataFromTxtFile();
+//                    dictionaryManagement.readDataFromDatabase();
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
+            }
+            else if(userAction == 9) {
+                dictionaryManagement.exportDataToTxtFile();
             }
             else System.out.println("Action not supported");
         }

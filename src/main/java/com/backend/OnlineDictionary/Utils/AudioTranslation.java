@@ -1,36 +1,37 @@
 package com.backend.OnlineDictionary.Utils;
 
-public class AudioTranslation {
-    private String audioLink;
-    private String translation;
+import com.backend.OnlineDictionary.OnlineDictionaries.GoogleTranslate;
 
-    public AudioTranslation(String text) {
-        Translation translation = new Translation(text);
-        this.translation = translation.getTranslation();
+public abstract class AudioTranslation {
+    protected String audioLink;
+    protected String translation;
 
-        Audio audio = new Audio(text);
-        this.audioLink = audio.getAudioLink();
+    public AudioTranslation() {
+
     }
 
-    public String getAudioLink() {
-        return audioLink;
-    }
+    public abstract String getAudioLink();
 
-    public String getTranslation() {
-        return translation;
-    }
+    public abstract String getAudioLink(String text);
+
+    public abstract String getTranslation();
+
+    public abstract String getTranslation(String text);
 
     @Override
-    public String toString() {
-        return "Translation: " + translation + '\n'
-                + "Audio link: " + audioLink;
-    }
+    public abstract String toString();
 
     public static void main(String[] args) {
-        AudioTranslation audioTranslation = new AudioTranslation("Hello how are you");
-        System.out.println(audioTranslation.getAudioLink());
-        System.out.println(audioTranslation.getTranslation());
+        // Initialization with text will create audio link and translation.
+        AudioTranslation googleTranslate = new GoogleTranslate("Hello how are you");
+        System.out.println(googleTranslate.getAudioLink());
+        System.out.println(googleTranslate.getTranslation());
+        System.out.println(googleTranslate);
 
-//        System.out.println(audioTranslation);
+        // Initialization without text will NOT create audio link and translation.
+        AudioTranslation googleTranslate_Empty = new GoogleTranslate();
+        System.out.println(googleTranslate_Empty.getTranslation("what time is it?"));
+        System.out.println(googleTranslate_Empty.getAudioLink("what's the weather like?"));
+        System.out.println(googleTranslate_Empty);
     }
 }

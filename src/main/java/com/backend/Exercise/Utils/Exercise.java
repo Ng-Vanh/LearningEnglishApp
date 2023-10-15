@@ -52,6 +52,7 @@ public abstract class Exercise {
         System.out.println(multipleChoice.getOptions());
         System.out.println(multipleChoice.getCorrectAnswer());
         System.out.println(multipleChoice.getExplanation());
+        System.out.println(multipleChoice.isCorrect("word"));
 //        System.out.println(multipleChoice);
 
         System.out.println("-------------------------------------------------");
@@ -60,6 +61,7 @@ public abstract class Exercise {
         System.out.println(dictation.getSentenceWithBlank());
         System.out.println(dictation.getWordBlank());
         System.out.println(dictation.getAudioTranslation().getAudioLink());
+        System.out.println(dictation.isCorrect("word"));
 //        System.out.println(dictation);
     }
 }

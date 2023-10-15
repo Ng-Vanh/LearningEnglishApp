@@ -3,6 +3,7 @@ package com.example.dictionaryenvi;
 import com.backend.Connection.WordDataAccess;
 import com.backend.LocalDictionary.Dictionary.DictionaryManagement;
 import com.backend.LocalDictionary.Dictionary.Word;
+import com.backend.OnlineDictionary.Utils.Audio;
 import com.backend.OnlineDictionary.Utils.AudioTranslation;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -56,7 +57,7 @@ public class Controller {
                 showMean.getEngine().loadContent(titleWord+ " is not found!!!");
             } else {
                 showMean.getEngine().loadContent(showStr);
-                AudioTranslation audioTranslation = new AudioTranslation(lowerCaseWord);
+                Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
                 pronounceBtn.setVisible(true);
 

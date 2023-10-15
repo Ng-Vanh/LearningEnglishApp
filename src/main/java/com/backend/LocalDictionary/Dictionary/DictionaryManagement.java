@@ -19,8 +19,8 @@ public class DictionaryManagement {
     Dictionary dictionary = new Dictionary();
     public DictionaryManagement () {
         try {
-            readDataFromTxtFile();
-//            readDataFromDatabase();
+//            readDataFromTxtFile();
+            readDataFromDatabase();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -30,6 +30,7 @@ public class DictionaryManagement {
         BufferedReader br = new BufferedReader(fis);
         String line;
         while((line = br.readLine()) != null) {
+//            System.out.println(line);
             String[] parts = line.split(SPLITTING_CHARACTERS);
             String target = parts[0];
             String explain = SPLITTING_CHARACTERS + parts[1];
@@ -38,7 +39,7 @@ public class DictionaryManagement {
     }
     public void readDataFromDatabase() throws IOException {
         WordDataAccess wordDataAccess = new WordDataAccess();
-        ArrayList<Word> allWords = wordDataAccess.getAllWord();
+        ArrayList<Word> allWords = wordDataAccess.selectAll();
         for (Word word : allWords) {
             String target = word.getTarget();
             String explain = word.getExplain();
@@ -49,6 +50,7 @@ public class DictionaryManagement {
         try {
             File file = new File(DATA_OUTPUT_FILE_PATH);
             if(file.exists()) {
+//                System.out.println("deleted");
                 file.delete();
             }
             FileWriter fileWriter = new FileWriter(DATA_OUTPUT_FILE_PATH);
@@ -70,9 +72,9 @@ public class DictionaryManagement {
             dictionary.addTo(target , explain);
             trie.insert(dictionary.word);
         }
-        else {
-            System.out.println(target + "not valid!");
-        }
+//        else {
+//            System.out.println(target + "not valid!");
+//        }
     }
     public void removeFromCommandLine(String target) {
         target = target.toLowerCase();

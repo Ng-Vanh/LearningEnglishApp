@@ -7,38 +7,47 @@ public class ConnectDatabase {
     protected static final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
     protected static final String userName = "freedb_ngvanh2234";
     protected static final String passWord = "*S$D&NpvY$V*#a6";
-    protected static final String tableName = "freedb_edictionary.tbl_edict";
+    protected static final String tableEdictName = "freedb_edictionary.tbl_edict";
+//    protected static final String url = "jdbc:mysql://127.0.0.1:3307/edict";
+//    protected static final String userName = "root";
+//    protected static final String passWord = "220604";
+//    protected static final String tableEdictName = "edict.tbl_edict";
+
+    public ConnectDatabase() {
+    }
+
     /**
      * The function connect with database.
      *
      * @return The function connect with database.
      */
-    public static Connection getConnection() {
+    public Connection getConnection() {
         Connection connection = null;
         try {
-            // Đăng ký driver (sử dụng phiên bản mới)
+            // register new driver
             Class.forName("com.mysql.cj.jdbc.Driver");
-
-            // Tạo kết nối
+            System.out.println("Init ConnecDatabase !!!");
+            // Create connection to database
             connection = DriverManager.getConnection(url, userName, passWord);
+            System.out.println("Init successfully!!!");
 
         } catch (ClassNotFoundException e) {
-            // Xử lý ngoại lệ khi không tìm thấy driver
+            //Exception: not found driver
             e.printStackTrace();
         } catch (SQLException e) {
-            // Xử lý ngoại lệ khi kết nối không thành công
+            //Exception: Don't connect to database
             e.printStackTrace();
         }
         return connection;
     }
 
-    public static void closeConnection(Connection connection) {
+    public void closeConnection(Connection connection) {
         try {
             if (connection != null) {
+                System.out.println("Close ConnectDatabase !!!");
                 connection.close();
             }
         } catch (SQLException e) {
-            // Xử lý ngoại lệ khi đóng kết nối gặp lỗi
             e.printStackTrace();
         }
     }

@@ -3,6 +3,7 @@ package com.backend.Exercise.Exercises.Dictation;
 import com.backend.ChatGPT.ChatGPT;
 import com.backend.ChatGPT.PromptLoader;
 import com.backend.Exercise.Utils.Exercise;
+import com.backend.OnlineDictionary.OnlineDictionaries.GoogleTranslate;
 import com.backend.OnlineDictionary.Utils.AudioTranslation;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -14,6 +15,13 @@ public class Dictation extends Exercise {
     private String wordBlank;
     private AudioTranslation audioTranslation;
     private final String prefix = "Dictation";
+
+    public Dictation(String sentence, String sentenceWithBlank, String wordBlank) {
+        this.sentence = sentence;
+        this.sentenceWithBlank = sentenceWithBlank;
+        this.wordBlank = wordBlank;
+        this.audioTranslation = new GoogleTranslate(sentence);
+    }
 
     public Dictation(String exerciseType) {
         super();
@@ -43,7 +51,7 @@ public class Dictation extends Exercise {
             this.sentence = sentence;
             this.sentenceWithBlank = sentenceWithBlank;
             this.wordBlank = wordBlank;
-            this.audioTranslation = new AudioTranslation(sentence);
+            this.audioTranslation = new GoogleTranslate(sentence);
 
         } catch (JsonProcessingException e) {
             e.printStackTrace();
@@ -104,6 +112,9 @@ public class Dictation extends Exercise {
         System.out.println(dictation.getSentenceWithBlank());
         System.out.println(dictation.getWordBlank());
         System.out.println(dictation.getAudioTranslation().getAudioLink());
+        System.out.println(dictation.isCorrect("word"));
+
+//        Dictation customDictation = new Dictation("Hello, how are you", "Hello, how ___ you", "are");
 
 //        System.out.println(dictation);
     }

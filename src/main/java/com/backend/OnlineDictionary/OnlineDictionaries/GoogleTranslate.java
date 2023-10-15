@@ -1,5 +1,7 @@
 package com.backend.OnlineDictionary.OnlineDictionaries;
 
+import com.backend.OnlineDictionary.Utils.AudioTranslation;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,25 +11,33 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
-public class GoogleTranslate {
-    private String audioLink;
-    private String translation;
+public class GoogleTranslate extends AudioTranslation  {
+
+    @Override
+    public String getAudioLink() {
+        return this.audioLink;
+    }
+
+    @Override
+    public String getTranslation() {
+        return this.translation;
+    }
 
     public GoogleTranslate() {
 
     }
 
-    public String getAudioLink() {
-        return this.audioLink;
-    }
-
-    public String getTranslation() {
-        return this.translation;
-    }
-
     public GoogleTranslate(String text) {
         String audioLink = getAudioLink(text, "en");
-        String translation = translate(text, "en", "vi");
+        String translation = getTranslation(text, "en", "vi");
+
+        this.audioLink = audioLink;
+        this.translation = translation;
+    }
+
+    public GoogleTranslate(String text, String langFrom, String langTo) {
+        String audioLink = getAudioLink(text, langFrom);
+        String translation = getTranslation(text, langFrom, langTo);
 
         this.audioLink = audioLink;
         this.translation = translation;
@@ -35,7 +45,8 @@ public class GoogleTranslate {
 
     private static final String scriptURL = "https://script.google.com/macros/s/AKfycbyVpfwhmbUSeWveS4uNynNJjvwZTAh356HljddZArlE8MKRlqdMUSWR-0EpP65Kno1rbQ/exec";
     private static final String translateURL = "https://translate.google.com/translate_tts?ie=UTF-8&q=";
-    public static String getAudioLink(String text, String languageCode) {
+
+    public String getAudioLink(String text, String languageCode) {
         String encodedText = URLEncoder.encode(text, StandardCharsets.UTF_8);
         String url = translateURL
                 + encodedText
@@ -44,29 +55,9 @@ public class GoogleTranslate {
                 + "&client=tw-ob";
 
         return url;
-//        System.out.println(url);
-//        int responseCode = -1;
-//        try {
-//            URL obj = URI.create(url).toURL();
-//            StringBuilder response = new StringBuilder();
-//            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-//
-//            responseCode = con.getResponseCode();
-//
-//            if (responseCode >= 200 && responseCode < 300) {
-//                System.out.println("Working: " + responseCode);
-//                return url; // URL is working
-//            } else {
-//                System.out.println("Not working 1: " + responseCode);
-//                return "URL is not working 1"; // URL is not working
-//            }
-//        } catch (IOException e) {
-//            System.out.println("Not working 2: " + responseCode);
-//            return "URL is not working 2"; // Exception occurred, URL is not working
-//        }
     }
 
-    public static String translate(String text, String langFrom, String langTo) {
+    public String getTranslation(String text, String langFrom, String langTo) {
         try {
             String urlStr = scriptURL +
                     "?q=" + URLEncoder.encode(text, "UTF-8") +
@@ -90,24 +81,31 @@ public class GoogleTranslate {
         }
     }
 
-    public static String translateEnVi(String text) {
-        return translate(text, "en", "vi");
+    @Override
+    public String getAudioLink(String text) {
+        return getAudioLink(text, "en");
     }
 
-    public static String translateViEn(String text) {
-        return translate(text, "vi", "en");
+    @Override
+    public String getTranslation(String text) {
+        return getTranslation(text, "en", "vi");
     }
 
     @Override
     public String toString() {
-        return "Translation text : " + translation
+        return "Translation text : " + translation + "\n"
                 + "Audio link: " + audioLink;
     }
-    public static void main(String[] args) {
-        GoogleTranslate translator = new GoogleTranslate("hi");
-        System.out.println(translator.getTranslation());
-        System.out.println(translator.getAudioLink());
 
-//        System.out.println(translator);
+    public static void main(String[] args) {
+        // Initialization with text will create audio link and translation.
+        GoogleTranslate googleTranslate = new GoogleTranslate("Hello how are you");
+        System.out.println(googleTranslate.getTranslation());
+        System.out.println(googleTranslate.getAudioLink());
+
+        // Initialization without text will not create audio link and translation.
+        GoogleTranslate googleTranslate_Empty = new GoogleTranslate();
+        System.out.println(googleTranslate_Empty.getAudioLink("what time is it?"));
+        System.out.println(googleTranslate_Empty.getTranslation("what's the weather like?"));
     }
 }

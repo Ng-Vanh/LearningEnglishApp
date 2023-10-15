@@ -14,6 +14,13 @@ public class MultipleChoice extends Exercise {
     private String explanation;
     private final String prefix = "MultipleChoice";
 
+    public MultipleChoice(String question, Options options, String correctAnswer, String explanation) {
+        this.question = question;
+        this.options = options;
+        this.correctAnswer = correctAnswer;
+        this.explanation = explanation;
+    }
+
     public MultipleChoice(String exerciseType) {
         super();
         String promptName = prefix + "-" + exerciseType;
@@ -119,6 +126,12 @@ public class MultipleChoice extends Exercise {
         System.out.println(multipleChoice.getOptions());
         System.out.println(multipleChoice.getCorrectAnswer());
         System.out.println(multipleChoice.getExplanation());
+        System.out.println(multipleChoice.isCorrect("word"));
+
+//        MultipleChoice customMultipleChoice = new MultipleChoice(
+//                "Question",
+//                new Options("opA", "opB", "opC", "opD"),
+//                "correctAnswer", "explanation");
 
 //        System.out.println(multipleChoice);
     }

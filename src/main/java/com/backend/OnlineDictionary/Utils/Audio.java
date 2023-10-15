@@ -44,7 +44,8 @@ public class Audio {
 //    }
 
     public String getGoogleTranslateAudioLink(String text) {
-        return GoogleTranslate.getAudioLink(text, "en");
+        GoogleTranslate googleTranslate = new GoogleTranslate();
+        return googleTranslate.getAudioLink(text);
     }
 
     @Override

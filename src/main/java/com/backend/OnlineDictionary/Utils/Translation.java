@@ -21,8 +21,8 @@ public class Translation {
     }
 
     public String getGoogleTranslateTranslation(String text) throws IOException {
-        GoogleTranslate googleTranslate = new GoogleTranslate(text);
-        return googleTranslate.getTranslation();
+        GoogleTranslate googleTranslate = new GoogleTranslate();
+        return googleTranslate.getTranslation(text);
     }
 
     @Override

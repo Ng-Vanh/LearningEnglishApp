@@ -6,6 +6,7 @@ module com.example.dictionaryenvi {
     requires com.fasterxml.jackson.databind;
     requires java.sql;
     requires javafx.web;
+    requires javafx.media;
     opens com.example.dictionaryenvi to javafx.fxml;
     exports com.example.dictionaryenvi;
 }

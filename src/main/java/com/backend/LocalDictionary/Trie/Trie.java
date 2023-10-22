@@ -1,15 +1,20 @@
 package com.backend.LocalDictionary.Trie;
 
+import com.backend.LocalDictionary.Dictionary.Dictionary;
+import com.backend.LocalDictionary.Dictionary.DictionaryManagement;
 import com.backend.LocalDictionary.Dictionary.Word;
 
 import java.util.ArrayList;
 
-public class Trie {
+public class Trie extends Dictionary {
     private TrieNode root;
     private char[] characterArray = new char[30];
     private int characterCount;
-    ArrayList<Word> allWords = new ArrayList<Word>();
+    private ArrayList<Word> allWords = new ArrayList<Word>();
 
+    /**
+     * constructor : add character array from 'a' to 'z' and '-' ,' '.
+     */
     public Trie() {
         for (char c='a' ; c<='z' ; c++) {
             characterArray[c-'a'] = c;
@@ -19,8 +24,8 @@ public class Trie {
         characterCount = 28;
         root = new TrieNode();
     }
-
-    public void insert(Word word) {
+    @Override
+    public void insertWord(Word word) {
         TrieNode currentNode = root;
         for (int i = 0; i < word.getTarget().length(); i++) {
             char ch = word.getTarget().charAt(i);
@@ -31,11 +36,11 @@ public class Trie {
         }
         currentNode.setExplain(word.getExplain());
     }
-
-    public void remove(String target) {
+    @Override
+    public void removeWord(Word word) {
         TrieNode currentNode = root;
-        for (int i = 0; i < target.length(); i++) {
-            char ch = target.charAt(i);
+        for (int i = 0; i < word.getTarget().length(); i++) {
+            char ch = word.getTarget().charAt(i);
             if (currentNode.hasChild(ch)) {
                 currentNode = currentNode.getChildren(ch);
             }
@@ -44,36 +49,46 @@ public class Trie {
             currentNode.setExplain("");
         }
     }
-
-    public void update(String target, String explain) {
+    @Override
+    public void updateWord(Word word) {
         TrieNode currentNode = root;
-        for (int i = 0; i < target.length(); i++) {
-            char ch = target.charAt(i);
+        for (int i = 0; i < word.getTarget().length(); i++) {
+            char ch = word.getTarget().charAt(i);
             if (currentNode.hasChild(ch)) {
                 currentNode = currentNode.getChildren(ch);
             }
         }
         if (currentNode.getExplain() != "") {
-            currentNode.setExplain(explain);
+            currentNode.setExplain(word.getExplain());
         }
     }
-
-    public String lookup(String target) {
+    @Override
+    public Word lookupWord(Word word)
+    {
         TrieNode currentNode = root;
-        for (int i = 0; i < target.length(); i++) {
-            char ch = target.charAt(i);
+        Word result = new Word();
+        for (int i = 0; i < word.getTarget().length(); i++) {
+            char ch = word.getTarget().charAt(i);
             if (currentNode.hasChild(ch)) {
                 currentNode = currentNode.getChildren(ch);
-            } else return "not found";
+            } else {
+                result.setTarget(word.getTarget());
+                result.setExplain("not found!");
+                return result;
+            }
         }
         if (currentNode.getExplain() != "") {
-            return currentNode.getExplain();
+            result.setTarget(word.getTarget());
+            result.setExplain(currentNode.getExplain());
+            return result;
         }
-        return "not found";
+        result.setTarget(word.getTarget());
+        result.setExplain("not found!");
+        return result;
     }
 
 
-    void dfsOnTrie(TrieNode currentNode, String currentTarget) {
+    public void dfsOnTrie(TrieNode currentNode, String currentTarget) {
         if (currentNode.getExplain() != "") {
 //            System.out.println(currentNode.getExplain());
             String currentExplain = currentNode.getExplain();
@@ -89,31 +104,32 @@ public class Trie {
             }
         }
     }
-
-    public ArrayList<Word> search(String target) {
+    @Override
+    public ArrayList<Word> searchWord(Word word) {
         allWords.clear();
         TrieNode currentNode = root;
-        for (int i = 0; i < target.length(); i++) {
-            char ch = target.charAt(i);
+        for (int i = 0; i < word.getTarget().length(); i++) {
+            char ch = word.getTarget().charAt(i);
             if (currentNode.hasChild(ch)) {
                 currentNode = currentNode.getChildren(ch);
             } else {
-                Word result = new Word("Not found!" , "");
+                Word result = new Word("Not found!");
                 allWords.add(result);
                 return allWords;
             }
         }
-        dfsOnTrie(currentNode, target);
+        dfsOnTrie(currentNode, word.getTarget());
         return allWords;
     }
-    public ArrayList<Word> getAllTrieWords() {
+    public ArrayList<Word> getAllWords() {
         allWords.clear();
         TrieNode currentNode = root;
         String currentTarget = "";
         dfsOnTrie(currentNode, currentTarget);
         return allWords;
     }
-    public void showAllWord() {
+    @Override
+    public void showAllWords() {
         allWords.clear();
         TrieNode currentNode = root;
         String currentTarget = "";

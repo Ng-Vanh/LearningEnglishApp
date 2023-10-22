@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.Scanner;
+import java.util.Set;
+
 import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
 
 public class DictionaryCommandline {
@@ -35,12 +37,14 @@ public class DictionaryCommandline {
                 String wordArray[] = addedToDictionary.split("<html>");
                 String target = wordArray[0];
                 String explain = wordArray[1];
-                dictionaryManagement.insertFromCommandLine(target , explain);
+                Word word = new Word(target , explain);
+                dictionaryManagement.insertWord(word);
             }
             else if(userAction == 2) {
                 Scanner scanner2 = new Scanner(System.in);
                 String removedFromDictionary = scanner2.nextLine();
-                dictionaryManagement.removeFromCommandLine(removedFromDictionary);
+                Word word = new Word(removedFromDictionary);
+                dictionaryManagement.removeWord(word);
             }
             else if(userAction == 3) {
                 Scanner scanner3 = new Scanner(System.in);
@@ -48,23 +52,26 @@ public class DictionaryCommandline {
                 String wordArray[] = updatedToDictionary.split("<html>");
                 String target = wordArray[0];
                 String explain = wordArray[1];
-                dictionaryManagement.updateFromCommandLine(target , explain);
+                Word word = new Word(target , explain);
+                dictionaryManagement.updateWord(word);
             }
             else if(userAction == 4) {
-                dictionaryManagement.showAllWord();
+                dictionaryManagement.showAllWords();
             }
             else if(userAction == 5) {
                 Scanner scanner5 = new Scanner(System.in);
                 String target = scanner5.nextLine();
-                String result = dictionaryManagement.dictionaryLookup(target);
-                System.out.println(result);
+                Word word = new Word(target);
+                Word result = dictionaryManagement.lookupWord(word);
+                System.out.println(result.getExplain());
             }
             else if(userAction == 6) {
                 Scanner scanner6 = new Scanner(System.in);
                 String target = scanner6.nextLine();
-                ArrayList<Word> allWords = dictionaryManagement.searcher(target);
-                for (Word word : allWords) {
-                    System.out.println(word.getTarget());
+                Word word = new Word(target);
+                ArrayList<Word> allWords = dictionaryManagement.searchWord(word);
+                for (Word result : allWords) {
+                    System.out.println(result.getTarget());
                 }
             }
             else if(userAction == 8) {

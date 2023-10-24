@@ -1,5 +1,7 @@
 package com.backend.LocalDictionary.Dictionary;
 
+import com.backend.LocalDictionary.Game_HangMan.Hangman;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Dictionary;
@@ -73,6 +75,10 @@ public class DictionaryCommandline {
                 for (Word result : allWords) {
                     System.out.println(result.getTarget());
                 }
+            }
+            else if(userAction == 7) {
+                Hangman hangman = new Hangman();
+                hangman.play();
             }
             else if(userAction == 8) {
                 try {

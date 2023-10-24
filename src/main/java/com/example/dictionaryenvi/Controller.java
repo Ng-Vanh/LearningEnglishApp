@@ -14,10 +14,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
@@ -28,6 +27,7 @@ import javafx.scene.media.MediaPlayer;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Set;
 
 public class Controller {
     @FXML
@@ -37,30 +37,52 @@ public class Controller {
     @FXML
     private ListView suggestListWords;
     @FXML
-    private Button pronounceBtn;
+    private Button pronounceBtn, showFavoriteListWord;
+    @FXML
+    private CheckBox likeCheckBox, disLikeCheckBox;
+
 
     private DictionaryManagement myDictionary = new DictionaryManagement();
 
+
+    private String formatWord(String str){
+        String firstLetter = str.substring(0, 1).toUpperCase();
+        String lastLetters = str.substring(1).toLowerCase();
+        String titleWord = firstLetter + lastLetters;
+        return titleWord;
+    }
     private void translate(String curWord){
         if(!curWord.equals("")){
             String lowerCaseWord = curWord.toLowerCase();
-            String firstLetter = curWord.substring(0, 1).toUpperCase();
-            String lastLetters = curWord.substring(1).toLowerCase();
-            String titleWord = firstLetter + lastLetters;
-            String meaning = myDictionary.dictionaryLookup(lowerCaseWord);
+            String titleWord = formatWord(curWord);
+            Word tmpWord = new Word(lowerCaseWord,null);
+            Word tmpMeaning = myDictionary.lookupWord(tmpWord);
+            boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(tmpMeaning);
+            System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
+            if(isFavoriteWord){
+                likeCheckBox.setSelected(true);
+                disLikeCheckBox.setSelected(false);
+            }else{
+                likeCheckBox.setSelected(false);
+            }
+            String meaning = tmpMeaning.getExplain();
             String meaningShow = "<h3 style = 'font-style: normal;'" + meaning + "</h3>";
 
 
             String showStr = "<h2 style ='color: red; font-style: italic;'>" + titleWord +"</h2>" + meaningShow;
 
-            if (meaning.equals("not found") || curWord.equals("")) {
+            if (meaning.equals("not found!")) {
                 showMean.getEngine().loadContent(titleWord+ " is not found!!!");
             } else {
                 showMean.getEngine().loadContent(showStr);
                 Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
                 pronounceBtn.setVisible(true);
-
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/speaker.jpg").toExternalForm());
+                ImageView imageView = new ImageView(image);
+                imageView.setFitWidth(25);
+                imageView.setFitHeight(25);
+                pronounceBtn.setGraphic(imageView);
                 pronounceBtn.setOnAction(new EventHandler<ActionEvent>() {
                     @Override
                     public void handle(ActionEvent event) {
@@ -105,7 +127,8 @@ public class Controller {
     public void getSuggestListWord(KeyEvent keyEvent) {
         String newText = wordTranslate.getText();
         System.out.println(newText);
-        ArrayList<Word> listSuggestWord = myDictionary.searcher(newText);
+        Word tmpWord = new Word(newText);
+        ArrayList<Word> listSuggestWord = myDictionary.searchWord(tmpWord);
         ArrayList<String> listSuggest = new ArrayList<String>();
         for (Word word : listSuggestWord) {
             listSuggest.add(word.getTarget());
@@ -123,5 +146,50 @@ public class Controller {
                 }
             }
         });
+    }
+
+    public void clickLike(ActionEvent event) {
+        if(disLikeCheckBox.isSelected()) {
+            disLikeCheckBox.setSelected(false);
+        }
+        String text = wordTranslate.getText();
+        Word tmpWord = new Word(text,null);
+        Word curWord = myDictionary.lookupWord(tmpWord);
+        myDictionary.addFavoriteWord(curWord);
+    }
+
+    public void clickDislike(ActionEvent event) {
+        if(likeCheckBox.isSelected()) {
+            likeCheckBox.setSelected(false);
+        }
+    }
+
+    public void clickFavoriteListWord(ActionEvent event) {
+        pronounceBtn.setVisible(false);
+        String showList = "";
+        Set<Word> tmp = myDictionary.getFavoriteWord();
+        if(tmp.isEmpty()) {
+            String ErrorMessage = "<h3 style ='color: red; font-style: italic;'>The favorite list word is null !!!</h3>";
+            showMean.getEngine().loadContent(ErrorMessage);
+        }
+        else{
+            int i = 0;
+            for(Word w : tmp) {
+                i++;
+                Word curWord = myDictionary.lookupWord(w);
+                String wordEn = curWord.getTarget();
+                String wordVi = curWord.getExplain();
+
+                String title = formatWord(wordEn);
+
+                String meaningShow = "<h3 style = 'font-style: normal;'" + wordVi + "</h3>";
+                String showStr = "<h2 style ='color: red; font-style: italic;'>" +i+". " + title +"</h2>" + meaningShow;
+
+                showList += showStr ;
+                showList += "=========================\n";
+            }
+            showMean.getEngine().loadContent(showList);
+        }
+
     }
 }

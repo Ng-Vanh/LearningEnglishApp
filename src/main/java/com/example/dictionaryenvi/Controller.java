@@ -37,9 +37,7 @@ public class Controller {
     @FXML
     private ListView suggestListWords;
     @FXML
-    private Button pronounceBtn, showFavoriteListWord;
-    @FXML
-    private CheckBox likeCheckBox, disLikeCheckBox;
+    private Button pronounceBtn, showFavoriteListWord, favoriteBtn;
 
 
     private DictionaryManagement myDictionary = new DictionaryManagement();
@@ -52,6 +50,8 @@ public class Controller {
         return titleWord;
     }
     private void translate(String curWord){
+        favoriteBtn.setVisible(true);
+
         if(!curWord.equals("")){
             String lowerCaseWord = curWord.toLowerCase();
             String titleWord = formatWord(curWord);
@@ -59,12 +59,22 @@ public class Controller {
             Word tmpMeaning = myDictionary.lookupWord(tmpWord);
             boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(tmpMeaning);
             System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
+
+
             if(isFavoriteWord){
-                likeCheckBox.setSelected(true);
-                disLikeCheckBox.setSelected(false);
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
+                ImageView imageView = new ImageView(image);
+                imageView.setFitWidth(25);
+                imageView.setFitHeight(25);
+                favoriteBtn.setGraphic(imageView);
             }else{
-                likeCheckBox.setSelected(false);
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
+                ImageView imageView = new ImageView(image);
+                imageView.setFitWidth(25);
+                imageView.setFitHeight(25);
+                favoriteBtn.setGraphic(imageView);
             }
+
             String meaning = tmpMeaning.getExplain();
             String meaningShow = "<h3 style = 'font-style: normal;'" + meaning + "</h3>";
 
@@ -72,6 +82,8 @@ public class Controller {
             String showStr = "<h2 style ='color: red; font-style: italic;'>" + titleWord +"</h2>" + meaningShow;
 
             if (meaning.equals("not found!")) {
+                favoriteBtn.setVisible(false);
+                pronounceBtn.setVisible(false);
                 showMean.getEngine().loadContent(titleWord+ " is not found!!!");
             } else {
                 showMean.getEngine().loadContent(showStr);
@@ -148,24 +160,13 @@ public class Controller {
         });
     }
 
-    public void clickLike(ActionEvent event) {
-        if(disLikeCheckBox.isSelected()) {
-            disLikeCheckBox.setSelected(false);
-        }
-        String text = wordTranslate.getText();
-        Word tmpWord = new Word(text,null);
-        Word curWord = myDictionary.lookupWord(tmpWord);
-        myDictionary.addFavoriteWord(curWord);
-    }
 
-    public void clickDislike(ActionEvent event) {
-        if(likeCheckBox.isSelected()) {
-            likeCheckBox.setSelected(false);
-        }
-    }
+
+
 
     public void clickFavoriteListWord(ActionEvent event) {
         pronounceBtn.setVisible(false);
+        favoriteBtn.setVisible(false);
         String showList = "";
         Set<Word> tmp = myDictionary.getFavoriteWord();
         if(tmp.isEmpty()) {
@@ -189,6 +190,28 @@ public class Controller {
                 showList += "=========================\n";
             }
             showMean.getEngine().loadContent(showList);
+        }
+
+    }
+
+    public void clickLikeWord(ActionEvent event) {
+        String text = wordTranslate.getText();
+        Word tmpWord = new Word(text,null);
+        Word curWord = myDictionary.lookupWord(tmpWord);
+        boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(curWord);
+        if(!isFavoriteWord){
+            myDictionary.addFavoriteWord(curWord);
+            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
+            ImageView imageView = new ImageView(image);
+            imageView.setFitWidth(25);
+            imageView.setFitHeight(25);
+            favoriteBtn.setGraphic(imageView);
+        }else{
+            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
+            ImageView imageView = new ImageView(image);
+            imageView.setFitWidth(25);
+            imageView.setFitHeight(25);
+            favoriteBtn.setGraphic(imageView);
         }
 
     }

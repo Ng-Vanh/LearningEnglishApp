@@ -12,7 +12,7 @@ public class Application extends javafx.application.Application {
         //FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("view.fxml"));
         FXMLLoader homePage = new FXMLLoader(Application.class.getResource("homePage.fxml"));
 
-        Scene homeScene = new Scene(homePage.load(),768,576);
+        Scene homeScene = new Scene(homePage.load(),960,576);
         // Scene scene = new Scene(fxmlLoader.load(), 768, 576);
         stage.setTitle("Dictionary En-Vi");
         stage.setScene(homeScene);

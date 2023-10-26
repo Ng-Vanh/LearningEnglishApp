@@ -35,9 +35,9 @@ public class Controller {
     @FXML
     private TextField wordTranslate;
     @FXML
-    private ListView suggestListWords;
+    private ListView suggestListWords, listSpecialWord;
     @FXML
-    private Button pronounceBtn, showFavoriteListWord, favoriteBtn;
+    private Button pronounceBtn, showFavoriteListWord, favoriteBtn, historyBtn;
 
 
     private DictionaryManagement myDictionary = new DictionaryManagement();
@@ -59,7 +59,6 @@ public class Controller {
             Word tmpMeaning = myDictionary.lookupWord(tmpWord);
             boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(tmpMeaning);
             System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
-
 
             if(isFavoriteWord){
                 Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
@@ -86,6 +85,7 @@ public class Controller {
                 pronounceBtn.setVisible(false);
                 showMean.getEngine().loadContent(titleWord+ " is not found!!!");
             } else {
+                myDictionary.addHistorySearch(tmpMeaning);
                 showMean.getEngine().loadContent(showStr);
                 Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
@@ -167,31 +167,45 @@ public class Controller {
     public void clickFavoriteListWord(ActionEvent event) {
         pronounceBtn.setVisible(false);
         favoriteBtn.setVisible(false);
-        String showList = "";
-        Set<Word> tmp = myDictionary.getFavoriteWord();
-        if(tmp.isEmpty()) {
-            String ErrorMessage = "<h3 style ='color: red; font-style: italic;'>The favorite list word is null !!!</h3>";
-            showMean.getEngine().loadContent(ErrorMessage);
+        Set<Word> list = myDictionary.getFavoriteWord();
+        ArrayList<String> specialList = new ArrayList<String>();
+        for(Word li: list) {
+            specialList.add(li.getTarget());
         }
-        else{
-            int i = 0;
-            for(Word w : tmp) {
-                i++;
-                Word curWord = myDictionary.lookupWord(w);
-                String wordEn = curWord.getTarget();
-                String wordVi = curWord.getExplain();
-
-                String title = formatWord(wordEn);
-
-                String meaningShow = "<h3 style = 'font-style: normal;'" + wordVi + "</h3>";
-                String showStr = "<h2 style ='color: red; font-style: italic;'>" +i+". " + title +"</h2>" + meaningShow;
-
-                showList += showStr ;
-                showList += "=========================\n";
+        ObservableList<String> items = FXCollections.observableArrayList(specialList);
+        listSpecialWord.setItems(items);
+        listSpecialWord.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if (!listSpecialWord.getSelectionModel().isEmpty()) {
+                    String selectedWord = (String) listSpecialWord.getSelectionModel().getSelectedItem();
+                    wordTranslate.setText(selectedWord);
+                    translate(selectedWord);
+                }
             }
-            showMean.getEngine().loadContent(showList);
-        }
+        });
 
+    }
+    public void clickHistory(ActionEvent event) {
+        pronounceBtn.setVisible(false);
+        favoriteBtn.setVisible(false);
+        Set<Word> list = myDictionary.getHistorySearch();
+        ArrayList<String> specialList = new ArrayList<String>();
+        for(Word li: list) {
+            specialList.add(li.getTarget());
+        }
+        ObservableList<String> items = FXCollections.observableArrayList(specialList);
+        listSpecialWord.setItems(items);
+        listSpecialWord.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if (!listSpecialWord.getSelectionModel().isEmpty()) {
+                    String selectedWord = (String) listSpecialWord.getSelectionModel().getSelectedItem();
+                    wordTranslate.setText(selectedWord);
+                    translate(selectedWord);
+                }
+            }
+        });
     }
 
     public void clickLikeWord(ActionEvent event) {
@@ -215,4 +229,6 @@ public class Controller {
         }
 
     }
+
+
 }

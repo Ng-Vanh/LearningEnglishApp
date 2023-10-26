@@ -11,19 +11,19 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.WebView?>
 
-<Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="768.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@style/view.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Controller">
+<Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@style/view.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Controller">
    <children>
-      <Label layoutX="290.0" layoutY="38.0" prefHeight="35.0" prefWidth="189.0" style="-fx-font-style: italic; -fx-font-weight: 700;" text="DictionaryEn-Vi" textAlignment="CENTER" textFill="#ea0303">
+      <Label layoutX="397.0" layoutY="39.0" prefHeight="35.0" prefWidth="189.0" style="-fx-font-style: italic; -fx-font-weight: 700;" text="DictionaryEn-Vi" textAlignment="CENTER" textFill="#ea0303">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="wordTranslate" layoutX="264.0" layoutY="100.0" onKeyReleased="#getSuggestListWord" prefHeight="35.0" prefWidth="249.0" promptText="Enter the word" style="-fx-background-radius: 20;">
+      <TextField fx:id="wordTranslate" layoutX="264.0" layoutY="100.0" onKeyReleased="#getSuggestListWord" prefHeight="35.0" prefWidth="377.0" promptText="Enter the word" style="-fx-background-radius: 20;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <Button layoutX="520.0" layoutY="100.0" mnemonicParsing="false" onAction="#clickTranslate" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 50;" text="Translate" textFill="#04033b">
+      <Button layoutX="650.0" layoutY="100.0" mnemonicParsing="false" onAction="#clickTranslate" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 50;" text="Translate" textFill="#04033b">
          <font>
             <Font size="14.0" />
          </font>
@@ -43,7 +43,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <WebView fx:id="showMean" layoutX="258.0" layoutY="162.0" prefHeight="373.0" prefWidth="339.0" />
+      <WebView fx:id="showMean" layoutX="257.0" layoutY="162.0" prefHeight="373.0" prefWidth="496.0" />
       <ListView fx:id="suggestListWords" layoutX="22.0" layoutY="162.0" prefHeight="373.0" prefWidth="200.0" />
       <Button fx:id="goToHomeBtn" layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#goToHome" prefHeight="25.0" prefWidth="42.0" style="-fx-background-color: rgba(232, 10, 10, 0.6); -fx-background-radius: 25;" text="Exit">
          <font>
@@ -52,12 +52,12 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="pronounceBtn" layoutX="540.0" layoutY="171.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;" visible="false">
+      <Button fx:id="pronounceBtn" layoutX="706.0" layoutY="171.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="showFavoriteListWord" layoutX="691.0" layoutY="162.0" mnemonicParsing="false" onAction="#clickFavoriteListWord" prefHeight="44.0" prefWidth="63.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 20;" text="FavoriteWord" textAlignment="CENTER" textFill="#1b0505" wrapText="true">
+      <Button fx:id="showFavoriteListWord" layoutX="864.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickFavoriteListWord" prefHeight="48.0" prefWidth="65.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 20;" text="FavoriteWords" textAlignment="CENTER" textFill="#1b0505" wrapText="true">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -65,10 +65,16 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="favoriteBtn" layoutX="498.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
+      <Button fx:id="favoriteBtn" layoutX="660.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
+      <Button fx:id="historyBtn" layoutX="789.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickHistory" prefHeight="48.0" prefWidth="57.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 20;" text="History">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listSpecialWord" layoutX="777.0" layoutY="162.0" prefHeight="373.0" prefWidth="152.0" />
    </children>
 </Pane>

@@ -47,7 +47,7 @@ public abstract class Exercise {
     public abstract String toString();
 
     public static void main(String[] args) {
-        Exercise multipleChoice = new MultipleChoice("Blank"); // Synonyms , Antonyms
+        Exercise multipleChoice = new MultipleChoice("Blank"); // Blank, Synonyms , Antonyms
         System.out.println(multipleChoice.getQuestion());
         System.out.println(multipleChoice.getOptions());
         System.out.println(multipleChoice.getCorrectAnswer());

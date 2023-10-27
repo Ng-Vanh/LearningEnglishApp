@@ -8,11 +8,13 @@ public class ConnectDatabase {
     protected static final String userName = "freedb_ngvanh2234";
     protected static final String passWord = "*S$D&NpvY$V*#a6";
     protected static final String tableEdictName = "freedb_edictionary.tbl_edict";
-//    protected static final String url = "jdbc:mysql://127.0.0.1:3307/edict";
-//    protected static final String userName = "root";
-//    protected static final String passWord = "220604";
-//    protected static final String tableEdictName = "edict.tbl_edict";
+    protected static final String tableUser = "freedb_edictionary.tbl_user";
+    // protected static final String url = "jdbc:mysql://127.0.0.1:3307/edict";
+    // protected static final String userName = "root";
+    // protected static final String passWord = "220604";
+    // protected static final String tableEdictName = "edict.tbl_edict";
 
+    // protected static final String tableUser = "edict.tbl_user";
     public ConnectDatabase() {
     }
 

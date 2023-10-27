@@ -1,10 +1,8 @@
 package com.example.dictionaryenvi;
 
-import com.backend.Connection.WordDataAccess;
 import com.backend.LocalDictionary.Dictionary.DictionaryManagement;
 import com.backend.LocalDictionary.Dictionary.Word;
 import com.backend.OnlineDictionary.Utils.Audio;
-import com.backend.OnlineDictionary.Utils.AudioTranslation;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -27,10 +25,9 @@ import javafx.scene.media.MediaPlayer;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Set;
 
-public class Controller {
+public class MainDictionary {
     @FXML
     private WebView showMean;
     @FXML
@@ -154,7 +151,7 @@ public class Controller {
      * @param mouseEvent is event mouse click.
      */
     public void goToHome(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("homePage.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage/HomePage.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root);

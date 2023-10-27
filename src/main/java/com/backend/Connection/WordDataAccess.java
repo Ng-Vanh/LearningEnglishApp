@@ -2,10 +2,7 @@ package com.backend.Connection;
 
 import com.backend.LocalDictionary.Dictionary.Word;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 
 import static com.backend.Connection.ConnectDatabase.tableEdictName;
@@ -34,15 +31,14 @@ public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>
     public int insert(Word word) {
         int result = 0;
         try {
-            //: Tao ket noi toi csdl
             Connection connect = connectDatabase.getConnection();
-            //: Tao Statement: moi lien ket toi database
-            Statement statement = connect.createStatement();
-            //:Tao cau lenh SQL
-            String query = "INSERT INTO " + tableEdictName + "(word, detail) " +
-                    "VALUES ('" + word.getTarget() + "', '" + word.getExplain() + "')";
+            String query = "INSERT INTO " + tableEdictName + "(word, detail) VALUES (?, ?)";
 
-            result = statement.executeUpdate(query);
+            PreparedStatement preparedStatement = connect.prepareStatement(query);
+            preparedStatement.setString(1, word.getTarget());
+            preparedStatement.setString(2, word.getExplain());
+
+            result = preparedStatement.executeUpdate();
 
             connectDatabase.closeConnection(connect);
 
@@ -63,18 +59,17 @@ public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>
     public int update(Word word) {
         int result = 0;
         try {
-            //: Tao ket noi toi csdl
-            Connection conect = connectDatabase.getConnection();
-            //: Tao Statement lien ket voi database
-            Statement statement = conect.createStatement();
-            //:Tao cau lenh SQL
+            Connection connect = connectDatabase.getConnection();
             String query = "UPDATE " + tableEdictName +
-                    " SET " +
-                    " detail = '" + word.getExplain() + "'" +
-                    " WHERE word = '" + word.getTarget() + "'";
+                    " SET detail = ?" +
+                    " WHERE word = ?";
 
-            result = statement.executeUpdate(query);
-            connectDatabase.closeConnection(conect);
+            PreparedStatement preparedStatement = connect.prepareStatement(query);
+            preparedStatement.setString(1, word.getExplain());
+            preparedStatement.setString(2, word.getTarget());
+
+            result = preparedStatement.executeUpdate();
+            connectDatabase.closeConnection(connect);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -94,10 +89,13 @@ public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>
         int result = 0;
         try {
             Connection connect = connectDatabase.getConnection();
-            Statement statement = connect.createStatement();
-            String query = "DELETE FROM " + tableEdictName + " WHERE word='" + word + "'";
+            String query = "DELETE FROM " + tableEdictName + " WHERE word = ?";
 
-            result = statement.executeUpdate(query);
+            PreparedStatement preparedStatement = connect.prepareStatement(query);
+            preparedStatement.setString(1, word.getTarget());
+
+            result = preparedStatement.executeUpdate();
+
             connectDatabase.closeConnection(connect);
 
         } catch (SQLException e) {
@@ -117,19 +115,21 @@ public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>
         System.out.println("Start get all word !!!");
         ArrayList<Word> result = new ArrayList<>();
         try {
-            Connection conect = connectDatabase.getConnection();
-            Statement statement = conect.createStatement();
+            Connection connection = connectDatabase.getConnection();
             String query = "SELECT * FROM " + tableEdictName;
 
-            ResultSet resultSet = statement.executeQuery(query);
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
             while (resultSet.next()) {
                 String target = resultSet.getString("word");
                 String detail = resultSet.getString("detail");
                 Word tmpWord = new Word(target, detail);
                 result.add(tmpWord);
             }
+
             System.out.println("End get all words!!!");
-            connectDatabase.closeConnection(conect);
+            connectDatabase.closeConnection(connection);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -147,16 +147,19 @@ public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>
     public String translateWord(String target) {
         String result = "";
         try {
-            Connection conect = connectDatabase.getConnection();
-            Statement statement = conect.createStatement();
-            String query = "SELECT * FROM " + tableEdictName + " WHERE word='" + target + "'";
+            Connection connect = connectDatabase.getConnection();
+            String query = "SELECT detail FROM " + tableEdictName + " WHERE word = ?";
 
-            ResultSet resultSet = statement.executeQuery(query);
+            PreparedStatement preparedStatement = connect.prepareStatement(query);
+            preparedStatement.setString(1, target);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
             while (resultSet.next()) {
                 result = resultSet.getString("detail");
             }
-            connectDatabase.closeConnection(conect);
 
+            connectDatabase.closeConnection(connect);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -173,15 +176,19 @@ public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>
     public ArrayList<String> suggestListWords(String currentWord) {
         ArrayList<String> result = new ArrayList<>();
         try {
-            Connection conect = connectDatabase.getConnection();
-            Statement statement = conect.createStatement();
-            String query = "SELECT * FROM " + tableEdictName + " WHERE word LIKE '" + currentWord + "%'";
+            Connection connect = connectDatabase.getConnection();
+            String query = "SELECT word FROM " + tableEdictName + " WHERE word LIKE ?";
 
-            ResultSet resultSet = statement.executeQuery(query);
+            PreparedStatement preparedStatement = connect.prepareStatement(query);
+            preparedStatement.setString(1, currentWord + "%");
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
             while (resultSet.next()) {
                 result.add(resultSet.getString("word"));
             }
-            connectDatabase.closeConnection(conect);
+
+            connectDatabase.closeConnection(connect);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

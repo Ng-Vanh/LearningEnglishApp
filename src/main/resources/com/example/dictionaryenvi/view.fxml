@@ -52,7 +52,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="pronounceBtn" layoutX="706.0" layoutY="171.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
+      <Button fx:id="pronounceBtn" layoutX="689.0" layoutY="171.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -65,7 +65,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="favoriteBtn" layoutX="660.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
+      <Button fx:id="favoriteBtn" layoutX="650.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -74,6 +74,9 @@
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <ListView fx:id="listSpecialWord" layoutX="777.0" layoutY="162.0" prefHeight="373.0" prefWidth="152.0" />
    </children>

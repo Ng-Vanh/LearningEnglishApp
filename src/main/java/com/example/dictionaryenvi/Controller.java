@@ -27,6 +27,7 @@ import javafx.scene.media.MediaPlayer;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Set;
 
 public class Controller {
@@ -43,30 +44,43 @@ public class Controller {
     private DictionaryManagement myDictionary = new DictionaryManagement();
 
 
-    private String formatWord(String str){
+    /**
+     * The function format word to the first letter is Upper Case,
+     * and other characters is upper Case.
+     *
+     * @param str is input string.
+     * @return the word is formated according.
+     */
+    private String formatWord(String str) {
         String firstLetter = str.substring(0, 1).toUpperCase();
         String lastLetters = str.substring(1).toLowerCase();
         String titleWord = firstLetter + lastLetters;
         return titleWord;
     }
-    private void translate(String curWord){
+
+    /**
+     * The function translate word.
+     *
+     * @param curWord
+     */
+    private void translate(String curWord) {
         favoriteBtn.setVisible(true);
 
-        if(!curWord.equals("")){
+        if (!curWord.equals("")) {
             String lowerCaseWord = curWord.toLowerCase();
             String titleWord = formatWord(curWord);
-            Word tmpWord = new Word(lowerCaseWord,null);
+            Word tmpWord = new Word(lowerCaseWord, null);
             Word tmpMeaning = myDictionary.lookupWord(tmpWord);
             boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(tmpMeaning);
             System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
 
-            if(isFavoriteWord){
+            if (isFavoriteWord) {
                 Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
                 favoriteBtn.setGraphic(imageView);
-            }else{
+            } else {
                 Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
@@ -78,12 +92,12 @@ public class Controller {
             String meaningShow = "<h3 style = 'font-style: normal;'" + meaning + "</h3>";
 
 
-            String showStr = "<h2 style ='color: red; font-style: italic;'>" + titleWord +"</h2>" + meaningShow;
+            String showStr = "<h2 style ='color: red; font-style: italic;'>" + titleWord + "</h2>" + meaningShow;
 
             if (meaning.equals("not found!")) {
                 favoriteBtn.setVisible(false);
                 pronounceBtn.setVisible(false);
-                showMean.getEngine().loadContent(titleWord+ " is not found!!!");
+                showMean.getEngine().loadContent(titleWord + " is not found!!!");
             } else {
                 myDictionary.addHistorySearch(tmpMeaning);
                 showMean.getEngine().loadContent(showStr);
@@ -104,29 +118,46 @@ public class Controller {
                     }
                 });
             }
-        }else{
+        } else {
             showMean.getEngine().loadContent("Not found English word!!!");
         }
 
 
     }
+
+    /**
+     * When user clicks on Translate button, app will translate word.
+     *
+     * @param event is click event.
+     */
     @FXML
-    public void clickTranslate(ActionEvent event){
+    public void clickTranslate(ActionEvent event) {
         String curWord = wordTranslate.getText();
         translate(curWord);
     }
+
+    /**
+     * When user  presses Enter on keyboard, app will translate word.
+     *
+     * @param keyEvent is key event.
+     */
     public void submitTranslate(KeyEvent keyEvent) {
         String curWord = wordTranslate.getText();
-        if(keyEvent.getCode() == KeyCode.ENTER){
+        if (keyEvent.getCode() == KeyCode.ENTER) {
             translate(curWord);
         }
     }
 
+    /**
+     * When user click exit button, the app will back to home page.
+     *
+     * @param mouseEvent is event mouse click.
+     */
     public void goToHome(MouseEvent mouseEvent) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("homePage.fxml"));
         try {
             Parent root = loader.load();
-            Scene scene =new Scene(root);
+            Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.setScene(scene);
             stage.show();
@@ -135,6 +166,12 @@ public class Controller {
         }
     }
 
+    /**
+     * When user enter the words to translate,
+     * it will get all words is related to the characters user entered.
+     *
+     * @param keyEvent is the key event user.
+     */
 
     public void getSuggestListWord(KeyEvent keyEvent) {
         String newText = wordTranslate.getText();
@@ -161,15 +198,19 @@ public class Controller {
     }
 
 
-
-
+    /**
+     * When user clicks on favorites list word, screen will show all words user likes it.
+     *
+     * @param event is the click event.
+     */
 
     public void clickFavoriteListWord(ActionEvent event) {
         pronounceBtn.setVisible(false);
         favoriteBtn.setVisible(false);
+        showMean.getEngine().loadContent("");
         Set<Word> list = myDictionary.getFavoriteWord();
         ArrayList<String> specialList = new ArrayList<String>();
-        for(Word li: list) {
+        for (Word li : list) {
             specialList.add(li.getTarget());
         }
         ObservableList<String> items = FXCollections.observableArrayList(specialList);
@@ -186,12 +227,20 @@ public class Controller {
         });
 
     }
+
+    /**
+     * When the user looks up a word, the search history is saved.
+     * When the user presses a button, the words they have looked up will be displayed.
+     *
+     * @param event
+     */
     public void clickHistory(ActionEvent event) {
         pronounceBtn.setVisible(false);
         favoriteBtn.setVisible(false);
+        showMean.getEngine().loadContent("");
         Set<Word> list = myDictionary.getHistorySearch();
         ArrayList<String> specialList = new ArrayList<String>();
-        for(Word li: list) {
+        for (Word li : list) {
             specialList.add(li.getTarget());
         }
         ObservableList<String> items = FXCollections.observableArrayList(specialList);
@@ -208,27 +257,30 @@ public class Controller {
         });
     }
 
+    /**
+     * When the user clicks on the star,
+     * the word being searched will be added to favorites, and the star will turn yellow.
+     *
+     * @param event
+     */
     public void clickLikeWord(ActionEvent event) {
         String text = wordTranslate.getText();
-        Word tmpWord = new Word(text,null);
+        Word tmpWord = new Word(text, null);
         Word curWord = myDictionary.lookupWord(tmpWord);
         boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(curWord);
-        if(!isFavoriteWord){
+        if (!isFavoriteWord) {
             myDictionary.addFavoriteWord(curWord);
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
-        }else{
+        } else {
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
         }
-
     }
-
-
 }

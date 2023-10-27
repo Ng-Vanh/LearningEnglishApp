@@ -276,6 +276,7 @@ public class Controller {
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
         } else {
+            myDictionary.removeFavoriteWord(curWord);
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);

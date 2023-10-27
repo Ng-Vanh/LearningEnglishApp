@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class HomePage {
     public void goToDictionary(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("MainDictionary/MainDictionary.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);

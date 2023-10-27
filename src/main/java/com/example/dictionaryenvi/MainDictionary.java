@@ -72,13 +72,13 @@ public class MainDictionary {
             System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
 
             if (isFavoriteWord) {
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/goldStar.jpg").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
                 favoriteBtn.setGraphic(imageView);
             } else {
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/grayStar.png").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
@@ -101,7 +101,7 @@ public class MainDictionary {
                 Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
                 pronounceBtn.setVisible(true);
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/speaker.jpg").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/speaker.jpg").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
@@ -267,14 +267,14 @@ public class MainDictionary {
         boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(curWord);
         if (!isFavoriteWord) {
             myDictionary.addFavoriteWord(curWord);
-            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/goldStar.jpg").toExternalForm());
+            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/goldStar.jpg").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
         } else {
             myDictionary.removeFavoriteWord(curWord);
-            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/icon/grayStar.png").toExternalForm());
+            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/grayStar.png").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
             imageView.setFitHeight(25);

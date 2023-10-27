@@ -216,7 +216,21 @@ public class DictionaryManagement extends Trie {
             }
         }
     }
-
+    public void removeFavoriteWord(Word word) {
+        favoriteWord.remove(word);
+        try {
+            File file = new File(FAVORITE_WORD_FILE_PATH);
+            FileWriter fileWriter = new FileWriter(FAVORITE_WORD_FILE_PATH, false);
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+            for (Word word1 : favoriteWord) {
+                printWriter.println(word1.getTarget());
+            }
+//            printWriter.println(word.getTarget());
+            printWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     /**
      * add history search word to set and export to file history_search.txt.
      *

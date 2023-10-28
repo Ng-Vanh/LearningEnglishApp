@@ -36,6 +36,8 @@ public class MainDictionary {
     private ListView suggestListWords, listSpecialWord;
     @FXML
     private Button pronounceBtn, showFavoriteListWord, favoriteBtn, historyBtn;
+    @FXML
+    private ImageView removeBtn;
 
 
     private DictionaryManagement myDictionary = new DictionaryManagement();
@@ -62,7 +64,7 @@ public class MainDictionary {
      */
     private void translate(String curWord) {
         favoriteBtn.setVisible(true);
-
+        removeBtn.setVisible(true);
         if (!curWord.equals("")) {
             String lowerCaseWord = curWord.toLowerCase();
             String titleWord = formatWord(curWord);
@@ -72,13 +74,13 @@ public class MainDictionary {
             System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
 
             if (isFavoriteWord) {
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/goldStar.jpg").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/goldStar.jpg").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
                 favoriteBtn.setGraphic(imageView);
             } else {
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/grayStar.png").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/grayStar.png").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
@@ -94,14 +96,16 @@ public class MainDictionary {
             if (meaning.equals("not found!")) {
                 favoriteBtn.setVisible(false);
                 pronounceBtn.setVisible(false);
-                showMean.getEngine().loadContent(titleWord + " is not found!!!");
+                removeBtn.setVisible(false);
+                String loadSentence = '"' + titleWord  + '"'+ " is not found!!!";
+                showMean.getEngine().loadContent("<h3 style='font-style: bold; text-align: center;margin-top:18px;color: red;'>" + loadSentence + "</h3>");
             } else {
                 myDictionary.addHistorySearch(tmpMeaning);
                 showMean.getEngine().loadContent(showStr);
                 Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
                 pronounceBtn.setVisible(true);
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/speaker.jpg").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/speaker.jpg").toExternalForm());
                 ImageView imageView = new ImageView(image);
                 imageView.setFitWidth(25);
                 imageView.setFitHeight(25);
@@ -116,7 +120,9 @@ public class MainDictionary {
                 });
             }
         } else {
-            showMean.getEngine().loadContent("Not found English word!!!");
+            removeBtn.setVisible(false);
+            String loadSentence = "Not found English word!!!";
+            showMean.getEngine().loadContent("<h3 style='font-style: bold; text-align: center;margin-top:18px;color: red;'>" + loadSentence + "</h3>");
         }
 
 
@@ -204,6 +210,7 @@ public class MainDictionary {
     public void clickFavoriteListWord(ActionEvent event) {
         pronounceBtn.setVisible(false);
         favoriteBtn.setVisible(false);
+        removeBtn.setVisible(false);
         showMean.getEngine().loadContent("");
         Set<Word> list = myDictionary.getFavoriteWord();
         ArrayList<String> specialList = new ArrayList<String>();
@@ -267,18 +274,50 @@ public class MainDictionary {
         boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(curWord);
         if (!isFavoriteWord) {
             myDictionary.addFavoriteWord(curWord);
-            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/goldStar.jpg").toExternalForm());
+            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/goldStar.jpg").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
         } else {
             myDictionary.removeFavoriteWord(curWord);
-            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/grayStar.png").toExternalForm());
+            Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/grayStar.png").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
         }
+    }
+
+    /**
+     * The user click bin_button, screen will appear Warning Alert.
+     * If user choose Ok button, word will be deleted.
+     * @param mouseEvent is the mouse event user clicked.
+     */
+    public void removeWord(MouseEvent mouseEvent) {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Xác nhận xóa");
+        alert.setHeaderText("Bạn có chắc chắn muốn xóa?");
+
+        String cssFile = getClass().getResource("MainDictionary/RemoveWord.css").toExternalForm();
+        alert.getDialogPane().getStylesheets().add(cssFile);
+
+
+        ButtonType buttonTypeOK = new ButtonType("OK");
+        ButtonType buttonTypeNO = new ButtonType("NO");
+
+        alert.getButtonTypes().setAll(buttonTypeOK, buttonTypeNO);
+
+        alert.showAndWait().ifPresent(response -> {
+            if (response == buttonTypeOK) {
+                String tex = wordTranslate.getText();
+                Word tmpWord = new Word(tex);
+                Word curWod = myDictionary.lookupWord(tmpWord);
+                myDictionary.removeWord(curWod);
+                translate(tex);
+            } else if (response == buttonTypeNO) {
+                System.out.println(" ");
+            }
+        });
     }
 }

@@ -22,7 +22,7 @@
       </Label>
       <ImageView fx:id="searchImage" fitHeight="124.0" fitWidth="136.0" layoutX="693.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@search.gif" />
+            <Image url="@image/search.gif" />
          </image>
       </ImageView>
       <TextField fx:id="wordTranslate" layoutX="264.0" layoutY="100.0" onKeyReleased="#getSuggestListWord" prefHeight="42.0" prefWidth="487.0" promptText="Enter the word" style="-fx-background-radius: 20;">
@@ -30,7 +30,7 @@
             <Font size="14.0" />
          </font>
       </TextField>
-      <Button layoutX="663.0" layoutY="105.0" mnemonicParsing="false" onAction="#clickTranslate" prefHeight="32.0" prefWidth="82.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 50;" text="Translate" textFill="#04033b">
+      <Button layoutX="663.0" layoutY="105.0" mnemonicParsing="false" onAction="#clickTranslate" prefHeight="32.0" prefWidth="82.0" styleClass="translate_button" text="Translate" textFill="#04033b">
          <font>
             <Font size="14.0" />
          </font>
@@ -57,7 +57,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="showFavoriteListWord" layoutX="864.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickFavoriteListWord" prefHeight="48.0" prefWidth="65.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 20;" text="FavoriteWords" textAlignment="CENTER" textFill="#1b0505" wrapText="true">
+      <Button fx:id="showFavoriteListWord" layoutX="864.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickFavoriteListWord" prefHeight="48.0" prefWidth="65.0" styleClass="special_button" text="FavoriteWords" textAlignment="CENTER" textFill="#1b0505" wrapText="true">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -65,12 +65,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="favoriteBtn" layoutX="650.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
+      <Button fx:id="favoriteBtn" layoutX="650.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;" styleClass="special_button">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="historyBtn" layoutX="789.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickHistory" prefHeight="48.0" prefWidth="65.0" style="-fx-background-color: rgba(3,240,20,0.3); -fx-background-radius: 20;" text="History">
+      <Button fx:id="historyBtn" layoutX="789.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickHistory" prefHeight="48.0" prefWidth="65.0" styleClass="special_button" text="History">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -81,7 +81,7 @@
       <ListView fx:id="listSpecialWord" layoutX="788.0" layoutY="162.0" prefHeight="373.0" prefWidth="152.0" styleClass="listView" />
       <ImageView fx:id="goToHomeBtn" fitHeight="42.0" fitWidth="65.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToHome">
          <image>
-            <Image url="@ExitBtn.png" />
+            <Image url="@image/ExitBtn.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -89,13 +89,21 @@
       </ImageView>
       <ImageView fitHeight="59.0" fitWidth="97.0" layoutX="14.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@book.gif" />
+            <Image url="@image/book.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="92.0" fitWidth="144.0" layoutX="719.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@bookSearch.gif" />
+            <Image url="@image/bookSearch.gif" />
          </image>
+      </ImageView>
+      <ImageView fx:id="removeBtn" fitHeight="30.0" fitWidth="30.0" layoutX="624.0" layoutY="171.0" onMouseClicked="#removeWord" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@image/bin.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
    </children>
 </Pane>

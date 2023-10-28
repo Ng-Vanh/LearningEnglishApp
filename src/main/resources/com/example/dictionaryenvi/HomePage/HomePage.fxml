@@ -3,40 +3,72 @@
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.paint.Color?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: linear-gradient(to right, #d4fc79 0%, #96e6a1 100%);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.HomePage">
     <children>
-        <Button fx:id="goToDictionaryBtn" layoutX="420.0" layoutY="229.0" mnemonicParsing="false" onMouseClicked="#goToDictionary" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: rgba(33, 194, 76, 0.72); -fx-background-radius: 20;" text="Dictionary" textFill="#131010">
-            <font>
-                <Font name="System Bold" size="14.0" />
-            </font>
+        <HBox layoutX="361.0" layoutY="120.0" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="278.0">
+            <children>
+                <ImageView fitHeight="90.0" fitWidth="126.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/dict.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="goToDictionaryBtn" mnemonicParsing="false" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="167.0" style="-fx-background-color: rgba(33, 194, 76, 0.72); -fx-background-radius: 20;" text="Dictionary" textFill="#bf1010" textOverrun="WORD_ELLIPSIS">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
-        </Button>
-        <Button layoutX="420.0" layoutY="367.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="120.0" style="-fx-background-color: rgba(33, 194, 76, 0.72); -fx-background-radius: 20;" text="Game" textFill="#100f0f">
-            <font>
-                <Font name="System Bold" size="14.0" />
-            </font>
+        </HBox>
+        <ImageView fitHeight="123.0" fitWidth="326.0" layoutX="125.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/board.png" />
+            </image>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
-        </Button>
-        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="243.0" layoutY="102.0" prefHeight="72.0" prefWidth="506.0" text="Welcome to my Study English Application" textAlignment="CENTER" textFill="#ef3e3e">
-            <font>
-                <Font name="System Bold Italic" size="22.0" />
-            </font>
-            <effect>
-                <DropShadow>
-                    <color>
-                        <Color red="0.7894737124443054" green="0.4444444477558136" blue="0.4444444477558136" />
-                    </color>
-                </DropShadow>
-            </effect>
-        </Label>
+        </ImageView>
+        <Label layoutX="247.0" layoutY="364.0" text="Game1" textFill="WHITE" />
+        <ImageView fitHeight="123.0" fitWidth="319.0" layoutX="555.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/board.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <Label layoutX="705.0" layoutY="367.0" text="Game2" textFill="WHITE" />
+        <ImageView fitHeight="148.0" fitWidth="160.0" layoutX="14.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/studyGif.gif" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="48.0" fitWidth="38.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/logout.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fitHeight="83.0" fitWidth="58.0" layoutX="854.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/userInfo.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
     </children>
 </AnchorPane>

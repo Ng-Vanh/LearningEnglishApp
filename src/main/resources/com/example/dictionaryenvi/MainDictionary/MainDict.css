@@ -29,3 +29,18 @@
 #searchImage{
     -fx-rotate: 30deg;
 }
+.special_button{
+    -fx-background-color: rgba(3,240,20,0.3);
+    -fx-background-radius:20px;
+    -fx-transition: background 0.3s;
+}
+.special_button:hover,
+.translate_button:hover{
+    -fx-background-color:#FF5733;
+    -fx-text-fill:white;
+}
+.translate_button{
+    -fx-background-radius:50px;
+    -fx-background-color:  rgba(3,240,20,0.3);
+    -fx-transition: background 0.3s;
+}

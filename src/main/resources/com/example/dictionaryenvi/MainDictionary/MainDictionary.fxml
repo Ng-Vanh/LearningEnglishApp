@@ -50,7 +50,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <WebView fx:id="showMean" layoutX="257.0" layoutY="162.0" prefHeight="373.0" prefWidth="496.0" />
+      <WebView fx:id="showMean" layoutX="260.0" layoutY="162.0" prefHeight="373.0" prefWidth="496.0" />
       <ListView fx:id="suggestListWords" layoutX="22.0" layoutY="162.0" prefHeight="373.0" prefWidth="200.0" styleClass="listView" />
       <Button fx:id="pronounceBtn" layoutX="689.0" layoutY="171.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
          <cursor>
@@ -97,9 +97,25 @@
             <Image url="@image/bookSearch.gif" />
          </image>
       </ImageView>
-      <ImageView fx:id="removeBtn" fitHeight="30.0" fitWidth="30.0" layoutX="624.0" layoutY="171.0" onMouseClicked="#removeWord" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fx:id="removeBtn" fitHeight="30.0" fitWidth="30.0" layoutX="660.0" layoutY="218.0" onMouseClicked="#removeWord" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@image/bin.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="addNewWordBtn" fitHeight="24.0" fitWidth="22.0" layoutX="635.0" layoutY="111.0" onMouseClicked="#clickAddNewWord" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/add.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="updateWordBtn" fitHeight="30.0" fitWidth="30.0" layoutX="695.0" layoutY="219.0" onMouseClicked="#clickUpdateWord" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@image/pencil.gif" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />

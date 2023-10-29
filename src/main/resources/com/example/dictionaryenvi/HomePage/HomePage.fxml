@@ -31,7 +31,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </HBox>
-        <ImageView fitHeight="123.0" fitWidth="326.0" layoutX="125.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="123.0" fitWidth="326.0" layoutX="125.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/board.png" />
             </image>
@@ -39,8 +39,13 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <Label layoutX="247.0" layoutY="364.0" text="Game1" textFill="WHITE" />
-        <ImageView fitHeight="123.0" fitWidth="319.0" layoutX="555.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+        <Label layoutX="247.0" layoutY="325.0" text="Game1" textFill="WHITE" />
+        <ImageView fitHeight="123.0" fitWidth="149.0" layoutX="763.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 22deg;">
+            <image>
+                <Image url="@image/cute.gif" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="123.0" fitWidth="319.0" layoutX="546.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/board.png" />
             </image>
@@ -48,13 +53,8 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <Label layoutX="705.0" layoutY="367.0" text="Game2" textFill="WHITE" />
-        <ImageView fitHeight="148.0" fitWidth="160.0" layoutX="14.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@image/studyGif.gif" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="48.0" fitWidth="38.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+        <Label layoutX="694.0" layoutY="325.0" text="Game2" textFill="WHITE" />
+        <ImageView fx:id="logOutBtn" fitHeight="48.0" fitWidth="38.0" layoutX="33.0" layoutY="14.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/logout.png" />
             </image>
@@ -62,13 +62,18 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <ImageView fitHeight="83.0" fitWidth="58.0" layoutX="854.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" layoutX="895.0" layoutY="21.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/userInfo.png" />
             </image>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
+        </ImageView>
+        <ImageView fitHeight="170.0" fitWidth="182.0" layoutX="423.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/manWalk.gif" />
+            </image>
         </ImageView>
     </children>
 </AnchorPane>

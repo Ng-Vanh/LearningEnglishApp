@@ -11,7 +11,7 @@ import java.util.Set;
 import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
 
 public class DictionaryManagement extends Trie {
-    private static final String DATA_INPUT_FILE_PATH = "src\\main\\java\\com\\backend\\LocalDictionary\\dictionaries.txt";
+    private static final String DATA_INPUT_FILE_PATH = "src\\main\\java\\com\\backend\\LocalDictionary\\E_V.txt";
     private static final String DATA_OUTPUT_FILE_PATH = "src\\main\\java\\com\\backend\\LocalDictionary\\dictionaries.txt";
     private static final String FAVORITE_WORD_FILE_PATH = "src\\main\\java\\com\\backend\\LocalDictionary\\favorite_word.txt";
     private static final String HISTORY_SEARCH_FILE_PATH = "src\\main\\java\\com\\backend\\LocalDictionary\\history_search.txt";

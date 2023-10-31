@@ -1,6 +1,37 @@
 .login-button {
-    -fx-background-color: #00E676;
+    -fx-background-color: #32fc49;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.login-button:hover {
+    -fx-background-color: #00fd22;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.signUp-button {
+    -fx-background-color: #3580c5;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.signUp-button:hover {
+    -fx-background-color: #0059a4;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
 }
 .title {
     -fx-font-weight: BOLD;
 }
+
+.text-field:hover {
+    -fx-border-color: black;
+}
+
+.password-field:hover {
+    -fx-border-color: black;
+}
+
+
+

@@ -115,7 +115,7 @@
       </ImageView>
       <ImageView fx:id="updateWordBtn" fitHeight="30.0" fitWidth="30.0" layoutX="695.0" layoutY="219.0" onMouseClicked="#clickUpdateWord" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
-            <Image url="@image/pencil.gif" />
+            <Image url="@image/pencil.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />

@@ -168,6 +168,32 @@ public class UserDataAccess extends ConnectDatabase implements IDataAccess<User>
         return res;
     }
 
+    /**
+     * When user register new Account, the function check the the user is existing.
+     * @param userName the userName of account.
+     * @return true if the user is existing.
+     */
+    public boolean isExistingUser(String userName){
+        int result = 0;
+        try {
+            Connection connection = connectDatabase.getConnection();
+            String query = "SELECT * FROM " + tableUser
+                    + " WHERE username = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, userName);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                result = 1;
+            }
+            connectDatabase.closeConnection(connection);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return result != 0;
+    }
+
     @Override
     public int delete(User user) {
         return 0;

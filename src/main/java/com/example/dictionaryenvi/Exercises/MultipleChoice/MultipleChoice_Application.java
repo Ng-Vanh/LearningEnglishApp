@@ -13,7 +13,7 @@ public class MultipleChoice_Application extends javafx.application.Application {
         FXMLLoader MultipleChoice = new FXMLLoader(MultipleChoice_Application.class.getResource("/com/example/dictionaryenvi/Exercises/MultipleChoice/FXML/MultipleChoice.fxml"));
 
         Scene MultileChoiceScene = new Scene(MultipleChoice.load(), 960, 576);
-        stage.setTitle("MultipleChoice");
+        stage.setTitle("Multiple Choice");
         stage.setScene(MultileChoiceScene);
         stage.show();
     }

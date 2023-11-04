@@ -11,7 +11,6 @@ module com.example.dictionaryenvi {
     requires javafx.media;
 
     opens com.example.dictionaryenvi to javafx.fxml;
-    exports com.example.dictionaryenvi;
     exports com.example.dictionaryenvi.Exercises.MultipleChoice;
     opens com.example.dictionaryenvi.Exercises.MultipleChoice to javafx.fxml;
 }

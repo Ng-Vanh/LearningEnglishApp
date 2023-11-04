@@ -12,6 +12,9 @@ module com.example.dictionaryenvi {
 
     opens com.example.dictionaryenvi to javafx.fxml;
     opens com.example.dictionaryenvi.Exercises.MultipleChoice to javafx.fxml;
+    opens com.example.dictionaryenvi.Exercises.Dictation to javafx.fxml;
 
+    exports com.example.dictionaryenvi;
+    exports com.example.dictionaryenvi.Exercises.Dictation;
     exports com.example.dictionaryenvi.Exercises.MultipleChoice;
 }

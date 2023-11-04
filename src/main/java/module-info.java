@@ -10,7 +10,7 @@ module com.example.dictionaryenvi {
     requires javafx.web;
     requires javafx.media;
 
-    opens com.example.dictionaryenvi to javafx.fxml;
+    opens com.example.dictionaryenvi.Exercises.Dictation to javafx.fxml;
     exports com.example.dictionaryenvi.Exercises.MultipleChoice;
     opens com.example.dictionaryenvi.Exercises.MultipleChoice to javafx.fxml;
 }

@@ -94,7 +94,7 @@ public class MainDictionary {
             String meaningShow = "<h3 style = 'font-style: italic !important; color:green;'" + meaning + "</h3>";
 
 
-            String showStr = "<h2 style ='color: red; font-style: italic;'>" + titleWord + "</h2>" + meaningShow;
+            String showStr = "<h2 style ='color: red; font-style: italic; margin-left:32px;'>" + titleWord + "</h2>" + meaningShow;
 
             if (meaning.equals("not found!")) {
                 favoriteBtn.setVisible(false);
@@ -109,10 +109,10 @@ public class MainDictionary {
                 Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
                 pronounceBtn.setVisible(true);
-                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/speaker.jpg").toExternalForm());
+                Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/speaker.png").toExternalForm());
                 ImageView imageView = new ImageView(image);
-                imageView.setFitWidth(25);
-                imageView.setFitHeight(25);
+                imageView.setFitWidth(45);
+                imageView.setFitHeight(45);
                 pronounceBtn.setGraphic(imageView);
                 pronounceBtn.setOnAction(new EventHandler<ActionEvent>() {
                     @Override

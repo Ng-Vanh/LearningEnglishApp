@@ -15,7 +15,7 @@
 
 <Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@MainDict.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.MainDictionary">
    <children>
-      <Label layoutX="394.0" layoutY="36.0" prefHeight="48.0" prefWidth="206.0" style="-fx-font-style: italic; -fx-font-weight: 700;" styleClass="title__label" text=" DictionaryEn-Vi" textFill="#ea0303">
+      <Label layoutX="394.0" layoutY="36.0" prefHeight="48.0" prefWidth="206.0" style="-fx-font-style: italic; -fx-font-weight: 700;" styleClass="title__label" text=" DictionaryEn-Vi" textFill="#282a35">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
@@ -45,14 +45,14 @@
             </DisplacementMap>
          </effect>
       </Button>
-      <Label layoutX="75.0" layoutY="104.0" prefHeight="35.0" prefWidth="76.0" text="Suggest" textAlignment="CENTER" textFill="#e70c0c">
+      <Label layoutX="75.0" layoutY="104.0" prefHeight="35.0" prefWidth="76.0" text="Suggest" textAlignment="CENTER" textFill="#282a35">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
       <WebView fx:id="showMean" layoutX="260.0" layoutY="162.0" prefHeight="373.0" prefWidth="496.0" />
       <ListView fx:id="suggestListWords" layoutX="22.0" layoutY="162.0" prefHeight="373.0" prefWidth="200.0" styleClass="listView" />
-      <Button fx:id="pronounceBtn" layoutX="689.0" layoutY="171.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;">
+      <Button fx:id="pronounceBtn" layoutX="700.0" layoutY="161.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: white;">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -65,7 +65,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="favoriteBtn" layoutX="650.0" layoutY="171.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;" styleClass="special_button">
+      <Button fx:id="favoriteBtn" layoutX="260.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;" styleClass="special_button">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -79,9 +79,9 @@
          </cursor>
       </Button>
       <ListView fx:id="listSpecialWord" layoutX="788.0" layoutY="162.0" prefHeight="373.0" prefWidth="152.0" styleClass="listView" />
-      <ImageView fx:id="goToHomeBtn" fitHeight="42.0" fitWidth="65.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToHome">
+      <ImageView fx:id="goToHomeBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToHome">
          <image>
-            <Image url="@image/ExitBtn.png" />
+            <Image url="@image/BackBtn.png" />
          </image>
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -92,12 +92,7 @@
             <Image url="@image/book.gif" />
          </image>
       </ImageView>
-      <ImageView fitHeight="92.0" fitWidth="144.0" layoutX="719.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@image/bookSearch.gif" />
-         </image>
-      </ImageView>
-      <ImageView fx:id="removeBtn" fitHeight="30.0" fitWidth="30.0" layoutX="660.0" layoutY="218.0" onMouseClicked="#removeWord" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fx:id="removeBtn" fitHeight="30.0" fitWidth="30.0" layoutX="715.0" layoutY="491.0" onMouseClicked="#removeWord" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@image/bin.png" />
          </image>
@@ -113,7 +108,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <ImageView fx:id="updateWordBtn" fitHeight="30.0" fitWidth="30.0" layoutX="695.0" layoutY="219.0" onMouseClicked="#clickUpdateWord" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fx:id="updateWordBtn" fitHeight="30.0" fitWidth="30.0" layoutX="712.0" layoutY="441.0" onMouseClicked="#clickUpdateWord" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@image/pencil.png" />
          </image>

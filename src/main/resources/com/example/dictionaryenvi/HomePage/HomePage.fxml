@@ -54,15 +54,15 @@
             </cursor>
         </ImageView>
         <Label layoutX="694.0" layoutY="325.0" text="Game2" textFill="WHITE" />
-        <ImageView fx:id="logOutBtn" fitHeight="48.0" fitWidth="38.0" layoutX="33.0" layoutY="14.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="logOutBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@image/logout.png" />
+                <Image url="@image/BackBtn.png" />
             </image>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" layoutX="895.0" layoutY="21.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" layoutX="895.0" layoutY="16.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/userInfo.png" />
             </image>

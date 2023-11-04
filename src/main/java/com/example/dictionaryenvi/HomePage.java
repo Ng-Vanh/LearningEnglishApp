@@ -29,7 +29,16 @@ public class HomePage {
     }
 
     public void clickLogOut(MouseEvent mouseEvent) {
-        System.out.println("logOut");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Login/Login.fxml"));
+        try {
+            Parent root = loader.load();
+            Scene scene =new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void clickShowUserInfo(MouseEvent mouseEvent) {

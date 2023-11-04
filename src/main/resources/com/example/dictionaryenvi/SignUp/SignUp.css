@@ -7,11 +7,17 @@
     -fx-border-radius: 5;
 }
 
+#backImg {
+    -fx-cursor: HAND;
+}
+
 #signUpBtn {
     -fx-background-color: #00DB70;
     -fx-border-radius: 5;
     -fx-background-radius: 5;
+    -fx-cursor: HAND;
 }
+
 
 #signUpBtn:hover {
     -fx-background-color: #00fd22;

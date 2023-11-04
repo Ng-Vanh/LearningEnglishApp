@@ -6,6 +6,7 @@ import com.backend.LocalDictionary.Trie.Trie;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import static com.backend.LocalDictionary.Dictionary.Checker.isValidWord;
@@ -18,7 +19,7 @@ public class DictionaryManagement extends Trie {
     private static final String SPLITTING_CHARACTERS = "<html>";
     private Trie trie = new Trie();
     private Set<Word> favoriteWord = new HashSet<Word>();
-    private Set<Word> historySearch = new HashSet<Word>();
+    private List<Word> historySearch = new ArrayList<Word>();
 
     public DictionaryManagement() {
         try {
@@ -237,17 +238,15 @@ public class DictionaryManagement extends Trie {
      * @param word word.
      */
     public void addHistorySearch(Word word) {
-        if (!historySearch.contains(word)) {
-            historySearch.add(word);
-            try {
-                File file = new File(HISTORY_SEARCH_FILE_PATH);
-                FileWriter fileWriter = new FileWriter(HISTORY_SEARCH_FILE_PATH, true);
-                PrintWriter printWriter = new PrintWriter(fileWriter);
-                printWriter.println(word.getTarget());
-                printWriter.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        historySearch.add(word);
+        try {
+            File file = new File(HISTORY_SEARCH_FILE_PATH);
+            FileWriter fileWriter = new FileWriter(HISTORY_SEARCH_FILE_PATH, true);
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+            printWriter.println(word.getTarget());
+            printWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -255,7 +254,7 @@ public class DictionaryManagement extends Trie {
         return favoriteWord;
     }
 
-    public Set<Word> getHistorySearch() {
+    public List<Word> getHistorySearch() {
         return historySearch;
     }
 

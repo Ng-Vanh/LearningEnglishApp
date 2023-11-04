@@ -209,7 +209,7 @@ public class MultipleChoice_Controller {
 
         // Set the alert as draggable
         makeAlertDraggable(alert);
-        String cssFile = getClass().getResource("/com/example/dictionaryenvi/MultipleChoice/CSS/Alert.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercises/MultipleChoice/CSS/Alert.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
         alert.setWidth(550);

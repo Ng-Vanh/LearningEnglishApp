@@ -1,69 +1,55 @@
 package com.backend.ChatGPT;
 
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URI;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.util.EntityUtils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-/**
- * Create package.
- * modify pom.xml.
- * modify module-info.java * to make the project require jackson databind.
- */
+import java.net.URI;
 
 public class ChatGPT {
     private static final String endpoint = "https://api.openai.com/v1/chat/completions";
-    private static final String apiKey = "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";
+    private static final String apiKey = "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";
     private static final String model = "gpt-3.5-turbo";
+
+    private static final CloseableHttpClient httpClient;
+
+    static {
+        PoolingHttpClientConnectionManager cm = new PoolingHttpClientConnectionManager();
+        cm.setMaxTotal(100);
+        httpClient = HttpClients.custom().setConnectionManager(cm).build();
+    }
 
     public static String getGPTAnswer(String query) {
         try {
-            URL obj = URI.create(endpoint).toURL();
-            HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
-            connection.setRequestMethod("POST");
-            connection.setRequestProperty("Authorization", "Bearer " + apiKey);
-            connection.setRequestProperty("Content-Type", "application/json");
+            URI uri = URI.create(endpoint);
+            HttpPost httpPost = new HttpPost(uri);
+            httpPost.setHeader("Authorization", "Bearer " + apiKey);
+            httpPost.setHeader("Content-Type", "application/json");
 
             String body = "{\"model\": \"" + model + "\", \"messages\": [{\"role\": \"user\", \"content\": \"" + query + "\"}]}";
             System.out.println(body);
 
-            connection.setDoOutput(true);
-            OutputStreamWriter writer = new OutputStreamWriter(connection.getOutputStream());
-            writer.write(body);
-            writer.flush();
-            writer.close();
+            httpPost.setEntity(new StringEntity(body));
 
-            // Response from ChatGPT
-            BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-            String line;
+            HttpResponse response = httpClient.execute(httpPost);
+            HttpEntity entity = response.getEntity();
 
-            StringBuffer response = new StringBuffer();
-
-            while ((line = br.readLine()) != null) {
-                response.append(line);
-            }
-            br.close();
-
-            // calls the method to extract the message.
-            if (connection.getResponseCode() == 200) {
-                // Request was successful, parse and return the response.
-                String responseBody = response.toString();
-//                System.out.println("Response: " + responseBody);
-                return parseGPTResponse(responseBody);
-            } else {
-
-                System.err.println("Error response code: " + connection.getResponseCode());
+            if (entity != null) {
+                String result = EntityUtils.toString(entity);
+                return parseGPTResponse(result);
             }
 
-        } catch (IOException e) {
-            // Handle IO errors here.
-            System.err.println("IO error: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Error: " + e.getMessage());
             e.printStackTrace();
-
-            throw new RuntimeException(e);
         }
         return "";
     }

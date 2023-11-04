@@ -9,10 +9,12 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
+        //FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("Exercises/MultipleChoice/MultipleChoice.fxml"));
+        FXMLLoader MultipleChoice = new FXMLLoader(Application.class.getResource("/com/example/dictionaryenvi/Exercises/MultipleChoice/FXML/MultipleChoice.fxml"));
+
+        Scene MultileChoiceScene = new Scene(MultipleChoice.load(), 960, 576);
+        stage.setTitle("MultipleChoice");
+        stage.setScene(MultileChoiceScene);
         stage.show();
     }
 

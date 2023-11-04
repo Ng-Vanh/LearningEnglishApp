@@ -1,0 +1,36 @@
+/* Remove the default icon in the header area */
+.dialog-pane .header-panel .label {
+    -fx-graphic: null;
+}
+
+.dialog-pane {
+    -fx-background-color: rgb(235, 87, 87);
+}
+
+/* Your existing styles */
+.dialog-pane .header-panel {
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-font-size: 18px;
+}
+
+/* Hide the default icon in the content area */
+.dialog-pane .content .label {
+    -fx-graphic: null;
+}
+
+.dialog-pane .content {
+    -fx-text-fill: white; /* Set the text color to white */
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-cursor: hand;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: rgba(0, 255, 0, 0.7);
+    -fx-cursor: hand;
+}

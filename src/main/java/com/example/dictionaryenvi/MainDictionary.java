@@ -1,8 +1,11 @@
 package com.example.dictionaryenvi;
 
+import com.backend.Connection.FavoriteDataAccess;
+import com.backend.Connection.HistoryDataAccess;
 import com.backend.LocalDictionary.Dictionary.DictionaryManagement;
 import com.backend.LocalDictionary.Dictionary.Word;
 import com.backend.OnlineDictionary.Utils.Audio;
+import com.backend.User.UserStatus;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -28,7 +31,10 @@ import javafx.scene.media.MediaPlayer;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
+
+import static com.example.dictionaryenvi.Login.currentUser;
 
 public class MainDictionary {
     @FXML
@@ -44,6 +50,8 @@ public class MainDictionary {
 
 
     private final DictionaryManagement myDictionary = new DictionaryManagement();
+    private HistoryDataAccess historyDataAccess = new HistoryDataAccess();
+    private FavoriteDataAccess favoriteDataAccess = new FavoriteDataAccess();
 
 
     /**
@@ -73,7 +81,9 @@ public class MainDictionary {
             String titleWord = formatWord(curWord);
             Word tmpWord = new Word(lowerCaseWord, null);
             Word tmpMeaning = myDictionary.lookupWord(tmpWord);
-            boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(tmpMeaning);
+            //boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(tmpMeaning);
+            UserStatus us = new UserStatus(currentUser.getUsername(),lowerCaseWord);
+            boolean isFavoriteWord = favoriteDataAccess.isFavoriteWord(us);
             System.out.println(tmpMeaning.getTarget() + ": " + isFavoriteWord);
 
             if (isFavoriteWord) {
@@ -105,6 +115,8 @@ public class MainDictionary {
                 showMean.getEngine().loadContent("<h3 style='font-style: bold; text-align: center;margin-top:18px;color: red;'>" + loadSentence + "</h3>");
             } else {
                 myDictionary.addHistorySearch(tmpMeaning);
+                UserStatus userStatus = new UserStatus(currentUser.getUsername(), lowerCaseWord);
+                historyDataAccess.insert(userStatus);
                 showMean.getEngine().loadContent(showStr);
                 Audio audioTranslation = new Audio(lowerCaseWord);
                 System.out.println(audioTranslation.getAudioLink());
@@ -220,11 +232,12 @@ public class MainDictionary {
         removeBtn.setVisible(false);
         updateWordBtn.setVisible(false);
         showMean.getEngine().loadContent("");
-        Set<Word> list = myDictionary.getFavoriteWord();
-        ArrayList<String> specialList = new ArrayList<String>();
-        for (Word li : list) {
-            specialList.add(li.getTarget());
-        }
+//        Set<Word> list = myDictionary.getFavoriteWord();
+//        ArrayList<String> specialList = new ArrayList<String>();
+//        for (Word li : list) {
+//            specialList.add(li.getTarget());
+//        }
+        List<String> specialList = favoriteDataAccess.getFavoriteWords(currentUser.getUsername());
         ObservableList<String> items = FXCollections.observableArrayList(specialList);
         listSpecialWord.setItems(items);
         listSpecialWord.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -252,11 +265,12 @@ public class MainDictionary {
         removeBtn.setVisible(false);
         updateWordBtn.setVisible(false);
         showMean.getEngine().loadContent("");
-        Set<Word> list = myDictionary.getHistorySearch();
-        ArrayList<String> specialList = new ArrayList<String>();
-        for (Word li : list) {
-            specialList.add(li.getTarget());
-        }
+//        Set<Word> list = myDictionary.getHistorySearch();
+//        ArrayList<String> specialList = new ArrayList<String>();
+//        for (Word li : list) {
+//            specialList.add(li.getTarget());
+//        }
+        ArrayList<String> specialList = (ArrayList<String>) historyDataAccess.getHistory(currentUser.getUsername());
         ObservableList<String> items = FXCollections.observableArrayList(specialList);
         listSpecialWord.setItems(items);
         listSpecialWord.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -281,9 +295,12 @@ public class MainDictionary {
         String text = wordTranslate.getText();
         Word tmpWord = new Word(text, null);
         Word curWord = myDictionary.lookupWord(tmpWord);
-        boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(curWord);
+        //boolean isFavoriteWord = myDictionary.checkIsFavoriteWord(curWord);
+        UserStatus us = new UserStatus(currentUser.getUsername(),text.toLowerCase());
+        boolean isFavoriteWord = favoriteDataAccess.isFavoriteWord(us);
         if (!isFavoriteWord) {
             myDictionary.addFavoriteWord(curWord);
+            favoriteDataAccess.insert(us);
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/goldStar.jpg").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);
@@ -291,6 +308,7 @@ public class MainDictionary {
             favoriteBtn.setGraphic(imageView);
         } else {
             myDictionary.removeFavoriteWord(curWord);
+            favoriteDataAccess.delete(us);
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/grayStar.png").toExternalForm());
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(25);

@@ -4,17 +4,20 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class ConnectDatabase {
-    protected static final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
+        protected static final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
     protected static final String userName = "freedb_ngvanh2234";
     protected static final String passWord = "*S$D&NpvY$V*#a6";
     protected static final String tableEdictName = "freedb_edictionary.tbl_edict";
     protected static final String tableUser = "freedb_edictionary.tbl_user";
-    // protected static final String url = "jdbc:mysql://127.0.0.1:3307/edict";
-    // protected static final String userName = "root";
-    // protected static final String passWord = "220604";
-    // protected static final String tableEdictName = "edict.tbl_edict";
-
-    // protected static final String tableUser = "edict.tbl_user";
+    protected static final String tableHistory = "freedb_edictionary.tbl_history";
+    protected static final String tableFavorite = "freedb_edictionary.tbl_favorite";
+//    protected static final String url = "jdbc:mysql://127.0.0.1:3307/edict";
+//    protected static final String userName = "root";
+//    protected static final String passWord = "220604";
+//    protected static final String tableEdictName = "edict.tbl_edict";
+//    protected static final String tableUser = "edict.tbl_user";
+//    protected static final String tableHistory = "edict.tbl_history";
+//    protected static final String tableFavorite = "edict.tbl_favorite";
     public ConnectDatabase() {
     }
 

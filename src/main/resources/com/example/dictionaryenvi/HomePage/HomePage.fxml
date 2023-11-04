@@ -31,7 +31,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </HBox>
-        <ImageView fitHeight="123.0" fitWidth="326.0" layoutX="125.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="123.0" fitWidth="326.0" layoutX="125.0" layoutY="272.0" onMouseClicked="#goToGame1" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/board.png" />
             </image>
@@ -45,7 +45,7 @@
                 <Image url="@image/cute.gif" />
             </image>
         </ImageView>
-        <ImageView fitHeight="123.0" fitWidth="319.0" layoutX="546.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="123.0" fitWidth="319.0" layoutX="546.0" layoutY="272.0" onMouseClicked="#goToGame2" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@image/board.png" />
             </image>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane stylesheets="@Notification.css" prefHeight="128.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Notification">
+   <children>
+      <ImageView fitHeight="128.0" fitWidth="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@success.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

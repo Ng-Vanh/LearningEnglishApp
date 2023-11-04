@@ -1,0 +1,25 @@
+.dialog-header {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+}
+
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-content {
+    -fx-font-size: 14px;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: darkgreen;
+    -fx-cursor: hand;
+}

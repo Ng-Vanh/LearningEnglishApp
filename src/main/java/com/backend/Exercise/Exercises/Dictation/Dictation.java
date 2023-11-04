@@ -37,7 +37,11 @@ public class Dictation extends Exercise {
     @Override
     protected void generateExercise(String query) {
         try {
+//            ChatGPT chatGPT = new ChatGPT();
+//            String jsonString = chatGPT.getGPTAnswer(query);
+
             String jsonString = ChatGPT.getGPTAnswer(query);
+
             System.out.println(jsonString);
             System.out.println("-------------------------------------\n");
 
@@ -66,18 +70,26 @@ public class Dictation extends Exercise {
         this.sentence = sentence;
     }
 
-    @Override
     public String getSentenceWithBlank() {
         return sentenceWithBlank;
+    }
+
+    @Override
+    public String getQuestion() {
+        return getSentenceWithBlank();
     }
 
     public void setSentenceWithBlank(String sentenceWithBlank) {
         this.sentenceWithBlank = sentenceWithBlank;
     }
 
-    @Override
     public String getWordBlank() {
         return wordBlank;
+    }
+
+    @Override
+    public String getCorrectAnswer() {
+        return getWordBlank();
     }
 
     public void setWordBlank(String wordBlank) {
@@ -89,7 +101,6 @@ public class Dictation extends Exercise {
         return userAnswer.equals(wordBlank);
     }
 
-    @Override
     public AudioTranslation getAudioTranslation() {
         return audioTranslation;
     }

@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class PromptLoader {
     private static final String promptsPath = "src/main/java/com/backend/ChatGPT/prompts.txt";
     private static Map<String, String> promptsMap = null;

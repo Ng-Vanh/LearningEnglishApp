@@ -12,10 +12,22 @@
             <Font name="Microsoft Sans Serif" size="35.0" />
          </font>
       </Label>
-      <ToggleButton fx:id="optionA" layoutX="143.0" layoutY="274.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option A" wrapText="true" />
-      <ToggleButton fx:id="optionB" layoutX="583.0" layoutY="274.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option B" wrapText="true" />
-      <ToggleButton fx:id="optionC" layoutX="143.0" layoutY="417.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option C" />
-      <ToggleButton fx:id="optionD" layoutX="583.0" layoutY="417.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option D" />
+      <ToggleButton fx:id="optionA" layoutX="143.0" layoutY="274.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option A" wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="optionB" layoutX="583.0" layoutY="274.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option B" wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="optionC" layoutX="143.0" layoutY="417.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option C">
+         <font>
+            <Font size="23.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="optionD" layoutX="583.0" layoutY="417.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="116.0" prefWidth="229.0" text="Option D">
+         <font>
+            <Font size="23.0" />
+         </font></ToggleButton>
       <Label fx:id="scoreLabel" layoutX="673.0" layoutY="65.0" prefHeight="34.0" prefWidth="141.0" text="score">
          <font>
             <Font size="20.0" />

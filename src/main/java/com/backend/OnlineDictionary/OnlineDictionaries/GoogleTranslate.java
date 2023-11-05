@@ -35,6 +35,11 @@ public class GoogleTranslate extends AudioTranslation  {
         this.translation = translation;
     }
 
+    public GoogleTranslate(String audioLink, String translation) {
+        this.audioLink = audioLink;
+        this.translation = translation;
+    }
+
     public GoogleTranslate(String text, String langFrom, String langTo) {
         String audioLink = getAudioLink(text, langFrom);
         String translation = getTranslation(text, langFrom, langTo);

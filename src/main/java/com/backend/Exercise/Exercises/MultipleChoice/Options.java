@@ -2,6 +2,8 @@ package com.backend.Exercise.Exercises.MultipleChoice;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.Objects;
+
 public class Options {
     @JsonProperty("A")
     private String optionA;
@@ -66,5 +68,17 @@ public class Options {
         result.append("C: ").append(getOptionC()).append("\n");
         result.append("D: ").append(getOptionD());
         return result.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Options options)) return false;
+        return Objects.equals(optionA, options.optionA) && Objects.equals(optionB, options.optionB) && Objects.equals(optionC, options.optionC) && Objects.equals(optionD, options.optionD);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(optionA, optionB, optionC, optionD);
     }
 }

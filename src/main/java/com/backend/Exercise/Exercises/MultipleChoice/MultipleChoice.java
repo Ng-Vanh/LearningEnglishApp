@@ -11,6 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class MultipleChoice extends Exercise {
@@ -114,7 +115,7 @@ public class MultipleChoice extends Exercise {
 
     public static ArrayList<MultipleChoice> loadFromBank(String exerciseType) {
         if (typeSet.contains(exerciseType)) {
-            String filename = prefix + "-" + "Blank" + ".txt";
+            String filename = prefix + "-" + exerciseType + ".txt";
             String filepath = bankFolderPath + filename;
 
             System.out.println(filename);
@@ -130,6 +131,10 @@ public class MultipleChoice extends Exercise {
                 multipleChoiceList.add(loadFromJson(json));
             }
 
+            HashSet<MultipleChoice> multipleChoiceSet = new HashSet<>(multipleChoiceList);
+
+            multipleChoiceList = new ArrayList<>(multipleChoiceSet);
+
             return multipleChoiceList;
 
         } else {
@@ -139,7 +144,7 @@ public class MultipleChoice extends Exercise {
 
     public static ArrayList<MultipleChoice> loadFromBank() {
         ArrayList<MultipleChoice> multipleChoiceList = new ArrayList<>();
-        for (String type: typeSet) {
+        for (String type : typeSet) {
             multipleChoiceList.addAll(loadFromBank(type));
         }
         return multipleChoiceList;
@@ -223,7 +228,7 @@ public class MultipleChoice extends Exercise {
 //        System.out.println(multipleChoice.getExplanation());
 //        System.out.println(multipleChoice.isCorrect("word"));
 
-        ArrayList<MultipleChoice> multipleChoiceList = loadFromBank("Blank");
+        ArrayList<MultipleChoice> multipleChoiceList = loadFromBank();
         System.out.println(multipleChoiceList.get(0));
 
 //        MultipleChoice customMultipleChoice = new MultipleChoice(
@@ -232,5 +237,17 @@ public class MultipleChoice extends Exercise {
 //                "correctAnswer", "explanation");
 
 //        System.out.println(multipleChoice);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MultipleChoice that)) return false;
+        return Objects.equals(question, that.question) && Objects.equals(options, that.options) && Objects.equals(correctAnswer, that.correctAnswer) && Objects.equals(explanation, that.explanation);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(question, options, correctAnswer, explanation);
     }
 }

@@ -3,10 +3,7 @@ package com.example.dictionaryenvi.Exercises.MultipleChoice;
 import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.Label;
-import javafx.scene.control.ToggleButton;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -37,15 +34,15 @@ public class MultipleChoice_Controller {
     @FXML
     private ToggleButton optionD;
 
-    private MultipleChoice multipleChoice;
+    private MultipleChoice exercise;
 
     private int score = 0;
-    private int multipleChoiceIndex = 0;
+    private int questionIndex = 0;
 
-    private ArrayList<MultipleChoice> multipleChoiceList = loadFromBank();
+    private ArrayList<MultipleChoice> exerciseList = new ArrayList<>(loadFromBank());
 
     private void shuffleList() {
-        Collections.shuffle(multipleChoiceList);
+        Collections.shuffle(exerciseList);
     }
 
     public void initialize() {
@@ -75,7 +72,7 @@ public class MultipleChoice_Controller {
 
         setQuestion(question, optionA, optionB, optionC, optionD);
 
-        this.multipleChoice = multipleChoice;
+        this.exercise = multipleChoice;
     }
 
     private void generateQuestion() {
@@ -91,7 +88,7 @@ public class MultipleChoice_Controller {
 //        setQuestion("Question", "Option A", "Option B", "Option C", "Option D");
 //        setQuestion(question, optionA, optionB, optionC, optionD);
 
-        setQuestion(multipleChoiceList.get(multipleChoiceIndex));
+        setQuestion(exerciseList.get(questionIndex));
         setScoreLabel();
         setQuestionIndexLabel();
     }
@@ -115,22 +112,23 @@ public class MultipleChoice_Controller {
     }
 
     public void setQuestionIndexLabel() {
-        this.questionIndexLabel.setText("Question: " + (multipleChoiceIndex + 1) + "/" + multipleChoiceList.size());
+        this.questionIndexLabel.setText("Question: " + (questionIndex + 1) + "/" + exerciseList.size());
     }
 
     public void submitAnswer() {
         String userAnswer = getUserAnswer();
         if (userAnswer != null) {
-            if (multipleChoice.isCorrect(userAnswer)) {
+            if (exercise.isCorrect(userAnswer)) {
                 score += 1;
 //                setScoreLabel();
                 System.out.println("Correct!");
-                showAlert("Correct!", "Congrats, you got a new point!");
+                showAlert("Correct!", "Congrats, you got a new point!", true);
+
             } else {
-                System.out.println("Incorrect, the correct answer is " + multipleChoice.getCorrectAnswer() + ".");
-                showAlert("Incorrect", "Sorry, the correct answer is " + multipleChoice.getCorrectAnswer() + ".");
+                System.out.println("Incorrect, the correct answer is " + exercise.getCorrectAnswer() + ".");
+                showAlert("Incorrect", "Sorry, the correct answer is " + exercise.getCorrectAnswer() + ".", false);
             }
-            multipleChoiceIndex += 1;
+            questionIndex += 1;
             generateQuestion();
 //            setQuestionIndexLabel();
         } else {
@@ -196,12 +194,11 @@ public class MultipleChoice_Controller {
 
 
 
-    private void showAlert(String title, String content) {
+    private void showAlert(String title, String content, boolean isCorrect) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(title);
         alert.setHeaderText(null);
-        alert.setContentText(content + "\n" + multipleChoice.getExplanation());
-
+        alert.setContentText(content + "\n\n" + exercise.getExplanation());
 
         // Remove the close button
         alert.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
@@ -209,6 +206,19 @@ public class MultipleChoice_Controller {
 
         // Set the alert as draggable
         makeAlertDraggable(alert);
+
+        // Set background color based on correctness
+        if (isCorrect) {
+            alert.getDialogPane().getStyleClass().add("correct-alert");
+        } else {
+            alert.getDialogPane().getStyleClass().add("incorrect-alert");
+        }
+
+        // Set a style class for the OK button
+        Button okButton = (Button) alert.getDialogPane().lookupButton(ButtonType.OK);
+        okButton.getStyleClass().add("ok-button");
+
+        // Load updated CSS file
         String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercises/MultipleChoice/CSS/Alert.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
@@ -219,22 +229,28 @@ public class MultipleChoice_Controller {
         alert.showAndWait();
     }
 
+
+    private double xOffset = 0;
+    private double yOffset = 0;
+
     private void makeAlertDraggable(Alert alert) {
         Stage stage = (Stage) alert.getDialogPane().getScene().getWindow();
 
         alert.getDialogPane().setOnMousePressed(e -> {
-            stage.setOpacity(1);
-            stage.setX(e.getScreenX() - stage.getWidth() / 2);
-            stage.setY(e.getScreenY() - stage.getHeight() / 2);
+            xOffset = e.getSceneX();
+            yOffset = e.getSceneY();
         });
 
         alert.getDialogPane().setOnMouseDragged(e -> {
-            stage.setX(e.getScreenX() - stage.getWidth() / 2);
-            stage.setY(e.getScreenY() - stage.getHeight() / 2);
+            stage.setOpacity(0.8);
+            stage.setX(e.getScreenX() - xOffset);
+            stage.setY(e.getScreenY() - yOffset);
         });
 
         alert.getDialogPane().setOnMouseReleased(e -> {
             stage.setOpacity(1.0);
         });
     }
+
+
 }

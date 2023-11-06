@@ -55,16 +55,23 @@ public class MultipleChoice extends Exercise {
     }
 
     private static String formatExplanation(String explanation) {
-//         Split the input string using "A:", "B:", "C:", and "D:" as delimiters
+        // Split the input string using "A:", "B:", "C:", and "D:" as delimiters
         String[] parts = explanation.split("(A:|B:|C:|D:)");
 
         StringBuilder result = new StringBuilder();
+
+        // Initialize a variable to keep track of the option
+        char option = 'A';
 
         // Format each part and append to the result
         for (String part : parts) {
             // Skip empty and whitespace-only parts
             if (!part.trim().isEmpty()) {
-                result.append(part.trim()).append("\n\n");
+                // Append the option (A., B., C., D.) followed by the formatted part
+                result.append(option).append(". ").append(part.trim()).append("\n\n");
+
+                // Increment the option for the next iteration
+                option++;
             }
         }
 

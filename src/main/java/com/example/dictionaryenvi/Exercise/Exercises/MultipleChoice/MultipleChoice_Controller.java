@@ -6,7 +6,9 @@ import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
+import javafx.scene.paint.Color;
 import javafx.stage.StageStyle;
+
 
 public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoice> {
     @FXML
@@ -22,6 +24,8 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
     private ToggleButton optionD;
 
     private MultipleChoice exercise;
+
+    private ToggleGroup optionsGroup = new ToggleGroup();
 
     @Override
     protected void loadExerciseFromBank() {
@@ -41,7 +45,8 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         this.optionD.setSelected(false);
     }
 
-    private void setQuestion(MultipleChoice multipleChoice) {
+    @Override
+    protected void setQuestion(MultipleChoice multipleChoice) {
         String question = multipleChoice.getQuestion();
         String optionA = multipleChoice.getOptionA();
         String optionB = multipleChoice.getOptionB();
@@ -55,105 +60,75 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
 
     @Override
     protected void generateQuestion() {
+        timerManager.startTimer();
         setQuestion(exerciseList.get(questionIndex));
         setScoreLabel();
         setQuestionIndexLabel();
+
+        this.optionA.setToggleGroup(optionsGroup);
+        this.optionB.setToggleGroup(optionsGroup);
+        this.optionC.setToggleGroup(optionsGroup);
+        this.optionD.setToggleGroup(optionsGroup);
+
+        resetButtonColor(optionA);
+        resetButtonColor(optionB);
+        resetButtonColor(optionC);
+        resetButtonColor(optionD);
+    }
+
+    private ToggleButton getSelectedButton() {
+        // Get the selected button from the ToggleGroup
+        return (ToggleButton) optionsGroup.getSelectedToggle();
+    }
+
+    private String toRGBCode(Color color) {
+        return String.format("#%02X%02X%02X",
+                (int) (color.getRed() * 255),
+                (int) (color.getGreen() * 255),
+                (int) (color.getBlue() * 255));
+    }
+
+    private void resetButtonColor(ToggleButton button) {
+        button.setStyle(""); // This resets the style to the default state
+    }
+
+    private void setButtonColor(ToggleButton button, Color color) {
+        // Change the text fill color of the button
+        button.setStyle("-fx-background-color: " + toRGBCode(color) + ";");
     }
 
     @Override
     protected String getUserAnswer() {
-        if (optionA.isSelected()) {
-            return "A";
-        } else if (optionB.isSelected()) {
-            return "B";
-        } else if (optionC.isSelected()) {
-            return "C";
-        } else if (optionD.isSelected()) {
-            return "D";
-        } else {
-            return null;
-        }
+        ToggleButton selectedButton = getSelectedButton();
+        return (selectedButton != null) ? String.valueOf(selectedButton.getText().charAt(0)) : null;
     }
 
     @Override
     @FXML
     protected void submitAnswer() {
         String userAnswer = getUserAnswer();
+        timerManager.stopTimer();
         if (userAnswer != null) {
+            ToggleButton selectedButton = getSelectedButton();
             if (exercise.isCorrect(userAnswer)) {
+                playCorrectEffect();
                 score += 1;
-//                setScoreLabel();
+                setButtonColor(selectedButton, Color.GREEN);
                 System.out.println("Correct!");
                 showAlert("Correct!", "Congrats, you got a new point!", true);
-
             } else {
+                playIncorrectEffect();
+                setButtonColor(selectedButton, Color.RED);
                 System.out.println("Incorrect, the correct answer is " + exercise.getCorrectAnswer() + ".");
                 showAlert("Incorrect", "Sorry, the correct answer is " + exercise.getCorrectAnswer() + ".", false);
             }
             questionIndex += 1;
             generateQuestion();
-//            setQuestionIndexLabel();
+            selectedButton.getParent().requestFocus();
         } else {
             System.out.println("Please select an answer");
         }
     }
-
-//    private void showAlert(String title, String content) {
-//        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//        alert.setTitle(title);
-//        alert.setHeaderText(null);
-//        alert.setContentText(content + "\n" + multipleChoice.getExplanation());
-//        alert.setHeight(200);
-//        alert.showAndWait();
-//    }
-
-//    private void showAlert(String title, String content) {
-//        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//        alert.setTitle(title);
-//        alert.setHeaderText(null);
-//
-//        // Create a VBox to hold the content
-//        VBox vbox = new VBox();
-//        vbox.getChildren().addAll(new Label(content), new Label(formatExplanation()));
-//
-//
-//        // Set the content to the custom VBox
-//        alert.getDialogPane().setContent(vbox);
-//        alert.initStyle(StageStyle.TRANSPARENT);
-//
-//        // Show the alert and wait for user interaction
-//        alert.showAndWait();
-//    }
-
-//    private void showAlert(String title, String content) {
-//        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//        alert.setTitle(title);
-//        alert.setHeaderText(null);
-//
-//        // Create a VBox to hold the content
-//        VBox vbox = new VBox();
-//        vbox.getChildren().addAll(new Label(content), new Label(formatExplanation()));
-//
-//        // Remove the default content
-//        alert.getDialogPane().getChildren().clear();
-//
-//        // Add the VBox as the new content
-//        alert.getDialogPane().getChildren().add(vbox);
-//
-//        // Remove the close button
-//        alert.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
-//        alert.getDialogPane().lookupButton(ButtonType.CLOSE).setVisible(false);
-//
-//        // Set the alert as draggable
-//        makeAlertDraggable(alert);
-//
-//        // Set a transparent style for the stage
-//        alert.initStyle(StageStyle.TRANSPARENT);
-//
-//        // Show the alert and wait for user interaction
-//        alert.showAndWait();
-//    }
-
 
     @Override
     protected void showAlert(String title, String content, boolean isCorrect) {
@@ -190,4 +165,10 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         // Show the alert and wait for user interaction
         alert.showAndWait();
     }
+
+    @Override
+    protected void handleTimeout() {
+        System.out.println("TIMEOUT!!");
+    }
+
 }

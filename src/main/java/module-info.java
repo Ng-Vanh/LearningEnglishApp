@@ -11,10 +11,11 @@ module com.example.dictionaryenvi {
     requires javafx.media;
 
     opens com.example.dictionaryenvi to javafx.fxml;
-    opens com.example.dictionaryenvi.Exercises.MultipleChoice to javafx.fxml;
-    opens com.example.dictionaryenvi.Exercises.Dictation to javafx.fxml;
+    opens com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice to javafx.fxml;
+    opens com.example.dictionaryenvi.Exercise.Exercises.Dictation to javafx.fxml;
+    opens com.example.dictionaryenvi.Exercise.Utils to javafx.fxml;
 
     exports com.example.dictionaryenvi;
-    exports com.example.dictionaryenvi.Exercises.Dictation;
-    exports com.example.dictionaryenvi.Exercises.MultipleChoice;
+    exports com.example.dictionaryenvi.Exercise.Exercises.Dictation;
+    exports com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
 }

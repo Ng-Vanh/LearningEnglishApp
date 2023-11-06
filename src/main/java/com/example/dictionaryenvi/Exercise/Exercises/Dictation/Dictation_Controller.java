@@ -1,72 +1,46 @@
-package com.example.dictionaryenvi.Exercises.Dictation;
+package com.example.dictionaryenvi.Exercise.Exercises.Dictation;
 
 import com.backend.Exercise.Exercises.Dictation.Dictation;
+
+import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
+
 import javafx.stage.StageStyle;
 
-import static com.backend.Exercise.Exercises.Dictation.Dictation.loadFromBank;
-
-import java.util.ArrayList;
-import java.util.Collections;
-
-public class Dictation_Controller {
-    @FXML
-    private Label questionIndexLabel;
-
-    @FXML
-    private Label scoreLabel;
-
-    @FXML
-    private Label question;
-
+public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @FXML
     private TextField answerTextField;
 
     private Dictation exercise;
 
-    private int score = 0;
-    private int questionIndex = 0;
-
     private MediaPlayer mediaPlayer;
     private boolean submitted = false;
 
-    private ArrayList<Dictation> exerciseList = new ArrayList<>(loadFromBank());
+    private MediaPlayer correctMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
+    private MediaPlayer incorrectMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
 
-    private void shuffleList() {
-        Collections.shuffle(exerciseList);
-    }
-
-    @FXML
-    public void initialize() {
-        shuffleList();
-        generateQuestion();
+    @Override
+    protected void loadExerciseFromBank() {
+        exerciseList = Dictation.loadFromBank();
     }
 
     private void setQuestion(String question) {
         this.question.setText(question);
     }
 
-    private void setQuestion(Dictation dictation) {
+    protected void setQuestion(Dictation dictation) {
         setQuestion(dictation.getSentenceWithBlank());
         this.exercise = dictation;
     }
 
-    private void generateQuestion() {
+    @Override
+    protected void generateQuestion() {
         setQuestion(exerciseList.get(questionIndex));
         setScoreLabel();
         setQuestionIndexLabel();
-    }
-
-    public void setScoreLabel() {
-        this.scoreLabel.setText("Score: " + score);
-    }
-
-    public void setQuestionIndexLabel() {
-        this.questionIndexLabel.setText("Question: " + (questionIndex + 1) + "/" + exerciseList.size());
     }
 
     @FXML
@@ -84,12 +58,20 @@ public class Dictation_Controller {
         submitted = false;
     }
 
-    public void submitAnswer() {
+    @Override
+    protected String getUserAnswer() {
+        String userAnswer = answerTextField.getText();
+        return userAnswer;
+    }
+
+    @Override
+    @FXML
+    protected void submitAnswer() {
         if (mediaPlayer != null) {
             mediaPlayer.stop();
         }
 
-        String userAnswer = answerTextField.getText();
+        String userAnswer = getUserAnswer();
         // Add logic to handle the submitted answer
         System.out.println("Submitted answer: " + userAnswer);
         if (userAnswer != null) {
@@ -99,6 +81,9 @@ public class Dictation_Controller {
                 showAlert("Correct!", "Congrats, you got a new point!", true);
 
             } else {
+                correctMediaPlayer.stop();
+                incorrectMediaPlayer.stop();
+                incorrectMediaPlayer.play();
                 System.out.println("Incorrect, the correct answer is " + exercise.getCorrectAnswer() + ".");
                 showAlert("Incorrect", "Sorry, the correct answer is " + "'" + exercise.getCorrectAnswer() + "'" + ".", false);
             }
@@ -112,7 +97,8 @@ public class Dictation_Controller {
         answerTextField.clear();
     }
 
-    private void showAlert(String title, String content, boolean isCorrect) {
+    @Override
+    protected void showAlert(String title, String content, boolean isCorrect) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(title);
         alert.setHeaderText(null);
@@ -137,7 +123,7 @@ public class Dictation_Controller {
         okButton.getStyleClass().add("ok-button");
 
         // Load updated CSS file
-        String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercises/Dictation/CSS/Alert.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercise/Exercises/Dictation/CSS/Alert.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
         alert.setWidth(550);
@@ -146,28 +132,4 @@ public class Dictation_Controller {
         // Show the alert and wait for user interaction
         alert.showAndWait();
     }
-
-
-    private double xOffset = 0;
-    private double yOffset = 0;
-
-    private void makeAlertDraggable(Alert alert) {
-        Stage stage = (Stage) alert.getDialogPane().getScene().getWindow();
-
-        alert.getDialogPane().setOnMousePressed(e -> {
-            xOffset = e.getSceneX();
-            yOffset = e.getSceneY();
-        });
-
-        alert.getDialogPane().setOnMouseDragged(e -> {
-            stage.setOpacity(0.8);
-            stage.setX(e.getScreenX() - xOffset);
-            stage.setY(e.getScreenY() - yOffset);
-        });
-
-        alert.getDialogPane().setOnMouseReleased(e -> {
-            stage.setOpacity(1.0);
-        });
-    }
-
 }

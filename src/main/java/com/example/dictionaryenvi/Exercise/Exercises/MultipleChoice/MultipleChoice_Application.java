@@ -1,4 +1,4 @@
-package com.example.dictionaryenvi.Exercises.Dictation;
+package com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -6,14 +6,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Dictation_Application extends javafx.application.Application {
+public class MultipleChoice_Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         //FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("Exercises/MultipleChoice/MultipleChoice.fxml"));
-        FXMLLoader MultipleChoice = new FXMLLoader(com.example.dictionaryenvi.Exercises.Dictation.Dictation_Application.class.getResource("/com/example/dictionaryenvi/Exercises/Dictation/FXML/Dictation.fxml"));
+        FXMLLoader MultipleChoice = new FXMLLoader(MultipleChoice_Application.class.getResource("/com/example/dictionaryenvi/Exercise/Exercises/MultipleChoice/FXML/MultipleChoice.fxml"));
 
         Scene MultileChoiceScene = new Scene(MultipleChoice.load(), 960, 576);
-        stage.setTitle("Dictation");
+        stage.setTitle("Multiple Choice");
         stage.setScene(MultileChoiceScene);
         stage.show();
     }

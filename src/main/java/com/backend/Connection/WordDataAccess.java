@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 import static com.backend.Connection.ConnectDatabase.tableEdictName;
 
-public class WordDataAccess extends ConnectDatabase implements IDataAccess<Word>{
+public class WordDataAccess implements IDataAccess<Word>{
     private ConnectDatabase connectDatabase;
 
     public WordDataAccess() {

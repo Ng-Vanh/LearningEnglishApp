@@ -114,7 +114,7 @@ public class MainDictionary {
                 String loadSentence = '"' + titleWord + '"' + " is not found!!!";
                 showMean.getEngine().loadContent("<h3 style='font-style: bold; text-align: center;margin-top:18px;color: red;'>" + loadSentence + "</h3>");
             } else {
-                myDictionary.addHistorySearch(tmpMeaning);
+                // myDictionary.addHistorySearch(tmpMeaning);
                 UserStatus userStatus = new UserStatus(currentUser.getUsername(), lowerCaseWord);
                 historyDataAccess.insert(userStatus);
                 showMean.getEngine().loadContent(showStr);
@@ -299,7 +299,7 @@ public class MainDictionary {
         UserStatus us = new UserStatus(currentUser.getUsername(),text.toLowerCase());
         boolean isFavoriteWord = favoriteDataAccess.isFavoriteWord(us);
         if (!isFavoriteWord) {
-            myDictionary.addFavoriteWord(curWord);
+            // myDictionary.addFavoriteWord(curWord);
             favoriteDataAccess.insert(us);
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/goldStar.jpg").toExternalForm());
             ImageView imageView = new ImageView(image);
@@ -307,7 +307,7 @@ public class MainDictionary {
             imageView.setFitHeight(25);
             favoriteBtn.setGraphic(imageView);
         } else {
-            myDictionary.removeFavoriteWord(curWord);
+            //  myDictionary.removeFavoriteWord(curWord);
             favoriteDataAccess.delete(us);
             Image image = new Image(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/image/grayStar.png").toExternalForm());
             ImageView imageView = new ImageView(image);

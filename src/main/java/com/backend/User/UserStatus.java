@@ -1,21 +1,21 @@
 package com.backend.User;
 
-public class UserStatus {
-    private String userName;
+public class UserStatus extends User {
+
     private String word;
 
+    /**
+     * Constructor initializes new object use for update status word of user.
+     * @param userName
+     * @param word
+     */
+
     public UserStatus(String userName, String word) {
-        this.userName = userName;
+        super(userName);
         this.word = word;
     }
 
-    public String getUserName() {
-        return userName;
-    }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
     public String getWord() {
         return word;

@@ -5,7 +5,9 @@ import com.backend.User.User;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class UserDataAccess extends ConnectDatabase implements IDataAccess<User> {
+import static com.backend.Connection.ConnectDatabase.tableUser;
+
+public class UserDataAccess implements IDataAccess<User> {
     private ConnectDatabase connectDatabase;
 
     /**

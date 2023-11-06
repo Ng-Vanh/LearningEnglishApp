@@ -10,7 +10,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class FavoriteDataAccess extends ConnectDatabase implements IDataAccess <UserStatus>{
+import static com.backend.Connection.ConnectDatabase.tableFavorite;
+
+public class FavoriteDataAccess implements IDataAccess <UserStatus>{
     private ConnectDatabase connectDatabase;
     public FavoriteDataAccess(){
         connectDatabase = new ConnectDatabase();
@@ -33,7 +35,7 @@ public class FavoriteDataAccess extends ConnectDatabase implements IDataAccess <
                     "VALUES (?, ?)";
 
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1, userStatus.getUserName());
+            preparedStatement.setString(1, userStatus.getUsername());
             preparedStatement.setString(2, userStatus.getWord());
 
 
@@ -92,7 +94,7 @@ public class FavoriteDataAccess extends ConnectDatabase implements IDataAccess <
             String query = "SELECT * FROM " + tableFavorite + " WHERE word = ? AND username = ? ";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, userStatus.getWord());
-            preparedStatement.setString(2, userStatus.getUserName());
+            preparedStatement.setString(2, userStatus.getUsername());
 
             ResultSet resultSet = preparedStatement.executeQuery();
             isFavorite = resultSet.next(); // Kiểm tra xem có kết quả nào trong ResultSet hay không

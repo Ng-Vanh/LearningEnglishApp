@@ -1,15 +1,28 @@
 package com.example.dictionaryenvi.Exercise.Utils;
 
 import com.backend.Exercise.Utils.Exercise;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public abstract class Exercise_Controller<T extends Exercise> {
+    @FXML
+    protected Label timerLabel;
+
+    protected TimerManager timerManager;
+
     @FXML
     protected Label question;
 
@@ -24,14 +37,39 @@ public abstract class Exercise_Controller<T extends Exercise> {
 
     protected ArrayList<T> exerciseList;
 
+    private MediaPlayer correctMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/correct.mp3").toString()));
+    private MediaPlayer incorrectMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
+
+    protected void playEffect(MediaPlayer player) {
+        stopAllEffects();
+        player.play();
+    }
+
+    protected void stopAllEffects() {
+        correctMediaPlayer.stop();;
+        incorrectMediaPlayer.stop();
+    }
+
+    protected void playCorrectEffect() {
+        playEffect(correctMediaPlayer);
+    }
+
+    protected void playIncorrectEffect() {
+        playEffect(incorrectMediaPlayer);
+    }
+
     protected abstract void loadExerciseFromBank();
 
     @FXML
     public void initialize() {
         loadExerciseFromBank();
         shuffleList();
+
+        timerManager = new TimerManager(timerLabel, 60, this::handleTimeout);
         generateQuestion();
     }
+
+    protected abstract void handleTimeout();
 
     protected abstract String getUserAnswer();
 
@@ -40,6 +78,8 @@ public abstract class Exercise_Controller<T extends Exercise> {
     protected void shuffleList() {
         Collections.shuffle(exerciseList);
     }
+
+    protected abstract void setQuestion(T exercise);
 
     protected abstract void generateQuestion();
 
@@ -73,5 +113,19 @@ public abstract class Exercise_Controller<T extends Exercise> {
         alert.getDialogPane().setOnMouseReleased(e -> {
             stage.setOpacity(1.0);
         });
+    }
+
+    @FXML
+    protected void goBack(ActionEvent event) throws IOException {
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+        // Load ExerciseSelection FXML
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
+        Parent root = loader.load();
+
+        // Set the new scene
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 }

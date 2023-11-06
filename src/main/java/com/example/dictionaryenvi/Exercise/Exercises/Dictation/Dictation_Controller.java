@@ -3,11 +3,13 @@ package com.example.dictionaryenvi.Exercise.Exercises.Dictation;
 import com.backend.Exercise.Exercises.Dictation.Dictation;
 
 import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
+import javafx.beans.binding.Bindings;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
+import javafx.scene.text.Text;
 import javafx.stage.StageStyle;
 
 public class Dictation_Controller extends Exercise_Controller<Dictation> {
@@ -19,9 +21,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     private MediaPlayer mediaPlayer;
     private boolean submitted = false;
 
-    private MediaPlayer correctMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
-    private MediaPlayer incorrectMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
-
     @Override
     protected void loadExerciseFromBank() {
         exerciseList = Dictation.loadFromBank();
@@ -31,6 +30,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         this.question.setText(question);
     }
 
+    @Override
     protected void setQuestion(Dictation dictation) {
         setQuestion(dictation.getSentenceWithBlank());
         this.exercise = dictation;
@@ -38,6 +38,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
     @Override
     protected void generateQuestion() {
+        timerManager.startTimer();
         setQuestion(exerciseList.get(questionIndex));
         setScoreLabel();
         setQuestionIndexLabel();
@@ -72,18 +73,18 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         }
 
         String userAnswer = getUserAnswer();
+        timerManager.stopTimer();
         // Add logic to handle the submitted answer
         System.out.println("Submitted answer: " + userAnswer);
         if (userAnswer != null) {
             if (exercise.isCorrect(userAnswer)) {
+                playCorrectEffect();
                 score += 1;
                 System.out.println("Correct!");
                 showAlert("Correct!", "Congrats, you got a new point!", true);
 
             } else {
-                correctMediaPlayer.stop();
-                incorrectMediaPlayer.stop();
-                incorrectMediaPlayer.play();
+                playIncorrectEffect();
                 System.out.println("Incorrect, the correct answer is " + exercise.getCorrectAnswer() + ".");
                 showAlert("Incorrect", "Sorry, the correct answer is " + "'" + exercise.getCorrectAnswer() + "'" + ".", false);
             }
@@ -102,7 +103,11 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(title);
         alert.setHeaderText(null);
-        alert.setContentText(content + "\n\n" + exercise.getAudioTranslation().getTranslation() + ".");
+
+        // Create a Text node for content with wrapping
+        Text text = new Text(content + "\n\n" + exercise.getAudioTranslation().getTranslation());
+        text.setWrappingWidth(500); // Set the preferred width for text wrapping
+        text.setStyle("-fx-fill: white;");
 
         // Remove the close button
         alert.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
@@ -126,10 +131,22 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercise/Exercises/Dictation/CSS/Alert.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
-        alert.setWidth(550);
+        // Bind the alert height to the text height
+        alert.getDialogPane().prefHeightProperty().bind(Bindings.createDoubleBinding(() ->
+                text.getBoundsInLocal().getHeight() + 40, text.boundsInLocalProperty()));
+
+        // Set the content as the Text node
+        alert.getDialogPane().setContent(text);
+
+        alert.setWidth(500);
         alert.initStyle(StageStyle.TRANSPARENT);
 
         // Show the alert and wait for user interaction
         alert.showAndWait();
+    }
+
+    @Override
+    protected void handleTimeout() {
+        System.out.println("TIMEOUTT");
     }
 }

@@ -34,5 +34,11 @@
             <Font size="23.0" />
          </font>
       </Label>
+      <Button fx:id="goBack" layoutX="29.0" layoutY="57.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+      <Label fx:id="timerLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="125.0" prefHeight="38.0" prefWidth="246.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>

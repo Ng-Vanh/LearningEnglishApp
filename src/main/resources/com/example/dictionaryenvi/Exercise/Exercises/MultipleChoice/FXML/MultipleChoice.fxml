@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -7,7 +8,7 @@
 
 <AnchorPane prefHeight="576.0" prefWidth="960.0" stylesheets="@../CSS/MultipleChoice.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoice_Controller">
    <children>
-      <Label fx:id="question" layoutX="137.0" layoutY="98.0" prefHeight="155.0" prefWidth="759.0" text="How many consonants are there in English?" textAlignment="CENTER" wrapText="true">
+      <Label fx:id="question" alignment="CENTER" layoutX="137.0" layoutY="98.0" prefHeight="155.0" prefWidth="676.0" text="How many consonants are there in English?" textAlignment="CENTER" wrapText="true">
          <font>
             <Font name="Microsoft Sans Serif" size="35.0" />
          </font>
@@ -28,16 +29,21 @@
          <font>
             <Font size="23.0" />
          </font></ToggleButton>
-      <Label fx:id="scoreLabel" layoutX="673.0" layoutY="65.0" prefHeight="34.0" prefWidth="141.0" text="score">
+      <Label fx:id="scoreLabel" layoutX="689.0" layoutY="33.0" prefHeight="34.0" prefWidth="141.0" text="score">
          <font>
-            <Font size="20.0" />
+            <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="questionIndexLabel" layoutX="168.0" layoutY="65.0" prefHeight="34.0" prefWidth="141.0" text="QuestionIndex">
+      <Label fx:id="questionIndexLabel" layoutX="143.0" layoutY="33.0" prefHeight="34.0" prefWidth="174.0" text="QuestionIndex">
          <font>
-            <Font size="20.0" />
+            <Font size="16.0" />
          </font>
       </Label>
+      <Label fx:id="timerLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="32.0" prefHeight="35.0" prefWidth="350.0" text="Timer" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="38.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
 
    </children>
 </AnchorPane>

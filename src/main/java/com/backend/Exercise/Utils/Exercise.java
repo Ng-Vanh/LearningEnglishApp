@@ -25,7 +25,6 @@ public abstract class Exercise {
 
     public abstract String getCorrectAnswer();
 
-
     protected static List<String> readJsonFile(String filePath) {
         List<String> jsonStringList = new ArrayList<>();
 

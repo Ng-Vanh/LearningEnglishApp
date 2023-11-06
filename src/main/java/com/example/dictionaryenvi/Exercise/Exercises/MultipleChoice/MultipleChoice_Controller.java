@@ -1,27 +1,14 @@
-package com.example.dictionaryenvi.Exercises.MultipleChoice;
+package com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
 
 import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 
+import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.stage.Stage;
+
 import javafx.stage.StageStyle;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
-import static com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice.loadFromBank;
-
-public class MultipleChoice_Controller {
-    @FXML
-    private Label question;
-
-    @FXML
-    public Label scoreLabel;
-
-    @FXML
-    public Label questionIndexLabel;
-
+public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoice> {
     @FXML
     private ToggleButton optionA;
 
@@ -36,18 +23,9 @@ public class MultipleChoice_Controller {
 
     private MultipleChoice exercise;
 
-    private int score = 0;
-    private int questionIndex = 0;
-
-    private ArrayList<MultipleChoice> exerciseList = new ArrayList<>(loadFromBank());
-
-    private void shuffleList() {
-        Collections.shuffle(exerciseList);
-    }
-
-    public void initialize() {
-        shuffleList();
-        generateQuestion();
+    @Override
+    protected void loadExerciseFromBank() {
+        exerciseList = MultipleChoice.loadFromBank();
     }
 
     public void setQuestion(String question, String optionA, String optionB, String optionC, String optionD) {
@@ -75,25 +53,15 @@ public class MultipleChoice_Controller {
         this.exercise = multipleChoice;
     }
 
-    private void generateQuestion() {
-//        multipleChoice = new MultipleChoice("Blank");
-//        String question = multipleChoice.getQuestion();
-//        String optionA = multipleChoice.getOptionA();
-//        String optionB = multipleChoice.getOptionB();
-//        String optionC = multipleChoice.getOptionC();
-//        String optionD = multipleChoice.getOptionD();
-
-//        System.out.println("Debug: " + question + " " + optionA + " " + optionB + " " + optionC + " " + optionD);
-
-//        setQuestion("Question", "Option A", "Option B", "Option C", "Option D");
-//        setQuestion(question, optionA, optionB, optionC, optionD);
-
+    @Override
+    protected void generateQuestion() {
         setQuestion(exerciseList.get(questionIndex));
         setScoreLabel();
         setQuestionIndexLabel();
     }
 
-    private String getUserAnswer() {
+    @Override
+    protected String getUserAnswer() {
         if (optionA.isSelected()) {
             return "A";
         } else if (optionB.isSelected()) {
@@ -107,15 +75,9 @@ public class MultipleChoice_Controller {
         }
     }
 
-    public void setScoreLabel() {
-        this.scoreLabel.setText("Score: " + score);
-    }
-
-    public void setQuestionIndexLabel() {
-        this.questionIndexLabel.setText("Question: " + (questionIndex + 1) + "/" + exerciseList.size());
-    }
-
-    public void submitAnswer() {
+    @Override
+    @FXML
+    protected void submitAnswer() {
         String userAnswer = getUserAnswer();
         if (userAnswer != null) {
             if (exercise.isCorrect(userAnswer)) {
@@ -193,8 +155,8 @@ public class MultipleChoice_Controller {
 //    }
 
 
-
-    private void showAlert(String title, String content, boolean isCorrect) {
+    @Override
+    protected void showAlert(String title, String content, boolean isCorrect) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(title);
         alert.setHeaderText(null);
@@ -219,7 +181,7 @@ public class MultipleChoice_Controller {
         okButton.getStyleClass().add("ok-button");
 
         // Load updated CSS file
-        String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercises/MultipleChoice/CSS/Alert.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercise/Exercises/MultipleChoice/CSS/Alert.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
         alert.setWidth(550);
@@ -228,29 +190,4 @@ public class MultipleChoice_Controller {
         // Show the alert and wait for user interaction
         alert.showAndWait();
     }
-
-
-    private double xOffset = 0;
-    private double yOffset = 0;
-
-    private void makeAlertDraggable(Alert alert) {
-        Stage stage = (Stage) alert.getDialogPane().getScene().getWindow();
-
-        alert.getDialogPane().setOnMousePressed(e -> {
-            xOffset = e.getSceneX();
-            yOffset = e.getSceneY();
-        });
-
-        alert.getDialogPane().setOnMouseDragged(e -> {
-            stage.setOpacity(0.8);
-            stage.setX(e.getScreenX() - xOffset);
-            stage.setY(e.getScreenY() - yOffset);
-        });
-
-        alert.getDialogPane().setOnMouseReleased(e -> {
-            stage.setOpacity(1.0);
-        });
-    }
-
-
 }

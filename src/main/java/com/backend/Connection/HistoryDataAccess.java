@@ -10,7 +10,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class HistoryDataAccess extends ConnectDatabase implements IDataAccess<UserStatus>{
+import static com.backend.Connection.ConnectDatabase.tableHistory;
+
+public class HistoryDataAccess implements IDataAccess<UserStatus>{
     private ConnectDatabase connectDatabase;
 
     /**
@@ -31,7 +33,7 @@ public class HistoryDataAccess extends ConnectDatabase implements IDataAccess<Us
                     "VALUES (?, ?)";
 
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1, userStatus.getUserName());
+            preparedStatement.setString(1, userStatus.getUsername());
             preparedStatement.setString(2, userStatus.getWord());
 
 

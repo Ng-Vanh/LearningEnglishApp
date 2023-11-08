@@ -110,6 +110,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         timerManager.stopTimer();
         if (userAnswer != null) {
             ToggleButton selectedButton = getSelectedButton();
+            System.out.println(exercise);
             if (exercise.isCorrect(userAnswer)) {
                 playCorrectEffect();
                 score += 1;

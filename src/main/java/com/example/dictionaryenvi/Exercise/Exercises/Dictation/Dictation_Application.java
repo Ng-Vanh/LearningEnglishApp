@@ -14,6 +14,8 @@ public class Dictation_Application extends javafx.application.Application {
         FXMLLoader MultipleChoice = new FXMLLoader(Dictation_Application.class.getResource("/com/example/dictionaryenvi/Exercise/Exercises/Dictation/FXML/Dictation.fxml"));
 
         Scene MultileChoiceScene = new Scene(MultipleChoice.load(), 960, 576);
+        stage.setMinWidth(720);
+        stage.setMinHeight(500);
         stage.setTitle("Dictation");
         stage.setScene(MultileChoiceScene);
         stage.show();

@@ -18,6 +18,8 @@ public class ExerciseSelection_Application extends javafx.application.Applicatio
         Scene exerciseSelectionScene = new Scene(exerciseSelectionRoot, 960, 576);
 
         // Set the title and scene for the primary stage
+        stage.setMinWidth(680);
+        stage.setMinHeight(500);
         stage.setTitle("Exercise Selection");
         stage.setScene(exerciseSelectionScene);
         stage.show();

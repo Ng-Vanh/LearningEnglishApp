@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox prefHeight="576.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.Dictation.Dictation_Controller">
+<VBox prefHeight="576.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.Dictation.Dictation_Controller">
    <children>
       <VBox prefWidth="920.0" VBox.vgrow="NEVER">
          <children>

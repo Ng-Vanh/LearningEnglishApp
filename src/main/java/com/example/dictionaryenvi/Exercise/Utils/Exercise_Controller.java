@@ -3,10 +3,6 @@ package com.example.dictionaryenvi.Exercise.Utils;
 import com.backend.Exercise.Utils.Exercise;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.media.Media;
@@ -17,7 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public abstract class Exercise_Controller<T extends Exercise> {
+public abstract class Exercise_Controller<T extends Exercise> extends Scene_Controller {
     @FXML
     protected Label timerLabel;
 
@@ -117,15 +113,33 @@ public abstract class Exercise_Controller<T extends Exercise> {
 
     @FXML
     protected void goBack(ActionEvent event) throws IOException {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-
-        // Load ExerciseSelection FXML
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
-        Parent root = loader.load();
-
-        // Set the new scene
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+//        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//
+//        // Load ExerciseSelection FXML
+//        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
+//        Parent root = loader.load();
+//
+//        // Set the new scene
+//        Scene scene = new Scene(root);
+//        stage.setScene(scene);
+//        stage.setTitle("Exercise Selection");
+//        stage.show();
+        String FXML_Path = "/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml";
+        String title = "Exercise Selection";
+        enter_newScene(FXML_Path, title, event, false);
     }
+
+//    protected void enter_newScene(String FXML_Path, String title, ActionEvent event) {
+//        FXMLLoader loader = new FXMLLoader(getClass().getResource(FXML_Path));
+//        try {
+//            Parent root = loader.load();
+//            Scene scene = new Scene(root);
+//            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//            stage.setScene(scene);
+//            stage.setTitle(title);
+//            stage.show();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
 }

@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.sql.SQLOutput;
 
 public class Login extends UserInformation {
-    private static User currentUser;
+    public static User currentUser;
     @FXML
     private Label loginFail1;
     @FXML
@@ -61,10 +61,11 @@ public class Login extends UserInformation {
         User user = new User(usernameStr , passwordStr);
         boolean isCorrectAccount = userDataAccess.isCorrectAccount(user);
         if(isCorrectAccount && !usernameStr.isEmpty() && !passwordStr.isEmpty()) {
+            currentUser = userDataAccess.getUserInfo(usernameStr);
             FXMLLoader loader = new FXMLLoader(Application.class.getResource("HomePage/HomePage.fxml"));
             try {
                 Parent root = loader.load();
-                Scene scene =new Scene(root);
+                Scene scene = new Scene(root);
                 Stage stage = (Stage) loginBtn.getScene().getWindow();
                 stage.setScene(scene);
                 stage.show();

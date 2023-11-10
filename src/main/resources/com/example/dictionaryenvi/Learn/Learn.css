@@ -1,0 +1,55 @@
+#word {
+    -fx-font-weight: BOLD;
+}
+#word1 {
+    -fx-font-weight: BOLD;
+}
+
+#frontFlashCard {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+#backFlashCard {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+
+#pronounceImg1 {
+    -fx-background-color: black;
+    -fx-cursor: HAND;
+}
+
+#pronounceImg2 {
+    -fx-background-color: black;
+    -fx-cursor: HAND;
+}
+
+#continueBtn {
+    -fx-background-color: #32fc49;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: HAND;
+}
+
+#continueBtn:hover {
+    -fx-background-color: #00fd22;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+#pronounceImg1:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+#pronounceImg2:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}

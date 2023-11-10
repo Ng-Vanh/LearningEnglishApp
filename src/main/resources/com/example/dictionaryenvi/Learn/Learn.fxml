@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" stylesheets="@Learn.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Learn">
+   <children>
+      <Pane fx:id="backFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
+         <children>
+            <Label fx:id="word" alignment="CENTER" layoutX="1.0" layoutY="34.0" prefHeight="57.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="pronounce" alignment="CENTER" layoutY="104.0" prefHeight="28.0" prefWidth="258.0" text="Pronounce" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="explain" alignment="CENTER" layoutX="18.0" layoutY="174.0" prefHeight="65.0" prefWidth="222.0" text="Explain" textAlignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="pronounceImg1" fitHeight="28.0" fitWidth="26.0" layoutX="18.0" layoutY="14.0" onMouseClicked="#playAudio" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@speaker.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="starImg1" fitHeight="26.0" fitWidth="26.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@grayStar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="continueBtn" layoutX="429.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#nextCard" prefHeight="49.0" prefWidth="102.0" text="Continue" />
+      <Pane fx:id="frontFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
+         <children>
+            <Label fx:id="word1" alignment="CENTER" layoutY="33.0" prefHeight="57.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="example" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="119.0" prefHeight="121.0" prefWidth="214.0" text="Example" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="pronounceImg2" fitHeight="28.0" fitWidth="28.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@speaker.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="starImg2" fitHeight="26.0" fitWidth="26.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@grayStar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

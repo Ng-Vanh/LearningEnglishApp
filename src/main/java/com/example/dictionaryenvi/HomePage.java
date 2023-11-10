@@ -1,5 +1,6 @@
 package com.example.dictionaryenvi;
 
+import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
@@ -16,6 +17,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Duration;
 
 import java.io.IOException;
 
@@ -67,7 +69,6 @@ public class HomePage {
         userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1, scoreLabel2);
 
         Dialog<Void> dialog = new Dialog<>();
-
         dialog.getDialogPane().setMinWidth(360);
         dialog.getDialogPane().setContent(userInfoBox);
         dialog.initStyle(StageStyle.UNDECORATED);
@@ -75,16 +76,23 @@ public class HomePage {
         String cssFile = getClass().getResource("HomePage/UserInfo.css").toExternalForm();
         dialog.getDialogPane().getStylesheets().add(cssFile);
 
-
         // Tạo nút đóng dialog
         Button closeButton = new Button("");
         closeButton.setOnAction(event -> dialog.close());
         dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
+
+        // Tạo hiệu ứng Fade cho Dialog
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(1.5), dialog.getDialogPane());
+        fadeTransition.setFromValue(0.0);
+        fadeTransition.setToValue(1.0);
+        fadeTransition.play();
+
         dialog.showAndWait();
     }
 
-    public void goToGame2(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercises/Dictation/FXML/Dictation.fxml"));
+
+    public void goToExercise(MouseEvent mouseEvent) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);
@@ -96,11 +104,17 @@ public class HomePage {
         }
     }
 
-    public void goToGame1(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercises/MultipleChoice/FXML/MultipleChoice.fxml"));
+    public void goToLearnWord(MouseEvent mouseEvent) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
         try {
             Parent root = loader.load();
-            Scene scene =new Scene(root);
+
+            FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), root);
+            fadeTransition.setFromValue(0.0);
+            fadeTransition.setToValue(1.0);
+            fadeTransition.play();
+
+            Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.setScene(scene);
             stage.show();

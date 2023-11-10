@@ -18,6 +18,13 @@ public class UserLearnWord extends User{
         this.topic = topic;
         this.word = word;
     }
+    public UserLearnWord(String username, String topic){
+        this.topic = topic;
+        this.word = username;
+    }
+    public UserLearnWord(String username){
+        super(username);
+    }
 
     public String getTopic() {
         return topic;

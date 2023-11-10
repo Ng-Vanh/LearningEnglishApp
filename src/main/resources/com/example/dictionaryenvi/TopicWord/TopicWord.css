@@ -1,0 +1,29 @@
+.vbox_topic{
+}
+.vbox_topic:hover{
+    -fx-scale-x:1.005;
+    -fx-scale-y:1.005;
+    -fx-effect: dropShadow(gaussian, black, 32, 0, 0, 3);
+}
+.vbox_topic-img{
+  -fx-background-color: transparent;
+}
+.vbox_topic-img:hover{
+    -fx-cursor:hand;
+}
+.vbox_topic-progress{
+    -fx-background-color: #E5E5E5;
+    -fx-accent: #FF5733;
+    -fx-background-radius: 8px;
+}
+.vbox_topic-progress .bar{
+    -fx-background-color: linear-gradient(to right, yellow , green);
+}
+.backBtn{
+    -fx-effect: dropShadow(gaussian, yellow, 32, 0, 0, 4);
+}
+.backBtn:hover{
+    -fx-scale-x:1.02;
+    -fx-scale-y:1.02;
+}
+

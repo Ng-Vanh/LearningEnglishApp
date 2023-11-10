@@ -6,6 +6,7 @@ import com.backend.LocalDictionary.Dictionary.DictionaryManagement;
 import com.backend.LocalDictionary.Dictionary.Word;
 import com.backend.OnlineDictionary.Utils.Audio;
 import com.backend.User.UserStatus;
+import javafx.animation.FadeTransition;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -28,6 +29,7 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.util.Duration;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -257,7 +259,7 @@ public class MainDictionary {
      * When the user looks up a word, the search history is saved.
      * When the user presses a button, the words they have looked up will be displayed.
      *
-     * @param event
+     * @param event is the event user clicked History button.
      */
     public void clickHistory(ActionEvent event) {
         pronounceBtn.setVisible(false);
@@ -289,7 +291,7 @@ public class MainDictionary {
      * When the user clicks on the star,
      * the word being searched will be added to favorites, and the star will turn yellow.
      *
-     * @param event
+     * @param event is the event user clicked on Favorite button.
      */
     public void clickLikeWord(ActionEvent event) {
         String text = wordTranslate.getText();
@@ -328,6 +330,12 @@ public class MainDictionary {
         alert.setTitle("Warning!!!");
         alert.setHeaderText("Bạn có chắc chắn muốn xóa?");
 
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), alert.getDialogPane());
+        fadeTransition.setFromValue(0.0);
+        fadeTransition.setToValue(1.0);
+        fadeTransition.play();
+
+
         String cssFile = getClass().getResource("MainDictionary/RemoveWord.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
@@ -352,6 +360,10 @@ public class MainDictionary {
 
     }
 
+    /**
+     * The function add NewWord to Dictionary.
+     * @param mouseEvent is the mouse user clicked AddButton.
+     */
     public void clickAddNewWord(MouseEvent mouseEvent) {
         TextField wordTextField = new TextField();
         TextField definitionTextField = new TextField();
@@ -376,6 +388,12 @@ public class MainDictionary {
         ButtonType buttonTypeOK = new ButtonType("OK", ButtonType.OK.getButtonData());
         ButtonType buttonTypeCancel = new ButtonType("Cancel", ButtonType.CANCEL.getButtonData());
         alert.getButtonTypes().setAll(buttonTypeOK, buttonTypeCancel);
+
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), alert.getDialogPane());
+        fadeTransition.setFromValue(0.0);
+        fadeTransition.setToValue(1.0);
+        fadeTransition.play();
+
         String cssFile = getClass().getResource("MainDictionary/RemoveWord.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
@@ -391,6 +409,10 @@ public class MainDictionary {
         });
     }
 
+    /**
+     * Whuen user want to change word, user will click to here.
+     * @param mouseEvent is the mouse event.
+     */
     public void clickUpdateWord(MouseEvent mouseEvent) {
         String textEn = wordTranslate.getText();
         TextInputDialog dialog = new TextInputDialog("");
@@ -400,6 +422,11 @@ public class MainDictionary {
 
         String cssFile = getClass().getResource("MainDictionary/UpdateWord.css").toExternalForm();
         dialog.getDialogPane().getStylesheets().add(cssFile);
+
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), dialog.getDialogPane());
+        fadeTransition.setFromValue(0.0);
+        fadeTransition.setToValue(1.0);
+        fadeTransition.play();
 
         dialog.showAndWait().ifPresent(word -> {
             if (!word.isEmpty()) {

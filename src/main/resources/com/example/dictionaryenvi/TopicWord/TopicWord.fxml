@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
@@ -11,6 +12,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="960.0" stylesheets="@TopicWord.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.TopicWord">
    <children>
@@ -22,32 +24,37 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <ScrollPane layoutY="64.0" prefHeight="576.0" prefWidth="960.0">
+      <ScrollPane layoutY="64.0" prefHeight="524.0" prefWidth="960.0">
          <content>
-            <GridPane hgap="32.0" prefHeight="1280.0" prefWidth="960.0" vgap="32.0">
-              <columnConstraints>
+            <GridPane hgap="32.0" prefHeight="1200.0" prefWidth="960.0" vgap="32.0">
+               <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-              </columnConstraints>
-              <rowConstraints>
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-              </rowConstraints>
-               <padding>
-                  <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
-               </padding>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
                <children>
-                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="288.0" styleClass="vbox_topic">
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnTechWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/tech.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="techPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.58" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Technology">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -55,12 +62,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="1">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnSportWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/sport.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="sportPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Sports">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -68,12 +83,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="2">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnWeatherWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
-                              <Image url="@image/env.jpg" />
+                              <Image url="@image/weather.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="weatherPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Weather">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -81,12 +104,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.rowIndex="1">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnIdiom" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/idiom.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="idiomPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Idiom">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -94,12 +125,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnFoodWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/food.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="foodPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Food">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -107,12 +146,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnBusinessWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/business.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="businessPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Business">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -120,12 +167,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.rowIndex="2">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnAnimalWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/animal.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="animalPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Animal">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -133,25 +188,41 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnPlantsWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/plant.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="plantsPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Plants">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </VBox>
-                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnFashionWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
                               <Image url="@image/fashion.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="fashionPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Fashion">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -159,12 +230,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.rowIndex="3">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnBodyPpWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
-                              <Image url="@image/tech.jpg" />
+                              <Image url="@image/Body.jpeg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="bodyPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Body">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -172,12 +251,20 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnCharacterWord" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
-                              <Image url="@image/tech.jpg" />
+                              <Image url="@image/character.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="charaterPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Character">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -185,18 +272,29 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="vbox_topic" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <children>
-                        <ImageView fitHeight="194.0" fitWidth="288.0" pickOnBounds="true" styleClass="vbox_topic-img">
+                        <ImageView fitHeight="194.0" fitWidth="288.0" onMouseClicked="#goToLearnPhrasalVerb" pickOnBounds="true" styleClass="vbox_topic-img">
                            <image>
-                              <Image url="@image/tech.jpg" />
+                              <Image url="@image/phrasalVerb.png" />
                            </image>
                         </ImageView>
-                        <ProgressBar prefHeight="30.0" prefWidth="288.0" progress="0.31" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="phrasePrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Phrasal Verbs">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
                      </children>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </VBox>
                </children>
+               <padding>
+                  <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+               </padding>
             </GridPane>
          </content>
       </ScrollPane>

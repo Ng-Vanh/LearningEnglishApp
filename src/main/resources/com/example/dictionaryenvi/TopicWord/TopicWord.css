@@ -1,4 +1,6 @@
 .vbox_topic{
+    -fx-background-color: white;
+    -fx-background-radius: 15;
 }
 .vbox_topic:hover{
     -fx-scale-x:1.005;
@@ -12,12 +14,13 @@
     -fx-cursor:hand;
 }
 .vbox_topic-progress{
-    -fx-background-color: #E5E5E5;
-    -fx-accent: #FF5733;
-    -fx-background-radius: 8px;
+    -fx-background-color: transparent;
+    -fx-accent: red;
+    -fx-background-radius: 12;
 }
 .vbox_topic-progress .bar{
     -fx-background-color: linear-gradient(to right, yellow , green);
+    -fx-background-radius:12;
 }
 .backBtn{
     -fx-effect: dropShadow(gaussian, yellow, 32, 0, 0, 4);
@@ -25,5 +28,12 @@
 .backBtn:hover{
     -fx-scale-x:1.02;
     -fx-scale-y:1.02;
+}
+.vbox_topic-label{
+    -fx-text-fill: green;
+    -fx-font-family: "Arial, sans-serif";
+    -fx-font-weight: bold;
+    -fx-font-size:24;
+    -fx-padding: 8;
 }
 

@@ -8,6 +8,15 @@ public class Card {
     private String pronounce;
     private String explain;
     private boolean isLearnWord;
+
+    public boolean isLearnWord() {
+        return isLearnWord;
+    }
+
+    public void setLearnWord(boolean learnWord) {
+        isLearnWord = learnWord;
+    }
+
     public Card(String word , String example , String pronounce , String explain , boolean isLearnWord) {
         this.word = word;
         this.example = example;

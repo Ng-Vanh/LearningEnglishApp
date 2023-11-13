@@ -1,16 +1,19 @@
 package com.example.dictionaryenvi;
 
+import com.backend.Connection.UserDataAccess;
+import com.backend.User.User;
 import javafx.animation.FadeTransition;
+import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.Dialog;
-import javafx.scene.control.Label;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
@@ -20,6 +23,7 @@ import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import static com.example.dictionaryenvi.Login.currentUser;
 
@@ -82,7 +86,7 @@ public class HomePage {
         dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
 
         // Tạo hiệu ứng Fade cho Dialog
-        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(1.5), dialog.getDialogPane());
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), dialog.getDialogPane());
         fadeTransition.setFromValue(0.0);
         fadeTransition.setToValue(1.0);
         fadeTransition.play();
@@ -121,5 +125,79 @@ public class HomePage {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void showRanking(MouseEvent mouseEvent) {
+        Dialog<Void> dialog = new Dialog<>();
+        dialog.setTitle("Ranking");
+
+        ButtonType closeButtonType = new ButtonType("Close", ButtonBar.ButtonData.OK_DONE);
+        dialog.getDialogPane().getButtonTypes().add(closeButtonType);
+        String cssFile = getClass().getResource("HomePage/Ranking.css").toExternalForm();
+        dialog.getDialogPane().getStylesheets().add(cssFile);
+        dialog.getDialogPane().setMinWidth(456);
+        String myUsername = currentUser.getUsername();
+
+
+        ArrayList<User> dataUsers = UserDataAccess.getInstance().selectAll();
+        ObservableList<User> userList = FXCollections.observableArrayList();
+        TableView<User> tableView = new TableView<>();
+        TableColumn<User, Integer> rankCol = new TableColumn<>("Rank");
+        rankCol.setCellValueFactory(cellData -> new ReadOnlyObjectWrapper<>(tableView.getItems().indexOf(cellData.getValue()) + 1));
+        TableColumn<User, String> firstNameCol = new TableColumn<>("First Name");
+        firstNameCol.setCellValueFactory(new PropertyValueFactory<User, String>("firstName"));
+
+        TableColumn<User, String> lastNameCol = new TableColumn<>("Last Name");
+        lastNameCol.setCellValueFactory(new PropertyValueFactory<User, String>("lastName"));
+
+        TableColumn<User, String> usernameCol = new TableColumn<>("Username");
+        usernameCol.setCellValueFactory(new PropertyValueFactory<User, String>("username"));
+
+
+        TableColumn<User, Integer> scoreGame1Col = new TableColumn<>("Score Game 1");
+        scoreGame1Col.setCellValueFactory(new PropertyValueFactory<User, Integer>("scoreGame1"));
+
+        TableColumn<User, Integer> scoreGame2Col = new TableColumn<>("Score Game 2");
+        scoreGame2Col.setCellValueFactory(new PropertyValueFactory<User, Integer>("scoreGame2"));
+
+        tableView.getColumns().addAll(rankCol,usernameCol, firstNameCol, lastNameCol, scoreGame1Col, scoreGame2Col);
+        userList.addAll(dataUsers);
+
+        tableView.getColumns().remove(firstNameCol);
+        tableView.getColumns().remove(lastNameCol);
+
+        TableColumn<User, String> fullNameCol = new TableColumn<>("Full Name");
+        fullNameCol.setCellValueFactory(cellData -> {
+            User user = cellData.getValue();
+            String fullName = user.getFirstName() + " " + user.getLastName();
+            return new ReadOnlyObjectWrapper<>(fullName);
+        });
+
+        tableView.getColumns().add(2, fullNameCol);
+        tableView.setItems(userList);
+
+        tableView.setRowFactory(tv -> new TableRow<User>() {
+            @Override
+            protected void updateItem(User user, boolean empty) {
+                super.updateItem(user, empty);
+
+                if (user == null || user.getUsername() == null) {
+                    return;
+                }
+
+                if (user.getUsername().equals(myUsername)) {
+                    setStyle("-fx-background-color: linear-gradient(to right, yellow , #F93535);");
+                }
+            }
+        });
+
+        VBox vBox = new VBox(tableView);
+        dialog.getDialogPane().setContent(vBox);
+        dialog.initStyle(StageStyle.UNDECORATED);
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), dialog.getDialogPane());
+        fadeTransition.setFromValue(0.0);
+        fadeTransition.setToValue(1.0);
+        fadeTransition.play();
+        dialog.showAndWait();
     }
 }

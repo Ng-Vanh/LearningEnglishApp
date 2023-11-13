@@ -89,5 +89,13 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Label>
+        <ImageView fx:id="rankBtn" fitHeight="53.0" fitWidth="42.0" layoutX="891.0" layoutY="66.0" onMouseClicked="#showRanking" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/trophy.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
     </children>
 </AnchorPane>

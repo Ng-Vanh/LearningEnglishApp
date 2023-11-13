@@ -438,4 +438,8 @@ public class MainDictionary {
         });
         translate(textEn);
     }
+
+    public void goToGoogleTranslate(MouseEvent mouseEvent) {
+        System.out.println("Go to Google Translate!!!");
+    }
 }

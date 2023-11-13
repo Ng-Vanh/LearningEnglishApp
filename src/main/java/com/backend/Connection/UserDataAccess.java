@@ -4,6 +4,7 @@ import com.backend.User.User;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 import static com.backend.Connection.ConnectDatabase.tableUser;
 
@@ -203,7 +204,32 @@ public class UserDataAccess implements IDataAccess<User> {
 
     @Override
     public ArrayList<User> selectAll() {
-        return null;
+        ArrayList<User> result = new ArrayList<User>();
+        try {
+            Connection connection = connectDatabase.getConnection();
+            String query = "SELECT *, (scoregame1 + scoregame2) as total FROM " + tableUser
+                    + " ORDER BY total DESC, firstname ASC";
+
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                String userName = resultSet.getString("username");
+                String password = resultSet.getString("userpassword");
+                String fName = resultSet.getString("firstname");
+                String lName = resultSet.getString("lastname");
+                int score1 = resultSet.getInt("scoregame1");
+                int score2 = resultSet.getInt("scoregame2");
+                result.add(new User(fName, lName, userName, password, score1, score2));
+            }
+
+            connectDatabase.closeConnection(connection);
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
     }
 
 }

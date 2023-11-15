@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@MainDict.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.MainDictionary">
+   <children>
+      <Label layoutX="394.0" layoutY="36.0" prefHeight="48.0" prefWidth="206.0" style="-fx-font-style: italic; -fx-font-weight: 700;" styleClass="title__label" text=" DictionaryEn-Vi" textFill="#282a35">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="searchImage" fitHeight="124.0" fitWidth="136.0" layoutX="693.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/search.gif" />
+         </image>
+      </ImageView>
+      <TextField fx:id="wordTranslate" layoutX="264.0" layoutY="100.0" onKeyReleased="#getSuggestListWord" prefHeight="42.0" prefWidth="487.0" promptText="Enter the word" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="663.0" layoutY="105.0" mnemonicParsing="false" onAction="#clickTranslate" prefHeight="32.0" prefWidth="82.0" styleClass="translate_button" text="Translate" textFill="#04033b">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DisplacementMap>
+               <mapData>
+                  <FloatMap />
+               </mapData>
+            </DisplacementMap>
+         </effect>
+      </Button>
+      <Label layoutX="75.0" layoutY="104.0" prefHeight="35.0" prefWidth="76.0" text="Suggest" textAlignment="CENTER" textFill="#282a35">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <WebView fx:id="showMean" layoutX="260.0" layoutY="162.0" prefHeight="373.0" prefWidth="496.0" />
+      <ListView fx:id="suggestListWords" layoutX="22.0" layoutY="162.0" prefHeight="373.0" prefWidth="200.0" styleClass="listView" />
+      <Button fx:id="pronounceBtn" layoutX="700.0" layoutY="161.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="showFavoriteListWord" layoutX="864.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickFavoriteListWord" prefHeight="48.0" prefWidth="65.0" styleClass="special_button" text="FavoriteWords" textAlignment="CENTER" textFill="#1b0505" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="favoriteBtn" layoutX="260.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickLikeWord" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: white;" styleClass="special_button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="historyBtn" layoutX="789.0" layoutY="91.0" mnemonicParsing="false" onAction="#clickHistory" prefHeight="48.0" prefWidth="65.0" styleClass="special_button" text="History">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ListView fx:id="listSpecialWord" layoutX="788.0" layoutY="162.0" prefHeight="373.0" prefWidth="152.0" styleClass="listView" />
+      <ImageView fx:id="goToHomeBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToHome">
+         <image>
+            <Image url="@image/BackBtn.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="97.0" layoutX="14.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/book.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="removeBtn" fitHeight="30.0" fitWidth="30.0" layoutX="715.0" layoutY="491.0" onMouseClicked="#removeWord" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@image/bin.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="addNewWordBtn" fitHeight="24.0" fitWidth="22.0" layoutX="635.0" layoutY="111.0" onMouseClicked="#clickAddNewWord" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/add.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="updateWordBtn" fitHeight="30.0" fitWidth="30.0" layoutX="712.0" layoutY="441.0" onMouseClicked="#clickUpdateWord" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@image/pencil.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="874.0" layoutY="14.0" onMouseClicked="#goToGoogleTranslate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/language.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</Pane>

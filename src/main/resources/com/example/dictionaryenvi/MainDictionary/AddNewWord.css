@@ -1,0 +1,21 @@
+.dialog-pane .header-panel {
+    -fx-background-color: rgba(5,255,10,0.3);
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-font-size: 18px;
+}
+
+.dialog-pane .content {
+    -fx-background-color: white;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-cursor: hand;
+}
+.dialog-pane .button-bar .button:hover{
+    -fx-background-color: #FF5733;
+    -fx-cursor: hand;
+}

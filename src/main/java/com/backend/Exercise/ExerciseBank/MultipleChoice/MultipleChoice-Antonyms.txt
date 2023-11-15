@@ -1,0 +1,287 @@
+{
+"question": "What is the antonym for 'Benevolent'?",
+"options": {"A": "Malevolent", "B": "Kind", "C": "Generous", "D": "Altruistic"},
+"correctAnswer": "B",
+"explanation": "A: 'Malevolent' means having or showing a wish to do evil. B: 'Kind' means having a gentle nature. C: 'Generous' means showing a readiness to give more. D: 'Altruistic' means showing a selfless concern for others."
+}
+
+{
+"question": "What is the antonym for 'Opaque'?",
+"options": {"A": "Clear", "B": "Foggy", "C": "Translucent", "D": "Murky"},
+"correctAnswer": "D",
+"explanation": "A: 'Clear' means easily seen through. B: 'Foggy' means filled or abounding with fog. C: 'Translucent' means allowing light to pass through. D: 'Murky' means dark and gloomy, not transparent."
+}
+
+{
+"question": "What is the antonym for 'Loquacious'?",
+"options": {"A": "Talkative", "B": "Reserved", "C": "Chatty", "D": "Garrulous"},
+"correctAnswer": "B",
+"explanation": "A: 'Talkative' means inclined to talk a lot. B: 'Reserved' means slow to reveal one's emotions or thoughts. C: 'Chatty' means fond of chatting. D: 'Garrulous' means excessively talkative, especially on trivial matters."
+}
+
+{
+"question": "What is the antonym for 'Voracious'?",
+"options": {"A": "Hungry", "B": "Ravenous", "C": "Moderate", "D": "Insatiable"},
+"correctAnswer": "C",
+"explanation": "A: 'Hungry' means feeling or showing the need for food. B: 'Ravenous' means extremely hungry. C: 'Moderate' means avoiding extremes. D: 'Insatiable' means impossible to satisfy."
+}
+
+{
+"question": "What is the antonym for 'Ephemeral'?",
+"options": {"A": "Temporary", "B": "Transient", "C": "Enduring", "D": "Fleeting"},
+"correctAnswer": "C",
+"explanation": "A: 'Temporary' means lasting for only a limited time. B: 'Transient' means lasting only for a short time. C: 'Enduring' means lasting over a long period. D: 'Fleeting' means lasting for a very short time."
+}
+
+{
+"question": "What is the antonym for 'Ubiquitous'?",
+"options": {"A": "Omnipresent", "B": "Pervasive", "C": "Rare", "D": "Widespread"},
+"correctAnswer": "C",
+"explanation": "A: 'Omnipresent' means present everywhere. B: 'Pervasive' means spreading widely. C: 'Rare' means not occurring very often. D: 'Widespread' means found or distributed over a large area or number of people."
+}
+
+{
+"question": "What is the antonym for 'Malleable'?",
+"options": {"A": "Adaptable", "B": "Flexible", "C": "Rigid", "D": "Pliable"},
+"correctAnswer": "C",
+"explanation": "A: 'Adaptable' means able to adjust to new conditions. B: 'Flexible' means capable of bending easily. C: 'Rigid' means not flexible, stiff. D: 'Pliable' means easily bent, flexible."
+}
+
+{
+"question": "What is the antonym for 'Zenith'?",
+"options": {"A": "Apex", "B": "Summit", "C": "Nadir", "D": "Peak"},
+"correctAnswer": "C",
+"explanation": "A: 'Apex' means the highest point. B: 'Summit' means the highest point of a hill or mountain. C: 'Nadir' means the lowest point. D: 'Peak' means the pointed top of a mountain."
+}
+
+{
+"question": "What is the antonym for 'Austere'?",
+"options": {"A": "Simple", "B": "Plain", "C": "Lavish", "D": "Spartan"},
+"correctAnswer": "C",
+"explanation": "A: 'Simple' means easy to understand or do. B: 'Plain' means not decorated or elaborate. C: 'Lavish' means characterized by extravagance. D: 'Spartan' means showing indifference to comfort or luxury."
+}
+
+{
+"question": "What is the antonym for 'Cacophony'?",
+"options": {"A": "Harmony", "B": "Din", "C": "Discord", "D": "Clamor"},
+"correctAnswer": "A",
+"explanation": "A: 'Harmony' means a pleasing arrangement of parts. B: 'Din' means a loud, unpleasant noise. C: 'Discord' means lack of harmony. D: 'Clamor' means a loud and confused noise."
+}
+
+{
+"question": "What is the antonym for 'Serene'?",
+"options": {"A": "Calm", "B": "Tranquil", "C": "Turbulent", "D": "Placid"},
+"correctAnswer": "C",
+"explanation": "A: 'Calm' means peaceful and undisturbed. B: 'Tranquil' means free from disturbance. C: 'Turbulent' means characterized by conflict or disorder. D: 'Placid' means pleasantly calm or peaceful."
+}
+
+{
+"question": "What is the antonym for 'Lethargic'?",
+"options": {"A": "Sluggish", "B": "Energetic", "C": "Torpid", "D": "Indolent"},
+"correctAnswer": "B",
+"explanation": "A: 'Sluggish' means slow-moving or inactive. B: 'Energetic' means showing enthusiasm or vitality. C: 'Torpid' means mentally or physically inactive. D: 'Indolent' means wanting to avoid activity or exertion."
+}
+
+{
+"question": "What is the antonym for 'Candid'?",
+"options": {"A": "Frank", "B": "Open", "C": "Reserved", "D": "Sincere"},
+"correctAnswer": "C",
+"explanation": "A: 'Frank' means open, honest, and direct in speech. B: 'Open' means not closed or blocked up. C: 'Reserved' means slow to reveal one's emotions or thoughts. D: 'Sincere' means free from pretense or deceit; truthful."
+}
+
+{
+"question": "What is the antonym for 'Exuberant'?",
+"options": {"A": "Vibrant", "B": "Animated", "C": "Reserved", "D": "Lively"},
+"correctAnswer": "C",
+"explanation": "A: 'Vibrant' means full of energy and enthusiasm. B: 'Animated' means full of life or excitement. C: 'Reserved' means slow to reveal one's emotions or thoughts. D: 'Lively' means full of life and energy."
+}
+
+{
+"question": "What is the antonym for 'Debilitate'?",
+"options": {"A": "Weaken", "B": "Empower", "C": "Enervate", "D": "Undermine"},
+"correctAnswer": "B",
+"explanation": "A: 'Weaken' means to make or become weak. B: 'Empower' means to give power or authority to. C: 'Enervate' means to cause someone to feel drained of energy. D: 'Undermine' means to damage or weaken gradually."
+}
+
+{
+"question": "What is the antonym for 'Immutable'?",
+"options": {"A": "Changeable", "B": "Constant", "C": "Stable", "D": "Invariable"},
+"correctAnswer": "A",
+"explanation": "A: 'Changeable' means capable of or prone to change. B: 'Constant' means occurring continuously over a period of time. C: 'Stable' means not likely to change or fail. D: 'Invariable' means never changing."
+}
+
+{
+"question": "What is the antonym for 'Pernicious'?",
+"options": {"A": "Harmful", "B": "Innocuous", "C": "Malicious", "D": "Destructive"},
+"correctAnswer": "B",
+"explanation": "A: 'Harmful' means causing or likely to cause harm. B: 'Innocuous' means not harmful or offensive. C: 'Malicious' means intending to do harm. D: 'Destructive' means causing great and irreparable damage."
+}
+
+{
+"question": "What is the antonym for 'Dubious'?",
+"options": {"A": "Skeptical", "B": "Certain", "C": "Unsure", "D": "Ambiguous"},
+"correctAnswer": "B",
+"explanation": "A: 'Skeptical' means not easily convinced. B: 'Certain' means known for sure. C: 'Unsure' means not certain or confident. D: 'Ambiguous' means having a double meaning or unclear."
+}
+
+{
+"question": "What is the antonym for 'Ineffable'?",
+"options": {"A": "Indescribable", "B": "Expressive", "C": "Unutterable", "D": "Unspeakable"},
+"correctAnswer": "B",
+"explanation": "A: 'Indescribable' means too unusual or extreme to be expressed in words. B: 'Expressive' means effectively conveying thought or feeling. C: 'Unutterable' means too great or extreme to be expressed. D: 'Unspeakable' means too great or extreme to be spoken about."
+}
+
+{
+"question": "What is the antonym for 'Ubiquitous'?",
+"options": {"A": "Omnipresent", "B": "Pervasive", "C": "Scarce", "D": "Widespread"},
+"correctAnswer": "C",
+"explanation": "A: 'Omnipresent' means present everywhere. B: 'Pervasive' means spreading widely. C: 'Scarce' means in short supply. D: 'Widespread' means found or distributed over a large area or number of people."
+}
+
+
+{
+"question": "What is the antonym for 'Jubilant'?",
+"options": {"A": "Joyful", "B": "Exuberant", "C": "Melancholy", "D": "Elated"},
+"correctAnswer": "C",
+"explanation": "A: 'Joyful' means feeling, expressing, or causing great pleasure. B: 'Exuberant' means filled with lively energy and excitement. C: 'Melancholy' means a feeling of deep sadness. D: 'Elated' means extremely happy and excited."
+}
+
+{
+"question": "What is the antonym for 'Indolent'?",
+"options": {"A": "Lazy", "B": "Idle", "C": "Active", "D": "Leisurely"},
+"correctAnswer": "C",
+"explanation": "A: 'Lazy' means unwilling to work or use energy. B: 'Idle' means avoiding work; lazy. C: 'Active' means engaging or ready to engage in physically energetic pursuits. D: 'Leisurely' means acting or done without hurry, unhurried."
+}
+
+{
+"question": "What is the antonym for 'Exacerbate'?",
+"options": {"A": "Worsen", "B": "Aggravate", "C": "Alleviate", "D": "Intensify"},
+"correctAnswer": "C",
+"explanation": "A: 'Worsen' means to make or become worse. B: 'Aggravate' means to make a situation worse or more serious. C: 'Alleviate' means to make a situation more bearable. D: 'Intensify' means to become or make more intense."
+}
+
+{
+"question": "What is the antonym for 'Sycophant'?",
+"options": {"A": "Flatterer", "B": "Toady", "C": "Iconoclast", "D": "Adulator"},
+"correctAnswer": "C",
+"explanation": "A: 'Flatterer' means a person who lavishes praise. B: 'Toady' means a person who behaves obsequiously to someone important. C: 'Iconoclast' means a person who attacks or criticizes established beliefs. D: 'Adulator' means excessive flattery or praise."
+}
+
+{
+"question": "What is the antonym for 'Ubiquitous'?",
+"options": {"A": "Omnipresent", "B": "Limited", "C": "Pervasive", "D": "Widespread"},
+"correctAnswer": "B",
+"explanation": "A: 'Omnipresent' means present everywhere. B: 'Limited' means restricted in quantity. C: 'Pervasive' means spreading widely. D: 'Widespread' means found or distributed over a large area or number of people."
+}
+
+{
+"question": "What is the antonym for 'Ineffable'?",
+"options": {"A": "Unutterable", "B": "Expressive", "C": "Indescribable", "D": "Unspeakable"},
+"correctAnswer": "B",
+"explanation": "A: 'Unutterable' means too great or extreme to be expressed. B: 'Expressive' means effectively conveying thought or feeling. C: 'Indescribable' means too unusual or extreme to be expressed in words. D: 'Unspeakable' means too great or extreme to be spoken about."
+}
+
+{
+"question": "What is the antonym for 'Resilient'?",
+"options": {"A": "Flexible", "B": "Sturdy", "C": "Brittle", "D": "Tough"},
+"correctAnswer": "C",
+"explanation": "A: 'Flexible' means capable of bending easily. B: 'Sturdy' means strongly built or made. C: 'Brittle' means easily broken, fragile. D: 'Tough' means strong and durable; not easily broken or cut."
+}
+
+{
+"question": "What is the antonym for 'Revere'?",
+"options": {"A": "Admire", "B": "Respect", "C": "Despise", "D": "Honor"},
+"correctAnswer": "C",
+"explanation": "A: 'Admire' means to regard with respect or warm approval. B: 'Respect' means a feeling of deep admiration. C: 'Despise' means to feel contempt or a deep repugnance for. D: 'Honor' means to regard with great respect."
+}
+
+{
+"question": "What is the antonym for 'Obliterate'?",
+"options": {"A": "Erase", "B": "Destroy", "C": "Preserve", "D": "Annihilate"},
+"correctAnswer": "C",
+"explanation": "A: 'Erase' means to remove from existence. B: 'Destroy' means to put an end to the existence of. C: 'Preserve' means to maintain in its original or existing state. D: 'Annihilate' means to destroy utterly; obliterate."
+}
+
+{
+"question": "What is the antonym for 'Verbose'?",
+"options": {"A": "Wordy", "B": "Concise", "C": "Loquacious", "D": "Garrulous"},
+"correctAnswer": "B",
+"explanation": "A: 'Wordy' means using or expressed in too many words. B: 'Concise' means giving much information clearly and in a few words. C: 'Loquacious' means very talkative. D: 'Garrulous' means excessively talkative, especially on trivial matters."
+}
+
+{
+"question": "What is the antonym for 'Munificent'?",
+"options": {"A": "Generous", "B": "Stingy", "C": "Bountiful", "D": "Liberal"},
+"correctAnswer": "B",
+"explanation": "A: 'Generous' means showing a readiness to give more. B: 'Stingy' means unwilling to give or spend. C: 'Bountiful' means giving generously. D: 'Liberal' means giving freely."
+}
+
+{
+"question": "What is the antonym for 'Mitigate'?",
+"options": {"A": "Lessen", "B": "Aggravate", "C": "Alleviate", "D": "Moderate"},
+"correctAnswer": "B",
+"explanation": "A: 'Lessen' means to make or become less. B: 'Aggravate' means to make a situation worse or more serious. C: 'Alleviate' means to make a situation more bearable. D: 'Moderate' means avoiding extremes."
+}
+
+{
+"question": "What is the antonym for 'Reclusive'?",
+"options": {"A": "Isolated", "B": "Sociable", "C": "Withdrawn", "D": "Secluded"},
+"correctAnswer": "B",
+"explanation": "A: 'Isolated' means far away from other places, buildings, or people. B: 'Sociable' means willing to talk and engage in activities with others. C: 'Withdrawn' means not wanting to communicate with other people. D: 'Secluded' means hidden from general view or use."
+}
+
+{
+"question": "What is the antonym for 'Voracious'?",
+"options": {"A": "Hungry", "B": "Moderate", "C": "Insatiable", "D": "Ravenous"},
+"correctAnswer": "B",
+"explanation": "A: 'Hungry' means feeling or showing the need for food. B: 'Moderate' means avoiding extremes. C: 'Insatiable' means impossible to satisfy. D: 'Ravenous' means extremely hungry."
+}
+
+{
+"question": "What is the antonym for 'Convoluted'?",
+"options": {"A": "Complex", "B": "Straightforward", "C": "Intricate", "D": "Complicated"},
+"correctAnswer": "B",
+"explanation": "A: 'Complex' means consisting of many different and connected parts. B: 'Straightforward' means direct and clear; easy to understand. C: 'Intricate' means very detailed and complicated. D: 'Complicated' means consisting of many interconnecting parts or elements."
+}
+
+{
+"question": "What is the antonym for 'Sycophant'?",
+"options": {"A": "Flatterer", "B": "Iconoclast", "C": "Maverick", "D": "Toady"},
+"correctAnswer": "C",
+"explanation": "A: 'Flatterer' means a person who lavishes praise. B: 'Iconoclast' means a person who attacks or criticizes established beliefs. C: 'Maverick' means an independent-minded person. D: 'Toady' means a person who behaves obsequiously to someone important."
+}
+
+{
+"question": "What is the antonym for 'Ephemeral'?",
+"options": {"A": "Transient", "B": "Enduring", "C": "Fleeting", "D": "Permanent"},
+"correctAnswer": "B",
+"explanation": "A: 'Transient' means lasting only for a short time. B: 'Enduring' means lasting over a long period. C: 'Fleeting' means lasting for a very short time. D: 'Permanent' means lasting or intended to last indefinitely."
+}
+
+{
+"question": "What is the antonym for 'Ostentatious'?",
+"options": {"A": "Flashy", "B": "Modest", "C": "Extravagant", "D": "Showy"},
+"correctAnswer": "B",
+"explanation": "A: 'Flashy' means attracting attention because of their stylishness. B: 'Modest' means unassuming or moderate in the estimation of one's abilities or achievements. C: 'Extravagant' means lacking restraint in spending money or using resources. D: 'Showy' means designed to attract attention or admiration."
+}
+
+{
+"question": "What is the antonym for 'Sycophant'?",
+"options": {"A": "Flatterer", "B": "Critic", "C": "Maverick", "D": "Toady"},
+"correctAnswer": "B",
+"explanation": "A: 'Flatterer' means a person who lavishes praise. B: 'Critic' means a person who judges the merits of literary, artistic, or musical works. C: 'Maverick' means an independent-minded person. D: 'Toady' means a person who behaves obsequiously to someone important."
+}
+
+{
+"question": "What is the antonym for 'Ambiguous'?",
+"options": {"A": "Vague", "B": "Clear", "C": "Dubious", "D": "Uncertain"},
+"correctAnswer": "B",
+"explanation": "A: 'Vague' means of uncertain, indefinite, or unclear character or meaning. B: 'Clear' means easy to perceive, understand, or interpret. C: 'Dubious' means hesitating or doubting. D: 'Uncertain' means not able to be relied on; not known or definite."
+}
+
+{
+"question": "What is the antonym for 'Reticent'?",
+"options": {"A": "Reserved", "B": "Talkative", "C": "Taciturn", "D": "Silent"},
+"correctAnswer": "B",
+"explanation": "A: 'Reserved' means slow to reveal one's emotions or thoughts. B: 'Talkative' means inclined to talk a lot. C: 'Taciturn' means reserved or uncommunicative in speech. D: 'Silent' means not making or accompanied by any sound."
+}

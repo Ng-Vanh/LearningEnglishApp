@@ -1,0 +1,42 @@
+
+.text-input-dialog {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+}
+
+.text-input-dialog .header-panel {
+    -fx-background-color: rgba(5,255,10,0.3);
+}
+
+.text-input-dialog .header-panel .header-label {
+    -fx-text-fill: #fff; /* Màu chữ cho đầu đề */
+    -fx-font-size: 16px; /* Kích thước chữ cho đầu đề */
+}
+
+.text-input-dialog .content {
+    -fx-padding: 12px; /* Khoảng cách lề nội dung */
+    -fx-font-weight: bold;
+}
+
+.text-input-dialog .content .text-input {
+    -fx-font-size: 14px; /* Kích thước chữ cho ô nhập liệu */
+    -fx-pref-width: 300px; /* Độ rộng ứng với nội dung */
+    -fx-pref-height: 40px; /* Chiều cao ứng với nội dung */
+}
+
+.text-input-dialog .content .text-input .text {
+    -fx-prompt-text-fill: #aaa; /* Màu chữ gợi ý */
+    -fx-background-color: #f2f2f2; /* Màu nền ô nhập liệu */
+}
+
+.dialog-pane .button-bar .button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: darkgreen;
+    -fx-cursor: hand;
+}

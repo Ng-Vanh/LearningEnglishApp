@@ -1,0 +1,26 @@
+.dialog-pane {
+    -fx-background-color: #f0f0f0; /* Màu nền của cửa sổ pop-up */
+    -fx-padding: 20;
+    -fx-border-color: green;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-effect: innershadow(gaussian, rgba(0, 255, 0, 0.5), 20, 0, 0, 3);
+}
+
+.dialog-pane .label {
+    -fx-font-size: 16px;
+    -fx-font-weight:bold;
+}
+
+.dialog-pane .button {
+    -fx-background-color: green;
+    -fx-text-fill: #fff;
+    -fx-alignment: center;
+    -fx-cursor:hand;
+}
+.dialog-pane .button:hover{
+    -fx-opacity:0.7;
+}
+.dialog-pane .button:window-decorate-button {
+    -fx-alignment: center;
+}

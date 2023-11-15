@@ -1,32 +1,22 @@
-package com.example.dictionaryenvi;
+package com.example.dictionaryenvi.Account;
 
-import com.backend.Connection.UserDataAccess;
 import com.backend.User.User;
-import javafx.animation.PauseTransition;
-import javafx.event.ActionEvent;
+import com.example.dictionaryenvi.Application;
+import com.example.dictionaryenvi.UserInformation;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.VBox;
-import javafx.stage.Modality;
-import javafx.stage.Popup;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import javafx.scene.effect.GaussianBlur;
-import javafx.util.Duration;
 
 import java.io.IOException;
-import java.sql.SQLOutput;
+import java.security.NoSuchAlgorithmException;
 
 public class Login extends UserInformation {
     public static User currentUser;
@@ -38,6 +28,7 @@ public class Login extends UserInformation {
     public AnchorPane mainPane;
     @FXML
     private Button loginBtn;
+
     public void initialize() {
         username.setFocusTraversable(true);
         username.setOnKeyPressed(event -> {
@@ -55,12 +46,14 @@ public class Login extends UserInformation {
             clickLogin();
         });
     }
+
     public void clickLogin() {
         String usernameStr = username.getText();
         String passwordStr = password.getText();
-        User user = new User(usernameStr , passwordStr);
+        passwordStr = Hashing.hashWithSHA256(passwordStr);
+        User user = new User(usernameStr, passwordStr);
         boolean isCorrectAccount = userDataAccess.isCorrectAccount(user);
-        if(isCorrectAccount && !usernameStr.isEmpty() && !passwordStr.isEmpty()) {
+        if (isCorrectAccount && !usernameStr.isEmpty() && !passwordStr.isEmpty()) {
             currentUser = userDataAccess.getUserInfo(usernameStr);
             FXMLLoader loader = new FXMLLoader(Application.class.getResource("HomePage/HomePage.fxml"));
             try {
@@ -73,8 +66,7 @@ public class Login extends UserInformation {
                 throw new RuntimeException(e);
             }
             System.out.println(usernameStr + " " + passwordStr);
-        }
-        else {
+        } else {
             username.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             password.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             loginFail1.setVisible(true);
@@ -127,10 +119,10 @@ public class Login extends UserInformation {
     }
 
     public void goToSignUp(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("SignUp/SignUp.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Account/SignUp/FXML/SignUp.fxml"));
         try {
             Parent root = loader.load();
-            Scene scene =new Scene(root);
+            Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.setScene(scene);
             stage.show();
@@ -140,10 +132,10 @@ public class Login extends UserInformation {
     }
 
     public void goToResetPassword(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("ResetPassword/ResetPassword.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Account/ResetPassword/FXML/ResetPassword.fxml"));
         try {
             Parent root = loader.load();
-            Scene scene =new Scene(root);
+            Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.setScene(scene);
             stage.show();

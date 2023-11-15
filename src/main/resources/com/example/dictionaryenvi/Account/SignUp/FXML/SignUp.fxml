@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="576.0" prefWidth="960.0" stylesheets="@SignUp.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.SignUp">
+<AnchorPane fx:id="mainPane" prefHeight="576.0" prefWidth="960.0" stylesheets="@../CSS/SignUp.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Account.SignUp">
    <children>
       <ImageView fitHeight="576.0" fitWidth="960.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@login_background.png" />
+            <Image url="@../Image/login_background.png" />
          </image>
       </ImageView>
       <Label layoutX="210.0" layoutY="61.0" style="-fx-font-weight: bold" text="Sign Up">
@@ -46,7 +46,7 @@
       </Label>
       <ImageView fx:id="backImg" onMouseClicked="#backToLogIn" fitHeight="42" fitWidth="100" layoutX="42.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@back.png" />
+            <Image url="@../Image/back.png" />
          </image>
       </ImageView>
    </children>

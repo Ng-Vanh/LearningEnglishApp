@@ -1,7 +1,6 @@
-package com.example.dictionaryenvi;
+package com.example.dictionaryenvi.Learning;
 import com.backend.Connection.LearnedDataAccess;
 import com.backend.OnlineDictionary.Utils.Audio;
-import com.backend.User.User;
 import com.backend.User.UserLearnWord;
 import javafx.animation.ParallelTransition;
 import javafx.animation.RotateTransition;
@@ -128,32 +127,45 @@ public class Learn {
         starImg1.setOnMouseClicked(event -> {
             event.consume();
             processLearnWord();
+            updateLearnWordWhenClose();
         });
         starImg2.setOnMouseClicked(event -> {
             event.consume();
             processLearnWord();
-            Stage currentStage = (Stage) frontFlashCard.getScene().getWindow();
-            currentStage.setOnCloseRequest(new javafx.event.EventHandler<WindowEvent>() {
-                @Override
-                public void handle(WindowEvent event) {
-                    List<UserLearnWord> newLearnWordList = new ArrayList<UserLearnWord>();
-                    for (Card card : cardList) {
-                        String wordStr = card.getWord();
-                        boolean isLearnWord = card.isLearnWord();
-                        if(!learnedListWord.contains(wordStr) && isLearnWord) {
-                            UserLearnWord newUserLearnWord = new UserLearnWord();
-                            newUserLearnWord.setUsername(currentUserLearnWord.getUsername());
-                            newUserLearnWord.setTopic(currentUserLearnWord.getTopic());
-                            newUserLearnWord.setWord(wordStr);
-                            newLearnWordList.add(newUserLearnWord);
-                        }
-                    }
-                    learnedDataAccess.insertAll(newLearnWordList);
-                    System.out.println("Learn Word has been updated");
-                }
-            });
+            updateLearnWordWhenClose();
         });
 
+    }
+    public void updateLearnWordWhenClose() {
+        Stage currentStage = (Stage) frontFlashCard.getScene().getWindow();
+        currentStage.setOnCloseRequest(new javafx.event.EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent event) {
+                updateLearnWordToDatabase();
+            }
+        });
+    }
+    public void updateLearnWordToDatabase() {
+        List<UserLearnWord> newLearnWordList = new ArrayList<UserLearnWord>();
+        for (Card card : cardList) {
+            String wordStr = card.getWord();
+            boolean isLearnWord = card.isLearnWord();
+//            System.out.println(wordStr + " " + isLearnWord);
+            if(!learnedListWord.contains(wordStr) && isLearnWord) {
+                UserLearnWord newUserLearnWord = new UserLearnWord();
+                newUserLearnWord.setUsername(currentUserLearnWord.getUsername());
+                newUserLearnWord.setTopic(currentUserLearnWord.getTopic());
+                newUserLearnWord.setWord(wordStr);
+                newLearnWordList.add(newUserLearnWord);
+            }
+        }
+//        for (UserLearnWord userLearnWord : newLearnWordList) {
+//            System.out.println(userLearnWord.getUsername() + "  "
+//                    + userLearnWord.getTopic() + "  "
+//                    + userLearnWord.getWord());
+//        }
+        learnedDataAccess.insertAll(newLearnWordList);
+        System.out.println("Learn Word has been updated");
     }
     public void readExcelFIle(String sheetName) {
         try {
@@ -172,6 +184,7 @@ public class Learn {
                 newUserLearnWord.setWord(wordStr);
                 boolean isLearnWord = learnedListWord.contains(newUserLearnWord);
                 id += 1;
+//                System.out.println(wordStr + " " + isLearnWord);
                 Card card = new Card(wordStr , exampleStr , pronounceStr , explain , isLearnWord);
                 cardList.add(card);
                 hashMap.put(wordStr , id);
@@ -249,9 +262,11 @@ public class Learn {
         mediaPlayer.play();
     }
 
-    public void nextCard(MouseEvent mouseEvent) {
-        this.id += 1;
-        showCard();
+    public void nextCard() {
+        if(this.id < 29) {
+            this.id += 1;
+            showCard();
+        }
     }
 
     public void playAudio() {
@@ -265,10 +280,10 @@ public class Learn {
     public void setImageStar(boolean isLearnWord) {
         String imageResource = "";
         if(isLearnWord) {
-            imageResource = "/com/example/dictionaryenvi/Learn/goldStar.jpg";
+            imageResource = "/com/example/dictionaryenvi/Learn/Image/goldStar.jpg";
         }
         else {
-            imageResource = "/com/example/dictionaryenvi/Learn/grayStar.png";
+            imageResource = "/com/example/dictionaryenvi/Learn/Image/grayStar.png";
         }
         Image image = new Image(getClass().getResource(imageResource).toExternalForm());
         ImageView imageView1 = new ImageView(image);
@@ -292,7 +307,8 @@ public class Learn {
         }
     }
     public void clickBackImg(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("TopicWord/TopicWord.fxml"));
+        updateLearnWordToDatabase();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root);
@@ -323,6 +339,15 @@ public class Learn {
             listViewWordContainer.setVisible(true);
             isShowListWord = true;
         }
+    }
+
+    public void clickKnowThisWord(MouseEvent mouseEvent) {
+        Card card = cardList.get(id);
+        if(!card.isLearnWord()) {
+//            System.out.println(card.getWord());
+            processLearnWord();
+        }
+        nextCard();
     }
 }
 

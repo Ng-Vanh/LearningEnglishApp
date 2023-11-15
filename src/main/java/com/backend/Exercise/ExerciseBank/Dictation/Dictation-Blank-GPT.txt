@@ -1,0 +1,616 @@
+{
+"sentence": "The choreographer seamlessly blended different dance styles to create a unique performance.",
+"sentenceWithBlank": "The choreographer seamlessly blended different dance __________ to create a unique performance.",
+"wordBlank": "styles",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+choreographer+seamlessly+blended+different+dance+styles+to+create+a+unique+performance.&tl=en&client=tw-ob",
+"translation": "Biên đạo đã kết hợp nhuần nhuyễn các phong cách nhảy khác nhau để tạo nên một màn trình diễn độc đáo."
+}
+
+{
+"sentence": "The zoologist observed the behavior of elusive nocturnal animals in the wild.",
+"sentenceWithBlank": "The zoologist observed the behavior of elusive __________ animals in the wild.",
+"wordBlank": "nocturnal",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+zoologist+observed+the+behavior+of+elusive+nocturnal+animals+in+the+wild.&tl=en&client=tw-ob",
+"translation": "Nhà động vật học đã quan sát hành vi của các loài động vật sống về đêm khó nắm bắt trong tự nhiên."
+}
+
+{
+"sentence": "The archaeologist unearthed artifacts that provided insights into ancient civilizations.",
+"sentenceWithBlank": "The archaeologist unearthed __________ that provided insights into ancient civilizations.",
+"wordBlank": "artifacts",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+archaeologist+unearthed+artifacts+that+provided+insights+into+ancient+civilizations.&tl=en&client=tw-ob",
+"translation": "Nhà khảo cổ học đã khai quật được những hiện vật cung cấp cái nhìn sâu sắc về các nền văn minh cổ đại."
+}
+
+{
+"sentence": "The musician composed a mellifluous melody that resonated with the listeners.",
+"sentenceWithBlank": "The musician composed a __________ melody that resonated with the listeners.",
+"wordBlank": "mellifluous",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+musician+composed+a+mellifluous+melody+that+resonated+with+the+listeners.&tl=en&client=tw-ob",
+"translation": "Nhạc sĩ đã sáng tác một giai điệu du dương gây được tiếng vang cho người nghe."
+}
+
+{
+"sentence": "The astronomer observed celestial bodies through a powerful telescope.",
+"sentenceWithBlank": "The __________ observed celestial bodies through a powerful telescope.",
+"wordBlank": "astronomer",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+astronomer+observed+celestial+bodies+through+a+powerful+telescope.&tl=en&client=tw-ob",
+"translation": "Nhà thiên văn học quan sát các thiên thể thông qua một kính viễn vọng mạnh mẽ."
+}
+
+{
+"sentence": "The explorer traversed treacherous terrain in search of hidden artifacts.",
+"sentenceWithBlank": "The explorer traversed __________ terrain in search of hidden artifacts.",
+"wordBlank": "treacherous",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+explorer+traversed+treacherous+terrain+in+search+of+hidden+artifacts.&tl=en&client=tw-ob",
+"translation": "Nhà thám hiểm băng qua địa hình hiểm trở để tìm kiếm những cổ vật ẩn giấu."
+}
+
+{
+"sentence": "The orator delivered a passionate speech that ignited a sense of urgency.",
+"sentenceWithBlank": "The orator delivered a passionate __________ that ignited a sense of urgency.",
+"wordBlank": "speech",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+orator+delivered+a+passionate+speech+that+ignited+a+sense+of+urgency.&tl=en&client=tw-ob",
+"translation": "Nhà hùng biện đã có một bài phát biểu đầy nhiệt huyết khơi dậy cảm giác cấp bách."
+}
+
+{
+"sentence": "The storm wrought havoc on the coastal town.",
+"sentenceWithBlank": "The storm __________ havoc on the coastal town.",
+"wordBlank": "wrought",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+storm+wrought+havoc+on+the+coastal+town.&tl=en&client=tw-ob",
+"translation": "Cơn bão đã tàn phá thị trấn ven biển."
+}
+
+{
+"sentence": "The biologist conducted experiments to unravel the mysteries of genetic inheritance.",
+"sentenceWithBlank": "The biologist conducted experiments to unravel the __________ of genetic inheritance.",
+"wordBlank": "mysteries",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+biologist+conducted+experiments+to+unravel+the+mysteries+of+genetic+inheritance.&tl=en&client=tw-ob",
+"translation": "Nhà sinh vật học đã tiến hành các thí nghiệm để làm sáng tỏ những bí ẩn về sự di truyền."
+}
+
+{
+"sentence": "The poet penned verses that evoked deep emotions in the readers.",
+"sentenceWithBlank": "The poet penned __________ that evoked deep emotions in the readers.",
+"wordBlank": "verses",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+poet+penned+verses+that+evoked+deep+emotions+in+the+readers.&tl=en&client=tw-ob",
+"translation": "Nhà thơ đã viết nên những vần thơ gợi lên những cảm xúc sâu sắc trong lòng người đọc."
+}
+
+{
+"sentence": "The linguist deciphered ancient scripts to unveil forgotten languages.",
+"sentenceWithBlank": "The linguist deciphered __________ scripts to unveil forgotten languages.",
+"wordBlank": "ancient",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+linguist+deciphered+ancient+scripts+to+unveil+forgotten+languages.&tl=en&client=tw-ob",
+"translation": "Nhà ngôn ngữ học đã giải mã các chữ viết cổ để tiết lộ những ngôn ngữ bị lãng quên."
+}
+
+{
+"sentence": "The archaeologist unearthed ancient artifacts that shed light on past civilizations.",
+"sentenceWithBlank": "The archaeologist unearthed __________ artifacts that shed light on past civilizations.",
+"wordBlank": "ancient",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+archaeologist+unearthed+ancient+artifacts+that+shed+light+on+past+civilizations.&tl=en&client=tw-ob",
+"translation": "Nhà khảo cổ học đã khai quật được những hiện vật cổ xưa giúp làm sáng tỏ các nền văn minh trong quá khứ."
+}
+
+{
+"sentence": "The entrepreneur's ingenuity led to the development of cutting-edge technology.",
+"sentenceWithBlank": "The entrepreneur's __________ led to the development of cutting-edge technology.",
+"wordBlank": "ingenuity",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+entrepreneur%27s+ingenuity+led+to+the+development+of+cutting-edge+technology.&tl=en&client=tw-ob",
+"translation": "Sự khéo léo của doanh nhân đã dẫn đến sự phát triển của công nghệ tiên tiến."
+}
+
+{
+"sentence": "The entrepreneur's venture was a pioneering effort in the field of renewable energy.",
+"sentenceWithBlank": "The __________ venture was a pioneering effort in the field of renewable energy.",
+"wordBlank": "entrepreneur's",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+entrepreneur%27s+venture+was+a+pioneering+effort+in+the+field+of+renewable+energy.&tl=en&client=tw-ob",
+"translation": "Liên doanh của doanh nhân này là nỗ lực tiên phong trong lĩnh vực năng lượng tái tạo."
+}
+
+{
+"sentence": "The connoisseur appreciated the subtle nuances of the fine wine.",
+"sentenceWithBlank": "The connoisseur appreciated the subtle __________ of the fine wine.",
+"wordBlank": "nuances",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+connoisseur+appreciated+the+subtle+nuances+of+the+fine+wine.&tl=en&client=tw-ob",
+"translation": "Những người sành rượu đánh giá cao những sắc thái tinh tế của rượu hảo hạng."
+}
+
+{
+"sentence": "The economist analyzed economic trends to predict future market fluctuations.",
+"sentenceWithBlank": "The economist analyzed economic __________ to predict future market fluctuations.",
+"wordBlank": "trends",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+economist+analyzed+economic+trends+to+predict+future+market+fluctuations.&tl=en&client=tw-ob",
+"translation": "Nhà kinh tế học đã phân tích xu hướng kinh tế để dự đoán những biến động của thị trường trong tương lai."
+}
+
+{
+"sentence": "The biologist conducted experiments to unravel the complexities of cellular functions.",
+"sentenceWithBlank": "The biologist conducted experiments to unravel the __________ of cellular functions.",
+"wordBlank": "complexities",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+biologist+conducted+experiments+to+unravel+the+complexities+of+cellular+functions.&tl=en&client=tw-ob",
+"translation": "Nhà sinh vật học đã tiến hành các thí nghiệm để làm sáng tỏ sự phức tạp của các chức năng tế bào."
+}
+
+{
+"sentence": "The scientist conducted an elaborate experiment to test the hypothesis.",
+"sentenceWithBlank": "The scientist conducted an __________ experiment to test the hypothesis.",
+"wordBlank": "elaborate",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+scientist+conducted+an+elaborate+experiment+to+test+the+hypothesis.&tl=en&client=tw-ob",
+"translation": "Nhà khoa học đã tiến hành một thí nghiệm phức tạp để kiểm tra giả thuyết."
+}
+
+{
+"sentence": "The composer orchestrated a symphony that resonated with both critics and audiences.",
+"sentenceWithBlank": "The composer orchestrated a __________ that resonated with both critics and audiences.",
+"wordBlank": "symphony",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+composer+orchestrated+a+symphony+that+resonated+with+both+critics+and+audiences.&tl=en&client=tw-ob",
+"translation": "Nhà soạn nhạc đã dàn dựng một bản giao hưởng gây được tiếng vang với cả giới phê bình và khán giả."
+}
+
+{
+"sentence": "The diplomat navigated delicate negotiations to forge a peace agreement.",
+"sentenceWithBlank": "The diplomat __________ delicate negotiations to forge a peace agreement.",
+"wordBlank": "navigated",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+diplomat+navigated+delicate+negotiations+to+forge+a+peace+agreement.&tl=en&client=tw-ob",
+"translation": "Nhà ngoại giao đã điều hướng các cuộc đàm phán tế nhị để đạt được một thỏa thuận hòa bình."
+}
+
+{
+"sentence": "The teacher's pedagogical methods were innovative and engaging.",
+"sentenceWithBlank": "The teacher's __________ methods were innovative and engaging.",
+"wordBlank": "pedagogical",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+teacher%27s+pedagogical+methods+were+innovative+and+engaging.&tl=en&client=tw-ob",
+"translation": "Phương pháp sư phạm của giáo viên rất sáng tạo và hấp dẫn."
+}
+
+{
+"sentence": "The orator delivered a persuasive speech that captivated the audience.",
+"sentenceWithBlank": "The orator delivered a persuasive __________ that captivated the audience.",
+"wordBlank": "speech",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+orator+delivered+a+persuasive+speech+that+captivated+the+audience.&tl=en&client=tw-ob",
+"translation": "Nhà hùng biện đã có một bài phát biểu thuyết phục khiến khán giả say mê."
+}
+
+{
+"sentence": "The concert was a cacophony of sounds.",
+"sentenceWithBlank": "The __________ was a cacophony of sounds.",
+"wordBlank": "concert",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+concert+was+a+cacophony+of+sounds.&tl=en&client=tw-ob",
+"translation": "Buổi hòa nhạc là một tạp âm của âm thanh."
+}
+
+{
+"sentence": "The art exhibit featured avant-garde paintings and sculptures.",
+"sentenceWithBlank": "The art exhibit featured __________ paintings and sculptures.",
+"wordBlank": "avant-garde",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+art+exhibit+featured+avant-garde+paintings+and+sculptures.&tl=en&client=tw-ob",
+"translation": "Triển lãm nghệ thuật trưng bày các bức tranh và tác phẩm điêu khắc tiên phong."
+}
+
+{
+"sentence": "The journalist's exposé revealed shocking revelations about government corruption.",
+"sentenceWithBlank": "The journalist's __________ revealed shocking revelations about government corruption.",
+"wordBlank": "exposé",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+journalist%27s+expos%C3%A9+revealed+shocking+revelations+about+government+corruption.&tl=en&client=tw-ob",
+"translation": "Bài vạch trần của nhà báo tiết lộ những tiết lộ gây sốc về tình trạng tham nhũng của chính phủ."
+}
+
+{
+"sentence": "The novel's plot was intricate and full of twists.",
+"sentenceWithBlank": "The novel's plot was __________ and full of twists.",
+"wordBlank": "intricate",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+novel%27s+plot+was+intricate+and+full+of+twists.&tl=en&client=tw-ob",
+"translation": "Cốt truyện của cuốn tiểu thuyết rất phức tạp và đầy những khúc mắc."
+}
+
+{
+"sentence": "The mathematician derived an elegant solution to the complex equation.",
+"sentenceWithBlank": "The mathematician derived an __________ solution to the complex equation.",
+"wordBlank": "elegant",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+mathematician+derived+an+elegant+solution+to+the+complex+equation.&tl=en&client=tw-ob",
+"translation": "Nhà toán học đã tìm ra một giải pháp hay cho phương trình phức tạp."
+}
+
+{
+"sentence": "The detective scrutinized the evidence carefully.",
+"sentenceWithBlank": "The detective __________ the evidence carefully.",
+"wordBlank": "scrutinized",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+detective+scrutinized+the+evidence+carefully.&tl=en&client=tw-ob",
+"translation": "Thám tử xem xét kỹ lưỡng các bằng chứng."
+}
+
+{
+"sentence": "The illusionist mesmerized the audience with his sleight of hand tricks.",
+"sentenceWithBlank": "The illusionist mesmerized the audience with his __________ of hand tricks.",
+"wordBlank": "sleight",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+illusionist+mesmerized+the+audience+with+his+sleight+of+hand+tricks.&tl=en&client=tw-ob",
+"translation": "Nhà ảo thuật đã mê hoặc khán giả bằng những thủ thuật điêu luyện bằng tay của mình."
+}
+
+{
+"sentence": "The playwright crafted a compelling narrative that kept the audience on the edge of their seats.",
+"sentenceWithBlank": "The playwright crafted a __________ narrative that kept the audience on the edge of their seats.",
+"wordBlank": "compelling",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+playwright+crafted+a+compelling+narrative+that+kept+the+audience+on+the+edge+of+their+seats.&tl=en&client=tw-ob",
+"translation": "Nhà viết kịch đã tạo ra một câu chuyện hấp dẫn khiến khán giả đứng ngồi không yên."
+}
+
+{
+"sentence": "The philosopher's discourse on morality sparked intense debates among scholars.",
+"sentenceWithBlank": "The philosopher's __________ on morality sparked intense debates among scholars.",
+"wordBlank": "discourse",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+philosopher%27s+discourse+on+morality+sparked+intense+debates+among+scholars.&tl=en&client=tw-ob",
+"translation": "Diễn ngôn của triết gia về đạo đức đã gây ra những cuộc tranh luận gay gắt giữa các học giả."
+}
+
+{
+"sentence": "The philosopher pondered the metaphysical nature of existence.",
+"sentenceWithBlank": "The philosopher pondered the metaphysical __________ of existence.",
+"wordBlank": "nature",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+philosopher+pondered+the+metaphysical+nature+of+existence.&tl=en&client=tw-ob",
+"translation": "Nhà triết học suy ngẫm về bản chất siêu hình của sự tồn tại."
+}
+
+{
+"sentence": "The geologist analyzed rock formations to understand geological processes.",
+"sentenceWithBlank": "The geologist analyzed __________ formations to understand geological processes.",
+"wordBlank": "rock",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+geologist+analyzed+rock+formations+to+understand+geological+processes.&tl=en&client=tw-ob",
+"translation": "Nhà địa chất đã phân tích sự hình thành đá để hiểu các quá trình địa chất."
+}
+
+{
+"sentence": "The conductor directed the orchestra with precision and passion.",
+"sentenceWithBlank": "The conductor directed the orchestra with __________ and passion.",
+"wordBlank": "precision",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+conductor+directed+the+orchestra+with+precision+and+passion.&tl=en&client=tw-ob",
+"translation": "Người chỉ huy dàn nhạc chỉ đạo một cách chính xác và đầy đam mê."
+}
+
+{
+"sentence": "The athlete exhibited extraordinary prowess in the competition.",
+"sentenceWithBlank": "The athlete exhibited extraordinary __________ in the competition.",
+"wordBlank": "prowess",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+athlete+exhibited+extraordinary+prowess+in+the+competition.&tl=en&client=tw-ob",
+"translation": "Vận động viên thể hiện năng lực phi thường trong cuộc thi."
+}
+
+{
+"sentence": "The biologist studied the symbiotic relationship between plants and insects.",
+"sentenceWithBlank": "The biologist studied the symbiotic relationship between __________ and insects.",
+"wordBlank": "plants",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+biologist+studied+the+symbiotic+relationship+between+plants+and+insects.&tl=en&client=tw-ob",
+"translation": "Nhà sinh vật học đã nghiên cứu mối quan hệ cộng sinh giữa thực vật và côn trùng."
+}
+
+{
+"sentence": "The architect envisioned a futuristic design for the skyscraper.",
+"sentenceWithBlank": "The architect envisioned a __________ design for the skyscraper.",
+"wordBlank": "futuristic",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+architect+envisioned+a+futuristic+design+for+the+skyscraper.&tl=en&client=tw-ob",
+"translation": "Kiến trúc sư đã hình dung ra một thiết kế tương lai cho tòa nhà chọc trời."
+}
+
+{
+"sentence": "The philosopher pondered the ethical implications of artificial intelligence.",
+"sentenceWithBlank": "The philosopher pondered the ethical __________ of artificial intelligence.",
+"wordBlank": "implications",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+philosopher+pondered+the+ethical+implications+of+artificial+intelligence.&tl=en&client=tw-ob",
+"translation": "Nhà triết học đã suy ngẫm về ý nghĩa đạo đức của trí tuệ nhân tạo."
+}
+
+{
+"sentence": "The entomologist studied the behavior of social insects in their natural habitat.",
+"sentenceWithBlank": "The entomologist studied the behavior of social __________ in their natural habitat.",
+"wordBlank": "insects",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+entomologist+studied+the+behavior+of+social+insects+in+their+natural+habitat.&tl=en&client=tw-ob",
+"translation": "Nhà côn trùng học đã nghiên cứu hành vi của côn trùng sống theo bầy đàn trong môi trường sống tự nhiên của chúng."
+}
+
+{
+"sentence": "The mathematician devised a theorem that revolutionized the field of algebra.",
+"sentenceWithBlank": "The mathematician devised a __________ that revolutionized the field of algebra.",
+"wordBlank": "theorem",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+mathematician+devised+a+theorem+that+revolutionized+the+field+of+algebra.&tl=en&client=tw-ob",
+"translation": "Nhà toán học đã nghĩ ra một định lý đã cách mạng hóa lĩnh vực đại số."
+}
+
+{
+"sentence": "The politician's rhetoric was filled with grandiloquence.",
+"sentenceWithBlank": "The politician's __________ was filled with grandiloquence.",
+"wordBlank": "rhetoric",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+politician%27s+rhetoric+was+filled+with+grandiloquence.&tl=en&client=tw-ob",
+"translation": "Lời hùng biện của chính trị gia chứa đầy sự khoa trương."
+}
+
+{
+"sentence": "The photographer captured the ephemeral beauty of the sunset.",
+"sentenceWithBlank": "The photographer captured the __________ beauty of the sunset.",
+"wordBlank": "ephemeral",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+photographer+captured+the+ephemeral+beauty+of+the+sunset.&tl=en&client=tw-ob",
+"translation": "Nhiếp ảnh gia đã ghi lại được vẻ đẹp phù du của hoàng hôn."
+}
+
+{
+"sentence": "The philanthropist dedicated his fortune to altruistic causes.",
+"sentenceWithBlank": "The __________ dedicated his fortune to altruistic causes.",
+"wordBlank": "philanthropist",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+philanthropist+dedicated+his+fortune+to+altruistic+causes.&tl=en&client=tw-ob",
+"translation": "Nhà từ thiện đã cống hiến tài sản của mình cho các mục đích vị tha."
+}
+
+{
+"sentence": "The architect envisioned an innovative design that harmonized with the natural surroundings.",
+"sentenceWithBlank": "The architect envisioned an innovative __________ that harmonized with the natural surroundings.",
+"wordBlank": "design",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+architect+envisioned+an+innovative+design+that+harmonized+with+the+natural+surroundings.&tl=en&client=tw-ob",
+"translation": "Kiến trúc sư đã hình dung ra một thiết kế sáng tạo hài hòa với môi trường tự nhiên xung quanh."
+}
+
+{
+"sentence": "The botanist identified rare species of plants in the remote rainforest.",
+"sentenceWithBlank": "The botanist identified rare species of __________ in the remote rainforest.",
+"wordBlank": "plants",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+botanist+identified+rare+species+of+plants+in+the+remote+rainforest.&tl=en&client=tw-ob",
+"translation": "Nhà thực vật học đã xác định được các loài thực vật quý hiếm ở khu rừng nhiệt đới xa xôi."
+}
+
+{
+"sentence": "The physicist proposed a groundbreaking theory that challenged existing scientific paradigms.",
+"sentenceWithBlank": "The physicist proposed a __________ theory that challenged existing scientific paradigms.",
+"wordBlank": "groundbreaking",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+physicist+proposed+a+groundbreaking+theory+that+challenged+existing+scientific+paradigms.&tl=en&client=tw-ob",
+"translation": "Nhà vật lý này đã đề xuất một lý thuyết đột phá thách thức các mô hình khoa học hiện có."
+}
+
+{
+"sentence": "The architect envisioned a sustainable design for the eco-friendly building.",
+"sentenceWithBlank": "The architect envisioned a sustainable __________ for the eco-friendly building.",
+"wordBlank": "design",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+architect+envisioned+a+sustainable+design+for+the+eco-friendly+building.&tl=en&client=tw-ob",
+"translation": "Kiến trúc sư đã hình dung ra một thiết kế bền vững cho tòa nhà thân thiện với môi trường."
+}
+
+{
+"sentence": "The psychologist explored the subconscious mind to understand underlying motivations.",
+"sentenceWithBlank": "The psychologist explored the subconscious mind to understand underlying __________.",
+"wordBlank": "motivations",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+psychologist+explored+the+subconscious+mind+to+understand+underlying+motivations.&tl=en&client=tw-ob",
+"translation": "Nhà tâm lý học khám phá tiềm thức để hiểu những động cơ cơ bản."
+}
+
+{
+"sentence": "The entrepreneur's tenacity enabled the startup to overcome numerous challenges.",
+"sentenceWithBlank": "The __________ tenacity enabled the startup to overcome numerous challenges.",
+"wordBlank": "entrepreneur's",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+entrepreneur%27s+tenacity+enabled+the+startup+to+overcome+numerous+challenges.&tl=en&client=tw-ob",
+"translation": "Sự kiên trì của doanh nhân đã giúp công ty khởi nghiệp vượt qua nhiều thử thách."
+}
+
+{
+"sentence": "The philosopher contemplated the existential questions of human existence.",
+"sentenceWithBlank": "The philosopher contemplated the __________ questions of human existence.",
+"wordBlank": "existential",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+philosopher+contemplated+the+existential+questions+of+human+existence.&tl=en&client=tw-ob",
+"translation": "Nhà triết học đã suy ngẫm về những câu hỏi hiện sinh về sự tồn tại của con người."
+}
+
+{
+"sentence": "The astrophysicist studied celestial phenomena to unlock the mysteries of the universe.",
+"sentenceWithBlank": "The astrophysicist studied __________ phenomena to unlock the mysteries of the universe.",
+"wordBlank": "celestial",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+astrophysicist+studied+celestial+phenomena+to+unlock+the+mysteries+of+the+universe.&tl=en&client=tw-ob",
+"translation": "Nhà vật lý thiên văn đã nghiên cứu các hiện tượng thiên thể để giải mã những bí ẩn của vũ trụ."
+}
+
+{
+"sentence": "The ornithologist studied the behavior of migratory birds during their annual journey.",
+"sentenceWithBlank": "The __________ studied the behavior of migratory birds during their annual journey.",
+"wordBlank": "ornithologist",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+ornithologist+studied+the+behavior+of+migratory+birds+during+their+annual+journey.&tl=en&client=tw-ob",
+"translation": "Nhà điểu học đã nghiên cứu hành vi của các loài chim di cư trong chuyến hành trình hàng năm của chúng."
+}
+
+{
+"sentence": "The technology guru envisioned a paradigm shift in the industry.",
+"sentenceWithBlank": "The technology guru envisioned a __________ shift in the industry.",
+"wordBlank": "paradigm",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+technology+guru+envisioned+a+paradigm+shift+in+the+industry.&tl=en&client=tw-ob",
+"translation": "Chuyên gia công nghệ đã hình dung ra một sự thay đổi mô hình trong ngành."
+}
+
+{
+"sentence": "The novelist weaved a complex narrative with intricate plot twists.",
+"sentenceWithBlank": "The novelist __________ a complex narrative with intricate plot twists.",
+"wordBlank": "weaved",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+novelist+weaved+a+complex+narrative+with+intricate+plot+twists.&tl=en&client=tw-ob",
+"translation": "Tiểu thuyết gia đã dệt nên một câu chuyện phức tạp với những tình tiết phức tạp."
+}
+
+{
+"sentence": "The diplomat forged alliances to promote peace and stability in the region.",
+"sentenceWithBlank": "The diplomat forged alliances to promote __________ and stability in the region.",
+"wordBlank": "peace",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+diplomat+forged+alliances+to+promote+peace+and+stability+in+the+region.&tl=en&client=tw-ob",
+"translation": "Nhà ngoại giao này đã xây dựng các liên minh để thúc đẩy hòa bình và ổn định trong khu vực."
+}
+
+{
+"sentence": "The artist's palette consisted of vibrant hues and bold strokes.",
+"sentenceWithBlank": "The __________ palette consisted of vibrant hues and bold strokes.",
+"wordBlank": "artist's",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+artist%27s+palette+consisted+of+vibrant+hues+and+bold+strokes.&tl=en&client=tw-ob",
+"translation": "Bảng màu của nghệ sĩ bao gồm các màu sắc rực rỡ và những nét vẽ táo bạo."
+}
+
+{
+"sentence": "The debate became a forum for intellectual discourse.",
+"sentenceWithBlank": "The debate became a forum for __________ discourse.",
+"wordBlank": "intellectual",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+debate+became+a+forum+for+intellectual+discourse.&tl=en&client=tw-ob",
+"translation": "Cuộc tranh luận đã trở thành một diễn đàn cho các cuộc thảo luận trí tuệ."
+}
+
+{
+"sentence": "The archaeologist unearthed artifacts that provided insights into ancient civilizations.",
+"sentenceWithBlank": "The archaeologist unearthed __________ that provided insights into ancient civilizations.",
+"wordBlank": "artifacts",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+archaeologist+unearthed+artifacts+that+provided+insights+into+ancient+civilizations.&tl=en&client=tw-ob",
+"translation": "Nhà khảo cổ học đã khai quật được những hiện vật cung cấp cái nhìn sâu sắc về các nền văn minh cổ đại."
+}
+
+{
+"sentence": "The ornemental garden boasted a myriad of colorful flowers and exotic plants.",
+"sentenceWithBlank": "The __________ garden boasted a myriad of colorful flowers and exotic plants.",
+"wordBlank": "ornamental",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+ornemental+garden+boasted+a+myriad+of+colorful+flowers+and+exotic+plants.&tl=en&client=tw-ob",
+"translation": "Khu vườn trang trí có vô số loài hoa đầy màu sắc và các loài thực vật kỳ lạ."
+}
+
+{
+"sentence": "The historian delved into archives to uncover forgotten tales of historical figures.",
+"sentenceWithBlank": "The historian delved into archives to uncover forgotten tales of __________ figures.",
+"wordBlank": "historical",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+historian+delved+into+archives+to+uncover+forgotten+tales+of+historical+figures.&tl=en&client=tw-ob",
+"translation": "Nhà sử học đã đào sâu vào kho lưu trữ để khám phá những câu chuyện bị lãng quên về các nhân vật lịch sử."
+}
+
+{
+"sentence": "The sociologist analyzed societal structures to understand patterns of behavior.",
+"sentenceWithBlank": "The sociologist analyzed societal __________ to understand patterns of behavior.",
+"wordBlank": "structures",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+sociologist+analyzed+societal+structures+to+understand+patterns+of+behavior.&tl=en&client=tw-ob",
+"translation": "Nhà xã hội học đã phân tích các cấu trúc xã hội để hiểu các mô hình hành vi."
+}
+
+{
+"sentence": "The geologist examined geological formations to understand the Earth's history.",
+"sentenceWithBlank": "The geologist examined __________ formations to understand the Earth's history.",
+"wordBlank": "geological",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+geologist+examined+geological+formations+to+understand+the+Earth%27s+history.&tl=en&client=tw-ob",
+"translation": "Nhà địa chất đã kiểm tra sự hình thành địa chất để hiểu lịch sử của Trái đất."
+}
+
+{
+"sentence": "The chemist synthesized a compound with unprecedented chemical properties.",
+"sentenceWithBlank": "The chemist synthesized a compound with unprecedented __________ properties.",
+"wordBlank": "chemical",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+chemist+synthesized+a+compound+with+unprecedented+chemical+properties.&tl=en&client=tw-ob",
+"translation": "Nhà hóa học đã tổng hợp được một hợp chất có đặc tính hóa học chưa từng có."
+}
+
+{
+"sentence": "The chef concocted a delicious dish with exotic spices.",
+"sentenceWithBlank": "The chef __________ a delicious dish with exotic spices.",
+"wordBlank": "concocted",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+chef+concocted+a+delicious+dish+with+exotic+spices.&tl=en&client=tw-ob",
+"translation": "Đầu bếp đã chế biến một món ăn ngon với các loại gia vị lạ."
+}
+
+{
+"sentence": "The naturalist studied the flora and fauna in the untouched wilderness.",
+"sentenceWithBlank": "The naturalist studied the __________ and fauna in the untouched wilderness.",
+"wordBlank": "flora",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+naturalist+studied+the+flora+and+fauna+in+the+untouched+wilderness.&tl=en&client=tw-ob",
+"translation": "Nhà tự nhiên học đã nghiên cứu hệ thực vật và động vật ở vùng hoang dã hoang sơ."
+}
+
+{
+"sentence": "The acrobat performed astonishing feats of flexibility.",
+"sentenceWithBlank": "The acrobat performed astonishing feats of __________.",
+"wordBlank": "flexibility",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+acrobat+performed+astonishing+feats+of+flexibility.&tl=en&client=tw-ob",
+"translation": "Người nhào lộn đã thực hiện những kỳ tích linh hoạt đáng kinh ngạc."
+}
+
+{
+"sentence": "The novelist wove a tapestry of emotions through the characters in the story.",
+"sentenceWithBlank": "The novelist wove a __________ of emotions through the characters in the story.",
+"wordBlank": "tapestry",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+novelist+wove+a+tapestry+of+emotions+through+the+characters+in+the+story.&tl=en&client=tw-ob",
+"translation": "Nhà văn đã dệt nên một tấm thảm cảm xúc qua các nhân vật trong truyện."
+}
+
+{
+"sentence": "The astrophysicist studied cosmic phenomena to expand our understanding of the universe.",
+"sentenceWithBlank": "The astrophysicist studied __________ phenomena to expand our understanding of the universe.",
+"wordBlank": "cosmic",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+astrophysicist+studied+cosmic+phenomena+to+expand+our+understanding+of+the+universe.&tl=en&client=tw-ob",
+"translation": "Nhà vật lý thiên văn đã nghiên cứu các hiện tượng vũ trụ để mở rộng hiểu biết của chúng ta về vũ trụ."
+}
+
+{
+"sentence": "The playwright's dialogues conveyed the subtle nuances of human emotions.",
+"sentenceWithBlank": "The __________'s dialogues conveyed the subtle nuances of human emotions.",
+"wordBlank": "playwright's",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+playwright%27s+dialogues+conveyed+the+subtle+nuances+of+human+emotions.&tl=en&client=tw-ob",
+"translation": "Lời thoại của nhà viết kịch đã truyền tải những sắc thái tinh tế trong cảm xúc của con người."
+}
+
+{
+"sentence": "The neuroscientist delved into the intricacies of the human brain.",
+"sentenceWithBlank": "The neuroscientist delved into the __________ of the human brain.",
+"wordBlank": "intricacies",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+neuroscientist+delved+into+the+intricacies+of+the+human+brain.&tl=en&client=tw-ob",
+"translation": "Nhà thần kinh học đã đi sâu vào sự phức tạp của bộ não con người."
+}
+
+{
+"sentence": "The choreographer choreographed a captivating dance performance with precision.",
+"sentenceWithBlank": "The __________ choreographed a captivating dance performance with precision.",
+"wordBlank": "choreographer",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+choreographer+choreographed+a+captivating+dance+performance+with+precision.&tl=en&client=tw-ob",
+"translation": "Biên đạo đã dàn dựng một màn vũ đạo lôi cuốn và chính xác."
+}
+
+{
+"sentence": "The alchemist sought to transmute base metals into gold.",
+"sentenceWithBlank": "The alchemist sought to transmute base metals into __________.",
+"wordBlank": "gold",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+alchemist+sought+to+transmute+base+metals+into+gold.&tl=en&client=tw-ob",
+"translation": "Nhà giả kim tìm cách biến kim loại cơ bản thành vàng."
+}
+
+{
+"sentence": "The poet composed verses that reflected the ephemeral nature of life.",
+"sentenceWithBlank": "The poet composed __________ that reflected the ephemeral nature of life.",
+"wordBlank": "verses",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+poet+composed+verses+that+reflected+the+ephemeral+nature+of+life.&tl=en&client=tw-ob",
+"translation": "Nhà thơ đã sáng tác những câu thơ phản ánh bản chất phù du của cuộc sống."
+}
+
+{
+"sentence": "The psychologist explored the intricacies of the human mind through rigorous research.",
+"sentenceWithBlank": "The psychologist explored the __________ of the human mind through rigorous research.",
+"wordBlank": "intricacies",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+psychologist+explored+the+intricacies+of+the+human+mind+through+rigorous+research.&tl=en&client=tw-ob",
+"translation": "Nhà tâm lý học đã khám phá sự phức tạp của tâm trí con người thông qua nghiên cứu nghiêm ngặt."
+}
+
+{
+"sentence": "The pianist played a melodic composition that resonated with the audience's emotions.",
+"sentenceWithBlank": "The pianist played a __________ composition that resonated with the audience's emotions.",
+"wordBlank": "melodic",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+pianist+played+a+melodic+composition+that+resonated+with+the+audience%27s+emotions.&tl=en&client=tw-ob",
+"translation": "Nghệ sĩ piano đã chơi một bản nhạc du dương gây được cảm xúc cho khán giả."
+}
+
+{
+"sentence": "The entrepreneur navigated the complexities of the business world.",
+"sentenceWithBlank": "The entrepreneur navigated the __________ of the business world.",
+"wordBlank": "complexities",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+entrepreneur+navigated+the+complexities+of+the+business+world.&tl=en&client=tw-ob",
+"translation": "Doanh nhân này đã điều hướng được sự phức tạp của thế giới kinh doanh."
+}
+
+{
+"sentence": "The sculptor carved a magnificent statue from a single block of marble.",
+"sentenceWithBlank": "The __________ carved a magnificent statue from a single block of marble.",
+"wordBlank": "sculptor",
+"audioLink" : "https://translate.google.com/translate_tts?ie=UTF-8&q=The+sculptor+carved+a+magnificent+statue+from+a+single+block+of+marble.&tl=en&client=tw-ob",
+"translation": "Nhà điêu khắc đã tạc một bức tượng tráng lệ từ một khối đá cẩm thạch duy nhất."
+}
+

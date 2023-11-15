@@ -1,0 +1,175 @@
+{
+"question": "What is the synonym for 'Eloquent'?",
+"options": {"A": "Inarticulate", "B": "Vociferous", "C": "Loquacious", "D": "Taciturn"},
+"correctAnswer": "C",
+"explanation": "A: 'Inarticulate' means unable to express oneself clearly. B: 'Vociferous' means loud and noisy. C: 'Loquacious' means talkative. D: 'Taciturn' means reserved or uncommunicative."
+}
+
+{
+"question": "What is the synonym for 'Ubiquitous'?",
+"options": {"A": "Scarce", "B": "Omnipresent", "C": "Limited", "D": "Sparse"},
+"correctAnswer": "B",
+"explanation": "A: 'Scarce' means in short supply. B: 'Omnipresent' means everywhere at the same time. C: 'Limited' means restricted in quantity. D: 'Sparse' means thinly scattered."
+}
+
+{
+"question": "What is the synonym for 'Austere'?",
+"options": {"A": "Opulent", "B": "Simple", "C": "Lavish", "D": "Gaudy"},
+"correctAnswer": "B",
+"explanation": "A: 'Opulent' means ostentatiously rich and luxurious. B: 'Simple' means plain or basic. C: 'Lavish' means extravagant. D: 'Gaudy' means excessively bright and showy, typically in a tasteless way."
+}
+
+{
+"question": "What is the synonym for 'Conundrum'?",
+"options": {"A": "Solution", "B": "Enigma", "C": "Clarity", "D": "Simplicity"},
+"correctAnswer": "B",
+"explanation": "A: 'Solution' means the answer to a problem. B: 'Enigma' means a mysterious or puzzling situation. C: 'Clarity' means clearness. D: 'Simplicity' means the state of being simple."
+}
+
+{
+"question": "What is the synonym for 'Mitigate'?",
+"options": {"A": "Aggravate", "B": "Alleviate", "C": "Intensify", "D": "Exacerbate"},
+"correctAnswer": "B",
+"explanation": "A: 'Aggravate' means to make a situation worse. B: 'Alleviate' means to make a situation more bearable. C: 'Intensify' means to make more intense. D: 'Exacerbate' means to make a situation more severe."
+}
+
+{
+"question": "What is the synonym for 'Precarious'?",
+"options": {"A": "Secure", "B": "Stable", "C": "Perilous", "D": "Certain"},
+"correctAnswer": "C",
+"explanation": "A: 'Secure' means free from danger or risk. B: 'Stable' means firmly established. C: 'Perilous' means full of danger or risk. D: 'Certain' means known for sure."
+}
+
+{
+"question": "What is the synonym for 'Ubiquitous'?",
+"options": {"A": "Scarce", "B": "Omnipresent", "C": "Limited", "D": "Sparse"},
+"correctAnswer": "B",
+"explanation": "A: 'Scarce' means in short supply. B: 'Omnipresent' means everywhere at the same time. C: 'Limited' means restricted in quantity. D: 'Sparse' means thinly scattered."
+}
+
+{
+"question": "What is the synonym for 'Sycophant'?",
+"options": {"A": "Flatterer", "B": "Rebel", "C": "Maverick", "D": "Contrarian"},
+"correctAnswer": "A",
+"explanation": "A: 'Flatterer' means a person who lavishes excessive praise or admiration. B: 'Rebel' means a person who resists authority or control. C: 'Maverick' means an independent-minded person. D: 'Contrarian' means a person who opposes or rejects popular opinion."
+}
+
+{
+"question": "What is the synonym for 'Pernicious'?",
+"options": {"A": "Harmless", "B": "Benevolent", "C": "Innocuous", "D": "Malevolent"},
+"correctAnswer": "D",
+"explanation": "A: 'Harmless' means not causing harm. B: 'Benevolent' means showing kindness and goodwill. C: 'Innocuous' means not harmful or offensive. D: 'Malevolent' means having or showing a wish to do evil to others."
+}
+
+{
+"question": "What is the synonym for 'Indigenous'?",
+"options": {"A": "Foreign", "B": "Native", "C": "Alien", "D": "Exotic"},
+"correctAnswer": "B",
+"explanation": "A: 'Foreign' means from another country. B: 'Native' means originating or produced in a particular place. C: 'Alien' means belonging to a foreign country or nation. D: 'Exotic' means attractive or striking because it is unusual or different from what is familiar."
+}
+
+
+{
+"question": "What is the synonym for 'Mellifluous'?",
+"options": {"A": "Harsh", "B": "Melodious", "C": "Jarring", "D": "Grating"},
+"correctAnswer": "B",
+"explanation": "A: 'Harsh' means unpleasantly rough or jarring to the senses. B: 'Melodious' means pleasant-sounding. C: 'Jarring' means incongruous or harsh in sound. D: 'Grating' means irritating or unpleasant to the senses."
+}
+
+{
+"question": "What is the synonym for 'Sycophant'?",
+"options": {"A": "Flatterer", "B": "Rebel", "C": "Maverick", "D": "Contrarian"},
+"correctAnswer": "A",
+"explanation": "A: 'Flatterer' means a person who lavishes excessive praise or admiration. B: 'Rebel' means a person who resists authority or control. C: 'Maverick' means an independent-minded person. D: 'Contrarian' means a person who opposes or rejects popular opinion."
+}
+
+{
+"question": "What is the synonym for 'Ephemeral'?",
+"options": {"A": "Perpetual", "B": "Transient", "C": "Enduring", "D": "Permanent"},
+"correctAnswer": "B",
+"explanation": "A: 'Perpetual' means lasting forever. B: 'Transient' means lasting only for a short time. C: 'Enduring' means lasting over a long time. D: 'Permanent' means lasting or intended to last indefinitely."
+}
+
+{
+"question": "What is the synonym for 'Pernicious'?",
+"options": {"A": "Harmless", "B": "Benevolent", "C": "Innocuous", "D": "Malevolent"},
+"correctAnswer": "D",
+"explanation": "A: 'Harmless' means not causing harm. B: 'Benevolent' means showing kindness and goodwill. C: 'Innocuous' means not harmful or offensive. D: 'Malevolent' means having or showing a wish to do evil to others."
+}
+
+{
+"question": "What is the synonym for 'Ineffable'?",
+"options": {"A": "Expressive", "B": "Indescribable", "C": "Articulate", "D": "Eloquent"},
+"correctAnswer": "B",
+"explanation": "A: 'Expressive' means effectively conveying thought or feeling. B: 'Indescribable' means too extraordinary or extreme to be expressed in words. C: 'Articulate' means expressing oneself clearly and effectively. D: 'Eloquent' means fluent or persuasive in speaking or writing."
+}
+
+{
+"question": "What is the synonym for 'Nefarious'?",
+"options": {"A": "Virtuous", "B": "Wicked", "C": "Righteous", "D": "Moral"},
+"correctAnswer": "B",
+"explanation": "A: 'Virtuous' means having high moral standards. B: 'Wicked' means morally wrong or evil. C: 'Righteous' means morally right or justifiable. D: 'Moral' means concerned with the principles of right and wrong behavior."
+}
+
+{
+"question": "What is the synonym for 'Ineffable'?",
+"options": {"A": "Expressive", "B": "Indescribable", "C": "Articulate", "D": "Eloquent"},
+"correctAnswer": "B",
+"explanation": "A: 'Expressive' means effectively conveying thought or feeling. B: 'Indescribable' means too extraordinary or extreme to be expressed in words. C: 'Articulate' means expressing oneself clearly and effectively. D: 'Eloquent' means fluent or persuasive in speaking or writing."
+}
+
+{
+"question": "What is the synonym for 'Esoteric'?",
+"options": {"A": "Exoteric", "B": "Common", "C": "Profound", "D": "Simple"},
+"correctAnswer": "C",
+"explanation": "A: 'Exoteric' means intended for or likely to be understood by the general public. B: 'Common' means occurring or appearing frequently. C: 'Profound' means having deep meaning or significance. D: 'Simple' means easily understood or done; presenting no difficulty."
+}
+
+{
+"question": "What is the synonym for 'Cacophony'?",
+"options": {"A": "Harmony", "B": "Discord", "C": "Melody", "D": "Symphony"},
+"correctAnswer": "B",
+"explanation": "A: 'Harmony' means a consistent, orderly, or pleasing arrangement of parts. B: 'Discord' means a harsh and disagreeable combination of sounds. C: 'Melody' means a sequence of single pitches that is musically satisfying. D: 'Symphony' means a long musical composition for full orchestra."
+}
+
+{
+"question": "What is the synonym for 'Benevolent'?",
+"options": {"A": "Malevolent", "B": "Altruistic", "C": "Malignant", "D": "Hostile"},
+"correctAnswer": "B",
+"explanation": "A: 'Malevolent' means having or showing a wish to do evil to others. B: 'Altruistic' means showing a selfless concern for the well-being of others. C: 'Malignant' means evil in nature or effect. D: 'Hostile' means unfriendly and antagonistic."
+}
+
+{
+"question": "What is the synonym for 'Exacerbate'?",
+"options": {"A": "Alleviate", "B": "Intensify", "C": "Mitigate", "D": "Ameliorate"},
+"correctAnswer": "B",
+"explanation": "A: 'Alleviate' means to make a situation more bearable. B: 'Intensify' means to make more intense. C: 'Mitigate' means to make less severe or painful. D: 'Ameliorate' means to make a situation better or more tolerable."
+}
+
+{
+"question": "What is the synonym for 'Amiable'?",
+"options": {"A": "Hostile", "B": "Genial", "C": "Unfriendly", "D": "Aloof"},
+"correctAnswer": "B",
+"explanation": "A: 'Hostile' means unfriendly and antagonistic. B: 'Genial' means friendly and cheerful. C: 'Unfriendly' means not disposed to friendship or friendliness. D: 'Aloof' means not friendly or forthcoming; cool and distant."
+}
+
+{
+"question": "What is the synonym for 'Hypocrite'?",
+"options": {"A": "Sincere", "B": "Genuine", "C": "Authentic", "D": "Phony"},
+"correctAnswer": "D",
+"explanation": "A: 'Sincere' means free from pretense or deceit; truthful and straightforward. B: 'Genuine' means truly what something is said to be; authentic. C: 'Authentic' means of undisputed origin; genuine. D: 'Phony' means not genuine or real; fraudulent."
+}
+
+{
+"question": "What is the synonym for 'Cacophony'?",
+"options": {"A": "Harmony", "B": "Discord", "C": "Melody", "D": "Symphony"},
+"correctAnswer": "B",
+"explanation": "A: 'Harmony' means a consistent, orderly, or pleasing arrangement of parts. B: 'Discord' means a harsh and disagreeable combination of sounds. C: 'Melody' means a sequence of single pitches that is musically satisfying. D: 'Symphony' means a long musical composition for full orchestra."
+}
+
+{
+"question": "What is the synonym for 'Nefarious'?",
+"options": {"A": "Virtuous", "B": "Wicked", "C": "Righteous", "D": "Moral"},
+"correctAnswer": "B",
+"explanation": "A: 'Virtuous' means having high moral standards. B: 'Wicked' means morally wrong or evil. C: 'Righteous' means morally right or justifiable. D: 'Moral' means concerned with the principles of right and wrong behavior."
+}

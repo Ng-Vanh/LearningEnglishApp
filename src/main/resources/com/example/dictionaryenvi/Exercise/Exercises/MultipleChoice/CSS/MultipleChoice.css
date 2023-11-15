@@ -1,0 +1,8 @@
+/* MultipleChoice.css */
+.multiple-choice-button {
+    -fx-font-size: 1.5em; /* Initial font size */
+    -fx-min-width: 300px; /* Fixed width */
+    -fx-min-height: 50px; /* Fixed height */
+    -fx-alignment: center-left; /* Center the text within the button */
+    -fx-padding: 10 15; /* Padding for text spacing inside button */
+}

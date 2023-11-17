@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader LoginPage = new FXMLLoader(Application.class.getResource("Login/Login.fxml"));
+        FXMLLoader LoginPage = new FXMLLoader(Application.class.getResource("/com/example/dictionaryenvi/Account/Login/FXML/Login.fxml"));
 
         Scene homeScene = new Scene(LoginPage.load(),960,576);
         stage.setTitle("Dictionary En-Vi");

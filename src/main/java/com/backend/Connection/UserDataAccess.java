@@ -6,6 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.backend.Connection.ConnectDatabase.tableScoreStatus;
 import static com.backend.Connection.ConnectDatabase.tableUser;
 
 public class UserDataAccess implements IDataAccess<User> {
@@ -106,24 +107,29 @@ public class UserDataAccess implements IDataAccess<User> {
 
     /**
      * When user play game, scores will be saved and update in database
-     * @param user consists of : user name and score 2 games
+     * @param user consists of : username and score 2 games
      * @return 1 if updated score successfully.
      */
     @Override
     public int update(User user) {
+        return 0;
+    }
+
+    public int updateScore(String username){
         int result = 0;
         try {
             Connection connect = connectDatabase.getConnection();
-            String query = "UPDATE " + tableUser +
-                    " SET " +
-                    "scoregame1 = ?," +
-                    "scoregame2 = ? " +
-                    "WHERE username = ?";
+            String query = "UPDATE " + tableUser + " u\n" +
+                    " SET\n" +
+                    "u.scoregame1 = (SELECT MAX(us.curscoregame1) FROM " + tableScoreStatus + " us\n" +
+                    "WHERE us.username = u.username),\n" +
+                    "u.scoregame2 = (SELECT MAX(us.curscoregame2) FROM " + tableScoreStatus + " us\n" +
+                    "WHERE us.username = u.username)\n" +
+                    "WHERE u.username = ?";
 
             PreparedStatement preparedStatement = connect.prepareStatement(query);
-            preparedStatement.setInt(1, user.getScoreGame1());
-            preparedStatement.setInt(2, user.getScoreGame2());
-            preparedStatement.setString(3, user.getUsername());
+
+            preparedStatement.setString(1, username);
 
             result = preparedStatement.executeUpdate();
 
@@ -134,7 +140,6 @@ public class UserDataAccess implements IDataAccess<User> {
         }
 
         return result;
-
     }
 
     /**
@@ -230,6 +235,10 @@ public class UserDataAccess implements IDataAccess<User> {
             throw new RuntimeException(e);
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(UserDataAccess.getInstance().updateScore("abc123"));
     }
 
 }

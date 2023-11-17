@@ -12,6 +12,7 @@ public class ConnectDatabase {
     protected static final String tableHistory = "freedb_edictionary.tbl_history";
     protected static final String tableFavorite = "freedb_edictionary.tbl_favorite";
     protected static final String tableLearning = "freedb_edictionary.tbl_learning";
+    protected static final String tableScoreStatus = "freedb_edictionary.tbl_scorestatus";
 //    protected static final String url = "jdbc:mysql://127.0.0.1:3307/edict";
 //    protected static final String userName = "root";
 //    protected static final String passWord = "220604";
@@ -20,6 +21,7 @@ public class ConnectDatabase {
 //    protected static final String tableHistory = "edict.tbl_history";
 //    protected static final String tableFavorite = "edict.tbl_favorite";
 //    protected static final String tableLearning = "edict.tbl_learning";
+//    protected static final String tableScoreStatus = "edict.tbl_scorestatus";
     public ConnectDatabase() {
     }
 

@@ -32,7 +32,7 @@ public class HomePage {
     private ImageView logOutBtn, userInfoBtn;
 
     public void goToDictionary(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("MainDictionary/MainDictionary.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/MainDictionary.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);
@@ -45,7 +45,7 @@ public class HomePage {
     }
 
     public void clickLogOut(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Login/Login.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Account/Login/FXML/Login.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);
@@ -61,10 +61,11 @@ public class HomePage {
         Image avatarImage = new Image(getClass().getResource("/com/example/dictionaryenvi/HomePage/image/userAvt.png").toExternalForm());
         ImageView avatarImageView = new ImageView(avatarImage);
 
-        String fullName = currentUser.getFirstName() + " " + currentUser.getLastName();
+        User usInfo = UserDataAccess.getInstance().getUserInfo(currentUser.getUsername());
+        String fullName = usInfo.getFirstName() + " " + usInfo.getLastName();
         Label fullNameLabel = new Label("Name: " + fullName);
-        int score1 = currentUser.getScoreGame1();
-        int score2 = currentUser.getScoreGame2();
+        int score1 = usInfo.getScoreGame1();
+        int score2 = usInfo.getScoreGame2();
         Label scoreLabel1 = new Label("Dictation: " + score1);
         Label scoreLabel2 = new Label("MultipleChoice: " + score2);
 
@@ -77,7 +78,7 @@ public class HomePage {
         dialog.getDialogPane().setContent(userInfoBox);
         dialog.initStyle(StageStyle.UNDECORATED);
 
-        String cssFile = getClass().getResource("HomePage/UserInfo.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/HomePage/UserInfo.css").toExternalForm();
         dialog.getDialogPane().getStylesheets().add(cssFile);
 
         // Tạo nút đóng dialog

@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.WebView?>
 
-<Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@MainDict.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.MainDictionary.MainDictionary">
+<Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@CSS/MainDict.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.MainDictionary.MainDictionary">
    <children>
       <Label layoutX="394.0" layoutY="36.0" prefHeight="48.0" prefWidth="206.0" style="-fx-font-style: italic; -fx-font-weight: 700;" styleClass="title__label" text=" DictionaryEn-Vi" textFill="#282a35">
          <font>

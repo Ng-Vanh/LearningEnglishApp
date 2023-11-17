@@ -29,6 +29,26 @@ public class Dictation extends Exercise {
 
     private static final String bankFolderPath = "src/main/java/com/backend/Exercise/ExerciseBank/Dictation/";
 
+//    private String type = "Dictation";
+//    private String exerciseType;
+    private DictationDescription description;
+
+//    public String getExerciseType() {
+//        return exerciseType;
+//    }
+//
+//    public void setExerciseType(String exerciseType) {
+//        this.exerciseType = exerciseType;
+//    }
+
+    public DictationDescription getDescription() {
+        return description;
+    }
+
+    public void setDescription(DictationDescription description) {
+        this.description = description;
+    }
+
     public Dictation() {
 
     }
@@ -60,8 +80,20 @@ public class Dictation extends Exercise {
         try {
             String prompt = PromptLoader.getPrompt(promptName);
             generateExercise(prompt);
+//            this.exerciseType = prefix + "-" + exerciseType;
         } catch (IllegalArgumentException e) {
             System.err.println(e.getMessage());
+        }
+    }
+
+    public Dictation(String exerciseType, String jsonString) {
+        if (!exerciseType.contains(prefix)) {
+            throw new IllegalArgumentException("Not a dictation");
+        }
+        else {
+            Dictation dictation = loadFromJson(jsonString);
+            assign(dictation);
+//            this.exerciseType = prefix + "-" + exerciseType;
         }
     }
 
@@ -242,3 +274,4 @@ public class Dictation extends Exercise {
         System.out.println(dictationList.get(0));
     }
 }
+

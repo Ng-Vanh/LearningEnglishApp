@@ -1,0 +1,845 @@
+{
+  "topic": "Tech",
+  "words": [
+    {
+      "definition": {
+        "word": "Algorithm",
+        "type": "Noun",
+        "phonetic": "ˈæl.ɡə.rɪ.ðəm",
+        "example": "Search engines use complex algorithms to provide relevant results.",
+        "explain": "Thuật toán",
+        "translatedExample": "Các công cụ tìm kiếm sử dụng thuật toán phức tạp để cung cấp kết quả liên quan."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "How do search engines provide relevant results?",
+          "options": {
+            "A": "Randomly",
+            "B": "Through algorithms",
+            "C": "Manually",
+            "D": "Automatically"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Randomly' would not result in relevant outcomes. B: Search engines use algorithms to process and rank content for relevance. C: 'Manually' implies human intervention. D: 'Automatically' is correct, but the key is the use of algorithms."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Blockchain",
+        "type": "Noun",
+        "phonetic": "ˈblɒk.ʧeɪn",
+        "example": "Blockchain is a decentralized and secure way of recording transactions.",
+        "explain": "Chuỗi khối",
+        "translatedExample": "Blockchain là một cách ghi chép giao dịch phi tập trung và an toàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is another term for 'Blockchain'?",
+          "options": {
+            "A": "Encryption",
+            "B": "Decentralized Ledger",
+            "C": "Cloud Computing",
+            "D": "Binary Code"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Encryption' is a different concept. B: 'Decentralized Ledger' is a synonym for Blockchain. C: 'Cloud Computing' is a broader technology term. D: 'Binary Code' is unrelated to Blockchain."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Artificial Intelligence",
+        "type": "Noun",
+        "phonetic": "ˌɑː.tɪˈfɪʃ.əl ɪnˈtel.ɪ.dʒəns",
+        "example": "Artificial Intelligence enables machines to perform tasks that typically require human intelligence.",
+        "explain": "Trí tuệ nhân tạo",
+        "translatedExample": "Trí tuệ nhân tạo cho phép máy tính thực hiện nhiệm vụ thường đòi hỏi trí tuệ của con người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the opposite of 'Artificial Intelligence'?",
+          "options": {
+            "A": "Machine Learning",
+            "B": "Natural Stupidity",
+            "C": "Human Intelligence",
+            "D": "Robotics"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Machine Learning' is a subset of Artificial Intelligence. B: 'Natural Stupidity' humorously contrasts with artificial intelligence. C: 'Human Intelligence' is a different concept. D: 'Robotics' is related but not the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cybersecurity",
+        "type": "Noun",
+        "phonetic": "ˌsaɪ.bərˈsɪː.kjʊr.ə.ti",
+        "example": "Cybersecurity measures aim to protect computer systems and networks from cyber threats.",
+        "explain": "An ninh mạng",
+        "translatedExample": "Biện pháp an ninh mạng nhằm bảo vệ hệ thống và mạng máy tính khỏi mối đe dọa mạng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Effective cybersecurity involves implementing measures to prevent unauthorized access and data breaches.",
+          "sentenceWithBlank": "Effective cybersecurity involves implementing measures to prevent unauthorized access and data ________.",
+          "wordBlank": "breaches",
+          "translation": "An ninh mạng hiệu quả liên quan đến việc triển khai biện pháp để ngăn chặn truy cập không được ủy quyền và việc xâm phạm dữ liệu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cloud Computing",
+        "type": "Noun",
+        "phonetic": "klaʊd kəmˈpjuː.tɪŋ",
+        "example": "Cloud computing allows users to access and store data over the internet instead of on local hardware.",
+        "explain": "Điện toán đám mây",
+        "translatedExample": "Điện toán đám mây cho phép người dùng truy cập và lưu trữ dữ liệu qua internet thay vì trên phần cứng cục bộ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "How does cloud computing differ from traditional computing?",
+          "options": {
+            "A": "It uses physical servers",
+            "B": "It relies on local storage",
+            "C": "It involves internet-based services",
+            "D": "It requires no network connection"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: Traditional computing often uses physical servers too. B: Local storage is not a defining feature of cloud computing. C: Cloud computing relies on internet-based services. D: Network connection is necessary for cloud computing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Virtual Reality",
+        "type": "Noun",
+        "phonetic": "ˌvɜːr.tʃu.əl rɪˈæl.ɪ.ti",
+        "example": "Virtual reality creates an immersive computer-generated environment.",
+        "explain": "Thực tế ảo",
+        "translatedExample": "Thực tế ảo tạo ra môi trường máy tính tạo nên trải nghiệm chìm đắm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is another term for 'Virtual Reality'?",
+          "options": {
+            "A": "Augmented Reality",
+            "B": "Artificial Reality",
+            "C": "Digital Reality",
+            "D": "Simulated Reality"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Augmented Reality' is different. B: 'Artificial Reality' is not commonly used. C: 'Digital Reality' is less accurate. D: 'Simulated Reality' is a synonym for virtual reality."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Automation",
+        "type": "Noun",
+        "phonetic": "ɔː.təˈmeɪ.ʃən",
+        "example": "Automation involves the use of technology to perform tasks without human intervention.",
+        "explain": "Tự động hóa",
+        "translatedExample": "Tự động hóa liên quan đến việc sử dụng công nghệ để thực hiện nhiệm vụ mà không cần sự can thiệp của con người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the opposite of 'Automation'?",
+          "options": {
+            "A": "Mechanization",
+            "B": "Manual Operation",
+            "C": "Human Intervention",
+            "D": "Robotic Automation"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Mechanization' is related to automation. B: 'Manual Operation' contrasts with automation. C: 'Human Intervention' is the opposite, involving manual input. D: 'Robotic Automation' is a specific form of automation."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Augmented Reality",
+        "type": "Noun",
+        "phonetic": "ɑːɡˈmen.tɪd rɪˈæl.ɪ.ti",
+        "example": "Augmented reality overlays digital information onto the real world.",
+        "explain": "Thực tế ảo tăng cường",
+        "translatedExample": "Thực tế ảo tăng cường trải nghiệm bằng cách đặt thông tin số lên thế giới thực."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Augmented reality enhances the user's perception of the physical world by adding digital elements.",
+          "sentenceWithBlank": "Augmented reality enhances the user's perception of the physical world by adding digital ________.",
+          "wordBlank": "elements",
+          "translation": "Thực tế ảo tăng cường nâng cao sự nhận thức của người dùng về thế giới vật lý bằng cách thêm các yếu tố số."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Internet of Things (IoT)",
+        "type": "Noun",
+        "phonetic": "ˌɪn.tə.net əv ˈθɪŋz",
+        "example": "The Internet of Things connects devices to collect and exchange data.",
+        "explain": "Internet của Mọi vật",
+        "translatedExample": "Internet của Mọi vật kết nối các thiết bị để thu thập và trao đổi dữ liệu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary purpose of the Internet of Things (IoT)?",
+          "options": {
+            "A": "Social Networking",
+            "B": "Data Collection and Exchange",
+            "C": "Entertainment",
+            "D": "Gaming"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: Social networking is a different concept. B: The main purpose of IoT is data collection and exchange. C: Entertainment is not the primary focus of IoT. D: Gaming is unrelated to the primary goal of IoT."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Byte",
+        "type": "Noun",
+        "phonetic": "baɪt",
+        "example": "A kilobyte is made up of 1024 bytes.",
+        "explain": "Byte (Đơn vị lưu trữ thông tin)",
+        "translatedExample": "Một kilobyte được tạo thành từ 1024 byte."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "One byte is enough to store a single character, like 'a' or '7'.",
+          "sentenceWithBlank": "One byte is enough to store a single ______, like 'a' or '7'.",
+          "wordBlank": "character",
+          "translation": "Một byte đủ để lưu trữ một ký tự đơn, như 'a' hoặc '7'."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cloud Computing",
+        "type": "Noun Phrase",
+        "phonetic": "klaʊd kəmˈpjuː.tɪŋ",
+        "example": "Cloud computing allows users to access their files from any device.",
+        "explain": "Điện toán đám mây",
+        "translatedExample": "Điện toán đám mây cho phép người dùng truy cập vào các tệp của họ từ bất kỳ thiết bị nào."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which term is synonymous with 'Cloud Computing'?",
+          "options": {
+            "A": "Remote Storage",
+            "B": "Local Networking",
+            "C": "Personal Computing",
+            "D": "Online Processing"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Remote Storage' refers to storing data on the internet, which is a key aspect of cloud computing. B: 'Local Networking' pertains to a network within a specific area. C: 'Personal Computing' is about individual use of computers. D: 'Online Processing' doesn't encompass the entire concept of cloud computing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Database",
+        "type": "Noun",
+        "phonetic": "ˈdeɪ.tə.beɪs",
+        "example": "The company's customer information is stored in a secure database.",
+        "explain": "Cơ sở dữ liệu",
+        "translatedExample": "Thông tin khách hàng của công ty được lưu trữ trong một cơ sở dữ liệu an toàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Database'?",
+          "options": {
+            "A": "Data Loss",
+            "B": "Hard Copy",
+            "C": "File",
+            "D": "Program"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Data Loss' is a consequence, not an opposite. B: 'Hard Copy' refers to information printed on paper, as opposed to stored digitally. C: 'File' is a component of a database. D: 'Program' is software, not the opposite of a database."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Algorithm",
+        "type": "Noun",
+        "phonetic": "ˈæl.ɡə.rɪ.ðəm",
+        "example": "The computer program used an advanced algorithm to solve the problem.",
+        "explain": "Thuật toán",
+        "translatedExample": "Chương trình máy tính đã sử dụng một thuật toán tiên tiến để giải quyết vấn đề."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "A set of rules to be followed in calculations or other problem-solving operations is called an .",
+          "options": {
+            "A": "Equation",
+            "B": "Algorithm",
+            "C": "Function",
+            "D": "Variable"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Equation' is a statement that the values of two mathematical expressions are equal. B: 'Algorithm' is the correct term for a set of rules in problem-solving. C: 'Function' is a relation or expression involving one or more variables. D: 'Variable' is a quantity that may change within the context of a mathematical problem."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bandwidth",
+        "type": "Noun",
+        "phonetic": "ˈbænd.wɪdθ",
+        "example": "Streaming high-quality videos online requires a lot of bandwidth.",
+        "explain": "Băng thông",
+        "translatedExample": "Phát trực tuyến video chất lượng cao trực tuyến yêu cầu rất nhiều băng thông."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The bandwidth limitation affected the speed of the internet connection.",
+          "sentenceWithBlank": "The __ limitation affected the speed of the internet connection.",
+          "wordBlank": "bandwidth",
+          "translation": "Hạn chế về băng thông đã ảnh hưởng đến tốc độ của kết nối internet."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cloud Computing",
+        "type": "Noun",
+        "phonetic": "klaʊd kəmˈpjuː.tɪŋ",
+        "example": "Cloud computing allows you to access your files from any device with an internet connection.",
+        "explain": "Điện toán đám mây",
+        "translatedExample": "Điện toán đám mây cho phép bạn truy cập vào các tệp của mình từ bất kỳ thiết bị nào có kết nối internet."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cloud Computing'?",
+          "options": {
+            "A": "Local Storage",
+            "B": "Online Platforms",
+            "C": "Virtual Networks",
+            "D": "Distributed Systems"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Local Storage' refers to storing data on a local device as opposed to cloud computing. B: 'Online Platforms' are often based on cloud computing. C: 'Virtual Networks' can be part of cloud computing infrastructure. D: 'Distributed Systems' are closely related to cloud computing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Database",
+        "type": "Noun",
+        "phonetic": "ˈdeɪ.tə.beɪs",
+        "example": "Our customer information is stored in a secure database.",
+        "explain": "Cơ sở dữ liệu",
+        "translatedExample": "Thông tin khách hàng của chúng tôi được lưu trữ trong một cơ sở dữ liệu an toàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Database'?",
+          "options": {
+            "A": "Data table",
+            "B": "Data bank",
+            "C": "Data array",
+            "D": "Data collection"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Data table' refers to an arrangement of data in rows and columns, usually within a database. B: 'Data bank' is a synonym for database, as both refer to a collection of information. C: 'Data array' is a data structure more specific than a database. D: 'Data collection' is the process of gathering information, not the storage system itself."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Encryption",
+        "type": "Noun",
+        "phonetic": "ɪnˈkrɪp.ʃən",
+        "example": "Encryption is essential to protect sensitive data from hackers.",
+        "explain": "Mã hóa",
+        "translatedExample": "Mã hóa là cần thiết để bảo vệ dữ liệu nhạy cảm khỏi tin tặc."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "To ensure privacy, the company uses strong encryption methods.",
+          "sentenceWithBlank": "To ensure privacy, the company uses strong __ methods.",
+          "wordBlank": "encryption",
+          "translation": "Để đảm bảo quyền riêng tư, công ty sử dụng các phương pháp mã hóa mạnh mẽ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Firewall",
+        "type": "Noun",
+        "phonetic": "ˈfaɪə.wɔːl",
+        "example": "A good firewall can prevent unauthorized access to your network.",
+        "explain": "Tường lửa",
+        "translatedExample": "Một tường lửa tốt có thể ngăn chặn quyền truy cập trái phép vào mạng của bạn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "To protect against cyber attacks, it is advised to install a _ on your computer.",
+          "options": {
+            "A": "Firewall",
+            "B": "Virus",
+            "C": "Spam filter",
+            "D": "Trojan"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Firewall' is a network security system that monitors and controls incoming and outgoing network traffic. B: 'Virus' is a type of malicious software. C: 'Spam filter' is used to detect unwanted emails. D: 'Trojan' is a type of malware disguised as legitimate software."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gigabyte",
+        "type": "Noun",
+        "phonetic": "ˈɡɪɡ.ə.baɪt",
+        "example": "The file I downloaded was about 2 gigabytes in size.",
+        "explain": "Gigabyte",
+        "translatedExample": "Tệp mà tôi đã tải xuống có kích thước khoảng 2 gigabyte."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Most smartphones now come with at least 64 gigabytes of storage.",
+          "sentenceWithBlank": "Most smartphones now come with at least 64 __ of storage.",
+          "wordBlank": "gigabytes",
+          "translation": "Hầu hết các điện thoại thông minh hiện nay đều có ít nhất 64 gigabyte bộ nhớ lưu trữ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hardware",
+        "type": "Noun",
+        "phonetic": "ˈhɑːd.wer",
+        "example": "Upgrading the computer's hardware can significantly improve its performance.",
+        "explain": "Phần cứng",
+        "translatedExample": "Nâng cấp phần cứng của máy tính có thể cải thiện đáng kể hiệu suất của nó."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hardware'?",
+          "options": {
+            "A": "Software",
+            "B": "Components",
+            "C": "Programs",
+            "D": "Systems"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Software' refers to the programs and other operating information used by a computer. B: 'Components' is a synonym for hardware, as both refer to the physical parts of a computer. C: 'Programs' are a part of software. D: 'Systems' can refer to a set of interconnected components but is not a direct synonym for hardware."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Internet",
+        "type": "Noun",
+        "phonetic": "ˈɪn.tə.net",
+        "example": "The internet has become an essential tool for communication and information sharing.",
+        "explain": "Internet",
+        "translatedExample": "Internet đã trở thành công cụ thiết yếu để giao tiếp và chia sẻ thông tin."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The global network of computers that provides a wealth of information and communication opportunities is known as the _.",
+          "options": {
+            "A": "Ethernet",
+            "B": "Web",
+            "C": "Internet",
+            "D": "Intranet"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Ethernet' is a system for connecting a number of computer systems to form a local area network. B: 'Web' refers to the World Wide Web, which is a part of the internet. C: 'Internet' is the correct term for the global network. D: 'Intranet' is a private network accessible only to an organization's staff."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "JavaScript",
+        "type": "Noun",
+        "phonetic": "ˈdʒæv.ə.skript",
+        "example": "JavaScript is a programming language commonly used to create interactive effects within web browsers.",
+        "explain": "JavaScript",
+        "translatedExample": "JavaScript là một ngôn ngữ lập trình thường được sử dụng để tạo hiệu ứng tương tác trong trình duyệt web."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Learning JavaScript can help you build dynamic and responsive websites.",
+          "sentenceWithBlank": "Learning _ can help you build dynamic and responsive websites.",
+          "wordBlank": "JavaScript",
+          "translation": "Học JavaScript có thể giúp bạn xây dựng các trang web động và phản hồi nhanh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Encryption",
+        "type": "Noun",
+        "phonetic": "ɪnˈkrɪp.ʃən",
+        "example": "Encryption ensures secure communication by converting data into a code that can only be deciphered with the appropriate key.",
+        "explain": "Mã hóa",
+        "translatedExample": "Mã hóa đảm bảo giao tiếp an toàn bằng cách chuyển đổi dữ liệu thành mã chỉ có thể giải mã bằng chìa khóa phù hợp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Encryption is a crucial security measure to protect sensitive information from unauthorized access.",
+          "sentenceWithBlank": "Encryption is a crucial security measure to protect sensitive information from unauthorized _________.",
+          "wordBlank": "access",
+          "translation": "Mã hóa là biện pháp an ninh quan trọng để bảo vệ thông tin nhạy cảm khỏi việc truy cập không được ủy quyền."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Artificial Intelligence",
+        "type": "Noun",
+        "phonetic": "ɑːrˌtɪfɪʃəl ɪnˈtel.ɪ.dʒəns",
+        "example": "Artificial Intelligence involves machines performing tasks that typically require human intelligence, such as visual perception, speech recognition, and decision-making.",
+        "explain": "Trí tuệ nhân tạo",
+        "translatedExample": "Trí tuệ nhân tạo liên quan đến việc máy thực hiện nhiệm vụ thông thường đòi hỏi trí tuệ của con người, như nhận thức hình ảnh, nhận dạng giọng nói và ra quyết định."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Machine learning is a subset of _________ Intelligence.",
+          "options": {
+            "A": "Natural",
+            "B": "Artificial",
+            "C": "Human",
+            "D": "Emotional"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Natural' intelligence refers to human intelligence. B: 'Artificial' is correct as machine learning is a subset of artificial intelligence. C: 'Human' intelligence is the broader category. D: 'Emotional' intelligence is a different aspect not directly related to machine learning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Robotics",
+        "type": "Noun",
+        "phonetic": "roʊˈbɑː.tɪks",
+        "example": "Robotics involves the design, construction, operation, and use of robots to perform tasks.",
+        "explain": "Robot học",
+        "translatedExample": "Robotics liên quan đến thiết kế, xây dựng, vận hành và sử dụng robot để thực hiện nhiệm vụ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Robotics'?",
+          "options": {
+            "A": "Automation",
+            "B": "Programming",
+            "C": "Engineering",
+            "D": "Algorithm"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Automation' is synonymous with 'Robotics' as both involve the use of machines to perform tasks. B: 'Programming' is a related but distinct concept. C: 'Engineering' is a broader field. D: 'Algorithm' is a specific process used in programming and computing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Virtual Reality",
+        "type": "Noun",
+        "phonetic": "ˈvɜːr.tʃu.əl riˈæl.ə.ti",
+        "example": "Virtual Reality creates a simulated environment that users can interact with using specialized equipment, typically a headset.",
+        "explain": "Thực tế ảo",
+        "translatedExample": "Thực tế ảo tạo ra một môi trường mô phỏng mà người dùng có thể tương tác bằng cách sử dụng thiết bị chuyên dụng, thường là tai nghe."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Virtual Reality is used in various industries, including gaming, education, and medical training.",
+          "sentenceWithBlank": "Virtual Reality is used in various industries, including gaming, education, and medical _________.",
+          "wordBlank": "training",
+          "translation": "Thực tế ảo được sử dụng trong nhiều ngành, bao gồm giải trí, giáo dục và đào tạo y tế."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cybersecurity",
+        "type": "Noun",
+        "phonetic": "ˈsaɪ.bər.sɪˌkjʊr.ə.t̬i",
+        "example": "Cybersecurity focuses on protecting computer systems, networks, and data from cyber threats and attacks.",
+        "explain": "An ninh mạng",
+        "translatedExample": "An ninh mạng tập trung vào bảo vệ hệ thống máy tính, mạng và dữ liệu khỏi các mối đe dọa và tấn công mạng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cybersecurity'?",
+          "options": {
+            "A": "Firewall",
+            "B": "Vulnerability",
+            "C": "Intrusion",
+            "D": "Insecurity"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Firewall' is a related concept in cybersecurity. B: 'Vulnerability' is a potential weakness in security. C: 'Intrusion' is a threat that cybersecurity aims to prevent. D: 'Insecurity' is the antonym, indicating a lack of security."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Biometrics",
+        "type": "Noun",
+        "phonetic": "baɪ.oʊˈmɛ.trɪks",
+        "example": "Biometrics involves the measurement and statistical analysis of people's unique physical and behavioral characteristics for identification and access control.",
+        "explain": "Sinai học",
+        "translatedExample": "Sinai học liên quan đến đo lường và phân tích thống kê các đặc điểm vật lý và hành vi độc đáo của người để nhận diện và kiểm soát truy cập."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Fingerprint recognition is a form of _________ technology.",
+          "options": {
+            "A": "Biometrics",
+            "B": "Encryption",
+            "C": "Robotics",
+            "D": "Virtual Reality"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Biometrics' is correct as fingerprint recognition falls under the category of biometric technology. B: 'Encryption' involves data security. C: 'Robotics' and 'Virtual Reality' are unrelated to fingerprint recognition."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Internet of Things",
+        "type": "Noun",
+        "phonetic": "ˈɪn.t̬ɚ.net əv θɪŋz",
+        "example": "The Internet of Things connects everyday devices to the internet, enabling them to send and receive data.",
+        "explain": "Internet of Things",
+        "translatedExample": "Internet of Things kết nối các thiết bị hàng ngày với internet, cho phép chúng gửi và nhận dữ liệu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Internet of Things'?",
+          "options": {
+            "A": "Artificial Intelligence",
+            "B": "Blockchain",
+            "C": "Offline",
+            "D": "Cybersecurity"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Artificial Intelligence' and 'Blockchain' are unrelated concepts. B: 'Offline' is the antonym as it represents the absence of internet connectivity. C: 'Cybersecurity' is related but not the direct opposite. D: 'Cybersecurity' is a related concept but not the antonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Algorithm",
+        "type": "Noun",
+        "phonetic": "ˈæl.ɡə.rɪ.ðəm",
+        "example": "Search engines use complex algorithms to retrieve the most relevant information.",
+        "explain": "Thuật toán",
+        "translatedExample": "Các công cụ tìm kiếm sử dụng các thuật toán phức tạp để truy xuất thông tin liên quan nhất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Machine learning is a subset of _________ Intelligence.",
+          "options": {
+            "A": "Natural",
+            "B": "Artificial",
+            "C": "Human",
+            "D": "Emotional"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Natural' intelligence refers to human intelligence. B: 'Artificial' is correct as machine learning is a subset of artificial intelligence. C: 'Human' intelligence is the broader category. D: 'Emotional' intelligence is a different aspect not directly related to machine learning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bandwidth",
+        "type": "Noun",
+        "phonetic": "ˈbænd.wɪtθ",
+        "example": "Streaming high-quality videos requires a lot of bandwidth.",
+        "explain": "Băng thông",
+        "translatedExample": "Phát video chất lượng cao đòi hỏi nhiều băng thông."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Bandwidth is a critical factor in ensuring smooth and uninterrupted online streaming.",
+          "sentenceWithBlank": "Bandwidth is a critical factor in ensuring smooth and uninterrupted online _________.",
+          "wordBlank": "streaming",
+          "translation": "Băng thông là một yếu tố quan trọng để đảm bảo việc phát trực tuyến mượt mà và liên tục."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cloud Computing",
+        "type": "Noun",
+        "phonetic": "klaʊd kəmˈpjuː.tɪŋ",
+        "example": "Cloud computing allows users to access and store data on remote servers.",
+        "explain": "Điện toán đám mây",
+        "translatedExample": "Điện toán đám mây cho phép người dùng truy cập và lưu trữ dữ liệu trên máy chủ từ xa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Dropbox is a popular service that offers _ computing solutions.",
+          "options": {
+            "A": "Cloud",
+            "B": "Solid",
+            "C": "Direct",
+            "D": "Local"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Cloud' is correct as Dropbox provides storage solutions on remote servers. B: 'Solid' does not relate to the type of computing service being described. C: 'Direct' implies a more immediate form of computing, not remote. D: 'Local' contradicts the concept of cloud computing, which relies on remote access."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Database",
+        "type": "Noun",
+        "phonetic": "ˈdeɪ.tə.beɪs",
+        "example": "The customer's information is stored in a secure database.",
+        "explain": "Cơ sở dữ liệu",
+        "translatedExample": "Thông tin của khách hàng được lưu trữ trong một cơ sở dữ liệu an toàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Database'?",
+          "options": {
+            "A": "Data bank",
+            "B": "Data pack",
+            "C": "Folder",
+            "D": "File"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Data bank' is synonymous with 'Database' as both refer to organized collections of data. B: 'Data pack' is not commonly used to describe a collection of data. C: 'Folder' is a way to organize files but not a collection of data. D: 'File' is a single piece of data, not a collection."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Encryption",
+        "type": "Noun",
+        "phonetic": "ɪnˈkrɪp.ʃən",
+        "example": "Encryption ensures secure communication by converting data into a code that can only be deciphered with the appropriate key.",
+        "explain": "Mã hóa",
+        "translatedExample": "Mã hóa đảm bảo giao tiếp an toàn bằng cách chuyển đổi dữ liệu thành một mã chỉ có thể giải mã bằng chìa khóa phù hợp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The use of end-to-end encryption is crucial for protecting sensitive information during online transactions.",
+          "sentenceWithBlank": "The use of end-to-end encryption is crucial for protecting sensitive information during online _________.",
+          "wordBlank": "transactions",
+          "translation": "Việc sử dụng mã hóa end-to-end quan trọng để bảo vệ thông tin nhạy cảm trong các giao dịch trực tuyến."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Artificial Intelligence",
+        "type": "Noun",
+        "phonetic": "ɑːrˌtɪˈfɪʃ.əl ɪnˈtel.ə.dʒəns",
+        "example": "Artificial Intelligence aims to create machines that can perform tasks requiring human intelligence.",
+        "explain": "Trí tuệ nhân tạo",
+        "translatedExample": "Trí tuệ nhân tạo nhằm tạo ra các máy có thể thực hiện các nhiệm vụ đòi hỏi trí tuệ của con người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Artificial Intelligence'?",
+          "options": {
+            "A": "Machine Learning",
+            "B": "Natural Intelligence",
+            "C": "Neural Networks",
+            "D": "Deep Learning"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Machine Learning,' 'Neural Networks,' and 'Deep Learning' are all related concepts within artificial intelligence. B: 'Natural Intelligence' is the antonym as it refers to human intelligence without artificial enhancement."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Machine Learning",
+        "type": "Noun",
+        "phonetic": "məˈʃiːn ˈlɝː.nɪŋ",
+        "example": "Machine Learning enables computers to learn and improve performance without being explicitly programmed.",
+        "explain": "Học máy",
+        "translatedExample": "Học máy giúp máy tính học và cải thiện hiệu suất mà không cần lập trình một cách rõ ràng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Machine Learning algorithms analyze patterns in data to make predictions and decisions.",
+          "sentenceWithBlank": "Machine Learning algorithms analyze patterns in data to make predictions and _________.",
+          "wordBlank": "decisions",
+          "translation": "Các thuật toán Học máy phân tích các mẫu trong dữ liệu để đưa ra dự đoán và quyết định."
+        }
+      }
+    }
+  ]
+}

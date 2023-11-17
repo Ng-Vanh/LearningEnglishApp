@@ -1,4 +1,4 @@
-package com.example.dictionaryenvi;
+package com.example.dictionaryenvi.TopicWord;
 
 import javafx.scene.control.ProgressBar;
 import com.backend.Connection.LearnedDataAccess;
@@ -12,8 +12,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Map;
 
-import static com.example.dictionaryenvi.Login.currentUser;
+import static com.example.dictionaryenvi.Account.Login.currentUser;
 
 public class TopicWord {
     public static final String topicAnimal = "Animal";
@@ -25,7 +26,7 @@ public class TopicWord {
     public static final String topicFashion = "Fashion";
     public static final String topicCharacter = "Character";
     public static final String topicBusiness = "Business";
-    public static final String topicPharseVerbs = "PharseVerbs";
+    public static final String topicPhraseVerbs = "PhraseVerbs";
     public static final String topicWeather ="Weather";
     public static final String topicIdiom = "Idiom";
     public static UserLearnWord currentUserLearnWord = new UserLearnWord(currentUser.getUsername());
@@ -38,18 +39,33 @@ public class TopicWord {
             bodyPrgBar, charaterPrgBar, phrasePrgBar;
 
     public void initialize(){
-        techPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicTech) / 30.0);
-        sportPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicSports) / 30.0);
-        weatherPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicWeather) / 30.0);
-        idiomPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicIdiom) / 30.0);
-        foodPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicFood) / 30.0 );
-        businessPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicBusiness) / 30.0 );
-        animalPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicAnimal) / 30.0);
-        plantsPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicPlants) / 30.0);
-        fashionPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicFashion) / 30.0);
-        bodyPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicBody) / 30.0);
-        charaterPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicCharacter) / 30.0);
-        phrasePrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicPharseVerbs) / 30.0);
+//        techPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicTech) / 30.0);
+//        sportPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicSports) / 30.0);
+//        weatherPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicWeather) / 30.0);
+//        idiomPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicIdiom) / 30.0);
+//        foodPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicFood) / 30.0 );
+//        businessPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicBusiness) / 30.0 );
+//        animalPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicAnimal) / 30.0);
+//        plantsPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicPlants) / 30.0);
+//        fashionPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicFashion) / 30.0);
+//        bodyPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicBody) / 30.0);
+//        charaterPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicCharacter) / 30.0);
+//        phrasePrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicPharseVerbs) / 30.0);
+
+        Map<String, Integer> listCount = learnedDataAccess.listCountLearnedWords(currentUser.getUsername());
+        String[] arrayTopics =new String[] {topicAnimal, topicFood, topicTech, topicSports, topicBody,
+                topicPlants, topicFashion, topicCharacter, topicBusiness,
+                topicPhraseVerbs, topicWeather, topicIdiom};
+        ProgressBar[] arrayProgress = new ProgressBar[] {animalPrgBar, foodPrgBar, techPrgBar, sportPrgBar,bodyPrgBar,
+                plantsPrgBar, fashionPrgBar, charaterPrgBar, businessPrgBar,
+                phrasePrgBar, weatherPrgBar, idiomPrgBar};
+        for (int i = 0; i < arrayTopics.length; i++) {
+            if(listCount.containsKey(arrayTopics[i])){
+                arrayProgress[i].setProgress(listCount.get(arrayTopics[i]) / 30.0);
+            }else{
+                arrayProgress[i].setProgress(0);
+            }
+        }
     }
     public void goToHomePage(MouseEvent mouseEvent) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage/HomePage.fxml"));
@@ -133,7 +149,7 @@ public class TopicWord {
     }
 
     public void goToLearnPhrasalVerb(MouseEvent mouseEvent) {
-        currentUserLearnWord.setTopic(topicPharseVerbs);
+        currentUserLearnWord.setTopic(topicPhraseVerbs);
         loadCard(mouseEvent);
     }
 }

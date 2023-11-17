@@ -1,4 +1,4 @@
-package com.example.dictionaryenvi;
+package com.example.dictionaryenvi.MainDictionary;
 
 import com.backend.Connection.FavoriteDataAccess;
 import com.backend.Connection.HistoryDataAccess;
@@ -34,9 +34,8 @@ import javafx.util.Duration;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
-import static com.example.dictionaryenvi.Login.currentUser;
+import static com.example.dictionaryenvi.Account.Login.currentUser;
 
 public class MainDictionary {
     @FXML

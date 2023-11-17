@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class ConnectDatabase {
-            protected static final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
+    protected static final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_edictionary";
     protected static final String userName = "freedb_ngvanh2234";
     protected static final String passWord = "*S$D&NpvY$V*#a6";
     protected static final String tableEdictName = "freedb_edictionary.tbl_edict";

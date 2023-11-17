@@ -7,7 +7,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static com.backend.Connection.ConnectDatabase.*;
 
@@ -160,6 +162,27 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
                 result.add(new UserLearnWord(username,topic, word));
             }
             connectDatabase.closeConnection(connection);
+        } catch (SQLException e) {
+            throw new RuntimeException();
+        }
+        return result;
+    }
+    public Map<String, Integer> listCountLearnedWords(String username){
+        Map<String, Integer> result = new HashMap<>();
+        try {
+            Connection connection = connectDatabase.getConnection();
+            String query = "SELECT topic, COUNT(DISTINCT word) as total FROM "
+                    + tableLearning + " WHERE username = ? GROUP BY topic ORDER BY topic ASC ";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                String topic = resultSet.getString(1);
+                int count = resultSet.getInt(2);
+                result.put(topic, count);
+            }
+            connectDatabase.closeConnection(connection);
+
         } catch (SQLException e) {
             throw new RuntimeException();
         }

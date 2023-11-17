@@ -1,4 +1,4 @@
-package com.example.dictionaryenvi;
+package com.example.dictionaryenvi.HomePage;
 
 import com.backend.Connection.UserDataAccess;
 import com.backend.User.User;
@@ -25,7 +25,7 @@ import javafx.util.Duration;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static com.example.dictionaryenvi.Login.currentUser;
+import static com.example.dictionaryenvi.Account.Login.currentUser;
 
 public class HomePage {
     @FXML
@@ -133,32 +133,45 @@ public class HomePage {
 
         ButtonType closeButtonType = new ButtonType("Close", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().add(closeButtonType);
-        String cssFile = getClass().getResource("HomePage/Ranking.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/HomePage/Ranking.css").toExternalForm();
         dialog.getDialogPane().getStylesheets().add(cssFile);
-        dialog.getDialogPane().setMinWidth(456);
+        dialog.getDialogPane().setMinWidth(560);
         String myUsername = currentUser.getUsername();
 
 
         ArrayList<User> dataUsers = UserDataAccess.getInstance().selectAll();
         ObservableList<User> userList = FXCollections.observableArrayList();
         TableView<User> tableView = new TableView<>();
+        resizeTableView(tableView,false);
         TableColumn<User, Integer> rankCol = new TableColumn<>("Rank");
         rankCol.setCellValueFactory(cellData -> new ReadOnlyObjectWrapper<>(tableView.getItems().indexOf(cellData.getValue()) + 1));
+        rankCol.setResizable(false);
+        rankCol.setPrefWidth(60);
+
+
         TableColumn<User, String> firstNameCol = new TableColumn<>("First Name");
         firstNameCol.setCellValueFactory(new PropertyValueFactory<User, String>("firstName"));
+
 
         TableColumn<User, String> lastNameCol = new TableColumn<>("Last Name");
         lastNameCol.setCellValueFactory(new PropertyValueFactory<User, String>("lastName"));
 
         TableColumn<User, String> usernameCol = new TableColumn<>("Username");
         usernameCol.setCellValueFactory(new PropertyValueFactory<User, String>("username"));
+        usernameCol.setResizable(false);
+        usernameCol.setPrefWidth(100);
 
 
-        TableColumn<User, Integer> scoreGame1Col = new TableColumn<>("Score Game 1");
+        TableColumn<User, Integer> scoreGame1Col = new TableColumn<>("Dictation");
         scoreGame1Col.setCellValueFactory(new PropertyValueFactory<User, Integer>("scoreGame1"));
+        scoreGame1Col.setResizable(false);
+        scoreGame1Col.setPrefWidth(70);
 
-        TableColumn<User, Integer> scoreGame2Col = new TableColumn<>("Score Game 2");
+        TableColumn<User, Integer> scoreGame2Col = new TableColumn<>("Multiple Choice");
         scoreGame2Col.setCellValueFactory(new PropertyValueFactory<User, Integer>("scoreGame2"));
+        scoreGame2Col.setResizable(false);
+        scoreGame2Col.setPrefWidth(100);
+
 
         tableView.getColumns().addAll(rankCol,usernameCol, firstNameCol, lastNameCol, scoreGame1Col, scoreGame2Col);
         userList.addAll(dataUsers);
@@ -172,7 +185,8 @@ public class HomePage {
             String fullName = user.getFirstName() + " " + user.getLastName();
             return new ReadOnlyObjectWrapper<>(fullName);
         });
-
+        fullNameCol.setResizable(false);
+        fullNameCol.setPrefWidth(250);
         tableView.getColumns().add(2, fullNameCol);
         tableView.setItems(userList);
 
@@ -184,12 +198,32 @@ public class HomePage {
                 if (user == null || user.getUsername() == null) {
                     return;
                 }
+                int userRank = tableView.getItems().indexOf(user) + 1;
 
                 if (user.getUsername().equals(myUsername)) {
-                    setStyle("-fx-background-color: linear-gradient(to right, yellow , #F93535);");
+                    setStyle("-fx-font-weight: bold; -fx-font-style: italic;" + getRowColor(userRank));
+                } else {
+                    String rowColor = getRowColor(userRank);
+                    setStyle(rowColor);
+                }
+            }
+
+            private String getRowColor(int rank) {
+                switch (rank) {
+                    case 1:
+                        return "-fx-background-color: linear-gradient(to bottom, #FAFAD2, #FFD700)";
+                    case 2:
+                        return "-fx-background-color: linear-gradient(to bottom, #F0EFEC, #BDBCBA)";
+                    case 3:
+                        return "-fx-background-color: linear-gradient(to bottom, #FFE7C3, #B08D57)";
+                    default:
+                        return "-fx-background-color: white";
                 }
             }
         });
+        for (TableColumn<?, ?> col : tableView.getColumns()) {
+            col.setSortable(false);
+        }
 
         VBox vBox = new VBox(tableView);
         dialog.getDialogPane().setContent(vBox);
@@ -199,5 +233,9 @@ public class HomePage {
         fadeTransition.setToValue(1.0);
         fadeTransition.play();
         dialog.showAndWait();
+    }
+
+    private void resizeTableView(TableView<User> tableView, boolean b) {
+        tableView.getColumns().forEach(column -> column.setResizable(b));
     }
 }

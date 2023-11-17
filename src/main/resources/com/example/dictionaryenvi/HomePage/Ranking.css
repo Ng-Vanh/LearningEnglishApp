@@ -1,6 +1,9 @@
 /* Styles for the TableView */
 .table-view {
     -fx-background-color: #f0f0f0;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
 }
 
 .table-column {
@@ -11,8 +14,6 @@
 .dialog-pane {
     -fx-padding: 8px;
     -fx-background-color: white;
-    -fx-border-color: black;
-    -fx-border-style: solid;
     -fx-border-width: 1px;
     -fx-effect: innershadow(gaussian, rgba(0, 255, 0, 0.5), 20, 0, 0, 3);
 }
@@ -39,6 +40,29 @@
 }
 
 /* Styles for the TableView rows */
+.table-view .column-header-background {
+    -fx-background-color: #CBFFb7;
+}
+
+.table-view .column-header {
+    -fx-background-color: #CBFFB7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-border-color: #D2BDBD;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-cell {
+    -fx-text-fill: #050505;
+}
+
+.table-row-cell {
+    -fx-pref-height: 40;
+    -fx-font-size: 14;
+    -fx-border-color: #D2BDBD;
+    -fx-border-width: 0 0 1 0;
+}
 .table-row-cell, .table-row-cell:selected, .table-row-cell:hover {
     -fx-background-color: #ffffff;
 }
@@ -52,12 +76,16 @@
 }
 
 .table-row-cell:selected .table-cell {
-    -fx-text-fill: white;
+    -fx-text-fill: black;
     -fx-font-weight: bold;
-    -fx-background-color: #a0a0a0;
+    -fx-background-color: #A0F2B8;
 }
 
 .table-row-cell:hover {
-    -fx-background-color: #e0e0e0;
+    -fx-background-color: white;
     -fx-cursor: hand;
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;
 }
+
+

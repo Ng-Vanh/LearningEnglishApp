@@ -4,6 +4,8 @@ import com.backend.Exercise.Exercises.Dictation.Dictation;
 import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 import com.backend.Exercise.Exercises.MultipleChoice.Options;
 import com.backend.OnlineDictionary.Utils.AudioTranslation;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +13,30 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+//@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
+//@JsonSubTypes({
+//        @JsonSubTypes.Type(value = MultipleChoice.class, name = "MultipleChoice"),
+//        @JsonSubTypes.Type(value = Dictation.class, name = "Dictation")
+//})
 public abstract class Exercise {
+//    private String type;
+//    private String exerciseType;
+//
+//    public String getType() {
+//        return type;
+//    }
+//
+//    public void setType(String type) {
+//        this.type = type;
+//    }
+//
+//    public String getExerciseType() {
+//        return exerciseType;
+//    }
+//
+//    public void setExerciseType(String exerciseType) {
+//        this.exerciseType = exerciseType;
+//    }
 
     public Exercise() {
 

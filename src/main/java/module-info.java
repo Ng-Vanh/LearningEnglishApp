@@ -20,4 +20,20 @@ module com.example.dictionaryenvi {
     exports com.example.dictionaryenvi.Exercise.Exercises.Dictation;
     exports com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
     exports com.example.dictionaryenvi.Exercise.ExerciseSelection;
+
+    exports com.backend.TopicWord.Utils to com.fasterxml.jackson.databind;
+    exports com.backend.OnlineDictionary.OnlineDictionaries to com.fasterxml.jackson.databind;
+    opens com.backend.OnlineDictionary.Utils to com.fasterxml.jackson.databind;
+
+    exports com.backend.Exercise.Utils to com.fasterxml.jackson.databind;
+
+    exports com.backend.Exercise.Exercises.MultipleChoice to com.fasterxml.jackson.databind;
+    exports com.backend.Exercise.Exercises.Dictation to com.fasterxml.jackson.databind;
+
+    opens com.backend.TopicWord.Utils to com.fasterxml.jackson.databind;
+    opens com.backend.Exercise.Exercises.MultipleChoice to com.fasterxml.jackson.databind;
+    exports com.backend.TopicWord.TopicWords.SimpleTopicWord to com.fasterxml.jackson.databind;
+    opens com.backend.TopicWord.TopicWords.SimpleTopicWord to com.fasterxml.jackson.databind;
+    exports com.backend.TopicWord.TopicWords.DetailedTopicWord to com.fasterxml.jackson.databind;
+    opens com.backend.TopicWord.TopicWords.DetailedTopicWord to com.fasterxml.jackson.databind;
 }

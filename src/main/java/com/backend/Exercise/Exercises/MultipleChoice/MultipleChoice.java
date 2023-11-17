@@ -1,6 +1,7 @@
 package com.backend.Exercise.Exercises.MultipleChoice;
 
 import com.backend.Exercise.Utils.Exercise;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.backend.ChatGPT.ChatGPT;
@@ -15,15 +16,47 @@ import java.util.Objects;
 import java.util.Set;
 
 public class MultipleChoice extends Exercise {
+    @JsonProperty("question")
     private String question;
+
+    @JsonProperty("options")
     private Options options;
+
+    @JsonProperty("correctAnswer")
     private String correctAnswer;
+
+    @JsonProperty("explanation")
     private String explanation;
     private static final String prefix = "MultipleChoice";
 
     private static final HashSet<String> typeSet = new HashSet<>(Set.of("Antonyms", "Blank", "Synonyms"));
 
     private static final String bankFolderPath = "src/main/java/com/backend/Exercise/ExerciseBank/MultipleChoice/";
+
+//    @JsonProperty("type")
+//    private String type = prefix;
+
+//    @JsonProperty("exerciseType")
+//    private String exerciseType;
+
+    @JsonProperty("description")
+    private MultipleChoiceDescription description;
+
+//    public String getExerciseType() {
+//        return exerciseType;
+//    }
+
+//    public void setExerciseType(String exerciseType) {
+//        this.exerciseType = exerciseType;
+//    }
+
+    public MultipleChoiceDescription getDescription() {
+        return description;
+    }
+
+    public void setDescription(MultipleChoiceDescription description) {
+        this.description = description;
+    }
 
     public MultipleChoice() {
 
@@ -49,8 +82,20 @@ public class MultipleChoice extends Exercise {
         try {
             String prompt = PromptLoader.getPrompt(promptName);
             generateExercise(prompt);
+//            this.exerciseType = prefix + "-" + exerciseType;
         } catch (IllegalArgumentException e) {
             System.err.println(e.getMessage());
+        }
+    }
+
+    public MultipleChoice(String exerciseType, String jsonDescription) {
+        if (!exerciseType.contains(prefix)) {
+            throw new IllegalArgumentException("Not a multiple choice");
+        }
+        else {
+            MultipleChoice multipleChoice = loadFromJson(jsonDescription);
+//            this.exerciseType = prefix + "-" + exerciseType;
+            assign(multipleChoice);
         }
     }
 

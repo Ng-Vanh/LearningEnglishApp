@@ -1,0 +1,2080 @@
+{
+  "topic": "Animal",
+  "words": [
+    {
+      "definition": {
+        "word": "Carnivore",
+        "type": "Noun",
+        "phonetic": "ˈkɑːr.nə.vɔːr",
+        "example": "Lions and tigers are carnivores that primarily eat meat.",
+        "explain": "Động vật ăn thịt",
+        "translatedExample": "Sư tử và hổ là loài động vật ăn thịt chủ yếu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Carnivore'?",
+          "options": {
+            "A": "Herbivore",
+            "B": "Omnivore",
+            "C": "Predator",
+            "D": "Scavenger"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Herbivore' eats plants. B: 'Omnivore' eats both plants and meat. C: 'Predator' is a synonym, as carnivores are predators. D: 'Scavenger' feeds on dead animals."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Amphibian",
+        "type": "Noun",
+        "phonetic": "æmˈfɪb.i.ən",
+        "example": "Frogs and salamanders are examples of amphibians.",
+        "explain": "Động vật lưỡng cư",
+        "translatedExample": "Ếch và kỳ đà là ví dụ về động vật lưỡng cư."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Amphibian'?",
+          "options": {
+            "A": "Reptile",
+            "B": "Mammal",
+            "C": "Bird",
+            "D": "Fish"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Reptile' is a different class. B: 'Mammal' is warm-blooded with fur. C: 'Bird' is the antonym, as amphibians live part of their lives in water and on land. D: 'Fish' live entirely in water."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Exoskeleton",
+        "type": "Noun",
+        "phonetic": "ˌɛk.soʊˈskɛl.ɪ.tən",
+        "example": "Insects have an exoskeleton that provides external support.",
+        "explain": "Ngoại bì",
+        "translatedExample": "Côn trùng có một lớp ngoại bì cung cấp hỗ trợ bên ngoài."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The exoskeleton of arthropods is made of a tough, flexible material called chitin.",
+          "sentenceWithBlank": "The ________ of arthropods is made of a tough, flexible material called chitin.",
+          "wordBlank": "exoskeleton",
+          "translation": "Ngoại bì của động vật chân khớp được làm từ một vật liệu cứng, linh hoạt được gọi là chitin."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Herbivore",
+        "type": "Noun",
+        "phonetic": "ˈhɜːr.bɪ.vɔːr",
+        "example": "Deer and rabbits are herbivores that mainly eat plants.",
+        "explain": "Động vật ăn thực vật",
+        "translatedExample": "Hươu và thỏ là loài động vật ăn thực vật chủ yếu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What do herbivores primarily eat?",
+          "options": {
+            "A": "Meat",
+            "B": "Plants",
+            "C": "Insects",
+            "D": "Fish"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: Carnivores eat meat. B: Herbivores primarily eat plants. C: Insects are often eaten by omnivores. D: Fish are not the primary food for herbivores."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nocturnal",
+        "type": "Adjective",
+        "phonetic": "nɑːkˈtɜːr.nəl",
+        "example": "Owls are nocturnal birds that are active during the night.",
+        "explain": "Vào ban đêm",
+        "translatedExample": "Cú là loài chim vào ban đêm hoạt động."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Nocturnal'?",
+          "options": {
+            "A": "Diurnal",
+            "B": "Crepuscular",
+            "C": "Noisy",
+            "D": "Active"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Diurnal' is the opposite, meaning active during the day. B: 'Crepuscular' refers to animals active during dawn and dusk. C: 'Noisy' is unrelated. D: 'Active' is too general."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Omnivore",
+        "type": "Noun",
+        "phonetic": "ˈɑːm.nɪ.vɔːr",
+        "example": "Bears are omnivores that eat both plants and meat.",
+        "explain": "Động vật ăn tạp",
+        "translatedExample": "Gấu là loài động vật ăn tạp ăn cả thực vật và thịt."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Humans are classified as omnivores because they consume both plant-based and animal-based foods.",
+          "sentenceWithBlank": "Humans are classified as ________ because they consume both plant-based and animal-based foods.",
+          "wordBlank": "omnivores",
+          "translation": "Con người được phân loại là động vật ăn tạp vì họ tiêu thụ cả thực phẩm dựa trên thực vật và thực phẩm dựa trên động vật."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Predator",
+        "type": "Noun",
+        "phonetic": "ˈprɛd.ə.t̬ɚ",
+        "example": "Lions are predators that hunt and kill other animals for food.",
+        "explain": "Thú săn mồi",
+        "translatedExample": "Sư tử là loài thú săn mồi săn và giết chết các loài động vật khác để làm thức ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Predator'?",
+          "options": {
+            "A": "Prey",
+            "B": "Herbivore",
+            "C": "Carnivore",
+            "D": "Scavenger"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Prey' is the antonym as predators hunt and kill prey. B: 'Herbivore' eats plants. C: 'Carnivore' also hunts for food. D: 'Scavenger' feeds on dead animals."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Vertebrate",
+        "type": "Noun",
+        "phonetic": "ˈvɜːr.t̬ə.breɪt",
+        "example": "Fish, reptiles, birds, and mammals are examples of vertebrates.",
+        "explain": "Động vật có xương sống",
+        "translatedExample": "Cá, bò sát, chim và động vật có vú là những ví dụ về động vật có xương sống."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Vertebrate'?",
+          "options": {
+            "A": "Invertebrate",
+            "B": "Reptile",
+            "C": "Fish",
+            "D": "Mammal"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Invertebrate' is the opposite. B: 'Reptile' is a specific class. C: 'Fish' is a specific class. D: 'Mammal' is the synonym, as mammals are a type of vertebrate."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Camouflage",
+        "type": "Noun",
+        "phonetic": "ˈkæm.ə.flɑːʒ",
+        "example": "Chameleons use camouflage to blend in with their surroundings.",
+        "explain": "Sự ngụy trang",
+        "translatedExample": "Kỳ nhông sử dụng sự ngụy trang để hòa mình vào môi trường xung quanh."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Animals use camouflage to avoid predators and hide from their prey.",
+          "sentenceWithBlank": "Animals use ________ to avoid predators and hide from their prey.",
+          "wordBlank": "camouflage",
+          "translation": "Động vật sử dụng sự ngụy trang để tránh xa thú săn mồi và che giấu khỏi con mồi của họ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Arachnid",
+        "type": "Noun",
+        "phonetic": "əˈræk.nɪd",
+        "example": "Spiders and scorpions are examples of arachnids.",
+        "explain": "Động vật chân dài",
+        "translatedExample": "Nhện và bọ cạp là ví dụ về động vật chân dài."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What are spiders and scorpions examples of?",
+          "options": {
+            "A": "Mammals",
+            "B": "Arachnids",
+            "C": "Insects",
+            "D": "Amphibians"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Mammals' are warm-blooded vertebrates. B: 'Arachnids' include spiders and scorpions. C: 'Insects' have six legs and three body segments. D: 'Amphibians' are cold-blooded vertebrates that can live both in water and on land."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hibernate",
+        "type": "Verb",
+        "phonetic": "ˈhaɪ.bɚ.neɪt",
+        "example": "Bears hibernate during the winter to conserve energy.",
+        "explain": "Ngủ đông",
+        "translatedExample": "Gấu ngủ đông vào mùa đông để tiết kiệm năng lượng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Some animals hibernate as a survival strategy in harsh winter conditions.",
+          "sentenceWithBlank": "Some animals ________ as a survival strategy in harsh winter conditions.",
+          "wordBlank": "hibernate",
+          "translation": "Một số động vật ngủ đông như một chiến lược sinh tồn trong điều kiện khắc nghiệt của mùa đông."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nocturne",
+        "type": "Noun",
+        "phonetic": "ˈnɑːk.tɝːn",
+        "example": "Owls are known for their nocturnal behavior and hunting during the night.",
+        "explain": "Bản nhạc tình yêu vào ban đêm",
+        "translatedExample": "Cú nổi tiếng với hành vi và săn mồi vào ban đêm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Nocturne'?",
+          "options": {
+            "A": "Sunrise",
+            "B": "Daylight",
+            "C": "Moonlight",
+            "D": "Diurnal"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Sunrise' is the beginning of the day. B: 'Daylight' is the time when the sun is shining. C: 'Moonlight' is light from the moon. D: 'Diurnal' is the antonym, meaning active during the day."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pheromone",
+        "type": "Noun",
+        "phonetic": "ˈfɛr.ə.moʊn",
+        "example": "Ants use pheromones to communicate and coordinate with each other.",
+        "explain": "Hormone giao tiếp",
+        "translatedExample": "Kiến sử dụng hormone giao tiếp để liên lạc và phối hợp với nhau."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Pheromones play a crucial role in the social behavior of many insect species.",
+          "sentenceWithBlank": "________ play a crucial role in the social behavior of many insect species.",
+          "wordBlank": "Pheromones",
+          "translation": "Hormone giao tiếp đóng một vai trò quan trọng trong hành vi xã hội của nhiều loài côn trùng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Aquatic",
+        "type": "Adjective",
+        "phonetic": "əˈkwɑː.tɪk",
+        "example": "Fish and dolphins are examples of aquatic animals.",
+        "explain": "Thuộc về môi trường nước",
+        "translatedExample": "Cá và cá heo là những ví dụ về động vật thuộc môi trường nước."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Aquatic'?",
+          "options": {
+            "A": "Terrestrial",
+            "B": "Marine",
+            "C": "Aerial",
+            "D": "Amphibious"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Terrestrial' is related to land. B: 'Marine' is the synonym, referring to the sea or ocean. C: 'Aerial' is related to the air. D: 'Amphibious' refers to animals that can live both in water and on land."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Migrate",
+        "type": "Verb",
+        "phonetic": "ˈmaɪ.ɡreɪt",
+        "example": "Many bird species migrate to warmer regions during the winter.",
+        "explain": "Di cư",
+        "translatedExample": "Nhiều loài chim di cư đến các khu vực ấm áp trong mùa đông."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The wildebeest migrate across the Serengeti in search of greener pastures.",
+          "sentenceWithBlank": "The wildebeest ________ across the Serengeti in search of greener pastures.",
+          "wordBlank": "migrate",
+          "translation": "Loài linh dương di cư qua thảo nguyên Serengeti để tìm kiếm cánh đồng xanh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Invertebrate",
+        "type": "Noun",
+        "phonetic": "ɪnˈvɜːr.tə.breɪt",
+        "example": "Insects, worms, and snails are examples of invertebrates.",
+        "explain": "Động vật không có xương sống",
+        "translatedExample": "Côn trùng, giun, và ốc sên là ví dụ về động vật không có xương sống."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Invertebrate'?",
+          "options": {
+            "A": "Vertebrate",
+            "B": "Arachnid",
+            "C": "Amphibian",
+            "D": "Reptile"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Vertebrate' is the antonym, as invertebrates lack a backbone. B: 'Arachnid' is a specific class. C: 'Amphibian' is a different class. D: 'Reptile' is a different class."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Echolocation",
+        "type": "Noun",
+        "phonetic": "ˌɛkoʊˌloʊˈkeɪʃən",
+        "example": "Bats use echolocation to navigate and locate prey in the dark.",
+        "explain": "Phát thanh hồi âm",
+        "translatedExample": "Dơi sử dụng phát thanh hồi âm để điều hướng và định vị mồi trong bóng tối."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Dolphins and whales also use echolocation for communication and finding food in the ocean.",
+          "sentenceWithBlank": "Dolphins and whales also use ________ for communication and finding food in the ocean.",
+          "wordBlank": "echolocation",
+          "translation": "Cá heo và cá voi cũng sử dụng phát thanh hồi âm để giao tiếp và tìm thức ăn dưới đáy biển."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Endangered",
+        "type": "Adjective",
+        "phonetic": "ɪnˈdeɪn.dʒərd",
+        "example": "The giant panda is an endangered species facing the risk of extinction.",
+        "explain": "Nguy cấp",
+        "translatedExample": "Gấu trúc là một loài động vật nguy cấp đang đối mặt với nguy cơ tuyệt chủng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Endangered'?",
+          "options": {
+            "A": "Protected",
+            "B": "Abundant",
+            "C": "Threatened",
+            "D": "Common"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Protected' is the opposite. B: 'Abundant' means plentiful. C: 'Threatened' is a synonym for endangered. D: 'Common' means widespread and not in danger."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivorous",
+        "type": "Adjective",
+        "phonetic": "kɑːrˈnɪv.ər.əs",
+        "example": "Cats are carnivorous animals that primarily eat meat.",
+        "explain": "Ăn thịt",
+        "translatedExample": "Mèo là loài động vật ăn thịt chủ yếu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary diet of carnivorous animals?",
+          "options": {
+            "A": "Plants",
+            "B": "Meat",
+            "C": "Insects",
+            "D": "Fish"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: Herbivores eat plants. B: Carnivores primarily eat meat. C: Insects are often eaten by omnivores. D: Fish are not the primary food for carnivores."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hibernation",
+        "type": "Noun",
+        "phonetic": "ˌhaɪ.bɚˈneɪ.ʃən",
+        "example": "Bears undergo hibernation during the winter to conserve energy.",
+        "explain": "Ngủ đông",
+        "translatedExample": "Gấu ngủ đông trong mùa đông để tiết kiệm năng lượng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Many reptiles and mammals enter a state of hibernation in response to cold temperatures and reduced food availability.",
+          "sentenceWithBlank": "Many reptiles and mammals enter a state of ________ in response to cold temperatures and reduced food availability.",
+          "wordBlank": "hibernation",
+          "translation": "Nhiều loài bò sát và động vật có vú vào trạng thái ngủ đông khi phản ứng với nhiệt độ lạnh và nguồn thức ăn giảm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivorous",
+        "type": "Adjective",
+        "phonetic": "kɑːrˈnɪv.ər.əs",
+        "example": "Cats are carnivorous animals that primarily eat meat.",
+        "explain": "Ăn thịt",
+        "translatedExample": "Mèo là loài động vật ăn thịt chủ yếu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Carnivorous'?",
+          "options": {
+            "A": "Omnivorous",
+            "B": "Herbivorous",
+            "C": "Insectivorous",
+            "D": "Detritivorous"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Omnivorous' includes both plant and animal matter. B: 'Herbivorous' primarily eats plants. C: 'Insectivorous' primarily eats insects. D: 'Detritivorous' feeds on decaying matter."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Extinct",
+        "type": "Adjective",
+        "phonetic": "ɪkˈstɪŋkt",
+        "example": "The dodo bird is an example of an extinct species.",
+        "explain": "Tuyệt chủng",
+        "translatedExample": "Chim dodo là một ví dụ về một loài động vật đã tuyệt chủng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Extinct'?",
+          "options": {
+            "A": "Thriving",
+            "B": "Endangered",
+            "C": "Vanishing",
+            "D": "Abundant"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Thriving' means flourishing. B: 'Endangered' is at risk but not extinct. C: 'Vanishing' is a synonym for extinct. D: 'Abundant' means plentiful and thriving."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bioluminescence",
+        "type": "Noun",
+        "phonetic": "ˌbaɪ.oʊ.luː.mɪˈnɛs.əns",
+        "example": "Some deep-sea creatures exhibit bioluminescence as a form of communication and camouflage.",
+        "explain": "Tự sáng",
+        "translatedExample": "Một số sinh vật biển sâu thể hiện sự tự sáng như một hình thức giao tiếp và mô phỏng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Fireflies use bioluminescence to attract mates during their mating rituals.",
+          "sentenceWithBlank": "Fireflies use ________ to attract mates during their mating rituals.",
+          "wordBlank": "bioluminescence",
+          "translation": "Đèn đom đóm sử dụng sự tự sáng để thu hút bạn đồng hành trong lễ rước phu của họ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mammal",
+        "type": "Noun",
+        "phonetic": "ˈmæm.əl",
+        "example": "Elephants are large mammals with a strong social structure.",
+        "explain": "Động vật có vú",
+        "translatedExample": "Voi là động vật có vú lớn với cấu trúc xã hội mạnh mẽ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "A whale is an example of a large aquatic _____.",
+          "options": {
+            "A": "Reptile",
+            "B": "Mammal",
+            "C": "Amphibian",
+            "D": "Fish"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Reptile' refers to cold-blooded vertebrates like snakes or lizards. B: 'Mammal' refers to warm-blooded vertebrates with hair or fur, and females produce milk for their young. C: 'Amphibian' refers to cold-blooded vertebrates that live both in water and on land. D: 'Fish' are cold-blooded vertebrates that live in water and breathe through gills."
+        }
+      }
+    },
+     {
+      "definition": {
+        "word": "Migration",
+        "type": "Noun",
+        "phonetic": "maɪˈɡreɪʃən",
+        "example": "Many bird species undertake long-distance migration to find suitable breeding grounds.",
+        "explain": "Di cư",
+        "translatedExample": "Nhiều loài chim thực hiện hành trình di cư xa để tìm kiếm địa điểm sinh sản phù hợp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The wildebeest migration in Africa is one of the most spectacular wildlife events, attracting tourists from around the world.",
+          "sentenceWithBlank": "The wildebeest ________ in Africa is one of the most spectacular wildlife events, attracting tourists from around the world.",
+          "wordBlank": "migration",
+          "translation": "Sự di cư của linh dương ở Châu Phi là một trong những sự kiện hoang dã đẹp nhất, thu hút du khách từ khắp nơi trên thế giới."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Predator",
+        "type": "Noun",
+        "phonetic": "ˈprɛdətər",
+        "example": "Lions are apex predators, sitting at the top of the food chain.",
+        "explain": "Kẻ săn mồi",
+        "translatedExample": "Sư tử là kẻ săn mồi đứng đầu chuỗi thức ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Predator'?",
+          "options": {
+            "A": "Prey",
+            "B": "Herbivore",
+            "C": "Carnivore",
+            "D": "Hunter"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Prey' is the opposite of a predator. B: 'Herbivore' eats plants. C: 'Carnivore' also eats meat. D: 'Hunter' is a synonym, as predators actively hunt for prey."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cub",
+        "type": "Noun",
+        "phonetic": "kʌb",
+        "example": "A baby bear is called a cub.",
+        "explain": "Con gấu (nhỏ)",
+        "translatedExample": "Một chú gấu con được gọi là một chú gấu nhỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cub'?",
+          "options": {
+            "A": "Fawn",
+            "B": "Kitten",
+            "C": "Calf",
+            "D": "Adult"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Fawn' is a young deer. B: 'Kitten' is a young cat. C: 'Calf' is a young cow. D: 'Adult' is the antonym, referring to a fully grown individual."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Territorial",
+        "type": "Adjective",
+        "phonetic": "ˌtɛrɪˈtɔːriəl",
+        "example": "Wolves are known to be territorial animals, marking their territory with scent markings.",
+        "explain": "Thiết lập lãnh thổ",
+        "translatedExample": "Sói được biết đến là động vật thiết lập lãnh thổ, đánh dấu lãnh thổ của mình bằng những dấu mùi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Many birds exhibit territorial behavior, defending their nesting areas from intruders.",
+          "sentenceWithBlank": "Many birds exhibit ________ behavior, defending their nesting areas from intruders.",
+          "wordBlank": "territorial",
+          "translation": "Nhiều loài chim thể hiện hành vi thiết lập lãnh thổ, bảo vệ khu vực làm tổ của họ khỏi những kẻ xâm phạm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nocturnal",
+        "type": "Adjective",
+        "phonetic": "nɑːkˈtɝː.nəl",
+        "example": "Owls are nocturnal birds, active during the night.",
+        "explain": "Hoạt động vào ban đêm",
+        "translatedExample": "Cú là loài chim hoạt động vào ban đêm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which animals are most likely to be nocturnal?",
+          "options": {
+            "A": "Diurnal birds",
+            "B": "Nocturnal birds",
+            "C": "Aquatic mammals",
+            "D": "Herbivores"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Diurnal birds' are active during the day. B: 'Nocturnal birds' are active during the night. C: 'Aquatic mammals' live in water. D: 'Herbivores' primarily eat plants."
+        }
+      }
+    },
+   {
+      "definition": {
+        "word": "Echolocation",
+        "type": "Noun",
+        "phonetic": "ˌɛkoʊloʊˈkeɪʃən",
+        "example": "Bats use echolocation to navigate and locate prey in the dark.",
+        "explain": "Lưới sóng",
+        "translatedExample": "Dơi sử dụng lưới sóng để điều hướng và định vị con mồi trong bóng tối."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Dolphins and some species of whales also use echolocation to find food in the ocean.",
+          "sentenceWithBlank": "Dolphins and some species of whales also use ________ to find food in the ocean.",
+          "wordBlank": "echolocation",
+          "translation": "Cá heo và một số loài cá voi cũng sử dụng lưới sóng để tìm kiếm thức ăn trong đại dương."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivore",
+        "type": "Noun",
+        "phonetic": "ˈkɑːrnəvɔːr",
+        "example": "Tigers are carnivores, primarily hunting and eating other animals.",
+        "explain": "Thú ăn thịt",
+        "translatedExample": "Hổ là loài thú ăn thịt, chủ yếu săn mồi và ăn thịt động vật khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which of the following is a carnivore?",
+          "options": {
+            "A": "Elephant",
+            "B": "Kangaroo",
+            "C": "Lion",
+            "D": "Giraffe"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Elephant' is a herbivore. B: 'Kangaroo' is a herbivore. C: 'Lion' is a carnivore. D: 'Giraffe' is a herbivore."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Endangered",
+        "type": "Adjective",
+        "phonetic": "ɪnˈdeɪndʒərd",
+        "example": "The giant panda is an endangered species, facing the risk of extinction.",
+        "explain": "Nguy cơ tuyệt chủng",
+        "translatedExample": "Gấu trúc là một loài động vật nguy cơ tuyệt chủng, đối diện với nguy cơ tuyệt chủng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Endangered'?",
+          "options": {
+            "A": "Thriving",
+            "B": "Abundant",
+            "C": "Extinct",
+            "D": "Vanishing"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Thriving' means flourishing. B: 'Abundant' means plentiful. C: 'Extinct' means no longer in existence. D: 'Vanishing' is a synonym for endangered, indicating the risk of disappearing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Herbivore",
+        "type": "Noun",
+        "phonetic": "ˈhɜːrbɪvɔːr",
+        "example": "Deer and cows are herbivores, feeding on plants and vegetation.",
+        "explain": "Thú ăn cỏ",
+        "translatedExample": "Nai và bò là những loài thú ăn cỏ, ăn cây cỏ và thực vật."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Giraffes are herbivores with long necks, allowing them to reach leaves high in trees.",
+          "sentenceWithBlank": "Giraffes are ________ with long necks, allowing them to reach leaves high in trees.",
+          "wordBlank": "herbivores",
+          "translation": "Hươu cao cổ là những loài thú ăn cỏ có cổ dài, giúp chúng đạt tới lá ở phía trên cây."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Omnivore",
+        "type": "Noun",
+        "phonetic": "ˈɑːmnɪvɔːr",
+        "example": "Humans are omnivores, consuming both plant-based and animal-based foods.",
+        "explain": "Thú ăn tạp",
+        "translatedExample": "Người là loài thú ăn tạp, tiêu thụ cả thức ăn từ thực vật và thức ăn từ động vật."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Omnivore'?",
+          "options": {
+            "A": "Herbivore",
+            "B": "Carnivore",
+            "C": "Insectivore",
+            "D": "Detritivore"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Herbivore' primarily eats plants. B: 'Carnivore' primarily eats meat. C: 'Insectivore' primarily eats insects. D: 'Detritivore' feeds on decaying matter."
+        }
+      }
+    },
+     {
+      "definition": {
+        "word": "Camouflage",
+        "type": "Noun",
+        "phonetic": "ˈkæm.ə.flɑːʒ",
+        "example": "Chameleons use camouflage to blend into their surroundings and avoid predators.",
+        "explain": "Làm mờ, phôi pha",
+        "translatedExample": "Thằn lằn chồn sử dụng phôi pha để hòa mình vào môi trường xung quanh và tránh kẻ săn mồi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Certain insects have remarkable camouflage abilities, mimicking the appearance of twigs or leaves.",
+          "sentenceWithBlank": "Certain insects have remarkable ________ abilities, mimicking the appearance of twigs or leaves.",
+          "wordBlank": "camouflage",
+          "translation": "Một số loài côn trùng có khả năng phôi pha đáng kinh ngạc, bắt chước vẻ ngoại hình của cành hoặc lá."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Migrate",
+        "type": "Verb",
+        "phonetic": "ˈmaɪ.ɡreɪt",
+        "example": "Birds often migrate to warmer regions during the winter months.",
+        "explain": "Di cư",
+        "translatedExample": "Chim thường di cư đến các vùng ấm hơn trong những tháng mùa đông."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Why do some animals migrate?",
+          "options": {
+            "A": "To build nests",
+            "B": "To find mates",
+            "C": "To escape predators",
+            "D": "To seek food"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: Birds migrate to escape the harsh winter and find better feeding grounds. B: Migration is not primarily for mating. C: Many animals migrate to escape predators. D: Seeking food is another reason for migration."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Plumage",
+        "type": "Noun",
+        "phonetic": "ˈpluː.mɪdʒ",
+        "example": "Peacocks are known for their vibrant and colorful plumage.",
+        "explain": "Lông, bộ lông",
+        "translatedExample": "Công được biết đến với bộ lông rực rỡ và đầy màu sắc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Plumage'?",
+          "options": {
+            "A": "Feathers",
+            "B": "Fur",
+            "C": "Scales",
+            "D": "Hide"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Feathers' and 'Plumage' are synonymous. B: 'Fur' is different from bird feathers. C: 'Scales' are found on reptiles. D: 'Hide' refers to animal skin or leather."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cub",
+        "type": "Noun",
+        "phonetic": "kʌb",
+        "example": "A baby lion is called a cub.",
+        "explain": "Con sư tử (nhỏ)",
+        "translatedExample": "Một chú sư tử con được gọi là một chú sư tử nhỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cub'?",
+          "options": {
+            "A": "Puppy",
+            "B": "Fawn",
+            "C": "Kitten",
+            "D": "Chick"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Puppy' is a young dog. B: 'Fawn' is a young deer. C: 'Kitten' is a young cat. D: 'Chick' is a baby bird."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Invertebrate",
+        "type": "Noun",
+        "phonetic": "ɪnˈvɜːrtəbrət",
+        "example": "Insects, worms, and snails are examples of invertebrates.",
+        "explain": "Động vật không có xương sống",
+        "translatedExample": "Côn trùng, giun, và ốc sên là những ví dụ về động vật không có xương sống."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Spiders and jellyfish are also classified as invertebrates due to the absence of a vertebral column.",
+          "sentenceWithBlank": "Spiders and jellyfish are also classified as ________ due to the absence of a vertebral column.",
+          "wordBlank": "invertebrates",
+          "translation": "Nhện và sứa cũng được phân loại là động vật không có xương sống do thiếu cột sống."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Aquatic",
+        "type": "Adjective",
+        "phonetic": "əˈkwætɪk",
+        "example": "Fish and dolphins are examples of aquatic animals that live in water.",
+        "explain": "Sống dưới nước",
+        "translatedExample": "Cá và cá heo là những ví dụ về động vật sống dưới nước."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which animals are considered aquatic?",
+          "options": {
+            "A": "Desert reptiles",
+            "B": "Jungle mammals",
+            "C": "Forest birds",
+            "D": "Marine life"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Desert reptiles' live in arid regions. B: 'Jungle mammals' inhabit dense forests. C: 'Forest birds' live in wooded areas. D: 'Marine life' includes animals living in the sea or ocean."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Habitat",
+        "type": "Noun",
+        "phonetic": "ˈhæbɪtæt",
+        "example": "Polar bears are adapted to the icy habitat of the Arctic region.",
+        "explain": "Môi trường sống tự nhiên",
+        "translatedExample": "Gấu Bắc Cực đã thích nghi với môi trường sống lạnh giá của vùng Bắc Cực."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Habitat'?",
+          "options": {
+            "A": "Environment",
+            "B": "Ecosystem",
+            "C": "Territory",
+            "D": "Niche"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Environment' is a synonym for 'Habitat.' B: 'Ecosystem' includes living and non-living components. C: 'Territory' refers to a specific area. D: 'Niche' is the role or function of an organism within an ecosystem."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hibernation",
+        "type": "Noun",
+        "phonetic": "ˌhaɪ.bɚˈneɪ.ʃən",
+        "example": "Bears undergo hibernation during the winter months, conserving energy by sleeping in a dormant state.",
+        "explain": "Ngủ đông",
+        "translatedExample": "Gấu ngủ đông vào những tháng mùa đông, tiết kiệm năng lượng bằng cách ngủ trong tình trạng tĩnh thức."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Certain reptiles and amphibians also experience a form of hibernation to survive harsh environmental conditions.",
+          "sentenceWithBlank": "Certain reptiles and amphibians also experience a form of ________ to survive harsh environmental conditions.",
+          "wordBlank": "hibernation",
+          "translation": "Một số loài bò sát và lưỡng cư cũng trải qua một hình thức ngủ đông để sống sót trong điều kiện môi trường khắc nghiệt."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivorous",
+        "type": "Adjective",
+        "phonetic": "kɑːrˈnɪvərəs",
+        "example": "The Venus flytrap is a carnivorous plant that captures and digests insects for nutrients.",
+        "explain": "Ăn thịt",
+        "translatedExample": "Cây rụt cửa Venus là một loại cây ăn thịt, bắt và tiêu hóa côn trùng để lấy chất dinh dưỡng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Carnivorous'?",
+          "options": {
+            "A": "Herbivorous",
+            "B": "Omnivorous",
+            "C": "Insectivorous",
+            "D": "Detritivorous"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Herbivorous' primarily eats plants. B: 'Omnivorous' eats both plants and animals. C: 'Insectivorous' primarily eats insects. D: 'Detritivorous' feeds on decaying matter."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gestation",
+        "type": "Noun",
+        "phonetic": "dʒɛsˈteɪʃən",
+        "example": "The gestation period for elephants is approximately 22 months, one of the longest among mammals.",
+        "explain": "Thời kỳ mang thai",
+        "translatedExample": "Thời kỳ mang thai cho voi khoảng 22 tháng, một trong những thời kỳ dài nhất giữa các loài động vật có vú."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is gestation?",
+          "options": {
+            "A": "Hunting behavior",
+            "B": "Sleeping pattern",
+            "C": "Reproductive process",
+            "D": "Social interaction"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Hunting behavior' relates to searching for food. B: 'Sleeping pattern' is about the way an animal sleeps. C: 'Reproductive process' refers to gestation, the period during which an organism develops inside a mother. D: 'Social interaction' involves communication and relationships within a group."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nocturnal",
+        "type": "Adjective",
+        "phonetic": "nɑːkˈtɜːr.nəl",
+        "example": "Owls are nocturnal birds, active during the night.",
+        "explain": "Về đêm, hoạt động vào ban đêm",
+        "translatedExample": "Cú là loài chim về đêm, hoạt động vào ban đêm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Nocturnal animals have adaptations like enhanced night vision to thrive in low-light conditions.",
+          "sentenceWithBlank": "______ animals have adaptations like enhanced night vision to thrive in low-light conditions.",
+          "wordBlank": "Nocturnal",
+          "translation": "Động vật về đêm có các sự thích ứng như tăng cường thị lực vào ban đêm để phát triển trong điều kiện ánh sáng thấp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Exoskeleton",
+        "type": "Noun",
+        "phonetic": "ˌɛk.soʊˈskɛl.ɪ.tən",
+        "example": "Insects have an exoskeleton, providing external support and protection.",
+        "explain": "Bộ xương ngoại",
+        "translatedExample": "Côn trùng có bộ xương ngoại, cung cấp sự hỗ trợ và bảo vệ bên ngoài."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Exoskeleton'?",
+          "options": {
+            "A": "Endoskeleton",
+            "B": "Skeleton",
+            "C": "Cartilage",
+            "D": "Spine"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Endoskeleton' is the internal skeleton of vertebrates. B: 'Skeleton' is a broader term. C: 'Cartilage' is a flexible connective tissue. D: 'Spine' is the backbone."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Arachnid",
+        "type": "Noun",
+        "phonetic": "əˈræk.nɪd",
+        "example": "Spiders and scorpions are examples of arachnids.",
+        "explain": "Loài nhện",
+        "translatedExample": "Nhện và bọ cạp là những ví dụ về loài nhện."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Arachnid'?",
+          "options": {
+            "A": "Insect",
+            "B": "Mammal",
+            "C": "Reptile",
+            "D": "Amphibian"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Insect' is the antonym for 'Arachnid.' B: 'Mammal' is a different class of animals. C: 'Reptile' and 'Amphibian' are other animal classes. D: 'Amphibian' is another type of vertebrate."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Territorial",
+        "type": "Adjective",
+        "phonetic": "ˌter.ɪˈtɔːr.i.əl",
+        "example": "Wolves are territorial animals, marking and defending their territories.",
+        "explain": "Thiên nhiên chiếm đóng, thuộc về lãnh thổ",
+        "translatedExample": "Sói là loài động vật thiên nhiên chiếm đóng, đánh dấu và bảo vệ lãnh thổ của chúng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Many animals exhibit territorial behavior to establish and maintain their areas for feeding, mating, and raising offspring.",
+          "sentenceWithBlank": "Many animals exhibit ________ behavior to establish and maintain their areas for feeding, mating, and raising offspring.",
+          "wordBlank": "territorial",
+          "translation": "Nhiều loài động vật thể hiện hành vi thiên nhiên chiếm đóng để xây dựng và duy trì khu vực của chúng để ăn uống, giao phối và nuôi dưỡng con cái."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Predator",
+        "type": "Noun",
+        "phonetic": "ˈprɛdətər",
+        "example": "Lions are predators, hunting and capturing other animals for food.",
+        "explain": "Kẻ săn mồi",
+        "translatedExample": "Sư tử là kẻ săn mồi, săn bắt và bắt giữ động vật khác để làm thức ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a characteristic of a predator?",
+          "options": {
+            "A": "Herbivorous diet",
+            "B": "Plant-based lifestyle",
+            "C": "Hunting and capturing prey",
+            "D": "Nocturnal behavior"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Herbivorous diet' refers to eating plants. B: 'Plant-based lifestyle' involves primarily consuming plants. C: 'Hunting and capturing prey' is a characteristic of a predator. D: 'Nocturnal behavior' is being active during the night."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Anthropomorphism",
+        "type": "Noun",
+        "phonetic": "ˌæn.θrə.poʊˈmɔːr.fɪ.zəm",
+        "example": "Attributing human characteristics to animals is an example of anthropomorphism.",
+        "explain": "Sự nhân hóa",
+        "translatedExample": "Việc gán những đặc điểm con người cho động vật là một ví dụ về sự nhân hóa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Anthropomorphism'?",
+          "options": {
+            "A": "Personification",
+            "B": "Dehumanization",
+            "C": "Animalization",
+            "D": "Objectification"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Personification' is a synonym for 'Anthropomorphism.' B: 'Dehumanization' is the opposite concept. C: 'Animalization' is a different term. D: 'Objectification' refers to treating something as an object."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Omnivorous",
+        "type": "Adjective",
+        "phonetic": "ɑːmˈnɪv.ər.əs",
+        "example": "Bears are omnivorous, consuming both plant matter and meat.",
+        "explain": "Ăn cả thực phẩm thực vật và động vật",
+        "translatedExample": "Gấu là loài ăn cả thực phẩm thực vật và động vật, tiêu thụ cả thảo mộc và thịt."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Humans are classified as omnivorous because they have the ability to digest and gain nutrients from both plant and animal sources.",
+          "sentenceWithBlank": "Humans are classified as ________ because they have the ability to digest and gain nutrients from both plant and animal sources.",
+          "wordBlank": "omnivorous",
+          "translation": "Người được phân loại là động vật ăn cả thực phẩm thực vật và động vật vì họ có khả năng tiêu hóa và hấp thụ chất dinh dưỡng từ cả nguồn thực vật và động vật."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Echolocation",
+        "type": "Noun",
+        "phonetic": "ˌɛkoʊˌloʊˈkeɪʃən",
+        "example": "Bats use echolocation to navigate and locate prey in the dark.",
+        "explain": "Phát hiện đối tượng bằng âm thanh phản xạ",
+        "translatedExample": "Dơi sử dụng kỹ thuật phát hiện đối tượng bằng âm thanh phản xạ để điều hướng và xác định vị trí mồi trong bóng tối."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Echolocation'?",
+          "options": {
+            "A": "Sonar",
+            "B": "Infrasound",
+            "C": "Ultrasound",
+            "D": "Extravision"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Sonar' is a similar concept. B: 'Infrasound' and 'Ultrasound' are related to sound frequencies. D: 'Extravision' is the antonym as it refers to perception beyond normal vision."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Migration",
+        "type": "Noun",
+        "phonetic": "maɪˈɡreɪ.ʃən",
+        "example": "The annual migration of wildebeests is a spectacular natural event.",
+        "explain": "Di cư hàng năm",
+        "translatedExample": "Di cư hàng năm của linh dương Wildebeest là một sự kiện tự nhiên ngoạn mục."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Why do animals engage in migration?",
+          "options": {
+            "A": "To build nests",
+            "B": "To escape predators",
+            "C": "To establish territories",
+            "D": "To hibernate"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Building nests' is related to reproduction. B: Many animals migrate to 'escape predators.' C: 'Establishing territories' is about marking and defending specific areas. D: 'Hibernation' is a different behavior related to winter survival."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Camouflage",
+        "type": "Noun",
+        "phonetic": "ˈkæm.ə.flɑːʒ",
+        "example": "Chameleons use camouflage to blend into their surroundings and avoid predators.",
+        "explain": "Sự ngụy trang",
+        "translatedExample": "Thằn lằn biến đổi màu da để ngụy trang vào môi trường xung quanh và tránh xa kẻ săn mồi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Camouflage is an adaptation that helps animals conceal themselves from both prey and predators.",
+          "sentenceWithBlank": "______ is an adaptation that helps animals conceal themselves from both prey and predators.",
+          "wordBlank": "Camouflage",
+          "translation": "Ngụy trang là một sự thích ứng giúp động vật che giấu bản thân khỏi cả con mồi và kẻ săn mồi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivore",
+        "type": "Noun",
+        "phonetic": "ˈkɑːr.nə.vɔːr",
+        "example": "Lions are classified as carnivores because they primarily eat meat.",
+        "explain": "Động vật ăn thịt",
+        "translatedExample": "Sư tử được phân loại là động vật ăn thịt vì chúng chủ yếu ăn thịt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Carnivore'?",
+          "options": {
+            "A": "Herbivore",
+            "B": "Omnivore",
+            "C": "Insectivore",
+            "D": "Detritivore"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Herbivore' primarily eats plants. B: 'Omnivore' eats both plants and animals. C: 'Insectivore' primarily eats insects. D: 'Detritivore' feeds on decaying matter."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Migrate",
+        "type": "Verb",
+        "phonetic": "ˈmaɪ.ɡreɪt",
+        "example": "Birds often migrate to warmer regions during the winter months.",
+        "explain": "Di cư",
+        "translatedExample": "Chim thường di cư đến các khu vực ấm hơn trong những tháng mùa đông."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Migrate'?",
+          "options": {
+            "A": "Hibernate",
+            "B": "Emigrate",
+            "C": "Roam",
+            "D": "Journey"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hibernate' is a different behavior related to winter survival. B: 'Emigrate' is a synonym for 'Migrate.' C: 'Roam' suggests wandering without a specific destination. D: 'Journey' is a general term for travel."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Herbivore",
+        "type": "Noun",
+        "phonetic": "ˈhɜːr.bə.vɔːr",
+        "example": "Giraffes are herbivores, primarily feeding on leaves and plants.",
+        "explain": "Động vật ăn thực phẩm thực vật",
+        "translatedExample": "Hươu cao cổ là động vật ăn thực phẩm thực vật, chủ yếu ăn lá và cây cỏ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Herbivores have specialized teeth and digestive systems adapted for consuming plant-based diets.",
+          "sentenceWithBlank": "______ have specialized teeth and digestive systems adapted for consuming plant-based diets.",
+          "wordBlank": "Herbivores",
+          "translation": "Động vật ăn thực phẩm thực vật có răng và hệ tiêu hóa chuyên biệt để tiêu thụ chế độ ăn thực phẩm thực vật."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nocturnality",
+        "type": "Noun",
+        "phonetic": "ˌnɑːk.tɝːˈnæl.ə.t̬i",
+        "example": "Owls are known for their nocturnality, being active during the night.",
+        "explain": "Tính chất hoạt động vào ban đêm",
+        "translatedExample": "Dơi nổi tiếng với tính chất hoạt động vào ban đêm, hoạt động khi mặt trời lặn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does 'Nocturnality' refer to?",
+          "options": {
+            "A": "Diurnal behavior",
+            "B": "No activity",
+            "C": "Activity during the night",
+            "D": "Hibernate"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Diurnal behavior' refers to activity during the day. B: 'No activity' is the opposite. C: 'Activity during the night' is the correct definition of 'Nocturnality.' D: 'Hibernate' is a different behavior related to winter survival."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Omnipotent",
+        "type": "Adjective",
+        "phonetic": "ɑːmˈnɪp.ə.t̬ənt",
+        "example": "In some cultures, animals are attributed with omnipotent qualities, representing power and strength.",
+        "explain": "Toàn năng, có thể làm mọi điều",
+        "translatedExample": "Trong một số văn hóa, động vật được cho là có những phẩm chất toàn năng, tượng trưng cho sức mạnh và sức mạnh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Omnipotent'?",
+          "options": {
+            "A": "Incapable",
+            "B": "All-powerful",
+            "C": "Limited",
+            "D": "Weak"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Incapable' is the opposite. B: 'All-powerful' is a synonym for 'Omnipotent.' C: 'Limited' is the opposite. D: 'Weak' is the opposite of 'Omnipotent.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Amphibian",
+        "type": "Noun",
+        "phonetic": "æmˈfɪb.i.ən",
+        "example": "Frogs and salamanders are examples of amphibians, able to live both in water and on land.",
+        "explain": "Động vật lưỡng cư",
+        "translatedExample": "Ếch và kỳ nhông là ví dụ về động vật lưỡng cư, có thể sống cả dưới nước và trên cạn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Amphibians undergo metamorphosis, transitioning from aquatic larvae to terrestrial adults.",
+          "sentenceWithBlank": "______ undergo metamorphosis, transitioning from aquatic larvae to terrestrial adults.",
+          "wordBlank": "Amphibians",
+          "translation": "Động vật lưỡng cư trải qua sự biến đổi, chuyển từ ấu trùng sống dưới nước thành người trưởng thành sống trên cạn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hibernation",
+        "type": "Noun",
+        "phonetic": "ˌhaɪ.bɝːˈneɪ.ʃən",
+        "example": "Bears enter a state of hibernation during the winter to conserve energy.",
+        "explain": "Ngủ đông",
+        "translatedExample": "Gấu vào trạng thái ngủ đông vào mùa đông để tiết kiệm năng lượng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Why do some animals undergo hibernation?",
+          "options": {
+            "A": "To migrate",
+            "B": "To escape predators",
+            "C": "To conserve energy during winter",
+            "D": "To build nests"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'To migrate' is a different behavior. B: 'To escape predators' is another strategy. C: 'To conserve energy during winter' is the main purpose of hibernation. D: 'To build nests' is related to reproduction."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Invertebrate",
+        "type": "Noun",
+        "phonetic": "ɪnˈvɜːr.t̬ə.breɪt",
+        "example": "Insects and worms are examples of invertebrates, lacking a backbone.",
+        "explain": "Động vật không có xương sống",
+        "translatedExample": "Côn trùng và giun là ví dụ về động vật không có xương sống, thiếu xương sống."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Invertebrate'?",
+          "options": {
+            "A": "Vertebrate",
+            "B": "Backboned",
+            "C": "Spineless",
+            "D": "Mammal"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Vertebrate' is the opposite. B: 'Backboned' is a literal description. C: 'Spineless' is a synonym for 'Invertebrate.' D: 'Mammal' is a different class of animals."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Symbiosis",
+        "type": "Noun",
+        "phonetic": "ˌsɪm.biˈoʊ.sɪs",
+        "example": "The relationship between bees and flowers is an example of symbiosis.",
+        "explain": "Mối quan hệ cộng sinh",
+        "translatedExample": "Mối quan hệ giữa ong và hoa là một ví dụ về mối quan hệ cộng sinh."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Symbiosis is a close and long-term interaction between different species that benefits at least one of the organisms.",
+          "sentenceWithBlank": "______ is a close and long-term interaction between different species that benefits at least one of the organisms.",
+          "wordBlank": "Symbiosis",
+          "translation": "Mối quan hệ cộng sinh là một tương tác chặt chẽ và lâu dài giữa các loài khác nhau mang lại lợi ích ít nhất cho một trong những hệ thống sống."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Territorial",
+        "type": "Adjective",
+        "phonetic": "ˌter.ɪˈtɔː.ri.əl",
+        "example": "Wolves are known for their territorial behavior, marking and defending specific areas.",
+        "explain": "Thiên nhiên giữ lãnh thổ",
+        "translatedExample": "Sói nổi tiếng với hành vi thiên nhiên giữ lãnh thổ, đánh dấu và bảo vệ các khu vực cụ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Territorial'?",
+          "options": {
+            "A": "Social",
+            "B": "Nomadic",
+            "C": "Friendly",
+            "D": "Solitary"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Social' is a different aspect of behavior. B: 'Nomadic' is the antonym for 'Territorial.' C: 'Friendly' is not the opposite. D: 'Solitary' refers to animals that live alone."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Exoskeleton",
+        "type": "Noun",
+        "phonetic": "ˌek.soʊˈskel.ə.tən",
+        "example": "Insects have an exoskeleton that provides support and protection.",
+        "explain": "Ngoại bộ",
+        "translatedExample": "Côn trùng có ngoại bộ cung cấp sự hỗ trợ và bảo vệ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "An exoskeleton is an external skeleton that provides structural support and protection for various invertebrates.",
+          "sentenceWithBlank": "An ______ is an external skeleton that provides structural support and protection for various invertebrates.",
+          "wordBlank": "exoskeleton",
+          "translation": "Ngoại bộ là một xương sống ngoại vi cung cấp sự hỗ trợ cấu trúc và bảo vệ cho nhiều loài động vật không có xương sống."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Domestication",
+        "type": "Noun",
+        "phonetic": "dəˌmes.tɪˈkeɪ.ʃən",
+        "example": "The domestication of dogs led to their close companionship with humans.",
+        "explain": "Sự thuần hóa",
+        "translatedExample": "Quá trình thuần hóa chó đã dẫn đến sự gần gũi giữa chúng và con người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Why did humans engage in the domestication of animals?",
+          "options": {
+            "A": "To build nests",
+            "B": "To establish territories",
+            "C": "For companionship and assistance",
+            "D": "To migrate"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Building nests' is related to reproduction. B: 'Establishing territories' is a different behavior. C: 'For companionship and assistance' is the main purpose of domestication. D: 'To migrate' is a different behavior."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Ectothermic",
+        "type": "Adjective",
+        "phonetic": "ˌek.toʊˈθɜːr.mɪk",
+        "example": "Most reptiles are ectothermic, relying on external sources of heat for body temperature regulation.",
+        "explain": "Động vật lạnh",
+        "translatedExample": "Hầu hết các loài bò sát là động vật lạnh, phụ thuộc vào nguồn nhiệt độ ngoại vi để điều chỉnh nhiệt độ cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Ectothermic'?",
+          "options": {
+            "A": "Endothermic",
+            "B": "Warm-blooded",
+            "C": "Cold-blooded",
+            "D": "Aquatic"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Endothermic' is the opposite. B: 'Warm-blooded' is the opposite. C: 'Cold-blooded' is a synonym for 'Ectothermic.' D: 'Aquatic' refers to animals living in water."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Anthropocentrism",
+        "type": "Noun",
+        "phonetic": "ˌæn.θroʊ.pəˈsen.trɪ.zəm",
+        "example": "Anthropocentrism is the belief that humans are the central or most significant beings in the universe.",
+        "explain": "Chủ nghĩa nhân loại",
+        "translatedExample": "Chủ nghĩa nhân loại là niềm tin rằng con người là trung tâm hoặc đối tượng quan trọng nhất trong vũ trụ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Anthropocentrism often leads to the interpretation of all events and phenomena in relation to humans.",
+          "sentenceWithBlank": "______ often leads to the interpretation of all events and phenomena in relation to humans.",
+          "wordBlank": "Anthropocentrism",
+          "translation": "Chủ nghĩa nhân loại thường dẫn đến việc diễn giải tất cả các sự kiện và hiện tượng liên quan đến con người."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Arachnid",
+        "type": "Noun",
+        "phonetic": "əˈræk.nɪd",
+        "example": "Spiders, scorpions, and ticks are examples of arachnids.",
+        "explain": "Loài nhện",
+        "translatedExample": "Nhện, bọ cạp và ve là những ví dụ về loài nhện."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Arachnid'?",
+          "options": {
+            "A": "Insect",
+            "B": "Crustacean",
+            "C": "Mammal",
+            "D": "Amphibian"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Insect' is the antonym for 'Arachnid.' B: 'Crustacean' is a different class. C: 'Mammal' is a different class. D: 'Amphibian' is a different class."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Detritivore",
+        "type": "Noun",
+        "phonetic": "dɪˈtrɪt̬.ə.vɔːr",
+        "example": "Millipedes and certain types of beetles are detritivores, feeding on decaying plant and animal matter.",
+        "explain": "Động vật ăn tảo và chất phân giải",
+        "translatedExample": "Ve sầu và một số loại bọ cánh cứng là động vật ăn tảo và chất phân giải, ăn chất thực vật và động vật đang phân giải."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Detritivores play a crucial role in ecosystems by recycling nutrients from decomposing organic matter.",
+          "sentenceWithBlank": "______ play a crucial role in ecosystems by recycling nutrients from decomposing organic matter.",
+          "wordBlank": "Detritivores",
+          "translation": "Động vật ăn tảo và chất phân giải đóng một vai trò quan trọng trong hệ sinh thái bằng cách tái chế dưỡng chất từ chất hữu cơ phân giải."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Parasitism",
+        "type": "Noun",
+        "phonetic": "ˈper.ə.saɪ.tɪ.zəm",
+        "example": "Parasitism is a type of symbiotic relationship where one organism benefits at the expense of the other.",
+        "explain": "Mối quan hệ ký sinh",
+        "translatedExample": "Mối quan hệ ký sinh là một loại mối quan hệ cộng sinh nơi một hệ thống sống được lợi ích trên tình bạn chi phí của hệ thống sống khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Parasitism'?",
+          "options": {
+            "A": "Commensalism",
+            "B": "Mutualism",
+            "C": "Predation",
+            "D": "Cooperation"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Commensalism' is a different type of relationship. B: 'Mutualism' is a different type of relationship. C: 'Predation' is a synonym for 'Parasitism.' D: 'Cooperation' is a different type of relationship."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Migration",
+        "type": "Noun",
+        "phonetic": "maɪˈɡreɪ.ʃən",
+        "example": "The annual migration of wildebeests in Africa is a spectacular natural phenomenon.",
+        "explain": "Di cư hàng năm",
+        "translatedExample": "Sự di cư hàng năm của linh dương vằn tại châu Phi là một hiện tượng tự nhiên ngoạn mục."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Migration is a common behavior in many bird species, allowing them to find better resources and suitable climates.",
+          "sentenceWithBlank": "______ is a common behavior in many bird species, allowing them to find better resources and suitable climates.",
+          "wordBlank": "Migration",
+          "translation": "Di cư là một hành vi phổ biến ở nhiều loài chim, giúp chúng tìm kiếm nguồn lực tốt hơn và khí hậu phù hợp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivore",
+        "type": "Noun",
+        "phonetic": "ˈkɑːr.nə.vɔːr",
+        "example": "Lions and tigers are examples of carnivores, primarily eating meat.",
+        "explain": "Động vật ăn thịt",
+        "translatedExample": "Sư tử và hổ là ví dụ về động vật ăn thịt, chủ yếu ăn thịt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary diet of carnivores?",
+          "options": {
+            "A": "Plants",
+            "B": "Insects",
+            "C": "Meat",
+            "D": "Seeds"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Plants' are consumed by herbivores. B: 'Insects' are consumed by insectivores. C: 'Meat' is the primary diet of carnivores. D: 'Seeds' are consumed by granivores."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Camouflage",
+        "type": "Noun",
+        "phonetic": "ˈkæm.ə.flɑːʒ",
+        "example": "Chameleons use camouflage to blend into their surroundings and avoid predators.",
+        "explain": "Sự ngụy trang",
+        "translatedExample": "Thằn lằn châm biếm sử dụng sự ngụy trang để hòa mình vào môi trường xung quanh và tránh xa kẻ săn mồi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Camouflage is a protective adaptation that helps animals avoid detection by predators or prey.",
+          "sentenceWithBlank": "______ is a protective adaptation that helps animals avoid detection by predators or prey.",
+          "wordBlank": "Camouflage",
+          "translation": "Sự ngụy trang là một sự thích ứng bảo vệ giúp động vật tránh xa sự phát hiện từ phía kẻ săn mồi hoặc con mồi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nocturnal",
+        "type": "Adjective",
+        "phonetic": "nɑːkˈtɜːr.nəl",
+        "example": "Owls are nocturnal birds, active during the night.",
+        "explain": "Về đêm, hoạt động vào ban đêm",
+        "translatedExample": "Dế cơ và con dơi là loài chim về đêm, hoạt động vào ban đêm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Nocturnal'?",
+          "options": {
+            "A": "Diurnal",
+            "B": "Crepuscular",
+            "C": "Noisy",
+            "D": "Aquatic"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Diurnal' is the opposite. B: 'Crepuscular' refers to animals active during dawn and dusk. C: 'Noisy' is unrelated. D: 'Aquatic' refers to animals living in water."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Omnivore",
+        "type": "Noun",
+        "phonetic": "ˈɑːm.nə.vɔːr",
+        "example": "Humans are omnivores, consuming both plant-based and animal-based foods.",
+        "explain": "Động vật ăn tạp",
+        "translatedExample": "Con người là động vật ăn tạp, tiêu thụ cả thực phẩm từ thực vật và động vật."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Omnivore'?",
+          "options": {
+            "A": "Herbivore",
+            "B": "Carnivore",
+            "C": "Insectivore",
+            "D": "Granivore"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Herbivore' is the antonym for 'Omnivore.' B: 'Carnivore' is a different type. C: 'Insectivore' is a different type. D: 'Granivore' is a different type."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Migrate",
+        "type": "Verb",
+        "phonetic": "ˈmaɪ.ɡreɪt",
+        "example": "Some birds migrate over long distances to avoid harsh winter conditions.",
+        "explain": "Di cư",
+        "translatedExample": "Một số loài chim di cư qua những khoảng cách xa để tránh điều kiện khắc nghiệt của mùa đông."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Migration is a natural behavior observed in various species, allowing them to adapt to changing environments.",
+          "sentenceWithBlank": "______ is a natural behavior observed in various species, allowing them to adapt to changing environments.",
+          "wordBlank": "Migration",
+          "translation": "Di cư là một hành vi tự nhiên được quan sát ở nhiều loài khác nhau, giúp chúng thích ứng với môi trường thay đổi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Crepuscular",
+        "type": "Adjective",
+        "phonetic": "krɪˈpʌs.kjə.lər",
+        "example": "Certain animals, like rabbits, are crepuscular and are most active during dawn and dusk.",
+        "explain": "Về lúc bình minh và lúc hoàng hôn",
+        "translatedExample": "Một số loài động vật, như thỏ, là loài về lúc bình minh và lúc hoàng hôn và hoạt động mạnh mẽ nhất vào những thời điểm đó."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Crepuscular'?",
+          "options": {
+            "A": "Nocturnal",
+            "B": "Diurnal",
+            "C": "Aquatic",
+            "D": "Terrestrial"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Nocturnal' is the synonym for 'Crepuscular.' B: 'Diurnal' is the opposite. C: 'Aquatic' refers to animals living in water. D: 'Terrestrial' refers to land-dwelling animals."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Herbivore",
+        "type": "Noun",
+        "phonetic": "ˈhɝː.bɪ.vɔːr",
+        "example": "Cows and deer are herbivores, primarily consuming plant-based diets.",
+        "explain": "Động vật ăn thực phẩm từ thực vật",
+        "translatedExample": "Bò và nai là động vật ăn thực phẩm từ thực vật, chủ yếu tiêu thụ chế độ ăn chủ yếu từ thực vật."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Herbivores play a crucial role in maintaining the balance of ecosystems by controlling plant populations.",
+          "sentenceWithBlank": "______ play a crucial role in maintaining the balance of ecosystems by controlling plant populations.",
+          "wordBlank": "Herbivores",
+          "translation": "Động vật ăn thực phẩm từ thực vật đóng một vai trò quan trọng trong việc duy trì sự cân bằng của hệ sinh thái bằng cách kiểm soát dân số thực vật."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Territoriality",
+        "type": "Noun",
+        "phonetic": "ˌter.ɪˌtɔː.riˈtɔːr.iː.æl.ə.t̬i",
+        "example": "Some animals exhibit territoriality, defending specific areas against intruders.",
+        "explain": "Tính chất giữ lãnh thổ",
+        "translatedExample": "Một số loài động vật thể hiện tính chất giữ lãnh thổ, bảo vệ các khu vực cụ thể khỏi kẻ xâm nhập."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Territoriality'?",
+          "options": {
+            "A": "Communalism",
+            "B": "Solitude",
+            "C": "Friendship",
+            "D": "Isolation"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Communalism' is the antonym for 'Territoriality.' B: 'Solitude' is unrelated. C: 'Friendship' is unrelated. D: 'Isolation' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bioluminescence",
+        "type": "Noun",
+        "phonetic": "ˌbaɪ.oʊ.luː.mɪˈnɛs.əns",
+        "example": "Fireflies exhibit bioluminescence, producing light to attract mates.",
+        "explain": "Sự tỏa sáng sinh học",
+        "translatedExample": "Đom đóm thể hiện sự tỏa sáng sinh học, tạo ra ánh sáng để thu hút đối tác."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Bioluminescence is a fascinating phenomenon observed in various marine organisms, serving purposes such as attracting prey or mates.",
+          "sentenceWithBlank": "______ is a fascinating phenomenon observed in various marine organisms, serving purposes such as attracting prey or mates.",
+          "wordBlank": "Bioluminescence",
+          "translation": "Sự tỏa sáng sinh học là một hiện tượng hấp dẫn được quan sát ở nhiều sinh vật biển khác nhau, phục vụ mục đích như thu hút con mồi hoặc đối tác."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Echolocation",
+        "type": "Noun",
+        "phonetic": "ˌɛkoʊ.loʊˈkeɪ.ʒən",
+        "example": "Bats use echolocation to navigate and locate prey in the dark.",
+        "explain": "Sự xác định vị trí bằng cách phát âm thanh và lắng nghe vọng lại",
+        "translatedExample": "Dơi sử dụng sự xác định vị trí bằng cách phát âm thanh và lắng nghe vọng lại để điều hướng và định vị mồi trong bóng tối."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Echolocation is a remarkable ability found in some animals, allowing them to navigate and find food by emitting and receiving sound waves.",
+          "sentenceWithBlank": "______ is a remarkable ability found in some animals, allowing them to navigate and find food by emitting and receiving sound waves.",
+          "wordBlank": "Echolocation",
+          "translation": "Sự xác định vị trí bằng cách phát âm thanh và lắng nghe vọng lại là một khả năng đáng kinh ngạc được tìm thấy ở một số loài động vật, cho phép chúng điều hướng và tìm thức ăn bằng cách phát và nhận sóng âm thanh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hibernation",
+        "type": "Noun",
+        "phonetic": "ˌhaɪ.bɚˈneɪ.ʃən",
+        "example": "Bears enter a state of hibernation during the winter months to conserve energy.",
+        "explain": "Sự ngủ đông",
+        "translatedExample": "Gấu vào trạng thái ngủ đông trong những tháng mùa đông để tiết kiệm năng lượng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hibernation'?",
+          "options": {
+            "A": "Migration",
+            "B": "Estivation",
+            "C": "Torpor",
+            "D": "Nocturnality"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Migration' is a different behavior. B: 'Estivation' refers to a summer dormancy. C: 'Torpor' is a synonym for 'Hibernation.' D: 'Nocturnality' refers to being active at night."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Altruism",
+        "type": "Noun",
+        "phonetic": "ˈæltruɪzəm",
+        "example": "Altruism is observed in some animal species where individuals selflessly help others, often within their social group.",
+        "explain": "Hành vi vô tư giúp đỡ người khác",
+        "translatedExample": "Hành vi vô tư giúp đỡ người khác được quan sát ở một số loài động vật, nơi cá nhân giúp đỡ người khác một cách vô tư, thường trong nhóm xã hội của họ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Altruism'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Cooperation",
+            "C": "Reciprocity",
+            "D": "Generosity"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Selfishness' is the antonym for 'Altruism.' B: 'Cooperation' is related. C: 'Reciprocity' is related. D: 'Generosity' is related."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Territorial",
+        "type": "Adjective",
+        "phonetic": "ˌter.ɪˈtɔː.ri.əl",
+        "example": "Wolves are known to be territorial, defending their hunting grounds from other wolf packs.",
+        "explain": "Có tính chất giữ lãnh thổ",
+        "translatedExample": "Sói được biết đến có tính chất giữ lãnh thổ, bảo vệ khu vực săn mồi của mình khỏi các bầy sói khác."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Territorial behavior is common in many animal species, serving to establish and defend specific areas for feeding, mating, and raising young.",
+          "sentenceWithBlank": "______ behavior is common in many animal species, serving to establish and defend specific areas for feeding, mating, and raising young.",
+          "wordBlank": "Territorial",
+          "translation": "Hành vi giữ lãnh thổ phổ biến ở nhiều loài động vật, giúp xây dựng và bảo vệ các khu vực cụ thể để ăn, giao phối và nuôi dạy con."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carnivorous",
+        "type": "Adjective",
+        "phonetic": "ˌkɑːrˈnɪv.ər.əs",
+        "example": "Cats are carnivorous animals, primarily eating meat for sustenance.",
+        "explain": "Ăn thịt, chủ yếu ăn thịt",
+        "translatedExample": "Mèo là động vật ăn thịt, chủ yếu ăn thịt để duy trì sức khỏe."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Carnivorous'?",
+          "options": {
+            "A": "Herbivorous",
+            "B": "Omnivorous",
+            "C": "Insectivorous",
+            "D": "Detritivorous"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Herbivorous' is the antonym. B: 'Omnivorous' is a different type. C: 'Insectivorous' is a different type. D: 'Detritivorous' is a different type."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Estivation",
+        "type": "Noun",
+        "phonetic": "ˌɛs.tɪˈveɪ.ʃən",
+        "example": "Some animals undergo estivation, a state of inactivity, during hot and dry periods.",
+        "explain": "Trạng thái không hoạt động trong môi trường nóng",
+        "translatedExample": "Một số động vật trải qua trạng thái không hoạt động trong môi trường nóng, được gọi là estivation."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Estivation'?",
+          "options": {
+            "A": "Hibernation",
+            "B": "Migration",
+            "C": "Torpor",
+            "D": "Activity"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hibernation' is related. B: 'Migration' is the antonym for 'Estivation.' C: 'Torpor' is related. D: 'Activity' is related."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pheromone",
+        "type": "Noun",
+        "phonetic": "ˈfɛr.ə.moʊn",
+        "example": "Ants use pheromones to communicate with each other and coordinate group activities.",
+        "explain": "Hóa chất thông tin ngoại phô",
+        "translatedExample": "Kiến sử dụng hóa chất thông tin ngoại phô để giao tiếp với nhau và phối hợp các hoạt động nhóm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Pheromones play a crucial role in the communication and behavior of many insect species.",
+          "sentenceWithBlank": "______ play a crucial role in the communication and behavior of many insect species.",
+          "wordBlank": "Pheromones",
+          "translation": "Hóa chất thông tin ngoại phô đóng một vai trò quan trọng trong giao tiếp và hành vi của nhiều loài côn trùng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Amphibian",
+        "type": "Noun",
+        "phonetic": "æmˈfɪb.i.ən",
+        "example": "Frogs and salamanders are examples of amphibians, capable of living both in water and on land.",
+        "explain": "Động vật lưỡng cư",
+        "translatedExample": "Ếch và kỳ nhông là ví dụ về động vật lưỡng cư, có khả năng sống cả trong nước và trên cạn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Amphibian'?",
+          "options": {
+            "A": "Reptile",
+            "B": "Aquatic",
+            "C": "Terrestrial",
+            "D": "Insect"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Reptile' is a different type. B: 'Aquatic' refers to animals living in water. C: 'Terrestrial' refers to land-dwelling animals. D: 'Insect' is a different type."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Invertebrate",
+        "type": "Noun",
+        "phonetic": "ɪnˈvɜːr.t̬ə.breɪt",
+        "example": "Insects and worms are examples of invertebrates, lacking a backbone.",
+        "explain": "Động vật không có xương sống",
+        "translatedExample": "Côn trùng và giun là ví dụ về động vật không có xương sống, thiếu xương sống."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Invertebrates make up a significant portion of the animal kingdom and display a diverse range of body structures.",
+          "sentenceWithBlank": "______ make up a significant portion of the animal kingdom and display a diverse range of body structures.",
+          "wordBlank": "Invertebrates",
+          "translation": "Động vật không có xương sống chiếm một phần quan trọng của nguyên vương động vật và thể hiện một loạt các cấu trúc cơ thể đa dạng."
+        }
+      }
+    }
+  ]
+}

@@ -256,7 +256,7 @@
                               <Image url="@image/character.jpg" />
                            </image>
                         </ImageView>
-                        <ProgressBar fx:id="charaterPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
+                        <ProgressBar fx:id="characterPrgBar" prefHeight="30.0" prefWidth="288.0" progress="0.0" styleClass="vbox_topic-progress" />
                         <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="16.0" styleClass="vbox_topic-label" text="Character">
                            <font>
                               <Font size="28.0" />

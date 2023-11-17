@@ -177,7 +177,7 @@ public class MainDictionary {
      * @param mouseEvent is event mouse click.
      */
     public void goToHome(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage/HomePage.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/HomePage/HomePage.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root);
@@ -335,7 +335,7 @@ public class MainDictionary {
         fadeTransition.play();
 
 
-        String cssFile = getClass().getResource("MainDictionary/RemoveWord.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/MainDictionary/CSS/RemoveWord.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
 
@@ -393,7 +393,7 @@ public class MainDictionary {
         fadeTransition.setToValue(1.0);
         fadeTransition.play();
 
-        String cssFile = getClass().getResource("MainDictionary/RemoveWord.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/MainDictionary/CSS/AddNewWord.css").toExternalForm();
         alert.getDialogPane().getStylesheets().add(cssFile);
 
         alert.showAndWait().ifPresent(result -> {
@@ -419,7 +419,7 @@ public class MainDictionary {
         dialog.setHeaderText("Vui lòng nhập nghĩa mới của từ " + '"' + textEn + '"');
         dialog.setContentText("Meaning:");
 
-        String cssFile = getClass().getResource("MainDictionary/UpdateWord.css").toExternalForm();
+        String cssFile = getClass().getResource("/com/example/dictionaryenvi/MainDictionary/CSS/UpdateWord.css").toExternalForm();
         dialog.getDialogPane().getStylesheets().add(cssFile);
 
         FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), dialog.getDialogPane());
@@ -439,6 +439,15 @@ public class MainDictionary {
     }
 
     public void goToGoogleTranslate(MouseEvent mouseEvent) {
-        System.out.println("Go to Google Translate!!!");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/GoogleTranslate.fxml"));
+        try {
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

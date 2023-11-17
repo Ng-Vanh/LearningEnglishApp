@@ -36,28 +36,15 @@ public class TopicWord {
     private ProgressBar techPrgBar, sportPrgBar, weatherPrgBar,
             idiomPrgBar, foodPrgBar, businessPrgBar,
             animalPrgBar, plantsPrgBar, fashionPrgBar,
-            bodyPrgBar, charaterPrgBar, phrasePrgBar;
+            bodyPrgBar, characterPrgBar, phrasePrgBar;
 
     public void initialize(){
-//        techPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicTech) / 30.0);
-//        sportPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicSports) / 30.0);
-//        weatherPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicWeather) / 30.0);
-//        idiomPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicIdiom) / 30.0);
-//        foodPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicFood) / 30.0 );
-//        businessPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicBusiness) / 30.0 );
-//        animalPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicAnimal) / 30.0);
-//        plantsPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicPlants) / 30.0);
-//        fashionPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicFashion) / 30.0);
-//        bodyPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicBody) / 30.0);
-//        charaterPrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicCharacter) / 30.0);
-//        phrasePrgBar.setProgress(learnedDataAccess.countLearnedWord(currentUser.getUsername(), topicPharseVerbs) / 30.0);
-
         Map<String, Integer> listCount = learnedDataAccess.listCountLearnedWords(currentUser.getUsername());
         String[] arrayTopics =new String[] {topicAnimal, topicFood, topicTech, topicSports, topicBody,
                 topicPlants, topicFashion, topicCharacter, topicBusiness,
                 topicPhraseVerbs, topicWeather, topicIdiom};
         ProgressBar[] arrayProgress = new ProgressBar[] {animalPrgBar, foodPrgBar, techPrgBar, sportPrgBar,bodyPrgBar,
-                plantsPrgBar, fashionPrgBar, charaterPrgBar, businessPrgBar,
+                plantsPrgBar, fashionPrgBar, characterPrgBar, businessPrgBar,
                 phrasePrgBar, weatherPrgBar, idiomPrgBar};
         for (int i = 0; i < arrayTopics.length; i++) {
             if(listCount.containsKey(arrayTopics[i])){
@@ -68,7 +55,7 @@ public class TopicWord {
         }
     }
     public void goToHomePage(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage/HomePage.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/HomePage/HomePage.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root);
@@ -80,7 +67,7 @@ public class TopicWord {
         }
     }
     private void loadCard(MouseEvent mouseEvent){
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Learn/Learn.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Learn/FXML/Learn.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);

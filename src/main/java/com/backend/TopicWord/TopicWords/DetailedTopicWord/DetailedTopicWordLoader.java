@@ -25,7 +25,7 @@ public class DetailedTopicWordLoader {
     private static GoogleTranslate googleTranslate = new GoogleTranslate();
     private static StringBuilder sb = new StringBuilder();
     private static ArrayList<SimpleTopicWord> simpleTopicWordList = new ArrayList<>();
-    private static HashMap<SimpleTopicWord, DetailedTopicWord> simpleWordDetailedWordMap = new HashMap<>();
+    private static HashMap<SimpleTopicWord, DetailedTopicWord> simpleTopicWordToDetailedTopicWordMap = new HashMap<>();
 
     private static void addMissingFields(DetailedTopicWord detailedTopicWord, String topic) {
         String phonetic = detailedTopicWord.getDefinition().getPhonetic();
@@ -68,7 +68,7 @@ public class DetailedTopicWordLoader {
                 simpleTopicWordList.add(new SimpleTopicWord(topic, word));
 
                 SimpleTopicWord simpleTopicWord = new SimpleTopicWord(topic, word);
-                simpleWordDetailedWordMap.put(simpleTopicWord, detailedTopicWord);
+                simpleTopicWordToDetailedTopicWordMap.put(simpleTopicWord, detailedTopicWord);
 
 //                System.out.println(detailedTopicWord.getDefinition());
 //                System.out.println("---------------------------------");
@@ -89,7 +89,7 @@ public class DetailedTopicWordLoader {
         HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = new HashMap<>();
 
         simpleTopicWordList.clear();
-        simpleWordDetailedWordMap.clear();
+        simpleTopicWordToDetailedTopicWordMap.clear();
 
         for (String topic : topics) {
             ArrayList<DetailedTopicWord> detailedTopicWordList = getWordsFromTopic(topic);
@@ -126,10 +126,10 @@ public class DetailedTopicWordLoader {
         }
     }
 
-    public static ArrayList<DetailedTopicWord> getDetailedTopicWordFromListSimpleTopicWord(ArrayList<SimpleTopicWord> simpleTopicWordList) {
+    public static ArrayList<DetailedTopicWord> getDetailedTopicWordListFromSimpleTopicWordList(ArrayList<SimpleTopicWord> simpleTopicWordList) {
         ArrayList<DetailedTopicWord> detailedTopicWordList = new ArrayList<>();
         for (SimpleTopicWord simpleTopicWord: simpleTopicWordList) {
-            detailedTopicWordList.add(simpleWordDetailedWordMap.get(simpleTopicWord));
+            detailedTopicWordList.add(simpleTopicWordToDetailedTopicWordMap.get(simpleTopicWord));
         }
         return detailedTopicWordList;
     }

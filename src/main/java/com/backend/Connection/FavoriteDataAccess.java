@@ -12,17 +12,20 @@ import java.util.List;
 
 import static com.backend.Connection.ConnectDatabase.tableFavorite;
 
-public class FavoriteDataAccess implements IDataAccess <UserStatus>{
+public class FavoriteDataAccess implements IDataAccess<UserStatus> {
     private ConnectDatabase connectDatabase;
-    public FavoriteDataAccess(){
+
+    public FavoriteDataAccess() {
         connectDatabase = new ConnectDatabase();
     }
-    public static FavoriteDataAccess getInstance(){
+
+    public static FavoriteDataAccess getInstance() {
         return new FavoriteDataAccess();
     }
 
     /**
      * The function inserts a new favorite to the database.
+     *
      * @param userStatus is the user status.
      * @return
      */
@@ -49,13 +52,19 @@ public class FavoriteDataAccess implements IDataAccess <UserStatus>{
 
         return result;
     }
-    public List<String> getFavoriteWords(String username){
+
+    /**
+     * The function gets list favorite words from database to show scene.
+     *
+     * @param username is current username.
+     */
+    public List<String> getFavoriteWords(String username) {
         List<String> result = new ArrayList<String>();
         try {
             Connection connection = connectDatabase.getConnection();
             String query = "SELECT DISTINCT * FROM " + tableFavorite + " WHERE username = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1,username);
+            preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
@@ -67,11 +76,9 @@ public class FavoriteDataAccess implements IDataAccess <UserStatus>{
         return result;
     }
 
-    @Override
-    public int update(UserStatus userStatus) {
-        return 0;
-    }
-
+    /**
+     * The function removes favorite words from database.
+     */
     @Override
     public int delete(UserStatus userStatus) {
         int result = 0;
@@ -87,7 +94,11 @@ public class FavoriteDataAccess implements IDataAccess <UserStatus>{
         }
         return result;
     }
-    public boolean isFavoriteWord(UserStatus userStatus){
+
+    /**
+     * The function checks word is favorite words ?
+     */
+    public boolean isFavoriteWord(UserStatus userStatus) {
         boolean isFavorite = false;
         try {
             Connection connection = connectDatabase.getConnection();
@@ -110,9 +121,8 @@ public class FavoriteDataAccess implements IDataAccess <UserStatus>{
         return null;
     }
 
-    public static void main(String[] args) {
-        FavoriteDataAccess favoriteDataAccess = new FavoriteDataAccess();
-        UserStatus userStatus = new UserStatus("abc123","hello");
-        System.out.println(favoriteDataAccess.isFavoriteWord(userStatus));
+    @Override
+    public int update(UserStatus userStatus) {
+        return 0;
     }
 }

@@ -22,6 +22,7 @@ public class ConnectDatabase {
 //    protected static final String tableFavorite = "edict.tbl_favorite";
 //    protected static final String tableLearning = "edict.tbl_learning";
 //    protected static final String tableScoreStatus = "edict.tbl_scorestatus";
+
     public ConnectDatabase() {
     }
 
@@ -50,6 +51,9 @@ public class ConnectDatabase {
         return connection;
     }
 
+    /**
+     * The function close the connection when don't use.
+     */
     public void closeConnection(Connection connection) {
         try {
             if (connection != null) {
@@ -58,15 +62,6 @@ public class ConnectDatabase {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-    }
-    public static void showInfo(Connection cn){
-        if(cn!=null){
-            try {
-                System.out.println(cn.getMetaData().toString());
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
         }
     }
 }

@@ -9,14 +9,20 @@ import java.util.ArrayList;
 
 import static com.backend.Connection.ConnectDatabase.tableScoreStatus;
 
-public class UserDataScore implements IDataAccess<User>{
+public class UserDataScore implements IDataAccess<User> {
     private ConnectDatabase connectDatabase;
-    public UserDataScore(){
+
+    public UserDataScore() {
         connectDatabase = new ConnectDatabase();
     }
-    public static UserDataScore getInstance(){
+
+    public static UserDataScore getInstance() {
         return new UserDataScore();
     }
+
+    /**
+     * The function inserts score to database after play each game.
+     */
     @Override
     public int insert(User user) {
         int result = 0;
@@ -39,11 +45,6 @@ public class UserDataScore implements IDataAccess<User>{
         }
 
         return result;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(UserDataScore.getInstance().insert(new User("abc123",200,250)));
-
     }
 
     @Override

@@ -12,6 +12,7 @@ module com.example.dictionaryenvi {
     requires org.apache.poi.poi;
     requires org.apache.poi.ooxml;
     requires org.controlsfx.controls;
+    requires org.jsoup;
 
     opens com.example.dictionaryenvi to javafx.fxml;
     opens com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice to javafx.fxml;
@@ -34,4 +35,19 @@ module com.example.dictionaryenvi {
     opens com.example.dictionaryenvi.MainDictionary to javafx.fxml;
     exports com.example.dictionaryenvi.TopicWord;
     opens com.example.dictionaryenvi.TopicWord to javafx.fxml;
+
+    exports com.backend.TopicWord.Utils to com.fasterxml.jackson.databind;
+    exports com.backend.OnlineDictionary.OnlineDictionaries to com.fasterxml.jackson.databind;
+    opens com.backend.OnlineDictionary.Utils to com.fasterxml.jackson.databind;
+
+    exports com.backend.Exercise.Utils to com.fasterxml.jackson.databind;
+    exports com.backend.Exercise.Exercises.MultipleChoice to com.fasterxml.jackson.databind;
+    exports com.backend.Exercise.Exercises.Dictation to com.fasterxml.jackson.databind;
+
+    opens com.backend.TopicWord.Utils to com.fasterxml.jackson.databind;
+    opens com.backend.Exercise.Exercises.MultipleChoice to com.fasterxml.jackson.databind;
+    exports com.backend.TopicWord.TopicWords.SimpleTopicWord to com.fasterxml.jackson.databind;
+    opens com.backend.TopicWord.TopicWords.SimpleTopicWord to com.fasterxml.jackson.databind;
+    exports com.backend.TopicWord.TopicWords.DetailedTopicWord to com.fasterxml.jackson.databind;
+    opens com.backend.TopicWord.TopicWords.DetailedTopicWord to com.fasterxml.jackson.databind;
 }

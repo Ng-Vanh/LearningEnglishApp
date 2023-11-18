@@ -1,0 +1,240 @@
+{
+  "topic": "Business",
+  "words": [
+    {
+      "definition": {
+        "word": "Profit",
+        "type": "Noun",
+        "phonetic": "ˈprɒf.ɪt",
+        "example": "The company made a significant profit this quarter.",
+        "explain": "Lợi nhuận",
+        "translatedExample": "Công ty đã đạt được lợi nhuận đáng kể trong quý này."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Profit'?",
+          "options": {
+            "A": "Loss",
+            "B": "Income",
+            "C": "Expense",
+            "D": "Revenue"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Loss' is the opposite of profit, representing negative earnings. B: 'Income' is a broader term encompassing various earnings. C: 'Expense' refers to costs and expenditures. D: 'Revenue' is the closest synonym, representing total earnings."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Market",
+        "type": "Noun",
+        "phonetic": "ˈmɑː.kɪt",
+        "example": "The company plans to enter the global market next year.",
+        "explain": "Thị trường",
+        "translatedExample": "Công ty kế hoạch mở rộng vào thị trường toàn cầu vào năm sau."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Market'?",
+          "options": {
+            "A": "Trade",
+            "B": "Industry",
+            "C": "Commerce",
+            "D": "Monopoly"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Trade' is a related term involving buying and selling. B: 'Industry' is a broader term encompassing various economic activities. C: 'Commerce' is synonymous with trade. D: 'Monopoly' is the antonym as it refers to exclusive control of a market by a single entity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Invest",
+        "type": "Verb",
+        "phonetic": "ɪnˈvest",
+        "example": "He decided to invest his savings in the stock market.",
+        "explain": "Đầu tư",
+        "translatedExample": "Anh ta quyết định đầu tư tiết kiệm của mình vào thị trường chứng khoán."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Smart investors diversify their portfolios to manage risk effectively.",
+          "sentenceWithBlank": "Smart investors diversify their portfolios to manage risk ________.",
+          "wordBlank": "effectively",
+          "translation": "Nhà đầu tư thông minh đa dạng hóa danh mục để quản lý rủi ro hiệu quả."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Startup",
+        "type": "Noun",
+        "phonetic": "ˈstɑːrt.ʌp",
+        "example": "The new startup aims to revolutionize the tech industry.",
+        "explain": "Doanh nghiệp khởi nghiệp",
+        "translatedExample": "Doanh nghiệp khởi nghiệp mới nhằm mục tiêu cách mạng hóa ngành công nghiệp công nghệ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "A startup is a ________ business, often in its early stages.",
+          "options": {
+            "A": "Established",
+            "B": "Mature",
+            "C": "Emerging",
+            "D": "New"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Established' businesses are well-established and have been around for a while. B: 'Mature' businesses are in their stable and developed phase. C: 'Emerging' businesses are growing and gaining prominence. D: 'New' is the correct term for a startup, indicating a recently established business."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Budget",
+        "type": "Noun",
+        "phonetic": "ˈbʌdʒ.ɪt",
+        "example": "The finance department is responsible for creating the annual budget.",
+        "explain": "Ngân sách",
+        "translatedExample": "Bộ phận tài chính chịu trách nhiệm tạo ngân sách hàng năm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Budget'?",
+          "options": {
+            "A": "Expense",
+            "B": "Expenditure",
+            "C": "Allocation",
+            "D": "Financial plan"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Expense' refers to specific costs. B: 'Expenditure' is a more formal term for spending. C: 'Allocation' is the distribution of resources. D: 'Financial plan' is the closest synonym, encompassing the overall monetary strategy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Merger",
+        "type": "Noun",
+        "phonetic": "ˈmɜː.dʒər",
+        "example": "The merger of the two companies created a powerhouse in the industry.",
+        "explain": "Sáp nhập",
+        "translatedExample": "Sự sáp nhập của hai công ty đã tạo ra một đội ngũ mạnh mẽ trong ngành."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A merger involves the combination of two or more companies to form a single entity.",
+          "sentenceWithBlank": "A merger involves the combination of two or more companies to form a single ________.",
+          "wordBlank": "entity",
+          "translation": "Sự sáp nhập liên quan đến việc kết hợp hai hoặc nhiều công ty để tạo ra một thực thể duy nhất."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Asset",
+        "type": "Noun",
+        "phonetic": "ˈæs.et",
+        "example": "Real estate is considered a valuable asset for many investors.",
+        "explain": "Tài sản",
+        "translatedExample": "Bất động sản được coi là một tài sản có giá trị đối với nhiều nhà đầu tư."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Asset'?",
+          "options": {
+            "A": "Liability",
+            "B": "Debt",
+            "C": "Investment",
+            "D": "Equity"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Liability' is the opposite term, representing obligations and debts. B: 'Debt' is the correct antonym, indicating financial obligations. C: 'Investment' is related to assets and financial ventures. D: 'Equity' represents ownership and is not the opposite of asset."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Ethics",
+        "type": "Noun",
+        "phonetic": "ˈeθ.ɪks",
+        "example": "The company emphasizes the importance of business ethics in its policies.",
+        "explain": "Đạo đức kinh doanh",
+        "translatedExample": "Công ty nhấn mạnh tầm quan trọng của đạo đức kinh doanh trong chính sách của mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Ethics in business involve making morally sound decisions and acting with integrity.",
+          "sentenceWithBlank": "Ethics in business involve making morally sound decisions and acting with ________.",
+          "wordBlank": "integrity",
+          "translation": "Đạo đức trong kinh doanh liên quan đến việc đưa ra quyết định có đạo đức và hành động với chân thành."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Export",
+        "type": "Verb",
+        "phonetic": "ɪkˈspɔːrt",
+        "example": "The company aims to export its products to international markets.",
+        "explain": "Xuất khẩu",
+        "translatedExample": "Công ty đặt mục tiêu xuất khẩu sản phẩm của mình vào thị trường quốc tế."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Export'?",
+          "options": {
+            "A": "Import",
+            "B": "Ship",
+            "C": "Sell",
+            "D": "Transport"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Import' is the correct synonym, representing the opposite action of bringing goods into a country. B: 'Ship' refers to the physical movement of goods. C: 'Sell' is a general term for exchanging goods for money. D: 'Transport' involves the movement of goods but is not synonymous with export."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Invoice",
+        "type": "Noun",
+        "phonetic": "ˈɪn.vɔɪs",
+        "example": "The finance department issued an invoice for the delivered goods.",
+        "explain": "Hóa đơn",
+        "translatedExample": "Bộ phận tài chính đã phát hành hóa đơn cho hàng hóa đã được giao."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Invoice'?",
+          "options": {
+            "A": "Receipt",
+            "B": "Statement",
+            "C": "Estimate",
+            "D": "Credit note"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Receipt' is related to acknowledging payment. B: 'Statement' is a summary of financial transactions. C: 'Estimate' is the correct antonym, as it represents a preliminary calculation or quotation. D: 'Credit note' is a document acknowledging a reduction in the amount owed."
+        }
+      }
+    }
+  ]
+}

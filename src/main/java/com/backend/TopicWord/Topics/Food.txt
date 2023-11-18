@@ -1095,6 +1095,236 @@
           "explanation": "A: 'Boil' is a different cooking method. B: 'Roast' is related but not synonymous. C: 'Grill' is the correct synonym for sear when referring to quickly cooking the surface of food at high heat. D: 'Steam' is a different cooking method."
         }
       }
+    },
+    {
+      "definition": {
+        "word": "Blend",
+        "type": "Verb",
+        "phonetic": "blend",
+        "example": "Blend the ingredients until smooth to make a delicious smoothie.",
+        "explain": "Trộn",
+        "translatedExample": "Hòa quyện các nguyên liệu cho đến khi mịn để tạo ra một ly sinh tố ngon."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Blend'?",
+          "options": {
+            "A": "Mix",
+            "B": "Chop",
+            "C": "Stir",
+            "D": "Saute"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Mix' is the closest synonym, as both involve combining ingredients. B: 'Chop' is to cut into pieces. C: 'Stir' is to move a substance around with a utensil. D: 'Saute' is to cook quickly in a small amount of oil."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Crunchy",
+        "type": "Adjective",
+        "phonetic": "ˈkrʌn.tʃi",
+        "example": "I love the crunchy texture of freshly baked cookies.",
+        "explain": "Giòn ngon",
+        "translatedExample": "Tôi thích cảm giác giòn ngon của bánh quy vừa mới nướng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The salad was deliciously fresh and had a satisfying, crunchy texture.",
+          "sentenceWithBlank": "The salad was deliciously fresh and had a satisfying, ________ texture.",
+          "wordBlank": "crunchy",
+          "translation": "Cái salad tươi ngon và có cảm giác giòn ngon đầy hài lòng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Melt",
+        "type": "Verb",
+        "phonetic": "mɛlt",
+        "example": "Melt the chocolate in a double boiler for a smooth fondue.",
+        "explain": "Nấu chảy",
+        "translatedExample": "Nấu chảy sô cô la trong nồi hấp để có một nồi fondue mịn màng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Melt'?",
+          "options": {
+            "A": "Freeze",
+            "B": "Solidify",
+            "C": "Chill",
+            "D": "Solidify"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Freeze' is the antonym, as it means to turn a substance into a solid by lowering its temperature. B: 'Solidify' is a synonym for 'Melt'. C: 'Chill' is to cool but doesn't necessarily involve changing state. D: 'Solidify' is repeated and is a synonym for 'Melt'."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Steam",
+        "type": "Verb",
+        "phonetic": "stiːm",
+        "example": "Steam the vegetables to retain their nutrients and natural flavors.",
+        "explain": "Hấp",
+        "translatedExample": "Hấp rau để giữ lại chất dinh dưỡng và hương vị tự nhiên của chúng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Steaming is a healthy cooking method that preserves the color and nutrients of food.",
+          "sentenceWithBlank": "_______ is a healthy cooking method that preserves the color and nutrients of food.",
+          "wordBlank": "Steaming",
+          "translation": "Hấp là một phương pháp nấu ăn lành mạnh giữ lại màu sắc và chất dinh dưỡng của thực phẩm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Dice",
+        "type": "Verb",
+        "phonetic": "daɪs",
+        "example": "Dice the vegetables into small cubes for the stir-fry.",
+        "explain": "Băm nhỏ",
+        "translatedExample": "Băm nhỏ rau thành các khối nhỏ để xào nhanh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the technique used to cut food into small, uniform cubes?",
+          "options": {
+            "A": "Sear",
+            "B": "Dice",
+            "C": "Simmer",
+            "D": "Marinate"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Sear' is to brown the surface of food quickly. B: 'Dice' is the correct term for cutting food into small, uniform cubes. C: 'Simmer' is to cook gently in liquid just below the boiling point. D: 'Marinate' is to soak food in a seasoned liquid to enhance flavor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Season",
+        "type": "Verb",
+        "phonetic": "ˈsiː.zən",
+        "example": "Season the soup with salt and pepper to enhance the taste.",
+        "explain": "Gia vị",
+        "translatedExample": "Gia vị nồi súp bằng muối và tiêu để tăng cường hương vị."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Season'?",
+          "options": {
+            "A": "Chill",
+            "B": "Enhance",
+            "C": "Flavor",
+            "D": "Cook"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Chill' is to cool, not to add seasoning. B: 'Enhance' is a synonym, meaning to improve or intensify. C: 'Flavor' is the closest synonym, specifically referring to the taste quality of food. D: 'Cook' is too general and does not imply the addition of seasonings."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bake",
+        "type": "Verb",
+        "phonetic": "beɪk",
+        "example": "Bake the cake at 350°F for 30 minutes until it's golden brown.",
+        "explain": "Nướng",
+        "translatedExample": "Nướng bánh ở 350°F trong 30 phút cho đến khi nó có màu vàng nâu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Baking is a dry heat cooking method commonly used for bread, cakes, and pastries.",
+          "sentenceWithBlank": "_______ is a dry heat cooking method commonly used for bread, cakes, and pastries.",
+          "wordBlank": "Baking",
+          "translation": "Nướng là một phương pháp nấu khô thường được sử dụng cho bánh mì, bánh ngọt và bánh ngọt nhỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chop",
+        "type": "Verb",
+        "phonetic": "tʃɑːp",
+        "example": "Chop the herbs finely for a burst of flavor in the dish.",
+        "explain": "Băm nhỏ",
+        "translatedExample": "Băm nhỏ thảo mộc để thêm hương vị cho món ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Chop'?",
+          "options": {
+            "A": "Slice",
+            "B": "Dice",
+            "C": "Carve",
+            "D": "Mince"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Slice' is the antonym, as it means to cut into thin, broad pieces. B: 'Dice' is to cut into small cubes. C: 'Carve' is to cut into decorative shapes, often used with meat. D: 'Mince' is to cut into very small pieces."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Brew",
+        "type": "Verb",
+        "phonetic": "bruː",
+        "example": "Brew a cup of strong coffee for a morning pick-me-up.",
+        "explain": "Pha chế",
+        "translatedExample": "Pha chế một tách cà phê đậm để tỉnh táo buổi sáng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Brewing involves steeping ingredients in hot water to extract flavors and aromas.",
+          "sentenceWithBlank": "_______ involves steeping ingredients in hot water to extract flavors and aromas.",
+          "wordBlank": "Brewing",
+          "translation": "Pha chế liên quan đến ngâm nguyên liệu trong nước nóng để chiết xuất hương vị và mùi thơm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Grill",
+        "type": "Verb",
+        "phonetic": "ɡrɪl",
+        "example": "Grill the chicken until it's nicely charred for a smoky flavor.",
+        "explain": "Nướng grill",
+        "translatedExample": "Nướng gà trên grill cho đến khi có một hương vị khói thơm phức."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What cooking method involves exposing food to direct heat, often with distinct grill marks?",
+          "options": {
+            "A": "Steam",
+            "B": "Roast",
+            "C": "Grill",
+            "D": "Sauté"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Steam' involves cooking with steam, not direct heat. B: 'Roast' is a method of cooking in an oven. C: 'Grill' involves exposing food to direct heat, often creating distinct grill marks. D: 'Sauté' is to cook quickly in a small amount of oil."
+        }
+      }
     }
   ]
 }

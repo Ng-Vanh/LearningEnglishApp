@@ -1420,6 +1420,716 @@
           "explanation": "A: 'Marathon' is a long-distance race. B: 'Jog' is a slow run. C: 'Sprint' is the correct answer, referring to a fast run. D: 'Walk' is slower than a run."
         }
       }
+    },
+    {
+      "definition": {
+        "word": "Sprint",
+        "type": "Noun",
+        "phonetic": "sprɪnt",
+        "example": "Usain Bolt is famous for his incredible speed in the 100-meter sprint.",
+        "explain": "Cuộc đua nhanh",
+        "translatedExample": "Usain Bolt nổi tiếng với tốc độ đáng kinh ngạc trong cuộc đua nhanh 100 mét."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What type of race is Usain Bolt famous for?",
+          "options": {
+            "A": "Marathon",
+            "B": "Sprint",
+            "C": "Hurdle",
+            "D": "Endurance"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Marathon' is a long-distance race. B: 'Sprint' is a short, high-speed race. C: 'Hurdle' involves jumping over obstacles. D: 'Endurance' is the ability to sustain prolonged physical effort."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Goalkeeper",
+        "type": "Noun",
+        "phonetic": "ˈɡoʊlˌkiːpər",
+        "example": "The goalkeeper made a fantastic save, preventing the opposing team from scoring a goal.",
+        "explain": "Người gác đền",
+        "translatedExample": "Người gác đền thực hiện một pha cản phá tuyệt vời, ngăn chặn đội đối phương ghi bàn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The goalkeeper is the player positioned in front of the goal to prevent the opposing team from scoring.",
+          "sentenceWithBlank": "______ is the player positioned in front of the goal to prevent the opposing team from scoring.",
+          "wordBlank": "Goalkeeper",
+          "translation": "Người gác đền là người chơi đặt ở phía trước khung thành để ngăn chặn đội đối phương ghi bàn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Medal",
+        "type": "Noun",
+        "phonetic": "ˈmɛdəl",
+        "example": "Winning a gold medal is the ultimate achievement for many athletes in the Olympic Games.",
+        "explain": "Huy chương",
+        "translatedExample": "Chiến thắng một huy chương vàng là thành tựu tối thượng đối với nhiều vận động viên tại Đại hội Thể thao Olympic."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Medal'?",
+          "options": {
+            "A": "Trophy",
+            "B": "Award",
+            "C": "Badge",
+            "D": "Prize"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Trophy' is a physical object awarded for achievement. B: 'Award' is a general term for something given as a reward. C: 'Badge' is a small emblem or token of achievement. D: 'Prize' is something given for victory or superiority."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Coach",
+        "type": "Noun",
+        "phonetic": "koʊtʃ",
+        "example": "The basketball team's coach provided valuable guidance to improve their performance.",
+        "explain": "Huấn luyện viên",
+        "translatedExample": "Huấn luyện viên của đội bóng rổ cung cấp sự hướng dẫn quý báu để cải thiện hiệu suất của họ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Coach'?",
+          "options": {
+            "A": "Player",
+            "B": "Athlete",
+            "C": "Mentor",
+            "D": "Pupil"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Player' refers to an individual actively participating in a sport. B: 'Athlete' is a person proficient in sports and other forms of physical exercise. C: 'Mentor' is a guide or advisor. D: 'Pupil' is a learner or student."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Net",
+        "type": "Noun",
+        "phonetic": "nɛt",
+        "example": "The soccer ball went into the net, scoring a goal for the team.",
+        "explain": "Lưới",
+        "translatedExample": "Quả bóng bóng đá vào lưới, ghi bàn cho đội."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In tennis, the ball must go over the net and land within the boundaries of the court to be considered in play.",
+          "sentenceWithBlank": "In tennis, the ball must go over the _____ and land within the boundaries of the court to be considered in play.",
+          "wordBlank": "net",
+          "translation": "Trong tennis, quả bóng phải vượt qua lưới và đất trong ranh giới của sân mới được coi là trong trận đấu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Dribble",
+        "type": "Verb",
+        "phonetic": "ˈdrɪbəl",
+        "example": "In basketball, players often dribble the ball to move it across the court while avoiding defenders.",
+        "explain": "Nhả bóng",
+        "translatedExample": "Trong bóng rổ, người chơi thường nhả bóng để di chuyển nó qua sân mà không bị người phòng thủ chặn đứng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Dribble'?",
+          "options": {
+            "A": "Shoot",
+            "B": "Pass",
+            "C": "Bounce",
+            "D": "Kick"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Shoot' is to attempt to score a goal or make a basket. B: 'Pass' is to transfer the ball to a teammate. C: 'Bounce' is a synonym for dribbling in basketball. D: 'Kick' is to strike the ball with the foot, commonly used in soccer."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Freestyle",
+        "type": "Noun",
+        "phonetic": "ˈfriːˌstaɪl",
+        "example": "In swimming, freestyle is a stroke where swimmers use a combination of arm and leg movements.",
+        "explain": "Bơi tự do",
+        "translatedExample": "Trong bơi lội, bơi tự do là một cú đánh mà người bơi sử dụng sự kết hợp của động tác cánh tay và chân."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Freestyle is the fastest swimming stroke, often used in competitive swimming events.",
+          "sentenceWithBlank": "______ is the fastest swimming stroke, often used in competitive swimming events.",
+          "wordBlank": "Freestyle",
+          "translation": "Bơi tự do là cú đánh bơi nhanh nhất, thường được sử dụng trong các sự kiện bơi thi đấu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Halftime",
+        "type": "Noun",
+        "phonetic": "ˈhælfˌtaɪm",
+        "example": "During halftime, the marching band performed an energetic show on the football field.",
+        "explain": "Giờ nghỉ giữa trận đấu",
+        "translatedExample": "Trong giờ nghỉ giữa trận đấu, ban nhạc hòa nhạc thể hiện một buổi biểu diễn năng động trên sân bóng đá."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Halftime'?",
+          "options": {
+            "A": "Intermission",
+            "B": "Break",
+            "C": "Fulltime",
+            "D": "Pause"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Intermission' is a break or pause. B: 'Break' is a temporary cessation of activity. C: 'Fulltime' is the completion of the entire game or event. D: 'Pause' is a temporary stop."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jersey",
+        "type": "Noun",
+        "phonetic": "ˈdʒɜːrzi",
+        "example": "Players wear a jersey with their team's colors and logo during the game.",
+        "explain": "Áo đấu",
+        "translatedExample": "Người chơi mặc áo đấu có màu sắc và logo của đội trong suốt trận đấu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In football, each team has a unique jersey design to distinguish them from other teams.",
+          "sentenceWithBlank": "In football, each team has a unique _____ design to distinguish them from other teams.",
+          "wordBlank": "Jersey",
+          "translation": "Trong bóng đá, mỗi đội có một thiết kế áo đấu độc đáo để phân biệt họ với các đội khác."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Overtime",
+        "type": "Noun",
+        "phonetic": "ˈoʊvərˌtaɪm",
+        "example": "If the score is tied at the end of regulation time, the game may go into overtime to determine the winner.",
+        "explain": "Hiệp phụ",
+        "translatedExample": "Nếu tỷ số hòa vào cuối thời gian quy định, trận đấu có thể đi vào hiệp phụ để xác định người chiến thắng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "When does overtime occur in a sports game?",
+          "options": {
+            "A": "Before the game starts",
+            "B": "During halftime",
+            "C": "At the end of regulation time",
+            "D": "After a team scores"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Before the game starts' is the pre-game period. B: 'During halftime' is the break between halves. C: 'At the end of regulation time' is when the game is tied, and extra time is played. D: 'After a team scores' doesn't necessarily lead to overtime."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Goalkeeper",
+        "type": "Noun",
+        "phonetic": "ˈɡoʊlˌkiːpər",
+        "example": "The goalkeeper made a fantastic save, preventing the opposing team from scoring a goal.",
+        "explain": "Người gác đền",
+        "translatedExample": "Người gác đền thực hiện một pha cản phá tuyệt vời, ngăn chặn đội đối phương ghi bàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Goalkeeper'?",
+          "options": {
+            "A": "Player",
+            "B": "Athlete",
+            "C": "Mentor",
+            "D": "Pupil"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Player' refers to an individual actively participating in a sport. B: 'Athlete' is a person proficient in sports and other forms of physical exercise. C: 'Mentor' is a guide or advisor. D: 'Pupil' is a learner or student."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Marathon",
+        "type": "Noun",
+        "phonetic": "ˈmærəˌθɑːn",
+        "example": "Running a marathon requires endurance and mental strength due to the long distance involved.",
+        "explain": "Marathon (cuộc đua chạy)",
+        "translatedExample": "Chạy marathon đòi hỏi sự kiên nhẫn và sức mạnh tinh thần do có độ dài xa xôi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A marathon is a long-distance race with an official distance of 42.195 kilometers.",
+          "sentenceWithBlank": "A ______ is a long-distance race with an official distance of 42.195 kilometers.",
+          "wordBlank": "Marathon",
+          "translation": "Marathon là một cuộc đua chạy xa với khoảng cách chính thức là 42,195 km."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Championship",
+        "type": "Noun",
+        "phonetic": "ˈʧæmpiənˌʃɪp",
+        "example": "Winning the championship is the ultimate goal for teams in many sports leagues.",
+        "explain": "Chức vô địch",
+        "translatedExample": "Giành chức vô địch là mục tiêu tối thượng của các đội trong nhiều liên đoàn thể thao."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The team celebrated their victory after securing the championship title in a thrilling final match.",
+          "sentenceWithBlank": "The team celebrated their victory after securing the ________ title in a thrilling final match.",
+          "wordBlank": "Championship",
+          "translation": "Đội đã tổ chức kỷ niệm chiến thắng sau khi đảm bảo danh hiệu chức vô địch trong một trận đấu chung kết hồi hộp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "League",
+        "type": "Noun",
+        "phonetic": "liːɡ",
+        "example": "Teams compete against each other in a series of matches throughout the league season.",
+        "explain": "Giải đấu",
+        "translatedExample": "Các đội cạnh tranh với nhau trong một loạt các trận đấu suốt mùa giải giải đấu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'League'?",
+          "options": {
+            "A": "Tournament",
+            "B": "Competition",
+            "C": "Division",
+            "D": "Championship"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Tournament' is a competition involving multiple teams or individuals. B: 'Competition' is a general term for contests or matches. C: 'Division' is a group within a league. D: 'Championship' is the title awarded to the top team in a league."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pitch",
+        "type": "Noun",
+        "phonetic": "pɪtʃ",
+        "example": "The soccer match is played on a rectangular pitch with goalposts at each end.",
+        "explain": "Sân thi đấu",
+        "translatedExample": "Trận đấu bóng đá diễn ra trên một sân thi đấu hình chữ nhật với cột gôn ở mỗi đầu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Pitch' in the context of sports?",
+          "options": {
+            "A": "Field",
+            "B": "Court",
+            "C": "Arena",
+            "D": "Rink"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Field' is a synonym for 'Pitch' in the context of sports. B: 'Court' is typically used for sports like tennis and basketball. C: 'Arena' is a larger space for events. D: 'Rink' is used for ice or roller sports."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stroke",
+        "type": "Noun",
+        "phonetic": "stroʊk",
+        "example": "In swimming, the breaststroke is a common and graceful swimming stroke.",
+        "explain": "Cú đánh (bơi lội)",
+        "translatedExample": "Trong bơi lội, cú đánh ếch là một cú đánh bơi phổ biến và duyên dáng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The butterfly stroke is known for its distinctive arm movement resembling the wings of a butterfly.",
+          "sentenceWithBlank": "The butterfly ______ is known for its distinctive arm movement resembling the wings of a butterfly.",
+          "wordBlank": "stroke",
+          "translation": "Cú đánh bướm được biết đến với động tác cánh tay đặc biệt giống như cánh bướm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tackle",
+        "type": "Verb",
+        "phonetic": "ˈtækəl",
+        "example": "In American football, players use strategic tackles to bring down opponents and stop their progress.",
+        "explain": "Phản công (bóng bầu dục)",
+        "translatedExample": "Trong bóng bầu dục Mỹ, người chơi sử dụng những pha phản công chiến thuật để hạ gục đối thủ và ngăn chặn sự tiến triển của họ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Tackle' in the context of American football?",
+          "options": {
+            "A": "Pass",
+            "B": "Run",
+            "C": "Score",
+            "D": "Protect"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Pass' involves throwing the ball to a teammate. B: 'Run' is moving with the ball. C: 'Score' is to make points by getting the ball into the opposing team's goal. D: 'Protect' involves shielding the ball or a teammate."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Rally",
+        "type": "Verb",
+        "phonetic": "ˈræli",
+        "example": "In tennis, the players engaged in a fierce rally, showcasing their agility and skill.",
+        "explain": "Trả bóng (quần vợt)",
+        "translatedExample": "Trong quần vợt, người chơi tham gia vào một cuộc trả bóng gay cấn, thể hiện sự linh hoạt và kỹ năng của họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A tennis rally can involve multiple exchanges of shots between players before a point is won.",
+          "sentenceWithBlank": "A tennis ______ can involve multiple exchanges of shots between players before a point is won.",
+          "wordBlank": "rally",
+          "translation": "Một cuộc trả bóng quần vợt có thể bao gồm nhiều lần trao đổi cú đánh giữa người chơi trước khi ghi được một điểm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Paddle",
+        "type": "Noun",
+        "phonetic": "ˈpædəl",
+        "example": "Kayakers use a paddle to navigate through water and control the direction of their kayak.",
+        "explain": "Vái chèo",
+        "translatedExample": "Người chèo kayak sử dụng một vái chèo để di chuyển qua nước và kiểm soát hướng của chiếc kayak."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What equipment do kayakers use to propel and steer their kayak?",
+          "options": {
+            "A": "Sail",
+            "B": "Oar",
+            "C": "Paddle",
+            "D": "Rudder"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Sail' is used for sailing boats. B: 'Oar' is a rowing implement. C: 'Paddle' is the equipment used by kayakers. D: 'Rudder' is a device used for steering."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Podium",
+        "type": "Noun",
+        "phonetic": "ˈpoʊdiəm",
+        "example": "Athletes stand on the podium to receive medals and accolades after winning a competition.",
+        "explain": "Bục nhận huy chương",
+        "translatedExample": "Vận động viên đứng trên bục nhận huy chương để nhận huy chương và sự khen ngợi sau khi giành chiến thắng trong một cuộc thi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The top three finishers in the race stood on the podium during the award ceremony.",
+          "sentenceWithBlank": "The top three finishers in the race stood on the _______ during the award ceremony.",
+          "wordBlank": "podium",
+          "translation": "Ba người về đích đầu tiên trong cuộc đua đứng trên bục nhận giải trong buổi lễ trao giải."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Parry",
+        "type": "Verb",
+        "phonetic": "ˈpæri",
+        "example": "In fencing, a fencer uses a parry to deflect an opponent's attack and prevent being hit.",
+        "explain": "Chặn đòn (môn đấu kiếm)",
+        "translatedExample": "Trong môn đấu kiếm, một kiếm sĩ sử dụng cú chặn đòn để đánh chệch đòn tấn công của đối thủ và ngăn chặn bị đánh trúng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Parry' in fencing?",
+          "options": {
+            "A": "Attack",
+            "B": "Retreat",
+            "C": "Thrust",
+            "D": "Block"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Attack' is the opposite of 'Parry' in fencing. B: 'Retreat' is to move away defensively. C: 'Thrust' is an offensive move in fencing. D: 'Block' is to obstruct an opponent's attack."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Slalom",
+        "type": "Noun",
+        "phonetic": "ˈslæləm",
+        "example": "Skiing and kayaking often feature slalom courses, challenging athletes with a series of gates to navigate.",
+        "explain": "Đua vòng cổ",
+        "translatedExample": "Trượt tuyết và đua thuyền kayak thường có các đường đua vòng cổ, thách thức vận động viên với một loạt các cổng để điều hướng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Competitors showcase their agility and precision as they navigate through the slalom course in the skiing event.",
+          "sentenceWithBlank": "Competitors showcase their agility and precision as they navigate through the ______ course in the skiing event.",
+          "wordBlank": "slalom",
+          "translation": "Các đối thủ thể hiện sự linh hoạt và chính xác khi điều hướng qua đường đua vòng cổ trong sự kiện trượt tuyết."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Clinch",
+        "type": "Verb",
+        "phonetic": "klɪntʃ",
+        "example": "In boxing, fighters often try to clinch their opponents to limit their ability to throw punches.",
+        "explain": "Nắm giữ chặt (đối thủ)",
+        "translatedExample": "Trong quyền Anh, các võ sĩ thường cố gắng nắm chặt đối thủ để hạn chế khả năng đánh đòn của họ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What do boxers aim to achieve when they try to clinch their opponents?",
+          "options": {
+            "A": "Score points",
+            "B": "Submit a hold",
+            "C": "Avoid punches",
+            "D": "Perform acrobatics"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: Boxers clinch to 'Avoid punches.' B: 'Submit a hold' is not the primary goal of clinching. C: The main goal of clinching is to limit the opponent's ability to throw punches. D: 'Perform acrobatics' is unrelated to clinching in boxing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spike",
+        "type": "Verb",
+        "phonetic": "spaɪk",
+        "example": "In volleyball, players spike the ball to forcefully hit it over the net and score points.",
+        "explain": "Đánh bóng xuống mạnh (bóng chuyền)",
+        "translatedExample": "Trong bóng chuyền, người chơi đánh bóng xuống mạnh để đưa nó qua mạng và ghi điểm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A well-executed spike in volleyball requires precise timing and a strong, downward hit.",
+          "sentenceWithBlank": "A well-executed ______ in volleyball requires precise timing and a strong, downward hit.",
+          "wordBlank": "spike",
+          "translation": "Một cú đánh bóng xuống mạnh được thực hiện tốt trong bóng chuyền đòi hỏi đồng hồ đo thời gian chính xác và một cú đánh mạnh xuống."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Puck",
+        "type": "Noun",
+        "phonetic": "pʌk",
+        "example": "In ice hockey, the players use a puck, a small, flat disc, to score goals.",
+        "explain": "Quả bóng tròn (khúc côn cầu)",
+        "translatedExample": "Trong khúc côn cầu, người chơi sử dụng quả bóng tròn, một đĩa nhỏ phẳng, để ghi bàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Puck' in ice hockey?",
+          "options": {
+            "A": "Ball",
+            "B": "Disk",
+            "C": "Sphere",
+            "D": "Cylinder"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Ball' is a general term for a spherical object. B: 'Disk' is a synonym for 'Puck' in ice hockey. C: 'Sphere' refers to a round object. D: 'Cylinder' is a three-dimensional geometric shape."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Caddy",
+        "type": "Noun",
+        "phonetic": "ˈkædi",
+        "example": "A golf caddy assists players by carrying their golf bags and providing advice on the course.",
+        "explain": "Người đeo gậy (gôn)",
+        "translatedExample": "Người đeo gậy golf giúp đỡ người chơi bằng cách mang theo túi gậy golf và cung cấp lời khuyên trên sân đấu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the role of a caddy in golf?",
+          "options": {
+            "A": "Hit the ball",
+            "B": "Carry golf bags",
+            "C": "Officiate the game",
+            "D": "Make scorecards"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: The caddy does not hit the ball for the player. B: The main role of a caddy is to 'Carry golf bags.' C: Officiating the game is typically done by referees. D: Making scorecards is usually done by the players themselves or official scorekeepers."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Putt",
+        "type": "Verb",
+        "phonetic": "pʌt",
+        "example": "Golfers use a putting stroke to gently roll the ball into the hole on the putting green.",
+        "explain": "Cú đánh nhẹ (gôn)",
+        "translatedExample": "Người chơi golf sử dụng cú đánh nhẹ để nhẹ nhàng đưa bóng vào lỗ trên bảng đánh putting."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The golfer executed a perfect putt, sending the ball smoothly into the hole with minimal strokes.",
+          "sentenceWithBlank": "The golfer executed a perfect ______, sending the ball smoothly into the hole with minimal strokes.",
+          "wordBlank": "putt",
+          "translation": "Người chơi golf thực hiện một cú đánh nhẹ hoàn hảo, đưa bóng vào lỗ một cách nhẹ nhàng với số cú đánh tối thiểu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sprint",
+        "type": "Verb",
+        "phonetic": "sprɪnt",
+        "example": "Runners sprint to cover short distances at their maximum speed, showcasing explosive bursts of energy.",
+        "explain": "Chạy nước rút",
+        "translatedExample": "Người chạy nước rút để bao phủ các khoảng cách ngắn ở tốc độ tối đa của họ, thể hiện những cú nổ năng lượng mạnh mẽ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Sprint'?",
+          "options": {
+            "A": "Jog",
+            "B": "Gallop",
+            "C": "Stride",
+            "D": "Stroll"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Jog' is a slower form of running. B: 'Gallop' is a fast gait of a horse. C: 'Stride' is a regular, steady pace. D: 'Stroll' is a slow, leisurely walk and is the antonym for 'Sprint.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Rink",
+        "type": "Noun",
+        "phonetic": "rɪŋk",
+        "example": "Ice skaters glide across the rink, performing various jumps and spins.",
+        "explain": "Đường trượt (đá banh trên băng)",
+        "translatedExample": "Người trượt băng di chuyển qua đường trượt, thực hiện nhiều cú nhảy và xoay khác nhau."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Where do ice skaters perform their routines?",
+          "options": {
+            "A": "Field",
+            "B": "Rink",
+            "C": "Court",
+            "D": "Arena"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Field' is used for sports like soccer. B: Ice skaters perform on a 'Rink.' C: 'Court' is typically used for sports like tennis. D: 'Arena' is a larger space for events."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Draft",
+        "type": "Noun",
+        "phonetic": "dræft",
+        "example": "In sports, teams participate in a draft to select new players for their roster.",
+        "explain": "Buổi chọn lựa cầu thủ mới",
+        "translatedExample": "Trong thể thao, các đội tham gia buổi chọn lựa (draft) để chọn lựa cầu thủ mới cho đội hình của họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The annual draft allows teams to replenish their rosters with fresh talent and potential stars.",
+          "sentenceWithBlank": "The annual ______ allows teams to replenish their rosters with fresh talent and potential stars.",
+          "wordBlank": "draft",
+          "translation": "Buổi chọn lựa hàng năm cho phép các đội bóng bổ sung đội hình của họ bằng tài năng mới và ngôi sao tiềm năng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Amateur",
+        "type": "Noun",
+        "phonetic": "ˈæmətər",
+        "example": "An amateur athlete participates in sports for the love of the game rather than as a profession.",
+        "explain": "Vận động viên nghiệp dư",
+        "translatedExample": "Một vận động viên nghiệp dư tham gia thể thao vì tình yêu đối với trò chơi thay vì làm nghề nghiệp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Amateur'?",
+          "options": {
+            "A": "Professional",
+            "B": "Expert",
+            "C": "Novice",
+            "D": "Veteran"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Professional' is the opposite of 'Amateur.' B: 'Expert' refers to someone with advanced skills. C: 'Novice' is a synonym for 'Amateur,' indicating someone new to a particular activity. D: 'Veteran' is someone with considerable experience."
+        }
+      }
     }
   ]
 }

@@ -840,6 +840,936 @@
           "translation": "Các thuật toán Học máy phân tích các mẫu trong dữ liệu để đưa ra dự đoán và quyết định."
         }
       }
+    },
+    {
+      "definition": {
+        "word": "Algorithm",
+        "type": "Noun",
+        "phonetic": "ˈæl.ɡə.rɪ.ðəm",
+        "example": "The search engine uses a complex algorithm to provide relevant results.",
+        "explain": "Thuật toán",
+        "translatedExample": "Công cụ tìm kiếm sử dụng một thuật toán phức tạp để cung cấp kết quả liên quan."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Algorithm'?",
+          "options": {
+            "A": "Code",
+            "B": "Procedure",
+            "C": "Heuristic",
+            "D": "Random"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Code' is a set of instructions in a programming language. B: 'Procedure' is a series of steps to accomplish a task. C: 'Heuristic' is a problem-solving approach. D: 'Random' is the antonym as algorithms are systematic and deterministic."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Encryption",
+        "type": "Noun",
+        "phonetic": "ɪnˈkrɪp.ʃən",
+        "example": "To secure sensitive data, the information is stored using encryption.",
+        "explain": "Mã hóa",
+        "translatedExample": "Để bảo vệ dữ liệu nhạy cảm, thông tin được lưu trữ bằng cách sử dụng mã hóa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Encryption is a crucial security measure to protect data from unauthorized access.",
+          "sentenceWithBlank": "__________ is a crucial security measure to protect data from unauthorized access.",
+          "wordBlank": "Encryption",
+          "translation": "Mã hóa là một biện pháp an ninh quan trọng để bảo vệ dữ liệu khỏi việc truy cập trái phép."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cache",
+        "type": "Noun",
+        "phonetic": "kæʃ",
+        "example": "Web browsers use a cache to store temporary data for faster page loading.",
+        "explain": "Bộ nhớ đệm",
+        "translatedExample": "Trình duyệt web sử dụng bộ nhớ đệm để lưu trữ dữ liệu tạm thời để tải trang nhanh hơn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cache'?",
+          "options": {
+            "A": "Store",
+            "B": "Buffer",
+            "C": "Database",
+            "D": "Repository"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Store' is a general term for keeping items. B: 'Buffer' is a synonym as it temporarily holds data. C: 'Database' is a structured collection of data. D: 'Repository' is a place where things are stored."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Firewall",
+        "type": "Noun",
+        "phonetic": "ˈfaɪə.wɔːl",
+        "example": "A firewall prevents unauthorized access to a computer network.",
+        "explain": "Tường lửa",
+        "translatedExample": "Một tường lửa ngăn chặn việc truy cập trái phép vào mạng máy tính."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does a firewall prevent?",
+          "options": {
+            "A": "Data loss",
+            "B": "Unauthorized access",
+            "C": "Virus detection",
+            "D": "Hardware failure"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Data loss' refers to unintentional loss of information. B: 'Unauthorized access' is correct, as firewalls block unauthorized entry. C: 'Virus detection' is related to antivirus software. D: 'Hardware failure' is a different issue."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "API",
+        "type": "Noun",
+        "phonetic": "ˌeɪ.piːˈaɪ",
+        "example": "Developers use an API to enable communication between different software applications.",
+        "explain": "Giao diện lập trình ứng dụng",
+        "translatedExample": "Các nhà phát triển sử dụng API để kích thích giao tiếp giữa các ứng dụng phần mềm khác nhau."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "An ____ allows different software programs to communicate with each other.",
+          "sentenceWithBlank": "An _______ allows different software programs to communicate with each other.",
+          "wordBlank": "API",
+          "translation": "Một API cho phép các chương trình phần mềm khác nhau giao tiếp với nhau."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Backend",
+        "type": "Noun",
+        "phonetic": "ˈbæk.end",
+        "example": "The backend of a website includes the server, database, and application logic.",
+        "explain": "Phía sau",
+        "translatedExample": "Phía sau của một trang web bao gồm máy chủ, cơ sở dữ liệu và logic ứng dụng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Backend'?",
+          "options": {
+            "A": "Frontend",
+            "B": "User interface",
+            "C": "Client-side",
+            "D": "Interface"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Frontend' is the opposite of 'Backend,' representing the user interface. B: 'User interface' is the visual part of a software. C: 'Client-side' refers to actions performed on the user's device. D: 'Interface' is a broader term."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Database",
+        "type": "Noun",
+        "phonetic": "ˈdeɪt.ə.beɪs",
+        "example": "A database is used to store and organize large amounts of data efficiently.",
+        "explain": "Cơ sở dữ liệu",
+        "translatedExample": "Một cơ sở dữ liệu được sử dụng để lưu trữ và tổ chức lượng lớn dữ liệu một cách hiệu quả."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Database'?",
+          "options": {
+            "A": "Data warehouse",
+            "B": "Spreadsheet",
+            "C": "Information repository",
+            "D": "Data dump"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Data warehouse' is a type of database for analysis. B: 'Spreadsheet' is a tool for numerical calculations. C: 'Information repository' is similar to a database. D: 'Data dump' is the antonym, indicating an unorganized and raw collection of data."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Interface",
+        "type": "Noun",
+        "phonetic": "ˈɪn.tə.feɪs",
+        "example": "The interface of a software application determines how users interact with it.",
+        "explain": "Giao diện",
+        "translatedExample": "Giao diện của một ứng dụng phần mềm xác định cách người dùng tương tác với nó."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "An ________ is the point of interaction between a user and a computer program.",
+          "sentenceWithBlank": "An ________ is the point of interaction between a user and a computer program.",
+          "wordBlank": "Interface",
+          "translation": "Giao diện là điểm tương tác giữa người dùng và chương trình máy tính."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Router",
+        "type": "Noun",
+        "phonetic": "ˈruː.t̬ɚ",
+        "example": "A router directs internet traffic between devices in a network.",
+        "explain": "Bộ định tuyến",
+        "translatedExample": "Một bộ định tuyến chuyển hướng lưu lượng internet giữa các thiết bị trong mạng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary function of a router?",
+          "options": {
+            "A": "Data storage",
+            "B": "Internet browsing",
+            "C": "Traffic direction",
+            "D": "Graphic design"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Data storage' is not the primary function of a router. B: 'Internet browsing' is a function of end-user devices. C: 'Traffic direction' is the correct answer, as routers direct data between devices. D: 'Graphic design' is unrelated to router functions."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Protocol",
+        "type": "Noun",
+        "phonetic": "ˈproʊ.t̬ə.kɑːl",
+        "example": "The HTTP protocol is commonly used for communication on the World Wide Web.",
+        "explain": "Giao thức",
+        "translatedExample": "Giao thức HTTP thường được sử dụng cho việc giao tiếp trên World Wide Web."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Protocol'?",
+          "options": {
+            "A": "System",
+            "B": "Procedure",
+            "C": "Method",
+            "D": "Algorithm"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'System' refers to a set of connected parts forming a complex whole. B: 'Procedure' is a series of steps to accomplish a task. C: 'Method' is a synonym for 'Protocol' as both involve a systematic approach. D: 'Algorithm' is a specific set of instructions."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Python",
+        "type": "Noun",
+        "phonetic": "ˈpaɪ.θən",
+        "example": "Python is a versatile programming language known for its readability and simplicity.",
+        "explain": "Ngôn ngữ lập trình Python",
+        "translatedExample": "Python là một ngôn ngữ lập trình linh hoạt được biết đến với tính đọc và đơn giản của nó."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Python'?",
+          "options": {
+            "A": "Cobra",
+            "B": "Boa",
+            "C": "Anaconda",
+            "D": "Viper"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Cobra,' 'Boa,' and 'Viper' are different snake species. B: 'Anaconda' is a specific type of snake and a popular Python library. C: 'Anaconda' is the correct answer as it refers to a snake and a Python distribution. D: 'Viper' is another snake species."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Framework",
+        "type": "Noun",
+        "phonetic": "ˈfreɪm.wɜːrk",
+        "example": "Django is a web development framework that simplifies building robust web applications.",
+        "explain": "Khung phát triển",
+        "translatedExample": "Django là một khung phát triển web giúp đơn giản hóa việc xây dựng ứng dụng web mạnh mẽ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A ________ provides a structured foundation for developing software applications.",
+          "sentenceWithBlank": "A ________ provides a structured foundation for developing software applications.",
+          "wordBlank": "Framework",
+          "translation": "Một khung phát triển cung cấp nền tảng có cấu trúc cho việc phát triển ứng dụng phần mềm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "DevOps",
+        "type": "Noun",
+        "phonetic": "ˈdev.ɒps",
+        "example": "DevOps practices aim to improve collaboration between development and operations teams.",
+        "explain": "Thực hành DevOps",
+        "translatedExample": "Các thực hành DevOps nhằm mục tiêu cải thiện sự hợp tác giữa đội ngũ phát triển và vận hành."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary goal of DevOps practices?",
+          "options": {
+            "A": "Isolation",
+            "B": "Collaboration",
+            "C": "Competition",
+            "D": "Duplication"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Isolation' goes against the collaborative nature of DevOps. B: 'Collaboration' is the correct answer as DevOps aims to improve teamwork. C: 'Competition' is not a primary goal of DevOps. D: 'Duplication' is unrelated to DevOps practices."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "API",
+        "type": "Noun",
+        "phonetic": "ˌeɪ.piːˈaɪ",
+        "example": "APIs enable communication between different software applications.",
+        "explain": "Giao diện lập trình ứng dụng",
+        "translatedExample": "APIs cho phép giao tiếp giữa các ứng dụng phần mềm khác nhau."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Developers use an ________ to facilitate communication between diverse software systems.",
+          "sentenceWithBlank": "Developers use an ________ to facilitate communication between diverse software systems.",
+          "wordBlank": "API",
+          "translation": "Các nhà phát triển sử dụng một API để tạo điều kiện cho việc giao tiếp giữa các hệ thống phần mềm đa dạng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Agile",
+        "type": "Adjective",
+        "phonetic": "ˈædʒ.əl",
+        "example": "Agile development focuses on flexibility and iterative progress in software projects.",
+        "explain": "Linhtinh",
+        "translatedExample": "Phát triển linhtinh tập trung vào tính linh hoạt và tiến triển lặp lại trong các dự án phần mềm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Agile'?",
+          "options": {
+            "A": "Flexible",
+            "B": "Rigid",
+            "C": "Dynamic",
+            "D": "Adaptable"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Flexible,' 'Dynamic,' and 'Adaptable' are synonyms for 'Agile.' B: 'Rigid' is the antonym as it implies inflexibility. C: 'Dynamic' is a synonym for 'Agile' in the context of development. D: 'Adaptable' is synonymous with 'Agile.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "IPv6",
+        "type": "Noun",
+        "phonetic": "aɪ.piː.viː.sɪks",
+        "example": "IPv6 is the latest version of the Internet Protocol, providing a larger address space.",
+        "explain": "Giao thức Internet phiên bản 6",
+        "translatedExample": "IPv6 là phiên bản mới nhất của Giao thức Internet, cung cấp không gian địa chỉ lớn hơn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'IPv6'?",
+          "options": {
+            "A": "Internet Explorer",
+            "B": "IPv4",
+            "C": "Web Browser",
+            "D": "Wi-Fi"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Internet Explorer' is a web browser, not a version of the Internet Protocol. B: 'IPv4' is the correct answer, as it is a previous version of the Internet Protocol. C: 'Web Browser' is not a synonym for 'IPv6.' D: 'Wi-Fi' is unrelated to Internet Protocol versions."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Scrum",
+        "type": "Noun",
+        "phonetic": "skrʌm",
+        "example": "Scrum is an agile framework used for managing complex knowledge work.",
+        "explain": "Scrum là một khung linh hoạt được sử dụng để quản lý công việc kiến thức phức tạp.",
+        "translatedExample": "Scrum là một khung linh hoạt được sử dụng để quản lý công việc kiến thức phức tạp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "__________ is a project management framework that emphasizes collaboration and adaptability.",
+          "sentenceWithBlank": "__________ is a project management framework that emphasizes collaboration and adaptability.",
+          "wordBlank": "Scrum",
+          "translation": "Scrum là một khung quản lý dự án nhấn mạnh vào sự hợp tác và tính linh hoạt."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nanotechnology",
+        "type": "Noun",
+        "phonetic": "ˌnæn.oʊ.tekˈnɒl.ə.dʒi",
+        "example": "Nanotechnology involves manipulating materials at the molecular or atomic level.",
+        "explain": "Công nghệ nano",
+        "translatedExample": "Công nghệ nano liên quan đến việc điều khiển vật liệu ở mức phân tử hoặc nguyên tử."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Nanotechnology'?",
+          "options": {
+            "A": "Macrotechnology",
+            "B": "Microtechnology",
+            "C": "Biotechnology",
+            "D": "Robotics"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Macrotechnology' is the antonym, as it deals with larger-scale technology. B: 'Microtechnology' is related to small-scale technology. C: 'Biotechnology' is a different field. D: 'Robotics' is unrelated to the scale of technology."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Responsive",
+        "type": "Adjective",
+        "phonetic": "rɪˈspɒn.sɪv",
+        "example": "Responsive web design ensures optimal viewing across various devices and screen sizes.",
+        "explain": "Phản ứng",
+        "translatedExample": "Thiết kế web phản ứng đảm bảo xem tốt nhất trên nhiều thiết bị và kích thước màn hình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Responsive'?",
+          "options": {
+            "A": "Unresponsive",
+            "B": "Adaptable",
+            "C": "Static",
+            "D": "Stagnant"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Unresponsive' is the opposite of 'Responsive.' B: 'Adaptable' is the correct answer, as it implies flexibility. C: 'Static' is the opposite of 'Responsive.' D: 'Stagnant' means not moving, and it is unrelated to responsiveness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cyberattack",
+        "type": "Noun",
+        "phonetic": "ˈsaɪ.bər.ə.tæk",
+        "example": "A cyberattack can compromise the security of computer systems and networks.",
+        "explain": "Tấn công mạng",
+        "translatedExample": "Một cuộc tấn công mạng có thể đe dọa an ninh của hệ thống máy tính và mạng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A ________ is a malicious attempt to breach the security of computer systems or networks.",
+          "sentenceWithBlank": "A ________ is a malicious attempt to breach the security of computer systems or networks.",
+          "wordBlank": "Cyberattack",
+          "translation": "Một cuộc tấn công mạng là một nỗ lực độc hại để xâm phạm an ninh của hệ thống máy tính hoặc mạng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "SaaS",
+        "type": "Noun",
+        "phonetic": "sæs",
+        "example": "Software as a Service (SaaS) allows users to access and use software applications over the internet.",
+        "explain": "Phần mềm dưới dạng Dịch vụ",
+        "translatedExample": "Phần mềm dưới dạng Dịch vụ (SaaS) cho phép người dùng truy cập và sử dụng ứng dụng phần mềm qua internet."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'SaaS'?",
+          "options": {
+            "A": "PaaS",
+            "B": "IaaS",
+            "C": "On-Premises",
+            "D": "Cloud"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'PaaS' and 'IaaS' are different cloud service models. B: 'On-Premises' is the antonym, as it refers to traditional software installed locally. C: 'On-Premises' indicates software installed locally and not delivered over the internet. D: 'Cloud' is a general term and not the antonym of 'SaaS.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bit",
+        "type": "Noun",
+        "phonetic": "bɪt",
+        "example": "A bit is the smallest unit of data in computing, representing a binary value of 0 or 1.",
+        "explain": "Bit",
+        "translatedExample": "Một bit là đơn vị nhỏ nhất của dữ liệu trong máy tính, biểu thị giá trị nhị phân 0 hoặc 1."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In computing, a ________ is the basic unit of binary information, with values of 0 or 1.",
+          "sentenceWithBlank": "In computing, a ________ is the basic unit of binary information, with values of 0 or 1.",
+          "wordBlank": "Bit",
+          "translation": "Trong lĩnh vực máy tính, một bit là đơn vị cơ bản của thông tin nhị phân, có giá trị là 0 hoặc 1."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Firewall",
+        "type": "Noun",
+        "phonetic": "ˈfaɪər.wɑːl",
+        "example": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic.",
+        "explain": "Tường lửa",
+        "translatedExample": "Một tường lửa là một thiết bị an ninh mạng giám sát và kiểm soát lưu lượng mạng đến và đi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Firewall'?",
+          "options": {
+            "A": "Antivirus",
+            "B": "Router",
+            "C": "VPN",
+            "D": "Security Guard"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Antivirus' is a different type of security software. B: 'Router' directs network traffic but is not a synonym for 'Firewall.' C: 'VPN' is a secure network connection method. D: 'Security Guard' is the closest synonym, as both involve protecting against unauthorized access."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Malware",
+        "type": "Noun",
+        "phonetic": "ˈmæl.weər",
+        "example": "Malware is malicious software designed to harm or exploit computer systems.",
+        "explain": "Phần mềm độc hại",
+        "translatedExample": "Phần mềm độc hại là phần mềm độc hại được thiết kế để gây hại hoặc lợi dụng hệ thống máy tính."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Malware'?",
+          "options": {
+            "A": "Antivirus",
+            "B": "Spyware",
+            "C": "Adware",
+            "D": "Security Software"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Antivirus' is a type of security software and not the antonym of 'Malware.' B: 'Spyware' and 'Adware' are types of malware. C: 'Security Software' is the correct answer, as it represents the broader category that includes antivirus and other protective tools."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Responsive",
+        "type": "Adjective",
+        "phonetic": "rɪˈspɒn.sɪv",
+        "example": "Responsive web design ensures optimal viewing across various devices and screen sizes.",
+        "explain": "Phản ứng",
+        "translatedExample": "Thiết kế web phản ứng đảm bảo xem tốt nhất trên nhiều thiết bị và kích thước màn hình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Responsive'?",
+          "options": {
+            "A": "Unresponsive",
+            "B": "Adaptable",
+            "C": "Static",
+            "D": "Stagnant"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Unresponsive' is the opposite of 'Responsive.' B: 'Adaptable' is the correct answer, as it implies flexibility. C: 'Static' is the opposite of 'Responsive.' D: 'Stagnant' means not moving, and it is unrelated to responsiveness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Big Data",
+        "type": "Noun",
+        "phonetic": "bɪɡ ˈdeɪ.tə",
+        "example": "Big Data refers to large and complex sets of data that traditional data processing applications may struggle to handle.",
+        "explain": "Dữ liệu lớn",
+        "translatedExample": "Dữ liệu lớn đề cập đến các bộ dữ liệu lớn và phức tạp mà các ứng dụng xử lý dữ liệu truyền thống có thể gặp khó khăn khi xử lý."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "__________ involves the analysis and processing of large and complex datasets.",
+          "sentenceWithBlank": "__________ involves the analysis and processing of large and complex datasets.",
+          "wordBlank": "Big Data",
+          "translation": "Dữ liệu lớn liên quan đến việc phân tích và xử lý các bộ dữ liệu lớn và phức tạp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "JavaScript",
+        "type": "Noun",
+        "phonetic": "ˈdʒævəˌskrɪpt",
+        "example": "JavaScript is a programming language commonly used for building interactive and dynamic web pages.",
+        "explain": "Ngôn ngữ lập trình JavaScript",
+        "translatedExample": "JavaScript là một ngôn ngữ lập trình thường được sử dụng để xây dựng trang web tương tác và động."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary use of JavaScript?",
+          "options": {
+            "A": "Database Management",
+            "B": "Web Development",
+            "C": "Network Security",
+            "D": "Hardware Programming"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: JavaScript is not primarily used for database management. B: 'Web Development' is the correct answer, as JavaScript is widely used for building interactive web pages. C: JavaScript is not primarily focused on network security. D: JavaScript is not primarily used for hardware programming."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "VPN",
+        "type": "Noun",
+        "phonetic": "ˌviː.piːˈen",
+        "example": "A Virtual Private Network (VPN) enhances security by creating a private connection over the internet.",
+        "explain": "Mạng riêng ảo",
+        "translatedExample": "Một Mạng riêng ảo (VPN) tăng cường bảo mật bằng cách tạo ra một kết nối riêng qua internet."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A ________ provides a secure and private connection over the internet.",
+          "sentenceWithBlank": "A ________ provides a secure and private connection over the internet.",
+          "wordBlank": "VPN",
+          "translation": "Một VPN cung cấp một kết nối an toàn và riêng tư qua internet."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Algorithm",
+        "type": "Noun",
+        "phonetic": "ˈæl.ɡə.rɪ.ðəm",
+        "example": "An algorithm is a step-by-step procedure or formula for solving a problem or accomplishing a task.",
+        "explain": "Thuật toán",
+        "translatedExample": "Một thuật toán là một quy trình hoặc công thức từng bước để giải quyết một vấn đề hoặc hoàn thành một nhiệm vụ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Algorithm'?",
+          "options": {
+            "A": "Procedure",
+            "B": "Formula",
+            "C": "Code",
+            "D": "Script"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Procedure' is the correct answer, as it is synonymous with 'Algorithm.' B: 'Formula' is a related term but not an exact synonym. C: 'Code' and 'Script' are components of programming but not synonyms for 'Algorithm.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Backend",
+        "type": "Noun",
+        "phonetic": "ˈbæk.ɛnd",
+        "example": "The backend of a website consists of server-side operations and database management.",
+        "explain": "Phía sau (Backend)",
+        "translatedExample": "Phía sau của một trang web bao gồm các hoạt động phía máy chủ và quản lý cơ sở dữ liệu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Backend'?",
+          "options": {
+            "A": "Frontend",
+            "B": "Middleware",
+            "C": "Fullstack",
+            "D": "Database"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Frontend' is the correct answer, as it refers to the user interface and client-side of a website. B: 'Middleware' is a different layer of software. C: 'Fullstack' refers to developers who work on both frontend and backend. D: 'Database' is a component handled by the backend."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "API",
+        "type": "Noun",
+        "phonetic": "ˈeɪ.pi.aɪ",
+        "example": "An Application Programming Interface (API) allows different software applications to communicate with each other.",
+        "explain": "Giao diện lập trình ứng dụng",
+        "translatedExample": "Giao diện lập trình ứng dụng (API) cho phép các ứng dụng phần mềm khác nhau giao tiếp với nhau."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'API'?",
+          "options": {
+            "A": "Software",
+            "B": "Program",
+            "C": "Code",
+            "D": "Interface"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Software' and 'Program' are broader terms. B: 'Code' is a component but not a synonym for 'API.' C: 'Interface' is the correct answer, as it represents the means by which software applications communicate."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Interface",
+        "type": "Noun",
+        "phonetic": "ˈɪn.tər.feɪs",
+        "example": "The user interface (UI) is the point of interaction between the user and a computer application.",
+        "explain": "Giao diện",
+        "translatedExample": "Giao diện người dùng (UI) là điểm tương tác giữa người dùng và một ứng dụng máy tính."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The ________ of a software application is where users interact with the system.",
+          "sentenceWithBlank": "The ________ of a software application is where users interact with the system.",
+          "wordBlank": "Interface",
+          "translation": "Giao diện của một ứng dụng phần mềm là nơi người dùng tương tác với hệ thống."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cache",
+        "type": "Noun",
+        "phonetic": "kæʃ",
+        "example": "Caching involves storing data in a temporary storage area to speed up future retrieval.",
+        "explain": "Bộ nhớ cache",
+        "translatedExample": "Bộ nhớ cache liên quan đến việc lưu trữ dữ liệu trong một khu vực lưu trữ tạm thời để tăng tốc quá trình truy xuất sau này."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cache'?",
+          "options": {
+            "A": "Buffer",
+            "B": "Memory",
+            "C": "Storage",
+            "D": "Retrieve"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Buffer' is a related concept but not the antonym of 'Cache.' B: 'Memory' is a broader term. C: 'Storage' is the correct answer, as it refers to permanent data retention. D: 'Retrieve' is an action related to accessing stored data."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Frontend",
+        "type": "Noun",
+        "phonetic": "frʌnt.ɛnd",
+        "example": "The frontend of a website is the part visible to users, including the user interface and design.",
+        "explain": "Phía trước (Frontend)",
+        "translatedExample": "Phía trước của một trang web là phần hiển thị cho người dùng, bao gồm giao diện người dùng và thiết kế."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Frontend'?",
+          "options": {
+            "A": "Backend",
+            "B": "Middleware",
+            "C": "User Interface",
+            "D": "Database"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Backend' is the opposite and not a synonym for 'Frontend.' B: 'Middleware' is a different layer of software. C: 'User Interface' is the correct answer, as it represents the visible part of a system that users interact with. D: 'Database' is a component handled by the backend."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Byte",
+        "type": "Noun",
+        "phonetic": "baɪt",
+        "example": "A byte is a unit of digital information storage, typically consisting of 8 bits.",
+        "explain": "Byte",
+        "translatedExample": "Một byte là đơn vị lưu trữ thông tin kỹ thuật số, thường bao gồm 8 bit."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A ________ is a basic unit of digital information storage, equal to 8 bits.",
+          "sentenceWithBlank": "A ________ is a basic unit of digital information storage, equal to 8 bits.",
+          "wordBlank": "Byte",
+          "translation": "Một byte là đơn vị cơ bản của lưu trữ thông tin kỹ thuật số, bằng 8 bit."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Middleware",
+        "type": "Noun",
+        "phonetic": "ˈmɪd.əl.wɛr",
+        "example": "Middleware serves as a bridge between different software applications, allowing them to communicate and share data.",
+        "explain": "Phần mềm trung gian",
+        "translatedExample": "Phần mềm trung gian làm nhiệm vụ như một cầu nối giữa các ứng dụng phần mềm khác nhau, cho phép chúng giao tiếp và chia sẻ dữ liệu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the primary role of 'Middleware'?",
+          "options": {
+            "A": "Database Management",
+            "B": "User Interface Design",
+            "C": "Communication Bridge",
+            "D": "Data Encryption"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Database Management' is not the primary role of 'Middleware.' B: 'User Interface Design' is a different aspect of software development. C: 'Communication Bridge' is the correct answer, as middleware facilitates communication between different software applications. D: 'Data Encryption' is not the primary role of 'Middleware.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Protocol",
+        "type": "Noun",
+        "phonetic": "ˈproʊ.t̬ə.kɑːl",
+        "example": "A protocol is a set of rules defining how data is transmitted over a network.",
+        "explain": "Giao thức",
+        "translatedExample": "Một giao thức là một bộ quy tắc xác định cách dữ liệu được truyền qua mạng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A ________ is a set of rules that govern how data is transmitted across a network.",
+          "sentenceWithBlank": "A ________ is a set of rules that govern how data is transmitted across a network.",
+          "wordBlank": "Protocol",
+          "translation": "Một giao thức là một bộ quy tắc xác định cách dữ liệu được truyền qua mạng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Internet",
+        "type": "Noun",
+        "phonetic": "ˈɪn.t̬ɚ.net",
+        "example": "The internet is a global network connecting millions of private, public, academic, business, and government networks.",
+        "explain": "Internet",
+        "translatedExample": "Internet là một mạng toàn cầu kết nối hàng triệu mạng riêng, công cộng, học thuật, doanh nghiệp và chính phủ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Internet'?",
+          "options": {
+            "A": "Intranet",
+            "B": "Extranet",
+            "C": "Network",
+            "D": "World Wide Web"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Intranet' is the correct answer, as it refers to a private network within an organization. B: 'Extranet' is a network extension for specific users. C: 'Network' is a general term. D: 'World Wide Web' is a specific part of the internet."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Algorithm",
+        "type": "Noun",
+        "phonetic": "ˈæl.ɡə.rɪ.ðəm",
+        "example": "An algorithm is a step-by-step procedure or formula for solving a problem or accomplishing a task.",
+        "explain": "Thuật toán",
+        "translatedExample": "Một thuật toán là một quy trình hoặc công thức từng bước để giải quyết một vấn đề hoặc hoàn thành một nhiệm vụ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Algorithm'?",
+          "options": {
+            "A": "Procedure",
+            "B": "Formula",
+            "C": "Code",
+            "D": "Script"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Procedure' is the correct answer, as it is synonymous with 'Algorithm.' B: 'Formula' is a related term but not an exact synonym. C: 'Code' and 'Script' are components of programming but not synonyms for 'Algorithm.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Database",
+        "type": "Noun",
+        "phonetic": "ˈdeɪ.t̬ə.beɪs",
+        "example": "A database is an organized collection of data, typically stored and accessed electronically.",
+        "explain": "Cơ sở dữ liệu",
+        "translatedExample": "Một cơ sở dữ liệu là một bộ sưu tập dữ liệu được tổ chức, thường được lưu trữ và truy cập điện tử."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A ________ is a structured set of data, often stored and accessed electronically.",
+          "sentenceWithBlank": "A ________ is a structured set of data, often stored and accessed electronically.",
+          "wordBlank": "Database",
+          "translation": "Một cơ sở dữ liệu là một bộ sưu tập dữ liệu được tổ chức, thường được lưu trữ và truy cập điện tử."
+        }
+      }
     }
   ]
 }

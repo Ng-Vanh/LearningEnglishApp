@@ -1,0 +1,275 @@
+{
+  "topic": "Idiom",
+  "words": [
+    {
+      "definition": {
+        "word": "Break the ice",
+        "type": "Phrase",
+        "phonetic": "breɪk ðə aɪs",
+        "example": "I told a joke to break the ice at the meeting.",
+        "explain": "Làm tan băng, tạo không khí thoải mái",
+        "translatedExample": "Tôi kể một câu chuyện cười để làm tan băng trong cuộc họp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "At the start of the negotiation, he made a small joke to _____.",
+          "options": {
+            "A": "cut corners",
+            "B": "break the ice",
+            "C": "hit the sack",
+            "D": "miss the boat"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Cut corners' means to do something in the easiest, quickest, or cheapest way, often sacrificing quality. B: 'Break the ice' means to do something to create a more relaxed and comfortable atmosphere. C: 'Hit the sack' means to go to bed or to sleep. D: 'Miss the boat' means to miss an opportunity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the sack",
+        "type": "Phrase",
+        "phonetic": "hɪt ðə sæk",
+        "example": "I'm really tired, I'm going to hit the sack.",
+        "explain": "Đi ngủ",
+        "translatedExample": "Tôi thực sự mệt, tôi sắp đi ngủ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After a long day of work, it's nice to hit the sack early.",
+          "sentenceWithBlank": "After a long day of work, it's nice to hit the _____ early.",
+          "wordBlank": "sack",
+          "translation": "Sau một ngày làm việc dài, thật tốt khi đi ngủ sớm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spill the beans",
+        "type": "Phrase",
+        "phonetic": "spɪl ðə biːnz",
+        "example": "He finally spilled the beans about their secret project.",
+        "explain": "Tiết lộ bí mật",
+        "translatedExample": "Cuối cùng anh ấy đã tiết lộ bí mật về dự án bí mật của họ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "During the meeting, someone accidentally _____ about the upcoming merger.",
+          "options": {
+            "A": "hit the roof",
+            "B": "spill the beans",
+            "C": "kick the bucket",
+            "D": "bite the bullet"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hit the roof' means to become very angry. B: 'Spill the beans' means to reveal a secret. C: 'Kick the bucket' is a euphemism for dying. D: 'Bite the bullet' means to endure a painful experience."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Phrase",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "I hate going to the dentist, but I'll just have to bite the bullet.",
+        "explain": "Chịu đựng, cam chịu",
+        "translatedExample": "Tôi ghét đi nha sĩ, nhưng tôi chỉ có thể cam chịu thôi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Sometimes, you just have to bite the bullet and face your fears.",
+          "sentenceWithBlank": "Sometimes, you just have to _____ the bullet and face your fears.",
+          "wordBlank": "bite",
+          "translation": "Đôi khi, bạn chỉ cần phải cam chịu và đối mặt với nỗi sợ của mình."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Kick the bucket",
+        "type": "Phrase",
+        "phonetic": "kɪk ðə ˈbʌkɪt",
+        "example": "My old car finally kicked the bucket on the way to work.",
+        "explain": "Chết, hỏng (về máy móc)",
+        "translatedExample": "Chiếc xe cũ của tôi cuối cùng đã hỏng trên đường đi làm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "When the old computer finally _____, we got a new one.",
+          "options": {
+            "A": "kicked the bucket",
+            "B": "hit the ceiling",
+            "C": "broke the ice",
+            "D": "turned the corner"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Kicked the bucket' means to die or stop working (for machines). B: 'Hit the ceiling' means to become extremely angry. C: 'Broke the ice' means to initiate a social interaction. D: 'Turned the corner' means to pass a critical point in a process."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Under the weather",
+        "type": "Phrase",
+        "phonetic": "ˈʌndər ðə ˈwɛðər",
+        "example": "I'm feeling a bit under the weather today, so I'll stay home.",
+        "explain": "Cảm thấy không khỏe",
+        "translatedExample": "Hôm nay tôi cảm thấy không khỏe, nên tôi sẽ ở nhà."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "She's under the weather and won't be coming to work today.",
+          "sentenceWithBlank": "She's _____ the weather and won't be coming to work today.",
+          "wordBlank": "under",
+          "translation": "Cô ấy cảm thấy không khỏe và sẽ không đến làm việc hôm nay."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut corners",
+        "type": "Phrase",
+        "phonetic": "kʌt ˈkɔːrnərz",
+        "example": "They cut corners to finish the project on time, but the quality suffered.",
+        "explain": "Làm việc qua loa, cẩu thả",
+        "translatedExample": "Họ làm việc qua loa để hoàn thành dự án đúng hạn, nhưng chất lượng đã giảm sút."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "To meet the deadline, the team decided to _____.",
+          "options": {
+            "A": "break the ice",
+            "B": "hit the sack",
+            "C": "cut corners",
+            "D": "spill the beans"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Break the ice' means to initiate a conversation or interaction. B: 'Hit the sack' means to go to bed. C: 'Cut corners' means to do something in the easiest, quickest, or cheapest way, often sacrificing quality. D: 'Spill the beans' means to reveal a secret."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the roof",
+        "type": "Phrase",
+        "phonetic": "hɪt ðə ruːf",
+        "example": "My dad hit the roof when he saw the dent in his car.",
+        "explain": "Nổi giận, tức giận",
+        "translatedExample": "Bố tôi nổi giận khi thấy vết lõm trên xe của ông ấy."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "When she saw the mess, she hit the roof.",
+          "sentenceWithBlank": "When she saw the mess, she hit the _____.",
+          "wordBlank": "roof",
+          "translation": "Khi cô ấy thấy bừa bộn, cô ấy đã nổi giận."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Piece of cake",
+        "type": "Phrase",
+        "phonetic": "piːs əv keɪk",
+        "example": "The test was a piece of cake; I finished it in ten minutes.",
+        "explain": "Dễ như ăn bánh",
+        "translatedExample": "Bài kiểm tra thật dễ như ăn bánh; tôi hoàn thành nó trong mười phút."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "I thought the job would be hard, but it was a _____.",
+          "options": {
+            "A": "hot potato",
+            "B": "piece of cake",
+            "C": "cold turkey",
+            "D": "bitter pill"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hot potato' refers to a controversial issue or situation that is difficult to handle. B: 'Piece of cake' means something very easy to do. C: 'Cold turkey' refers to the abrupt cessation of a habit. D: 'Bitter pill' refers to an unpleasant or painful necessity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cold turkey",
+        "type": "Phrase",
+        "phonetic": "koʊld ˈtɜːrki",
+        "example": "He quit smoking cold turkey.",
+        "explain": "Cai nghiện đột ngột",
+        "translatedExample": "Anh ấy đã cai thuốc lá một cách đột ngột."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After years of drinking coffee, she quit cold turkey.",
+          "sentenceWithBlank": "After years of drinking coffee, she quit cold _____.",
+          "wordBlank": "turkey",
+          "translation": "Sau nhiều năm uống cà phê, cô ấy đã cai nghiện đột ngột."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bitter pill",
+        "type": "Phrase",
+        "phonetic": "ˈbɪtər pɪl",
+        "example": "Losing the championship was a bitter pill to swallow.",
+        "explain": "Điều khó chấp nhận",
+        "translatedExample": "Việc thua cuộc trong trận chung kết là điều khó chấp nhận."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The team's defeat was a _____ to swallow.",
+          "options": {
+            "A": "hard nut",
+            "B": "bitter pill",
+            "C": "sweet cake",
+            "D": "tough cookie"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hard nut' refers to a difficult problem or situation. B: 'Bitter pill' means an unpleasant or painful necessity. C: 'Sweet cake' does not have a specific idiomatic meaning. D: 'Tough cookie' refers to someone who is strong and resilient."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hot potato",
+        "type": "Phrase",
+        "phonetic": "hɒt pəˈteɪtoʊ",
+        "example": "The political scandal became a hot potato for the government.",
+        "explain": "Vấn đề nóng hổi, nhạy cảm",
+        "translatedExample": "Vụ bê bối chính trị trở thành vấn đề nóng hổi đối với chính phủ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The issue of climate change is a hot potato in politics.",
+          "sentenceWithBlank": "The issue of climate change is a hot _____.",
+          "wordBlank": "potato",
+          "translation": "Vấn đề biến đổi khí hậu là một vấn đề nóng hổi trong chính trị."
+        }
+      }
+    }
+  ]
+}

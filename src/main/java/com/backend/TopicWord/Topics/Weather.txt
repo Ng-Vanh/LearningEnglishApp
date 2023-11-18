@@ -1,0 +1,235 @@
+{
+  "topic": "Weather",
+  "words": [
+    {
+      "definition": {
+        "word": "Cloud",
+        "type": "Noun",
+        "phonetic": "klaʊd",
+        "example": "The sky was covered with dark clouds before the storm.",
+        "explain": "Đám mây",
+        "translatedExample": "Bầu trời được che phủ bởi những đám mây đen trước cơn bão."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cloud'?",
+          "options": {
+            "A": "Rain",
+            "B": "Fog",
+            "C": "Sky",
+            "D": "Atmosphere"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Rain' refers to water falling from the clouds. B: 'Fog' is a thick cloud close to the ground. C: 'Sky' is the expanse above the earth. D: 'Atmosphere' is the layer of gases surrounding the planet."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sunshine",
+        "type": "Noun",
+        "phonetic": "ˈsʌn.ʃaɪn",
+        "example": "After the rain, the sunshine brightened up the day.",
+        "explain": "Ánh nắng mặt trời",
+        "translatedExample": "Sau cơn mưa, ánh nắng mặt trời làm sáng bừng ngày."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The warmth of the sunshine felt soothing on a chilly winter morning.",
+          "sentenceWithBlank": "The warmth of the ________ felt soothing on a chilly winter morning.",
+          "wordBlank": "sunshine",
+          "translation": "Sự ấm áp của ánh nắng mặt trời cảm giác dễ chịu vào một buổi sáng mùa đông lạnh lẽo."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Breeze",
+        "type": "Noun",
+        "phonetic": "briːz",
+        "example": "A gentle breeze rustled the leaves in the quiet afternoon.",
+        "explain": "Gió nhẹ",
+        "translatedExample": "Một làn gió nhẹ làm rì rào lá cây trong buổi chiều yên tĩnh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Breeze'?",
+          "options": {
+            "A": "Storm",
+            "B": "Calm",
+            "C": "Wind",
+            "D": "Hurricane"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Storm' is a violent disturbance of the atmosphere. B: 'Calm' is the absence of strong winds. C: 'Wind' is a general term for the movement of air. D: 'Hurricane' is a severe tropical storm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Frost",
+        "type": "Noun",
+        "phonetic": "frɒst",
+        "example": "The cold night left a layer of frost on the grass.",
+        "explain": "Sương gió",
+        "translatedExample": "Đêm lạnh để lại một lớp sương gió trên bề mặt cỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the term for the frozen dew on surfaces during cold nights?",
+          "options": {
+            "A": "Rain",
+            "B": "Snow",
+            "C": "Frost",
+            "D": "Hail"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Rain' is liquid water falling from the sky. B: 'Snow' is frozen precipitation in the form of flakes. C: 'Frost' is frozen dew on surfaces. D: 'Hail' is pellets of ice falling during thunderstorms."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Humid",
+        "type": "Adjective",
+        "phonetic": "ˈhjuː.mɪd",
+        "example": "The tropical climate is often hot and humid.",
+        "explain": "Ẩm ướt",
+        "translatedExample": "Khí hậu nhiệt đới thường nóng và ẩm ướt."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In humid regions, mold and mildew are common due to the high moisture levels.",
+          "sentenceWithBlank": "In ________ regions, mold and mildew are common due to the high moisture levels.",
+          "wordBlank": "humid",
+          "translation": "Ở những khu vực ẩm ướt, nấm và mốc thường gặp do mức độ ẩm cao."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Thunder",
+        "type": "Noun",
+        "phonetic": "ˈθʌn.dər",
+        "example": "The loud thunder startled the children during the storm.",
+        "explain": "Âm thanh của sấm",
+        "translatedExample": "Âm thanh của sấm lớn làm kinh ngạc trẻ con trong cơn bão."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Thunder'?",
+          "options": {
+            "A": "Lightning",
+            "B": "Rain",
+            "C": "Storm",
+            "D": "Wind"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Lightning' is the flash of light during a storm. B: 'Rain' is liquid water falling from the sky. C: 'Storm' includes thunder, lightning, and rain. D: 'Wind' is the movement of air."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mist",
+        "type": "Noun",
+        "phonetic": "mɪst",
+        "example": "The morning mist enveloped the landscape in a soft haze.",
+        "explain": "Sương mù",
+        "translatedExample": "Sương mù buổi sáng bao trùm cảnh đẹp trong một lớp mờ nhẹ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The mist gradually lifted, revealing a stunning view of the valley below.",
+          "sentenceWithBlank": "The ________ gradually lifted, revealing a stunning view of the valley below.",
+          "wordBlank": "mist",
+          "translation": "Sương mù dần dần tan, bộc lộ một khung cảnh tuyệt vời của thung lũng phía dưới."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chill",
+        "type": "Noun",
+        "phonetic": "ʧɪl",
+        "example": "A cold chill ran down her spine as she stepped into the icy wind.",
+        "explain": "Lạnh buốt",
+        "translatedExample": "Một cảm giác lạnh buốt trải dài từ cột sống khi cô bước vào gió lạnh buốt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Chill'?",
+          "options": {
+            "A": "Warmth",
+            "B": "Freeze",
+            "C": "Cold",
+            "D": "Shiver"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Warmth' is the opposite of cold. B: 'Freeze' is the process of turning into ice. C: 'Cold' is the state of low temperature. D: 'Shiver' is the involuntary trembling of the body in response to cold."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Forecast",
+        "type": "Noun",
+        "phonetic": "ˈfɔː.kɑːst",
+        "example": "The weather forecast predicted heavy rain and strong winds.",
+        "explain": "Dự báo thời tiết",
+        "translatedExample": "Dự báo thời tiết tiên đoán mưa to và gió mạnh."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Before planning the outdoor event, check the weather forecast for possible rain.",
+          "sentenceWithBlank": "Before planning the outdoor event, check the ________ for possible rain.",
+          "wordBlank": "forecast",
+          "translation": "Trước khi lên kế hoạch cho sự kiện ngoại ô, hãy kiểm tra dự báo thời tiết để xem có khả năng mưa không."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hail",
+        "type": "Noun",
+        "phonetic": "heɪl",
+        "example": "The hailstorm damaged crops and cars in the area.",
+        "explain": "Mưa đá",
+        "translatedExample": "Trận mưa đá gây hại cho đồng màu và xe ô tô trong khu vực."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hail'?",
+          "options": {
+            "A": "Rain",
+            "B": "Snow",
+            "C": "Sleet",
+            "D": "Thunder"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Rain' is liquid water falling from the sky. B: 'Snow' is frozen precipitation in the form of flakes. C: 'Sleet' is a mixture of rain and snow. D: 'Thunder' is the sound produced by lightning during a storm."
+        }
+      }
+    }
+  ]
+}

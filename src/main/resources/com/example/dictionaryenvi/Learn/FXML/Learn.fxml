@@ -91,5 +91,29 @@
             <Image url="@../Image/Menu.png" />
          </image>
       </ImageView>
+      <Pane fx:id="cloneFrontCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
+         <children>
+            <Label fx:id="cloneWord" alignment="CENTER" layoutY="33.0" prefHeight="57.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="cloneExample" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="119.0" prefHeight="121.0" prefWidth="214.0" text="Example" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="clonePronounce" fitHeight="28.0" fitWidth="28.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/speaker.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cloneStar" fitHeight="30.0" fitWidth="30.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/grayStar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

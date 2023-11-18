@@ -4,6 +4,7 @@ import com.backend.OnlineDictionary.Utils.Audio;
 import com.backend.User.UserLearnWord;
 import javafx.animation.ParallelTransition;
 import javafx.animation.RotateTransition;
+import javafx.animation.Transition;
 import javafx.animation.TranslateTransition;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -46,11 +47,17 @@ public class Learn {
     @FXML
     private Label word1;
     @FXML
+    private Label cloneWord;
+    @FXML
     private Label example;
+    @FXML
+    private Label cloneExample;
     @FXML
     private Label pronounce;
     @FXML
     private Label explain;
+    @FXML
+    private Pane cloneFrontCard;
     @FXML
     private Pane frontFlashCard;
     @FXML
@@ -60,9 +67,13 @@ public class Learn {
     @FXML
     private ImageView pronounceImg2;
     @FXML
+    private ImageView clonePronounce;
+    @FXML
     private ImageView starImg1;
     @FXML
     private ImageView starImg2;
+    @FXML
+    private ImageView cloneStar;
     @FXML
     private ListView listViewWord;
     @FXML
@@ -238,6 +249,7 @@ public class Learn {
     public void showCard() {
         frontFlashCard.setEffect(new DropShadow(20 , BLACK));
         backFlashCard.setEffect(new DropShadow(20 , BLACK));
+        cloneFrontCard.setEffect(new DropShadow(20 , BLACK));
         listViewWordContainer.setEffect(new DropShadow(20 , BLACK));
 
         Card card = cardList.get(id);
@@ -262,8 +274,20 @@ public class Learn {
         mediaPlayer.play();
     }
 
+    public void transitionCloneCard() {
+        cloneFrontCard.setVisible(true);
+        Card card = cardList.get(id);
+        cloneWord.setText(card.getWord());
+        cloneExample.setText(card.getExample());
+        TranslateTransition transition = new TranslateTransition(Duration.seconds(0.5));
+        transition.setNode(cloneFrontCard);
+        transition.setFromX(0);
+        transition.setToX(-1000);
+        transition.play();
+    }
     public void nextCard() {
         if(this.id < 29) {
+            transitionCloneCard();
             this.id += 1;
             showCard();
         }

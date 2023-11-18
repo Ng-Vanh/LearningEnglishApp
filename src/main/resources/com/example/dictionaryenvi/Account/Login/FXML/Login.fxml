@@ -8,16 +8,21 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="mainPane" prefHeight="576.0" prefWidth="960.0" stylesheets="@../CSS/Login.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Account.Login">
    <children>
-      <ImageView fitHeight="576.0" fitWidth="960.0" layoutX="6.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Image/login_background.png" />
-         </image>
-      </ImageView>
+      <HBox layoutX="3.0" layoutY="1.0" prefHeight="578.0" prefWidth="960.0">
+         <children>
+            <ImageView fitHeight="576.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/login_background.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
       <TextField fx:id="username" layoutX="224.0" layoutY="189.0" prefHeight="33.0" prefWidth="190.0" promptText="Username" style="-fx-background-radius: 5;" />
       <Button fx:id="loginBtn" layoutX="224.0" layoutY="323.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" styleClass="login-button" text="LOGIN" textFill="WHITE" />
       <Hyperlink fx:id="forgotPasswordHpl" layoutX="268.0" layoutY="380.0" onMouseClicked="#goToResetPassword" text="Forgot password?" underline="true" />
@@ -39,5 +44,10 @@
             <Font size="10.0" />
          </font>
       </Label>
+      <ImageView fx:id="loadingGif" fitHeight="33.0" fitWidth="35.0" layoutX="303.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Image/loading.gif" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

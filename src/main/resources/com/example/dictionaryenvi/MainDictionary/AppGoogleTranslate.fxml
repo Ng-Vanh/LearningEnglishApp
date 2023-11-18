@@ -38,7 +38,7 @@
                                 <Font size="24.0" />
                             </font>
                         </TextArea>
-                        <WebView fx:id="showTranslate" layoutX="501.0" layoutY="128.0" prefHeight="318.0" prefWidth="430.0" styleClass="show-area" />
+                        <WebView fx:id="showTranslate" layoutX="501.0" layoutY="128.0" prefHeight="318.0" prefWidth="430.0"/>
                         <AnchorPane layoutX="57.0" layoutY="447.0" prefHeight="50.0" prefWidth="430.0">
                             <children>
                                 <ImageView fx:id="leftSpeaker" fitHeight="42.0" fitWidth="42.0" layoutX="14.0" layoutY="4.0" onMouseClicked="#clickLeftSpeaker" pickOnBounds="true" preserveRatio="true" styleClass="speaker-left-btn" visible="false">
@@ -46,7 +46,7 @@
                                         <Image url="@image/speaker.png" />
                                     </image></ImageView>
                             </children></AnchorPane>
-                        <AnchorPane layoutX="501.0" layoutY="447.0" prefHeight="50.0" prefWidth="430.0" styleClass="speaker-btn">
+                        <AnchorPane layoutX="501.0" layoutY="447.0" prefHeight="50.0" prefWidth="430.0">
                             <children>
                                 <ImageView fx:id="rightSpeaker" fitHeight="42.0" fitWidth="42.0" layoutX="14.0" layoutY="4.0" onMouseClicked="#clickRightSpeaker" pickOnBounds="true" preserveRatio="true" styleClass="speaker-right-btn" visible="false">
                                     <image>

@@ -12,6 +12,7 @@ module com.example.dictionaryenvi {
     requires org.apache.poi.poi;
     requires org.apache.poi.ooxml;
     requires org.controlsfx.controls;
+    requires org.jsoup;
 
     opens com.example.dictionaryenvi to javafx.fxml;
     opens com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice to javafx.fxml;

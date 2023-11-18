@@ -12,18 +12,23 @@ import java.util.List;
 
 import static com.backend.Connection.ConnectDatabase.tableHistory;
 
-public class HistoryDataAccess implements IDataAccess<UserStatus>{
+public class HistoryDataAccess implements IDataAccess<UserStatus> {
     private ConnectDatabase connectDatabase;
 
     /**
      * Constructor init new object HistoryDataAccess
      */
-    public HistoryDataAccess(){
+    public HistoryDataAccess() {
         connectDatabase = new ConnectDatabase();
     }
-    public static HistoryDataAccess getInstance(){
+
+    public static HistoryDataAccess getInstance() {
         return new HistoryDataAccess();
     }
+
+    /**
+     * The function insert words to database when user translates.
+     */
     @Override
     public int insert(UserStatus userStatus) {
         int result = 0;
@@ -48,13 +53,17 @@ public class HistoryDataAccess implements IDataAccess<UserStatus>{
         return result;
     }
 
+    /**
+     * The function gets all words in history.
+     */
+
     public List<String> getHistory(String username) {
         List<String> result = new ArrayList<String>();
         try {
             Connection connection = connectDatabase.getConnection();
             String query = "SELECT DISTINCT * FROM " + tableHistory + " WHERE username = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1,username);
+            preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
@@ -81,12 +90,5 @@ public class HistoryDataAccess implements IDataAccess<UserStatus>{
     @Override
     public ArrayList<UserStatus> selectAll() {
         return null;
-    }
-
-    public static void main(String[] args) {
-        List<String> li = HistoryDataAccess.getInstance().getHistory("abc123");
-        for(String tmp: li){
-            System.out.println(tmp);
-        }
     }
 }

@@ -13,24 +13,27 @@ import java.util.Map;
 
 import static com.backend.Connection.ConnectDatabase.*;
 
-public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
+public class LearnedDataAccess implements IDataAccess<UserLearnWord> {
     private ConnectDatabase connectDatabase;
-    public LearnedDataAccess(){
-        connectDatabase = new ConnectDatabase ();
+
+    public LearnedDataAccess() {
+        connectDatabase = new ConnectDatabase();
     }
-    public static LearnedDataAccess getInstance(){
+
+    public static LearnedDataAccess getInstance() {
         return new LearnedDataAccess();
     }
 
     /**
      * The function
+     *
      * @param userLearnWord is the object userLearnWord.
      * @return returns the number of modify lines in the database.
      */
     @Override
     public int insert(UserLearnWord userLearnWord) {
         int result = 0;
-        try{
+        try {
             Connection connection = connectDatabase.getConnection();
             String query = "INSERT INTO " + tableLearning + "(username, topic, word) " +
                     "VALUES (?, ?, ?)";
@@ -38,7 +41,7 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, userLearnWord.getUsername());
             preparedStatement.setString(2, userLearnWord.getTopic());
-            preparedStatement.setString(3,userLearnWord.getWord());
+            preparedStatement.setString(3, userLearnWord.getWord());
 
 
             result = preparedStatement.executeUpdate();
@@ -50,12 +53,16 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
         }
         return result;
     }
-    public int insertAll(List<UserLearnWord> usersList){
+
+    /**
+     * The function inserts all words to database.
+     */
+    public int insertAll(List<UserLearnWord> usersList) {
         int result = 0;
-        try{
+        try {
             Connection connection = connectDatabase.getConnection();
             String value = "";
-            for(int i = 0; i < usersList.size() - 1; i++){
+            for (int i = 0; i < usersList.size() - 1; i++) {
                 value += "(?, ?, ?),\n";
             }
             value += "(?, ?, ?)";
@@ -63,10 +70,10 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
                     "VALUES " + value;
 
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            for(int i = 0; i < usersList.size(); i++){
-                preparedStatement.setString(i*3 + 1,usersList.get(i).getUsername());
-                preparedStatement.setString(i*3 + 2,usersList.get(i).getTopic());
-                preparedStatement.setString(i*3 + 3,usersList.get(i).getWord());
+            for (int i = 0; i < usersList.size(); i++) {
+                preparedStatement.setString(i * 3 + 1, usersList.get(i).getUsername());
+                preparedStatement.setString(i * 3 + 2, usersList.get(i).getTopic());
+                preparedStatement.setString(i * 3 + 3, usersList.get(i).getWord());
             }
             result = preparedStatement.executeUpdate();
 
@@ -78,11 +85,9 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
         return result;
     }
 
-    @Override
-    public int update(UserLearnWord userLearnWord) {
-        return 0;
-    }
-
+    /**
+     * The function deletes words from the database.
+     */
     @Override
     public int delete(UserLearnWord userLearnWord) {
         int result = 0;
@@ -91,7 +96,7 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
             String query = "DELETE FROM " + tableLearning + " WHERE word = ? and username = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, userLearnWord.getWord());
-            preparedStatement.setString(2,userLearnWord.getUsername());
+            preparedStatement.setString(2, userLearnWord.getUsername());
             result = preparedStatement.executeUpdate();
 
             connectDatabase.closeConnection(connection);
@@ -100,7 +105,11 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
         }
         return result;
     }
-    public int countLearnedWord(String username, String topic){
+
+    /**
+     * The function counts words users learned follow each topic.
+     */
+    public int countLearnedWord(String username, String topic) {
         int result = 0;
         try {
             Connection connection = connectDatabase.getConnection();
@@ -120,7 +129,10 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
         return result;
     }
 
-    public boolean isLearnedWord(UserLearnWord userLearnWord){
+    /**
+     * The function checks word is leaned.
+     */
+    public boolean isLearnedWord(UserLearnWord userLearnWord) {
         try {
             Connection connection = connectDatabase.getConnection();
             String query = "SELECT * FROM " + tableLearning + " WHERE word = ? and username = ? and topic = ?";
@@ -142,24 +154,22 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
         }
     }
 
-
-    @Override
-    public ArrayList<UserLearnWord> selectAll() {
-        return null;
-    }
+    /**
+     * The function get list words user learned.
+     */
     public ArrayList<UserLearnWord> getLearnedListWord(String username, String topic) {
         ArrayList<UserLearnWord> result = new ArrayList<>();
         try {
             Connection connection = connectDatabase.getConnection();
             String query = "SELECT DISTINCT word FROM " + tableLearning + " WHERE username = ? and topic = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            preparedStatement.setString(1,username);
-            preparedStatement.setString(2,topic);
+            preparedStatement.setString(1, username);
+            preparedStatement.setString(2, topic);
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
                 String word = resultSet.getString("word");
-                result.add(new UserLearnWord(username,topic, word));
+                result.add(new UserLearnWord(username, topic, word));
             }
             connectDatabase.closeConnection(connection);
         } catch (SQLException e) {
@@ -167,7 +177,11 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
         }
         return result;
     }
-    public Map<String, Integer> listCountLearnedWords(String username){
+
+    /**
+     * The function returns pair: topic - number of words user learned.
+     */
+    public Map<String, Integer> listCountLearnedWords(String username) {
         Map<String, Integer> result = new HashMap<>();
         try {
             Connection connection = connectDatabase.getConnection();
@@ -187,5 +201,15 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord>{
             throw new RuntimeException();
         }
         return result;
+    }
+
+    @Override
+    public int update(UserLearnWord userLearnWord) {
+        return 0;
+    }
+
+    @Override
+    public ArrayList<UserLearnWord> selectAll() {
+        return null;
     }
 }

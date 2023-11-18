@@ -25,6 +25,7 @@ public class UserDataAccess implements IDataAccess<User> {
 
     /**
      * When user register new account, function will add new userInfo to database.
+     *
      * @param user is new user.
      * @return 1 if user registered successfully.
      */
@@ -55,6 +56,7 @@ public class UserDataAccess implements IDataAccess<User> {
 
     /**
      * When User login to app, if it is incorrect account, user must be logged in again.
+     *
      * @param user is userInfo consist of: username and password.
      * @return true if user is logged in successfully.
      */
@@ -84,10 +86,11 @@ public class UserDataAccess implements IDataAccess<User> {
 
     /**
      * When user forget their password, the function will update new password.
+     *
      * @param user is userInfo consist of username and password.
      * @return 1 if user account update new password.
      */
-    public int updateAccount(User user){
+    public int updateAccount(User user) {
         int res = 0;
 
         try {
@@ -105,17 +108,12 @@ public class UserDataAccess implements IDataAccess<User> {
         return res;
     }
 
-    /**
-     * When user play game, scores will be saved and update in database
-     * @param user consists of : username and score 2 games
-     * @return 1 if updated score successfully.
-     */
-    @Override
-    public int update(User user) {
-        return 0;
-    }
 
-    public int updateScore(String username){
+    /**
+     * The function update score of user.
+     * Score each game is the max score in the history user play.
+     */
+    public int updateScore(String username) {
         int result = 0;
         try {
             Connection connect = connectDatabase.getConnection();
@@ -143,7 +141,6 @@ public class UserDataAccess implements IDataAccess<User> {
     }
 
     /**
-     *
      * @param username is the username of the user.
      * @return the user with full information.
      */
@@ -178,10 +175,11 @@ public class UserDataAccess implements IDataAccess<User> {
 
     /**
      * When user register new Account, the function check the the user is existing.
+     *
      * @param userName the userName of account.
      * @return true if the user is existing.
      */
-    public boolean isExistingUser(String userName){
+    public boolean isExistingUser(String userName) {
         int result = 0;
         try {
             Connection connection = connectDatabase.getConnection();
@@ -202,10 +200,9 @@ public class UserDataAccess implements IDataAccess<User> {
         return result != 0;
     }
 
-    @Override
-    public int delete(User user) {
-        return 0;
-    }
+    /**
+     * The function get list User for rank board.
+     */
 
     @Override
     public ArrayList<User> selectAll() {
@@ -237,8 +234,13 @@ public class UserDataAccess implements IDataAccess<User> {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(UserDataAccess.getInstance().updateScore("abc123"));
+    @Override
+    public int update(User user) {
+        return 0;
     }
 
+    @Override
+    public int delete(User user) {
+        return 0;
+    }
 }

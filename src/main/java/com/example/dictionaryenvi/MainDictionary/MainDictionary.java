@@ -438,8 +438,11 @@ public class MainDictionary {
         translate(textEn);
     }
 
+    /**
+     * Moves to page Google Translate.
+     */
     public void goToGoogleTranslate(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/GoogleTranslate.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/AppGoogleTranslate.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root);

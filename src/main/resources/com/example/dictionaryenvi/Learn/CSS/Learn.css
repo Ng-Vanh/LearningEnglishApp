@@ -15,6 +15,12 @@
     -fx-background-radius: 15;
     -fx-cursor: HAND;
 }
+#cloneFrontCard {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+
 
 #pronounceImg1 {
     -fx-background-color: black;

@@ -44,9 +44,14 @@
             <Font size="11.0" />
          </font>
       </Label>
-      <ImageView fx:id="backImg" onMouseClicked="#backToLogIn" fitHeight="42" fitWidth="100" layoutX="42.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="backImg" fitHeight="42" fitWidth="100" layoutX="42.0" layoutY="15.0" onMouseClicked="#backToLogIn" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Image/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loadingGif" fitHeight="29.0" fitWidth="49.0" layoutX="313.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Image/loading.gif" />
          </image>
       </ImageView>
    </children>

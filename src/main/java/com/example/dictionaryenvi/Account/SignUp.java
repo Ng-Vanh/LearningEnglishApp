@@ -16,6 +16,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -27,6 +28,8 @@ import java.security.NoSuchAlgorithmException;
 
 public class SignUp extends UserInformation {
     @FXML
+    private ImageView loadingGif;
+    @FXML
     private Button signUpBtn;
     @FXML
     private Label notification;
@@ -34,6 +37,7 @@ public class SignUp extends UserInformation {
     private AnchorPane mainPane;
     @FXML
     private PasswordField confirmPassword;
+    private boolean processingCreateAccount;
     public void initialize() {
         firstname.setFocusTraversable(true);
         firstname.setOnKeyPressed(event -> {
@@ -70,6 +74,7 @@ public class SignUp extends UserInformation {
         });
     }
     public void backToLogIn(MouseEvent mouseEvent) {
+        if(processingCreateAccount) return;
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Account/Login/FXML/Login.fxml"));
         try {
             Parent root = loader.load();
@@ -83,6 +88,10 @@ public class SignUp extends UserInformation {
     }
 
     public void clickSignUp() {
+        if(processingCreateAccount) return;
+        signUpBtn.setText("");
+        processingCreateAccount = true;
+        loadingGif.setVisible(true);
         String passwordStr = password.getText();
         passwordStr = Hashing.hashWithSHA256(passwordStr);
 
@@ -93,7 +102,6 @@ public class SignUp extends UserInformation {
         String lastnameStr = lastname.getText();
         String usernameStr = username.getText();
         User newUser = new User(firstnameStr , lastnameStr , usernameStr , passwordStr);
-        boolean isExistingUser = userDataAccess.isExistingUser(usernameStr);
         boolean isConfirmEqual = passwordStr.equals(confirmPasswordStr);
         boolean isPasswordEmpty = passwordStr.isEmpty();
         boolean isUsernameEmpty = usernameStr.isEmpty();
@@ -101,42 +109,64 @@ public class SignUp extends UserInformation {
             username.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             notification.setText("Username cannot be empty!");
             notification.setVisible(true);
-        }
-        else if(isExistingUser) {
-            username.setStyle("-fx-border-color: red; -fx-border-radius: 5");
-            notification.setText("Username already exists!");
-            notification.setVisible(true);
+            signUpBtn.setText("Sign Up");
+            processingCreateAccount = false;
+            loadingGif.setVisible(false);
         }
         else if(!isConfirmEqual) {
             confirmPassword.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             password.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             notification.setText("The password confirmation dose not match");
             notification.setVisible(true);
+            signUpBtn.setText("Sign Up");
+            processingCreateAccount = false;
+            loadingGif.setVisible(false);
         }
         else if(isPasswordEmpty) {
             confirmPassword.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             password.setStyle("-fx-border-color: red; -fx-border-radius: 5");
             notification.setText("Password cannot be empty!");
             notification.setVisible(true);
+            signUpBtn.setText("Sign Up");
+            processingCreateAccount = false;
+            loadingGif.setVisible(false);
         }
         else {
-            userDataAccess.insert(newUser);
-            FXMLLoader loader = new FXMLLoader(Application.class.getResource("/com/example/dictionaryenvi/Account/Login/FXML/Login.fxml"));
-            try {
-                Parent root = loader.load();
-                Scene scene =new Scene(root);
-                Stage stage = (Stage) signUpBtn.getScene().getWindow();
-                stage.setScene(scene);
-                stage.show();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+            CreateAccountService createAccountService = new CreateAccountService(newUser , userDataAccess , usernameStr);
+            createAccountService.setOnSucceeded(event -> {
+                signUpBtn.setText("Sign Up");
+                processingCreateAccount = false;
+                loadingGif.setVisible(false);
+                boolean isExistingUser = createAccountService.getValue();
+                if(isExistingUser) {
+                    username.setStyle("-fx-border-color: red; -fx-border-radius: 5");
+                    notification.setText("Username already exists!");
+                    notification.setVisible(true);
+                    signUpBtn.setText("Sign Up");
+                    processingCreateAccount = false;
+                    loadingGif.setVisible(false);
+                }
+                else {
+                    FXMLLoader loader = new FXMLLoader(Application.class.getResource("/com/example/dictionaryenvi/Account/Login/FXML/Login.fxml"));
+                    try {
+                        Parent root = loader.load();
+                        Scene scene =new Scene(root);
+                        Stage stage = (Stage) signUpBtn.getScene().getWindow();
+                        stage.setScene(scene);
+                        stage.show();
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+
+            });
+            createAccountService.start();
         }
         username.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
                 username.setStyle("-fx-border-color: null; -fx-border-radius: 5");
-                if(isExistingUser) notification.setVisible(false);
+                notification.setVisible(false);
             }
         });
         confirmPassword.setOnMouseClicked(new EventHandler<MouseEvent>() {

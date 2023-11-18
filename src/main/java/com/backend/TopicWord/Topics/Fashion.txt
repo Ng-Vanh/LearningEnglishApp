@@ -1,0 +1,215 @@
+{
+  "topic": "Fashion",
+  "words": [
+    {
+      "definition": {
+        "word": "Chic",
+        "type": "Adjective",
+        "phonetic": "ʃiːk",
+        "example": "She always looks chic in her stylish outfits.",
+        "explain": "Trendy và duyên dáng",
+        "translatedExample": "Cô ấy luôn trông rất trendy và duyên dáng trong những bộ trang phục của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Chic'?",
+          "options": {
+            "A": "Elegant",
+            "B": "Casual",
+            "C": "Flashy",
+            "D": "Plain"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Elegant' is the closest synonym, as both terms refer to a stylish and sophisticated appearance. B: 'Casual' is the opposite, indicating a relaxed and informal style. C: 'Flashy' suggests a bold and attention-grabbing style. D: 'Plain' refers to something simple and without embellishments."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Couture",
+        "type": "Noun",
+        "phonetic": "kuːˈtʊər",
+        "example": "The dress was a masterpiece of couture craftsmanship.",
+        "explain": "May mặc cao cấp và thiết kế tinh tế",
+        "translatedExample": "Chiếc váy là một kiệt tác của nghệ thuật may mặc cao cấp và thiết kế tinh tế."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Couture fashion emphasizes custom-made, high-quality garments created by skilled artisans.",
+          "sentenceWithBlank": "Couture fashion emphasizes custom-made, high-quality garments created by skilled ________.",
+          "wordBlank": "artisans",
+          "translation": "Thời trang couture nhấn mạnh vào việc làm đồ chuyên nghiệp, chất lượng cao được tạo ra bởi những nghệ nhân tay nghề."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Vogue",
+        "type": "Noun",
+        "phonetic": "voʊɡ",
+        "example": "Floral patterns are currently in vogue this season.",
+        "explain": "Phổ biến và thịnh hành",
+        "translatedExample": "Họa tiết hoa lá đang phổ biến và thịnh hành trong mùa này."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Vogue'?",
+          "options": {
+            "A": "Trendy",
+            "B": "Outdated",
+            "C": "Modern",
+            "D": "Popular"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Trendy' is a synonym for 'Vogue.' B: 'Outdated' is the antonym, indicating something no longer in fashion. C: 'Modern' is not the opposite, as both terms can coexist. D: 'Popular' is related to being well-liked, but not necessarily fashionable."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Plaid",
+        "type": "Noun/Adjective",
+        "phonetic": "plæd",
+        "example": "He wore a plaid shirt with jeans.",
+        "explain": "Kẻ ô vuông trên vải",
+        "translatedExample": "Anh ấy mặc một chiếc áo kẻ ô vuông với quần jean."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which of the following is a characteristic of 'Plaid'?",
+          "options": {
+            "A": "Stripes",
+            "B": "Polka Dots",
+            "C": "Checks",
+            "D": "Floral"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Stripes' are long, narrow bands. B: 'Polka Dots' are round, often evenly spaced dots. C: 'Checks' or 'Plaid' consists of intersecting lines forming squares or rectangles. D: 'Floral' patterns feature flowers and plants."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Svelte",
+        "type": "Adjective",
+        "phonetic": "svelt",
+        "example": "The model had a svelte figure on the runway.",
+        "explain": "Thân hình thon gọn và duyên dáng",
+        "translatedExample": "Người mẫu có một hình thể thon gọn và duyên dáng trên sàn catwalk."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A svelte silhouette is often associated with the fashion industry's standards of beauty.",
+          "sentenceWithBlank": "A svelte silhouette is often associated with the fashion industry's standards of ________.",
+          "wordBlank": "beauty",
+          "translation": "Hình ảnh thon gọn thường được liên kết với tiêu chuẩn vẻ đẹp của ngành công nghiệp thời trang."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hue",
+        "type": "Noun",
+        "phonetic": "hjuː",
+        "example": "The dress is available in a variety of hues.",
+        "explain": "Màu sắc hoặc tông màu",
+        "translatedExample": "Chiếc váy có sẵn trong nhiều màu sắc hoặc tông màu khác nhau."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hue'?",
+          "options": {
+            "A": "Shade",
+            "B": "Texture",
+            "C": "Pattern",
+            "D": "Luster"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Shade' is a synonym for 'Hue,' both referring to variations in color. B: 'Texture' is about the feel or appearance of a surface. C: 'Pattern' involves repeated decorative designs. D: 'Luster' refers to the quality of reflected light from a surface."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Suede",
+        "type": "Noun/Adjective",
+        "phonetic": "sweɪd",
+        "example": "Her favorite jacket is made of soft suede.",
+        "explain": "Da lộn mềm và mịn",
+        "translatedExample": "Chiếc áo khoác yêu thích của cô ấy làm từ da lộn mềm và mịn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Suede'?",
+          "options": {
+            "A": "Leather",
+            "B": "Velvet",
+            "C": "Silk",
+            "D": "Cotton"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Leather' is a broad category that includes suede. B: 'Velvet' is a different fabric with a soft, dense pile. C: 'Silk' is a smooth and luxurious fabric. D: 'Cotton' is the antonym as it is a natural fiber with a different texture than suede."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stitch",
+        "type": "Noun/Verb",
+        "phonetic": "stɪtʃ",
+        "example": "She learned to stitch her own clothes.",
+        "explain": "Đường may và hành động may",
+        "translatedExample": "Cô ấy học cách may trang phục của mình bằng chính đôi tay của mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A strong and even stitch is essential for creating durable and well-finished garments.",
+          "sentenceWithBlank": "A strong and even stitch is essential for creating durable and well-finished ________.",
+          "wordBlank": "garments",
+          "translation": "Đường may chắc chắn và đều đặn là quan trọng để tạo ra những chiếc trang phục bền và hoàn thiện."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Trend",
+        "type": "Noun",
+        "phonetic": "trɛnd",
+        "example": "High-waisted jeans are currently a popular fashion trend.",
+        "explain": "Xu hướng thịnh hành trong thời trang",
+        "translatedExample": "Quần jean eo cao hiện đang là xu hướng thịnh hành trong thời trang."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is characteristic of a 'Trend' in fashion?",
+          "options": {
+            "A": "Tradition",
+            "B": "Novelty",
+            "C": "Stability",
+            "D": "Consistency"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Tradition' implies long-standing practices. B: 'Novelty' is characteristic of trends, indicating new and popular styles. C: 'Stability' and 'Consistency' are not typically associated with trends, which are often dynamic and evolving."
+        }
+      }
+    }
+  ]
+}

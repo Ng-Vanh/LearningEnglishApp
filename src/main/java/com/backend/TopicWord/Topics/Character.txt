@@ -1,0 +1,238 @@
+{
+  "topic": "Character",
+  "words": [
+    {
+      "definition": {
+        "word": "Integrity",
+        "type": "Noun",
+        "phonetic": "ɪnˈtɛɡrəti",
+        "example": "Honesty and strong moral principles are essential for maintaining integrity.",
+        "explain": "Chính trực",
+        "translatedExample": "Sự trung thực và nguyên tắc đạo đức mạnh mẽ là quan trọng để duy trì chính trực."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Integrity'?",
+          "options": {
+            "A": "Dishonesty",
+            "B": "Sincerity",
+            "C": "Deception",
+            "D": "Corruption"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Dishonesty' is the opposite of integrity. B: 'Sincerity' is a synonym as it reflects honesty and truthfulness. C: 'Deception' and D: 'Corruption' are opposite to the concept of integrity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empathy",
+        "type": "Noun",
+        "phonetic": "ˈɛmpəθi",
+        "example": "A good leader shows empathy by understanding and sharing the feelings of others.",
+        "explain": "Sự đồng cảm",
+        "translatedExample": "Một người lãnh đạo tốt thể hiện sự đồng cảm bằng cách hiểu và chia sẻ cảm xúc của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Empathy'?",
+          "options": {
+            "A": "Compassion",
+            "B": "Sympathy",
+            "C": "Apathy",
+            "D": "Understanding"
+          },
+          "correctAnswer": "C",
+          "explanation": "A and B: 'Compassion' and 'Sympathy' are related concepts and not antonyms. C: 'Apathy' is the antonym as it represents a lack of empathy or emotion. D: 'Understanding' is not the opposite of empathy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Resilience",
+        "type": "Noun",
+        "phonetic": "rɪˈzɪliəns",
+        "example": "Resilience is the ability to bounce back and adapt in the face of challenges.",
+        "explain": "Sự kiên cường",
+        "translatedExample": "Sự kiên cường là khả năng hồi phục và thích nghi trước những thách thức."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The resilience of a person is often tested during difficult times.",
+          "sentenceWithBlank": "The ________ of a person is often tested during difficult times.",
+          "wordBlank": "resilience",
+          "translation": "Sự kiên cường của một người thường được kiểm tra trong những thời điểm khó khăn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkɜrɪdʒ",
+        "example": "Facing fear and taking action requires courage.",
+        "explain": "Can đảm",
+        "translatedExample": "Đối mặt với nỗi sợ hãi và hành động đòi hỏi lòng can đảm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is necessary to face fear and take action?",
+          "options": {
+            "A": "Empathy",
+            "B": "Courage",
+            "C": "Integrity",
+            "D": "Resilience"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Empathy' is understanding and sharing feelings, not facing fear. B: 'Courage' is the correct answer as it involves facing fear and taking action. C: 'Integrity' and D: 'Resilience' are valuable traits but not directly related to facing fear."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Altruism",
+        "type": "Noun",
+        "phonetic": "ˈæltruɪzəm",
+        "example": "Altruism is the selfless concern for the well-being of others.",
+        "explain": "Lòng vị tha",
+        "translatedExample": "Lòng vị tha là lo lắng vô điều kiện cho sự an bình của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Altruism'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Generosity",
+            "C": "Egoism",
+            "D": "Apathy"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Selfishness' is the opposite of altruism. B: 'Generosity' is a synonym as it reflects a selfless concern for others. C: 'Egoism' is self-centered, not altruistic. D: 'Apathy' is a lack of interest or concern."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Diligence",
+        "type": "Noun",
+        "phonetic": "ˈdɪlɪdʒəns",
+        "example": "Success often comes to those who work with diligence and perseverance.",
+        "explain": "Sự chăm chỉ",
+        "translatedExample": "Thành công thường đến với những người làm việc với sự chăm chỉ và kiên trì."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "_______ is the key to achieving goals through hard work and persistence.",
+          "wordBlank": "Diligence",
+          "translation": "Sự chăm chỉ là chìa khóa để đạt được mục tiêu thông qua công việc chăm chỉ và kiên trì."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empower",
+        "type": "Verb",
+        "phonetic": "ɛmˈpaʊər",
+        "example": "Education can empower individuals by providing knowledge and skills.",
+        "explain": "Tăng cường quyền lực",
+        "translatedExample": "Giáo dục có thể tăng cường quyền lực cho cá nhân bằng cách cung cấp kiến thức và kỹ năng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Empower'?",
+          "options": {
+            "A": "Enable",
+            "B": "Weaken",
+            "C": "Strengthen",
+            "D": "Authorize"
+          },
+          "correctAnswer": "B",
+          "explanation": "A and D: 'Enable' and 'Authorize' are related concepts but not antonyms. B: 'Weaken' is the correct antonym as it represents the opposite of empowering. C: 'Strengthen' is a synonym for empowering."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Compassion",
+        "type": "Noun",
+        "phonetic": "kəmˈpæʃən",
+        "example": "Compassion involves feeling and expressing concern for the suffering of others.",
+        "explain": " lòng trắc ẩn",
+        "translatedExample": " lòng trắc ẩn liên quan đến việc cảm nhận và thể hiện sự quan tâm đối với đau khổ của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does compassion involve?",
+          "options": {
+            "A": "Empathy",
+            "B": "Indifference",
+            "C": "Competition",
+            "D": "Joy"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Empathy' is the correct answer as compassion involves feeling and expressing concern for the suffering of others. B: 'Indifference' is the opposite of compassion. C: 'Competition' and D: 'Joy' are not directly related to the concept of compassion."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Adaptability",
+        "type": "Noun",
+        "phonetic": "əˌdæptəˈbɪləti",
+        "example": "In a rapidly changing world, adaptability is a valuable trait.",
+        "explain": "Khả năng thích nghi",
+        "translatedExample": "Trong một thế giới thay đổi nhanh, khả năng thích nghi là một đặc điểm quý giá."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "__________ is crucial in navigating through diverse and unpredictable situations.",
+          "wordBlank": "Adaptability",
+          "translation": "Khả năng thích nghi là quan trọng trong việc điều hướng qua các tình huống đa dạng và không dự đoán được."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Authenticity",
+        "type": "Noun",
+        "phonetic": "ˌɔːθɛnˈtɪsəti",
+        "example": "Authenticity involves being true to oneself and not pretending to be someone else.",
+        "explain": "Tính chân thực",
+        "translatedExample": "Tính chân thực liên quan đến việc trung thực với bản thân và không giả vờ làm người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Authenticity'?",
+          "options": {
+            "A": "Deception",
+            "B": "Honesty",
+            "C": "Forgery",
+            "D": "Pretense"
+          },
+          "correctAnswer": "B",
+          "explanation": "A and D: 'Deception' and 'Pretense' are opposite to authenticity. B: 'Honesty' is the correct synonym. C: 'Forgery' is the act of producing fake or fraudulent copies, not synonymous with authenticity."
+        }
+      }
+    }
+  ]
+}

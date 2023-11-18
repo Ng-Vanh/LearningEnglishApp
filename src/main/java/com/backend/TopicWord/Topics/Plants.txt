@@ -1,0 +1,1465 @@
+{
+  "topic": "Plants",
+  "words": [
+    {
+      "definition": {
+        "word": "Flower",
+        "type": "Noun",
+        "phonetic": "ˈflaʊ.ər",
+        "example": "The garden is filled with colorful flowers in bloom.",
+        "explain": "Bông hoa",
+        "translatedExample": "Khu vườn tràn ngập những bông hoa màu sắc nở rộ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Flower'?",
+          "options": {
+            "A": "Leaf",
+            "B": "Blossom",
+            "C": "Root",
+            "D": "Branch"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Leaf' is a part of a plant, but not synonymous with 'Flower.' B: 'Blossom' is a synonym as it refers to the flowering or blooming part of a plant. C: 'Root' and 'Branch' are parts of a plant, but not synonyms for 'Flower.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Photosynthesis",
+        "type": "Noun",
+        "phonetic": "ˌfoʊ.toʊˈsɪn.θə.sɪs",
+        "example": "Plants use photosynthesis to convert sunlight into energy.",
+        "explain": "Quang hợp",
+        "translatedExample": "Cây sử dụng quang hợp để chuyển đổi ánh sáng mặt trời thành năng lượng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Photosynthesis is the process by which plants produce their own food using sunlight, carbon dioxide, and water.",
+          "sentenceWithBlank": "Photosynthesis is the process by which plants produce their own food using sunlight, carbon dioxide, and ________.",
+          "wordBlank": "water",
+          "translation": "Quang hợp là quá trình mà cây sản xuất thức ăn của chúng bằng cách sử dụng ánh sáng mặt trời, carbon dioxide và nước."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Root",
+        "type": "Noun",
+        "phonetic": "ruːt",
+        "example": "The roots of the tree spread wide beneath the soil.",
+        "explain": "Rễ cây",
+        "translatedExample": "Rễ cây lan rộng dưới đất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Root'?",
+          "options": {
+            "A": "Branch",
+            "B": "Leaf",
+            "C": "Flower",
+            "D": "Seed"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Branch' is a different part of the plant. B: 'Leaf' is another part of the plant. C: 'Flower' is the antonym, as flowers are reproductive structures while roots anchor the plant. D: 'Seed' is a different plant structure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Seed",
+        "type": "Noun",
+        "phonetic": "siːd",
+        "example": "Planting seeds is the first step in growing many crops.",
+        "explain": "Hạt giống",
+        "translatedExample": "Việc gieo hạt giống là bước đầu tiên trong việc trồng nhiều loại cây trồng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Seeds contain the genetic information needed for the growth and development of a new plant.",
+          "sentenceWithBlank": "Seeds contain the genetic information needed for the growth and development of a new ________.",
+          "wordBlank": "plant",
+          "translation": "Hạt giống chứa thông tin gen cần thiết cho sự phát triển của một cây mới."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bark",
+        "type": "Noun",
+        "phonetic": "bɑːrk",
+        "example": "The bark of some trees is used for medicinal purposes.",
+        "explain": "Vỏ cây",
+        "translatedExample": "Vỏ của một số cây được sử dụng cho mục đích y học."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bark'?",
+          "options": {
+            "A": "Branch",
+            "B": "Root",
+            "C": "Trunk",
+            "D": "Twig"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Branch' is a different part of the tree. B: 'Root' is another part of the tree. C: 'Trunk' is a synonym as it refers to the main stem of a tree. D: 'Twig' is a smaller branch of a tree."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fruit",
+        "type": "Noun",
+        "phonetic": "fruːt",
+        "example": "Apples and oranges are examples of fruit.",
+        "explain": "Quả",
+        "translatedExample": "Táo và cam là ví dụ về quả."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Fruit'?",
+          "options": {
+            "A": "Vegetable",
+            "B": "Flower",
+            "C": "Leaf",
+            "D": "Seed"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Vegetable' is the antonym, as fruits and vegetables are distinct categories. B: 'Flower' is a different plant structure. C: 'Leaf' is another part of the plant. D: 'Seed' is a different plant structure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Leaf",
+        "type": "Noun",
+        "phonetic": "liːf",
+        "example": "Autumn is the season when leaves change color and fall from trees.",
+        "explain": "Lá cây",
+        "translatedExample": "Mùa thu là thời kỳ khi lá cây chuyển màu và rơi từ cây."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Leaves play a crucial role in the process of photosynthesis, capturing sunlight for energy production.",
+          "sentenceWithBlank": "Leaves play a crucial role in the process of photosynthesis, capturing sunlight for ________ production.",
+          "wordBlank": "energy",
+          "translation": "Lá cây đóng vai trò quan trọng trong quá trình quang hợp, bắt ánh sáng mặt trời để sản xuất năng lượng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Soil",
+        "type": "Noun",
+        "phonetic": "sɔɪl",
+        "example": "Healthy plants require good soil for optimal growth.",
+        "explain": "Đất",
+        "translatedExample": "Cây cần đất tốt để phát triển tối ưu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Soil'?",
+          "options": {
+            "A": "Ground",
+            "B": "Water",
+            "C": "Air",
+            "D": "Rock"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Ground' is a synonym for 'Soil' as it refers to the top layer of the Earth's surface, supporting plant life. B: 'Water' and 'Air' are different elements. D: 'Rock' is a different geological component."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Thorn",
+        "type": "Noun",
+        "phonetic": "θɔːrn",
+        "example": "Be cautious of thorns while handling roses.",
+        "explain": "Gai cây",
+        "translatedExample": "Hãy cẩn trọng với gai cây khi xử lý hoa hồng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Thorns are sharp, pointed structures that protect certain plants from herbivores.",
+          "sentenceWithBlank": "Thorns are sharp, pointed structures that protect certain plants from ________.",
+          "wordBlank": "herbivores",
+          "translation": "Gai cây là cấu trúc sắc nhọn và nhọn giúp bảo vệ một số loại cây khỏi thú ăn cỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pollination",
+        "type": "Noun",
+        "phonetic": "ˌpɑː.lɪˈneɪ.ʃən",
+        "example": "Bees play a vital role in the pollination of flowers.",
+        "explain": "Việc thụ phấn",
+        "translatedExample": "Ong đóng vai trò quan trọng trong việc thụ phấn của hoa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Pollination is the process of transferring pollen from the male parts to the female parts of a flower, leading to fertilization.",
+          "sentenceWithBlank": "Pollination is the process of transferring pollen from the male parts to the female parts of a flower, leading to ________.",
+          "wordBlank": "fertilization",
+          "translation": "Việc thụ phấn là quá trình chuyển phấn từ phần nam tới phần nữ của hoa, dẫn đến việc thụ tinh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Deciduous",
+        "type": "Adjective",
+        "phonetic": "dɪˈsɪdʒ.u.əs",
+        "example": "Deciduous trees shed their leaves in the autumn.",
+        "explain": "Rụng lá",
+        "translatedExample": "Cây rụng lá làm lá vào mùa thu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Deciduous'?",
+          "options": {
+            "A": "Evergreen",
+            "B": "Perennial",
+            "C": "Shrub",
+            "D": "Coniferous"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Evergreen' is the antonym, as evergreen trees retain their leaves throughout the year. B: 'Perennial' and 'Shrub' are different plant classifications. D: 'Coniferous' refers to trees bearing cones and is not the antonym for 'Deciduous.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chlorophyll",
+        "type": "Noun",
+        "phonetic": "ˈklɔː.rə.fɪl",
+        "example": "Chlorophyll gives plants their green color and is essential for photosynthesis.",
+        "explain": "Lô-xi-xan",
+        "translatedExample": "Lô-xi-xan mang lại màu xanh cho cây và là quan trọng cho quá trình quang hợp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Chlorophyll is the pigment in plants that captures light energy for photosynthesis.",
+          "sentenceWithBlank": "Chlorophyll is the pigment in plants that captures light energy for ________.",
+          "wordBlank": "photosynthesis",
+          "translation": "Lô-xi-xan là chất màu trong cây chụp năng lượng ánh sáng cho quá trình quang hợp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Vine",
+        "type": "Noun",
+        "phonetic": "vaɪn",
+        "example": "Grapes grow on vines that climb and spread along structures.",
+        "explain": "Cây leo",
+        "translatedExample": "Nho mọc trên cây leo leo lên và lan ra dọc theo các cấu trúc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Vine'?",
+          "options": {
+            "A": "Branch",
+            "B": "Stem",
+            "C": "Climber",
+            "D": "Root"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Branch' is a different part of the plant. B: 'Stem' is a central part of the plant. C: 'Climber' is a synonym as it refers to a plant that climbs and spreads along structures. D: 'Root' is another part of the plant."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Moss",
+        "type": "Noun",
+        "phonetic": "mɔːs",
+        "example": "Mosses are small, non-vascular plants that thrive in damp environments.",
+        "explain": "Rêu",
+        "translatedExample": "Rêu là loại cây nhỏ, không mạch sống tốt trong môi trường ẩm ướt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Moss'?",
+          "options": {
+            "A": "Fern",
+            "B": "Algae",
+            "C": "Fungi",
+            "D": "Cactus"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Fern' is a different type of non-flowering vascular plant. B: 'Algae' is a different category of simple, autotrophic organisms. C: 'Fungi' is a different kingdom of eukaryotic organisms. D: 'Cactus' is the antonym, as mosses and cacti have different growth forms and environments."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fungi",
+        "type": "Noun",
+        "phonetic": "ˈfʌŋ.ɡaɪ",
+        "example": "Mushrooms and molds are examples of fungi.",
+        "explain": "Nấm",
+        "translatedExample": "Nấm và mốc là ví dụ về nấm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Fungi are a diverse group of organisms that include mushrooms, yeasts, and molds.",
+          "sentenceWithBlank": "Fungi are a diverse group of organisms that include mushrooms, yeasts, and ________.",
+          "wordBlank": "molds",
+          "translation": "Nấm là một nhóm đa dạng của các hệ thống sống bao gồm nấm, men, và mốc."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sapling",
+        "type": "Noun",
+        "phonetic": "ˈsæp.lɪŋ",
+        "example": "The young sapling grew into a tall and sturdy tree over the years.",
+        "explain": "Cây non",
+        "translatedExample": "Cây non phát triển thành một cây cao và vững chắc qua những năm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Sapling'?",
+          "options": {
+            "A": "Shrub",
+            "B": "Seedling",
+            "C": "Twig",
+            "D": "Evergreen"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Shrub' is a different type of plant. B: 'Seedling' is a synonym, referring to a young tree or plant. C: 'Twig' is a smaller branch of a tree. D: 'Evergreen' refers to trees retaining their leaves throughout the year."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Compost",
+        "type": "Noun",
+        "phonetic": "ˈkɑːm.poʊst",
+        "example": "Compost is a valuable soil conditioner made from organic waste.",
+        "explain": "Phân hữu cơ",
+        "translatedExample": "Compost là một chất điều hòa đất quý giá được làm từ chất thải hữu cơ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Gardeners use compost to improve soil fertility and provide essential nutrients for plants.",
+          "sentenceWithBlank": "Gardeners use compost to improve soil fertility and provide essential nutrients for ________.",
+          "wordBlank": "plants",
+          "translation": "Người làm vườn sử dụng phân hữu cơ để cải thiện sự màu mỡ của đất và cung cấp dưỡng chất cần thiết cho cây cối."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tuber",
+        "type": "Noun",
+        "phonetic": "ˈtuː.bər",
+        "example": "Potatoes are a type of tuber that grows underground.",
+        "explain": "Củ cải",
+        "translatedExample": "Khoai tây là một loại củ cải mọc dưới đất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Tuber'?",
+          "options": {
+            "A": "Root",
+            "B": "Bulb",
+            "C": "Rhizome",
+            "D": "Leaf"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Root,' 'Bulb,' and 'Rhizome' are different types of underground storage structures. D: 'Leaf' is the antonym, as it is a part of the plant above ground, unlike tubers."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pollen",
+        "type": "Noun",
+        "phonetic": "ˈpɑː.lən",
+        "example": "Pollen is carried by the wind or insects to fertilize flowers.",
+        "explain": "Phấn hoa",
+        "translatedExample": "Phấn hoa được mang bởi gió hoặc côn trùng để thụ phấn hoa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Pollen contains male reproductive cells and is a crucial element in the reproductive process of flowering plants.",
+          "sentenceWithBlank": "Pollen contains male reproductive cells and is a crucial element in the reproductive process of flowering ________.",
+          "wordBlank": "plants",
+          "translation": "Phấn hoa chứa tế bào sinh dục nam và là một yếu tố quan trọng trong quá trình sinh sản của các loại cây có hoa."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Petal",
+        "type": "Noun",
+        "phonetic": "ˈpet.əl",
+        "example": "The rose has soft, velvety petals of vibrant red.",
+        "explain": "Cánh hoa",
+        "translatedExample": "Hoa hồng có những cánh hoa mềm mại, mịn màng màu đỏ tươi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Petal'?",
+          "options": {
+            "A": "Leaflet",
+            "B": "Sepal",
+            "C": "Blossom",
+            "D": "Stamen"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Leaflet' is a small leaf. B: 'Sepal' is a different part of the flower. C: 'Blossom' is a synonym, referring to the flower's open or mature state. D: 'Stamen' is the male reproductive part of a flower."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Perennial",
+        "type": "Adjective",
+        "phonetic": "pəˈren.i.əl",
+        "example": "Lavender is a perennial herb with fragrant flowers.",
+        "explain": "Cây lâu năm",
+        "translatedExample": "Oải hương là một loại cây lâu năm có hoa thơm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Perennial'?",
+          "options": {
+            "A": "Annual",
+            "B": "Deciduous",
+            "C": "Biennial",
+            "D": "Evergreen"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Annual' is the antonym, as annual plants complete their life cycle within one year. B: 'Deciduous' and 'Evergreen' refer to different characteristics of trees. C: 'Biennial' is another category of plants with a two-year life cycle."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fertilization",
+        "type": "Noun",
+        "phonetic": "ˌfɝː.t̬əl.əˈzeɪ.ʃən",
+        "example": "Fertilization occurs when pollen reaches the stigma and combines with the ovule.",
+        "explain": "Thụ tinh",
+        "translatedExample": "Thụ tinh xảy ra khi phấn hoa đến đậu và kết hợp với nội."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Fertilization is the union of male and female reproductive cells, leading to the formation of a seed in plants.",
+          "sentenceWithBlank": "Fertilization is the union of male and female reproductive cells, leading to the formation of a ________ in plants.",
+          "wordBlank": "seed",
+          "translation": "Thụ tinh là sự kết hợp giữa tế bào sinh dục nam và nữ, dẫn đến việc hình thành hạt giống trong cây cỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Succulent",
+        "type": "Adjective",
+        "phonetic": "ˈsʌk.jə.lənt",
+        "example": "Aloe vera is a succulent plant known for its fleshy leaves.",
+        "explain": "Cây dừa nước",
+        "translatedExample": "Lô hội là một loại cây dừa nước nổi tiếng với lá mỡ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Succulent'?",
+          "options": {
+            "A": "Arid",
+            "B": "Moist",
+            "C": "Drought-resistant",
+            "D": "Juicy"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Arid' means dry. B: 'Moist' is the opposite of dry. C: 'Drought-resistant' refers to the ability to withstand dry conditions. D: 'Juicy' is a synonym, as succulent plants often have fleshy, moist tissues."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stem",
+        "type": "Noun",
+        "phonetic": "stem",
+        "example": "The stem of a plant provides support and transports water and nutrients.",
+        "explain": "Thân cây",
+        "translatedExample": "Thân cây cung cấp sự hỗ trợ và vận chuyển nước và dưỡng chất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Stem'?",
+          "options": {
+            "A": "Leaf",
+            "B": "Branch",
+            "C": "Root",
+            "D": "Twig"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Leaf' is the antonym, as it is a different part of the plant. B: 'Branch' is a lateral extension of the stem. C: 'Root' is a different part of the plant. D: 'Twig' is a smaller, thinner branch."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Blossom",
+        "type": "Noun",
+        "phonetic": "ˈblɑː.səm",
+        "example": "Cherry blossoms are celebrated for their beauty in spring.",
+        "explain": "Bông hoa",
+        "translatedExample": "Bông hoa anh đào được tôn vinh vì vẻ đẹp của chúng vào mùa xuân."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The blossoming of flowers is a sign of the plant's reproductive phase and the beginning of fruit development.",
+          "sentenceWithBlank": "The blossoming of flowers is a sign of the plant's reproductive phase and the beginning of ________ development.",
+          "wordBlank": "fruit",
+          "translation": "Việc nở hoa là dấu hiệu của giai đoạn sinh sản của cây và sự bắt đầu của sự phát triển của quả."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Root",
+        "type": "Noun",
+        "phonetic": "ruːt",
+        "example": "Roots anchor plants in the soil and absorb water and nutrients.",
+        "explain": "Rễ",
+        "translatedExample": "Rễ giữ cây chặt vào đất và hấp thụ nước và dưỡng chất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Root'?",
+          "options": {
+            "A": "Branch",
+            "B": "Stem",
+            "C": "Trunk",
+            "D": "Base"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Branch' is a lateral extension. B: 'Stem' is the main upward part of a plant. C: 'Trunk' refers to the main stem of a tree. D: 'Base' is a synonym, as it represents the lower part or foundation, similar to roots in a plant."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Trellis",
+        "type": "Noun",
+        "phonetic": "ˈtre.lɪs",
+        "example": "Grapes often grow on a trellis for support and optimal sun exposure.",
+        "explain": "Khung rèn",
+        "translatedExample": "Nho thường mọc trên khung rèn để được hỗ trợ và tiếp xúc với nắng tốt nhất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Trellis'?",
+          "options": {
+            "A": "Climber",
+            "B": "Support",
+            "C": "Stake",
+            "D": "Ground"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Climber' is a related term. B: 'Support' is a synonym. C: 'Stake' is a similar concept. D: 'Ground' is the antonym, as it represents the surface beneath the trellis, contrasting with the raised structure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Germination",
+        "type": "Noun",
+        "phonetic": "ˌdʒɝː.mɪˈneɪ.ʃən",
+        "example": "The process of germination marks the beginning of a plant's life from a seed.",
+        "explain": "Nảy mầm",
+        "translatedExample": "Quá trình nảy mầm đánh dấu sự bắt đầu của cuộc sống của một cây từ hạt giống."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Germination involves the emergence of a young plant from a seed and the development of its root and shoot systems.",
+          "sentenceWithBlank": "Germination involves the emergence of a young plant from a seed and the development of its ________ and shoot systems.",
+          "wordBlank": "root",
+          "translation": "Nảy mầm liên quan đến sự xuất hiện của một cây non từ hạt giống và sự phát triển của hệ thống rễ và thân cây."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Shrub",
+        "type": "Noun",
+        "phonetic": "ʃrʌb",
+        "example": "Lilacs are fragrant shrubs with clusters of purple flowers.",
+        "explain": "Cây bụi",
+        "translatedExample": "Hoa lơ là cây bụi thơm có cụm hoa màu tím."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Shrub'?",
+          "options": {
+            "A": "Tree",
+            "B": "Herb",
+            "C": "Perennial",
+            "D": "Vine"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Tree' is the antonym, as it represents a larger and woody perennial plant. B: 'Herb' is a different plant category. C: 'Perennial' and 'Vine' represent different characteristics and growth forms."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Photosynthesis",
+        "type": "Noun",
+        "phonetic": "ˌfoʊ.t̬oʊˈsɪn.θə.sɪs",
+        "example": "Photosynthesis is the process by which plants convert sunlight into energy for growth.",
+        "explain": "Quang hợp",
+        "translatedExample": "Quang hợp là quá trình mà cây chuyển đổi ánh sáng mặt trời thành năng lượng để phát triển."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Photosynthesis involves the absorption of sunlight, carbon dioxide, and water to produce glucose and oxygen in plants.",
+          "sentenceWithBlank": "Photosynthesis involves the absorption of sunlight, carbon dioxide, and water to produce glucose and oxygen in ________.",
+          "wordBlank": "plants",
+          "translation": "Quang hợp liên quan đến sự hấp thụ ánh sáng mặt trời, carbon dioxide, và nước để tạo ra glucose và ôxy trong cây cỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fungicide",
+        "type": "Noun",
+        "phonetic": "ˈfʌn.dʒə.saɪd",
+        "example": "Farmers use fungicides to control and prevent the spread of fungal diseases in crops.",
+        "explain": "Thuốc trừ nấm",
+        "translatedExample": "Nông dân sử dụng thuốc trừ nấm để kiểm soát và ngăn chặn sự lan truyền của các bệnh nấm trong cây trồng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Fungicide'?",
+          "options": {
+            "A": "Herbicide",
+            "B": "Insecticide",
+            "C": "Pesticide",
+            "D": "Rodenticide"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Herbicide' is a synonym, as it refers to a substance that kills or inhibits the growth of fungi. B: 'Insecticide' targets insects. C: 'Pesticide' is a general term for substances that control pests. D: 'Rodenticide' targets rodents."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tropical",
+        "type": "Adjective",
+        "phonetic": "ˈtrɑː.pɪ.kəl",
+        "example": "Bananas thrive in tropical climates with warm temperatures and high humidity.",
+        "explain": "Nhiệt đới",
+        "translatedExample": "Chuối phát triển mạnh mẽ trong khí hậu nhiệt đới với nhiệt độ ấm và độ ẩm cao."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Tropical'?",
+          "options": {
+            "A": "Arctic",
+            "B": "Temperate",
+            "C": "Mediterranean",
+            "D": "Subarctic"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Arctic' is the antonym, representing extremely cold climates. B: 'Temperate' describes moderate and mild climates. C: 'Mediterranean' refers to a specific climate type. D: 'Subarctic' is a colder region near the Arctic."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hybrid",
+        "type": "Noun",
+        "phonetic": "ˈhaɪ.bɪd",
+        "example": "A hybrid plant results from the crossbreeding of different varieties for specific traits.",
+        "explain": "Cây lai",
+        "translatedExample": "Một loại cây lai là kết quả của việc lai tạo giữa các biến thể khác nhau để có các đặc điểm cụ thể."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Hybrid plants often exhibit a combination of desirable traits inherited from their parent varieties.",
+          "sentenceWithBlank": "Hybrid plants often exhibit a combination of desirable traits inherited from their parent ________.",
+          "wordBlank": "varieties",
+          "translation": "Cây lai thường thể hiện sự kết hợp của các đặc điểm mong muốn được thừa hưởng từ các biến thể cha mẹ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Deciduous",
+        "type": "Adjective",
+        "phonetic": "dɪˈsɪdʒ.u.əs",
+        "example": "Deciduous trees shed their leaves in the autumn as a part of their natural cycle.",
+        "explain": "Rụng lá",
+        "translatedExample": "Cây rụng lá mùa thu làm một phần của chu kỳ tự nhiên của chúng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Deciduous'?",
+          "options": {
+            "A": "Evergreen",
+            "B": "Coniferous",
+            "C": "Broadleaf",
+            "D": "Shrubby"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Evergreen' describes trees that retain their leaves throughout the year. B: 'Coniferous' refers to trees with cones. C: 'Broadleaf' is a synonym for deciduous, describing trees with wide, flat leaves. D: 'Shrubby' is a different term."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Humus",
+        "type": "Noun",
+        "phonetic": "ˈhjuː.məs",
+        "example": "Humus is a dark, organic material formed from the decomposition of plant and animal matter.",
+        "explain": "Đất úm",
+        "translatedExample": "Đất úm là một chất hữu cơ đen được tạo thành từ quá trình phân hủy của vật liệu cây cỏ và động vật."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Humus improves soil structure, retains moisture, and provides essential nutrients for plant growth.",
+          "sentenceWithBlank": "Humus improves soil structure, retains moisture, and provides essential nutrients for plant ________.",
+          "wordBlank": "growth",
+          "translation": "Đất úm cải thiện cấu trúc đất, giữ ẩm, và cung cấp dưỡng chất cần thiết cho sự phát triển của cây cỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Vegetative",
+        "type": "Adjective",
+        "phonetic": "ˌvedʒ.əˈteɪ.tɪv",
+        "example": "During the vegetative stage, plants focus on leaf and stem development rather than reproduction.",
+        "explain": "Thời kỳ thụ tinh",
+        "translatedExample": "Trong giai đoạn thụ tinh, cây chú trọng vào việc phát triển lá và thân cây thay vì sinh sản."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Vegetative'?",
+          "options": {
+            "A": "Reproductive",
+            "B": "Flowering",
+            "C": "Fertile",
+            "D": "Generative"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Reproductive' is the antonym, as it represents the stage focused on reproduction rather than vegetative growth. B: 'Flowering' is related to the reproductive phase. C: 'Fertile' describes soil quality. D: 'Generative' is a similar concept."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chlorophyll",
+        "type": "Noun",
+        "phonetic": "ˈklɔːr.ə.fɪl",
+        "example": "Chlorophyll is the green pigment in plants that facilitates photosynthesis.",
+        "explain": "Lõi xanh",
+        "translatedExample": "Lõi xanh là pigment màu xanh trong cây cỏ giúp quang hợp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Chlorophyll captures light energy and converts it into chemical energy during the process of photosynthesis.",
+          "sentenceWithBlank": "Chlorophyll captures light energy and converts it into chemical energy during the process of ________.",
+          "wordBlank": "photosynthesis",
+          "translation": "Lõi xanh hứng chụp năng lượng ánh sáng và chuyển đổi nó thành năng lượng hóa học trong quá trình quang hợp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Rhizome",
+        "type": "Noun",
+        "phonetic": "ˈraɪ.zoʊm",
+        "example": "Ginger and bamboo spread through underground rhizomes.",
+        "explain": "Rễ thân ngang",
+        "translatedExample": "Gừng và tre lan tỏa qua rễ thân ngang dưới đất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Rhizome'?",
+          "options": {
+            "A": "Rootstock",
+            "B": "Tuber",
+            "C": "Bulb",
+            "D": "Runner"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Rootstock' is a synonym for rhizome, referring to an underground plant stem. B: 'Tuber' is a different type of underground storage organ. C: 'Bulb' is another storage structure. D: 'Runner' is a horizontal stem above ground."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Dormancy",
+        "type": "Noun",
+        "phonetic": "ˈdɔːr.mən.si",
+        "example": "Seeds may enter a period of dormancy before germinating.",
+        "explain": "Sự ngủ đông",
+        "translatedExample": "Hạt giống có thể vào giai đoạn ngủ đông trước khi nảy mầm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Dormancy is a state of inactivity or slowed metabolic activity in plants, often triggered by environmental factors.",
+          "sentenceWithBlank": "Dormancy is a state of inactivity or slowed metabolic activity in plants, often triggered by environmental ________.",
+          "wordBlank": "factors",
+          "translation": "Sự ngủ đông là trạng thái không hoạt động hoặc hoạt động trao đổi chất chậm lại ở cây cỏ, thường được kích thích bởi các yếu tố môi trường."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Foliage",
+        "type": "Noun",
+        "phonetic": "ˈfoʊ.li.ɪdʒ",
+        "example": "The vibrant foliage of autumn leaves attracts many photographers.",
+        "explain": "Lá cây",
+        "translatedExample": "Lá cây rực rỡ của lá thu hút nhiều nhiếp ảnh gia."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Foliage'?",
+          "options": {
+            "A": "Branches",
+            "B": "Twigs",
+            "C": "Stems",
+            "D": "Blossoms"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Branches' and 'Twigs' are parts of the plant structure. B: 'Stems' is a component of the plant. D: 'Blossoms' is the antonym, representing the flowers of the plant."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Xylem",
+        "type": "Noun",
+        "phonetic": "ˈzaɪ.ləm",
+        "example": "Xylem is responsible for transporting water and nutrients from the roots to other parts of the plant.",
+        "explain": "Mô xylem",
+        "translatedExample": "Mô xylem chịu trách nhiệm vận chuyển nước và dưỡng chất từ rễ đến các phần khác của cây."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Xylem vessels form a network that allows the upward flow of water and minerals in plants.",
+          "sentenceWithBlank": "Xylem vessels form a network that allows the upward flow of water and minerals in ________.",
+          "wordBlank": "plants",
+          "translation": "Các mạch xylem hình thành một mạng lưới cho phép sự lưu thông lên trên của nước và khoáng chất trong cây cỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stigma",
+        "type": "Noun",
+        "phonetic": "ˈstɪɡ.mə",
+        "example": "The stigma of a flower receives pollen during the process of pollination.",
+        "explain": "Nhụy",
+        "translatedExample": "Nhụy của một bông hoa nhận phấn trong quá trình thụ phấn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Stigma'?",
+          "options": {
+            "A": "Anther",
+            "B": "Ovary",
+            "C": "Style",
+            "D": "Petal"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Anther' is the part of the stamen that produces pollen. B: 'Ovary' is the base part of the female reproductive organ. C: 'Style' is a synonym for stigma, connecting the stigma to the ovary. D: 'Petal' is a different floral structure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Topiary",
+        "type": "Noun",
+        "phonetic": "ˈtoʊ.pi.er.i",
+        "example": "Topiary involves shaping and pruning plants into decorative forms, often seen in elaborate gardens.",
+        "explain": "Nghệ thuật cắt cỏ",
+        "translatedExample": "Nghệ thuật cắt cỏ liên quan đến việc tạo hình và cắt tỉa cây cỏ thành các hình dáng trang trí, thường thấy trong các khu vườn phức tạp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Topiary'?",
+          "options": {
+            "A": "Landscaping",
+            "B": "Wilderness",
+            "C": "Botany",
+            "D": "Ornamental"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Landscaping' is a broader term. B: 'Wilderness' is the antonym, representing uncultivated and natural areas. C: 'Botany' is the scientific study of plants. D: 'Ornamental' is a related term but not the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Perennial",
+        "type": "Adjective",
+        "phonetic": "pəˈren.i.əl",
+        "example": "Tulips are perennial plants that bloom year after year.",
+        "explain": "Cây lâu năm",
+        "translatedExample": "Tulip là cây lâu năm nở hoa từng năm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Perennial plants live for more than two years and often have seasonal flowering patterns.",
+          "sentenceWithBlank": "Perennial plants live for more than two years and often have seasonal ________ patterns.",
+          "wordBlank": "flowering",
+          "translation": "Cây lâu năm sống hơn hai năm và thường có mô hình nở hoa theo mùa."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Arborist",
+        "type": "Noun",
+        "phonetic": "ˈɑːr.bər.ɪst",
+        "example": "An arborist specializes in the care and maintenance of trees, ensuring their health and safety.",
+        "explain": "Người chăm sóc cây cỏ",
+        "translatedExample": "Một người chăm sóc cây cỏ chuyên nghiệp chuyên về việc chăm sóc và bảo dưỡng cây, đảm bảo sức khỏe và an toàn cho chúng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Arborist'?",
+          "options": {
+            "A": "Horticulturist",
+            "B": "Botanist",
+            "C": "Forester",
+            "D": "Landscape Designer"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Horticulturist' focuses on plant cultivation. B: 'Botanist' is a scientist specializing in plant study. C: 'Forester' is a synonym, emphasizing the management of forests and trees. D: 'Landscape Designer' has a different focus."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bud",
+        "type": "Noun",
+        "phonetic": "bʌd",
+        "example": "In spring, buds on trees begin to swell and eventually open into leaves or flowers.",
+        "explain": "Múi",
+        "translatedExample": "Vào mùa xuân, các mầm trên cây bắt đầu sưng lên và cuối cùng mở ra thành lá hoặc hoa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The ________ on the tree started to swell, indicating the arrival of spring.",
+          "options": {
+            "A": "Leaf",
+            "B": "Bark",
+            "C": "Root",
+            "D": "Bud"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Leaf' is the flat green structure on a plant. B: 'Bark' is the protective outer layer of a tree. C: 'Root' is the part of a plant that typically lies below the surface. D: 'Bud' is the correct answer, representing the small swelling on a plant indicating new growth."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fertilizer",
+        "type": "Noun",
+        "phonetic": "ˈfɜːr.t̬əl.aɪ.zɚ",
+        "example": "Plants benefit from the nutrients in fertilizer to support their growth and development.",
+        "explain": "Phân bón",
+        "translatedExample": "Cây cỏ hưởng lợi từ chất dinh dưỡng trong phân bón để hỗ trợ sự phát triển và phát triển của chúng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Farmers use __________ to enhance soil fertility and provide essential nutrients for crops.",
+          "options": {
+            "A": "Sunlight",
+            "B": "Rainwater",
+            "C": "Fertilizer",
+            "D": "Compost"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Sunlight' is important for photosynthesis but not a fertilizer. B: 'Rainwater' provides moisture but lacks nutrients. C: 'Fertilizer' is the correct answer, supplying essential nutrients to enhance soil fertility. D: 'Compost' is organic matter used for soil improvement."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tendril",
+        "type": "Noun",
+        "phonetic": "ˈten.drəl",
+        "example": "Grapes often have tendrils that help them attach to structures for support.",
+        "explain": "Lá bám",
+        "translatedExample": "Nho thường có lá bám giúp chúng gắn kết vào cấu trúc để được hỗ trợ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Plants with ________ can use them to climb and find support.",
+          "options": {
+            "A": "Leaves",
+            "B": "Roots",
+            "C": "Tendrils",
+            "D": "Flowers"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Leaves' are usually not used for climbing. B: 'Roots' anchor the plant but are not climbing structures. C: 'Tendrils' are the correct answer, assisting plants in climbing and finding support. D: 'Flowers' are reproductive structures."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Thorn",
+        "type": "Noun",
+        "phonetic": "θɔːrn",
+        "example": "Roses are known for their beautiful flowers and sharp thorns.",
+        "explain": "Gai",
+        "translatedExample": "Hoa hồng nổi tiếng với bông hoa đẹp và gai sắc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Be cautious when handling plants with ________ to avoid getting pricked.",
+          "options": {
+            "A": "Leaves",
+            "B": "Stems",
+            "C": "Thorns",
+            "D": "Roots"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Leaves' are generally not sharp. B: 'Stems' can be tough but are not typically sharp. C: 'Thorns' are the correct answer, representing sharp, protective structures. D: 'Roots' are underground and not usually encountered when handling a plant."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Grafting",
+        "type": "Noun",
+        "phonetic": "ˈɡræf.tɪŋ",
+        "example": "Grafting is a technique used to join parts of two different plants to grow as one.",
+        "explain": "Làm cấy",
+        "translatedExample": "Làm cấy là một kỹ thuật được sử dụng để nối các phần của hai cây khác nhau để phát triển như một."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the purpose of ________ in horticulture?",
+          "options": {
+            "A": "Grafting",
+            "B": "Pruning",
+            "C": "Pollination",
+            "D": "Germination"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Grafting' is the correct answer, as it involves joining parts of different plants. B: 'Pruning' is the act of trimming or cutting plants. C: 'Pollination' is the transfer of pollen for reproduction. D: 'Germination' is the process of a seed developing into a new plant."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sapling",
+        "type": "Noun",
+        "phonetic": "ˈsæp.lɪŋ",
+        "example": "The forest was filled with young saplings, promising the future growth of a new generation of trees.",
+        "explain": "Cây con",
+        "translatedExample": "Rừng tràn ngập cây con trẻ, hứa hẹn sự phát triển trong tương lai của thế hệ cây mới."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "A ________ is a young tree that has recently started to grow.",
+          "options": {
+            "A": "Bush",
+            "B": "Shrub",
+            "C": "Sapling",
+            "D": "Vine"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Bush' and 'Shrub' are generally used for smaller plants. C: 'Sapling' is the correct answer, representing a young tree. D: 'Vine' is a climbing or trailing plant."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Deciduous",
+        "type": "Adjective",
+        "phonetic": "dɪˈsɪdʒ.u.əs",
+        "example": "Deciduous trees shed their leaves in the fall as a part of their natural life cycle.",
+        "explain": "Rụng lá",
+        "translatedExample": "Cây rụng lá làm rụng lá vào mùa thu như một phần của chu kỳ sống tự nhiên của chúng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "_______ trees lose their leaves seasonally.",
+          "options": {
+            "A": "Evergreen",
+            "B": "Deciduous",
+            "C": "Coniferous",
+            "D": "Broadleaf"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Evergreen' trees retain their leaves year-round. B: 'Deciduous' is the correct answer, as these trees shed their leaves seasonally. C: 'Coniferous' trees bear cones and are often evergreen. D: 'Broadleaf' is a general term for trees with wide leaves."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stamen",
+        "type": "Noun",
+        "phonetic": "ˈsteɪ.mən",
+        "example": "The stamen is the male reproductive organ of a flower, producing pollen.",
+        "explain": "Nhụy",
+        "translatedExample": "Nhụy là bộ phận sinh dục nam của hoa, sản xuất phấn hoa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The ________ produces pollen in a flower.",
+          "options": {
+            "A": "Petal",
+            "B": "Ovary",
+            "C": "Stamen",
+            "D": "Style"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Petal' is a colorful part of the flower. B: 'Ovary' is the female reproductive organ. C: 'Stamen' is the correct answer, representing the male reproductive organ that produces pollen. D: 'Style' connects the stigma to the ovary."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mulch",
+        "type": "Noun",
+        "phonetic": "mʌltʃ",
+        "example": "Gardeners use mulch to cover the soil, retain moisture, and control weeds.",
+        "explain": "Lớp phủ",
+        "translatedExample": "Người làm vườn sử dụng lớp phủ để che phủ đất, giữ ẩm và kiểm soát cỏ dại."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "______ is a protective layer applied to the soil surface in gardening.",
+          "options": {
+            "A": "Compost",
+            "B": "Fertilizer",
+            "C": "Mulch",
+            "D": "Topsoil"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Compost' is organic matter for soil improvement. B: 'Fertilizer' supplies nutrients. C: 'Mulch' is the correct answer, providing a protective layer for the soil. D: 'Topsoil' is the upper layer of soil."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tuber",
+        "type": "Noun",
+        "phonetic": "ˈtuː.bər",
+        "example": "Potatoes are an example of a tuber, an underground storage organ of a plant.",
+        "explain": "Củ dậu",
+        "translatedExample": "Khoai tây là một ví dụ về củ dậu, một cơ quan lưu trữ dưới lòng đất của cây."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Tuber'?",
+          "options": {
+            "A": "Bulb",
+            "B": "Seed",
+            "C": "Root",
+            "D": "Stem"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Bulb' is the correct answer, representing an underground storage organ. B: 'Seed' is the reproductive part of a plant. C: 'Root' is another underground organ. D: 'Stem' is the part that supports leaves and flowers."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Germination",
+        "type": "Noun",
+        "phonetic": "ˌdʒɝː.mɪˈneɪ.ʃən",
+        "example": "The process of germination marks the beginning of a seed developing into a new plant.",
+        "explain": "Quá trình nảy mầm",
+        "translatedExample": "Quá trình nảy mầm đánh dấu sự bắt đầu của một hạt giống phát triển thành một cây mới."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Seeds require moisture and the right conditions for successful ________.",
+          "sentenceWithBlank": "Seeds require moisture and the right conditions for successful ________.",
+          "wordBlank": "germination",
+          "translation": "Hạt giống cần độ ẩm và điều kiện đúng để quá trình nảy mầm thành công."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Rhizome",
+        "type": "Noun",
+        "phonetic": "ˈraɪ.zoʊm",
+        "example": "Ginger and bamboo spread through underground rhizomes, forming new shoots.",
+        "explain": "Rễ gốc",
+        "translatedExample": "Gừng và tre lan truyền qua rễ gốc dưới đất, tạo ra những chồi mới."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Rhizome'?",
+          "options": {
+            "A": "Vine",
+            "B": "Root",
+            "C": "Stem",
+            "D": "Leaf"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Vine' is a climbing or trailing plant. B: 'Root' is a related term. C: 'Stem' is the correct answer, as it represents the above-ground part of a plant. D: 'Leaf' is another above-ground structure involved in photosynthesis."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Algae",
+        "type": "Noun",
+        "phonetic": "ˈæl.dʒi",
+        "example": "Algae are simple, plant-like organisms that can be found in aquatic environments.",
+        "explain": "Tảo",
+        "translatedExample": "Tảo là các hình thức sống giản dị giống cây mà bạn có thể tìm thấy trong môi trường nước."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Algae'?",
+          "options": {
+            "A": "Fungus",
+            "B": "Seaweed",
+            "C": "Moss",
+            "D": "Lichen"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Fungus' is a different type of organism. B: 'Seaweed' is the correct answer, representing plant-like organisms in aquatic environments. C: 'Moss' is a non-vascular plant. D: 'Lichen' is a symbiotic association of a fungus and algae."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pistil",
+        "type": "Noun",
+        "phonetic": "ˈpɪs.təl",
+        "example": "The pistil is the female reproductive part of a flower, consisting of the stigma, style, and ovary.",
+        "explain": "Nhụ",
+        "translatedExample": "Nhụ là bộ phận sinh dục nữ của hoa, bao gồm nhụy, thân nhụ và buồng nhụ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The ________ is the female reproductive part of a flower.",
+          "sentenceWithBlank": "The ________ is the female reproductive part of a flower, consisting of the stigma, style, and ovary.",
+          "wordBlank": "pistil",
+          "translation": "Nhụ là bộ phận sinh dục nữ của hoa, bao gồm nhụy, thân nhụ và buồng nhụ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Aril",
+        "type": "Noun",
+        "phonetic": "ˈær.ɪl",
+        "example": "The aril is a fleshy covering that develops from the seed and is often brightly colored.",
+        "explain": "Vỏ mầm",
+        "translatedExample": "Vỏ mầm là một lớp bảo vệ mềm mại phát triển từ hạt giống và thường có màu sắc tươi sáng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Aril'?",
+          "options": {
+            "A": "Seed",
+            "B": "Shell",
+            "C": "Husk",
+            "D": "Fruit"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Seed' is a related term. B: 'Shell' is the correct answer, representing a hard protective covering. C: 'Husk' is a protective layer for seeds. D: 'Fruit' is a broader term for mature ovary and seeds."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Xylem",
+        "type": "Noun",
+        "phonetic": "zaɪ.ləm",
+        "example": "Xylem is a plant tissue that transports water and nutrients from the roots to the rest of the plant.",
+        "explain": "Mô xylem",
+        "translatedExample": "Xylem là một mô cây chuyển nước và chất dinh dưỡng từ rễ đến phần còn lại của cây."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "________ is a plant tissue responsible for transporting water and nutrients in a plant.",
+          "sentenceWithBlank": "________ is a plant tissue responsible for transporting water and nutrients in a plant.",
+          "wordBlank": "Xylem",
+          "translation": "Xylem là một mô cây chuyển nước và chất dinh dưỡng từ rễ đến phần còn lại của cây."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stomata",
+        "type": "Noun",
+        "phonetic": "ˈstɑː.mə.tə",
+        "example": "Stomata are tiny openings on the surface of leaves that allow for gas exchange in plants.",
+        "explain": "Lỗ khí",
+        "translatedExample": "Stomata là những lỗ nhỏ trên bề mặt lá cho phép trao đổi khí trong cây."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Stomata'?",
+          "options": {
+            "A": "Pores",
+            "B": "Scales",
+            "C": "Tissues",
+            "D": "Filaments"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Pores' is the correct answer, representing the tiny openings on the surface of leaves. B: 'Scales' are small, overlapping protective structures. C: 'Tissues' is a general term for plant materials. D: 'Filaments' are thread-like structures."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Perennial",
+        "type": "Adjective",
+        "phonetic": "pəˈrɛn.i.əl",
+        "example": "Perennial plants live for more than two years and often bloom seasonally.",
+        "explain": "Cây lâu năm",
+        "translatedExample": "Cây lâu năm sống hơn hai năm và thường nở hoa theo mùa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "________ plants have a lifespan of more than two years and typically flower seasonally.",
+          "sentenceWithBlank": "________ plants have a lifespan of more than two years and typically flower seasonally.",
+          "wordBlank": "Perennial",
+          "translation": "Cây lâu năm có tuổi thọ hơn hai năm và thường nở hoa theo mùa."
+        }
+      }
+    }
+  ]
+}

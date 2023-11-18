@@ -1,0 +1,245 @@
+{
+  "topic": "PhraseVerbs",
+  "words": [
+    {
+      "definition": {
+        "word": "Break up",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk ʌp",
+        "example": "After many years together, they decided to break up.",
+        "explain": "Chia tay",
+        "translatedExample": "Sau nhiều năm bên nhau, họ quyết định chia tay."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does 'break up' mean?",
+          "options": {
+            "A": "Combine",
+            "B": "Separate",
+            "C": "Celebrate",
+            "D": "Understand"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Combine' means to join or unite. B: 'Break up' means to separate or end a relationship. C: 'Celebrate' means to observe an event with joy. D: 'Understand' means to comprehend or grasp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Call off",
+        "type": "Phrasal Verb",
+        "phonetic": "kɔːl ɒf",
+        "example": "Due to bad weather, they had to call off the outdoor event.",
+        "explain": "Hủy bỏ",
+        "translatedExample": "Do thời tiết xấu, họ phải hủy bỏ sự kiện ngoại ô."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'call off'?",
+          "options": {
+            "A": "Postpone",
+            "B": "Organize",
+            "C": "Conclude",
+            "D": "Attend"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Postpone' means to delay or reschedule. B: 'Organize' means to arrange or plan. C: 'Conclude' means to bring to an end. D: 'Attend' means to be present at an event."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Show up",
+        "type": "Phrasal Verb",
+        "phonetic": "ʃoʊ ʌp",
+        "example": "He promised to show up at the meeting but never appeared.",
+        "explain": "Xuất hiện, đến",
+        "translatedExample": "Anh ta hứa sẽ xuất hiện tại cuộc họp nhưng chẳng bao giờ xuất hiện."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'show up'?",
+          "options": {
+            "A": "Arrive",
+            "B": "Disappear",
+            "C": "Attend",
+            "D": "Reveal"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Arrive' is a synonym for 'show up.' B: 'Disappear' is the antonym, meaning to vanish or cease to be seen. C: 'Attend' is similar in meaning to 'show up.' D: 'Reveal' means to make something known or visible."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run out",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn aʊt",
+        "example": "We need to buy groceries; we've run out of essential items.",
+        "explain": "Hết, cạn kiệt",
+        "translatedExample": "Chúng ta cần mua thực phẩm; chúng ta đã hết những mặt hàng quan trọng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Don't forget to check the expiration date; we don't want to run out of milk again.",
+          "sentenceWithBlank": "Don't forget to check the expiration date; we don't want to run out of _____ again.",
+          "wordBlank": "milk",
+          "translation": "Đừng quên kiểm tra ngày hết hạn; chúng ta không muốn hết sữa lại."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look into",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈɪntuː",
+        "example": "The detective promised to look into the matter and find the truth.",
+        "explain": "Nghiên cứu, điều tra",
+        "translatedExample": "Nhà điều tra hứa sẽ nghiên cứu vụ án và tìm ra sự thật."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does 'look into' mean?",
+          "options": {
+            "A": "Ignore",
+            "B": "Investigate",
+            "C": "Conclude",
+            "D": "Imitate"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Ignore' means to pay no attention. B: 'Look into' means to investigate or examine. C: 'Conclude' means to reach a decision. D: 'Imitate' means to mimic or copy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Give up",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɪv ʌp",
+        "example": "Despite facing challenges, she refused to give up on her dreams.",
+        "explain": "Từ bỏ",
+        "translatedExample": "Mặc dù đối mặt với thách thức, cô ấy từ chối từ bỏ ước mơ của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'give up'?",
+          "options": {
+            "A": "Continue",
+            "B": "Surrender",
+            "C": "Achieve",
+            "D": "Accept"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Continue' means to persist or go on. B: 'Give up' is synonymous with 'Surrender,' meaning to yield or abandon. C: 'Achieve' means to accomplish. D: 'Accept' means to take or receive willingly."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut off",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌt ɒf",
+        "example": "Due to non-payment, the utility company decided to cut off the power supply.",
+        "explain": "Cắt đứt",
+        "translatedExample": "Do không thanh toán, công ty tiện ích quyết định cắt đứt nguồn cung cấp điện."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'cut off'?",
+          "options": {
+            "A": "Disconnect",
+            "B": "Terminate",
+            "C": "Restore",
+            "D": "Sever"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Disconnect' is a synonym for 'cut off.' B: 'Terminate' is synonymous, meaning to end or stop. C: 'Restore' is the antonym, indicating the renewal or return of something. D: 'Sever' means to cut or separate."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn down",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːrn daʊn",
+        "example": "He had to turn down the job offer due to scheduling conflicts.",
+        "explain": "Từ chối",
+        "translatedExample": "Anh ta phải từ chối đề nghị việc làm do xung đột lịch trình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "She had to turn down the invitation because of prior commitments.",
+          "sentenceWithBlank": "She had to turn down the invitation because of prior ________.",
+          "wordBlank": "commitments",
+          "translation": "Cô ấy phải từ chối lời mời vì những cam kết trước đó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Come across",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌm əˈkrɒs",
+        "example": "While hiking, they came across an old, abandoned cabin in the woods.",
+        "explain": "Tình cờ gặp phải",
+        "translatedExample": "Trong khi leo núi, họ tình cờ gặp phải một căn nhà cũ bị bỏ hoang trong rừng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does 'come across' mean?",
+          "options": {
+            "A": "Avoid",
+            "B": "Discover",
+            "C": "Destroy",
+            "D": "Ignore"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Avoid' means to stay away from. B: 'Come across' means to discover or encounter by chance. C: 'Destroy' means to damage beyond repair. D: 'Ignore' means to pay no attention to."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "It's important to bring up children in a loving and supportive environment.",
+        "explain": "Nuôi dưỡng, đề cập đến",
+        "translatedExample": "Quan trọng để nuôi dưỡng trẻ trong một môi trường yêu thương và hỗ trợ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'bring up'?",
+          "options": {
+            "A": "Raise",
+            "B": "Lower",
+            "C": "Decrease",
+            "D": "Drop"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Bring up' is synonymous with 'Raise,' meaning to care for and nurture. B: 'Lower' is the opposite, indicating a reduction in height or value. C: 'Decrease' means to lessen. D: 'Drop' means to fall or let something fall."
+        }
+      }
+    }
+  ]
+}

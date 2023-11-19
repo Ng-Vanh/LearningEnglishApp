@@ -73,7 +73,7 @@ public class MultipleChoice extends Exercise {
         this.question = question;
         this.options = options;
         this.correctAnswer = correctAnswer;
-        this.explanation = explanation;
+        this.explanation = formatExplanation(explanation);
     }
 
     public MultipleChoice(String exerciseType) {
@@ -135,7 +135,7 @@ public class MultipleChoice extends Exercise {
             String question = jsonNode.get("question").asText();
             Options options = new Options();
             String correctAnswer = jsonNode.get("correctAnswer").asText();
-            String explanation = formatExplanation(jsonNode.get("explanation").asText());
+            String explanation = jsonNode.get("explanation").asText();
 
             options.setOptionA(optionsNode.get("A").asText());
             options.setOptionB(optionsNode.get("B").asText());

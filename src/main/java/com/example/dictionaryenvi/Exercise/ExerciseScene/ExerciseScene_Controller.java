@@ -5,13 +5,8 @@ import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 import com.backend.Exercise.Utils.Exercise;
 import com.example.dictionaryenvi.Exercise.Exercises.Dictation.Dictation_Application;
 import com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoice_Application;
-import com.example.dictionaryenvi.Exercise.Utils.Scene_Controller;
 import com.example.dictionaryenvi.Exercise.Utils.TimerManager;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleIntegerProperty;
 import javafx.fxml.FXML;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
@@ -32,8 +27,9 @@ public class ExerciseScene_Controller {
     public static boolean isRunningExercise;
 
     public static int globalExerciseIndex;
-    public static int globalExerciseLiseSize;
+    public static int globalExerciseListSize;
     public static int globalScore;
+
     @FXML
     public void initialize() {
         fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
@@ -41,7 +37,7 @@ public class ExerciseScene_Controller {
         isRunningExercise = true;
         globalExerciseIndex = 0;
         globalScore = 0;
-        globalExerciseLiseSize = fullExerciseList.size();
+        globalExerciseListSize = fullExerciseList.size();
         processNextExercise();
     }
 
@@ -59,7 +55,7 @@ public class ExerciseScene_Controller {
                 showDictationScene();
             }
         } else {
-            // All exercises are finished, you can add logic here to handle this case
+            // All exercises are finished
         }
     }
 

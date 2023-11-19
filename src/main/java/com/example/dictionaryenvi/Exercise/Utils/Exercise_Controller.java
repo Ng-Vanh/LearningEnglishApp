@@ -100,7 +100,7 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     }
 
     protected void setQuestionIndexLabel() {
-        this.questionIndexLabel.setText("Question: " + (globalExerciseIndex) + "/" + globalExerciseLiseSize);
+        this.questionIndexLabel.setText("Question: " + (globalExerciseIndex) + "/" + globalExerciseListSize);
     }
 
     protected abstract void showAlert(String title, String content, boolean isCorrect);

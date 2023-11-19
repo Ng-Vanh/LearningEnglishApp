@@ -4,14 +4,18 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.fxml.FXML;
 import javafx.util.Duration;
 import javafx.scene.control.Label;
+
+import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.globalTimerLabel;
 
 public class TimerManager {
     private Timeline timer;
     private int secondsRemaining;
     private Runnable timeoutAction;
 
+    @FXML
     private Label timerLabel;
 
     public TimerManager(Label timerLabel, int durationInSeconds, Runnable timeoutAction) {
@@ -48,6 +52,7 @@ public class TimerManager {
     private void updateTimerLabel() {
         if (timerLabel != null) {
             timerLabel.setText("Time remaining: " + secondsRemaining + " seconds");
+            System.out.println(globalTimerLabel.getText());
         }
     }
 

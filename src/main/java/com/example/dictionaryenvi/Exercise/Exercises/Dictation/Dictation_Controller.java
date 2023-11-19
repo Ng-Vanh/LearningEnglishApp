@@ -10,7 +10,13 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+
+import static com.backend.Exercise.Utils.ExerciseLoader.getDictationListFromSimpleTopicWordList;
+import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
+import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.currentExercise;
+import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.globalScore;
 
 public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @FXML
@@ -22,8 +28,14 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     private boolean submitted = false;
 
     @Override
+    protected Stage getStage() {
+        return (Stage) answerTextField.getScene().getWindow();
+    }
+
+    @Override
     protected void loadExerciseFromBank() {
-        exerciseList = Dictation.loadFromBank();
+//        exerciseList = Dictation.loadFromBank();
+        exerciseList = getDictationListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
     }
 
     private void setQuestion(String question) {
@@ -39,7 +51,8 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @Override
     protected void generateQuestion() {
         timerManager.startTimer();
-        setQuestion(exerciseList.get(questionIndex));
+//        setQuestion(exerciseList.get(questionIndex));
+        setQuestion((Dictation) currentExercise);
         setScoreLabel();
         setQuestionIndexLabel();
     }
@@ -79,7 +92,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         if (userAnswer != null) {
             if (exercise.isCorrect(userAnswer)) {
                 playCorrectEffect();
-                score += 1;
+                globalScore += 1;
                 System.out.println("Correct!");
                 showAlert("Correct!", "Congrats, you got a new point!", true);
 
@@ -88,7 +101,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
                 System.out.println("Incorrect, the correct answer is " + exercise.getCorrectAnswer() + ".");
                 showAlert("Incorrect", "Sorry, the correct answer is " + "'" + exercise.getCorrectAnswer() + "'" + ".", false);
             }
-            questionIndex += 1;
             generateQuestion();
         } else {
             System.out.println("Please enter valid answer");
@@ -96,6 +108,9 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
         submitted = true;
         answerTextField.clear();
+
+        Stage stage = getStage();
+        stage.close();
     }
 
     @Override

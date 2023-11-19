@@ -13,6 +13,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import static com.backend.Exercise.Utils.ExerciseLoader.getExerciseListFromSimpleTopicWordList;
+import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
+import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
+
 public abstract class Exercise_Controller<T extends Exercise> extends Scene_Controller {
     @FXML
     protected Label timerLabel;
@@ -28,10 +32,9 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     @FXML
     protected Label questionIndexLabel;
 
-    protected int score = 0;
-    protected int questionIndex = 0;
-
     protected ArrayList<T> exerciseList;
+
+    protected ArrayList<Exercise> fullExerciseList;
 
     private MediaPlayer correctMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/correct.mp3").toString()));
     private MediaPlayer incorrectMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
@@ -58,11 +61,22 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
     @FXML
     public void initialize() {
+        fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
         loadExerciseFromBank();
         shuffleList();
 
-        timerManager = new TimerManager(timerLabel, 60, this::handleTimeout);
+        if (globalTimerLabel == null) {
+            globalTimerLabel = new Label();
+        }
+        if (globalTimerManager == null) {
+            globalTimerManager = new TimerManager(globalTimerLabel, 60, this::handleTimeout);
+        }
+
+        timerLabel.textProperty().bind(globalTimerLabel.textProperty());
+        timerManager = globalTimerManager;
+
         generateQuestion();
+
     }
 
     protected abstract void handleTimeout();
@@ -75,16 +89,18 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         Collections.shuffle(exerciseList);
     }
 
+    protected abstract Stage getStage();
+
     protected abstract void setQuestion(T exercise);
 
     protected abstract void generateQuestion();
 
     protected void setScoreLabel() {
-        this.scoreLabel.setText("Score: " + score);
+        this.scoreLabel.setText("Score: " + globalScore);
     }
 
     protected void setQuestionIndexLabel() {
-        this.questionIndexLabel.setText("Question: " + (questionIndex + 1) + "/" + exerciseList.size());
+        this.questionIndexLabel.setText("Question: " + (globalExerciseIndex) + "/" + globalExerciseLiseSize);
     }
 
     protected abstract void showAlert(String title, String content, boolean isCorrect);

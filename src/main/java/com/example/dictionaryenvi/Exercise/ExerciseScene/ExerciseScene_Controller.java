@@ -17,7 +17,6 @@ import static com.backend.Exercise.Utils.ExerciseLoader.getExerciseListFromSimpl
 import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
 
 public class ExerciseScene_Controller {
-    @FXML
     public static Label globalTimerLabel;
 
     public static TimerManager globalTimerManager;

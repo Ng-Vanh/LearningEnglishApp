@@ -210,6 +210,916 @@
           "explanation": "A: 'Tradition' implies long-standing practices. B: 'Novelty' is characteristic of trends, indicating new and popular styles. C: 'Stability' and 'Consistency' are not typically associated with trends, which are often dynamic and evolving."
         }
       }
+    },
+    {
+      "definition": {
+        "word": "Flare",
+        "type": "Noun",
+        "phonetic": "flɛər",
+        "example": "The jeans had a subtle flare at the bottom, giving them a stylish look.",
+        "explain": "Sự mở rộng, phồng",
+        "translatedExample": "Chiếc quần jeans có một sự mở rộng tinh tế ở phía dưới, tạo cho chúng một diện mạo thời trang."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Flare'?",
+          "options": {
+            "A": "Slim",
+            "B": "Expand",
+            "C": "Taper",
+            "D": "Elegant"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Slim' is the opposite of 'Flare.' B: 'Expand' is a synonym as it refers to widening or opening up. C: 'Taper' means to gradually decrease in width, opposite of 'Flare.' D: 'Elegant' refers to stylish and sophisticated, but it's not a synonym for 'Flare.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Drape",
+        "type": "Verb",
+        "phonetic": "dreɪp",
+        "example": "She skillfully draped the fabric to create an elegant evening gown.",
+        "explain": "Buông, trải",
+        "translatedExample": "Cô ấy một cách tinh tế buông vải để tạo ra một chiếc váy dạ hội thanh lịch."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Fashion designers often consider how to drape fabrics to achieve the desired silhouette.",
+          "sentenceWithBlank": "Fashion designers often consider how to ______ fabrics to achieve the desired silhouette.",
+          "wordBlank": "drape",
+          "translation": "Nhà thiết kế thời trang thường xem xét cách buông vải để đạt được hình dáng cơ bản mong muốn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Crisp",
+        "type": "Adjective",
+        "phonetic": "krɪsp",
+        "example": "His shirt had a crisp texture, adding a polished look to his outfit.",
+        "explain": "Sắc nét, giữ form",
+        "translatedExample": "Chiếc áo của anh ấy có cấu trúc sắc nét, tạo nên một diện mạo lịch lãm cho trang phục của anh ấy."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "A well-ironed shirt contributes to a _____ and tidy appearance.",
+          "options": {
+            "A": "Crumpled",
+            "B": "Crisp",
+            "C": "Wrinkled",
+            "D": "Untidy"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Crumpled' and 'Wrinkled' are opposites of 'Crisp.' B: 'Crisp' means neat and well-structured. C: 'Wrinkled' is the opposite, indicating creases on the fabric. D: 'Untidy' is a general term for a disheveled appearance."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hem",
+        "type": "Noun",
+        "phonetic": "hɛm",
+        "example": "She decided to shorten the hem of her dress for a more modern look.",
+        "explain": "Gấp mép, lượn sóng",
+        "translatedExample": "Cô ấy quyết định rút ngắn gấp mép của chiếc váy để có diện mạo hiện đại hơn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Hem'?",
+          "options": {
+            "A": "Unfinished",
+            "B": "Stitch",
+            "C": "Seam",
+            "D": "Border"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Unfinished' is the opposite of a finished and neatly sewn 'Hem.' B: 'Stitch' and 'Seam' are related terms but not antonyms. C: 'Seam' is where two pieces of fabric are joined. D: 'Border' is a different concept related to the edge of a fabric or garment."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Velvet",
+        "type": "Noun",
+        "phonetic": "ˈvɛlvɪt",
+        "example": "The dress was made from luxurious velvet, giving it a rich and soft feel.",
+        "explain": "Vải nhung",
+        "translatedExample": "Chiếc váy được làm từ vải nhung sang trọng, tạo cảm giác mềm mại và giàu có."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Velvet is often associated with elegance and is used for creating luxurious garments.",
+          "sentenceWithBlank": "______ is often associated with elegance and is used for creating luxurious garments.",
+          "wordBlank": "Velvet",
+          "translation": "Vải nhung thường được liên kết với sự thanh lịch và được sử dụng để tạo ra các trang phục sang trọng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chiffon",
+        "type": "Noun",
+        "phonetic": "ʃɪˈfɒn",
+        "example": "Her evening gown was made from light and airy chiffon fabric.",
+        "explain": "Vải lụa nhẹ",
+        "translatedExample": "Chiếc váy dạ hội của cô ấy được làm từ loại vải lụa nhẹ và thoáng đãng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Chiffon'?",
+          "options": {
+            "A": "Velvet",
+            "B": "Satin",
+            "C": "Silk",
+            "D": "Denim"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Velvet' is a different fabric. B: 'Satin' is another fabric but not a synonym for 'Chiffon.' C: 'Silk' is a synonym, as both are lightweight and often used in elegant garments. D: 'Denim' is a sturdy fabric used for casual wear."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Loom",
+        "type": "Noun",
+        "phonetic": "luːm",
+        "example": "The weaver used a traditional loom to create a beautiful pattern in the fabric.",
+        "explain": "Cái cơ, máy dệt",
+        "translatedExample": "Người dệt sử dụng một cái cơ truyền thống để tạo ra một họa tiết đẹp trên vải."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A loom is a device used for weaving fabrics by interlacing threads in a specific pattern.",
+          "sentenceWithBlank": "A ____ is a device used for weaving fabrics by interlacing threads in a specific pattern.",
+          "wordBlank": "loom",
+          "translation": "Một cái cơ là một thiết bị được sử dụng để dệt vải bằng cách nối các sợi với nhau theo một mô hình cụ thể."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cowl",
+        "type": "Noun",
+        "phonetic": "kaʊl",
+        "example": "The sweater had a large cowl neck, providing warmth and style.",
+        "explain": "Cổ áo lớn, che mặt",
+        "translatedExample": "Chiếc áo len có cổ áo lớn, mang lại sự ấm áp và phong cách."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cowl'?",
+          "options": {
+            "A": "Turtleneck",
+            "B": "Hood",
+            "C": "Scoop",
+            "D": "V-neck"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Turtleneck' and 'Hood' are related to neck coverings. B: 'Scoop' is a neckline style but not an antonym. D: 'V-neck' is the antonym as it refers to a neckline that dips down in a V shape."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Embroider",
+        "type": "Verb",
+        "phonetic": "ɪmˈbrɔɪdər",
+        "example": "She decided to embroider flowers on the collar of the blouse for a personalized touch.",
+        "explain": "Thêu",
+        "translatedExample": "Cô ấy quyết định thêu hoa trên cổ áo blusa để tạo điểm nhấn cá nhân."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Many traditional garments are adorned with intricately embroidered patterns for added beauty.",
+          "sentenceWithBlank": "Many traditional garments are adorned with intricately ________ patterns for added beauty.",
+          "wordBlank": "embroidered",
+          "translation": "Nhiều trang phục truyền thống được trang trí bằng các hoa văn được thêu tinh tế để làm đẹp thêm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Linen",
+        "type": "Noun",
+        "phonetic": "ˈlɪnən",
+        "example": "The summer dress was made from breathable linen fabric, perfect for hot days.",
+        "explain": "Vải lanh",
+        "translatedExample": "Chiếc váy hè được làm từ loại vải lanh thoáng khí, hoàn hảo cho những ngày nóng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "Linen is known for its ________ and breathable qualities.",
+          "options": {
+            "A": "Heavy",
+            "B": "Stiff",
+            "C": "Soft",
+            "D": "Smooth"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Heavy' and 'Stiff' are opposite qualities of 'Linen.' B: 'Smooth' is related but not the main characteristic. C: 'Soft' describes the comfortable and soft nature of linen fabric."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sequin",
+        "type": "Noun",
+        "phonetic": "ˈsiːkwɪn",
+        "example": "Her evening gown sparkled with every step, adorned with sequins.",
+        "explain": "Viên sequin, hạt trang sức nhỏ",
+        "translatedExample": "Chiếc váy dạ hội của cô ấy lấp lánh mỗi bước đi, trang trí bằng các viên sequin."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Sequin'?",
+          "options": {
+            "A": "Bead",
+            "B": "Thread",
+            "C": "Ribbon",
+            "D": "Lace"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Bead' is a small decorative object, similar to a 'Sequin.' B: 'Thread' is a different material used in sewing. C: 'Ribbon' is a fabric strip. D: 'Lace' is a delicate fabric with an openwork design."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tailor",
+        "type": "Noun",
+        "phonetic": "ˈteɪlər",
+        "example": "The tailor carefully measured and crafted a bespoke suit for the client.",
+        "explain": "Người may mặc",
+        "translatedExample": "Người may mặc đo lường và chế tác một bộ suit độc quyền cẩn thận cho khách hàng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A skilled tailor can transform a piece of fabric into a perfectly fitted garment.",
+          "sentenceWithBlank": "A skilled ________ can transform a piece of fabric into a perfectly fitted garment.",
+          "wordBlank": "tailor",
+          "translation": "Một người may mặc tài năng có thể biến một tấm vải thành một trang phục vừa vặn hoàn hảo."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tulle",
+        "type": "Noun",
+        "phonetic": "tuːl",
+        "example": "The wedding dress had a layer of delicate tulle, creating a romantic and ethereal look.",
+        "explain": "Lưới mảnh, vải ren nhẹ",
+        "translatedExample": "Chiếc váy cưới có một lớp tulle tinh tế, tạo nên một diện mạo lãng mạn và huyền bí."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Tulle is often used in bridal attire for its lightweight and sheer qualities.",
+          "sentenceWithBlank": "______ is often used in bridal attire for its lightweight and sheer qualities.",
+          "wordBlank": "Tulle",
+          "translation": "Lưới mảnh thường được sử dụng trong trang phục cưới vì độ nhẹ và trong suốt của nó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Brocade",
+        "type": "Noun",
+        "phonetic": "brəʊˈkeɪd",
+        "example": "The royal gown was adorned with intricate brocade patterns, showcasing exquisite craftsmanship.",
+        "explain": "Vải ren có hoa văn",
+        "translatedExample": "Chiếc váy hoàng gia được trang trí bằng các hoa văn ren phức tạp, thể hiện sự khéo léo trong nghệ thuật."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Brocade'?",
+          "options": {
+            "A": "Plain",
+            "B": "Embroidered",
+            "C": "Patterned",
+            "D": "Textured"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Plain' is the antonym, indicating a lack of intricate patterns. B: 'Embroidered' is related but not opposite. C: 'Patterned' and 'Textured' are similar to 'Brocade.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cinch",
+        "type": "Verb",
+        "phonetic": "sɪntʃ",
+        "example": "She used a stylish belt to cinch the waist of her dress.",
+        "explain": "Siết chặt, buộc chặt",
+        "translatedExample": "Cô ấy sử dụng một chiếc belt thời trang để siết chặt vòng eo của chiếc váy."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cinch'?",
+          "options": {
+            "A": "Loosen",
+            "B": "Secure",
+            "C": "Fasten",
+            "D": "Tighten"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Loosen' is the opposite of 'Cinch.' B: 'Secure' and 'Fasten' are related but not synonyms. D: 'Tighten' is a synonym, as it means to make something tight or secure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Houndstooth",
+        "type": "Noun",
+        "phonetic": "haʊndztuːθ",
+        "example": "The classic pattern of houndstooth was featured on the tailored blazer.",
+        "explain": "Họa tiết chó săn",
+        "translatedExample": "Họa tiết chó săn cổ điển xuất hiện trên chiếc blazer được may đo."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Houndstooth is a distinctive pattern characterized by broken checks, often in black and white.",
+          "sentenceWithBlank": "______ is a distinctive pattern characterized by broken checks, often in black and white.",
+          "wordBlank": "Houndstooth",
+          "translation": "Họa tiết chó săn là một họa tiết đặc biệt được đặc trưng bởi những ô kiểm hỏng, thường là màu đen và trắng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pleat",
+        "type": "Noun",
+        "phonetic": "pliːt",
+        "example": "The skirt had elegant pleats that added movement and flair.",
+        "explain": "Nếp gấp, đường gấp",
+        "translatedExample": "Chiếc váy có những nếp gấp thanh lịch, tạo thêm sự linh hoạt và phô trương."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Pleat'?",
+          "options": {
+            "A": "Fold",
+            "B": "Ruffle",
+            "C": "Crease",
+            "D": "Smooth"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Fold' and 'Crease' are related to 'Pleat.' B: 'Ruffle' is similar but not an antonym. D: 'Smooth' is the opposite, indicating a lack of folds or wrinkles."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gingham",
+        "type": "Noun",
+        "phonetic": "ˈɡɪŋəm",
+        "example": "The summer dress featured a cheerful gingham pattern in blue and white.",
+        "explain": "Họa tiết kẻ ô",
+        "translatedExample": "Chiếc váy hè có họa tiết kẻ ô vui tươi trong màu xanh và trắng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Gingham'?",
+          "options": {
+            "A": "Plaid",
+            "B": "Stripes",
+            "C": "Polka dots",
+            "D": "Chevron"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Plaid' is a synonym for 'Gingham' as both refer to checked patterns. B: 'Stripes,' 'Polka dots,' and 'Chevron' are different patterns."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Miter",
+        "type": "Noun",
+        "phonetic": "ˈmaɪtər",
+        "example": "The corners of the tablecloth were neatly finished with mitered edges.",
+        "explain": "Góc 45 độ cắt nối",
+        "translatedExample": "Các góc của tấm trải bàn được hoàn thiện gọn gàng với các mép cắt nối 45 độ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A miter is a joint or seam formed by beveling or cutting two pieces at an angle to join them.",
+          "sentenceWithBlank": "A ______ is a joint or seam formed by beveling or cutting two pieces at an angle to join them.",
+          "wordBlank": "miter",
+          "translation": "Một đường cắt nối là một đường nối hoặc đường may được tạo ra bằng cách phôi hoặc cắt hai mảnh theo một góc để nối chúng lại."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sash",
+        "type": "Noun",
+        "phonetic": "sæʃ",
+        "example": "She wore a silk sash around her waist as an elegant accessory to the evening gown.",
+        "explain": "Dải vải, dải ruy băng",
+        "translatedExample": "Cô ấy đeo một dải vải lụa quanh eo như một phụ kiện thanh lịch cho chiếc váy dạ hội."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "A ____ is a decorative band or ribbon worn around the waist or across the body.",
+          "options": {
+            "A": "Cinch",
+            "B": "Sash",
+            "C": "Pleat",
+            "D": "Gingham"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Cinch' is a verb meaning to tighten. C: 'Pleat' is a type of fold in fabric. D: 'Gingham' is a pattern, not a decorative band."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fedora",
+        "type": "Noun",
+        "phonetic": "fɪˈdɔːrə",
+        "example": "He tipped his fedora as a gesture of greeting.",
+        "explain": "Mũ fedora, mũ trilby",
+        "translatedExample": "Anh ấy nghiêng nón fedora làm điệu bộ chào hỏi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A fedora is a stylish felt hat with a wide brim and indented crown, typically worn tilted.",
+          "sentenceWithBlank": "A ______ is a stylish felt hat with a wide brim and indented crown, typically worn tilted.",
+          "wordBlank": "fedora",
+          "translation": "Mũ fedora là một chiếc mũ fe nhìn sang trọng với mép rộng và đỉnh nón có rãnh, thường được đeo nghiêng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Lapel",
+        "type": "Noun",
+        "phonetic": "ləˈpel",
+        "example": "His suit jacket had a notched lapel, giving it a classic and sophisticated look.",
+        "explain": "Revers, cổ áo khoác",
+        "translatedExample": "Chiếc áo khoác suit của anh ấy có một revers rãnh, mang lại vẻ ngoại cổ và tinh tế."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Lapel'?",
+          "options": {
+            "A": "Collar",
+            "B": "Sleeve",
+            "C": "Cuff",
+            "D": "Button"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Collar' is related to 'Lapel.' C: 'Cuff' is also a part of a garment but not an antonym. D: 'Button' is not related to the neckline of a jacket."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tunic",
+        "type": "Noun",
+        "phonetic": "ˈtjuːnɪk",
+        "example": "She paired leggings with a long tunic for a comfortable and stylish look.",
+        "explain": "Áo dài, áo trải dài đến đùi",
+        "translatedExample": "Cô ấy kết hợp legging với một chiếc áo dài để có vẻ ngoại cổ và thoải mái."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A tunic is a loose-fitting garment that extends to the thighs and is often worn with leggings or trousers.",
+          "sentenceWithBlank": "A ______ is a loose-fitting garment that extends to the thighs and is often worn with leggings or trousers.",
+          "wordBlank": "tunic",
+          "translation": "Một chiếc áo dài là một trang phục rộng rãi mà trải dài đến đùi và thường được đeo cùng với legging hoặc quần."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mules",
+        "type": "Noun",
+        "phonetic": "myoolz",
+        "example": "She chose a pair of stylish mules to complete her summer ensemble.",
+        "explain": "Dép quai mở sau, dép xỏ ngón",
+        "translatedExample": "Cô ấy chọn một đôi mules thời trang để hoàn thiện bộ trang phục hè của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Mules'?",
+          "options": {
+            "A": "Sneakers",
+            "B": "Sandals",
+            "C": "Boots",
+            "D": "Slippers"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Sneakers' and 'Sandals' are not antonyms. B: 'Sandals' is a related term but not opposite. C: 'Boots' are the antonym, as they cover the foot and usually have a higher shaft. D: 'Slippers' are not opposite to 'Mules.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Poncho",
+        "type": "Noun",
+        "phonetic": "ˈpɒn.tʃəʊ",
+        "example": "In cooler weather, she wore a cozy poncho for warmth and style.",
+        "explain": "Áo choàng không tay, áo dạ quàng vai",
+        "translatedExample": "Trong thời tiết se lạnh, cô ấy mặc một chiếc poncho ấm áp và thời trang."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A poncho is a loose, sleeveless garment that is often worn as a protective layer against the weather.",
+          "sentenceWithBlank": "A ______ is a loose, sleeveless garment that is often worn as a protective layer against the weather.",
+          "wordBlank": "poncho",
+          "translation": "Một chiếc poncho là một trang phục rộng rãi, không tay thường được mặc như một lớp bảo vệ chống lại thời tiết."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fringe",
+        "type": "Noun",
+        "phonetic": "frɪndʒ",
+        "example": "The jacket was adorned with fringe along the sleeves, adding a bohemian touch.",
+        "explain": "Ruy băng, sợi dính",
+        "translatedExample": "Chiếc áo khoác được trang trí với ruy băng dọc theo tay áo, thêm một chút hồn Bohemian."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Fringe'?",
+          "options": {
+            "A": "Lace",
+            "B": "Trim",
+            "C": "Beads",
+            "D": "Embroidery"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Lace' is a different embellishment. B: 'Trim' is a synonym, as both refer to decorative edges. C: 'Beads' are small decorative objects. D: 'Embroidery' is a form of stitching, not exactly synonymous with 'Fringe.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tweed",
+        "type": "Noun",
+        "phonetic": "twiːd",
+        "example": "The professor wore a classic tweed jacket, embodying a timeless and scholarly style.",
+        "explain": "Vải tweed, vải len dạ",
+        "translatedExample": "Giáo sư mặc một chiếc áo khoác tweed cổ điển, thể hiện phong cách vĩnh cửu và học thuật."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Tweed is a rough-textured woolen fabric often used for jackets and suits.",
+          "sentenceWithBlank": "______ is a rough-textured woolen fabric often used for jackets and suits.",
+          "wordBlank": "Tweed",
+          "translation": "Vải tweed là một loại vải len dạ có cấu trúc rough thường được sử dụng cho áo khoác và suits."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Corset",
+        "type": "Noun",
+        "phonetic": "ˈkɔːr.set",
+        "example": "In the Victorian era, women often wore corsets to achieve an hourglass figure.",
+        "explain": "Xỏ đai, áo ngực",
+        "translatedExample": "Trong thời kỳ Victoria, phụ nữ thường xuyên mặc corset để có được hình dáng cát lợi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "A _____ is a tightly fitting undergarment designed to shape and support the torso.",
+          "options": {
+            "A": "Fringe",
+            "B": "Corset",
+            "C": "Poncho",
+            "D": "Mules"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Fringe' is a decorative element. C: 'Poncho' is a loose outer garment. D: 'Mules' are a type of footwear. The correct answer is 'Corset,' which is a tight-fitting undergarment."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Ascot",
+        "type": "Noun",
+        "phonetic": "ˈæs.kət",
+        "example": "He wore an ascot with his suit, giving a sophisticated and refined touch to his attire.",
+        "explain": "Nơ cravat dạ",
+        "translatedExample": "Anh ấy đeo một chiếc ascot với bộ suit, tạo nên một nét tinh tế và tao nhã cho trang phục của mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "An ascot is a type of necktie or cravat that is wider than a typical necktie and often worn with formal attire.",
+          "sentenceWithBlank": "An ______ is a type of necktie or cravat that is wider than a typical necktie and often worn with formal attire.",
+          "wordBlank": "ascot",
+          "translation": "Một chiếc ascot là một loại nơ cravat cổ rộng hơn so với một chiếc nơ cravat cổ thông thường và thường được đeo với trang phục lịch sự."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sequin",
+        "type": "Noun",
+        "phonetic": "ˈsiː.kwɪn",
+        "example": "The evening gown sparkled with every movement, adorned with sequins.",
+        "explain": "Viên sequin, viên nhựa trang trí",
+        "translatedExample": "Chiếc váy dạ hội lấp lánh mỗi khi di chuyển, được trang trí bằng những viên sequin."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Sequin'?",
+          "options": {
+            "A": "Bead",
+            "B": "Lace",
+            "C": "Ribbon",
+            "D": "Thread"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Bead' is a synonym for 'Sequin' as both are small decorative objects. B: 'Lace,' 'Ribbon,' and 'Thread' are different materials used in fashion."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Halter",
+        "type": "Noun",
+        "phonetic": "ˈhɒl.tər",
+        "example": "The dress had a halter neckline, showcasing an elegant and alluring design.",
+        "explain": "Cổ áo dạng dây đeo sau cổ",
+        "translatedExample": "Chiếc váy có một cổ áo dạng dây đeo sau cổ, thể hiện một thiết kế thanh lịch và quyến rũ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A halter neckline is characterized by straps or a single strap that fastens behind the neck, leaving the shoulders and upper back exposed.",
+          "sentenceWithBlank": "A ______ neckline is characterized by straps or a single strap that fastens behind the neck, leaving the shoulders and upper back exposed.",
+          "wordBlank": "halter",
+          "translation": "Một cổ áo dạng dây đeo sau cổ được đặc trưng bởi dây đeo hoặc một dây đeo duy nhất được fasten phía sau cổ, để lộ phần vai và phía trên lưng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sashay",
+        "type": "Verb",
+        "phonetic": "sæˈʃeɪ",
+        "example": "She sashayed down the runway, showcasing the designer's latest collection.",
+        "explain": "Đi bộ với sự tự tin và duyên dáng, nhất là khi diễu hành",
+        "translatedExample": "Cô ấy đi bộ với sự tự tin và duyên dáng trên sàn diễn, trình bày bộ sưu tập mới nhất của nhà thiết kế."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is a synonym for 'Sashay'?",
+          "options": {
+            "A": "Stride",
+            "B": "Stumble",
+            "C": "March",
+            "D": "Hesitate"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Stride' is a synonym for 'Sashay' as both imply confident and stylish walking. B: 'Stumble' is the opposite. C: 'March' is a different style of walking. D: 'Hesitate' is also the opposite of confident walking."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Brocade",
+        "type": "Noun",
+        "phonetic": "brəˈkeɪd",
+        "example": "The gown was made of luxurious brocade, featuring intricate patterns woven into the fabric.",
+        "explain": "Vải lụa hoa văn, vải lụa có hoa văn phức tạp",
+        "translatedExample": "Chiếc váy được làm từ loại brocade xa xỉ, với những hoa văn phức tạp được dệt vào vải."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Brocade is a richly decorative fabric, often made of silk, with raised patterns woven in a contrasting color.",
+          "sentenceWithBlank": "______ is a richly decorative fabric, often made of silk, with raised patterns woven in a contrasting color.",
+          "wordBlank": "Brocade",
+          "translation": "Brocade là một loại vải trang trí phong cách, thường được làm từ lụa, với những hoa văn nổi được dệt vào vải có màu tương phản."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tulle",
+        "type": "Noun",
+        "phonetic": "tʊl",
+        "example": "The ballerina's tutu was made of layers of delicate tulle, creating a ethereal effect on stage.",
+        "explain": "Vải mảnh và nhẹ, thường được sử dụng để làm váy xòe, váy cưới, v.v.",
+        "translatedExample": "Chiếc váy tutu của nữ vũ công ba lê được làm từ nhiều lớp tulle mảnh mẻ, tạo nên hiệu ứng thuần thục trên sân khấu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Tulle'?",
+          "options": {
+            "A": "Silk",
+            "B": "Denim",
+            "C": "Satin",
+            "D": "Velvet"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Silk,' 'Satin,' and 'Velvet' are related materials. B: 'Denim' is the antonym, as it is a sturdy and coarse fabric, unlike delicate 'Tulle.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Espadrille",
+        "type": "Noun",
+        "phonetic": "ˌɛs.pəˈdrɪl",
+        "example": "For a casual day out, she chose comfortable espadrilles to pair with her summer dress.",
+        "explain": "Dép xỏ dây hoặc giày cao gót với đế từ dây dẻo hoặc lụa",
+        "translatedExample": "Cho một ngày đi chơi thoải mái, cô ấy chọn những đôi espadrille thoải mái để phối hợp với chiếc váy hè của mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "Espadrilles are casual shoes with a canvas or cotton upper and a flexible sole made of rope or rubber.",
+          "sentenceWithBlank": "______ are casual shoes with a canvas or cotton upper and a flexible sole made of rope or rubber.",
+          "wordBlank": "Espadrilles",
+          "translation": "Espadrilles là những đôi giày thoải mái với phần upper là vải canvas hoặc bông và đế dẻo làm từ dây hoặc cao su."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gauze",
+        "type": "Noun",
+        "phonetic": "ɡɔːz",
+        "example": "The summer dress had a light and airy feel, thanks to the use of breathable gauze fabric.",
+        "explain": "Vải gauze, vải mỏng và thoáng khí",
+        "translatedExample": "Chiếc váy hè có cảm giác nhẹ nhàng và thoải mái, nhờ vào việc sử dụng loại vải gauze có khả năng thoáng khí."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "Gauze is a fabric known for its _____ and breathable qualities.",
+          "options": {
+            "A": "Heavy",
+            "B": "Opaque",
+            "C": "Thin",
+            "D": "Velvety"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Heavy' is the opposite. B: 'Opaque' refers to fabrics that do not allow light to pass through. C: 'Thin' is the correct answer, as gauze is a lightweight fabric. D: 'Velvety' describes a texture, not the characteristic of gauze."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fedora",
+        "type": "Noun",
+        "phonetic": "fɪˈdɔːrə",
+        "example": "He tipped his fedora as a gesture of courtesy when entering the room.",
+        "explain": "Mũ fedora, mũ nam phổ biến với đỉnh nhấn và viền rộng",
+        "translatedExample": "Anh ấy nghiêng mũ fedora của mình như một cử chỉ lịch sự khi bước vào phòng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A fedora is a stylish hat for men, typically with a creased crown and a wide brim.",
+          "sentenceWithBlank": "A ______ is a stylish hat for men, typically with a creased crown and a wide brim.",
+          "wordBlank": "fedora",
+          "translation": "Mũ fedora là một loại mũ nam thời trang, thường có đỉnh nhấn và viền rộng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cinch",
+        "type": "Verb",
+        "phonetic": "sɪntʃ",
+        "example": "To cinch a dress at the waist, she used a stylish belt with a decorative buckle.",
+        "explain": "Buộc chặt, làm chật lại với dây hoặc dây lưng",
+        "translatedExample": "Để làm chật lại chiếc váy ở eo, cô ấy sử dụng một chiếc dây lưng thời trang với khóa trang trí."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cinch'?",
+          "options": {
+            "A": "Loosen",
+            "B": "Secure",
+            "C": "Fasten",
+            "D": "Tighten"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Loosen' is the antonym, as it means to make something less tight. B: 'Secure' and 'Fasten' are synonyms for 'Cinch.' D: 'Tighten' is the opposite action of 'Loosen.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Peplum",
+        "type": "Noun",
+        "phonetic": "ˈpɛpləm",
+        "example": "The blouse featured a peplum, adding a flared and decorative detail at the waist.",
+        "explain": "Vạt áo xòe ở eo, thường để tạo kiểu váy xòe",
+        "translatedExample": "Chiếc áo blouse có vạt áo peplum, thêm một chi tiết xòe và trang trí ở eo."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+		  "type": "Dictation",
+          "sentence": "A peplum is a flared ruffle attached to the waistline of a garment, often seen in dresses and blouses.",
+          "sentenceWithBlank": "A ______ is a flared ruffle attached to the waistline of a garment, often seen in dresses and blouses.",
+          "wordBlank": "peplum",
+          "translation": "Vạt áo peplum là một lớp vạt xòe được gắn vào đường eo của một chiếc trang phục, thường thấy trên váy và áo blouse."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chiffon",
+        "type": "Noun",
+        "phonetic": "ʃɪˈfɒn",
+        "example": "The evening gown was made of flowing chiffon, creating an elegant and graceful silhouette.",
+        "explain": "Vải chiffon, vải mỏng và mềm, thường được sử dụng để làm váy dạ hội",
+        "translatedExample": "Chiếc váy dạ hội được làm từ loại vải chiffon mềm mại và lươn lẹo, tạo nên hình bóng thanh lịch và duyên dáng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+		  "type": "MultipleChoice",
+          "question": "Chiffon is known for its _____ and soft texture, often used in evening gowns and elegant attire.",
+          "options": {
+            "A": "Stiff",
+            "B": "Opaque",
+            "C": "Flowing",
+            "D": "Heavy"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Stiff' is the opposite. B: 'Opaque' refers to fabrics that do not allow light to pass through. C: 'Flowing' is the correct answer, as chiffon has a light and flowing texture. D: 'Heavy' is the opposite of chiffon's characteristic."
+        }
+      }
     }
   ]
 }

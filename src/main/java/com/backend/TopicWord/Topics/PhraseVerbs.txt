@@ -240,6 +240,2011 @@
           "explanation": "A: 'Bring up' is synonymous with 'Raise,' meaning to care for and nurture. B: 'Lower' is the opposite, indicating a reduction in height or value. C: 'Decrease' means to lessen. D: 'Drop' means to fall or let something fall."
         }
       }
+    },
+    {
+      "definition": {
+        "word": "Look into",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈɪntuː",
+        "example": "The detective decided to look into the mysterious case of the missing artifacts.",
+        "explain": "Nghiên cứu, điều tra",
+        "translatedExample": "Nhà điều tra quyết định nghiên cứu vụ án bí ẩn về các tác phẩm nghệ thuật bị mất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the phrasal verb 'Look into' mean?",
+          "options": {
+            "A": "Look closely",
+            "B": "Investigate",
+            "C": "Ignore",
+            "D": "Look away"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Look closely' is a literal interpretation. B: 'Investigate' is the correct meaning of 'Look into' when referring to examining or researching a subject. C: 'Ignore' is the opposite meaning. D: 'Look away' is unrelated to investigation."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "During the meeting, she decided to bring up the issue of workplace equality.",
+        "explain": "Nêu lên, đề cập đến",
+        "translatedExample": "Trong cuộc họp, cô quyết định nêu lên vấn đề về sự bình đẳng tại nơi làm việc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bring up'?",
+          "options": {
+            "A": "Bring in",
+            "B": "Raise",
+            "C": "Put down",
+            "D": "Pick up"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Bring in' is different and implies bringing something inside. B: 'Raise' is a synonym for 'Bring up' when it means to mention or introduce a topic. C: 'Put down' has the opposite meaning. D: 'Pick up' is unrelated to introducing a topic."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Call off",
+        "type": "Phrasal Verb",
+        "phonetic": "kɔːl ɒf",
+        "example": "Due to bad weather, they had to call off the outdoor event.",
+        "explain": "Hủy bỏ, ngưng",
+        "translatedExample": "Do thời tiết xấu, họ phải hủy bỏ sự kiện ngoại ô."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Call off'?",
+          "options": {
+            "A": "Carry on",
+            "B": "Hold up",
+            "C": "Continue",
+            "D": "Put off"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Carry on' is different and means to proceed. B: 'Hold up' is also different, meaning to delay. C: 'Continue' is the antonym for 'Call off,' indicating the opposite action of not canceling. D: 'Put off' is a synonym for 'Call off.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break up",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk ʌp",
+        "example": "The rock band decided to break up after their final tour.",
+        "explain": "Chia tay, tan rã",
+        "translatedExample": "Ban nhạc rock quyết định chia tay sau tour cuối cùng của họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After years of being together, the couple decided to break up and go their separate ways.",
+          "sentenceWithBlank": "After years of being together, the couple decided to break ____ and go their separate ways.",
+          "wordBlank": "up",
+          "translation": "Sau nhiều năm ở bên nhau, cặp đôi quyết định chia tay và đi đường riêng của họ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut off",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌt ɒf",
+        "example": "Due to the storm, the island was cut off from the mainland for several days.",
+        "explain": "Tách rời, cô lập",
+        "translatedExample": "Do cơn bão, hòn đảo bị tách rời từ đất liền trong vài ngày."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the power outage, the entire neighborhood was cut off from electricity.",
+          "sentenceWithBlank": "During the power outage, the entire neighborhood was cut ____ from electricity.",
+          "wordBlank": "off",
+          "translation": "Trong thời gian mất điện, toàn bộ khu phố bị tách rời khỏi điện."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn down",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːn daʊn",
+        "example": "He had to turn down the job offer due to personal reasons.",
+        "explain": "Từ chối, bác bỏ",
+        "translatedExample": "Anh ta phải từ chối đề nghị việc làm vì lý do cá nhân."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Turn down'?",
+          "options": {
+            "A": "Accept",
+            "B": "Reject",
+            "C": "Approve",
+            "D": "Turn up"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Accept' is the opposite. B: 'Reject' is a synonym for 'Turn down' when referring to declining an offer. C: 'Approve' is the opposite. D: 'Turn up' is unrelated and means to arrive or increase in volume."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run out",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn aʊt",
+        "example": "We need to go to the store; we've run out of milk.",
+        "explain": "Hết, cạn kiệt",
+        "translatedExample": "Chúng ta cần phải đến cửa hàng; chúng ta đã hết sữa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the camping trip, they realized they had run out of water and needed to find a nearby stream.",
+          "sentenceWithBlank": "During the camping trip, they realized they had run ____ of water and needed to find a nearby stream.",
+          "wordBlank": "out",
+          "translation": "Trong chuyến đi cắm trại, họ nhận ra họ đã hết nước và cần tìm một dòng suối gần đó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Come across",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌm əˈkrɒs",
+        "example": "While hiking, they came across an old abandoned cabin in the woods.",
+        "explain": "Tình cờ gặp phải",
+        "translatedExample": "Trong khi leo núi, họ tình cờ gặp phải một căn nhà cũ bỏ hoang trong rừng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Come across'?",
+          "options": {
+            "A": "Find",
+            "B": "Stumble upon",
+            "C": "Lose",
+            "D": "Discover"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Find' is similar in meaning. B: 'Stumble upon' is a synonym. C: 'Lose' is the opposite of 'Come across.' D: 'Discover' is similar in meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Show up",
+        "type": "Phrasal Verb",
+        "phonetic": "ʃoʊ ʌp",
+        "example": "Despite the heavy rain, she managed to show up at the party.",
+        "explain": "Xuất hiện, đến",
+        "translatedExample": "Mặc dù trời mưa to, cô ấy vẫn xuất hiện tại bữa tiệc."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Even though he promised to show up at the meeting, he was nowhere to be found when it started.",
+          "sentenceWithBlank": "Even though he promised to show ____ at the meeting, he was nowhere to be found when it started.",
+          "wordBlank": "up",
+          "translation": "Mặc dù anh ta hứa sẽ xuất hiện tại cuộc họp, nhưng không đâu có mặt khi nó bắt đầu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Give up",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɪv ʌp",
+        "example": "Despite facing challenges, she refused to give up on her dream of becoming a scientist.",
+        "explain": "Từ bỏ, từ chối",
+        "translatedExample": "Mặc dù đối mặt với thách thức, cô từ chối từ bỏ ước mơ trở thành một nhà khoa học."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Give up'?",
+          "options": {
+            "A": "Hold on",
+            "B": "Surrender",
+            "C": "Persist",
+            "D": "Continue"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hold on' is the opposite. B: 'Surrender' is a synonym for 'Give up' when referring to yielding or quitting. C: 'Persist' is the opposite. D: 'Continue' is unrelated and means to keep going."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look into",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈɪntuː",
+        "example": "The detective decided to look into the mysterious case of the missing artifacts.",
+        "explain": "Nghiên cứu, điều tra",
+        "translatedExample": "Nhà điều tra quyết định nghiên cứu vụ án bí ẩn về các tác phẩm nghệ thuật bị mất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the phrasal verb 'Look into' mean?",
+          "options": {
+            "A": "Look closely",
+            "B": "Investigate",
+            "C": "Ignore",
+            "D": "Look away"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Look closely' is a literal interpretation. B: 'Investigate' is the correct meaning of 'Look into' when referring to examining or researching a subject. C: 'Ignore' is the opposite meaning. D: 'Look away' is unrelated to investigation."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "During the meeting, she decided to bring up the issue of workplace equality.",
+        "explain": "Nêu lên, đề cập đến",
+        "translatedExample": "Trong cuộc họp, cô quyết định nêu lên vấn đề về sự bình đẳng tại nơi làm việc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bring up'?",
+          "options": {
+            "A": "Bring in",
+            "B": "Raise",
+            "C": "Put down",
+            "D": "Pick up"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Bring in' is different and implies bringing something inside. B: 'Raise' is a synonym for 'Bring up' when it means to mention or introduce a topic. C: 'Put down' has the opposite meaning. D: 'Pick up' is unrelated to introducing a topic."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Call off",
+        "type": "Phrasal Verb",
+        "phonetic": "kɔːl ɒf",
+        "example": "Due to bad weather, they had to call off the outdoor event.",
+        "explain": "Hủy bỏ, ngưng",
+        "translatedExample": "Do thời tiết xấu, họ phải hủy bỏ sự kiện ngoại ô."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Call off'?",
+          "options": {
+            "A": "Carry on",
+            "B": "Hold up",
+            "C": "Continue",
+            "D": "Put off"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Carry on' is different and means to proceed. B: 'Hold up' is also different, meaning to delay. C: 'Continue' is the antonym for 'Call off,' indicating the opposite action of not canceling. D: 'Put off' is a synonym for 'Call off.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break up",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk ʌp",
+        "example": "The rock band decided to break up after their final tour.",
+        "explain": "Chia tay, tan rã",
+        "translatedExample": "Ban nhạc rock quyết định chia tay sau tour cuối cùng của họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After years of being together, the couple decided to break up and go their separate ways.",
+          "sentenceWithBlank": "After years of being together, the couple decided to break ____ and go their separate ways.",
+          "wordBlank": "up",
+          "translation": "Sau nhiều năm ở bên nhau, cặp đôi quyết định chia tay và đi đường riêng của họ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut off",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌt ɒf",
+        "example": "Due to the storm, the island was cut off from the mainland for several days.",
+        "explain": "Tách rời, cô lập",
+        "translatedExample": "Do cơn bão, hòn đảo bị tách rời từ đất liền trong vài ngày."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the power outage, the entire neighborhood was cut off from electricity.",
+          "sentenceWithBlank": "During the power outage, the entire neighborhood was cut ____ from electricity.",
+          "wordBlank": "off",
+          "translation": "Trong thời gian mất điện, toàn bộ khu phố bị tách rời khỏi điện."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn down",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːn daʊn",
+        "example": "He had to turn down the job offer due to personal reasons.",
+        "explain": "Từ chối, bác bỏ",
+        "translatedExample": "Anh ta phải từ chối đề nghị việc làm vì lý do cá nhân."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Turn down'?",
+          "options": {
+            "A": "Accept",
+            "B": "Reject",
+            "C": "Approve",
+            "D": "Turn up"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Accept' is the opposite. B: 'Reject' is a synonym for 'Turn down' when referring to declining an offer. C: 'Approve' is the opposite. D: 'Turn up' is unrelated and means to arrive or increase in volume."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run out",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn aʊt",
+        "example": "We need to go to the store; we've run out of milk.",
+        "explain": "Hết, cạn kiệt",
+        "translatedExample": "Chúng ta cần phải đến cửa hàng; chúng ta đã hết sữa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the camping trip, they realized they had run out of water and needed to find a nearby stream.",
+          "sentenceWithBlank": "During the camping trip, they realized they had run ____ of water and needed to find a nearby stream.",
+          "wordBlank": "out",
+          "translation": "Trong chuyến đi cắm trại, họ nhận ra họ đã hết nước và cần tìm một dòng suối gần đó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Come across",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌm əˈkrɒs",
+        "example": "While hiking, they came across an old abandoned cabin in the woods.",
+        "explain": "Tình cờ gặp phải",
+        "translatedExample": "Trong khi leo núi, họ tình cờ gặp phải một căn nhà cũ bỏ hoang trong rừng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Come across'?",
+          "options": {
+            "A": "Find",
+            "B": "Stumble upon",
+            "C": "Lose",
+            "D": "Discover"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Find' is similar in meaning. B: 'Stumble upon' is a synonym. C: 'Lose' is the opposite of 'Come across.' D: 'Discover' is similar in meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Show up",
+        "type": "Phrasal Verb",
+        "phonetic": "ʃoʊ ʌp",
+        "example": "Despite the heavy rain, she managed to show up at the party.",
+        "explain": "Xuất hiện, đến",
+        "translatedExample": "Mặc dù trời mưa to, cô ấy vẫn xuất hiện tại bữa tiệc."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Even though he promised to show up at the meeting, he was nowhere to be found when it started.",
+          "sentenceWithBlank": "Even though he promised to show ____ at the meeting, he was nowhere to be found when it started.",
+          "wordBlank": "up",
+          "translation": "Mặc dù anh ta hứa sẽ xuất hiện tại cuộc họp, nhưng không đâu có mặt khi nó bắt đầu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Give up",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɪv ʌp",
+        "example": "Despite facing challenges, she refused to give up on her dream of becoming a scientist.",
+        "explain": "Từ bỏ, từ chối",
+        "translatedExample": "Mặc dù đối mặt với thách thức, cô từ chối từ bỏ ước mơ trở thành một nhà khoa học."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Give up'?",
+          "options": {
+            "A": "Hold on",
+            "B": "Surrender",
+            "C": "Persist",
+            "D": "Continue"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hold on' is the opposite. B: 'Surrender' is a synonym for 'Give up' when referring to yielding or quitting. C: 'Persist' is the opposite. D: 'Continue' is unrelated and means to keep going."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn down",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːrn daʊn",
+        "example": "He had to turn down the job offer because the salary was too low.",
+        "explain": "Từ chối, từ bỏ",
+        "translatedExample": "Anh ta phải từ chối đề nghị việc làm vì mức lương quá thấp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Turn down'?",
+          "options": {
+            "A": "Accept",
+            "B": "Decline",
+            "C": "Approve",
+            "D": "Reject"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Accept' is the opposite of 'Turn down,' indicating agreement. B: 'Decline' is similar in meaning. C: 'Approve' is unrelated. D: 'Reject' is synonymous with 'Turn down' when referring to rejecting an offer or proposal."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break up",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk ʌp",
+        "example": "After many arguments, the couple decided to break up and go their separate ways.",
+        "explain": "Chia tay, tan vỡ",
+        "translatedExample": "Sau nhiều cuộc tranh cãi, cặp đôi quyết định chia tay và đi đường riêng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The band's decision to break up saddened their fans, who had been following their music for years.",
+          "sentenceWithBlank": "The band's decision to ____ ____ saddened their fans, who had been following their music for years.",
+          "wordBlank": "break up",
+          "translation": "Quyết định của ban nhạc chia tay làm buồn lòng người hâm mộ, họ đã theo dõi âm nhạc của họ suốt nhiều năm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Call off",
+        "type": "Phrasal Verb",
+        "phonetic": "kɔːl ɒf",
+        "example": "Due to the storm, they had to call off the outdoor event for safety reasons.",
+        "explain": "Hủy bỏ, ngừng",
+        "translatedExample": "Do cơn bão, họ phải hủy bỏ sự kiện ngoại ô vì lý do an toàn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Call off'?",
+          "options": {
+            "A": "Continue",
+            "B": "Postpone",
+            "C": "Cancel",
+            "D": "Reschedule"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Continue' is the opposite. B: 'Postpone' is similar in meaning. C: 'Cancel' is a synonym for 'Call off,' indicating the termination of an event or plan. D: 'Reschedule' is different."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut off",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌt ɒf",
+        "example": "The city was cut off from electricity for several hours due to a severe storm.",
+        "explain": "Cắt đứt, ngừng cung cấp",
+        "translatedExample": "Thành phố bị cắt đứt điện trong vài giờ do một trận bão nặng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the winter, the remote village often gets cut off from the rest of the world due to heavy snowfall.",
+          "sentenceWithBlank": "During the winter, the remote village often gets ____ ____ from the rest of the world due to heavy snowfall.",
+          "wordBlank": "cut off",
+          "translation": "Trong mùa đông, ngôi làng xa xôi thường bị cách li khỏi phần còn lại của thế giới do tuyết phủ dày."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "It's important to bring up environmental issues in discussions about the future of our planet.",
+        "explain": "Đề cập, nêu lên",
+        "translatedExample": "Việc đề cập đến vấn đề môi trường là quan trọng trong các cuộc thảo luận về tương lai của hành tinh chúng ta."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bring up'?",
+          "options": {
+            "A": "Take up",
+            "B": "Pick up",
+            "C": "Mention",
+            "D": "Put up"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Take up' has a different meaning. B: 'Pick up' is unrelated. C: 'Mention' is a synonym for 'Bring up,' indicating the action of introducing a topic or issue. D: 'Put up' is different."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look into",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈɪntuː",
+        "example": "The detective promised to look into the matter and find the truth.",
+        "explain": "Nghiên cứu, điều tra",
+        "translatedExample": "Cảnh sát hứa sẽ nghiên cứu vụ án và tìm ra sự thật."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "When faced with a problem, it's essential to look into all possible solutions before making a decision.",
+          "sentenceWithBlank": "When faced with a problem, it's essential to look ____ all possible solutions before making a decision.",
+          "wordBlank": "into",
+          "translation": "Khi đối mặt với một vấn đề, quan trọng là phải nghiên cứu tất cả các giải pháp có thể trước khi đưa ra quyết định."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run out",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn aʊt",
+        "example": "We need to buy groceries; we're about to run out of essential items at home.",
+        "explain": "Hết, cạn kiệt",
+        "translatedExample": "Chúng ta cần mua thực phẩm; chúng ta sắp hết những vật dụng quan trọng ở nhà."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Run out'?",
+          "options": {
+            "A": "Run low",
+            "B": "Run off",
+            "C": "Run away",
+            "D": "Run down"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Run low' is a synonym for 'Run out,' indicating that the supply is becoming insufficient. B: 'Run off' is unrelated. C: 'Run away' and 'Run down' have different meanings."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Come across",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌm əˈkrɒs",
+        "example": "While hiking, they came across a beautiful waterfall hidden in the forest.",
+        "explain": "Tình cờ gặp, phát hiện",
+        "translatedExample": "Trong khi leo núi, họ tình cờ gặp một thác nước đẹp ẩn sau trong rừng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Exploring the old attic, they came across a box of vintage photographs.",
+          "sentenceWithBlank": "Exploring the old attic, they came ____ a box of vintage photographs.",
+          "wordBlank": "across",
+          "translation": "Khám phá gian hầm cũ, họ tình cờ phát hiện ra một hộp ảnh cổ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Show up",
+        "type": "Phrasal Verb",
+        "phonetic": "ʃoʊ ʌp",
+        "example": "Despite the late notice, he managed to show up at the meeting on time.",
+        "explain": "Xuất hiện, đến",
+        "translatedExample": "Mặc dù thông báo muộn, anh ta đã kịp thời xuất hiện tại cuộc họp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The actor promised to show up at the premiere of the film, much to the delight of his fans.",
+          "sentenceWithBlank": "The actor promised to ____ ____ at the premiere of the film, much to the delight of his fans.",
+          "wordBlank": "show up",
+          "translation": "Diễn viên hứa sẽ xuất hiện tại buổi ra mắt phim, làm hài lòng người hâm mộ của anh ta."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Give up",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɪv ʌp",
+        "example": "Despite facing challenges, she refused to give up on her dream of becoming a professional musician.",
+        "explain": "Từ bỏ",
+        "translatedExample": "Mặc dù đối mặt với thách thức, cô từ chối từ bỏ ước mơ trở thành một nghệ sĩ nhạc chuyên nghiệp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Give up'?",
+          "options": {
+            "A": "Surrender",
+            "B": "Persist",
+            "C": "Abandon",
+            "D": "Renounce"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Surrender' is similar in meaning. B: 'Persist' is the antonym, indicating the action of continuing despite challenges. C: 'Abandon' is similar in meaning. D: 'Renounce' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break out",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk aʊt",
+        "example": "A fire broke out in the building, prompting an immediate evacuation.",
+        "explain": "Bùng phát, nổ ra (đám cháy, xung đột, bệnh dịch, ...)",
+        "translatedExample": "Một đám cháy đã bùng phát trong tòa nhà, khiến cho việc sơ tán ngay lập tức."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Break out'?",
+          "options": {
+            "A": "Break free",
+            "B": "Start",
+            "C": "Erupt",
+            "D": "Break loose"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Break free' is different. B: 'Start' is a general term. C: 'Erupt' is a synonym for 'Break out,' especially when referring to sudden events like fires or conflicts. D: 'Break loose' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring about",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ əˈbaʊt",
+        "example": "The new policy aims to bring about positive changes in the community.",
+        "explain": "Gây ra, mang lại",
+        "translatedExample": "Chính sách mới nhằm mục đích mang lại những thay đổi tích cực trong cộng đồng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Innovations in technology often bring about improvements in various aspects of our daily lives.",
+          "sentenceWithBlank": "Innovations in technology often bring ____ improvements in various aspects of our daily lives.",
+          "wordBlank": "about",
+          "translation": "Các đổi mới trong công nghệ thường mang lại cải tiến trong nhiều khía cạnh của cuộc sống hàng ngày của chúng ta."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold off",
+        "type": "Phrasal Verb",
+        "phonetic": "hoʊld ɒf",
+        "example": "The rain decided to hold off until the outdoor event was finished.",
+        "explain": "Trì hoãn, không bắt đầu ngay lập tức",
+        "translatedExample": "Mưa quyết định trì hoãn cho đến khi sự kiện ngoại ô kết thúc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Hold off'?",
+          "options": {
+            "A": "Proceed",
+            "B": "Delay",
+            "C": "Postpone",
+            "D": "Commence"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Proceed' is the antonym for 'Hold off,' indicating the action of starting or continuing without delay. B: 'Delay' is similar in meaning. C: 'Postpone' is related. D: 'Commence' is the opposite of 'Hold off.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring down",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ daʊn",
+        "example": "The new law aims to bring down the levels of pollution in the city.",
+        "explain": "Giảm, hạ thấp",
+        "translatedExample": "Luật mới nhằm mục đích giảm mức độ ô nhiễm trong thành phố."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Efforts to plant more trees are essential to bring down carbon emissions and combat climate change.",
+          "sentenceWithBlank": "Efforts to plant more trees are essential to bring ____ carbon emissions and combat climate change.",
+          "wordBlank": "down",
+          "translation": "Nỗ lực trồng thêm cây cần thiết để giảm phát thải carbon và chống lại biến đổi khí hậu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn in",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːrn ɪn",
+        "example": "Students are required to turn in their assignments by the deadline.",
+        "explain": "Nộp (bài tập, báo cáo, ...)",
+        "translatedExample": "Sinh viên cần phải nộp bài tập của họ trước thời hạn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Turn in'?",
+          "options": {
+            "A": "Hand over",
+            "B": "Give up",
+            "C": "Submit",
+            "D": "Surrender"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Hand over' is similar but not used in academic contexts. B: 'Give up' is different. C: 'Submit' is a synonym for 'Turn in,' indicating the action of presenting or delivering assignments or reports. D: 'Surrender' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Put off",
+        "type": "Phrasal Verb",
+        "phonetic": "pʊt ɒf",
+        "example": "They decided to put off the meeting until everyone could attend.",
+        "explain": "Trì hoãn, hoãn lại",
+        "translatedExample": "Họ quyết định trì hoãn cuộc họp cho đến khi mọi người đều có thể tham gia."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Due to unforeseen circumstances, the event had to be put off to a later date.",
+          "sentenceWithBlank": "Due to unforeseen circumstances, the event had to be ____ ____ to a later date.",
+          "wordBlank": "put off",
+          "translation": "Do tình hình không lường trước được, sự kiện phải được hoãn lại đến một ngày sau."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run into",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn ˈɪntuː",
+        "example": "I unexpectedly ran into my old friend at the bookstore yesterday.",
+        "explain": "Tình cờ gặp ai đó",
+        "translatedExample": "Tôi tình cờ gặp lại người bạn cũ ở cửa hàng sách ngày hôm qua."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Run into'?",
+          "options": {
+            "A": "Run over",
+            "B": "Run across",
+            "C": "Run through",
+            "D": "Run beside"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Run over' has a different meaning. B: 'Run across' is a synonym for 'Run into,' indicating the unexpected meeting with someone. C: 'Run through' is unrelated. D: 'Run beside' is not a common expression."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look forward to",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈfɔːrwərd tuː",
+        "example": "She's looking forward to the weekend to relax and unwind.",
+        "explain": "Mong đợi, trông chờ",
+        "translatedExample": "Cô ấy đang mong đợi cuối tuần để thư giãn và nghỉ ngơi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Despite the challenges, they are looking forward to the upcoming project with enthusiasm.",
+          "sentenceWithBlank": "Despite the challenges, they are looking forward to the upcoming project with ____.",
+          "wordBlank": "enthusiasm",
+          "translation": "Mặc dù đối mặt với thách thức, họ đang mong đợi dự án sắp tới với sự hứng thú."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "It's important to bring up environmental issues in discussions about the future of our planet.",
+        "explain": "Đề cập, nêu lên",
+        "translatedExample": "Việc đề cập đến vấn đề môi trường là quan trọng trong các cuộc thảo luận về tương lai của hành tinh chúng ta."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bring up'?",
+          "options": {
+            "A": "Take up",
+            "B": "Pick up",
+            "C": "Mention",
+            "D": "Put up"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Take up' has a different meaning. B: 'Pick up' is unrelated. C: 'Mention' is a synonym for 'Bring up,' indicating the action of introducing a topic or issue. D: 'Put up' is different."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold on",
+        "type": "Phrasal Verb",
+        "phonetic": "hoʊld ɒn",
+        "example": "Please hold on for a moment; I'll check if the information is available.",
+        "explain": "Chờ đợi, giữ máy",
+        "translatedExample": "Vui lòng chờ một lát; tôi sẽ kiểm tra xem thông tin có sẵn không."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "While on the phone, she asked him to hold on as she searched for the document.",
+          "sentenceWithBlank": "While on the phone, she asked him to ____ ____ as she searched for the document.",
+          "wordBlank": "hold on",
+          "translation": "Trong khi đang nói chuyện điện thoại, cô yêu cầu anh giữ máy trong khi cô tìm kiếm tài liệu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Set up",
+        "type": "Phrasal Verb",
+        "phonetic": "sɛt ʌp",
+        "example": "They decided to set up a new business in the city center.",
+        "explain": "Thiết lập, thành lập",
+        "translatedExample": "Họ quyết định thành lập một doanh nghiệp mới tại trung tâm thành phố."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Set up'?",
+          "options": {
+            "A": "Establish",
+            "B": "Arrange",
+            "C": "Organize",
+            "D": "Dissolve"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Establish' is similar in meaning. B: 'Arrange' and 'Organize' are related but not exact antonyms. D: 'Dissolve' is the antonym for 'Set up,' indicating the action of ending or disbanding an organization or structure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold up",
+        "type": "Phrasal Verb",
+        "phonetic": "hoʊld ʌp",
+        "example": "The traffic accident held up the morning commute for hours.",
+        "explain": "Làm trễ, chậm trễ",
+        "translatedExample": "Tai nạn giao thông làm trễ việc đi làm buổi sáng hàng giờ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Unexpected repairs on the road held up the delivery of the goods.",
+          "sentenceWithBlank": "Unexpected repairs on the road ____ ____ the delivery of the goods.",
+          "wordBlank": "held up",
+          "translation": "Sửa chữa bất ngờ trên đường làm trễ việc giao hàng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break down",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk daʊn",
+        "example": "The old car broke down on the highway, and they had to call for assistance.",
+        "explain": "Hỏng, hư hại",
+        "translatedExample": "Chiếc ô tô cũ hỏng trên đường cao tốc, và họ phải gọi điện thoại xin sự giúp đỡ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Break down'?",
+          "options": {
+            "A": "Function",
+            "B": "Operate",
+            "C": "Succeed",
+            "D": "Collapse"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Function' is similar in meaning. B: 'Operate' is the antonym for 'Break down,' indicating the action of working or functioning properly. C: 'Succeed' is unrelated. D: 'Collapse' is different."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look up",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ʌp",
+        "example": "If you don't know the meaning of a word, you can look it up in the dictionary.",
+        "explain": "Tra cứu, tìm kiếm thông tin",
+        "translatedExample": "Nếu bạn không biết nghĩa của một từ, bạn có thể tra cứu nó trong từ điển."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Students are encouraged to look up additional resources to enhance their understanding of the topic.",
+          "sentenceWithBlank": "Students are encouraged to ____ ____ additional resources to enhance their understanding of the topic.",
+          "wordBlank": "look up",
+          "translation": "Học sinh được khuyến khích tra cứu thêm tài nguyên để làm tăng sự hiểu biết của họ về chủ đề."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring off",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ɒf",
+        "example": "Against all odds, they managed to bring off a successful event.",
+        "explain": "Thành công trong việc khó khăn",
+        "translatedExample": "Đối mặt với mọi khó khăn, họ đã thành công trong việc tổ chức một sự kiện thành công."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bring off'?",
+          "options": {
+            "A": "Bring out",
+            "B": "Achieve",
+            "C": "Carry off",
+            "D": "Pull off"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Bring out' has a different meaning. B: 'Achieve' is similar but not an exact synonym. C: 'Carry off' is related. D: 'Pull off' is a synonym for 'Bring off,' indicating successful accomplishment against difficulties."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break through",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk θruː",
+        "example": "After years of research, scientists finally broke through and discovered a cure for the disease.",
+        "explain": "Đột phá, vượt qua khó khăn",
+        "translatedExample": "Sau nhiều năm nghiên cứu, các nhà khoa học cuối cùng đã đột phá và phát hiện ra một phương pháp chữa trị cho bệnh."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The athlete's determination allowed him to break through the barriers and achieve unprecedented success.",
+          "sentenceWithBlank": "The athlete's determination allowed him to break ____ the barriers and achieve unprecedented success.",
+          "wordBlank": "through",
+          "translation": "Sự quyết tâm của vận động viên cho phép anh ta vượt qua các rào cản và đạt được thành công chưa từng có."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Take on",
+        "type": "Phrasal Verb",
+        "phonetic": "teɪk ɒn",
+        "example": "The company decided to take on a new project to expand its services.",
+        "explain": "Đảm nhận, tham gia vào",
+        "translatedExample": "Công ty quyết định đảm nhận một dự án mới để mở rộng dịch vụ của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Take on'?",
+          "options": {
+            "A": "Undertake",
+            "B": "Take off",
+            "C": "Take up",
+            "D": "Take in"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Undertake' is a synonym for 'Take on,' indicating the action of accepting or assuming responsibility for a task or project. B: 'Take off' is unrelated. C: 'Take up' is different. D: 'Take in' has a different meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn away",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːrn əˈweɪ",
+        "example": "The venue had to turn away guests as it reached full capacity.",
+        "explain": "Từ chối, không chấp nhận",
+        "translatedExample": "Địa điểm phải từ chối khách mời vì đã đạt đến sức chứa tối đa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Turn away'?",
+          "options": {
+            "A": "Reject",
+            "B": "Accept",
+            "C": "Refuse",
+            "D": "Decline"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Reject,' 'Refuse,' and 'Decline' are synonyms for 'Turn away.' B: 'Accept' is the antonym, indicating the action of receiving or allowing entry."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring about",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ əˈbaʊt",
+        "example": "Effective communication can bring about positive changes in a team.",
+        "explain": "Gây ra, mang lại",
+        "translatedExample": "Giao tiếp hiệu quả có thể gây ra những thay đổi tích cực trong một nhóm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The new policy is expected to bring about improvements in the overall performance of the organization.",
+          "sentenceWithBlank": "The new policy is expected to bring ____ improvements in the overall performance of the organization.",
+          "wordBlank": "about",
+          "translation": "Dự kiến rằng chính sách mới sẽ mang lại cải thiện trong hiệu suất tổng thể của tổ chức."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pick up",
+        "type": "Phrasal Verb",
+        "phonetic": "pɪk ʌp",
+        "example": "Can you pick up some groceries on your way home?",
+        "explain": "Nhặt lên, mua sắm nhanh chóng",
+        "translatedExample": "Bạn có thể mua vài thực phẩm cần thiết trên đường về nhà không?"
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Pick up'?",
+          "options": {
+            "A": "Lift",
+            "B": "Gather",
+            "C": "Acquire",
+            "D": "Receive"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Lift' is related but not an exact synonym. B: 'Gather' is different. C: 'Acquire' is a synonym for 'Pick up,' indicating the action of obtaining or collecting. D: 'Receive' is related but not an exact synonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Go through",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡoʊ θruː",
+        "example": "We need to go through the details of the contract before signing it.",
+        "explain": "Kiểm tra kỹ lưỡng, đối chiếu",
+        "translatedExample": "Chúng ta cần kiểm tra kỹ lưỡng các chi tiết của hợp đồng trước khi ký."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Go through'?",
+          "options": {
+            "A": "Review",
+            "B": "Examine",
+            "C": "Skip",
+            "D": "Inspect"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Review' and 'Examine' are related but not antonyms. C: 'Skip' is the antonym for 'Go through,' indicating the action of bypassing or omitting the process of inspection or examination. D: 'Inspect' is related but not an exact antonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Carry on",
+        "type": "Phrasal Verb",
+        "phonetic": "ˈkæri ɒn",
+        "example": "Despite the challenges, they decided to carry on with their ambitious project.",
+        "explain": "Tiếp tục, làm tiếp",
+        "translatedExample": "Bất chấp những khó khăn, họ quyết định tiếp tục với dự án có lòng quả cảm của họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The team agreed to carry on with the project despite the unexpected setbacks.",
+          "sentenceWithBlank": "The team agreed to ____ ____ with the project despite the unexpected setbacks.",
+          "wordBlank": "carry on",
+          "translation": "Nhóm đã đồng ý tiếp tục với dự án bất chấp những trở ngại đột ngột."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold off",
+        "type": "Phrasal Verb",
+        "phonetic": "hoʊld ɒf",
+        "example": "The rain held off until the outdoor event was finished.",
+        "explain": "Hoãn lại, trì hoãn",
+        "translatedExample": "Mưa đã hoãn lại cho đến khi sự kiện ngoại ô kết thúc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hold off'?",
+          "options": {
+            "A": "Postpone",
+            "B": "Continue",
+            "C": "Delay",
+            "D": "Proceed"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Postpone' is similar but not an exact synonym. B: 'Continue' and 'Proceed' have different meanings. C: 'Delay' is a synonym for 'Hold off,' indicating the action of postponing or temporarily preventing something. D: 'Proceed' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Put off",
+        "type": "Phrasal Verb",
+        "phonetic": "pʊt ɒf",
+        "example": "They had to put off the meeting due to unforeseen circumstances.",
+        "explain": "Hoãn lại, trì hoãn",
+        "translatedExample": "Họ phải hoãn cuộc họp do tình hình không lường trước được."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Due to unforeseen circumstances, the event had to be put off to a later date.",
+          "sentenceWithBlank": "Due to unforeseen circumstances, the event had to be ____ ____ to a later date.",
+          "wordBlank": "put off",
+          "translation": "Do tình hình không lường trước được, sự kiện phải được hoãn lại đến một ngày sau đó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Come up with",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌm ʌp wɪð",
+        "example": "The team brainstormed to come up with innovative solutions to the problem.",
+        "explain": "Nghĩ ra, đề xuất",
+        "translatedExample": "Nhóm đã tụ tập ý kiến để nghĩ ra những giải pháp sáng tạo cho vấn đề."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Come up with'?",
+          "options": {
+            "A": "Invent",
+            "B": "Generate",
+            "C": "Conceive",
+            "D": "Fail to produce"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Invent,' 'Generate,' and 'Conceive' are synonyms for 'Come up with.' D: 'Fail to produce' is the antonym, indicating the action of not being able to provide or suggest something."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Put up with",
+        "type": "Phrasal Verb",
+        "phonetic": "pʊt ʌp wɪð",
+        "example": "She had to put up with noisy neighbors for years before moving to a quieter place.",
+        "explain": "Chịu đựng, tha thứ",
+        "translatedExample": "Cô phải chịu đựng những người hàng xóm ồn ào suốt nhiều năm trước khi chuyển đến một nơi yên tĩnh hơn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Sometimes, we have to put up with challenging situations in order to achieve our long-term goals.",
+          "sentenceWithBlank": "Sometimes, we have to ____ ____ with challenging situations in order to achieve our long-term goals.",
+          "wordBlank": "put up with",
+          "translation": "Đôi khi, chúng ta phải chịu đựng những tình huống khó khăn để đạt được mục tiêu dài hạn của mình."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look forward to",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈfɔrwərd tuː",
+        "example": "I look forward to meeting you in person during our upcoming conference.",
+        "explain": "Chờ đợi với hạnh phúc, mong đợi",
+        "translatedExample": "Tôi mong đợi được gặp bạn trực tiếp trong hội nghị sắp tới của chúng ta."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Look forward to'?",
+          "options": {
+            "A": "Anticipate",
+            "B": "Expect",
+            "C": "Wait for",
+            "D": "Eagerly await"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Anticipate,' 'Expect,' 'Wait for,' and 'Eagerly await' are all synonyms for 'Look forward to,' indicating the action of eagerly awaiting or anticipating something in the future."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Get over",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɛt ˈoʊvər",
+        "example": "It took her some time to get over the loss of her beloved pet.",
+        "explain": "Vượt qua, bình phục",
+        "translatedExample": "Cô ta mất một thời gian để vượt qua sự mất mát của người bạn thân thiết."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After a challenging period, he managed to get over the difficulties and move forward.",
+          "sentenceWithBlank": "After a challenging period, he managed to ____ ____ the difficulties and move forward.",
+          "wordBlank": "get over",
+          "translation": "Sau một khoảng thời gian khó khăn, anh ta đã vượt qua những khó khăn và tiến lên phía trước."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Go back",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡoʊ bæk",
+        "example": "I want to go back to the place where I spent my childhood.",
+        "explain": "Quay lại, trở lại",
+        "translatedExample": "Tôi muốn quay lại nơi mà tôi đã dành tuổi thơ của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Go back'?",
+          "options": {
+            "A": "Return",
+            "B": "Advance",
+            "C": "Proceed",
+            "D": "Continue"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Return,' 'Proceed,' and 'Continue' are related or synonyms. B: 'Advance' is the antonym, indicating the action of moving forward instead of returning to a previous place."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "Parents often bring up important topics during family dinners.",
+        "explain": "Đề cập đến, nêu lên",
+        "translatedExample": "Cha mẹ thường đề cập đến những chủ đề quan trọng trong các bữa tối gia đình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the meeting, the manager brought up the need for better communication within the team.",
+          "sentenceWithBlank": "During the meeting, the manager brought ____ the need for better communication within the team.",
+          "wordBlank": "up",
+          "translation": "Trong cuộc họp, người quản lý đã đề cập đến nhu cầu giao tiếp tốt hơn trong nhóm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Call off",
+        "type": "Phrasal Verb",
+        "phonetic": "kɔːl ɒf",
+        "example": "Due to bad weather, they had to call off the outdoor event.",
+        "explain": "Hủy bỏ, ngưng lại",
+        "translatedExample": "Do thời tiết xấu, họ phải hủy bỏ sự kiện ngoại ô."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Call off'?",
+          "options": {
+            "A": "Cancel",
+            "B": "Postpone",
+            "C": "Reschedule",
+            "D": "Proceed"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Cancel' is a synonym for 'Call off,' indicating the action of officially stopping or discontinuing an event. B: 'Postpone' and 'Reschedule' are related but not exact synonyms. D: 'Proceed' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look up",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ʌp",
+        "example": "If you don't know the meaning of a word, you can look it up in the dictionary.",
+        "explain": "Tra cứu, tìm kiếm thông tin",
+        "translatedExample": "Nếu bạn không biết nghĩa của một từ, bạn có thể tra cứu nó trong từ điển."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Students were encouraged to look up additional resources to enhance their understanding of the topic.",
+          "sentenceWithBlank": "Students were encouraged to look ____ additional resources to enhance their understanding of the topic.",
+          "wordBlank": "up",
+          "translation": "Học sinh được khuyến khích tra cứu thêm tài nguyên để nâng cao hiểu biết về chủ đề."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Give in",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɪv ɪn",
+        "example": "After a long negotiation, they finally had to give in to the demands of the other party.",
+        "explain": "Nhượng bộ, đầu hàng",
+        "translatedExample": "Sau một đợt đàm phán dài, họ cuối cùng đã phải nhượng bộ trước yêu cầu của bên kia."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Give in'?",
+          "options": {
+            "A": "Yield",
+            "B": "Surrender",
+            "C": "Persist",
+            "D": "Concede"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Yield,' 'Surrender,' and 'Concede' are synonyms for 'Give in.' C: 'Persist' is the antonym, indicating the action of continuing to hold one's ground or maintain a certain attitude despite challenges or pressure."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look into",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈɪntuː",
+        "example": "The committee will look into the matter and report their findings.",
+        "explain": "Điều tra, nghiên cứu",
+        "translatedExample": "Ủy ban sẽ điều tra vụ việc và báo cáo kết quả nghiên cứu của họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Authorities promised to look into the allegations of corruption within the government.",
+          "sentenceWithBlank": "Authorities promised to look ____ the allegations of corruption within the government.",
+          "wordBlank": "into",
+          "translation": "Cơ quan chức năng hứa sẽ điều tra những cáo buộc về tham nhũng trong chính phủ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Show off",
+        "type": "Phrasal Verb",
+        "phonetic": "ʃoʊ ɔːf",
+        "example": "He couldn't resist the opportunity to show off his new car to everyone.",
+        "explain": "Khoe khoang, làm lòe loẹt",
+        "translatedExample": "Anh ta không thể kiềm chế được cơ hội khoe chiếc xe mới của mình với mọi người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Show off'?",
+          "options": {
+            "A": "Display",
+            "B": "Exhibit",
+            "C": "Boast",
+            "D": "Conceal"
+          },
+          "correctAnswer": "C",
+          "explanation": "A, B, and D: 'Display,' 'Exhibit,' and 'Conceal' are related but not exact synonyms. C: 'Boast' is a synonym for 'Show off,' indicating the action of proudly displaying or bragging about one's achievements or possessions."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run out",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn aʊt",
+        "example": "We need to buy more groceries because we've run out of essential items.",
+        "explain": "Hết, cạn kiệt",
+        "translatedExample": "Chúng ta cần mua thêm thực phẩm vì chúng ta đã hết các mặt hàng cần thiết."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "They had to stop the production temporarily as they had run out of raw materials.",
+          "sentenceWithBlank": "They had to stop the production temporarily as they had ____ ____ of raw materials.",
+          "wordBlank": "run out",
+          "translation": "Họ phải tạm dừng sản xuất vì họ đã hết nguyên liệu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break up",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk ʌp",
+        "example": "The couple decided to break up after years of being in an unhealthy relationship.",
+        "explain": "Chia tay, tan vỡ",
+        "translatedExample": "Cặp đôi quyết định chia tay sau nhiều năm trong một mối quan hệ không lành mạnh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Break up'?",
+          "options": {
+            "A": "Separate",
+            "B": "Split",
+            "C": "Divide",
+            "D": "Unite"
+          },
+          "correctAnswer": "D",
+          "explanation": "A, B, and C: 'Separate,' 'Split,' and 'Divide' are related but not exact antonyms. D: 'Unite' is the antonym for 'Break up,' indicating the action of coming together or joining after a period of separation."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut off",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌt ɒf",
+        "example": "The storm cut off power to the entire neighborhood for several hours.",
+        "explain": "Cắt điện, cách ly",
+        "translatedExample": "Cơn bão đã cắt điện cho toàn bộ khu vực trong vài giờ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Due to a technical issue, the internet service was cut off temporarily.",
+          "sentenceWithBlank": "Due to a technical issue, the internet service was ____ ____ temporarily.",
+          "wordBlank": "cut off",
+          "translation": "Do một vấn đề kỹ thuật, dịch vụ internet đã bị cắt tạm thời."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn up",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːrn ʌp",
+        "example": "He didn't expect so many people to turn up for the event.",
+        "explain": "Xuất hiện, đến",
+        "translatedExample": "Anh ta không ngờ có nhiều người đến tham dự sự kiện."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Turn up'?",
+          "options": {
+            "A": "Arrive",
+            "B": "Show up",
+            "C": "Appear",
+            "D": "Present"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Arrive,' 'Show up,' and 'Present' are related but not exact synonyms. 'Appear' is a synonym for 'Turn up,' indicating the action of coming or showing up unexpectedly."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look after",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ˈæftər",
+        "example": "Parents need to look after their children's well-being and safety.",
+        "explain": "Chăm sóc, trông nom",
+        "translatedExample": "Cha mẹ cần phải chăm sóc cho sức khỏe và an toàn của con cái mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "It's important to look after your mental health by practicing self-care and seeking support when needed.",
+          "sentenceWithBlank": "It's important to ____ ____ your mental health by practicing self-care and seeking support when needed.",
+          "wordBlank": "look after",
+          "translation": "Quan trọng để chăm sóc sức khỏe tâm thần bằng cách thực hiện tự chăm sóc và tìm kiếm sự hỗ trợ khi cần."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold on",
+        "type": "Phrasal Verb",
+        "phonetic": "hoʊld ɒn",
+        "example": "Please hold on for a moment while I check the information for you.",
+        "explain": "Chờ đợi, giữ máy",
+        "translatedExample": "Vui lòng chờ một chút trong khi tôi kiểm tra thông tin cho bạn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Hold on'?",
+          "options": {
+            "A": "Release",
+            "B": "Let go",
+            "C": "Continue",
+            "D": "Proceed"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Release' and 'Let go' are related but not exact antonyms. 'Continue' and 'Proceed' are antonyms for 'Hold on,' indicating the action of not waiting and moving forward."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Take off",
+        "type": "Phrasal Verb",
+        "phonetic": "teɪk ɒf",
+        "example": "The plane is scheduled to take off in 20 minutes.",
+        "explain": "Cất cánh, khởi hành",
+        "translatedExample": "Chiếc máy bay được dự kiến sẽ cất cánh trong 20 phút."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Passengers are required to fasten their seatbelts before the plane can take off.",
+          "sentenceWithBlank": "Passengers are required to fasten their seatbelts before the plane can ____ ____.",
+          "wordBlank": "take off",
+          "translation": "Hành khách cần phải thắt dây an toàn trước khi máy bay có thể cất cánh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look for",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk fɔːr",
+        "example": "I need to look for my keys; I can't find them anywhere.",
+        "explain": "Tìm kiếm",
+        "translatedExample": "Tôi cần phải tìm kiếm chìa khóa của mình; tôi không thể tìm thấy chúng ở bất cứ đâu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Look for'?",
+          "options": {
+            "A": "Seek",
+            "B": "Search",
+            "C": "Find",
+            "D": "Explore"
+          },
+          "correctAnswer": "B",
+          "explanation": "'Seek,' 'Search,' and 'Explore' are related but not exact synonyms. 'Find' is the antonym for 'Look for,' indicating the action of successfully locating something."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring up",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ʌp",
+        "example": "Parents often bring up important topics during family dinners.",
+        "explain": "Đề cập đến, nêu lên",
+        "translatedExample": "Cha mẹ thường đề cập đến những chủ đề quan trọng trong các bữa tối gia đình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Bring up'?",
+          "options": {
+            "A": "Mention",
+            "B": "Introduce",
+            "C": "Avoid",
+            "D": "Raise"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Mention,' 'Introduce,' and 'Raise' are related but not exact antonyms. 'Avoid' is the antonym for 'Bring up,' indicating the action of deliberately not mentioning or introducing a topic."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Give in",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡɪv ɪn",
+        "example": "After a long negotiation, they finally had to give in to the demands of the other party.",
+        "explain": "Nhượng bộ, đầu hàng",
+        "translatedExample": "Sau một đợt đàm phán dài, họ cuối cùng đã phải nhượng bộ trước yêu cầu của bên kia."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "It's important not to give in to peer pressure and stick to your principles.",
+          "sentenceWithBlank": "It's important not to ____ ____ to peer pressure and stick to your principles.",
+          "wordBlank": "give in",
+          "translation": "Quan trọng là không nên nhượng bộ trước áp lực từ bạn bè và giữ vững nguyên tắc của bạn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Turn down",
+        "type": "Phrasal Verb",
+        "phonetic": "tɜːrn daʊn",
+        "example": "She had to turn down the job offer because of personal reasons.",
+        "explain": "Từ chối",
+        "translatedExample": "Cô phải từ chối đề nghị việc làm vì lý do cá nhân."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Turn down'?",
+          "options": {
+            "A": "Accept",
+            "B": "Decline",
+            "C": "Refuse",
+            "D": "Approve"
+          },
+          "correctAnswer": "A",
+          "explanation": "'Accept,' 'Decline,' 'Refuse,' and 'Approve' are related but not exact antonyms. 'Accept' is the antonym for 'Turn down,' indicating the action of agreeing to an offer or proposal."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Run out",
+        "type": "Phrasal Verb",
+        "phonetic": "rʌn aʊt",
+        "example": "We need to buy more groceries because we've run out of essential items.",
+        "explain": "Hết, cạn kiệt",
+        "translatedExample": "Chúng ta cần mua thêm thực phẩm vì chúng ta đã hết các mặt hàng cần thiết."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Run out'?",
+          "options": {
+            "A": "Deplete",
+            "B": "Exhaust",
+            "C": "Empty",
+            "D": "Overflow"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Deplete,' 'Exhaust,' and 'Overflow' are related but not exact synonyms. 'Empty' is the synonym for 'Run out,' indicating the action of using up or having no more of a particular item."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut off",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌt ɒf",
+        "example": "The storm cut off power to the entire neighborhood for several hours.",
+        "explain": "Cắt điện, cách ly",
+        "translatedExample": "Cơn bão đã cắt điện cho toàn bộ khu vực trong vài giờ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Due to a technical issue, the internet service was cut off temporarily.",
+          "sentenceWithBlank": "Due to a technical issue, the internet service was ____ ____ temporarily.",
+          "wordBlank": "cut off",
+          "translation": "Do một vấn đề kỹ thuật, dịch vụ internet đã bị cắt tạm thời."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Go on",
+        "type": "Phrasal Verb",
+        "phonetic": "ɡoʊ ɒn",
+        "example": "Please go on with your presentation; we're eager to hear more.",
+        "explain": "Tiếp tục, tiếp diễn",
+        "translatedExample": "Vui lòng tiếp tục bài thuyết trình của bạn; chúng tôi rất muốn nghe thêm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Go on'?",
+          "options": {
+            "A": "Resume",
+            "B": "Start",
+            "C": "Cease",
+            "D": "Halt"
+          },
+          "correctAnswer": "A",
+          "explanation": "'Resume' is the synonym for 'Go on,' indicating the action of continuing or picking up something that has been interrupted."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look up",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk ʌp",
+        "example": "If you don't know the meaning of a word, you can look it up in the dictionary.",
+        "explain": "Tra cứu, tìm kiếm",
+        "translatedExample": "Nếu bạn không biết nghĩa của một từ, bạn có thể tra cứu nó trong từ điển."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Students are encouraged to look up additional resources for a deeper understanding of the topic.",
+          "sentenceWithBlank": "Students are encouraged to ____ ____ additional resources for a deeper understanding of the topic.",
+          "wordBlank": "look up",
+          "translation": "Học sinh được khuyến khích tra cứu thêm tài nguyên để hiểu sâu về chủ đề."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Take up",
+        "type": "Phrasal Verb",
+        "phonetic": "teɪk ʌp",
+        "example": "She decided to take up painting as a hobby in her free time.",
+        "explain": "Bắt đầu thực hành một sở thích mới",
+        "translatedExample": "Cô ấy quyết định bắt đầu vẽ tranh như một sở thích trong thời gian rảnh rỗi của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Take up'?",
+          "options": {
+            "A": "Start",
+            "B": "Begin",
+            "C": "Quit",
+            "D": "Commence"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Start,' 'Begin,' and 'Commence' are related but not exact antonyms. 'Quit' is the antonym for 'Take up,' indicating the action of stopping or ceasing a particular activity or hobby."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring back",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ bæk",
+        "example": "The museum's restoration project aims to bring back the original beauty of the artwork.",
+        "explain": "Khôi phục, mang lại",
+        "translatedExample": "Dự án phục hồi của bảo tàng nhằm mang lại vẻ đẹp ban đầu của tác phẩm nghệ thuật."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Efforts are being made to bring back traditional craftsmanship that was almost lost over the years.",
+          "sentenceWithBlank": "Efforts are being made to ____ ____ traditional craftsmanship that was almost lost over the years.",
+          "wordBlank": "bring back",
+          "translation": "Đang có những nỗ lực để khôi phục nghệ thuật thủ công truyền thống mà suýt mất đi qua các năm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold off",
+        "type": "Phrasal Verb",
+        "phonetic": "hoʊld ɒf",
+        "example": "The construction will hold off until the weather conditions improve.",
+        "explain": "Hoãn lại, trì hoãn",
+        "translatedExample": "Việc xây dựng sẽ được hoãn lại cho đến khi điều kiện thời tiết cải thiện."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hold off'?",
+          "options": {
+            "A": "Delay",
+            "B": "Postpone",
+            "C": "Proceed",
+            "D": "Continue"
+          },
+          "correctAnswer": "B",
+          "explanation": "'Delay' and 'Postpone' are synonyms for 'Hold off,' indicating the action of putting something on hold or delaying it until a later time."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break in",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk ɪn",
+        "example": "Someone tried to break in, but the alarm scared them away.",
+        "explain": "Đột nhập, đột kích",
+        "translatedExample": "Có người cố gắng đột nhập, nhưng họ bị cảnh báo làm họ chạy mất."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Break in'?",
+          "options": {
+            "A": "Enter",
+            "B": "Burglarize",
+            "C": "Infiltrate",
+            "D": "Secure"
+          },
+          "correctAnswer": "D",
+          "explanation": "'Enter,' 'Burglarize,' and 'Infiltrate' are related but not exact antonyms. 'Secure' is the antonym for 'Break in,' indicating the action of ensuring safety and preventing unauthorized entry."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Look out",
+        "type": "Phrasal Verb",
+        "phonetic": "lʊk aʊt",
+        "example": "Look out for traffic while crossing the street.",
+        "explain": "Cảnh báo, chú ý đến",
+        "translatedExample": "Chú ý đến giao thông khi băng qua đường."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "It's essential to look out for potential dangers and take precautionary measures.",
+          "sentenceWithBlank": "It's essential to ____ ____ for potential dangers and take precautionary measures.",
+          "wordBlank": "look out",
+          "translation": "Quan trọng để cảnh báo về những nguy hiểm tiềm ẩn và thực hiện các biện pháp phòng ngừa."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bring in",
+        "type": "Phrasal Verb",
+        "phonetic": "brɪŋ ɪn",
+        "example": "The new policy aims to bring in more revenue for the company.",
+        "explain": "Mang lại, thu hút",
+        "translatedExample": "Chính sách mới nhằm mang lại nhiều doanh thu hơn cho công ty."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Bring in'?",
+          "options": {
+            "A": "Introduce",
+            "B": "Present",
+            "C": "Generate",
+            "D": "Create"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Introduce,' 'Present,' and 'Create' are related but not exact synonyms. 'Generate' is the synonym for 'Bring in,' indicating the action of producing or creating something, especially revenue."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break out",
+        "type": "Phrasal Verb",
+        "phonetic": "breɪk aʊt",
+        "example": "A fire broke out in the building, and everyone had to evacuate.",
+        "explain": "Bùng phát, đột ngột xảy ra",
+        "translatedExample": "Một đám cháy bùng phát trong tòa nhà và mọi người phải sơ tán."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In case of an emergency, it's important to have a plan for how to break out of a building safely.",
+          "sentenceWithBlank": "In case of an emergency, it's important to have a plan for how to ____ ____ of a building safely.",
+          "wordBlank": "break out",
+          "translation": "Trong trường hợp khẩn cấp, quan trọng để có một kế hoạch về cách thoát ra khỏi một tòa nhà một cách an toàn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Come over",
+        "type": "Phrasal Verb",
+        "phonetic": "kʌm ˈoʊvər",
+        "example": "Feel free to come over to my place for coffee anytime.",
+        "explain": "Ghé thăm, đến chơi",
+        "translatedExample": "Hãy thoải mái ghé thăm nhà tôi để uống cà phê bất cứ lúc nào."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Come over'?",
+          "options": {
+            "A": "Leave",
+            "B": "Depart",
+            "C": "Stay away",
+            "D": "Avoid"
+          },
+          "correctAnswer": "C",
+          "explanation": "'Leave,' 'Depart,' 'Stay away,' and 'Avoid' are related but not exact antonyms. 'Stay away' is the antonym for 'Come over,' indicating the action of not visiting or avoiding a place."
+        }
+      }
     }
   ]
 }

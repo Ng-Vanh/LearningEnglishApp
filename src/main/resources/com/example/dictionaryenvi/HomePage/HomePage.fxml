@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: linear-gradient(to right, #d4fc79 0%, #96e6a1 100%);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.HomePage.HomePage">
+    <children>
+        <ImageView fitHeight="123.0" fitWidth="149.0" layoutX="583.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 22deg;">
+            <image>
+                <Image url="@image/cute.gif" />
+            </image>
+        </ImageView>
+        <HBox layoutX="361.0" layoutY="120.0" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="278.0">
+            <children>
+                <ImageView fitHeight="90.0" fitWidth="126.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/dict.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="goToDictionaryBtn" mnemonicParsing="false" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="167.0" style="-fx-background-color: rgb(33, 194, 76); -fx-background-radius: 20;" text="Dictionary" textFill="#bf1010" textOverrun="WORD_ELLIPSIS">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </HBox>
+        <ImageView fx:id="topicWord" fitHeight="105.0" fitWidth="289.0" layoutX="633.0" layoutY="315.0" onMouseClicked="#goToLearnWord" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/board.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="exercise" fitHeight="105.0" fitWidth="289.0" layoutX="67.0" layoutY="315.0" onMouseClicked="#goToExercise" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/board.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="logOutBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/BackBtn.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" layoutX="895.0" layoutY="16.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/userInfo.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fitHeight="170.0" fitWidth="182.0" layoutX="423.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/manWalk.gif" />
+            </image>
+        </ImageView>
+        <Label layoutX="157.0" layoutY="350.0" onMouseClicked="#goToExercise" text="Exercise" textFill="#fafafa">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Label>
+        <Label layoutX="701.0" layoutY="350.0" onMouseClicked="#goToLearnWord" text="Study Word" textFill="#f4f4f4">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Label>
+        <ImageView fx:id="rankBtn" fitHeight="53.0" fitWidth="42.0" layoutX="891.0" layoutY="66.0" onMouseClicked="#showRanking" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/trophy.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+    </children>
+</AnchorPane>

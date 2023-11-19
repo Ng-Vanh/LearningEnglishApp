@@ -1,0 +1,12 @@
+.back-btn:hover,
+.swap-btn:hover,
+.speaker-left-btn:hover,
+.speaker-right-btn:hover{
+    -fx-cursor:hand;
+    -fx-scale-x:1.05;
+    -fx-scale-y:1.05;
+}
+.input-area{
+    -fx-font-size:24px;
+}
+

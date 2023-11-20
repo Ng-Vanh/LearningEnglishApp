@@ -107,6 +107,26 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord> {
     }
 
     /**
+     * The function deletes words for each topic from the database.
+     * @param username consist : username and topic.
+     */
+    public int deleteAllLearnedWords(String username){
+        int result = 0;
+        try{
+            Connection connection = connectDatabase.getConnection();
+            String query = "DELETE FROM " + tableLearning + " WHERE username = ? ";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1,username);
+
+            result = preparedStatement.executeUpdate();
+            connectDatabase.closeConnection(connection);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
+    }
+
+    /**
      * The function counts words users learned follow each topic.
      */
     public int countLearnedWord(String username, String topic) {

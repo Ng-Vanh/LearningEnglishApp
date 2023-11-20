@@ -134,7 +134,8 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "_______ is the key to achieving goals through hard work and persistence.",
+          "sentence": "Diligence is the key to achieving goals through hard work and persistence.",
+          "sentenceWithBlank": "________ is the key to achieving goals through hard work and persistence.",
           "wordBlank": "Diligence",
           "translation": "Sự chăm chỉ là chìa khóa để đạt được mục tiêu thông qua công việc chăm chỉ và kiên trì."
         }
@@ -203,7 +204,8 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "__________ is crucial in navigating through diverse and unpredictable situations.",
+          "sentence": "Adaptability is crucial in navigating through diverse and unpredictable situations.",
+          "sentenceWithBlank": "________ is crucial in navigating through diverse and unpredictable situations.",
           "wordBlank": "Adaptability",
           "translation": "Khả năng thích nghi là quan trọng trong việc điều hướng qua các tình huống đa dạng và không dự đoán được."
         }
@@ -527,8 +529,8 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "Expressing ________ contributes to a positive and appreciative mindset.",
-          "sentenceWithBlank": "Expressing gratitude contributes to a positive and ________ mindset.",
+          "sentence": "Expressing gratitude contributes to a positive and appreciative mindset.",
+          "sentenceWithBlank": "Expressing gratitude contributes to a positive and appreciative mindset.",
           "wordBlank": "gratitude",
           "translation": "Việc bày tỏ lòng biết ơn đóng góp vào tư duy tích cực và trân trọng."
         }
@@ -547,9 +549,9 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "______ involves recognizing one's limitations and being modest in achievements.",
-          "sentenceWithBlank": "Humility involves recognizing one's limitations and being ________ in achievements.",
-          "wordBlank": "modest",
+          "sentence": "Humility involves recognizing one's limitations and being modest in achievements.",
+          "sentenceWithBlank": "_____ involves recognizing one's limitations and being modest in achievements.",
+          "wordBlank": "Humility",
           "translation": "Tính khiêm tốn liên quan đến việc nhận ra những hạn chế của bản thân và giữ thái độ khiêm tốn trong các thành tựu."
         }
       }
@@ -617,9 +619,9 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "______ involves accepting and respecting differences in opinions and beliefs.",
-          "sentenceWithBlank": "Tolerance involves accepting and respecting ________ in opinions and beliefs.",
-          "wordBlank": "differences",
+          "sentence": "Tolerance involves accepting and respecting differences in opinions and beliefs.",
+          "sentenceWithBlank": "_______ involves accepting and respecting differences in opinions and beliefs.",
+          "wordBlank": "Tolerance",
           "translation": "Sự khoan dung liên quan đến việc chấp nhận và tôn trọng sự khác biệt về quan điểm và niềm tin."
         }
       }
@@ -637,9 +639,9 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "______ is the ability to make sound decisions based on knowledge and experience.",
-          "sentenceWithBlank": "Wisdom is the ability to make sound decisions based on ________ and experience.",
-          "wordBlank": "knowledge",
+          "sentence": "Wisdom is the ability to make sound decisions based on knowledge and experience.",
+          "sentenceWithBlank": "_____ is the ability to make sound decisions based on knowledge and experience.",
+          "wordBlank": "Wisdom",
           "translation": "Sự khôn ngoan là khả năng đưa ra những quyết định sáng tạo dựa trên kiến thức và kinh nghiệm."
         }
       }
@@ -682,7 +684,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "______ involves truthfulness and sincerity in actions, speech, and character.",
+          "sentence": "Honesty involves truthfulness and sincerity in actions, speech, and character.",
           "sentenceWithBlank": "Honesty involves ________ and sincerity in actions, speech, and character.",
           "wordBlank": "truthfulness",
           "translation": "Tính trung thực liên quan đến sự chân thành và trung thực trong hành động, lời nói và tính cách."
@@ -752,9 +754,9 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "______ involves a willingness to give and share, often with an abundance of kindness.",
-          "sentenceWithBlank": "Generosity involves a willingness to give and share, often with ________ of kindness.",
-          "wordBlank": "abundance",
+          "sentence": "Generosity involves a willingness to give and share, often with an abundance of kindness.",
+          "sentenceWithBlank": "_______ involves a willingness to give and share, often with abundance of kindness.",
+          "wordBlank": "Generosity",
           "translation": "Tính hào phóng liên quan đến sự sẵn sàng cho và chia sẻ, thường đi kèm với sự tốt bụng dồi dào."
         }
       }
@@ -1167,9 +1169,9 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "______ is the expression of appreciation that contributes to positive thinking and acknowledgment.",
-          "sentenceWithBlank": "Gratitude is the expression of appreciation that contributes to positive thinking and ________.",
-          "wordBlank": "acknowledgment",
+          "sentence": "Gratitude is the expression of appreciation that contributes to positive thinking and acknowledgment.",
+          "sentenceWithBlank": "______ is the expression of appreciation that contributes to positive thinking and acknowledgment.",
+          "wordBlank": "Gratitude",
           "translation": "Lòng biết ơn là sự bày tỏ đánh giá đóng góp vào tư duy tích cực và công nhận."
         }
       }
@@ -1422,9 +1424,9 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "______ is the quality of being humble, modest, and having a low view of one's own importance.",
-          "sentenceWithBlank": "Humility is the quality of being humble, modest, and having a low view of one's own ________.",
-          "wordBlank": "importance",
+          "sentence": "Humility is the quality of being humble, modest, and having a low view of one's own importance.",
+          "sentenceWithBlank": "_______ is the quality of being humble, modest, and having a low view of one's own importance.",
+          "wordBlank": "Humility",
           "translation": "Khiêm nhường là phẩm chất của việc khiêm tốn, giản dị và có cái nhìn thấp về tầm quan trọng của bản thân."
         }
       }

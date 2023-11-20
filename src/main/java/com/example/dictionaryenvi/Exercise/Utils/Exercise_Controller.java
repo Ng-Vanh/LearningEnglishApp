@@ -9,12 +9,6 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-
-import static com.backend.Exercise.Utils.ExerciseLoader.getExerciseListFromSimpleTopicWordList;
-import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
 
 public abstract class Exercise_Controller<T extends Exercise> extends Scene_Controller {
@@ -32,10 +26,6 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     @FXML
     protected Label questionIndexLabel;
 
-    protected ArrayList<T> exerciseList;
-
-    protected ArrayList<Exercise> fullExerciseList;
-
     private MediaPlayer correctMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/correct.mp3").toString()));
     private MediaPlayer incorrectMediaPlayer = new MediaPlayer(new Media(getClass().getResource("/com/example/dictionaryenvi/Exercise/assets/incorrect.mp3").toString()));
 
@@ -45,7 +35,7 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     }
 
     protected void stopAllEffects() {
-        correctMediaPlayer.stop();;
+        correctMediaPlayer.stop();
         incorrectMediaPlayer.stop();
     }
 
@@ -57,19 +47,14 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         playEffect(incorrectMediaPlayer);
     }
 
-    protected abstract void loadExerciseFromBank();
-
     @FXML
     public void initialize() {
-        fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
-        loadExerciseFromBank();
-        shuffleList();
 
         if (globalTimerLabel == null) {
             globalTimerLabel = new Label();
         }
         if (globalTimerManager == null) {
-            globalTimerManager = new TimerManager(globalTimerLabel, 60, this::handleTimeout);
+            globalTimerManager = new TimerManager(globalTimerLabel, globalDurations, this::handleTimeout);
         }
 
         timerLabel.textProperty().bind(globalTimerLabel.textProperty());
@@ -78,15 +63,15 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         generateQuestion();
     }
 
-    protected abstract void handleTimeout();
+    protected void handleTimeout() {
+        System.out.println("HANDLE TIMEOUT HERE");
+        globalIsRunningExercise = false;
+        saveUserScore();
+    }
 
     protected abstract String getUserAnswer();
 
     protected abstract void submitAnswer();
-
-    protected void shuffleList() {
-        Collections.shuffle(exerciseList);
-    }
 
     protected abstract Stage getStage();
 
@@ -127,34 +112,9 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     }
 
     @FXML
-    protected void goBack(ActionEvent event) throws IOException {
-//        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//
-//        // Load ExerciseSelection FXML
-//        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
-//        Parent root = loader.load();
-//
-//        // Set the new scene
-//        Scene scene = new Scene(root);
-//        stage.setScene(scene);
-//        stage.setTitle("Exercise Selection");
-//        stage.show();
+    protected void goBack(ActionEvent event) { // fix this
         String FXML_Path = "/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml";
         String title = "Exercise Selection";
         enter_newScene(FXML_Path, title, event, false);
     }
-
-//    protected void enter_newScene(String FXML_Path, String title, ActionEvent event) {
-//        FXMLLoader loader = new FXMLLoader(getClass().getResource(FXML_Path));
-//        try {
-//            Parent root = loader.load();
-//            Scene scene = new Scene(root);
-//            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//            stage.setScene(scene);
-//            stage.setTitle(title);
-//            stage.show();
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
 }

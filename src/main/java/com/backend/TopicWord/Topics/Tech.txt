@@ -949,7 +949,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "An ____ allows different software programs to communicate with each other.",
+          "sentence": "An API allows different software programs to communicate with each other.",
           "sentenceWithBlank": "An _______ allows different software programs to communicate with each other.",
           "wordBlank": "API",
           "translation": "Một API cho phép các chương trình phần mềm khác nhau giao tiếp với nhau."
@@ -1019,7 +1019,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "An ________ is the point of interaction between a user and a computer program.",
+          "sentence": "An interface is the point of interaction between a user and a computer program.",
           "sentenceWithBlank": "An ________ is the point of interaction between a user and a computer program.",
           "wordBlank": "Interface",
           "translation": "Giao diện là điểm tương tác giữa người dùng và chương trình máy tính."
@@ -1114,7 +1114,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "A ________ provides a structured foundation for developing software applications.",
+          "sentence": "A framework provides a structured foundation for developing software applications.",
           "sentenceWithBlank": "A ________ provides a structured foundation for developing software applications.",
           "wordBlank": "Framework",
           "translation": "Một khung phát triển cung cấp nền tảng có cấu trúc cho việc phát triển ứng dụng phần mềm."
@@ -1229,7 +1229,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "__________ is a project management framework that emphasizes collaboration and adaptability.",
+          "sentence": "Scrum is a project management framework that emphasizes collaboration and adaptability.",
           "sentenceWithBlank": "__________ is a project management framework that emphasizes collaboration and adaptability.",
           "wordBlank": "Scrum",
           "translation": "Scrum là một khung quản lý dự án nhấn mạnh vào sự hợp tác và tính linh hoạt."
@@ -1299,7 +1299,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "A ________ is a malicious attempt to breach the security of computer systems or networks.",
+          "sentence": "A cyberattack is a malicious attempt to breach the security of computer systems or networks.",
           "sentenceWithBlank": "A ________ is a malicious attempt to breach the security of computer systems or networks.",
           "wordBlank": "Cyberattack",
           "translation": "Một cuộc tấn công mạng là một nỗ lực độc hại để xâm phạm an ninh của hệ thống máy tính hoặc mạng."
@@ -1344,7 +1344,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "In computing, a ________ is the basic unit of binary information, with values of 0 or 1.",
+          "sentence": "In computing, a bit is the basic unit of binary information, with values of 0 or 1.",
           "sentenceWithBlank": "In computing, a ________ is the basic unit of binary information, with values of 0 or 1.",
           "wordBlank": "Bit",
           "translation": "Trong lĩnh vực máy tính, một bit là đơn vị cơ bản của thông tin nhị phân, có giá trị là 0 hoặc 1."
@@ -1439,7 +1439,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "__________ involves the analysis and processing of large and complex datasets.",
+          "sentence": "Big data involves the analysis and processing of large and complex datasets.",
           "sentenceWithBlank": "__________ involves the analysis and processing of large and complex datasets.",
           "wordBlank": "Big Data",
           "translation": "Dữ liệu lớn liên quan đến việc phân tích và xử lý các bộ dữ liệu lớn và phức tạp."
@@ -1484,7 +1484,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "A ________ provides a secure and private connection over the internet.",
+          "sentence": "A VPN provides a secure and private connection over the internet.",
           "sentenceWithBlank": "A ________ provides a secure and private connection over the internet.",
           "wordBlank": "VPN",
           "translation": "Một VPN cung cấp một kết nối an toàn và riêng tư qua internet."
@@ -1579,7 +1579,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "The ________ of a software application is where users interact with the system.",
+          "sentence": "The interface of a software application is where users interact with the system.",
           "sentenceWithBlank": "The ________ of a software application is where users interact with the system.",
           "wordBlank": "Interface",
           "translation": "Giao diện của một ứng dụng phần mềm là nơi người dùng tương tác với hệ thống."

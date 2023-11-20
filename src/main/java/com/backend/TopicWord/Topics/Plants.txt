@@ -1364,7 +1364,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "The ________ is the female reproductive part of a flower.",
+          "sentence": "The pistil is the female reproductive part of a flower.",
           "sentenceWithBlank": "The ________ is the female reproductive part of a flower, consisting of the stigma, style, and ovary.",
           "wordBlank": "pistil",
           "translation": "Nhụ là bộ phận sinh dục nữ của hoa, bao gồm nhụy, thân nhụ và buồng nhụ."

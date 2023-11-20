@@ -644,7 +644,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "______ plays a crucial role in preventing back pain and muscle strain.",
+          "sentence": "Posture plays a crucial role in preventing back pain and muscle strain.",
           "sentenceWithBlank": "______ plays a crucial role in preventing back pain and muscle strain.",
           "wordBlank": "Posture",
           "translation": "Tư thế đóng một vai trò quan trọng trong việc ngăn chặn đau lưng và căng cơ."
@@ -714,7 +714,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "The ____ consists of vertebrae stacked on top of each other.",
+          "sentence": "The spine consists of vertebrae stacked on top of each other.",
           "sentenceWithBlank": "The ____ consists of vertebrae stacked on top of each other.",
           "wordBlank": "Spine",
           "translation": "Cột sống bao gồm các đốt sống xếp chồng lên nhau."
@@ -759,7 +759,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "The ____ are responsible for the exchange of oxygen and carbon dioxide in the body.",
+          "sentence": "The lungs are responsible for the exchange of oxygen and carbon dioxide in the body.",
           "sentenceWithBlank": "The ____ are responsible for the exchange of oxygen and carbon dioxide in the body.",
           "wordBlank": "Lungs",
           "translation": "Phổi chịu trách nhiệm cho quá trình trao đổi ôxy và carbon dioxide trong cơ thể."
@@ -804,7 +804,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "The ____ is a complex organ that allows the sense of sight.",
+          "sentence": "The eye is a complex organ that allows the sense of sight.",
           "sentenceWithBlank": "The ____ is a complex organ that allows the sense of sight.",
           "wordBlank": "Eye",
           "translation": "Mắt là một cơ quan phức tạp cho phép giác quan thị giác."
@@ -874,7 +874,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "______ are important for chewing food and aiding the digestion process.",
+          "sentence": "Teeth are important for chewing food and aiding the digestion process.",
           "sentenceWithBlank": "______ are important for chewing food and aiding the digestion process.",
           "wordBlank": "Teeth",
           "translation": "Răng quan trọng để nhai thức ăn và hỗ trợ quá trình tiêu hóa."
@@ -944,7 +944,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "The ____ is a muscular organ that breaks down food into a semi-liquid mixture.",
+          "sentence": "The stomach is a muscular organ that breaks down food into a semi-liquid mixture.",
           "sentenceWithBlank": "The ____ is a muscular organ that breaks down food into a semi-liquid mixture.",
           "wordBlank": "Stomach",
           "translation": "Dạ dày là một cơ quan cơ bắp phân giải thức ăn thành hỗn hợp nửa lỏng."
@@ -989,7 +989,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "The doctor measured the patient's _____ to assess cardiovascular health.",
+          "sentence": "The doctor measured the patient's pulse to assess cardiovascular health.",
           "sentenceWithBlank": "The doctor measured the patient's _____ to assess cardiovascular health.",
           "wordBlank": "Pulse",
           "translation": "Bác sĩ đo nhịp tim của bệnh nhân để đánh giá sức khỏe tim mạch."
@@ -1059,7 +1059,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "In bright light, the _____ constricts to reduce the amount of light entering the eye.",
+          "sentence": "In bright light, the pupil constricts to reduce the amount of light entering the eye.",
           "sentenceWithBlank": "In bright light, the _____ constricts to reduce the amount of light entering the eye.",
           "wordBlank": "Pupil",
           "translation": "Trong ánh sáng chói lọi, zòng mắt co lại để giảm lượng ánh sáng nhập vào mắt."
@@ -1129,7 +1129,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "The _____ is a prominent facial feature that supports the lower lip.",
+          "sentence": "The chin is a prominent facial feature that supports the lower lip.",
           "sentenceWithBlank": "The _____ is a prominent facial feature that supports the lower lip.",
           "wordBlank": "Chin",
           "translation": "Cằm là một đặc điểm nổi bật của khuôn mặt hỗ trợ môi dưới."
@@ -1199,7 +1199,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "The _____ is a small, central scar on the abdomen resulting from the umbilical cord.",
+          "sentence": "The navel is a small, central scar on the abdomen resulting from the umbilical cord.",
           "sentenceWithBlank": "The _____ is a small, central scar on the abdomen resulting from the umbilical cord.",
           "wordBlank": "Navel",
           "translation": "Rốn là một vết sẹo nhỏ ở giữa bụng do dây rốn gây ra."
@@ -1244,7 +1244,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "Emotional moments can lead to the production of _____ in response to feelings.",
+          "sentence": "Emotional moments can lead to the production of tear in response to feelings.",
           "sentenceWithBlank": "Emotional moments can lead to the production of _____ in response to feelings.",
           "wordBlank": "Tear",
           "translation": "Những khoảnh khắc xúc động có thể dẫn đến sự sản xuất nước mắt phản ứng với cảm xúc."
@@ -1289,7 +1289,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "The _____ provides flexibility and allows movement of the head in various directions.",
+          "sentence": "The neck provides flexibility and allows movement of the head in various directions.",
           "sentenceWithBlank": "The _____ provides flexibility and allows movement of the head in various directions.",
           "wordBlank": "Neck",
           "translation": "Cổ cung cấp tính linh hoạt và cho phép đầu di chuyển theo nhiều hướng khác nhau."
@@ -1359,7 +1359,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "The _____ is essential for swallowing and vocalization.",
+          "sentence": "The throat is essential for swallowing and vocalization.",
           "sentenceWithBlank": "The _____ is essential for swallowing and vocalization.",
           "wordBlank": "Throat",
           "translation": "Cổ họng là quan trọng cho việc nuốt và phát âm."
@@ -1404,7 +1404,7 @@
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "The _____ are located on either side of the body, connecting the torso to the legs.",
+          "sentence": "The hips are located on either side of the body, connecting the torso to the legs.",
           "sentenceWithBlank": "The _____ are located on either side of the body, connecting the torso to the legs.",
           "wordBlank": "Hips",
           "translation": "Hông nằm ở hai bên của cơ thể, nối cơ thể trên với chân."

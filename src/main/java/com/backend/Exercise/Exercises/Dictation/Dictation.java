@@ -212,7 +212,7 @@ public class Dictation extends Exercise {
 
     @Override
     public boolean isCorrect(String userAnswer) {
-        return userAnswer.equals(wordBlank);
+        return userAnswer.equalsIgnoreCase(wordBlank);
     }
 
     public AudioTranslation getAudioTranslation() {
@@ -226,6 +226,7 @@ public class Dictation extends Exercise {
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder();
+        result.append("Sentence: ").append(sentence).append("\n");
         result.append("Sentence with blank: ").append(sentenceWithBlank).append("\n");
         result.append("Word blank: ").append(wordBlank).append("\n");
         result.append(audioTranslation.toString());

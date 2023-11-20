@@ -13,9 +13,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import static com.backend.Exercise.Utils.ExerciseLoader.getDictationListFromSimpleTopicWordList;
-import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
-import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.currentExercise;
+import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.globalCurrentExercise;
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.globalScore;
 
 public class Dictation_Controller extends Exercise_Controller<Dictation> {
@@ -25,17 +23,10 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     private Dictation exercise;
 
     private MediaPlayer mediaPlayer;
-    private boolean submitted = false;
 
     @Override
     protected Stage getStage() {
         return (Stage) answerTextField.getScene().getWindow();
-    }
-
-    @Override
-    protected void loadExerciseFromBank() {
-//        exerciseList = Dictation.loadFromBank();
-        exerciseList = getDictationListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
     }
 
     private void setQuestion(String question) {
@@ -51,8 +42,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @Override
     protected void generateQuestion() {
         timerManager.startTimer();
-//        setQuestion(exerciseList.get(questionIndex));
-        setQuestion((Dictation) currentExercise);
+        setQuestion((Dictation) globalCurrentExercise);
         setScoreLabel();
         setQuestionIndexLabel();
     }
@@ -69,13 +59,11 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
-        submitted = false;
     }
 
     @Override
     protected String getUserAnswer() {
-        String userAnswer = answerTextField.getText();
-        return userAnswer;
+        return answerTextField.getText();
     }
 
     @Override
@@ -106,7 +94,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
             System.out.println("Please enter valid answer");
         }
 
-        submitted = true;
         answerTextField.clear();
 
         Stage stage = getStage();
@@ -160,8 +147,4 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         alert.showAndWait();
     }
 
-    @Override
-    protected void handleTimeout() {
-        System.out.println("TIMEOUTT");
-    }
 }

@@ -784,7 +784,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "Companies sometimes have to ________ assets to settle financial obligations.",
+          "sentence": "Companies sometimes have to liquidate assets to settle financial obligations.",
           "sentenceWithBlank": "Companies sometimes have to ________ assets to settle financial obligations.",
           "wordBlank": "liquidate",
           "translation": "Đôi khi các công ty phải thanh lý tài sản để giải quyết các nghĩa vụ tài chính."
@@ -1267,17 +1267,17 @@
         "type": "Noun/Verb",
         "phonetic": "dɪˈfɔːlt",
         "example": "Failure to repay a loan as per the agreed terms is considered a default.",
-        "explain": "Vi phạm hợp đồng, mặc định",
-        "translatedExample": "Không trả nợ theo các điều khoản đã thỏa thuận được coi là vi phạm hợp đồng, mặc định."
+        "explain": "Vi phạm hợp đồng",
+        "translatedExample": "Không trả nợ theo các điều khoản đã thỏa thuận được coi là vi phạm hợp đồng."
       },
       "quiz": {
         "exerciseType": "Dictation-Blank",
         "description": {
           "type": "Dictation",
-          "sentence": "Failure to repay a loan as per the agreed terms is considered a ________.",
+          "sentence": "Failure to repay a loan as per the agreed terms is considered a default.",
           "sentenceWithBlank": "Failure to repay a loan as per the agreed terms is considered a ________.",
           "wordBlank": "default",
-          "translation": "Không trả nợ theo các điều khoản đã thỏa thuận được coi là vi phạm hợp đồng, mặc định."
+          "translation": "Không trả nợ theo các điều khoản đã thỏa thuận được coi là vi phạm hợp đồng."
         }
       }
     },
@@ -1389,7 +1389,7 @@
         "exerciseType": "Dictation",
         "description": {
           "type": "Dictation",
-          "sentence": "________ receive dividends as a distribution of a portion of a company's earnings.",
+          "sentence": "Shareholders receive dividends as a distribution of a portion of a company's earnings.",
           "sentenceWithBlank": "Shareholders receive ________ as a distribution of a portion of a company's earnings.",
           "wordBlank": "dividends",
           "translation": "Cổ đông nhận cổ tức như một phần phân phối của lợi nhuận của một công ty."

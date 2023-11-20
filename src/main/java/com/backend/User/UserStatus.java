@@ -33,18 +33,9 @@ public class UserStatus extends User {
     /**
      * The function update score after play each game and update max score too database.
      */
-    public static void updateScoreStatus(int score1, int score2) {
-        if (score1 == -1) {
-            User tmp = new User(currentUser.getUsername(), 0, score2);
-            UserDataScore.getInstance().insert(tmp);
-        } else if (score2 == -1) {
-            User tmp = new User(currentUser.getUsername(), score1, 0);
-            UserDataScore.getInstance().insert(tmp);
-        }
+    public static void updateScoreStatus(int score1) {
+        User tmp = new User(currentUser.getUsername(), score1);
+        UserDataScore.getInstance().insert(tmp);
         UserDataAccess.getInstance().updateScore(currentUser.getUsername());
-    }
-
-    public static void main(String[] args) {
-        updateScoreStatus(-1, 1000);
     }
 }

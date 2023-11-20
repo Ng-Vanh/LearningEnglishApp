@@ -58,3 +58,9 @@
     -fx-background-color:  rgba(3,240,20,0.3);
     -fx-transition: background 0.3s;
 }
+.ggtranslate-btn:hover,
+.back-btn:hover{
+    -fx-scale-x:1.05;
+    -fx-scale-y:1.05;
+    -fx-cursor:hand;
+}

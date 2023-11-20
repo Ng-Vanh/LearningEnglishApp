@@ -6,7 +6,6 @@ public class User {
     private String username;
     private String password;
     private int scoreGame1;
-    private int scoreGame2;
 
     public User() {
     }
@@ -26,19 +25,17 @@ public class User {
         this.password = password;
     }
 
-    public User(String username, int scoreGame1, int scoreGame2) {
+    public User(String username, int scoreGame1) {
         this.username = username;
         this.scoreGame1 = scoreGame1;
-        this.scoreGame2 = scoreGame2;
     }
 
-    public User(String firstName, String lastName, String username, String password, int scoreGame1, int scoreGame2) {
+    public User(String firstName, String lastName, String username, String password, int scoreGame1) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.username = username;
         this.password = password;
         this.scoreGame1 = scoreGame1;
-        this.scoreGame2 = scoreGame2;
     }
 
     public String getFirstName() {
@@ -81,12 +78,5 @@ public class User {
         this.scoreGame1 = scoreGame1;
     }
 
-    public int getScoreGame2() {
-        return scoreGame2;
-    }
-
-    public void setScoreGame2(int scoreGame2) {
-        this.scoreGame2 = scoreGame2;
-    }
 
 }

@@ -120,8 +120,6 @@ public class UserDataAccess implements IDataAccess<User> {
             String query = "UPDATE " + tableUser + " u\n" +
                     " SET\n" +
                     "u.scoregame1 = (SELECT MAX(us.curscoregame1) FROM " + tableScoreStatus + " us\n" +
-                    "WHERE us.username = u.username),\n" +
-                    "u.scoregame2 = (SELECT MAX(us.curscoregame2) FROM " + tableScoreStatus + " us\n" +
                     "WHERE us.username = u.username)\n" +
                     "WHERE u.username = ?";
 
@@ -161,8 +159,7 @@ public class UserDataAccess implements IDataAccess<User> {
                 String fName = resultSet.getString("firstname");
                 String lName = resultSet.getString("lastname");
                 int score1 = resultSet.getInt("scoregame1");
-                int score2 = resultSet.getInt("scoregame2");
-                res = new User(fName, lName, userName, password, score1, score2);
+                res = new User(fName, lName, userName, password, score1);
             }
 
             connectDatabase.closeConnection(connection);
@@ -209,8 +206,8 @@ public class UserDataAccess implements IDataAccess<User> {
         ArrayList<User> result = new ArrayList<User>();
         try {
             Connection connection = connectDatabase.getConnection();
-            String query = "SELECT *, (scoregame1 + scoregame2) as total FROM " + tableUser
-                    + " ORDER BY total DESC, firstname ASC";
+            String query = "SELECT *, scoregame1  FROM " + tableUser
+                    + " ORDER BY scoregame1 DESC, firstname ASC";
 
             PreparedStatement preparedStatement = connection.prepareStatement(query);
 
@@ -222,8 +219,7 @@ public class UserDataAccess implements IDataAccess<User> {
                 String fName = resultSet.getString("firstname");
                 String lName = resultSet.getString("lastname");
                 int score1 = resultSet.getInt("scoregame1");
-                int score2 = resultSet.getInt("scoregame2");
-                result.add(new User(fName, lName, userName, password, score1, score2));
+                result.add(new User(fName, lName, userName, password, score1));
             }
 
             connectDatabase.closeConnection(connection);
@@ -242,5 +238,9 @@ public class UserDataAccess implements IDataAccess<User> {
     @Override
     public int delete(User user) {
         return 0;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(UserDataAccess.getInstance().getUserInfo("abc123"));
     }
 }

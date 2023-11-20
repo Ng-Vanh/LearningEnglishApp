@@ -28,13 +28,12 @@ public class UserDataScore implements IDataAccess<User> {
         int result = 0;
         try {
             Connection connection = connectDatabase.getConnection();
-            String query = "INSERT INTO " + tableScoreStatus + "(username, curscoregame1, curscoregame2) " +
-                    "VALUES (?, ?, ?)";
+            String query = "INSERT INTO " + tableScoreStatus + "(username, curscoregame1) " +
+                    "VALUES (?, ?)";
 
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, user.getUsername());
             preparedStatement.setInt(2, user.getScoreGame1());
-            preparedStatement.setInt(3, user.getScoreGame2());
 
             result = preparedStatement.executeUpdate();
 

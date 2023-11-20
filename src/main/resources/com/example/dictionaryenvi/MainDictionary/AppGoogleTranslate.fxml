@@ -4,6 +4,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.WebView?>
@@ -19,20 +20,29 @@
                                 <Image url="@image/BackBtn.png" />
                             </image>
                         </ImageView>
-                        <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="876.0" layoutY="15.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true" styleClass="home-btn">
-                            <image>
-                                <Image url="@image/home.png" />
-                            </image>
-                        </ImageView>
-                        <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="803.0" layoutY="15.0" onMouseClicked="#goToLearn" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
-                            <image>
-                                <Image url="@image/studying.png" />
-                            </image>
-                        </ImageView>
+                        <HBox alignment="CENTER" layoutX="727.0" layoutY="14.0" prefHeight="43.0" prefWidth="198.0" spacing="25.0">
+                            <children>
+                                <ImageView fitHeight="43.0" fitWidth="43.0" onMouseClicked="#goToGame" pickOnBounds="true" preserveRatio="true" styleClass="game-btn">
+                                    <image>
+                                        <Image url="@image/gamification.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="43.0" fitWidth="43.0" onMouseClicked="#goToLearn" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
+                                    <image>
+                                        <Image url="@image/studying.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fitHeight="43.0" fitWidth="43.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true" styleClass="home-btn">
+                                    <image>
+                                        <Image url="@image/home.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </HBox>
                     </children></AnchorPane>
                 <AnchorPane prefHeight="506.0" prefWidth="960.0" style="-fx-background-color: #E8F7EA;">
                     <children>
-                        <AnchorPane layoutX="57.0" layoutY="24.0" prefHeight="92.0" prefWidth="856.0">
+                        <AnchorPane layoutX="57.0" layoutY="28.0" prefHeight="88.0" prefWidth="856.0">
                             <children>
                                 <ImageView fx:id="swapLanguageBtn" fitHeight="42.0" fitWidth="66.0" layoutX="416.0" layoutY="33.0" onMouseClicked="#clickSwapLang" pickOnBounds="true" preserveRatio="true" styleClass="swap-btn">
                                     <image>

@@ -199,6 +199,30 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord> {
     }
 
     /**
+     * The function get all words follow each user.
+     */
+    public ArrayList<UserLearnWord> getWordsFollowEachUser(String username){
+        ArrayList<UserLearnWord> result = new ArrayList<>();
+        try {
+            Connection connection = connectDatabase.getConnection();
+            String query = "SELECT DISTINCT * FROM " + tableLearning + " WHERE username = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                String word = resultSet.getString("word");
+                String topic = resultSet.getString("topic");
+                result.add(new UserLearnWord(username, topic, word));
+            }
+            connectDatabase.closeConnection(connection);
+        } catch (SQLException e) {
+            throw new RuntimeException();
+        }
+        return result;
+    }
+
+    /**
      * The function returns pair: topic - number of words user learned.
      */
     public Map<String, Integer> listCountLearnedWords(String username) {
@@ -231,5 +255,9 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord> {
     @Override
     public ArrayList<UserLearnWord> selectAll() {
         return null;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(LearnedDataAccess.getInstance().getWordsFollowEachUser("abc123"));
     }
 }

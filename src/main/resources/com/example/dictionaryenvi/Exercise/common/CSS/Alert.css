@@ -37,14 +37,32 @@
     -fx-font-weight: bold; /* Bold text for buttons */
 }
 
-/* Style for the OK button with specific class */
 .dialog-pane .ok-button {
-    -fx-background-color: #5cb85c; /* Green color for the OK button */
-    -fx-text-fill: white; /* White text for the OK button */
-    -fx-font-weight: bold; /* Bold text for the OK button */
+    -fx-background-color: #3498db; /* Blue background */
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 2, 2); /* Subtle shadow for pressed effect */
+    -fx-cursor: hand;
+    -fx-font-size: 2em;
+    -fx-scale-x: 0.98; /* Slightly scaled down */
+    -fx-scale-y: 0.98; /* Slightly scaled down */
 }
 
 /* Hover effect for the OK button */
 .dialog-pane .ok-button:hover {
-    -fx-background-color: #449d44; /* Darker green on hover for the OK button */
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 15, 0.3, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Pressed effect for the OK button */
+.dialog-pane .ok-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #2980b9, #3498db);
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 5, 0, 0, 0);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
 }

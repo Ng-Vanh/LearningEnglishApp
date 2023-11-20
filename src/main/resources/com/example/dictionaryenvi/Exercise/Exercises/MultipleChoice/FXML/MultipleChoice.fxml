@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
@@ -16,11 +17,11 @@
    <children>
       <VBox prefHeight="0.0" prefWidth="920.0" spacing="10.0" VBox.vgrow="NEVER">
          <children>
-            <Button fx:id="back" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#goBack" text="Back" textAlignment="CENTER" wrapText="true">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
+            <ImageView fx:id="goBack" fitHeight="150.0" fitWidth="85.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../common/assets/back.png" />
+               </image>
+            </ImageView>
             <HBox alignment="CENTER" maxHeight="20.0" spacing="100.0" styleClass="question-box" HBox.hgrow="ALWAYS">
                <children>
                   <Label fx:id="scoreLabel" styleClass="scoreLabel" stylesheets="@../../../common/CSS/Status.css" text="Score: 0" wrapText="true">

@@ -14,11 +14,11 @@
     <children>
         <VBox prefWidth="920.0" spacing="10.0" VBox.vgrow="NEVER">
             <children>
-                <Button fx:id="goBack" alignment="TOP_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#goBack" text="Back" textAlignment="CENTER" wrapText="true" VBox.vgrow="NEVER">
-                    <font>
-                        <Font size="16.0" />
-                    </font>
-                </Button>
+            <ImageView fx:id="goBack" fitHeight="150.0" fitWidth="85.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../common/assets/back.png" />
+               </image>
+            </ImageView>
                 <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" spacing="100.0">
                     <children>
                         <Label fx:id="scoreLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="scoreLabel" stylesheets="@../../../common/CSS/Status.css" text="Score: " wrapText="true">

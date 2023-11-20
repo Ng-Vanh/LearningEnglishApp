@@ -1,27 +1,25 @@
 /* General style for the dialog pane */
 .dialog-pane {
-    -fx-background-color: #f2f2f2; /* Soft background color */
-    -fx-background-radius: 15; /* Rounded corners */
+    -fx-background-color: white; /* White background */
     -fx-font-family: 'Open Sans', sans-serif; /* Readable font */
     -fx-text-fill: #333; /* Dark grey text for readability */
     -fx-padding: 20; /* Padding around the alert */
-    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 20, 0, 0, 10); /* Subtle drop shadow */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 20, 0, 0, 10); /* Drop shadow */
 }
 
 /* Style for correct alerts */
 .dialog-pane.correct-alert {
-    -fx-background-color: #dff0d8; /* Soft green for correct alerts */
+    -fx-background-color: #4CAF50; /* Green for correct alerts */
 }
 
 /* Style for incorrect alerts */
 .dialog-pane.incorrect-alert {
-    -fx-background-color: #f2dede; /* Soft red for incorrect alerts */
+    -fx-background-color: #FF5733; /* Red for incorrect alerts */
 }
 
 /* Style for the content inside the alert */
 .dialog-pane .content {
-    -fx-text-fill: #555; /* Slightly lighter text color for content */
-    -fx-font-size: 14px; /* Adjust font size for content */
+    -fx-text-fill: #333; /* Dark grey text for content */
 }
 
 /* Style for the header panel (title) */
@@ -36,7 +34,6 @@
 .dialog-pane .button {
     -fx-background-color: #5cb85c; /* Green color for buttons */
     -fx-text-fill: white; /* White text for buttons */
-    -fx-background-radius: 5; /* Rounded corners for buttons */
     -fx-font-weight: bold; /* Bold text for buttons */
 }
 
@@ -45,7 +42,6 @@
     -fx-background-color: #5cb85c; /* Green color for the OK button */
     -fx-text-fill: white; /* White text for the OK button */
     -fx-font-weight: bold; /* Bold text for the OK button */
-    -fx-background-radius: 5; /* Rounded corners for the OK button */
 }
 
 /* Hover effect for the OK button */

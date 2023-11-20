@@ -22,7 +22,7 @@ public class MultipleChoice_Application extends javafx.application.Application {
 
         Scene MultipleChoiceScene = new Scene(root, 960, 576);
         stage.setTitle("Multiple Choice");
-        stage.setMinWidth(680);
+        stage.setMinWidth(750);
         stage.setMinHeight(500);
         stage.setScene(MultipleChoiceScene);
         stage.show();

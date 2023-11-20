@@ -53,6 +53,10 @@ public class Dictation extends Exercise {
         return new Dictation("Sentence", "sentenceWithBlank", "wordBlank", "audioLink", "translation");
     }
 
+//    public static Dictation getDefaultDictation() {
+//        return new Dictation("Sentence", "aasdjfhlaksdhflaskdfhljhlhlshlksadfsdfhsadflkjasdflkjasdflkjhasdljkfhahlhlkjasdfsdhlkajsdfhlaksdjfhlsadlkjfhslkjhlkjlkjsdasdfasdf", "wordBlank", "audioLink", "translation");
+//    }
+
     public Dictation() {
 
     }

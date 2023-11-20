@@ -1,0 +1,22 @@
+/* MultipleChoice.css */
+.question-box {
+    /*-fx-background-color: #ecf0f1; /* Set background color */
+    /*-fx-padding: 10; /* Add some padding */
+    /*-fx-background-radius: 10; /* Rounded corners */
+}
+
+
+/* Question.css */
+.question-label {
+    -fx-background-color: #3498db; /* Set background color */
+    -fx-padding: 15; /* Add more padding */
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-text-fill: #ffffff; /* Set text color */
+    -fx-effect: dropshadow(three-pass-box, #3498db, 10, 0, 0, 0); /* Soft shadow */
+    -fx-transition: text-fill 0.3s, background-color 0.3s, effect 0.3s; /* Add smooth transitions */
+}
+
+.question-label:hover {
+    -fx-background-color: #2980b9; /* Darker background on hover */
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 15, 0, 0, 0); /* Stronger shadow on hover */
+}

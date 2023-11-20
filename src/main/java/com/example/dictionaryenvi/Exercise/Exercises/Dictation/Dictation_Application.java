@@ -22,7 +22,7 @@ public class Dictation_Application extends javafx.application.Application {
         this.controller = controller;
 
         Scene DictationScene = new Scene(root, 960, 576);
-        stage.setMinWidth(720);
+        stage.setMinWidth(750);
         stage.setMinHeight(500);
         stage.setTitle("Dictation");
         stage.setScene(DictationScene);

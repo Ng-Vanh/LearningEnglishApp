@@ -1,0 +1,31 @@
+.submit-button {
+    /* Existing styles for the normal state */
+    /*-fx-background-color: linear-gradient(to bottom, #3498db, #2980b9);*/
+    -fx-background-color: #3498db;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, #3498db, 10, 0.2, 0, 0);
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease;
+    -fx-font-size: 2em;
+}
+
+.submit-button:hover {
+    /* Styles for the hover state */
+    /*-fx-background-color: linear-gradient(to bottom, #2980b9, #3498db);*/
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 15, 0.3, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.submit-button:pressed {
+    /* Styles for the pressed state */
+    -fx-background-color: linear-gradient(to bottom, #2980b9, #3498db);
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 5, 0, 0, 0);
+    -fx-scale-x: 0.95; /* Adjusted pressed scale factor */
+    -fx-scale-y: 0.95; /* Adjusted pressed scale factor */
+}

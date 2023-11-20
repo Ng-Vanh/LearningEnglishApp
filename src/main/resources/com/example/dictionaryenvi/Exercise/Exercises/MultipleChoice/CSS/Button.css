@@ -1,0 +1,41 @@
+/* Base styles for the multiple-choice buttons */
+.multiple-choice-button {
+    -fx-font-size: 1.5em;
+    -fx-min-width: 300px;
+    -fx-min-height: 50px;
+    -fx-alignment: center-left;
+    -fx-padding: 10 15;
+    -fx-background-color: #3498db; /* Default background color */
+    -fx-background-radius: 30;
+    -fx-border-width: 0;
+    -fx-border-color: #2980b9;
+    -fx-text-fill: white; /* Text color */
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);*/
+    -fx-effect: dropshadow(three-pass-box, #3498db, 10, 0.2, 0, 0);
+    -fx-transition: background-color 0.3s, scale 0.3s, text-fill 0.3s; /* Add smooth transitions */
+}
+
+/* Hover effect */
+.multiple-choice-button:hover {
+    -fx-background-color: #2ecc71; /* Change background color on hover */
+    -fx-scale-x: 1.05; /* Slightly increase scale on the X-axis */
+    -fx-scale-y: 1.05; /* Slightly increase scale on the Y-axis */
+    -fx-text-fill: #ecf0f1; /* Change text color on hover */
+}
+
+/* Pressed effect */
+.multiple-choice-button:pressed {
+    -fx-background-color: #2980b9; /* Change background color when pressed */
+    -fx-scale-x: 0.95; /* Slightly decrease scale on the X-axis */
+    -fx-scale-y: 0.95; /* Slightly decrease scale on the Y-axis */
+}
+
+/* Add a subtle shadow on focus */
+.multiple-choice-button:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+}
+
+/* Add a transition for the shadow effect */
+.multiple-choice-button:focused:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 15, 0, 0, 0);
+}

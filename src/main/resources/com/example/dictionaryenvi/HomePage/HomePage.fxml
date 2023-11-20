@@ -7,16 +7,17 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: linear-gradient(to right, #d4fc79 0%, #96e6a1 100%);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.HomePage.HomePage">
+<AnchorPane prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: linear-gradient(to right, #d4fc79 0%, #96e6a1 100%);" stylesheets="@HomePage.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.HomePage.HomePage">
     <children>
         <ImageView fitHeight="123.0" fitWidth="149.0" layoutX="583.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 22deg;">
             <image>
                 <Image url="@image/cute.gif" />
             </image>
         </ImageView>
-        <HBox layoutX="361.0" layoutY="120.0" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="278.0">
+        <HBox layoutX="361.0" layoutY="120.0" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="278.0" styleClass="dictionary-icon">
             <children>
                 <ImageView fitHeight="90.0" fitWidth="126.0" pickOnBounds="true" preserveRatio="true">
                     <image>
@@ -36,7 +37,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </HBox>
-        <ImageView fx:id="topicWord" fitHeight="105.0" fitWidth="289.0" layoutX="633.0" layoutY="315.0" onMouseClicked="#goToLearnWord" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="topicWord" fitHeight="105.0" fitWidth="289.0" layoutX="633.0" layoutY="315.0" onMouseClicked="#goToLearnWord" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
             <image>
                 <Image url="@image/board.png" />
             </image>
@@ -44,7 +45,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <ImageView fx:id="exercise" fitHeight="105.0" fitWidth="289.0" layoutX="67.0" layoutY="315.0" onMouseClicked="#goToExercise" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="exercise" fitHeight="105.0" fitWidth="289.0" layoutX="67.0" layoutY="315.0" onMouseClicked="#goToExercise" pickOnBounds="true" preserveRatio="true" styleClass="exercise-btn">
             <image>
                 <Image url="@image/board.png" />
             </image>
@@ -52,17 +53,9 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <ImageView fx:id="logOutBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="logOutBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
             <image>
                 <Image url="@image/BackBtn.png" />
-            </image>
-            <cursor>
-                <Cursor fx:constant="HAND" />
-            </cursor>
-        </ImageView>
-        <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" layoutX="895.0" layoutY="16.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@image/userInfo.png" />
             </image>
             <cursor>
                 <Cursor fx:constant="HAND" />
@@ -73,7 +66,7 @@
                 <Image url="@image/manWalk.gif" />
             </image>
         </ImageView>
-        <Label layoutX="157.0" layoutY="350.0" onMouseClicked="#goToExercise" text="Exercise" textFill="#fafafa">
+        <Label layoutX="698.0" layoutY="350.0" onMouseClicked="#goToLearnWord" prefHeight="34.0" prefWidth="138.0" text="Study Word" textFill="#f4f4f4">
             <font>
                 <Font name="System Bold" size="24.0" />
             </font>
@@ -81,7 +74,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Label>
-        <Label layoutX="701.0" layoutY="350.0" onMouseClicked="#goToLearnWord" text="Study Word" textFill="#f4f4f4">
+        <Label layoutX="157.0" layoutY="350.0" onMouseClicked="#goToExercise" prefHeight="34.0" prefWidth="100.0" text="Exercise" textFill="#fafafa">
             <font>
                 <Font name="System Bold" size="24.0" />
             </font>
@@ -89,13 +82,30 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Label>
-        <ImageView fx:id="rankBtn" fitHeight="53.0" fitWidth="42.0" layoutX="891.0" layoutY="66.0" onMouseClicked="#showRanking" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@image/trophy.png" />
-            </image>
-            <cursor>
-                <Cursor fx:constant="HAND" />
-            </cursor>
-        </ImageView>
+        <VBox alignment="CENTER" layoutX="867.0" layoutY="14.0" prefHeight="187.0" prefWidth="76.0" spacing="15.0">
+            <children>
+                <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="userInfo-btn">
+                    <image>
+                        <Image url="@image/userInfo.png" />
+                    </image>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </ImageView>
+                <ImageView fx:id="rankBtn" fitHeight="53.0" fitWidth="42.0" onMouseClicked="#showRanking" pickOnBounds="true" preserveRatio="true" styleClass="rank-btn">
+                    <image>
+                        <Image url="@image/trophy.png" />
+                    </image>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </ImageView>
+                <ImageView fitHeight="44.0" fitWidth="42.0" onMouseClicked="#learnWordOfDay" pickOnBounds="true" preserveRatio="true" styleClass="wordOfDay-btn">
+                    <image>
+                        <Image url="@image/vocabulary.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
     </children>
 </AnchorPane>

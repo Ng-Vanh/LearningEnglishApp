@@ -12,15 +12,25 @@
     <children>
         <VBox layoutY="0.0" prefHeight="576.0" prefWidth="960.0">
             <children>
-                <AnchorPane prefHeight="70.0" prefWidth="960.0">
+                <AnchorPane prefHeight="70.0" prefWidth="960.0" styleClass="navbar">
                     <children>
                         <ImageView fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToMainDict" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
                             <image>
                                 <Image url="@image/BackBtn.png" />
                             </image>
                         </ImageView>
+                        <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="876.0" layoutY="15.0" onMouseClicked="#goToHome" pickOnBounds="true" preserveRatio="true" styleClass="home-btn">
+                            <image>
+                                <Image url="@image/home.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="803.0" layoutY="15.0" onMouseClicked="#goToLearn" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
+                            <image>
+                                <Image url="@image/studying.png" />
+                            </image>
+                        </ImageView>
                     </children></AnchorPane>
-                <AnchorPane prefHeight="506.0" prefWidth="960.0">
+                <AnchorPane prefHeight="506.0" prefWidth="960.0" style="-fx-background-color: #E8F7EA;">
                     <children>
                         <AnchorPane layoutX="57.0" layoutY="24.0" prefHeight="92.0" prefWidth="856.0">
                             <children>
@@ -33,12 +43,12 @@
                                 <ImageView fx:id="rightFlag" fitHeight="57.0" fitWidth="57.0" layoutX="490.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
                             </children>
                         </AnchorPane>
-                        <TextArea fx:id="inputTranslate" layoutX="56.0" layoutY="128.0" onKeyReleased="#enterWordEvent" prefHeight="318.0" prefWidth="430.0" promptText="Nhập từ/câu cần dịch" styleClass="input-area" wrapText="true">
+                        <TextArea fx:id="inputTranslate" layoutX="44.0" layoutY="128.0" onKeyReleased="#enterWordEvent" prefHeight="318.0" prefWidth="442.0" promptText="Nhập từ/câu cần dịch" styleClass="input-area" wrapText="true">
                             <font>
                                 <Font size="24.0" />
                             </font>
                         </TextArea>
-                        <WebView fx:id="showTranslate" layoutX="501.0" layoutY="128.0" prefHeight="318.0" prefWidth="430.0"/>
+                        <WebView fx:id="showTranslate" layoutX="501.0" layoutY="128.0" prefHeight="318.0" prefWidth="422.0" />
                         <AnchorPane layoutX="57.0" layoutY="447.0" prefHeight="50.0" prefWidth="430.0">
                             <children>
                                 <ImageView fx:id="leftSpeaker" fitHeight="42.0" fitWidth="42.0" layoutX="14.0" layoutY="4.0" onMouseClicked="#clickLeftSpeaker" pickOnBounds="true" preserveRatio="true" styleClass="speaker-left-btn" visible="false">

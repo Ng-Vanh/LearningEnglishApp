@@ -1,0 +1,11 @@
+.back-btn:hover,
+.userInfo-btn:hover,
+.rank-btn:hover,
+.dictionary-icon:hover,
+.study-btn:hover,
+.exercise-btn:hover,
+.wordOfDay-btn:hover{
+    -fx-scale-x:1.03;
+    -fx-scale-y:1.03;
+    -fx-cursor:hand;
+}

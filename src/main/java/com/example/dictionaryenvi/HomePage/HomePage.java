@@ -31,6 +31,10 @@ public class HomePage {
     @FXML
     private ImageView logOutBtn, userInfoBtn;
 
+    /**
+     * Move to dictionary.
+     */
+
     public void goToDictionary(MouseEvent mouseEvent) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/MainDictionary.fxml"));
         try {
@@ -44,6 +48,9 @@ public class HomePage {
         }
     }
 
+    /**
+     * Move to LoginScreen and logout.
+     */
     public void clickLogOut(MouseEvent mouseEvent) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Account/Login/FXML/Login.fxml"));
         try {
@@ -57,6 +64,9 @@ public class HomePage {
         }
     }
 
+    /**
+     * Shows information about current user: name, score.
+     */
     public void clickShowUserInfo(MouseEvent mouseEvent) {
         Image avatarImage = new Image(getClass().getResource("/com/example/dictionaryenvi/HomePage/image/userAvt.png").toExternalForm());
         ImageView avatarImageView = new ImageView(avatarImage);
@@ -95,7 +105,9 @@ public class HomePage {
         dialog.showAndWait();
     }
 
-
+    /**
+     * Move to study with some exercise.
+     */
     public void goToExercise(MouseEvent mouseEvent) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
         try {
@@ -109,6 +121,9 @@ public class HomePage {
         }
     }
 
+    /**
+     * Move to learn word with some topic.
+     */
     public void goToLearnWord(MouseEvent mouseEvent) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
         try {
@@ -128,6 +143,31 @@ public class HomePage {
         }
     }
 
+    /**
+     * Move to learn words follow each day.
+     */
+    public void learnWordOfDay(MouseEvent mouseEvent) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
+        try {
+            Parent root = loader.load();
+
+            FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), root);
+            fadeTransition.setFromValue(0.0);
+            fadeTransition.setToValue(1.0);
+            fadeTransition.play();
+
+            Scene scene = new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * Show rank of all users.
+     */
     public void showRanking(MouseEvent mouseEvent) {
         Dialog<Void> dialog = new Dialog<>();
         dialog.setTitle("Ranking");
@@ -239,4 +279,6 @@ public class HomePage {
     private void resizeTableView(TableView<User> tableView, boolean b) {
         tableView.getColumns().forEach(column -> column.setResizable(b));
     }
+
+
 }

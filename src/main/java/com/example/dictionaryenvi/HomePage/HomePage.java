@@ -75,13 +75,11 @@ public class HomePage {
         String fullName = usInfo.getFirstName() + " " + usInfo.getLastName();
         Label fullNameLabel = new Label("Name: " + fullName);
         int score1 = usInfo.getScoreGame1();
-        int score2 = usInfo.getScoreGame2();
-        Label scoreLabel1 = new Label("Dictation: " + score1);
-        Label scoreLabel2 = new Label("MultipleChoice: " + score2);
+        Label scoreLabel1 = new Label("Score: " + score1);
 
         VBox userInfoBox = new VBox(10);
         userInfoBox.setAlignment(Pos.CENTER);
-        userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1, scoreLabel2);
+        userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1);
 
         Dialog<Void> dialog = new Dialog<>();
         dialog.getDialogPane().setMinWidth(360);
@@ -109,7 +107,7 @@ public class HomePage {
      * Move to study with some exercise.
      */
     public void goToExercise(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseScene/FXML/ExerciseScene.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);
@@ -176,7 +174,7 @@ public class HomePage {
         dialog.getDialogPane().getButtonTypes().add(closeButtonType);
         String cssFile = getClass().getResource("/com/example/dictionaryenvi/HomePage/Ranking.css").toExternalForm();
         dialog.getDialogPane().getStylesheets().add(cssFile);
-        dialog.getDialogPane().setMinWidth(560);
+        dialog.getDialogPane().setMinWidth(460);
         String myUsername = currentUser.getUsername();
 
 
@@ -203,24 +201,19 @@ public class HomePage {
         usernameCol.setPrefWidth(100);
 
 
-        TableColumn<User, Integer> scoreGame1Col = new TableColumn<>("Dictation");
+        TableColumn<User, Integer> scoreGame1Col = new TableColumn<>("Score");
         scoreGame1Col.setCellValueFactory(new PropertyValueFactory<User, Integer>("scoreGame1"));
         scoreGame1Col.setResizable(false);
         scoreGame1Col.setPrefWidth(70);
 
-        TableColumn<User, Integer> scoreGame2Col = new TableColumn<>("Multiple Choice");
-        scoreGame2Col.setCellValueFactory(new PropertyValueFactory<User, Integer>("scoreGame2"));
-        scoreGame2Col.setResizable(false);
-        scoreGame2Col.setPrefWidth(100);
 
-
-        tableView.getColumns().addAll(rankCol,usernameCol, firstNameCol, lastNameCol, scoreGame1Col, scoreGame2Col);
+        tableView.getColumns().addAll(rankCol,usernameCol, firstNameCol, lastNameCol, scoreGame1Col);
         userList.addAll(dataUsers);
 
         tableView.getColumns().remove(firstNameCol);
         tableView.getColumns().remove(lastNameCol);
 
-        TableColumn<User, String> fullNameCol = new TableColumn<>("Full Name");
+        TableColumn<User, String> fullNameCol = new TableColumn<>("Name");
         fullNameCol.setCellValueFactory(cellData -> {
             User user = cellData.getValue();
             String fullName = user.getFirstName() + " " + user.getLastName();

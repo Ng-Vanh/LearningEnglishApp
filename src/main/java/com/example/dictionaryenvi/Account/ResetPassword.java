@@ -2,9 +2,6 @@ package com.example.dictionaryenvi.Account;
 
 import com.backend.User.User;
 import com.example.dictionaryenvi.Application;
-import com.example.dictionaryenvi.UserInformation;
-import javafx.animation.PauseTransition;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,16 +11,13 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import javafx.util.Duration;
 
 import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
 
 public class ResetPassword extends UserInformation {
     @FXML

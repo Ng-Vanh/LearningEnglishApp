@@ -5,6 +5,7 @@ import org.apache.poi.ss.usermodel.Cell;
 public class Card {
     private String word;
     private String example;
+    private String type;
     private String pronounce;
     private String explain;
     private boolean isLearnWord;
@@ -17,8 +18,9 @@ public class Card {
         isLearnWord = learnWord;
     }
 
-    public Card(String word , String example , String pronounce , String explain , boolean isLearnWord) {
+    public Card(String word , String type , String example , String pronounce , String explain , boolean isLearnWord) {
         this.word = word;
+        this.type = type;
         this.example = example;
         this.pronounce = pronounce;
         this.explain = explain;
@@ -31,6 +33,13 @@ public class Card {
 
     public void setWord(String word) {
         this.word = word;
+    }
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getExample() {

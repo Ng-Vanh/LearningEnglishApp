@@ -1,4 +1,4 @@
-package com.example.dictionaryenvi;
+package com.example.dictionaryenvi.Account;
 
 import com.backend.Connection.UserDataAccess;
 import javafx.fxml.FXML;

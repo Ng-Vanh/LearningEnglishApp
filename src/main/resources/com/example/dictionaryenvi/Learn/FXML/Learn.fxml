@@ -14,19 +14,19 @@
    <children>
       <Pane fx:id="backFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
          <children>
-            <Label fx:id="word" alignment="CENTER" layoutX="1.0" layoutY="34.0" prefHeight="57.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+            <Label fx:id="word" alignment="CENTER" layoutX="1.0" layoutY="53.0" prefHeight="76.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
                <font>
-                  <Font size="40.0" />
+                  <Font size="30.0" />
                </font>
             </Label>
-            <Label fx:id="pronounce" alignment="CENTER" layoutY="104.0" prefHeight="28.0" prefWidth="258.0" text="Pronounce" textAlignment="CENTER">
+            <Label fx:id="pronounce" alignment="CENTER" layoutX="1.0" layoutY="141.0" prefHeight="28.0" prefWidth="258.0" text="Pronounce" textAlignment="CENTER">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-            <Label fx:id="explain" alignment="CENTER" layoutX="18.0" layoutY="174.0" prefHeight="65.0" prefWidth="222.0" text="Explain" textAlignment="CENTER">
+            <Label fx:id="explain" alignment="CENTER" layoutX="4.0" layoutY="184.0" prefHeight="118.0" prefWidth="249.0" text="Explain" textAlignment="CENTER">
                <font>
-                  <Font size="25.0" />
+                  <Font size="17.0" />
                </font>
             </Label>
             <ImageView fx:id="pronounceImg1" fitHeight="28.0" fitWidth="26.0" layoutX="18.0" layoutY="14.0" onMouseClicked="#playAudio" pickOnBounds="true" preserveRatio="true">
@@ -49,12 +49,12 @@
       <Button fx:id="continueBtn" layoutX="421.0" layoutY="466.0" mnemonicParsing="false" onMouseClicked="#nextCard" prefHeight="49.0" prefWidth="118.0" text="Continue" />
       <Pane fx:id="frontFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
          <children>
-            <Label fx:id="word1" alignment="CENTER" layoutY="33.0" prefHeight="57.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+            <Label fx:id="word1" alignment="CENTER" layoutY="50.0" prefHeight="76.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
                <font>
-                  <Font size="40.0" />
+                  <Font size="30.0" />
                </font>
             </Label>
-            <Label fx:id="example" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="119.0" prefHeight="121.0" prefWidth="214.0" text="Example" textAlignment="CENTER" wrapText="true">
+            <Label fx:id="example" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="181.0" prefHeight="118.0" prefWidth="258.0" text="Example" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="17.0" />
                </font>
@@ -69,6 +69,11 @@
                   <Image url="@../Image/grayStar.png" />
                </image>
             </ImageView>
+            <Label fx:id="type" alignment="CENTER" layoutX="5.0" layoutY="141.0" prefHeight="28.0" prefWidth="249.0" style="-fx-font-style: italic;" text="Type">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
       <ImageView fx:id="backImg" fitHeight="42" fitWidth="100" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickBackImg" pickOnBounds="true" preserveRatio="true">
@@ -91,14 +96,14 @@
             <Image url="@../Image/Menu.png" />
          </image>
       </ImageView>
-      <Pane fx:id="cloneFrontCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
+      <Pane fx:id="cloneFrontCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0" visible="false">
          <children>
-            <Label fx:id="cloneWord" alignment="CENTER" layoutY="33.0" prefHeight="57.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+            <Label fx:id="cloneWord" alignment="CENTER" layoutY="56.0" prefHeight="76.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
                <font>
-                  <Font size="40.0" />
+                  <Font size="30.0" />
                </font>
             </Label>
-            <Label fx:id="cloneExample" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="119.0" prefHeight="121.0" prefWidth="214.0" text="Example" textAlignment="CENTER" wrapText="true">
+            <Label fx:id="cloneExample" alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="183.0" prefHeight="118.0" prefWidth="243.0" text="Example" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="17.0" />
                </font>
@@ -113,6 +118,11 @@
                   <Image url="@../Image/grayStar.png" />
                </image>
             </ImageView>
+            <Label fx:id="type1" alignment="CENTER" layoutX="6.0" layoutY="141.0" prefHeight="28.0" prefWidth="243.0" text="Type">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
    </children>

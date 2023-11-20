@@ -6,8 +6,6 @@ import com.backend.Exercise.Utils.Exercise;
 import com.example.dictionaryenvi.Exercise.Exercises.Dictation.Dictation_Application;
 import com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoice_Application;
 import com.example.dictionaryenvi.Exercise.Utils.TimerManager;
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -145,28 +143,23 @@ public class ExerciseScene_Controller {
         Platform.runLater(() -> {
             System.out.println(" ============ ");
             System.out.println("Mul: " + showingMultipleChoice);
-            System.out.println("Dict: " + showingDictation);
+            System.out.println("Dic: " + showingDictation);
             System.out.println("=============");
 
-            // Show the new window
             if (showingMultipleChoice && multipleChoiceStage != null && !multipleChoiceStage.isShowing()) {
                 multipleChoiceStage.show();
             } else if (showingDictation && dictationStage != null && !dictationStage.isShowing()) {
                 dictationStage.show();
             }
 
-            // Hide the other window with a delay
-            Timeline hideDelay = new Timeline(new KeyFrame(javafx.util.Duration.millis(1), ae -> {
-                if (!showingMultipleChoice && multipleChoiceStage != null && multipleChoiceStage.isShowing()) {
-                    processNextExercise();
-                    multipleChoiceStage.hide();
-                }
-                if (!showingDictation && dictationStage != null && dictationStage.isShowing()) {
-                    processNextExercise();
-                    dictationStage.hide();
-                }
-            }));
-            hideDelay.play();
+            if (!showingMultipleChoice && multipleChoiceStage != null && multipleChoiceStage.isShowing()) {
+                processNextExercise();
+                multipleChoiceStage.hide();
+            }
+            if (!showingDictation && dictationStage != null && dictationStage.isShowing()) {
+                processNextExercise();
+                dictationStage.hide();
+            }
         });
     }
 }

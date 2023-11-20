@@ -58,6 +58,10 @@ public class MultipleChoice extends Exercise {
         this.description = description;
     }
 
+    public static MultipleChoice getDefaultMultipleChoice() {
+        return new MultipleChoice("Question", new Options("A", "B", "C", "D"), "Correct answer","Explanation");
+    }
+
     public MultipleChoice() {
 
     }

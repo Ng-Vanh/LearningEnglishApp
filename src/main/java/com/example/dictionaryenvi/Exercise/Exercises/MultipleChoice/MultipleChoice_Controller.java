@@ -66,7 +66,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
     @Override
     protected void generateQuestion() {
         timerManager.startTimer();
-        setQuestion((MultipleChoice) globalCurrentExercise);
+        setQuestion((MultipleChoice) globalCurrentMultipleChoice);
         setScoreLabel();
         setQuestionIndexLabel();
 
@@ -79,6 +79,12 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         resetButtonColor(optionB);
         resetButtonColor(optionC);
         resetButtonColor(optionD);
+    }
+
+    public void updateQuestion() {
+        generateQuestion();
+        showingMultipleChoice = true;
+        handleScene();
     }
 
     private ToggleButton getSelectedButton() {
@@ -134,8 +140,9 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
             System.out.println("Please select an answer");
         }
 
-        Stage stage = getStage();
-        stage.close();
+        showingMultipleChoice = false;
+        handleScene();
+        System.out.println("CLOSING MULTIPLE CHOICE");
     }
 
     @Override

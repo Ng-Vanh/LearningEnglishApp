@@ -10,8 +10,6 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import static com.backend.Exercise.Utils.ExerciseLoader.getMultipleChoiceListFromSimpleTopicWordList;
-import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
 
 
@@ -37,12 +35,6 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
     @Override
     protected Stage getStage() {
         return (Stage) optionA.getScene().getWindow();
-    }
-
-    @Override
-    protected void loadExerciseFromBank() {
-//        exerciseList = MultipleChoice.loadFromBank();
-        exerciseList = getMultipleChoiceListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
     }
 
     public void setQuestion(String question, String optionA, String optionB, String optionC, String optionD) {
@@ -74,8 +66,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
     @Override
     protected void generateQuestion() {
         timerManager.startTimer();
-//        setQuestion(exerciseList.get(questionIndex));
-        setQuestion((MultipleChoice) currentExercise);
+        setQuestion((MultipleChoice) globalCurrentExercise);
         setScoreLabel();
         setQuestionIndexLabel();
 
@@ -182,10 +173,4 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         // Show the alert and wait for user interaction
         alert.showAndWait();
     }
-
-    @Override
-    protected void handleTimeout() {
-        System.out.println("TIMEOUT!!");
-    }
-
 }

@@ -1,7 +1,6 @@
 package com.example.dictionaryenvi.Account;
 import com.backend.Connection.UserDataAccess;
 import com.backend.User.User;
-import com.example.dictionaryenvi.UserInformation;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 import static com.example.dictionaryenvi.Account.Login.currentUser;

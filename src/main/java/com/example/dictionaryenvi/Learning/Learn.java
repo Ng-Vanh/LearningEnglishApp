@@ -1,6 +1,11 @@
 package com.example.dictionaryenvi.Learning;
 import com.backend.Connection.LearnedDataAccess;
 import com.backend.OnlineDictionary.Utils.Audio;
+import com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWord;
+import com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader;
+import com.backend.TopicWord.TopicWords.SimpleTopicWord.SimpleTopicWord;
+import com.backend.TopicWord.TopicWords.SimpleTopicWord.SimpleTopicWordLoader;
+import com.backend.User.User;
 import com.backend.User.UserLearnWord;
 import javafx.animation.ParallelTransition;
 import javafx.animation.RotateTransition;
@@ -32,16 +37,17 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
-import static com.example.dictionaryenvi.TopicWord.currentUserLearnWord;
+import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.getDetailedTopicWordMap;
+import static com.example.dictionaryenvi.TopicWord.TopicWord.currentUserLearnWord;
 import static javafx.scene.paint.Color.BLACK;
 import static javafx.scene.paint.Color.rgb;
 
 public class Learn {
+    @FXML
+    public Label type;
     @FXML
     private Label word;
     @FXML
@@ -85,11 +91,12 @@ public class Learn {
     private double currentRotateBack;
     private boolean flag;
     private boolean isShowListWord;
+    private String currentTopicStr;
+    private static String currentUsernameStr;
     private Map<String , Integer> hashMap = new HashMap<>();
-    private LearnedDataAccess learnedDataAccess = new LearnedDataAccess();
+    private static LearnedDataAccess learnedDataAccess = new LearnedDataAccess();
     private List<Card> cardList = new ArrayList<Card>();
-    private ArrayList<UserLearnWord> learnedListWord = new ArrayList<UserLearnWord>();
-    private static final String EXCEL_FILE_PATH = "src/main/resources/com/example/dictionaryenvi/Learn/WordTopic.xlsx";
+    private static ArrayList<UserLearnWord> learnedListWord = new ArrayList<UserLearnWord>();
     public void initialize() {
 
         flag = false;
@@ -99,11 +106,14 @@ public class Learn {
         currentRotateBack = -90;
         id = 0;
         backFlashCard.setRotate(currentRotateBack);
-        String currentTopic = currentUserLearnWord.getTopic();
-        String currentUser = currentUserLearnWord.getUsername();
-        learnedListWord = learnedDataAccess.getLearnedListWord(currentUser , currentTopic);
-        topicTitle.setText(currentTopic);
-        readExcelFIle(currentTopic);
+        currentTopicStr = currentUserLearnWord.getTopic();
+        currentUsernameStr = currentUserLearnWord.getUsername();
+        learnedListWord = learnedDataAccess.getLearnedListWord(currentUsernameStr , currentTopicStr);
+        topicTitle.setText(currentTopicStr);
+        if(currentTopicStr.equals("Random")) {
+            getRandomDailyWord();
+        }
+        else getDataWord();
         showCard();
 
         ObservableList<String> items = FXCollections.observableArrayList();
@@ -120,7 +130,6 @@ public class Learn {
                     showCard();
                 });
             }
-
             @Override
             protected void updateItem(String item, boolean empty) {
                 super.updateItem(item, empty);
@@ -145,7 +154,10 @@ public class Learn {
             processLearnWord();
             updateLearnWordWhenClose();
         });
-
+        ArrayList<SimpleTopicWord> test = userSimpleTopicWordList();
+        for (SimpleTopicWord simpleTopicWord : test) {
+            System.out.println(simpleTopicWord.getWord() + " " + simpleTopicWord.getTopic());
+        }
     }
     public void updateLearnWordWhenClose() {
         Stage currentStage = (Stage) frontFlashCard.getScene().getWindow();
@@ -175,35 +187,58 @@ public class Learn {
 //                    + userLearnWord.getTopic() + "  "
 //                    + userLearnWord.getWord());
 //        }
+        if (newLearnWordList.isEmpty()) {
+            return;
+        }
         learnedDataAccess.insertAll(newLearnWordList);
         System.out.println("Learn Word has been updated");
     }
-    public void readExcelFIle(String sheetName) {
-        try {
-            FileInputStream file = new FileInputStream(EXCEL_FILE_PATH);
-            Workbook workbook = new XSSFWorkbook(file);
-            Sheet sheet = workbook.getSheet(sheetName);
-            int id = 0;
-            for (Row row : sheet) {
-                String wordStr = row.getCell(0).toString();
-                String exampleStr = row.getCell(1).toString();
-                String pronounceStr = row.getCell(2).toString();
-                String explain = row.getCell(3).toString();
-                UserLearnWord newUserLearnWord = new UserLearnWord();
-                newUserLearnWord.setUsername(currentUserLearnWord.getUsername());
-                newUserLearnWord.setTopic(currentUserLearnWord.getTopic());
-                newUserLearnWord.setWord(wordStr);
-                boolean isLearnWord = learnedListWord.contains(newUserLearnWord);
-                id += 1;
-//                System.out.println(wordStr + " " + isLearnWord);
-                Card card = new Card(wordStr , exampleStr , pronounceStr , explain , isLearnWord);
+
+
+    public void getDataWord() {
+        HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
+        ArrayList<SimpleTopicWord> simpleTopicWordList = SimpleTopicWordLoader.getSimpleTopicWordList();
+        ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordFromListSimpleTopicWord(simpleTopicWordList);
+        addWordListToCard(detailedTopicWordList);
+
+    }
+    public void getRandomDailyWord() {
+        HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
+        ArrayList<SimpleTopicWord> simpleTopicWordList = SimpleTopicWordLoader.getSimpleTopicWordList();
+        ArrayList<SimpleTopicWord> randomWordList = DailyRandomWordGenerator.generateDailyRandomWords(simpleTopicWordList);
+        ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordFromListSimpleTopicWord(simpleTopicWordList);
+        addWordListToCard(detailedTopicWordList);
+    }
+    public void addWordListToCard(ArrayList<DetailedTopicWord> detailedTopicWordList) {
+        int id = 0;
+        for (DetailedTopicWord detailedTopicWord : detailedTopicWordList) {
+            String wordStr = detailedTopicWord.getDefinition().getWord();
+            String topicStr = detailedTopicWord.getDefinition().getTopic();
+            String typeStr = detailedTopicWord.getDefinition().getType();
+            String exampleStr = detailedTopicWord.getDefinition().getExample();
+            String pronounceStr = detailedTopicWord.getDefinition().getPhonetic();
+            String explainStr = detailedTopicWord.getDefinition().getExplain();
+            UserLearnWord newUserLearnWord = new UserLearnWord();
+            newUserLearnWord.setUsername(currentUsernameStr);
+            newUserLearnWord.setTopic(currentTopicStr);
+            newUserLearnWord.setWord(wordStr);
+            boolean isLearnWord = learnedListWord.contains(newUserLearnWord);
+            id += 1;
+            if(topicStr.equals(currentTopicStr)) {
+                Card card = new Card(wordStr , typeStr , exampleStr , pronounceStr , explainStr , isLearnWord);
                 cardList.add(card);
                 hashMap.put(wordStr , id);
             }
-            file.close();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
+    }
+    public static ArrayList<SimpleTopicWord> userSimpleTopicWordList() {
+        ArrayList<SimpleTopicWord> wordToMakeExerciseList = new ArrayList<SimpleTopicWord>();
+        ArrayList<UserLearnWord> learnedListWordAllTopic = learnedDataAccess.getWordsFollowEachUser(currentUsernameStr);
+        for (UserLearnWord userLearnWord : learnedListWordAllTopic) {
+            SimpleTopicWord simpleTopicWord = new SimpleTopicWord(userLearnWord.getTopic() , userLearnWord.getWord());
+            wordToMakeExerciseList.add(simpleTopicWord);
+        }
+        return wordToMakeExerciseList;
     }
     public ParallelTransition createFrontCardFlipAnimation() {
         double newRotateFront = currentRotateFront + 90;
@@ -254,6 +289,7 @@ public class Learn {
 
         Card card = cardList.get(id);
         String wordStr = card.getWord();
+        String typeStr = card.getType();
         String exampleStr = card.getExample();
         String pronounceStr = card.getPronounce();
         String explainStr = card.getExplain();
@@ -263,6 +299,7 @@ public class Learn {
 
         word.setText(wordStr);
         word1.setText(wordStr);
+        type.setText(typeStr);
         example.setText(exampleStr);
         pronounce.setText(pronounceStr);
         explain.setText(explainStr);

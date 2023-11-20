@@ -13,8 +13,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.globalCurrentExercise;
-import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.globalScore;
+import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
 
 public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @FXML
@@ -42,9 +41,15 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @Override
     protected void generateQuestion() {
         timerManager.startTimer();
-        setQuestion((Dictation) globalCurrentExercise);
+        setQuestion((Dictation) globalCurrentDictation);
         setScoreLabel();
         setQuestionIndexLabel();
+    }
+
+    public void updateQuestion() {
+        generateQuestion();
+        showingDictation = true;
+        handleScene();
     }
 
     @FXML
@@ -96,8 +101,11 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
         answerTextField.clear();
 
-        Stage stage = getStage();
-        stage.close();
+//        Stage stage = getStage();
+//        stage.hide();
+        showingDictation = false;
+        handleScene();
+        System.out.println("CLOSING DICTATION");
     }
 
     @Override

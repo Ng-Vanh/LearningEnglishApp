@@ -1,6 +1,7 @@
 package com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
 
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -8,16 +9,27 @@ import java.io.IOException;
 
 public class MultipleChoice_Application extends javafx.application.Application {
 
+    private final String FXML_Path = "/com/example/dictionaryenvi/Exercise/Exercises/MultipleChoice/FXML/MultipleChoice.fxml";
+
+    private MultipleChoice_Controller controller;
+
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader MultipleChoice = new FXMLLoader(MultipleChoice_Application.class.getResource("/com/example/dictionaryenvi/Exercise/Exercises/MultipleChoice/FXML/MultipleChoice.fxml"));
+        FXMLLoader MultipleChoiceFXML = new FXMLLoader(MultipleChoice_Application.class.getResource(FXML_Path));
+        Parent root = MultipleChoiceFXML.load();
+        MultipleChoice_Controller controller = MultipleChoiceFXML.getController();
+        this.controller = controller;
 
-        Scene MultipleChoiceScene = new Scene(MultipleChoice.load(), 960, 576);
+        Scene MultipleChoiceScene = new Scene(root, 960, 576);
         stage.setTitle("Multiple Choice");
         stage.setMinWidth(680);
         stage.setMinHeight(500);
         stage.setScene(MultipleChoiceScene);
         stage.show();
+    }
+
+    public MultipleChoice_Controller getController() {
+        return this.controller;
     }
 
     public static void main(String[] args) {

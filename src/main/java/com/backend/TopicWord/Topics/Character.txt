@@ -530,7 +530,7 @@
         "description": {
           "type": "Dictation",
           "sentence": "Expressing gratitude contributes to a positive and appreciative mindset.",
-          "sentenceWithBlank": "Expressing gratitude contributes to a positive and appreciative mindset.",
+          "sentenceWithBlank": "Expressing ______ contributes to a positive and appreciative mindset.",
           "wordBlank": "gratitude",
           "translation": "Việc bày tỏ lòng biết ơn đóng góp vào tư duy tích cực và trân trọng."
         }
@@ -685,8 +685,8 @@
         "description": {
           "type": "Dictation",
           "sentence": "Honesty involves truthfulness and sincerity in actions, speech, and character.",
-          "sentenceWithBlank": "Honesty involves ________ and sincerity in actions, speech, and character.",
-          "wordBlank": "truthfulness",
+          "sentenceWithBlank": "______ involves truthfulness and sincerity in actions, speech, and character.",
+          "wordBlank": "Honesty",
           "translation": "Tính trung thực liên quan đến sự chân thành và trung thực trong hành động, lời nói và tính cách."
         }
       }

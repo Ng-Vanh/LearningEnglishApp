@@ -34,9 +34,9 @@ public class ExerciseSelection_Controller extends Scene_Controller {
 //            throw new RuntimeException(e);
 //        }
 
-        String FXML_Path = "/com/example/dictionaryenvi/Exercise/Exercises/MultipleChoice/FXML/MultipleChoice.fxml";
-        String title = "Multiple Choice";
-        enter_newScene(FXML_Path, title, event, true);
+//        String FXML_Path = "/com/example/dictionaryenvi/Exercise/Exercises/MultipleChoice/FXML/MultipleChoice.fxml";
+//        String title = "Multiple Choice";
+//        enter_newScene(FXML_Path, title, event, true);
     }
 
     @FXML
@@ -46,8 +46,8 @@ public class ExerciseSelection_Controller extends Scene_Controller {
 //        stage.setTitle("Dictation");
 //        dictation_application.start(((Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow()));
 
-        String FXML_Path = "/com/example/dictionaryenvi/Exercise/Exercises/Dictation/FXML/Dictation.fxml";
-        String title = "Dictation";
-        enter_newScene(FXML_Path, title, event, true);
+//        String FXML_Path = "/com/example/dictionaryenvi/Exercise/Exercises/Dictation/FXML/Dictation.fxml";
+//        String title = "Dictation";
+//        enter_newScene(FXML_Path, title, event, true);
     }
 }

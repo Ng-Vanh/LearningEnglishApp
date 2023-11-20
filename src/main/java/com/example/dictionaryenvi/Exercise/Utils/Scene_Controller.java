@@ -1,15 +1,14 @@
 package com.example.dictionaryenvi.Exercise.Utils;
 
 import javafx.animation.*;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.SnapshotParameters;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -21,7 +20,7 @@ public class Scene_Controller {
 
     }
 
-    public void enter_newScene(String FXML_Path, String title, ActionEvent event, boolean slideFromRight) {
+    public void enter_newScene(String FXML_Path, String title, MouseEvent event, boolean slideFromRight) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(FXML_Path));
         try {
             Parent root = loader.load();

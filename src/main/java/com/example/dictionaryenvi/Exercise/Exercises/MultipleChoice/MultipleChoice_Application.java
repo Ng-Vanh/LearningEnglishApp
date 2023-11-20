@@ -13,10 +13,13 @@ public class MultipleChoice_Application extends javafx.application.Application {
 
     private MultipleChoice_Controller controller;
 
+    private Parent root;
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader MultipleChoiceFXML = new FXMLLoader(MultipleChoice_Application.class.getResource(FXML_Path));
         Parent root = MultipleChoiceFXML.load();
+        this.root = root;
         MultipleChoice_Controller controller = MultipleChoiceFXML.getController();
         this.controller = controller;
 
@@ -26,6 +29,10 @@ public class MultipleChoice_Application extends javafx.application.Application {
         stage.setMinHeight(500);
         stage.setScene(MultipleChoiceScene);
         stage.show();
+    }
+
+    public Parent getRoot() {
+        return root;
     }
 
     public MultipleChoice_Controller getController() {

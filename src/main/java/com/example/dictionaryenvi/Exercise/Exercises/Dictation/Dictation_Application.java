@@ -14,10 +14,13 @@ public class Dictation_Application extends javafx.application.Application {
 
     private Dictation_Controller controller;
 
+    private Parent root;
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader DictationFXML = new FXMLLoader(Dictation_Application.class.getResource(FXML_Path));
         Parent root = DictationFXML.load();
+        this.root = root;
         Dictation_Controller controller = DictationFXML.getController();
         this.controller = controller;
 
@@ -27,6 +30,10 @@ public class Dictation_Application extends javafx.application.Application {
         stage.setTitle("Dictation");
         stage.setScene(DictationScene);
         stage.show();
+    }
+
+    public Parent getRoot() {
+        return root;
     }
 
     public Dictation_Controller getController() {

@@ -1,7 +1,6 @@
 package com.example.dictionaryenvi.Exercise.Utils;
 
 import com.backend.Exercise.Utils.Exercise;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -13,8 +12,6 @@ import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
-import java.util.concurrent.atomic.AtomicReference;
 
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
 
@@ -214,7 +211,7 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     }
 
     @FXML
-    protected void goBack(ActionEvent event) { // fix this
+    protected void goBack(MouseEvent event) { // fix this
         String FXML_Path = "/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml";
         String title = "Exercise Selection";
         enter_newScene(FXML_Path, title, event, false);

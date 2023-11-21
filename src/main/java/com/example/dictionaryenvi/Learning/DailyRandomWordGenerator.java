@@ -65,12 +65,12 @@ public class DailyRandomWordGenerator {
     }
     public static void storeWord(ArrayList<SimpleTopicWord> allWords) {
         try {
-            FileWriter fileWriter = new FileWriter(STORE_DATE_FILE_PATH);
+            FileWriter fileWriter = new FileWriter(STORE_WORD_FILE_PATH);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             for (SimpleTopicWord simpleTopicWord : allWords) {
-                bufferedWriter.write(simpleTopicWord.getWord()
-                + "|" + simpleTopicWord.getTopic());
-
+                bufferedWriter.write(simpleTopicWord.getTopic()
+                        + "|" + simpleTopicWord.getWord());
+                bufferedWriter.newLine();
             }
             bufferedWriter.close();
         } catch (IOException e) {
@@ -80,16 +80,17 @@ public class DailyRandomWordGenerator {
     public static ArrayList<SimpleTopicWord> getStoredWord() {
         ArrayList<SimpleTopicWord> allDayWordList = new ArrayList<SimpleTopicWord>();
         try {
-            File file = new File(STORE_DATE_FILE_PATH);
+            File file = new File(STORE_WORD_FILE_PATH);
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                String[] str = line.split("|");
-                String wordStr = str[0];
-                String topicStr = str[1];
-                SimpleTopicWord simpleTopicWord = new SimpleTopicWord(wordStr , topicStr);
+                String[] str = line.split("\\|");
+                String topicStr = str[0];
+                String wordStr = str[1];
+//                System.out.println(wordStr + " " + topicStr);
+                SimpleTopicWord simpleTopicWord = new SimpleTopicWord(topicStr , wordStr);
                 allDayWordList.add(simpleTopicWord);
-                System.out.println(line);
+//                System.out.println(line);
             }
             scanner.close();
         } catch (FileNotFoundException e) {

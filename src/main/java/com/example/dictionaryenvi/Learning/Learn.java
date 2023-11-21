@@ -87,6 +87,7 @@ public class Learn {
     @FXML
     private Label topicTitle;
     private int id;
+    private int sizeOfListTopic;
     private double currentRotateFront;
     private double currentRotateBack;
     private boolean flag;
@@ -110,10 +111,12 @@ public class Learn {
         currentUsernameStr = currentUserLearnWord.getUsername();
         learnedListWord = learnedDataAccess.getLearnedListWord(currentUsernameStr , currentTopicStr);
         topicTitle.setText(currentTopicStr);
+//        currentTopicStr = "Random";
         if(currentTopicStr.equals("Random")) {
             getRandomDailyWord();
         }
         else getDataWord();
+//        getRandomDailyWord();
         showCard();
 
         ObservableList<String> items = FXCollections.observableArrayList();
@@ -154,10 +157,10 @@ public class Learn {
             processLearnWord();
             updateLearnWordWhenClose();
         });
-        ArrayList<SimpleTopicWord> test = userSimpleTopicWordList();
-        for (SimpleTopicWord simpleTopicWord : test) {
-            System.out.println(simpleTopicWord.getWord() + " " + simpleTopicWord.getTopic());
-        }
+//        ArrayList<SimpleTopicWord> test = userSimpleTopicWordList();
+//        for (SimpleTopicWord simpleTopicWord : test) {
+//            System.out.println(simpleTopicWord.getWord() + " " + simpleTopicWord.getTopic());
+//        }
     }
     public void updateLearnWordWhenClose() {
         Stage currentStage = (Stage) frontFlashCard.getScene().getWindow();
@@ -198,19 +201,22 @@ public class Learn {
     public void getDataWord() {
         HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
         ArrayList<SimpleTopicWord> simpleTopicWordList = SimpleTopicWordLoader.getSimpleTopicWordList();
-        ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordFromListSimpleTopicWord(simpleTopicWordList);
+        ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordListFromSimpleTopicWordList(simpleTopicWordList);
         addWordListToCard(detailedTopicWordList);
 
     }
     public void getRandomDailyWord() {
         HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
-        ArrayList<SimpleTopicWord> simpleTopicWordList = SimpleTopicWordLoader.getSimpleTopicWordList();
+        ArrayList<SimpleTopicWord> simpleTopicWordList = DetailedTopicWordLoader.globalFullSimpleTopicWordList;
         ArrayList<SimpleTopicWord> randomWordList = DailyRandomWordGenerator.generateDailyRandomWords(simpleTopicWordList);
-        ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordFromListSimpleTopicWord(simpleTopicWordList);
+//        for (SimpleTopicWord simpleTopicWord : randomWordList) {
+//            System.out.println("Random : " + simpleTopicWord.getTopic() + " " + simpleTopicWord.getWord());
+//        }
+        ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordListFromSimpleTopicWordList(randomWordList);
         addWordListToCard(detailedTopicWordList);
     }
     public void addWordListToCard(ArrayList<DetailedTopicWord> detailedTopicWordList) {
-        int id = 0;
+        int currentId = 0;
         for (DetailedTopicWord detailedTopicWord : detailedTopicWordList) {
             String wordStr = detailedTopicWord.getDefinition().getWord();
             String topicStr = detailedTopicWord.getDefinition().getTopic();
@@ -223,13 +229,15 @@ public class Learn {
             newUserLearnWord.setTopic(currentTopicStr);
             newUserLearnWord.setWord(wordStr);
             boolean isLearnWord = learnedListWord.contains(newUserLearnWord);
-            id += 1;
-            if(topicStr.equals(currentTopicStr)) {
+            if(topicStr.equals(currentTopicStr) || currentTopicStr.equals("Random")) {
+                currentId += 1;
+                System.out.println(currentId + " " + wordStr + " " + topicStr);
                 Card card = new Card(wordStr , typeStr , exampleStr , pronounceStr , explainStr , isLearnWord);
                 cardList.add(card);
-                hashMap.put(wordStr , id);
+                hashMap.put(wordStr , currentId);
             }
         }
+        sizeOfListTopic = currentId;
     }
     public static ArrayList<SimpleTopicWord> userSimpleTopicWordList() {
         ArrayList<SimpleTopicWord> wordToMakeExerciseList = new ArrayList<SimpleTopicWord>();
@@ -323,7 +331,7 @@ public class Learn {
         transition.play();
     }
     public void nextCard() {
-        if(this.id < 29) {
+        if(this.id < sizeOfListTopic - 1) {
             transitionCloneCard();
             this.id += 1;
             showCard();

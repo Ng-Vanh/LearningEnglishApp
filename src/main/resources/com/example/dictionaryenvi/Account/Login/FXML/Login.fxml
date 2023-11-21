@@ -14,7 +14,7 @@
 
 <AnchorPane fx:id="mainPane" prefHeight="576.0" prefWidth="960.0" stylesheets="@../CSS/Login.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Account.Login">
    <children>
-      <HBox layoutX="3.0" layoutY="1.0" prefHeight="578.0" prefWidth="960.0">
+      <HBox layoutX="3.0" layoutY="1.0" prefHeight="578.0" prefWidth="960.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <ImageView fitHeight="576.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -23,7 +23,7 @@
             </ImageView>
          </children>
       </HBox>
-      <TextField fx:id="username" layoutX="224.0" layoutY="189.0" prefHeight="33.0" prefWidth="190.0" promptText="Username" style="-fx-background-radius: 5;" />
+      <TextField fx:id="username" layoutX="224.0" layoutY="189.0" prefHeight="33.0" prefWidth="190.0" promptText="Username" style="-fx-background-radius: 5;" AnchorPane.leftAnchor="224.0" AnchorPane.topAnchor="189.0" />
       <Button fx:id="loginBtn" layoutX="224.0" layoutY="323.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" styleClass="login-button" text="LOGIN" textFill="WHITE" />
       <Hyperlink fx:id="forgotPasswordHpl" layoutX="268.0" layoutY="380.0" onMouseClicked="#goToResetPassword" text="Forgot password?" underline="true" />
       <Label layoutX="222.0" layoutY="77.0" prefHeight="59.0" prefWidth="335.0" styleClass="title" text="Welcome to Dictionary!">
@@ -33,7 +33,7 @@
       <Label layoutX="224.0" layoutY="128.0" text="Please enter your email and password to login" />
       <Line endX="90.0" layoutX="320.0" layoutY="428.0" startX="-92.0" />
       <Button fx:id="signUpBtn" layoutX="249.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#goToSignUp" prefHeight="42.0" prefWidth="140.0" styleClass="signUp-button" text="Create new account" textFill="WHITE" />
-      <PasswordField fx:id="password" layoutX="224.0" layoutY="240.0" prefHeight="33.0" prefWidth="190.0" promptText="Password" style="-fx-background-radius: 5;" />
+      <PasswordField fx:id="password" layoutX="224.0" layoutY="240.0" prefHeight="33.0" prefWidth="190.0" promptText="Password" style="-fx-background-radius: 5;" AnchorPane.leftAnchor="224.0" AnchorPane.topAnchor="240.0" />
       <Label fx:id="loginFail1" layoutX="228.0" layoutY="281.0" prefHeight="17.0" prefWidth="210.0" text="Wrong username or password. Please try " textFill="RED" visible="false">
          <font>
             <Font size="10.0" />

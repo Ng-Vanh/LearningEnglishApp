@@ -16,6 +16,7 @@ import javafx.animation.FadeTransition;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+
 import javafx.scene.control.ButtonType;
 import javafx.stage.StageStyle;
 import javafx.scene.control.ButtonBar;
@@ -87,7 +88,7 @@ public class ExerciseScene_Controller {
         fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
 //        fullExerciseList = getExerciseListFromSimpleTopicWordList(userFullSimpleTopicWordList);
 
-        globalDurations = 2;
+        globalDurations = 60;
         globalIsRunningExercise = true;
         globalExerciseIndex = 0;
         globalScore = 0;

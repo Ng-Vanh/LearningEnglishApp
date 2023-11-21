@@ -4,9 +4,12 @@ import com.backend.Exercise.Exercises.Dictation.Dictation;
 
 import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
 import javafx.animation.ScaleTransition;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
@@ -15,6 +18,7 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
+import static com.example.dictionaryenvi.Exercise.Utils.GlobalProperties.*;
 
 public class Dictation_Controller extends Exercise_Controller<Dictation> {
     @FXML
@@ -35,6 +39,12 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         return (Stage) answerTextField.getScene().getWindow();
     }
 
+    @Override
+    protected void closeStage() {
+        Stage stage = getStage();
+        stage.hide();
+    }
+
     private void setQuestion(String question) {
         this.question.setText(question);
     }
@@ -47,6 +57,8 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
     @Override
     protected void extraInit() {
+
+
         submitButton.setOnMouseEntered(event -> {
             playHover();
         });
@@ -63,13 +75,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         setScoreLabel();
         setQuestionIndexLabel();
         resetButtonColor(submitButton);
-    }
-
-    public void updateQuestion() {
-        stopBreathingAnimation();
-        generateQuestion();
-        globalShowingDictation = true;
-        handleScene();
     }
 
     @FXML
@@ -160,6 +165,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
             if (exercise.isCorrect(userAnswer)) {
                 playCorrectEffect();
                 globalScore += 1;
+                saveUserScore();
                 System.out.println("Correct!");
                 setButtonColor(submitButton, Color.GREEN);
                 showAlert(true, exercise.getCorrectAnswer(), exercise.getAudioTranslation().getTranslation());
@@ -178,7 +184,36 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         answerTextField.clear();
 
         globalShowingDictation = false;
-        handleScene();
+
+        Platform.runLater(() -> {
+            System.out.println("set run later in dictation");globalShowingDictationProperty.set(false);});
+//        closeStage();
         System.out.println("CLOSING DICTATION");
+        System.out.println("global Dic FALSE " + globalShowingDictation);
     }
+
+//    @FXML
+//    protected void goBack(MouseEvent event) { // fix this
+//        timerManager.resetTimer(globalDurations);
+//        timerManager.stopTimer();
+//
+//        Platform.runLater(() -> {
+//            globalIsRunningExerciseProperty.set(false);
+//            globalShowingMultipleChoiceProperty.set(false);
+//            globalShowingDictationProperty.set(false);
+//        });
+//
+//        Stage curStage;
+//        if (event == null) {
+//            curStage = getStage();
+//            if (curStage == null) {
+//                curStage =
+//            }
+//        }
+//        else {
+//            curStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//        }
+//
+//        simpleSetScene("/com/example/dictionaryenvi/HomePage/HomePage.fxml", curStage);
+//    }
 }

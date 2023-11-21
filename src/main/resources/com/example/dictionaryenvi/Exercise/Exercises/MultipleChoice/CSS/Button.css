@@ -17,7 +17,7 @@
 
 /* Hover effect */
 .multiple-choice-button:hover {
-    -fx-background-color: #2ecc71; /* Change background color on hover */
+    /*-fx-background-color: #2ecc71; /* Change background color on hover */
     -fx-scale-x: 1.05; /* Slightly increase scale on the X-axis */
     -fx-scale-y: 1.05; /* Slightly increase scale on the Y-axis */
     -fx-text-fill: #ecf0f1; /* Change text color on hover */

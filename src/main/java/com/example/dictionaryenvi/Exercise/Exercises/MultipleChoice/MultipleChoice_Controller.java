@@ -4,16 +4,10 @@ import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 
 import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
 import javafx.fxml.FXML;
-import javafx.scene.Cursor;
-import javafx.scene.Node;
 import javafx.scene.control.*;
 
-import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Region;
-import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
 
@@ -62,6 +56,23 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         optionB.getStylesheets().add(cssFile);
         optionC.getStylesheets().add(cssFile);
         optionD.getStylesheets().add(cssFile);
+
+        optionA.setOnMouseEntered(event -> {
+            playHover();
+        });
+
+        optionB.setOnMouseEntered(event -> {
+            playHover();
+        });
+
+        optionC.setOnMouseEntered(event -> {
+            playHover();
+        });
+
+        optionD.setOnMouseEntered(event -> {
+            playHover();
+        });
+
     }
 
     @Override
@@ -97,7 +108,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
 
     public void updateQuestion() {
         generateQuestion();
-        showingMultipleChoice = true;
+        globalShowingMultipleChoice = true;
         handleScene();
     }
 
@@ -149,7 +160,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
             System.out.println("Please select an answer");
         }
 
-        showingMultipleChoice = false;
+        globalShowingMultipleChoice = false;
         handleScene();
         System.out.println("CLOSING MULTIPLE CHOICE");
     }

@@ -1,0 +1,46 @@
+/* Styles for the Dialog */
+.dialog-pane {
+    -fx-padding: 20px;
+    -fx-background-color: #E0F7FA; /* A light blue background color */
+    -fx-border-width: 1px;
+    -fx-border-color: #B2EBF2; /* A slightly darker blue for borders */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 5);
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #03A9F4; /* A medium blue for the header */
+}
+
+.dialog-pane .header-panel .label {
+    -fx-font-family: "Arial Black", Gadget, sans-serif;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #03A9F4;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #0288D1; /* A darker blue on hover */
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-cursor: hand;
+}
+
+/* Styles for the Content */
+.dialog-pane .content {
+    -fx-text-fill: #424242; /* A dark gray for content text */
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #336699; /* Change color as desired */
+}
+
+.dialog-pane .content .label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #424242; /* A dark gray for emphasis text */
+}

@@ -8,12 +8,18 @@ import com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoi
 import com.example.dictionaryenvi.Exercise.Utils.TimerManager;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
+import javafx.animation.FadeTransition;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import javafx.scene.control.ButtonType;
+import javafx.stage.StageStyle;
+import javafx.scene.control.ButtonBar;
+import javafx.util.Duration;
 
 import static com.backend.Exercise.Utils.ExerciseLoader.getExerciseListFromSimpleTopicWordList;
 import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
@@ -41,14 +47,16 @@ public class ExerciseScene_Controller {
     public static MultipleChoice globalCurrentMultipleChoice = MultipleChoice.getDefaultMultipleChoice();
     public static Dictation globalCurrentDictation = Dictation.getDefaultDictation();
 
-    public static boolean showingMultipleChoice = false;
-    public static boolean showingDictation = false;
+    public static boolean globalShowingMultipleChoice = false;
+    public static boolean globalShowingDictation = false;
 
     private static boolean startedMultipleChoice = false;
     private static boolean startedDictation = false;
 
-    public static void saveUserScore() {
+
+    public static void saveUserScore() { // update score here
         System.out.println("Saved user score: " + globalScore);
+//        updateScoreStatus(globalScore);
         // globalScore
     }
 
@@ -79,7 +87,7 @@ public class ExerciseScene_Controller {
         fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
 //        fullExerciseList = getExerciseListFromSimpleTopicWordList(userFullSimpleTopicWordList);
 
-        globalDurations = 60;
+        globalDurations = 2;
         globalIsRunningExercise = true;
         globalExerciseIndex = 0;
         globalScore = 0;
@@ -104,13 +112,13 @@ public class ExerciseScene_Controller {
 
         if (globalCurrentExercise instanceof MultipleChoice) {
             globalCurrentMultipleChoice = (MultipleChoice) globalCurrentExercise;
-            showingMultipleChoice = true;
-            showingDictation = false;
+            globalShowingMultipleChoice = true;
+            globalShowingDictation = false;
             showMultipleChoiceScene();
         } else if (globalCurrentExercise instanceof Dictation) {
             globalCurrentDictation = (Dictation) globalCurrentExercise;
-            showingDictation = true;
-            showingMultipleChoice = false;
+            globalShowingDictation = true;
+            globalShowingMultipleChoice = false;
             showDictationScene();
         }
     }
@@ -142,21 +150,21 @@ public class ExerciseScene_Controller {
     public static void handleScene() {
         Platform.runLater(() -> {
             System.out.println(" ============ ");
-            System.out.println("Mul: " + showingMultipleChoice);
-            System.out.println("Dic: " + showingDictation);
+            System.out.println("Mul: " + globalShowingMultipleChoice);
+            System.out.println("Dic: " + globalShowingDictation);
             System.out.println("=============");
 
-            if (showingMultipleChoice && multipleChoiceStage != null && !multipleChoiceStage.isShowing()) {
+            if (globalShowingMultipleChoice && multipleChoiceStage != null && !multipleChoiceStage.isShowing()) {
                 multipleChoiceStage.show();
-            } else if (showingDictation && dictationStage != null && !dictationStage.isShowing()) {
+            } else if (globalShowingDictation && dictationStage != null && !dictationStage.isShowing()) {
                 dictationStage.show();
             }
 
-            if (!showingMultipleChoice && multipleChoiceStage != null && multipleChoiceStage.isShowing()) {
+            if (!globalShowingMultipleChoice && multipleChoiceStage != null && multipleChoiceStage.isShowing()) {
                 processNextExercise();
                 multipleChoiceStage.hide();
             }
-            if (!showingDictation && dictationStage != null && dictationStage.isShowing()) {
+            if (!globalShowingDictation && dictationStage != null && dictationStage.isShowing()) {
                 processNextExercise();
                 dictationStage.hide();
             }

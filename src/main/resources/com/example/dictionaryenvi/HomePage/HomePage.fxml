@@ -2,7 +2,6 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -24,9 +23,9 @@
                         <Image url="@image/dict.png" />
                     </image>
                 </ImageView>
-                <Button fx:id="goToDictionaryBtn" mnemonicParsing="false" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="167.0" style="-fx-background-color: rgb(33, 194, 76); -fx-background-radius: 20;" text="Dictionary" textFill="#bf1010" textOverrun="WORD_ELLIPSIS">
+                <Button fx:id="goToDictionaryBtn" mnemonicParsing="false" onMouseClicked="#goToDictionary" prefHeight="90.0" prefWidth="167.0" style="-fx-background-color: rgb(33, 194, 76); -fx-background-radius: 20;" text="Dictionary" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
                     <font>
-                        <Font name="System Bold" size="24.0" />
+                        <Font name="Segoe UI Black" size="24.0" />
                     </font>
                     <cursor>
                         <Cursor fx:constant="HAND" />
@@ -37,22 +36,6 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </HBox>
-        <ImageView fx:id="topicWord" fitHeight="105.0" fitWidth="289.0" layoutX="633.0" layoutY="315.0" onMouseClicked="#goToLearnWord" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
-            <image>
-                <Image url="@image/board.png" />
-            </image>
-            <cursor>
-                <Cursor fx:constant="HAND" />
-            </cursor>
-        </ImageView>
-        <ImageView fx:id="exercise" fitHeight="105.0" fitWidth="289.0" layoutX="67.0" layoutY="315.0" onMouseClicked="#goToExercise" pickOnBounds="true" preserveRatio="true" styleClass="exercise-btn">
-            <image>
-                <Image url="@image/board.png" />
-            </image>
-            <cursor>
-                <Cursor fx:constant="HAND" />
-            </cursor>
-        </ImageView>
         <ImageView fx:id="logOutBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickLogOut" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
             <image>
                 <Image url="@image/BackBtn.png" />
@@ -66,46 +49,40 @@
                 <Image url="@image/manWalk.gif" />
             </image>
         </ImageView>
-        <Label layoutX="698.0" layoutY="350.0" onMouseClicked="#goToLearnWord" prefHeight="34.0" prefWidth="138.0" text="Study Word" textFill="#f4f4f4">
-            <font>
-                <Font name="System Bold" size="24.0" />
-            </font>
-            <cursor>
-                <Cursor fx:constant="HAND" />
-            </cursor>
-        </Label>
-        <Label layoutX="157.0" layoutY="350.0" onMouseClicked="#goToExercise" prefHeight="34.0" prefWidth="100.0" text="Exercise" textFill="#fafafa">
-            <font>
-                <Font name="System Bold" size="24.0" />
-            </font>
-            <cursor>
-                <Cursor fx:constant="HAND" />
-            </cursor>
-        </Label>
-        <VBox alignment="CENTER" layoutX="867.0" layoutY="14.0" prefHeight="187.0" prefWidth="76.0" spacing="15.0">
+        <VBox alignment="CENTER" layoutX="870.0" layoutY="14.0" prefHeight="187.0" prefWidth="76.0" spacing="15.0">
             <children>
-                <ImageView fx:id="userInfoBtn" fitHeight="48.0" fitWidth="34.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="userInfo-btn">
+                <ImageView fx:id="userInfoBtn" fitHeight="47.0" fitWidth="48.0" onMouseClicked="#clickShowUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="userInfo-btn">
                     <image>
-                        <Image url="@image/userInfo.png" />
+                        <Image url="@image/gamer.png" />
                     </image>
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </ImageView>
-                <ImageView fx:id="rankBtn" fitHeight="53.0" fitWidth="42.0" onMouseClicked="#showRanking" pickOnBounds="true" preserveRatio="true" styleClass="rank-btn">
+                <ImageView fx:id="rankBtn" fitHeight="45.0" fitWidth="37.0" onMouseClicked="#showRanking" pickOnBounds="true" preserveRatio="true" styleClass="rank-btn">
                     <image>
-                        <Image url="@image/trophy.png" />
+                        <Image url="@image/award.png" />
                     </image>
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </ImageView>
-                <ImageView fitHeight="44.0" fitWidth="42.0" onMouseClicked="#learnWordOfDay" pickOnBounds="true" preserveRatio="true" styleClass="wordOfDay-btn">
+                <ImageView fitHeight="50.0" fitWidth="48.0" onMouseClicked="#learnWordOfDay" pickOnBounds="true" preserveRatio="true" styleClass="wordOfDay-btn">
                     <image>
-                        <Image url="@image/vocabulary.png" />
+                        <Image url="@image/new-product.png" />
                     </image>
                 </ImageView>
             </children>
         </VBox>
+        <Button fx:id="exercise" layoutX="142.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#goToExercise" prefHeight="108.0" prefWidth="203.0" styleClass="exercise-btn" text="Exercise" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Bold Italic" size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="topicWord" layoutX="665.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#goToLearnWord" prefHeight="108.0" prefWidth="188.0" styleClass="study-btn" text="Study Word" textFill="#fffefe">
+            <font>
+                <Font name="Segoe UI Bold Italic" size="24.0" />
+            </font>
+        </Button>
     </children>
 </AnchorPane>

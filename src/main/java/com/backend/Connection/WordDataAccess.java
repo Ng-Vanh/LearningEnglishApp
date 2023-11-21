@@ -168,7 +168,7 @@ public class WordDataAccess implements IDataAccess<Word> {
     }
 
     /**
-     * The functiton get list Suggest Word from database.
+     * The function get list Suggest Word from database.
      *
      * @param currentWord is the current word get from text filed.
      * @return the list Suggest WPrd.

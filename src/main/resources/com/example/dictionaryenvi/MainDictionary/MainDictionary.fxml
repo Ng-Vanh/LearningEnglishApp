@@ -9,17 +9,67 @@
 <?import javafx.scene.effect.FloatMap?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.WebView?>
 
 <Pane onKeyPressed="#submitTranslate" prefHeight="576.0" prefWidth="960.0" style="-fx-background-color: rgba(5, 255, 10, 0.1);" stylesheets="@CSS/MainDict.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.MainDictionary.MainDictionary">
    <children>
-      <Label layoutX="394.0" layoutY="36.0" prefHeight="48.0" prefWidth="206.0" style="-fx-font-style: italic; -fx-font-weight: 700;" styleClass="title__label" text=" DictionaryEn-Vi" textFill="#282a35">
-         <font>
-            <Font name="System Bold" size="24.0" />
-         </font>
-      </Label>
+      <AnchorPane prefHeight="70.0" prefWidth="960.0" styleClass="navbar">
+         <children>
+            <ImageView fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToMainDict" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
+               <image>
+                  <Image url="@image/BackBtn.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" layoutX="212.0" layoutY="11.0" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/home-button.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Home" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="365.0" layoutY="11.0" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/gamification.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Exercise" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="522.0" layoutY="8.0" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/studyingg.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Learn" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="861.0" layoutY="12.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn">
+               <image>
+                  <Image url="@image/gamer.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" layoutX="679.0" layoutY="4.0" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="71.0" styleClass="wordOfDay-btn">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/new-product.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Word of day" />
+               </children>
+            </VBox>
+         </children></AnchorPane>
       <ImageView fx:id="searchImage" fitHeight="124.0" fitWidth="136.0" layoutX="693.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@image/search.gif" />
@@ -79,14 +129,6 @@
          </cursor>
       </Button>
       <ListView fx:id="listSpecialWord" layoutX="788.0" layoutY="162.0" prefHeight="373.0" prefWidth="152.0" styleClass="listView" />
-      <ImageView fx:id="goToHomeBtn" fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToHome" styleClass="back-btn">
-         <image>
-            <Image url="@image/BackBtn.png" />
-         </image>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </ImageView>
       <ImageView fitHeight="59.0" fitWidth="97.0" layoutX="14.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/book.gif" />
@@ -116,7 +158,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="874.0" layoutY="14.0" onMouseClicked="#goToGoogleTranslate" pickOnBounds="true" preserveRatio="true" styleClass="ggtranslate-btn">
+      <ImageView fitHeight="45.0" fitWidth="42.0" layoutX="215.0" layoutY="99.0" onMouseClicked="#goToGoogleTranslate" pickOnBounds="true" preserveRatio="true" styleClass="ggtranslate-btn">
          <image>
             <Image url="@image/language.png" />
          </image>

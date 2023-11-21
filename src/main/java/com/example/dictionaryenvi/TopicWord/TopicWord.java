@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.util.Map;
 
 import static com.example.dictionaryenvi.Account.Login.currentUser;
+import static com.example.dictionaryenvi.HomePage.HomePage.*;
 
 public class TopicWord {
     public static final String topicAnimal = "Animal";
@@ -29,6 +30,7 @@ public class TopicWord {
     public static final String topicPhraseVerbs = "PhraseVerbs";
     public static final String topicWeather ="Weather";
     public static final String topicIdiom = "Idiom";
+    public static final String topicRandom = "Random";
     public static UserLearnWord currentUserLearnWord = new UserLearnWord(currentUser.getUsername());
     public static LearnedDataAccess learnedDataAccess = new LearnedDataAccess();
 
@@ -138,5 +140,29 @@ public class TopicWord {
     public void goToLearnPhrasalVerb(MouseEvent mouseEvent) {
         currentUserLearnWord.setTopic(topicPhraseVerbs);
         loadCard(mouseEvent);
+    }
+
+    public void goToMainDict(MouseEvent mouseEvent) {
+        moveToHomePageNavbar(mouseEvent);
+    }
+
+    public void goToHome(MouseEvent mouseEvent) {
+        moveToHomePageNavbar(mouseEvent);
+    }
+
+    public void goToGame(MouseEvent mouseEvent) {
+        moveToExerciseNavbar(mouseEvent);
+    }
+
+    public void goToLearn(MouseEvent mouseEvent) {
+        moveToLearnTopicWordNavbar(mouseEvent);
+    }
+
+    public void clickUserInfo(MouseEvent mouseEvent) {
+        clickUserInfoNavbar(mouseEvent);
+    }
+
+    public void moveToLearnWordOfDay(MouseEvent mouseEvent) {
+        moveToLearnWordOfDayNavbar(mouseEvent);
     }
 }

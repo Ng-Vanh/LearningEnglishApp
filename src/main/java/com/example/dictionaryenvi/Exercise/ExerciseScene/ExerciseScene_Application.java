@@ -8,15 +8,17 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class ExerciseScene_Application extends javafx.application.Application {
-    public static Stage mainStage;
 
     private final String FXML_Path = "/com/example/dictionaryenvi/Exercise/ExerciseScene/FXML/ExerciseScene.fxml";
 
     @Override
     public void start(Stage stage) throws IOException {
-        mainStage = stage;
-        FXMLLoader ExerciseFXML = new FXMLLoader(ExerciseScene_Application.class.getResource(FXML_Path));
-        ExerciseFXML.load();
+        FXMLLoader exerciseSceneFXML = new FXMLLoader(ExerciseScene_Application.class.getResource(FXML_Path));
+        Parent exerciseSceneRoot = exerciseSceneFXML.load();
+        Scene exerciseScene = new Scene(exerciseSceneRoot);
+        stage.setScene(exerciseScene);
+
+//        stage.show();
     }
 
     public static void main(String[] args) {

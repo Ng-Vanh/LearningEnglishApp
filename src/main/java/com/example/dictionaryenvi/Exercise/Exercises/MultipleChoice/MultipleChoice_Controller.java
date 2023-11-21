@@ -3,13 +3,17 @@ package com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
 import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 
 import com.example.dictionaryenvi.Exercise.Utils.Exercise_Controller;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.*;
 
+import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
+import static com.example.dictionaryenvi.Exercise.Utils.GlobalProperties.*;
 
 
 public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoice> {
@@ -33,7 +37,13 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
 
     @Override
     protected Stage getStage() {
-        return (Stage) optionA.getScene().getWindow();
+        return (Stage) question.getScene().getWindow();
+    }
+
+    @Override
+    protected void closeStage() {
+        Stage stage = getStage();
+        stage.hide();
     }
 
     public void setQuestion(String question, String optionA, String optionB, String optionC, String optionD) {
@@ -106,12 +116,6 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         resetButtonColor(optionD);
     }
 
-    public void updateQuestion() {
-        generateQuestion();
-        globalShowingMultipleChoice = true;
-        handleScene();
-    }
-
     private ToggleButton getSelectedButton() {
         // Get the selected button from the ToggleGroup
         return (ToggleButton) optionsGroup.getSelectedToggle();
@@ -145,6 +149,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
             if (exercise.isCorrect(userAnswer)) {
                 playCorrectEffect();
                 globalScore += 1;
+                saveUserScore();
                 setButtonColor(selectedButton, Color.GREEN);
                 System.out.println("Correct!");
                 showAlert(true, exercise.getCorrectAnswer(), exercise.getExplanation());
@@ -161,7 +166,35 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         }
 
         globalShowingMultipleChoice = false;
-        handleScene();
+//        globalShowingMultipleChoiceProperty.set(false);
+        Platform.runLater(() -> {globalShowingMultipleChoiceProperty.set(false);});
+//        closeStage();
         System.out.println("CLOSING MULTIPLE CHOICE");
+        System.out.println("global mul FALSE " + globalShowingMultipleChoice);
     }
+
+//    @FXML
+//    protected void goBack(MouseEvent event) { // fix this
+//        timerManager.resetTimer(globalDurations);
+//        timerManager.stopTimer();
+//
+//        Platform.runLater(() -> {
+//            globalIsRunningExerciseProperty.set(false);
+//            globalShowingMultipleChoiceProperty.set(false);
+//            globalShowingDictationProperty.set(false);
+//        });
+//
+//        Stage curStage;
+//        if (event == null) {
+//            curStage = getStage();
+//            if (curStage == null) {
+//                throw new RuntimeException("WTF CURSTAGE IS NULL");
+//            }
+//        }
+//        else {
+//            curStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//        }
+//
+//        simpleSetScene("/com/example/dictionaryenvi/HomePage/HomePage.fxml", curStage);
+//    }
 }

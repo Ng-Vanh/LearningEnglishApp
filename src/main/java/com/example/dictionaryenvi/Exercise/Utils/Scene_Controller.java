@@ -118,5 +118,15 @@ public class Scene_Controller {
         }
     }
 
-
+    public void simpleSetScene(String FXML_Path, Stage stage) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(FXML_Path));
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

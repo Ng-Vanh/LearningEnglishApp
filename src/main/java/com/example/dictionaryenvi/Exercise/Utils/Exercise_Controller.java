@@ -27,6 +27,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Controller.*;
+import static com.example.dictionaryenvi.Exercise.Utils.GlobalProperties.*;
 
 public abstract class Exercise_Controller<T extends Exercise> extends Scene_Controller {
     @FXML
@@ -80,6 +81,8 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
                 (int) (color.getGreen() * 255),
                 (int) (color.getBlue() * 255));
     }
+
+    protected abstract void closeStage();
 
     @FXML
     public void initialize() {
@@ -245,6 +248,8 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         this.questionIndexLabel.setText("Question: " + (globalExerciseIndex) + "/" + globalExerciseListSize);
     }
 
+    Stage dummyStage;
+
     private void showScoreAfterFinish() {
         closeOpenAlerts();
 
@@ -282,7 +287,6 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
                     globalIsRunningExercise = false;
                     globalShowingDictation = false;
                     globalShowingMultipleChoice = false;
-                    handleScene();
                 });
                 executorService.shutdown(); // Shutdown the executor after executing the delayed actions
             }, 1, TimeUnit.SECONDS);
@@ -290,6 +294,7 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
         // Show the dialog
         dialog.showAndWait();
+
     }
 
     private void closeOpenAlerts() {
@@ -305,14 +310,34 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     }
 
     @FXML
-    protected void goBack(MouseEvent event) { // fix this
-        String FXML_Path = "/com/example/dictionaryenvi/Exercise/ExerciseSelection/FXML/ExerciseSelection.fxml";
-        String title = "Exercise Selection";
+    protected void goBack(MouseEvent event) {
+        timerManager.resetTimer(globalDurations);
         timerManager.stopTimer();
-        if (event != null) {
-            enter_newScene(FXML_Path, title, event, false);
+
+        Platform.runLater(() -> {
+            globalIsRunningExerciseProperty.set(false);
+            globalShowingMultipleChoiceProperty.set(false);
+            globalShowingDictationProperty.set(false);
+        });
+
+        Stage curStage;
+        if (event == null) {
+            // If event is null, use dummyStage or the default stage
+            curStage =  getStage();
+            if (curStage == null) {
+                curStage = exerciseStage;
+            }
         } else {
-            enter_newScene(FXML_Path, title, false);
+            // If event is not null, get the stage from the event source
+            curStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         }
+
+        if (curStage == null) {
+            System.err.println("Current stage is null");
+            return; // Return or handle appropriately
+        }
+
+        simpleSetScene("/com/example/dictionaryenvi/HomePage/HomePage.fxml", curStage);
     }
+
 }

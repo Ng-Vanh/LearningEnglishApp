@@ -36,6 +36,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.example.dictionaryenvi.Account.Login.currentUser;
+import static com.example.dictionaryenvi.HomePage.HomePage.*;
 
 public class MainDictionary {
     @FXML
@@ -177,16 +178,7 @@ public class MainDictionary {
      * @param mouseEvent is event mouse click.
      */
     public void goToHome(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/HomePage/HomePage.fxml"));
-        try {
-            Parent root = loader.load();
-            Scene scene = new Scene(root);
-            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        moveToHomePageNavbar(mouseEvent);
     }
 
     /**
@@ -452,5 +444,34 @@ public class MainDictionary {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void goToMainDict(MouseEvent mouseEvent) {
+        moveToHomePageNavbar(mouseEvent);
+    }
+
+    public void goToGame(MouseEvent mouseEvent) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseScene/FXML/ExerciseScene.fxml"));
+        try {
+            Parent root = loader.load();
+            Scene scene =new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void goToLearn(MouseEvent mouseEvent) {
+        moveToLearnTopicWordNavbar(mouseEvent);
+    }
+
+    public void clickUserInfo(MouseEvent mouseEvent) {
+        clickUserInfoNavbar(mouseEvent);
+    }
+
+    public void clickLearnWordOfDay(MouseEvent mouseEvent) {
+        moveToLearnWordOfDayNavbar(mouseEvent);
     }
 }

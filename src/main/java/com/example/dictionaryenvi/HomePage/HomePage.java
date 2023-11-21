@@ -26,6 +26,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import static com.example.dictionaryenvi.Account.Login.currentUser;
+import static com.example.dictionaryenvi.TopicWord.TopicWord.currentUserLearnWord;
+import static com.example.dictionaryenvi.TopicWord.TopicWord.topicRandom;
 
 public class HomePage {
     @FXML
@@ -35,8 +37,8 @@ public class HomePage {
      * Move to dictionary.
      */
 
-    public void goToDictionary(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/MainDictionary/MainDictionary.fxml"));
+    public static void moveToDictionaryNavbar(MouseEvent mouseEvent){
+        FXMLLoader loader = new FXMLLoader(HomePage.class.getResource("/com/example/dictionaryenvi/MainDictionary/MainDictionary.fxml"));
         try {
             Parent root = loader.load();
             Scene scene =new Scene(root);
@@ -46,6 +48,106 @@ public class HomePage {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    public static void moveToLearnTopicWordNavbar(MouseEvent mouseEvent){
+        FXMLLoader loader = new FXMLLoader(HomePage.class.getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
+        try {
+            Parent root = loader.load();
+
+            FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), root);
+            fadeTransition.setFromValue(0.0);
+            fadeTransition.setToValue(1.0);
+            fadeTransition.play();
+
+            Scene scene = new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public static void moveToExerciseNavbar(MouseEvent mouseEvent){
+        FXMLLoader loader = new FXMLLoader(HomePage.class.getResource("/com/example/dictionaryenvi/Exercise/ExerciseScene/FXML/ExerciseScene.fxml"));
+        try {
+            Parent root = loader.load();
+            Scene scene =new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public static void moveToHomePageNavbar(MouseEvent mouseEvent){
+        FXMLLoader loader = new FXMLLoader(HomePage.class.getResource("/com/example/dictionaryenvi/HomePage/HomePage.fxml"));
+        try {
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public static void clickUserInfoNavbar(MouseEvent mouseEvent){
+        Image avatarImage = new Image(HomePage.class.getResource("/com/example/dictionaryenvi/HomePage/image/userAvt.png").toExternalForm());
+        ImageView avatarImageView = new ImageView(avatarImage);
+
+        User usInfo = UserDataAccess.getInstance().getUserInfo(currentUser.getUsername());
+        String fullName = usInfo.getFirstName() + " " + usInfo.getLastName();
+        Label fullNameLabel = new Label("Name: " + fullName);
+        int score1 = usInfo.getScoreGame1();
+        Label scoreLabel1 = new Label("Score: " + score1);
+
+        VBox userInfoBox = new VBox(10);
+        userInfoBox.setAlignment(Pos.CENTER);
+        userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1);
+
+        Dialog<Void> dialog = new Dialog<>();
+        dialog.getDialogPane().setMinWidth(360);
+        dialog.getDialogPane().setContent(userInfoBox);
+        dialog.initStyle(StageStyle.UNDECORATED);
+
+        String cssFile = HomePage.class.getResource("/com/example/dictionaryenvi/HomePage/UserInfo.css").toExternalForm();
+        dialog.getDialogPane().getStylesheets().add(cssFile);
+
+        // Tạo nút đóng dialog
+        Button closeButton = new Button("");
+        closeButton.setOnAction(event -> dialog.close());
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
+
+        // Tạo hiệu ứng Fade cho Dialog
+        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), dialog.getDialogPane());
+        fadeTransition.setFromValue(0.0);
+        fadeTransition.setToValue(1.0);
+        fadeTransition.play();
+
+        dialog.showAndWait();
+    }
+    public static void moveToLearnWordOfDayNavbar(MouseEvent mouseEvent){
+        currentUserLearnWord.setTopic(topicRandom);
+        FXMLLoader loader = new FXMLLoader(HomePage.class.getResource("/com/example/dictionaryenvi/Learn/FXML/Learn.fxml"));
+        try {
+            Parent root = loader.load();
+
+            FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), root);
+            fadeTransition.setFromValue(0.0);
+            fadeTransition.setToValue(1.0);
+            fadeTransition.play();
+
+            Scene scene = new Scene(root);
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void goToDictionary(MouseEvent mouseEvent) {
+        moveToDictionaryNavbar(mouseEvent);
     }
 
     /**
@@ -68,99 +170,28 @@ public class HomePage {
      * Shows information about current user: name, score.
      */
     public void clickShowUserInfo(MouseEvent mouseEvent) {
-        Image avatarImage = new Image(getClass().getResource("/com/example/dictionaryenvi/HomePage/image/userAvt.png").toExternalForm());
-        ImageView avatarImageView = new ImageView(avatarImage);
-
-        User usInfo = UserDataAccess.getInstance().getUserInfo(currentUser.getUsername());
-        String fullName = usInfo.getFirstName() + " " + usInfo.getLastName();
-        Label fullNameLabel = new Label("Name: " + fullName);
-        int score1 = usInfo.getScoreGame1();
-        Label scoreLabel1 = new Label("Score: " + score1);
-
-        VBox userInfoBox = new VBox(10);
-        userInfoBox.setAlignment(Pos.CENTER);
-        userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1);
-
-        Dialog<Void> dialog = new Dialog<>();
-        dialog.getDialogPane().setMinWidth(360);
-        dialog.getDialogPane().setContent(userInfoBox);
-        dialog.initStyle(StageStyle.UNDECORATED);
-
-        String cssFile = getClass().getResource("/com/example/dictionaryenvi/HomePage/UserInfo.css").toExternalForm();
-        dialog.getDialogPane().getStylesheets().add(cssFile);
-
-        // Tạo nút đóng dialog
-        Button closeButton = new Button("");
-        closeButton.setOnAction(event -> dialog.close());
-        dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
-
-        // Tạo hiệu ứng Fade cho Dialog
-        FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), dialog.getDialogPane());
-        fadeTransition.setFromValue(0.0);
-        fadeTransition.setToValue(1.0);
-        fadeTransition.play();
-
-        dialog.showAndWait();
+        clickUserInfoNavbar(mouseEvent);
     }
 
     /**
      * Move to study with some exercise.
      */
     public void goToExercise(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/Exercise/ExerciseScene/FXML/ExerciseScene.fxml"));
-        try {
-            Parent root = loader.load();
-            Scene scene =new Scene(root);
-            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        moveToExerciseNavbar(mouseEvent);
     }
 
     /**
      * Move to learn word with some topic.
      */
     public void goToLearnWord(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
-        try {
-            Parent root = loader.load();
-
-            FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), root);
-            fadeTransition.setFromValue(0.0);
-            fadeTransition.setToValue(1.0);
-            fadeTransition.play();
-
-            Scene scene = new Scene(root);
-            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        moveToLearnTopicWordNavbar(mouseEvent);
     }
 
     /**
      * Move to learn words follow each day.
      */
     public void learnWordOfDay(MouseEvent mouseEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
-        try {
-            Parent root = loader.load();
-
-            FadeTransition fadeTransition = new FadeTransition(Duration.seconds(0.75), root);
-            fadeTransition.setFromValue(0.0);
-            fadeTransition.setToValue(1.0);
-            fadeTransition.play();
-
-            Scene scene = new Scene(root);
-            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        moveToLearnWordOfDayNavbar(mouseEvent);
     }
 
     /**
@@ -272,6 +303,5 @@ public class HomePage {
     private void resizeTableView(TableView<User> tableView, boolean b) {
         tableView.getColumns().forEach(column -> column.setResizable(b));
     }
-
 
 }

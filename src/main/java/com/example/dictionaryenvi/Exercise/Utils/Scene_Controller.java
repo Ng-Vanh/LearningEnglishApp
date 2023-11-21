@@ -67,4 +67,56 @@ public class Scene_Controller {
             throw new RuntimeException(e);
         }
     }
+
+    public void enter_newScene(String FXML_Path, String title, boolean slideFromRight) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(FXML_Path));
+        try {
+            Parent root = loader.load();
+
+            Stage stage = new Stage();  // Create a new stage
+
+            SnapshotParameters snapshotParameters = new SnapshotParameters();
+            snapshotParameters.setFill(javafx.scene.paint.Color.TRANSPARENT);
+            ImageView snapshot = new ImageView(root.snapshot(snapshotParameters, null));
+
+            StackPane rootPane = new StackPane();
+            rootPane.getChildren().addAll(snapshot, root);
+
+            double sceneWidth = 960; // Set the desired width
+            double sceneHeight = 576; // Set the desired height
+            root.translateXProperty().set(slideFromRight ? sceneWidth : -sceneWidth); // Initial position off the scene
+
+            Scene newScene = new Scene(rootPane, sceneWidth, sceneHeight);
+
+            stage.setScene(newScene);
+            stage.setTitle(title);
+
+            FadeTransition fadeOut = new FadeTransition(Duration.seconds(0.5), snapshot);
+            fadeOut.setToValue(0);
+            fadeOut.setOnFinished(e -> {
+                stage.show();  // Show the new stage
+
+                TranslateTransition transition = new TranslateTransition(Duration.seconds(0.5), root);
+                transition.setToX(0);
+                transition.play();
+
+                // Apply a bouncing effect with acceleration and deceleration
+                transition.setOnFinished(eventTransition -> {
+                    Timeline timeline = new Timeline();
+                    KeyValue keyValue = new KeyValue(root.translateXProperty(), slideFromRight ? -30 : 30);
+                    KeyFrame keyFrame = new KeyFrame(Duration.millis(70), keyValue);
+                    timeline.getKeyFrames().add(keyFrame);
+                    timeline.setAutoReverse(true);
+                    timeline.setCycleCount(2);
+                    timeline.play();
+                });
+            });
+            fadeOut.play();
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
 }

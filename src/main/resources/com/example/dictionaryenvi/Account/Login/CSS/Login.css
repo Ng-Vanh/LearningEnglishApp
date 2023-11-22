@@ -3,6 +3,7 @@
     -fx-border-radius: 5;
     -fx-background-radius: 5;
     -fx-cursor: HAND;
+    -fx-font-weight: BOLD;
 }
 
 .login-button:hover {

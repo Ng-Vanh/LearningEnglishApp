@@ -7,6 +7,7 @@ import com.backend.TopicWord.TopicWords.SimpleTopicWord.SimpleTopicWord;
 import com.backend.TopicWord.TopicWords.SimpleTopicWord.SimpleTopicWordLoader;
 import com.backend.User.User;
 import com.backend.User.UserLearnWord;
+import com.example.dictionaryenvi.HomePage.HomePage;
 import javafx.animation.ParallelTransition;
 import javafx.animation.RotateTransition;
 import javafx.animation.Transition;
@@ -117,6 +118,7 @@ public class Learn {
         }
         else getDataWord();
 //        getRandomDailyWord();
+        userSimpleTopicWordList();
         showCard();
 
         ObservableList<String> items = FXCollections.observableArrayList();
@@ -245,6 +247,9 @@ public class Learn {
         for (UserLearnWord userLearnWord : learnedListWordAllTopic) {
             SimpleTopicWord simpleTopicWord = new SimpleTopicWord(userLearnWord.getTopic() , userLearnWord.getWord());
             wordToMakeExerciseList.add(simpleTopicWord);
+        }
+        for (SimpleTopicWord simpleTopicWord : wordToMakeExerciseList) {
+            System.out.println(simpleTopicWord.getWord());
         }
         return wordToMakeExerciseList;
     }
@@ -417,6 +422,29 @@ public class Learn {
             processLearnWord();
         }
         nextCard();
+    }
+
+    public void goToHome(MouseEvent mouseEvent) {
+        HomePage.moveToHomePageNavbar(mouseEvent);
+    }
+
+    public void goToGame(MouseEvent mouseEvent) {
+        HomePage.moveToExerciseNavbar(mouseEvent);
+    }
+
+    public void goToLearn(MouseEvent mouseEvent) {
+        HomePage.moveToLearnTopicWordNavbar(mouseEvent);
+    }
+
+    public void clickUserInfo(MouseEvent mouseEvent) {
+        HomePage.clickUserInfoNavbar(mouseEvent);
+    }
+
+    public void clickLearnWordOfDay(MouseEvent mouseEvent) {
+        HomePage.moveToLearnWordOfDayNavbar(mouseEvent);
+    }
+
+    public void clickEdict(MouseEvent mouseEvent) {
     }
 }
 

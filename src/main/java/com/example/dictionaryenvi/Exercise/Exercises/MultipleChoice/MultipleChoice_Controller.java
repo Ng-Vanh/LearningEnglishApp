@@ -149,7 +149,7 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
             if (exercise.isCorrect(userAnswer)) {
                 playCorrectEffect();
                 globalScore += 1;
-                saveUserScore();
+//                saveUserScore();
                 setButtonColor(selectedButton, Color.GREEN);
                 System.out.println("Correct!");
                 showAlert(true, exercise.getCorrectAnswer(), exercise.getExplanation());

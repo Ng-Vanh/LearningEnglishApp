@@ -195,7 +195,7 @@ public class ExerciseScene_Controller {
         Platform.runLater(() -> {
             exerciseStage = (Stage) dummyLabel.getScene().getWindow();
 
-            globalDurations = 60;
+            globalDurations = 90;
             globalIsRunningExercise = true;
             globalExerciseIndex = 0;
             globalScore = 0;

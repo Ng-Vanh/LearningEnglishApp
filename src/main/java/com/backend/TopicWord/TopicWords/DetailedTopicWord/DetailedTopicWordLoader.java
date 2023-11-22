@@ -131,38 +131,6 @@ public class DetailedTopicWordLoader {
     }
 
     public static void main(String[] args) {
-//        ArrayList<DetailedTopicWord> detailedTopicWordList = getWordsFromTopic("Animal");
-//        ArrayList<SimpleTopicWord> simpleTopicWordList = getSimpleTopicWordList();
-//        for (TopicWord word : wordSet) {
-//            System.out.println(word);
-//            System.out.println();
-//        }
-//        System.out.println("Total words: " + wordSet.size());
-
-//        int cnt = 0;
-//        StringBuilder sb = new StringBuilder();
-//        HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
-//
-//        HashMap<String, Integer> topicCntMap = new HashMap<>();
-//        for (String topic: detailedTopicWordMap.keySet()) {
-//            System.out.println("Topic: " + topic);
-//            sb.append(topic).append(", ");
-//            ArrayList<DetailedTopicWord> detailedTopicWordList = detailedTopicWordMap.get(topic);
-//            for (DetailedTopicWord detailedTopicWord: detailedTopicWordList) {
-//                System.out.println(detailedTopicWord);
-//                System.out.println();
-//                cnt += 1;
-//            }
-//            topicCntMap.put(topic, detailedTopicWordList.size());
-//            System.out.println("===============================");
-//        }
-//
-//        System.out.println("Total words: " + cnt);
-//        System.out.println("Number of topics: " + topicCntMap.keySet().size());
-//        System.out.println(sb.toString() + "\n");
-//        for (String topic: topicCntMap.keySet()) {
-//            System.out.println("Topic: " + topic + "\nCnt: " + topicCntMap.get(topic) + "\n");
-//        }
 
         for (SimpleTopicWord simpleTopicWord : globalFullSimpleTopicWordList) {
             System.out.println(simpleTopicWord);

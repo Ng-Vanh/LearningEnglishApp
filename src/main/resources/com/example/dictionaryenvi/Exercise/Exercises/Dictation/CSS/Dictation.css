@@ -1,4 +1,7 @@
 /* audio-icon.css */
+.navbar {
+    -fx-background-color: linear-gradient(to right, #E1F9A9 0%, #A6E1AE 80%);
+}
 
 .audio-icon {
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);

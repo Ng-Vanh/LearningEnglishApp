@@ -165,7 +165,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
             if (exercise.isCorrect(userAnswer)) {
                 playCorrectEffect();
                 globalScore += 1;
-                saveUserScore();
+//                saveUserScore();
                 System.out.println("Correct!");
                 setButtonColor(submitButton, Color.GREEN);
                 showAlert(true, exercise.getCorrectAnswer(), exercise.getAudioTranslation().getTranslation());

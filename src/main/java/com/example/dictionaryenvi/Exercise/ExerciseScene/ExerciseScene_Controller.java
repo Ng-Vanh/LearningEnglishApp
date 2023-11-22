@@ -8,6 +8,7 @@ import com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWord;
 import com.backend.TopicWord.TopicWords.SimpleTopicWord.SimpleTopicWord;
 import com.backend.User.UserLearnWord;
 import com.example.dictionaryenvi.Exercise.Utils.TimerManager;
+import com.example.dictionaryenvi.Learning.DailyRandomWordGenerator;
 import com.example.dictionaryenvi.Learning.Learn;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -22,6 +23,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 
 import static com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice.getDefaultMultipleChoice;
 import static com.backend.Exercise.Utils.ExerciseLoader.getExerciseListFromSimpleTopicWordList;
@@ -146,7 +148,6 @@ public class ExerciseScene_Controller {
     public ArrayList<SimpleTopicWord> getSimpleTopicWordListFromDataAccess() {
         String currentUserStr = currentUser.getUsername();
         ArrayList<UserLearnWord> userLearnWordList = LearnedDataAccess.getInstance().getWordsFollowEachUser(currentUserStr);
-
         ArrayList<SimpleTopicWord> simpleTopicWordList = new ArrayList<>();
         for (UserLearnWord userLearnWord: userLearnWordList) {
             String topic = userLearnWord.getTopic();
@@ -160,11 +161,21 @@ public class ExerciseScene_Controller {
 
     @FXML
     public void initialize() {
+        HashSet<SimpleTopicWord> fullSimpleTopicWordSet = new HashSet<>();
+
         ArrayList<SimpleTopicWord> simpleTopicWordListFromDataAccess = new ArrayList<>();
+        ArrayList<SimpleTopicWord> randomWordList = DailyRandomWordGenerator.generateDailyRandomWords(globalFullSimpleTopicWordList);
+
+
         if (canGetUser()) {
+            System.out.println("Can get user");
             simpleTopicWordListFromDataAccess = new ArrayList<>(getSimpleTopicWordListFromDataAccess());
             System.out.println("User has: " + simpleTopicWordListFromDataAccess);
             System.out.println();
+//            fullSimpleTopicWordSet.addAll(simpleTopicWordListFromDataAccess);
+        }
+        else {
+            System.out.println("Cannot get user.");
         }
 
         if (fullExerciseList == null) {
@@ -178,13 +189,22 @@ public class ExerciseScene_Controller {
 //        fullExerciseList.add(globalCurrentMultipleChoice);
 
         if (canGetUser()) {
-            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(simpleTopicWordListFromDataAccess));
+            fullSimpleTopicWordSet.addAll(simpleTopicWordListFromDataAccess);
+//            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(simpleTopicWordListFromDataAccess));
+        }
+        if (!randomWordList.isEmpty()) {
+            fullSimpleTopicWordSet.addAll(randomWordList);
+//            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(randomWordList));
         }
         else {
-            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList));
+            fullSimpleTopicWordSet.addAll(globalFullSimpleTopicWordList);
+//            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList));
         }
 
 
+        ArrayList<SimpleTopicWord> fullSimpleTopicWordList = new ArrayList<>(fullSimpleTopicWordSet);
+
+        fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(fullSimpleTopicWordList));
         Platform.runLater(() -> {
             exerciseStage = (Stage) dummyLabel.getScene().getWindow();
 //            stage.close();
@@ -220,6 +240,7 @@ public class ExerciseScene_Controller {
             System.out.println("NOT RUNNING EXERCISE ANYMORE!!!!!!!!!!!!");
             globalIsRunningExerciseProperty.set(false);
             globalExerciseIndex = 0;
+            saveUserScore();
             return;
         }
 
@@ -255,7 +276,6 @@ public class ExerciseScene_Controller {
 
             loadDictationScene();
         }
-//        });
 
     }
 }

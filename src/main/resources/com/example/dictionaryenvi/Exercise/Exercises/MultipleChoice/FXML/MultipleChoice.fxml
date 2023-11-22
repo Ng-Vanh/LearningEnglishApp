@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
@@ -14,16 +14,20 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="576.0" prefWidth="960.0" spacing="10.0" stylesheets="@../CSS/MultipleChoice.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoice_Controller">
+<VBox minHeight="576.0" minWidth="850.0" prefHeight="576.0" prefWidth="960.0" spacing="10.0" stylesheets="@../CSS/MultipleChoice.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoice_Controller">
    <children>
-      <AnchorPane prefHeight="70.0" prefWidth="960.0" styleClass="navbar" stylesheets="@../../../common/CSS/Navbar.css">
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" styleClass="navbar" stylesheets="@../../../common/CSS/Navbar.css">
          <children>
-            <ImageView fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
-               <image>
-                  <Image url="@../../../../MainDictionary/image/BackBtn.png" />
-               </image>
-            </ImageView>
-            <VBox alignment="CENTER" layoutX="209.0" layoutY="11.0" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn">
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="back-btn" stylesheets="@../../../common/CSS/Navbar.css">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="100.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true" styleClass="back-btn" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/BackBtn.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
                <children>
                   <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="home-btn">
                      <image>
@@ -33,7 +37,7 @@
                   <Label text="Home" />
                </children>
             </VBox>
-            <VBox alignment="CENTER" layoutX="348.0" layoutY="11.0" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn">
+            <VBox alignment="CENTER" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
                <children>
                   <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="game-btn">
                      <image>
@@ -43,9 +47,21 @@
                   <Label text="Exercise" />
                </children>
             </VBox>
-            <VBox alignment="CENTER" layoutX="622.0" layoutY="6.0" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn">
+            <VBox alignment="CENTER" onMouseClicked="#clickEdict" prefHeight="57.0" prefWidth="57.0" styleClass="dict-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
                <children>
-                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
+                  <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="dict-btn">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/dict.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Label text="Dictionary" />
+               </children></VBox>
+            <VBox alignment="CENTER" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
                      <image>
                         <Image url="@../../../../MainDictionary/image/studyingg.png" />
                      </image>
@@ -53,14 +69,9 @@
                   <Label text="Learn" />
                </children>
             </VBox>
-            <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="873.0" layoutY="15.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn">
-               <image>
-                  <Image url="@../../../../MainDictionary/image/gamer.png" />
-               </image>
-            </ImageView>
-            <VBox alignment="CENTER" layoutX="744.0" layoutY="3.0" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="83.0" styleClass="wordOfDay-btn">
+            <VBox alignment="CENTER" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="83.0" styleClass="wordOfDay-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
                <children>
-                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../../MainDictionary/image/new-product.png" />
                      </image>
@@ -68,16 +79,20 @@
                   <Label styleClass="wordOfDay-btn" text="Word of day" />
                </children>
             </VBox>
-            <VBox alignment="CENTER" layoutX="480.0" layoutY="4.0" onMouseClicked="#clickEdict" prefHeight="74.0" prefWidth="66.0" styleClass="dict-btn">
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="user-btn" stylesheets="@../../../common/CSS/Navbar.css">
                <children>
-                  <ImageView fitHeight="53.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true" styleClass="dict-btn">
+                  <ImageView fitHeight="57.0" fitWidth="49.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn" VBox.vgrow="ALWAYS">
                      <image>
-                        <Image url="@../../../../MainDictionary/image/dict.png" />
+                        <Image url="@../../../../MainDictionary/image/gamer.png" />
                      </image>
                   </ImageView>
-                  <Label text="Dictionary" />
-               </children></VBox>
-         </children></AnchorPane>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
       <VBox prefHeight="0.0" prefWidth="920.0" spacing="10.0" VBox.vgrow="NEVER">
          <children>
             <HBox alignment="CENTER" maxHeight="20.0" spacing="100.0" styleClass="question-box" HBox.hgrow="ALWAYS">

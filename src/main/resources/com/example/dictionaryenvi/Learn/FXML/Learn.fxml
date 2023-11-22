@@ -87,7 +87,7 @@
                   <Font size="15.0" />
                </font>
             </Label>
-            <Label fx:id="explain" alignment="CENTER" layoutX="4.0" layoutY="190.0" prefHeight="112.0" prefWidth="249.0" text="Explain" textAlignment="CENTER">
+            <Label fx:id="explain" alignment="CENTER" layoutX="4.0" layoutY="190.0" prefHeight="112.0" prefWidth="249.0" text="Explain" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="17.0" />
                </font>

@@ -51,7 +51,7 @@ public class MainDictionary {
     private ImageView removeBtn, addNewWordBtn, updateWordBtn;
 
 
-    private final DictionaryManagement myDictionary = new DictionaryManagement();
+    private static final DictionaryManagement myDictionary = new DictionaryManagement();
     private HistoryDataAccess historyDataAccess = new HistoryDataAccess();
     private FavoriteDataAccess favoriteDataAccess = new FavoriteDataAccess();
 

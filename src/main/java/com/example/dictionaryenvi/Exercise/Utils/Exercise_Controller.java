@@ -1,6 +1,7 @@
 package com.example.dictionaryenvi.Exercise.Utils;
 
 import com.backend.Exercise.Utils.Exercise;
+import com.example.dictionaryenvi.HomePage.HomePage;
 import javafx.animation.PauseTransition;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
@@ -30,6 +31,30 @@ import static com.example.dictionaryenvi.Exercise.ExerciseScene.ExerciseScene_Co
 import static com.example.dictionaryenvi.Exercise.Utils.GlobalProperties.*;
 
 public abstract class Exercise_Controller<T extends Exercise> extends Scene_Controller {
+    public void goToHome(MouseEvent mouseEvent) {
+        HomePage.moveToHomePageNavbar(mouseEvent);
+    }
+
+    public void goToGame(MouseEvent mouseEvent) {
+//        HomePage.moveToExerciseNavbar(mouseEvent);
+    }
+
+    public void goToLearn(MouseEvent mouseEvent) {
+        HomePage.moveToLearnTopicWordNavbar(mouseEvent);
+    }
+
+    public void clickUserInfo(MouseEvent mouseEvent) {
+        HomePage.clickUserInfoNavbar(mouseEvent);
+    }
+
+    public void clickLearnWordOfDay(MouseEvent mouseEvent) {
+        HomePage.moveToLearnWordOfDayNavbar(mouseEvent);
+    }
+
+    public void clickEdict(MouseEvent mouseEvent) {
+        HomePage.moveToDictionaryNavbar(mouseEvent);
+    }
+
     @FXML
     protected Label timerLabel;
 
@@ -250,7 +275,7 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
     Stage dummyStage;
 
-    private void showScoreAfterFinish() {
+    protected void showScoreAfterFinish() {
         closeOpenAlerts();
 
         playEffect(congratulationsMediaPlayer);

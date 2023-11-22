@@ -167,11 +167,17 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
 
         globalShowingMultipleChoice = false;
 //        globalShowingMultipleChoiceProperty.set(false);
-        Platform.runLater(() -> {globalShowingMultipleChoiceProperty.set(false);});
+        Platform.runLater(() -> {
+            globalShowingMultipleChoiceProperty.set(false);
+            if (!globalIsRunningExerciseProperty.get()) {
+                showScoreAfterFinish();
+            }
+        });
 //        closeStage();
         System.out.println("CLOSING MULTIPLE CHOICE");
         System.out.println("global mul FALSE " + globalShowingMultipleChoice);
     }
+
 
 //    @FXML
 //    protected void goBack(MouseEvent event) { // fix this

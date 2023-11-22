@@ -29,7 +29,7 @@ public class Dictation extends Exercise {
 
     private static final String bankFolderPath = "src/main/java/com/backend/Exercise/ExerciseBank/Dictation/";
 
-//    private String type = "Dictation";
+    //    private String type = "Dictation";
 //    private String exerciseType;
     private DictationDescription description;
 

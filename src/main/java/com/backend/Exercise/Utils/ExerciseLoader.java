@@ -13,7 +13,9 @@ public class ExerciseLoader {
     public static ArrayList<Exercise> getExerciseListFromSimpleTopicWordList(ArrayList<SimpleTopicWord> simpleTopicWordList) {
         ArrayList<Exercise> exerciseList = new ArrayList<>();
         ArrayList<DetailedTopicWord> detailedTopicWordList = getDetailedTopicWordListFromSimpleTopicWordList(simpleTopicWordList);
+        System.out.println("size of detailed is: " + detailedTopicWordList.size());
         for (DetailedTopicWord detailedTopicWord: detailedTopicWordList) {
+            System.out.println("Detailed is: " + detailedTopicWord);
             Exercise exercise = detailedTopicWord.getQuiz().getExercise();
             exerciseList.add(exercise);
         }

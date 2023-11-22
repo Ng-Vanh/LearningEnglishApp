@@ -1,9 +1,14 @@
 package com.example.dictionaryenvi.Exercise.ExerciseScene;
 
+import com.backend.Connection.LearnedDataAccess;
 import com.backend.Exercise.Exercises.Dictation.Dictation;
 import com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice;
 import com.backend.Exercise.Utils.Exercise;
+import com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWord;
+import com.backend.TopicWord.TopicWords.SimpleTopicWord.SimpleTopicWord;
+import com.backend.User.UserLearnWord;
 import com.example.dictionaryenvi.Exercise.Utils.TimerManager;
+import com.example.dictionaryenvi.Learning.Learn;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,13 +18,19 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 
+import static com.backend.Exercise.Exercises.MultipleChoice.MultipleChoice.getDefaultMultipleChoice;
 import static com.backend.Exercise.Utils.ExerciseLoader.getExerciseListFromSimpleTopicWordList;
-import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.globalFullSimpleTopicWordList;
 //import static com.backend.User.UserStatus.updateScoreStatus;
+import static com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader.*;
+import static com.backend.User.UserStatus.updateScoreStatus;
+import static com.example.dictionaryenvi.Account.Login.currentUser;
 import static com.example.dictionaryenvi.Exercise.Utils.GlobalProperties.*;
+import static com.example.dictionaryenvi.Learning.Learn.userSimpleTopicWordList;
 
 public class ExerciseScene_Controller {
 
@@ -39,7 +50,7 @@ public class ExerciseScene_Controller {
     public static int globalScore;
     public static int globalDurations;
 
-    public static MultipleChoice globalCurrentMultipleChoice = MultipleChoice.getDefaultMultipleChoice();
+    public static MultipleChoice globalCurrentMultipleChoice = getDefaultMultipleChoice();
     public static Dictation globalCurrentDictation = Dictation.getDefaultDictation();
 
     public static boolean globalShowingMultipleChoice = false;
@@ -50,7 +61,7 @@ public class ExerciseScene_Controller {
 
     public static void saveUserScore() { // update score here
         System.out.println("Saved user score: " + globalScore);
-//        updateScoreStatus(globalScore);
+        updateScoreStatus(globalScore);
     }
 
     private void loadMultipleChoiceScene() {
@@ -123,13 +134,63 @@ public class ExerciseScene_Controller {
 
     public static Stage exerciseStage;
 
+    public boolean canGetUser() {
+        if (currentUser == null) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    public ArrayList<SimpleTopicWord> getSimpleTopicWordListFromDataAccess() {
+        String currentUserStr = currentUser.getUsername();
+        ArrayList<UserLearnWord> userLearnWordList = LearnedDataAccess.getInstance().getWordsFollowEachUser(currentUserStr);
+
+        ArrayList<SimpleTopicWord> simpleTopicWordList = new ArrayList<>();
+        for (UserLearnWord userLearnWord: userLearnWordList) {
+            String topic = userLearnWord.getTopic();
+            String word = userLearnWord.getWord();
+            SimpleTopicWord simpleTopicWord = new SimpleTopicWord(topic, word);
+            simpleTopicWordList.add(simpleTopicWord);
+        }
+        System.out.println(currentUserStr + ", LENGTH IS : " + simpleTopicWordList);
+        return simpleTopicWordList;
+    }
+
     @FXML
     public void initialize() {
+        ArrayList<SimpleTopicWord> simpleTopicWordListFromDataAccess = new ArrayList<>();
+        if (canGetUser()) {
+            simpleTopicWordListFromDataAccess = new ArrayList<>(getSimpleTopicWordListFromDataAccess());
+            System.out.println("User has: " + simpleTopicWordListFromDataAccess);
+            System.out.println();
+        }
+
+        if (fullExerciseList == null) {
+            fullExerciseList = new ArrayList<>();
+        }
+
+        if (fullExerciseList != null || !fullExerciseList.isEmpty()) {
+            fullExerciseList.clear();
+        }
+
+//        fullExerciseList.add(globalCurrentMultipleChoice);
+
+        if (canGetUser()) {
+            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(simpleTopicWordListFromDataAccess));
+        }
+        else {
+            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList));
+        }
+
+
         Platform.runLater(() -> {
             exerciseStage = (Stage) dummyLabel.getScene().getWindow();
 //            stage.close();
 
-            fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
+//            fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
+
 
             globalDurations = 60;
             globalIsRunningExercise = true;
@@ -138,6 +199,11 @@ public class ExerciseScene_Controller {
             globalExerciseListSize = fullExerciseList.size();
 
             Collections.shuffle(fullExerciseList);
+            System.out.println("PRINTING EXERCISE TO DO:");
+
+            fullExerciseList.add(getDefaultMultipleChoice());
+            System.out.println(fullExerciseList);
+            System.out.println("==========");
 
             setMultipleChoiceCloseCallback(this::processNextExercise);
             setDictationCloseCallback(this::processNextExercise);
@@ -148,9 +214,12 @@ public class ExerciseScene_Controller {
     }
 
     public void processNextExercise() {
+        System.out.println("INDEX IS: " + globalExerciseIndex);
+        System.out.println("SIZE IS : " + fullExerciseList.size());
         if (!globalIsRunningExerciseProperty.get() || fullExerciseList.isEmpty()) {
             System.out.println("NOT RUNNING EXERCISE ANYMORE!!!!!!!!!!!!");
             globalIsRunningExerciseProperty.set(false);
+            globalExerciseIndex = 0;
             return;
         }
 
@@ -159,6 +228,7 @@ public class ExerciseScene_Controller {
 
         globalCurrentExercise = fullExerciseList.remove(0);
         globalExerciseIndex += 1;
+
         System.out.println("Question index: " + globalExerciseIndex);
         System.out.println("Processing next exercise: " + globalCurrentExercise);
 

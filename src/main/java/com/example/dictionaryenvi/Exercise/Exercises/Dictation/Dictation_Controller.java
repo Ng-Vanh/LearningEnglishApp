@@ -186,7 +186,12 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         globalShowingDictation = false;
 
         Platform.runLater(() -> {
-            System.out.println("set run later in dictation");globalShowingDictationProperty.set(false);});
+            System.out.println("set run later in dictation");
+            globalShowingDictationProperty.set(false);
+            if (!globalIsRunningExerciseProperty.get()) {
+                showScoreAfterFinish();
+            }
+        });
 //        closeStage();
         System.out.println("CLOSING DICTATION");
         System.out.println("global Dic FALSE " + globalShowingDictation);

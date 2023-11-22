@@ -109,7 +109,10 @@
             <Font size="13.0" />
          </font>
       </Hyperlink>
-      <Button fx:id="continueBtn" layoutX="421.0" layoutY="466.0" mnemonicParsing="false" onMouseClicked="#nextCard" prefHeight="49.0" prefWidth="118.0" text="Continue" />
+      <Button fx:id="continueBtn" layoutX="421.0" layoutY="466.0" mnemonicParsing="false" onMouseClicked="#nextCard" prefHeight="49.0" prefWidth="118.0" text="Continue">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
       <Pane fx:id="frontFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
          <children>
             <Label fx:id="word1" alignment="CENTER" layoutY="50.0" prefHeight="106.0" prefWidth="258.0" text="Word" textAlignment="CENTER" wrapText="true">

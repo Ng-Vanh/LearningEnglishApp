@@ -164,6 +164,10 @@ public class Learn {
 //            System.out.println(simpleTopicWord.getWord() + " " + simpleTopicWord.getTopic());
 //        }
     }
+
+    /**
+     * when user click close , call update learn word to database
+     */
     public void updateLearnWordWhenClose() {
         Stage currentStage = (Stage) frontFlashCard.getScene().getWindow();
         currentStage.setOnCloseRequest(new javafx.event.EventHandler<WindowEvent>() {
@@ -173,6 +177,10 @@ public class Learn {
             }
         });
     }
+
+    /**
+     * update new learn word to database
+     */
     public void updateLearnWordToDatabase() {
         List<UserLearnWord> newLearnWordList = new ArrayList<UserLearnWord>();
         for (Card card : cardList) {
@@ -200,7 +208,9 @@ public class Learn {
         System.out.println("Learn Word has been updated");
     }
 
-
+    /**
+     * get data word from SimpleTopicWordList
+     */
     public void getDataWord() {
         HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
         ArrayList<SimpleTopicWord> simpleTopicWordList = SimpleTopicWordLoader.getSimpleTopicWordList();
@@ -208,6 +218,10 @@ public class Learn {
         addWordListToCard(detailedTopicWordList);
 
     }
+
+    /**
+     * every day , word would be generated random and add to list card.
+     */
     public void getRandomDailyWord() {
         HashMap<String, ArrayList<DetailedTopicWord>> detailedTopicWordMap = getDetailedTopicWordMap();
         ArrayList<SimpleTopicWord> simpleTopicWordList = DetailedTopicWordLoader.globalFullSimpleTopicWordList;
@@ -218,6 +232,11 @@ public class Learn {
         ArrayList<DetailedTopicWord> detailedTopicWordList = DetailedTopicWordLoader.getDetailedTopicWordListFromSimpleTopicWordList(randomWordList);
         addWordListToCard(detailedTopicWordList);
     }
+
+    /**
+     * add word list to card list
+     * @param detailedTopicWordList list word detailed.
+     */
     public void addWordListToCard(ArrayList<DetailedTopicWord> detailedTopicWordList) {
         int currentId = 0;
         for (DetailedTopicWord detailedTopicWord : detailedTopicWordList) {
@@ -242,6 +261,11 @@ public class Learn {
         }
         sizeOfListTopic = currentId;
     }
+
+    /**
+     * get learn word  from database.
+     * @return list learn word.
+     */
     public static ArrayList<SimpleTopicWord> userSimpleTopicWordList() {
         ArrayList<SimpleTopicWord> wordToMakeExerciseList = new ArrayList<SimpleTopicWord>();
         ArrayList<UserLearnWord> learnedListWordAllTopic = learnedDataAccess.getWordsFollowEachUser(currentUsernameStr);
@@ -254,6 +278,11 @@ public class Learn {
         }
         return wordToMakeExerciseList;
     }
+
+    /**
+     * create front card flip animation.
+     * @return new front card flip 90 angle.
+     */
     public ParallelTransition createFrontCardFlipAnimation() {
         double newRotateFront = currentRotateFront + 90;
         RotateTransition flipFront = createFlip(this.frontFlashCard , currentRotateFront , newRotateFront);
@@ -262,6 +291,11 @@ public class Learn {
         ParallelTransition flipCard = new ParallelTransition(flipFront);
         return flipCard;
     }
+
+    /**
+     * create back card flip animation
+     * @return new back card flip 90 angle.
+     */
     public ParallelTransition createBackCardFlipAnimation() {
         double newRotateBack = currentRotateBack + 90;
         RotateTransition flipBack = createFlip(this.backFlashCard , currentRotateBack , newRotateBack);
@@ -270,6 +304,14 @@ public class Learn {
         ParallelTransition flipCard = new ParallelTransition(flipBack);
         return flipCard;
     }
+
+    /**
+     * flip animation follow Y_AXIS from any angle to any angle.
+     * @param pane pane contain scene.
+     * @param fromAngle start angle.
+     * @param toAngle end angle.
+     * @return transition rotate.
+     */
     public RotateTransition createFlip(Pane pane , double fromAngle , double toAngle) {
         RotateTransition flip = new RotateTransition(Duration.millis(500) , pane);
         flip.setAxis(Rotate.Y_AXIS);
@@ -277,6 +319,10 @@ public class Learn {
         flip.setToAngle(toAngle);
         return flip;
     }
+
+    /**
+     * create flip card animation.
+     */
     public void flipFlashCard() {
         ParallelTransition flipFrontCard = createFrontCardFlipAnimation();
         ParallelTransition flipBackCard = createBackCardFlipAnimation();
@@ -295,6 +341,10 @@ public class Learn {
         flag = !flag;
 //        System.out.println(currentRotateFront + "  "  + currentRotateBack);
     }
+
+    /**
+     * show current content card base on id.
+     */
     public void showCard() {
         frontFlashCard.setEffect(new DropShadow(20 , BLACK));
         backFlashCard.setEffect(new DropShadow(20 , BLACK));
@@ -325,6 +375,9 @@ public class Learn {
         mediaPlayer.play();
     }
 
+    /**
+     * create clone card and transition disappear.
+     */
     public void transitionCloneCard() {
         cloneFrontCard.setVisible(true);
         Card card = cardList.get(id);
@@ -336,6 +389,10 @@ public class Learn {
         transition.setToX(-1000);
         transition.play();
     }
+
+    /**
+     * next card.
+     */
     public void nextCard() {
         if(this.id < sizeOfListTopic - 1) {
             transitionCloneCard();
@@ -344,6 +401,9 @@ public class Learn {
         }
     }
 
+    /**
+     * play audio
+     */
     public void playAudio() {
         Card card = cardList.get(id);
         String word = card.getWord();
@@ -352,6 +412,11 @@ public class Learn {
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
     }
+
+    /**
+     * set image star gold or gray base on word is learned.
+     * @param isLearnWord
+     */
     public void setImageStar(boolean isLearnWord) {
         String imageResource = "";
         if(isLearnWord) {
@@ -366,21 +431,34 @@ public class Learn {
         starImg1.setImage(imageView1.getImage());
         starImg2.setImage(imageView2.getImage());
     }
+
+    /**
+     * process learn word , update to database.
+     */
     public void processLearnWord() {
         Card card = cardList.get(id);
         if(card.isLearnWord()) {
-//            learnedDataAccess.delete(currentUserLearnWord);
+            new Thread(() -> {
+                learnedDataAccess.delete(currentUserLearnWord);
+            }).start();
             card.setLearnWord(false);
             cardList.set(id , card);
             setImageStar(false);
         }
         else {
-//            learnedDataAccess.insert(currentUserLearnWord);
+            new Thread(() -> {
+                learnedDataAccess.insert(currentUserLearnWord);
+            }).start();
             card.setLearnWord(true);
             cardList.set(id , card);
             setImageStar(true);
         }
     }
+
+    /**
+     * back to TopicWord.fxml
+     * @param mouseEvent mouse event
+     */
     public void clickBackImg(MouseEvent mouseEvent) {
         updateLearnWordToDatabase();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/dictionaryenvi/TopicWord/TopicWord.fxml"));
@@ -395,6 +473,9 @@ public class Learn {
         }
     }
 
+    /**
+     * when click menu , show current list word.
+     */
     public void showListWord() {
         if(isShowListWord) {
             TranslateTransition slideIn = new TranslateTransition(Duration.seconds(0.1) , listViewWordContainer);
@@ -416,6 +497,10 @@ public class Learn {
         }
     }
 
+    /**
+     * if you know this word , click to next.
+     * @param mouseEvent
+     */
     public void clickKnowThisWord(MouseEvent mouseEvent) {
         Card card = cardList.get(id);
         if(!card.isLearnWord()) {

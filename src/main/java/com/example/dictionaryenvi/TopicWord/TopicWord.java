@@ -162,7 +162,11 @@ public class TopicWord {
         clickUserInfoNavbar(mouseEvent);
     }
 
-    public void moveToLearnWordOfDay(MouseEvent mouseEvent) {
+    public void clickEdict(MouseEvent mouseEvent) {
+        moveToDictionaryNavbar(mouseEvent);
+    }
+
+    public void clickLearnWordOfDay(MouseEvent mouseEvent) {
         moveToLearnWordOfDayNavbar(mouseEvent);
     }
 }

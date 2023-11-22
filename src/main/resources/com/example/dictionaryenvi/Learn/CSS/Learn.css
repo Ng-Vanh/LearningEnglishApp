@@ -1,0 +1,145 @@
+#word {
+    -fx-font-weight: BOLD;
+}
+#word1 {
+    -fx-font-weight: BOLD;
+}
+.navbar{
+    -fx-background-color: linear-gradient(to right, #E1F9A9 0%, #A6E1AE 80%);
+}
+
+.home-btn:hover {
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #ff6200;
+}
+.back-btn:hover,
+.study-btn:hover,
+.home-btn:hover,
+.game-btn:hover,
+.wordOfDay-btn:hover,
+.user-btn:hover,
+.dict-btn:hover
+{
+    -fx-cursor:hand;
+    -fx-scale-x:1.05;
+    -fx-scale-y:1.05;
+}
+
+
+#frontFlashCard {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+#backFlashCard {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+#cloneFrontCard {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+
+
+#pronounceImg1 {
+    -fx-background-color: black;
+    -fx-cursor: HAND;
+}
+
+#pronounceImg2 {
+    -fx-background-color: black;
+    -fx-cursor: HAND;
+}
+
+#continueBtn {
+    -fx-background-color: #32fc49;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: HAND;
+}
+
+#continueBtn:hover {
+    -fx-background-color: #00fd22;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+#pronounceImg1:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#pronounceImg2:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#starImg1:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#starImg2:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#backImg {
+    -fx-cursor: HAND;
+}
+#backImg:hover {
+    -fx-cursor:hand;
+    -fx-scale-x:1.05;
+    -fx-scale-y:1.05;
+}
+
+#listViewWordContainer {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-cursor: HAND;
+}
+
+#listViewWord {
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+#listViewWord .list-cell {
+    -fx-background-insets: 0;
+    -fx-border-color: transparent transparent #efefef transparent;
+    -fx-background-color: white;
+    -fx-text-fill: grey;
+    -fx-transition: -fx-translate-x 0.3s, -fx-scale-x 0.3s, -fx-scale-y 0.3s;
+}
+
+#listViewWord .list-cell:hover {
+    -fx-text-fill: black;
+    -fx-font-weight: BOLD;
+    -fx-translate-x: 20;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#topicTitle {
+    -fx-font-weight: BOLD;
+}
+
+#menuWordImg {
+    -fx-cursor: HAND;
+}
+
+#menuWordImg:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}

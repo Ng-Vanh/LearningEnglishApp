@@ -1,0 +1,20 @@
+PhraseVerbs|Go through
+Idiom|Spill the tea
+Idiom|Bite the bullet
+Sports|Spike
+Food|Brew
+Sports|Offside
+Plants|Bud
+Plants|Topiary
+Idiom|Cut the mustard
+Weather|Muggy
+Tech|Interface
+Fashion|Svelte
+Body|Tongue
+Animal|Migrate
+Business|Downturn
+Plants|Fertilization
+Body|Spine
+Animal|Omnipotent
+Food|Zesty
+Plants|Vine

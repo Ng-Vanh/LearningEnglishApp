@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="576.0" prefWidth="960.0" stylesheets="@CSS/GoogleTrans.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.MainDictionary.AppGoogleTranslate">
+    <children>
+        <VBox layoutY="0.0" prefHeight="576.0" prefWidth="960.0">
+            <children>
+                <AnchorPane prefHeight="70.0" prefWidth="960.0" styleClass="navbar">
+                    <children>
+                        <ImageView fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#goToMainDict" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
+                            <image>
+                                <Image url="@image/BackBtn.png" />
+                            </image>
+                        </ImageView>
+                        <VBox alignment="CENTER" layoutX="209.0" layoutY="11.0" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn">
+                            <children>
+                                <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@image/home-button.png" />
+                                    </image>
+                                </ImageView>
+                                <Label text="Home" />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" layoutX="348.0" layoutY="11.0" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn">
+                            <children>
+                                <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@image/gamification.png" />
+                                    </image>
+                                </ImageView>
+                                <Label text="Exercise" />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" layoutX="622.0" layoutY="6.0" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn">
+                            <children>
+                                <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@image/studyingg.png" />
+                                    </image>
+                                </ImageView>
+                                <Label text="Learn" />
+                            </children>
+                        </VBox>
+                        <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="873.0" layoutY="15.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn">
+                            <image>
+                                <Image url="@image/gamer.png" />
+                            </image>
+                        </ImageView>
+                        <VBox alignment="CENTER" layoutX="744.0" layoutY="3.0" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="71.0" styleClass="wordOfDay-btn">
+                            <children>
+                                <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@image/new-product.png" />
+                                    </image>
+                                </ImageView>
+                                <Label text="Word of day" />
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER" layoutX="480.0" layoutY="4.0" onMouseClicked="#clickEdict" prefHeight="74.0" prefWidth="58.0" styleClass="dict-btn">
+                            <children>
+                                <ImageView fitHeight="53.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@image/dict.png" />
+                                    </image>
+                                </ImageView>
+                                <Label text="Dictionary" />
+                            </children></VBox>
+                    </children></AnchorPane>
+                <AnchorPane prefHeight="506.0" prefWidth="960.0" style="-fx-background-color: #E8F7EA;">
+                    <children>
+                        <AnchorPane layoutX="57.0" layoutY="28.0" prefHeight="88.0" prefWidth="856.0">
+                            <children>
+                                <ImageView fx:id="swapLanguageBtn" fitHeight="42.0" fitWidth="66.0" layoutX="416.0" layoutY="33.0" onMouseClicked="#clickSwapLang" pickOnBounds="true" preserveRatio="true" styleClass="swap-btn">
+                                    <image>
+                                        <Image url="@image/swap.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fx:id="leftFlag" fitHeight="57.0" fitWidth="57.0" layoutX="330.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+                                <ImageView fx:id="rightFlag" fitHeight="57.0" fitWidth="57.0" layoutX="490.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+                            </children>
+                        </AnchorPane>
+                        <TextArea fx:id="inputTranslate" layoutX="44.0" layoutY="128.0" onKeyReleased="#enterWordEvent" prefHeight="318.0" prefWidth="442.0" promptText="Nhập từ/câu cần dịch" styleClass="input-area" wrapText="true">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </TextArea>
+                        <WebView fx:id="showTranslate" layoutX="501.0" layoutY="128.0" prefHeight="318.0" prefWidth="422.0" />
+                        <AnchorPane layoutX="45.0" layoutY="447.0" prefHeight="50.0" prefWidth="442.0">
+                            <children>
+                                <ImageView fx:id="leftSpeaker" fitHeight="42.0" fitWidth="42.0" layoutX="14.0" layoutY="4.0" onMouseClicked="#clickLeftSpeaker" pickOnBounds="true" preserveRatio="true" styleClass="speaker-left-btn" visible="false">
+                                    <image>
+                                        <Image url="@image/speaker.png" />
+                                    </image></ImageView>
+                                <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="386.0" layoutY="4.0" onMouseClicked="#clickTranslate" pickOnBounds="true" preserveRatio="true" styleClass="translate-btn">
+                                    <image>
+                                        <Image url="@image/translate.png" />
+                                    </image>
+                                </ImageView>
+                            </children></AnchorPane>
+                        <AnchorPane layoutX="501.0" layoutY="447.0" prefHeight="50.0" prefWidth="430.0">
+                            <children>
+                                <ImageView fx:id="rightSpeaker" fitHeight="42.0" fitWidth="42.0" layoutX="14.0" layoutY="4.0" onMouseClicked="#clickRightSpeaker" pickOnBounds="true" preserveRatio="true" styleClass="speaker-right-btn" visible="false">
+                                    <image>
+                                        <Image url="@image/speaker.png" />
+                                    </image></ImageView>
+                            </children></AnchorPane>
+                    </children></AnchorPane>
+            </children></VBox>
+    </children>
+</AnchorPane>

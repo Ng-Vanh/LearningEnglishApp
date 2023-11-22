@@ -1,0 +1,22 @@
+.back-btn:hover,
+.userInfo-btn:hover,
+.rank-btn:hover,
+.dictionary-icon:hover,
+.wordOfDay-btn:hover{
+    -fx-scale-x:1.03;
+    -fx-scale-y:1.03;
+    -fx-cursor:hand;
+}
+
+.exercise-btn,
+.study-btn{
+    -fx-background-color: rgb(33, 194, 76);
+    -fx-background-radius:20px;
+}
+.exercise-btn:hover,
+.study-btn:hover{
+    -fx-scale-x:1.03;
+    -fx-scale-y:1.03;
+    -fx-cursor:hand;
+}
+

@@ -247,6 +247,28 @@ public class LearnedDataAccess implements IDataAccess<UserLearnWord> {
         return result;
     }
 
+    /**
+     * The function count all word user studied.
+     */
+    public int countAllWords(String username){
+        int result = 0;
+        try {
+            Connection connection = connectDatabase.getConnection();
+            String query = "SELECT COUNT(DISTINCT word) FROM " + tableLearning + " WHERE username = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                result = resultSet.getInt(1);
+            }
+            connectDatabase.closeConnection(connection);
+
+        } catch (SQLException e) {
+            throw new RuntimeException();
+        }
+        return result;
+    }
+
     @Override
     public int update(UserLearnWord userLearnWord) {
         return 0;

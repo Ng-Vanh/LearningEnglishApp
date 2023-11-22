@@ -1,6 +1,8 @@
 package com.example.dictionaryenvi.HomePage;
 
+import com.backend.Connection.LearnedDataAccess;
 import com.backend.Connection.UserDataAccess;
+import com.backend.TopicWord.TopicWords.DetailedTopicWord.DetailedTopicWordLoader;
 import com.backend.User.User;
 import javafx.animation.FadeTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -32,6 +34,7 @@ import static com.example.dictionaryenvi.TopicWord.TopicWord.topicRandom;
 public class HomePage {
     @FXML
     private ImageView logOutBtn, userInfoBtn;
+    public static final int countFullWord = DetailedTopicWordLoader.globalFullSimpleTopicWordList.size();
 
     /**
      * Move to dictionary.
@@ -92,18 +95,27 @@ public class HomePage {
         }
     }
     public static void clickUserInfoNavbar(MouseEvent mouseEvent){
-        Image avatarImage = new Image(HomePage.class.getResource("/com/example/dictionaryenvi/HomePage/image/userAvt.png").toExternalForm());
+        Image avatarImage = new Image(HomePage.class.getResource("/com/example/dictionaryenvi/HomePage/image/gamer.png").toExternalForm());
         ImageView avatarImageView = new ImageView(avatarImage);
+        avatarImageView.setFitHeight(180);
+        avatarImageView.setFitWidth(180);
 
         User usInfo = UserDataAccess.getInstance().getUserInfo(currentUser.getUsername());
         String fullName = usInfo.getFirstName() + " " + usInfo.getLastName();
         Label fullNameLabel = new Label("Name: " + fullName);
         int score1 = usInfo.getScoreGame1();
         Label scoreLabel1 = new Label("Score: " + score1);
+        double progess = LearnedDataAccess.getInstance().countAllWords(currentUser.getUsername())/countFullWord * 100.0;
+        double progessShow = Math.round(progess * 100.0) / 100.0;
+        System.out.println(progess);
+        Label progessLabel = new Label("Progess: " + progessShow + "%");
 
         VBox userInfoBox = new VBox(10);
         userInfoBox.setAlignment(Pos.CENTER);
-        userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1);
+        avatarImageView.setStyle("-fx-padding: 0 0 20 0;");
+        fullNameLabel.setStyle("-fx-padding: 10 0 10 0;");
+        scoreLabel1.setStyle("-fx-padding: 0 0 10 0;");
+        userInfoBox.getChildren().addAll(avatarImageView, fullNameLabel, scoreLabel1,progessLabel);
 
         Dialog<Void> dialog = new Dialog<>();
         dialog.getDialogPane().setMinWidth(360);

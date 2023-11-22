@@ -274,7 +274,7 @@ public class Learn {
             wordToMakeExerciseList.add(simpleTopicWord);
         }
         for (SimpleTopicWord simpleTopicWord : wordToMakeExerciseList) {
-            System.out.println(simpleTopicWord.getWord());
+            System.out.println(simpleTopicWord.getWord() + simpleTopicWord.getTopic());
         }
         return wordToMakeExerciseList;
     }
@@ -438,17 +438,17 @@ public class Learn {
     public void processLearnWord() {
         Card card = cardList.get(id);
         if(card.isLearnWord()) {
-            new Thread(() -> {
-                learnedDataAccess.delete(currentUserLearnWord);
-            }).start();
+//            new Thread(() -> {
+//                learnedDataAccess.delete(currentUserLearnWord);
+//            }).start();
             card.setLearnWord(false);
             cardList.set(id , card);
             setImageStar(false);
         }
         else {
-            new Thread(() -> {
-                learnedDataAccess.insert(currentUserLearnWord);
-            }).start();
+//            new Thread(() -> {
+//                learnedDataAccess.insert(currentUserLearnWord);
+//            }).start();
             card.setLearnWord(true);
             cardList.set(id , card);
             setImageStar(true);

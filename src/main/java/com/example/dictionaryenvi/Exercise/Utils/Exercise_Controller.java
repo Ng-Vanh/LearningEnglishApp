@@ -314,6 +314,8 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
     @FXML
     protected void goBack(MouseEvent event) {
+        saveUserScore();
+
         timerManager.resetTimer(globalDurations);
         timerManager.stopTimer();
 

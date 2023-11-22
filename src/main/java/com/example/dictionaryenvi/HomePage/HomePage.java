@@ -108,7 +108,7 @@ public class HomePage {
         double progess = LearnedDataAccess.getInstance().countAllWords(currentUser.getUsername())/(double)countFullWord * 100.0;
         double progessShow = Math.round(progess * 100.0) / 100.0;
         System.out.println(progess);
-        Label progessLabel = new Label("Progess: " + progessShow + "%");
+        Label progessLabel = new Label("Progress: " + progessShow + "%");
 
         VBox userInfoBox = new VBox(10);
         userInfoBox.setAlignment(Pos.CENTER);

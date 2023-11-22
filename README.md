@@ -55,13 +55,19 @@ Now let's take a closer look at some features:
 
 	***Multiple Choice***
   ![Screenshot 2023-11-22 201603](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/bb241b78-38a8-4bc5-b4fb-7097b0f994bc)
+  ![image](https://github.com/mikebilly/dictionaryEn-Vi/assets/29500216/abecdc52-33cb-4da5-a692-d6d3861f8185)
+
    
-   ***Dictation***![Screenshot 2023-11-22 201626](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/6e0e3839-37ad-43d9-b917-086607c57d18)
+   	***Dictation***
+  ![Screenshot 2023-11-22 201626](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/6e0e3839-37ad-43d9-b917-086607c57d18)
+  ![image](https://github.com/mikebilly/dictionaryEn-Vi/assets/29500216/af6649b3-b53f-41bc-aa94-8bf81ff7cf7b)
+
   - Our exercises come in two types: 
 	* multiple-choice questions
 	* dictation exercises
 	  
   - The exercises will appear randomly, tailored to the set of words which the user has learned. This will help learners practice applying the words in practical examples.
+  - After the user submits an answer, there will a dialog telling whether the user got the correct answer or not, with its corresponding background colors, red for incorrect answer and green for correct answer. Additionally, the user can know the detailed explanation of every answer in the dialog.
   - Upon completing the exercise, the number of correct answers will be updated and reflected in the leaderboard.
 
 

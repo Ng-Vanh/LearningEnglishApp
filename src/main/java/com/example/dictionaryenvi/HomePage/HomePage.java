@@ -105,7 +105,7 @@ public class HomePage {
         Label fullNameLabel = new Label("Name: " + fullName);
         int score1 = usInfo.getScoreGame1();
         Label scoreLabel1 = new Label("Score: " + score1);
-        double progess = LearnedDataAccess.getInstance().countAllWords(currentUser.getUsername())/countFullWord * 100.0;
+        double progess = LearnedDataAccess.getInstance().countAllWords(currentUser.getUsername())/(double)countFullWord * 100.0;
         double progessShow = Math.round(progess * 100.0) / 100.0;
         System.out.println(progess);
         Label progessLabel = new Label("Progess: " + progessShow + "%");

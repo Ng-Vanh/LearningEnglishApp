@@ -50,7 +50,7 @@ public class TopicWord {
                 phrasePrgBar, weatherPrgBar, idiomPrgBar};
         for (int i = 0; i < arrayTopics.length; i++) {
             if(listCount.containsKey(arrayTopics[i])){
-                arrayProgress[i].setProgress(listCount.get(arrayTopics[i]) / 30.0);
+                arrayProgress[i].setProgress(listCount.get(arrayTopics[i]) / 45.0);
             }else{
                 arrayProgress[i].setProgress(0);
             }

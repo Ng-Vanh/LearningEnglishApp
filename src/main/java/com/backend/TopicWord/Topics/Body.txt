@@ -1,0 +1,1415 @@
+{
+  "topic": "Body",
+  "words": [
+    {
+      "definition": {
+        "word": "Muscle",
+        "type": "Noun",
+        "phonetic": "ˈmʌs.əl",
+        "example": "Lifting weights helps to build muscle.",
+        "explain": "Cơ bắp",
+        "translatedExample": "Nâng tạ giúp xây dựng cơ bắp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Strong _____ are important for physical activities.",
+          "options": {
+            "A": "Bones",
+            "B": "Muscles",
+            "C": "Organs",
+            "D": "Skin"
+          },
+          "correctAnswer": "B",
+          "explanation": "B: 'Muscles' are tissues in the body that have the ability to contract and thus produce movement or maintain posture."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Joint",
+        "type": "Noun",
+        "phonetic": "ʤɔɪnt",
+        "example": "The knee is a joint that connects the thigh to the lower leg.",
+        "explain": "Khớp xương",
+        "translatedExample": "Đầu gối là một khớp nối giữa đùi và cẳng chân."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Joint'?",
+          "options": {
+            "A": "Limb",
+            "B": "Muscle",
+            "C": "Hinge",
+            "D": "Bone"
+          },
+          "correctAnswer": "C",
+          "explanation": "C: 'Hinge' is a synonym as it also refers to a type of joint that allows only restricted movement, similar to the elbow or knee."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Heart",
+        "type": "Noun",
+        "phonetic": "hɑːrt",
+        "example": "The heart pumps blood throughout the body.",
+        "explain": "Trái tim",
+        "translatedExample": "Trái tim bơm máu đi khắp cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Heart'?",
+          "options": {
+            "A": "Brain",
+            "B": "Lung",
+            "C": "Vein",
+            "D": "Liver"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Brain' is an antonym as it refers to a completely different vital organ that is responsible for thought and nerve function, as opposed to the heart's function of pumping blood."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Skin",
+        "type": "Noun",
+        "phonetic": "skɪn",
+        "example": "The skin is the body's largest organ.",
+        "explain": "Da",
+        "translatedExample": "Da là cơ quan lớn nhất của cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Healthy skin is vital for providing protection against environmental factors.",
+          "sentenceWithBlank": "Healthy ______ is vital for providing protection against environmental factors.",
+          "wordBlank": "skin",
+          "translation": "Làn da khỏe mạnh rất quan trọng trong việc bảo vệ cơ thể khỏi các yếu tố môi trường."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bone",
+        "type": "Noun",
+        "phonetic": "bəʊn",
+        "example": "Bones provide structure and support for the body.",
+        "explain": "Xương",
+        "translatedExample": "Xương cung cấp cấu trúc và hỗ trợ cho cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Osteoporosis is a condition that weakens _____.",
+          "options": {
+            "A": "Muscles",
+            "B": "Bones",
+            "C": "Joints",
+            "D": "Skin"
+          },
+          "correctAnswer": "B",
+          "explanation": "B: 'Bones' are correct as osteoporosis is a disease that weakens bones, making them fragile and more likely to break."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Vein",
+        "type": "Noun",
+        "phonetic": "veɪn",
+        "example": "Veins carry blood back to the heart.",
+        "explain": "Tĩnh mạch",
+        "translatedExample": "Tĩnh mạch vận chuyển máu trở lại trái tim."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Unlike arteries, veins have valves to prevent blood from flowing backward.",
+          "sentenceWithBlank": "Unlike arteries, ______ have valves to prevent blood from flowing backward.",
+          "wordBlank": "veins",
+          "translation": "Khác với động mạch, tĩnh mạch có van để ngăn máu chảy ngược."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Lung",
+        "type": "Noun",
+        "phonetic": "lʌŋ",
+        "example": "The lungs are responsible for the exchange of oxygen and carbon dioxide.",
+        "explain": "Phổi",
+        "translatedExample": "Phổi chịu trách nhiệm trao đổi oxy và carbon dioxide."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Lung'?",
+          "options": {
+            "A": "Gill",
+            "B": "Bronchus",
+            "C": "Respirator",
+            "D": "Organ"
+          },
+          "correctAnswer": "D",
+          "explanation": "D: 'Organ' is a synonym as it refers to a part of the body that has a specific function, similar to the lung's role in respiration."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Liver",
+        "type": "Noun",
+        "phonetic": "ˈlɪv.ər",
+        "example": "The liver plays a key role in detoxifying the body.",
+        "explain": "Gan",
+        "translatedExample": "Gan đóng vai trò quan trọng trong việc giải độc cho cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Liver'?",
+          "options": {
+            "A": "Heart",
+            "B": "Stomach",
+            "C": "Kidney",
+            "D": "Intestine"
+          },
+          "correctAnswer": "B",
+          "explanation": "B: 'Stomach' is an antonym as it is involved in digestion, unlike the liver which is primarily involved in detoxification and metabolism."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Brain",
+        "type": "Noun",
+        "phonetic": "breɪn",
+        "example": "The brain controls thought, memory, and emotion.",
+        "explain": "Não",
+        "translatedExample": "Não điều khiển suy nghĩ, trí nhớ và cảm xúc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The human _____ is the center of the nervous system.",
+          "options": {
+            "A": "Heart",
+            "B": "Lung",
+            "C": "Brain",
+            "D": "Liver"
+          },
+          "correctAnswer": "C",
+          "explanation": "C: 'Brain' is correct as it is the control center of the nervous system, responsible for processing sensory information and directing bodily responses."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nail",
+        "type": "Noun",
+        "phonetic": "neɪl",
+        "example": "Fingernails protect the sensitive tips of our fingers.",
+        "explain": "Móng",
+        "translatedExample": "Móng tay bảo vệ đầu ngón tay nhạy cảm của chúng ta."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Keeping your nails trimmed can help maintain good hygiene.",
+          "sentenceWithBlank": "Keeping your ______ trimmed can help maintain good hygiene.",
+          "wordBlank": "nails",
+          "translation": "Giữ móng tay được cắt gọn gàng giúp duy trì vệ sinh tốt."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spine",
+        "type": "Noun",
+        "phonetic": "spaɪn",
+        "example": "The spine provides structural support to the human body.",
+        "explain": "Cột sống",
+        "translatedExample": "Cột sống cung cấp sự hỗ trợ cấu trúc cho cơ thể con người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Spine'?",
+          "options": {
+            "A": "Backbone",
+            "B": "Rib",
+            "C": "Bone",
+            "D": "Cartilage"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Backbone' is a synonym for 'Spine' as both refer to the series of vertebrae extending from the skull to the lower back, providing support and protecting the spinal cord."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Eye",
+        "type": "Noun",
+        "phonetic": "aɪ",
+        "example": "The eye is the organ of sight.",
+        "explain": "Mắt",
+        "translatedExample": "Mắt là cơ quan của thị giác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Eye'?",
+          "options": {
+            "A": "Ear",
+            "B": "Nose",
+            "C": "Mouth",
+            "D": "Hand"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Ear' is an antonym as it is a sensory organ involved in hearing and balance, in contrast to the eye, which is involved in sight."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Ear",
+        "type": "Noun",
+        "phonetic": "ɪər",
+        "example": "The ear is sensitive to a range of sounds.",
+        "explain": "Tai",
+        "translatedExample": "Tai nhạy cảm với nhiều loại âm thanh."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The ear consists of external, middle, and inner parts.",
+          "sentenceWithBlank": "The ______ consists of external, middle, and inner parts.",
+          "wordBlank": "ear",
+          "translation": "Tai bao gồm các phần ngoài, giữa và trong."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tooth",
+        "type": "Noun",
+        "phonetic": "tuːθ",
+        "example": "Regular brushing helps to keep your teeth healthy.",
+        "explain": "Răng",
+        "translatedExample": "Đánh răng thường xuyên giúp răng bạn khỏe mạnh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Cavities are a common problem affecting _____.",
+          "options": {
+            "A": "Bones",
+            "B": "Hair",
+            "C": "Nails",
+            "D": "Teeth"
+          },
+          "correctAnswer": "D",
+          "explanation": "D: 'Teeth' are correct as cavities are a common dental problem that affects the teeth, causing decay and potentially leading to tooth loss."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Limb",
+        "type": "Noun",
+        "phonetic": "lɪm",
+        "example": "He broke his lower limb during the soccer match.",
+        "explain": "Chi",
+        "translatedExample": "Anh ấy đã gãy chi dưới trong trận đấu bóng đá."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Limb'?",
+          "options": {
+            "A": "Bone",
+            "B": "Joint",
+            "C": "Arm",
+            "D": "Extremity"
+          },
+          "correctAnswer": "D",
+          "explanation": "D: 'Extremity' is a synonym for 'Limb,' as both terms can refer to an arm or leg."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hair",
+        "type": "Noun",
+        "phonetic": "heər",
+        "example": "She has long, curly hair.",
+        "explain": "Tóc",
+        "translatedExample": "Cô ấy có mái tóc dài và xoăn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Regular hair care is essential for maintaining healthy hair.",
+          "sentenceWithBlank": "Regular ______ care is essential for maintaining healthy hair.",
+          "wordBlank": "hair",
+          "translation": "Chăm sóc tóc định kỳ là cần thiết để duy trì mái tóc khỏe mạnh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Finger",
+        "type": "Noun",
+        "phonetic": "ˈfɪŋ.ɡər",
+        "example": "He wore a ring on his left ring finger.",
+        "explain": "Ngón tay",
+        "translatedExample": "Anh ấy đeo nhẫn vào ngón áp út bên trái."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Finger'?",
+          "options": {
+            "A": "Thumb",
+            "B": "Toe",
+            "C": "Palm",
+            "D": "Wrist"
+          },
+          "correctAnswer": "B",
+          "explanation": "B: 'Toe' is an antonym for 'Finger' as toes are to feet what fingers are to hands."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Thumb",
+        "type": "Noun",
+        "phonetic": "θʌm",
+        "example": "The opposable thumb is a unique feature of human hands.",
+        "explain": "Ngón cái",
+        "translatedExample": "Ngón cái có thể đối diện là đặc điểm độc đáo của bàn tay con người."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The thumb is critical for gripping and manipulating objects.",
+          "sentenceWithBlank": "The ______ is critical for gripping and manipulating objects.",
+          "wordBlank": "thumb",
+          "translation": "Ngón cái rất quan trọng để nắm bắt và thao tác các vật thể."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stomach",
+        "type": "Noun",
+        "phonetic": "ˈstʌm.ək",
+        "example": "He had a stomachache after eating too quickly.",
+        "explain": "Dạ dày",
+        "translatedExample": "Anh ấy bị đau dạ dày sau khi ăn quá nhanh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Digestion primarily begins in the _____.",
+          "options": {
+            "A": "Mouth",
+            "B": "Esophagus",
+            "C": "Stomach",
+            "D": "Intestine"
+          },
+          "correctAnswer": "C",
+          "explanation": "C: 'Stomach' is the correct answer as digestion primarily begins in the stomach, where food is broken down by stomach acids."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Elbow",
+        "type": "Noun",
+        "phonetic": "ˈel.bəʊ",
+        "example": "She leaned on the table with her elbow.",
+        "explain": "Khủy tay",
+        "translatedExample": "Cô ấy dựa khủy tay lên bàn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The elbow is a joint that allows for the bending of the arm.",
+          "sentenceWithBlank": "The ______ is a joint that allows for the bending of the arm.",
+          "wordBlank": "elbow",
+          "translation": "Khủy tay là một khớp cho phép uốn cong cánh tay."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tongue",
+        "type": "Noun",
+        "phonetic": "tʌŋ",
+        "example": "The tongue is important for tasting and swallowing food.",
+        "explain": "Lưỡi",
+        "translatedExample": "Lưỡi quan trọng cho việc nếm và nuốt thức ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Tongue'?",
+          "options": {
+            "A": "Palate",
+            "B": "Taste",
+            "C": "Gums",
+            "D": "Organ"
+          },
+          "correctAnswer": "D",
+          "explanation": "D: 'Organ' is a synonym for 'Tongue' as it refers to a part of the body with a specific function, in this case, taste and speech."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Kidney",
+        "type": "Noun",
+        "phonetic": "ˈkɪd.ni",
+        "example": "The kidneys filter waste from the blood.",
+        "explain": "Thận",
+        "translatedExample": "Thận lọc chất thải từ máu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Kidney'?",
+          "options": {
+            "A": "Heart",
+            "B": "Liver",
+            "C": "Bladder",
+            "D": "Lung"
+          },
+          "correctAnswer": "C",
+          "explanation": "C: 'Bladder' is an antonym as it stores urine excreted by the kidneys, performing a complementary but different function."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Knee",
+        "type": "Noun",
+        "phonetic": "niː",
+        "example": "She injured her knee while running.",
+        "explain": "Đầu gối",
+        "translatedExample": "Cô ấy bị thương ở đầu gối khi chạy."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The knee is a complex joint that allows for movement of the leg.",
+          "sentenceWithBlank": "The ______ is a complex joint that allows for movement of the leg.",
+          "wordBlank": "knee",
+          "translation": "Đầu gối là một khớp phức tạp cho phép di chuyển chân."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Muscle",
+        "type": "Noun",
+        "phonetic": "ˈmʌs.əl",
+        "example": "Regular exercise helps in building strong muscles.",
+        "explain": "Cơ bắp",
+        "translatedExample": "Tập luyện đều đặn giúp phát triển cơ bắp mạnh mẽ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Muscle'?",
+          "options": {
+            "A": "Tendon",
+            "B": "Ligament",
+            "C": "Fat",
+            "D": "Bone"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Tendon' and 'Ligament' are connective tissues related to muscles and bones. B: 'Bone' is a different component of the skeletal system. C: 'Fat' is the antonym, as muscles and fat have opposite characteristics in terms of composition and function. D: 'Bone' is a different component of the skeletal system."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Joint",
+        "type": "Noun",
+        "phonetic": "dʒɔɪnt",
+        "example": "The knee is a complex joint that allows movement in multiple directions.",
+        "explain": "Khớp",
+        "translatedExample": "Đầu gối là một khớp phức tạp cho phép chuyển động theo nhiều hướng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Joints provide flexibility and enable various types of body movements.",
+          "sentenceWithBlank": "_____ provide flexibility and enable various types of body movements.",
+          "wordBlank": "Joints",
+          "translation": "Khớp cung cấp sự linh hoạt và cho phép nhiều loại chuyển động của cơ thể."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nerve",
+        "type": "Noun",
+        "phonetic": "nɜrv",
+        "example": "A pinched nerve can cause pain and numbness in the affected area.",
+        "explain": "Thần kinh",
+        "translatedExample": "Thần kinh bị kẹt có thể gây đau và tê ở khu vực bị ảnh hưởng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Nerve'?",
+          "options": {
+            "A": "Tissue",
+            "B": "Vein",
+            "C": "Neuron",
+            "D": "Artery"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Tissue' is a general term for body fabric. B: 'Vein' and 'Artery' are blood vessels. C: 'Neuron' is the synonym, referring to a nerve cell. D: 'Artery' is a blood vessel."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Breathe",
+        "type": "Verb",
+        "phonetic": "brið",
+        "example": "It is essential to breathe deeply during relaxation exercises.",
+        "explain": "Hít thở",
+        "translatedExample": "Hít thở sâu là quan trọng trong các bài tập thư giãn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Breathe'?",
+          "options": {
+            "A": "Exhale",
+            "B": "Inhale",
+            "C": "Pant",
+            "D": "Suffocate"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Exhale' is the opposite action of 'Inhale.' B: 'Inhale' is the antonym for 'Exhale.' C: 'Pant' is a rapid and shallow form of breathing. D: 'Suffocate' is the antonym, representing a lack of air or inability to breathe."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Posture",
+        "type": "Noun",
+        "phonetic": "ˈpoʊs.tʃər",
+        "example": "Maintaining good posture is important for spinal health.",
+        "explain": "Tư thế",
+        "translatedExample": "Giữ tư thế đúng là quan trọng đối với sức khỏe cột sống."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Posture plays a crucial role in preventing back pain and muscle strain.",
+          "sentenceWithBlank": "______ plays a crucial role in preventing back pain and muscle strain.",
+          "wordBlank": "Posture",
+          "translation": "Tư thế đóng một vai trò quan trọng trong việc ngăn chặn đau lưng và căng cơ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Digest",
+        "type": "Verb",
+        "phonetic": "daɪˈdʒest",
+        "example": "Enzymes help to digest food and break down nutrients for absorption.",
+        "explain": "Tiêu hóa",
+        "translatedExample": "Enzymes giúp tiêu hóa thức ăn và phân giải chất dinh dưỡng để hấp thụ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Digest'?",
+          "options": {
+            "A": "Devour",
+            "B": "Assimilate",
+            "C": "Excrete",
+            "D": "Chew"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Devour' suggests eating voraciously. B: 'Assimilate' is the synonym, indicating the absorption of nutrients. C: 'Excrete' is the opposite action, involving the elimination of waste. D: 'Chew' is the initial step in the digestive process."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Balance",
+        "type": "Noun",
+        "phonetic": "ˈbæl.əns",
+        "example": "Practicing yoga helps improve balance and flexibility.",
+        "explain": "Cân bằng",
+        "translatedExample": "Luyện tập yoga giúp cải thiện cân bằng và linh hoạt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "______ is crucial for preventing falls and maintaining stability.",
+          "options": {
+            "A": "Flexibility",
+            "B": "Balance",
+            "C": "Strength",
+            "D": "Endurance"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Flexibility' refers to the range of motion in joints. B: 'Balance' is crucial for preventing falls and maintaining stability. C: 'Strength' is the power to exert force. D: 'Endurance' is the ability to sustain prolonged physical activity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spine",
+        "type": "Noun",
+        "phonetic": "spaɪn",
+        "example": "The spine provides support and protection for the spinal cord.",
+        "explain": "Cột sống",
+        "translatedExample": "Cột sống cung cấp sự hỗ trợ và bảo vệ cho tuyến sống."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The spine consists of vertebrae stacked on top of each other.",
+          "sentenceWithBlank": "The ____ consists of vertebrae stacked on top of each other.",
+          "wordBlank": "Spine",
+          "translation": "Cột sống bao gồm các đốt sống xếp chồng lên nhau."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Skin",
+        "type": "Noun",
+        "phonetic": "skɪn",
+        "example": "Proper skincare is essential for maintaining healthy skin.",
+        "explain": "Da",
+        "translatedExample": "Chăm sóc da đúng cách là quan trọng để duy trì làn da khỏe mạnh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Skin'?",
+          "options": {
+            "A": "Tissue",
+            "B": "Epidermis",
+            "C": "Organ",
+            "D": "Muscle"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Tissue' is a general term for body fabric. B: 'Epidermis' is the synonym, referring to the outer layer of the skin. C: 'Organ' is a broader term that includes various body parts. D: 'Muscle' is a distinct component of the body."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Lung",
+        "type": "Noun",
+        "phonetic": "lʌŋ",
+        "example": "Smoking can damage the lungs and lead to respiratory problems.",
+        "explain": "Phổi",
+        "translatedExample": "Hút thuốc có thể làm tổn thương phổi và dẫn đến vấn đề hô hấp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The lungs are responsible for the exchange of oxygen and carbon dioxide in the body.",
+          "sentenceWithBlank": "The ____ are responsible for the exchange of oxygen and carbon dioxide in the body.",
+          "wordBlank": "Lungs",
+          "translation": "Phổi chịu trách nhiệm cho quá trình trao đổi ôxy và carbon dioxide trong cơ thể."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Heart",
+        "type": "Noun",
+        "phonetic": "hɑrt",
+        "example": "The heart pumps blood throughout the body, supplying oxygen and nutrients.",
+        "explain": "Trái tim",
+        "translatedExample": "Trái tim đẩy máu khắp cơ thể, cung cấp ôxy và chất dinh dưỡng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The circulatory system includes the ____ as the central organ.",
+          "options": {
+            "A": "Brain",
+            "B": "Lungs",
+            "C": "Heart",
+            "D": "Liver"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Brain' is part of the nervous system. B: 'Lungs' are part of the respiratory system. C: 'Heart' is the central organ of the circulatory system. D: 'Liver' is part of the digestive system."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Eye",
+        "type": "Noun",
+        "phonetic": "aɪ",
+        "example": "The human eye can distinguish a wide range of colors and shapes.",
+        "explain": "Mắt",
+        "translatedExample": "Mắt người có thể phân biệt một loạt các màu sắc và hình dạng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The eye is a complex organ that allows the sense of sight.",
+          "sentenceWithBlank": "The ____ is a complex organ that allows the sense of sight.",
+          "wordBlank": "Eye",
+          "translation": "Mắt là một cơ quan phức tạp cho phép giác quan thị giác."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Brain",
+        "type": "Noun",
+        "phonetic": "breɪn",
+        "example": "The brain controls various bodily functions and cognitive processes.",
+        "explain": "Não",
+        "translatedExample": "Não kiểm soát nhiều chức năng cơ thể và quá trình nhận thức."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Brain'?",
+          "options": {
+            "A": "Heart",
+            "B": "Mind",
+            "C": "Spine",
+            "D": "Liver"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Heart' is a different organ responsible for pumping blood. B: 'Mind' is the synonym, representing the seat of consciousness and thought. C: 'Spine' is part of the skeletal system. D: 'Liver' is part of the digestive system."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Ear",
+        "type": "Noun",
+        "phonetic": "ɪr",
+        "example": "The ear allows humans to hear sounds and maintain balance.",
+        "explain": "Tai",
+        "translatedExample": "Tai giúp con người nghe âm thanh và duy trì cân bằng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Ear'?",
+          "options": {
+            "A": "Deaf",
+            "B": "Loud",
+            "C": "Mute",
+            "D": "Silent"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Deaf' is the antonym, representing the inability to hear. B: 'Loud' and 'Silent' relate to the volume of sounds. C: 'Mute' refers to the inability to speak. D: 'Silent' is not the opposite of 'Ear.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Teeth",
+        "type": "Noun",
+        "phonetic": "tiːθ",
+        "example": "Proper dental care is essential for maintaining healthy teeth.",
+        "explain": "Răng",
+        "translatedExample": "Chăm sóc răng đúng cách là quan trọng để duy trì răng khỏe mạnh."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Teeth are important for chewing food and aiding the digestion process.",
+          "sentenceWithBlank": "______ are important for chewing food and aiding the digestion process.",
+          "wordBlank": "Teeth",
+          "translation": "Răng quan trọng để nhai thức ăn và hỗ trợ quá trình tiêu hóa."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hair",
+        "type": "Noun",
+        "phonetic": "her",
+        "example": "Hair serves as a protective covering for the scalp and regulates body temperature.",
+        "explain": "Tóc",
+        "translatedExample": "Tóc đóng vai trò là lớp bảo vệ cho đầu và điều chỉnh nhiệt độ cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hair'?",
+          "options": {
+            "A": "Fur",
+            "B": "Feather",
+            "C": "Skin",
+            "D": "Wool"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Fur' is the synonym, especially when referring to the hair of animals. B: 'Feather' pertains to birds. C: 'Skin' is a different covering. D: 'Wool' is specific to sheep."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Thumb",
+        "type": "Noun",
+        "phonetic": "θʌm",
+        "example": "The thumb enables humans to grasp and manipulate objects with precision.",
+        "explain": "Ngón tay cái",
+        "translatedExample": "Ngón tay cái giúp con người nắm và điều chỉnh đối tượng một cách chính xác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The _____ is opposable, allowing a unique range of motion.",
+          "options": {
+            "A": "Index Finger",
+            "B": "Thumb",
+            "C": "Pinky",
+            "D": "Ring Finger"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Index Finger' is a different digit. B: 'Thumb' is opposable, allowing a unique range of motion. C: 'Pinky' and 'Ring Finger' are other digits. D: 'Ring Finger' is a different digit."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Stomach",
+        "type": "Noun",
+        "phonetic": "ˈstʌm.ək",
+        "example": "The stomach plays a crucial role in the digestion of food by secreting digestive enzymes.",
+        "explain": "Dạ dày",
+        "translatedExample": "Dạ dày đóng vai trò quan trọng trong quá trình tiêu hóa thức ăn bằng cách tiết ra enzym tiêu hóa."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The stomach is a muscular organ that breaks down food into a semi-liquid mixture.",
+          "sentenceWithBlank": "The ____ is a muscular organ that breaks down food into a semi-liquid mixture.",
+          "wordBlank": "Stomach",
+          "translation": "Dạ dày là một cơ quan cơ bắp phân giải thức ăn thành hỗn hợp nửa lỏng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Toe",
+        "type": "Noun",
+        "phonetic": "toʊ",
+        "example": "Each foot typically has five toes, providing balance and support.",
+        "explain": "Ngón chân",
+        "translatedExample": "Mỗi chân thường có năm ngón chân, cung cấp cân bằng và hỗ trợ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Toe'?",
+          "options": {
+            "A": "Finger",
+            "B": "Heel",
+            "C": "Foot",
+            "D": "Sole"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Finger' is the antonym, representing a different type of digit. B: 'Heel' is another part of the foot. C: 'Foot' is the general term for the entire structure. D: 'Sole' is the bottom part of the foot."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pulse",
+        "type": "Noun",
+        "phonetic": "pʌls",
+        "example": "Checking your pulse can provide information about your heart rate.",
+        "explain": "Nhịp tim",
+        "translatedExample": "Kiểm tra nhịp tim của bạn có thể cung cấp thông tin về nhịp tim."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The doctor measured the patient's pulse to assess cardiovascular health.",
+          "sentenceWithBlank": "The doctor measured the patient's _____ to assess cardiovascular health.",
+          "wordBlank": "Pulse",
+          "translation": "Bác sĩ đo nhịp tim của bệnh nhân để đánh giá sức khỏe tim mạch."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sweat",
+        "type": "Noun",
+        "phonetic": "swɛt",
+        "example": "Exercise leads to increased sweating as the body regulates temperature.",
+        "explain": "Mồ hôi",
+        "translatedExample": "Vận động dẫn đến tăng cường mồ hôi khi cơ thể điều chỉnh nhiệt độ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Sweat'?",
+          "options": {
+            "A": "Cold",
+            "B": "Shiver",
+            "C": "Chill",
+            "D": "Dry"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Cold,' 'Shiver,' and 'Chill' relate to low temperatures. D: 'Dry' is the antonym, representing the absence of sweat and moisture."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bladder",
+        "type": "Noun",
+        "phonetic": "ˈblæd.ər",
+        "example": "The bladder stores urine before it is expelled from the body.",
+        "explain": "Bàng quang",
+        "translatedExample": "Bàng quang lưu trữ nước tiểu trước khi được đẩy ra khỏi cơ thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The _____ is a muscular organ that stores and releases urine.",
+          "options": {
+            "A": "Liver",
+            "B": "Bladder",
+            "C": "Lung",
+            "D": "Heart"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Liver,' 'Lung,' and 'Heart' are different organs with distinct functions. B: 'Bladder' is the muscular organ responsible for storing and releasing urine."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Pupil",
+        "type": "Noun",
+        "phonetic": "ˈpjuː.pəl",
+        "example": "The size of the pupil adjusts in response to light conditions.",
+        "explain": "Zòng mắt",
+        "translatedExample": "Kích thước của zòng mắt điều chỉnh phản ứng theo điều kiện ánh sáng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In bright light, the pupil constricts to reduce the amount of light entering the eye.",
+          "sentenceWithBlank": "In bright light, the _____ constricts to reduce the amount of light entering the eye.",
+          "wordBlank": "Pupil",
+          "translation": "Trong ánh sáng chói lọi, zòng mắt co lại để giảm lượng ánh sáng nhập vào mắt."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jaw",
+        "type": "Noun",
+        "phonetic": "dʒɔː",
+        "example": "Chewing is the primary function of the jaw in the digestive process.",
+        "explain": "Hàm",
+        "translatedExample": "Nhai là chức năng chính của hàm trong quá trình tiêu hóa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Jaw'?",
+          "options": {
+            "A": "Lip",
+            "B": "Cheek",
+            "C": "Chin",
+            "D": "Mouth"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Lip,' 'Cheek,' and 'Chin' are different facial features. D: 'Mouth' is the synonym, encompassing the entire oral cavity, including the jaw."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Rib",
+        "type": "Noun",
+        "phonetic": "rɪb",
+        "example": "The ribcage protects vital organs such as the heart and lungs.",
+        "explain": "Xương sườn",
+        "translatedExample": "Xương sườn bảo vệ các cơ quan quan trọng như tim và phổi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The _____ forms a protective cage around the chest area.",
+          "options": {
+            "A": "Spine",
+            "B": "Rib",
+            "C": "Knee",
+            "D": "Liver"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Spine,' 'Knee,' and 'Liver' are different structures with distinct functions. B: 'Rib' forms a protective cage around the chest area."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chin",
+        "type": "Noun",
+        "phonetic": "tʃɪn",
+        "example": "The chin is the lower part of the face below the lower lip.",
+        "explain": "Cằm",
+        "translatedExample": "Cằm là phần dưới của khuôn mặt dưới môi dưới."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The chin is a prominent facial feature that supports the lower lip.",
+          "sentenceWithBlank": "The _____ is a prominent facial feature that supports the lower lip.",
+          "wordBlank": "Chin",
+          "translation": "Cằm là một đặc điểm nổi bật của khuôn mặt hỗ trợ môi dưới."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Palm",
+        "type": "Noun",
+        "phonetic": "pɑːm",
+        "example": "The palm of the hand contains numerous sweat glands.",
+        "explain": "Cung tay",
+        "translatedExample": "Cung tay chứa nhiều tuyến mồ hôi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Palm'?",
+          "options": {
+            "A": "Fist",
+            "B": "Sole",
+            "C": "Heel",
+            "D": "Thumb"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Fist' is the antonym, representing a closed hand with fingers curled inward. B, C, and D: 'Sole,' 'Heel,' and 'Thumb' are different parts of the body."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chin",
+        "type": "Noun",
+        "phonetic": "tʃɪn",
+        "example": "The chin is the lower part of the face below the lower lip.",
+        "explain": "Cằm",
+        "translatedExample": "Cằm là phần dưới của khuôn mặt dưới môi dưới."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Chin'?",
+          "options": {
+            "A": "Cheek",
+            "B": "Jaw",
+            "C": "Mouth",
+            "D": "Cleft"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Cheek' is a different facial feature. B and C: 'Jaw' and 'Mouth' are related but not synonyms. D: 'Cleft' refers to a fissure or indentation, not the same as 'Chin.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Navel",
+        "type": "Noun",
+        "phonetic": "ˈneɪ.vəl",
+        "example": "The navel, or belly button, is a scar from the umbilical cord's attachment.",
+        "explain": "Rốn",
+        "translatedExample": "Rốn, hoặc nút rốn, là một vết sẹo từ việc gắn kết dây rốn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The navel is a small, central scar on the abdomen resulting from the umbilical cord.",
+          "sentenceWithBlank": "The _____ is a small, central scar on the abdomen resulting from the umbilical cord.",
+          "wordBlank": "Navel",
+          "translation": "Rốn là một vết sẹo nhỏ ở giữa bụng do dây rốn gây ra."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cheek",
+        "type": "Noun",
+        "phonetic": "tʃiːk",
+        "example": "Smiling often involves the muscles in the cheeks.",
+        "explain": "Má",
+        "translatedExample": "Nụ cười thường liên quan đến cơ trên má."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The _____ is the fleshy part of the face on either side of the nose.",
+          "options": {
+            "A": "Lip",
+            "B": "Chin",
+            "C": "Cheek",
+            "D": "Forehead"
+          },
+          "correctAnswer": "C",
+          "explanation": "A, B, and D: 'Lip,' 'Chin,' and 'Forehead' are different facial features. C: 'Cheek' is the fleshy part of the face on either side of the nose."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tear",
+        "type": "Noun",
+        "phonetic": "tɪr",
+        "example": "Crying is a natural way for the eyes to produce tears.",
+        "explain": "Nước mắt",
+        "translatedExample": "Khóc là một cách tự nhiên để mắt tạo ra nước mắt."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Emotional moments can lead to the production of tear in response to feelings.",
+          "sentenceWithBlank": "Emotional moments can lead to the production of _____ in response to feelings.",
+          "wordBlank": "Tear",
+          "translation": "Những khoảnh khắc xúc động có thể dẫn đến sự sản xuất nước mắt phản ứng với cảm xúc."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chest",
+        "type": "Noun",
+        "phonetic": "tʃɛst",
+        "example": "The chest contains the heart and lungs, crucial for respiratory and circulatory functions.",
+        "explain": "Ngực",
+        "translatedExample": "Ngực chứa đựng tim và phổi, quan trọng cho chức năng hô hấp và tuần hoàn máu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Chest'?",
+          "options": {
+            "A": "Back",
+            "B": "Stomach",
+            "C": "Shoulder",
+            "D": "Abdomen"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Back' is the antonym, representing the rear side of the torso. B, C, and D: 'Stomach,' 'Shoulder,' and 'Abdomen' are different areas of the body."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Neck",
+        "type": "Noun",
+        "phonetic": "nɛk",
+        "example": "The neck connects the head to the body and supports the passage of air and food.",
+        "explain": "Cổ",
+        "translatedExample": "Cổ kết nối đầu với cơ thể và hỗ trợ sự thông qua không khí và thức ăn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The neck provides flexibility and allows movement of the head in various directions.",
+          "sentenceWithBlank": "The _____ provides flexibility and allows movement of the head in various directions.",
+          "wordBlank": "Neck",
+          "translation": "Cổ cung cấp tính linh hoạt và cho phép đầu di chuyển theo nhiều hướng khác nhau."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Nose",
+        "type": "Noun",
+        "phonetic": "noʊz",
+        "example": "The nose is responsible for the sense of smell and plays a role in breathing.",
+        "explain": "Mũi",
+        "translatedExample": "Mũi đảm nhận trách nhiệm về giác quan mùi và đóng vai trò trong quá trình thở."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Nose'?",
+          "options": {
+            "A": "Nostril",
+            "B": "Snout",
+            "C": "Smeller",
+            "D": "Olfactory"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Nostril' is the synonym, specifically referring to the external openings of the nose. B, C, and D: 'Snout,' 'Smeller,' and 'Olfactory' are related but not exact synonyms."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jaw",
+        "type": "Noun",
+        "phonetic": "dʒɔː",
+        "example": "Chewing is the primary function of the jaw in the digestive process.",
+        "explain": "Hàm",
+        "translatedExample": "Nhai là chức năng chính của hàm trong quá trình tiêu hóa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Jaw'?",
+          "options": {
+            "A": "Lip",
+            "B": "Forehead",
+            "C": "Neck",
+            "D": "Chin"
+          },
+          "correctAnswer": "D",
+          "explanation": "A, B, and C: 'Lip,' 'Forehead,' and 'Neck' are different parts of the body. D: 'Chin' is the antonym, representing the front part of the lower jaw."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Throat",
+        "type": "Noun",
+        "phonetic": "θroʊt",
+        "example": "The throat serves as a passage for both air and food, connecting the mouth to the esophagus.",
+        "explain": "Cổ họng",
+        "translatedExample": "Cổ họng phục vụ như một lối đi cho cả không khí và thức ăn, kết nối miệng với thực quản."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The throat is essential for swallowing and vocalization.",
+          "sentenceWithBlank": "The _____ is essential for swallowing and vocalization.",
+          "wordBlank": "Throat",
+          "translation": "Cổ họng là quan trọng cho việc nuốt và phát âm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Elbow",
+        "type": "Noun",
+        "phonetic": "ˈɛl.boʊ",
+        "example": "The joint at the middle of the arm, where the forearm and upper arm meet, is called the elbow.",
+        "explain": "Khuỷu tay",
+        "translatedExample": "Khuỷu tay là khớp ở giữa cánh tay, nơi cổ tay gặp phần trên của cánh tay."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Elbow'?",
+          "options": {
+            "A": "Wrist",
+            "B": "Shoulder",
+            "C": "Knee",
+            "D": "Joint"
+          },
+          "correctAnswer": "D",
+          "explanation": "A and B: 'Wrist' and 'Shoulder' are different joints. C: 'Knee' is a joint, but not a synonym for 'Elbow.' D: 'Joint' is the synonym, referring to the point where bones meet and allow movement."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hips",
+        "type": "Noun",
+        "phonetic": "hɪps",
+        "example": "The hips provide support for the upper body and play a crucial role in walking and posture.",
+        "explain": "Hông",
+        "translatedExample": "Hông cung cấp hỗ trợ cho phần trên của cơ thể và đóng vai trò quan trọng trong việc đi bộ và tư thế."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The hips are located on either side of the body, connecting the torso to the legs.",
+          "sentenceWithBlank": "The _____ are located on either side of the body, connecting the torso to the legs.",
+          "wordBlank": "Hips",
+          "translation": "Hông nằm ở hai bên của cơ thể, nối cơ thể trên với chân."
+        }
+      }
+    }
+  ]
+}

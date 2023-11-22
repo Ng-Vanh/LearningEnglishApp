@@ -1,0 +1,51 @@
+/* Remove the default icon in the header area */
+.dialog-pane .header-panel .label {
+    -fx-graphic: null;
+}
+
+.dialog-pane {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #45a049); /* Green gradient */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0); /* Shadow effect */
+}
+
+/* Your existing styles */
+.dialog-pane .header-panel {
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-font-size: 18px;
+}
+
+/* Hide the default icon in the content area */
+.dialog-pane .content .label {
+    -fx-graphic: null;
+}
+
+.dialog-pane .content {
+    -fx-text-fill: white; /* Set the text color to white */
+}
+
+.dialog-pane.correct-alert {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #45a049); /* Green gradient for correct answers */
+}
+
+.dialog-pane.incorrect-alert {
+    -fx-background-color: linear-gradient(to bottom, #e57373, #ef5350); /* Red gradient for incorrect answers */
+}
+
+/* Style for the OK button */
+.dialog-pane .ok-button {
+    -fx-background-color: #4CAF50; /* Green color for the OK button */
+    -fx-background-radius: 5; /* Rounded corners for the OK button */
+    -fx-border-color: #fff; /* White border color */
+    -fx-border-width: 2; /* Border width */
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-cursor: hand;
+}
+
+/* Hover effect for the OK button */
+.dialog-pane .ok-button:hover {
+    -fx-background-color: #45a049; /* Darker green color on hover */
+    -fx-border-color: #45a049; /* Darker green border on hover */
+    -fx-cursor: hand;
+}

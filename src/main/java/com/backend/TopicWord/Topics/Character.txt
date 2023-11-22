@@ -1,0 +1,2305 @@
+{
+  "topic": "Character",
+  "words": [
+    {
+      "definition": {
+        "word": "Integrity",
+        "type": "Noun",
+        "phonetic": "ɪnˈtɛɡrəti",
+        "example": "Honesty and strong moral principles are essential for maintaining integrity.",
+        "explain": "Chính trực",
+        "translatedExample": "Sự trung thực và nguyên tắc đạo đức mạnh mẽ là quan trọng để duy trì chính trực."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Integrity'?",
+          "options": {
+            "A": "Dishonesty",
+            "B": "Sincerity",
+            "C": "Deception",
+            "D": "Corruption"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Dishonesty' is the opposite of integrity. B: 'Sincerity' is a synonym as it reflects honesty and truthfulness. C: 'Deception' and D: 'Corruption' are opposite to the concept of integrity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empathy",
+        "type": "Noun",
+        "phonetic": "ˈɛmpəθi",
+        "example": "A good leader shows empathy by understanding and sharing the feelings of others.",
+        "explain": "Sự đồng cảm",
+        "translatedExample": "Một người lãnh đạo tốt thể hiện sự đồng cảm bằng cách hiểu và chia sẻ cảm xúc của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Empathy'?",
+          "options": {
+            "A": "Compassion",
+            "B": "Sympathy",
+            "C": "Apathy",
+            "D": "Understanding"
+          },
+          "correctAnswer": "C",
+          "explanation": "A and B: 'Compassion' and 'Sympathy' are related concepts and not antonyms. C: 'Apathy' is the antonym as it represents a lack of empathy or emotion. D: 'Understanding' is not the opposite of empathy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Resilience",
+        "type": "Noun",
+        "phonetic": "rɪˈzɪliəns",
+        "example": "Resilience is the ability to bounce back and adapt in the face of challenges.",
+        "explain": "Sự kiên cường",
+        "translatedExample": "Sự kiên cường là khả năng hồi phục và thích nghi trước những thách thức."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The resilience of a person is often tested during difficult times.",
+          "sentenceWithBlank": "The ________ of a person is often tested during difficult times.",
+          "wordBlank": "resilience",
+          "translation": "Sự kiên cường của một người thường được kiểm tra trong những thời điểm khó khăn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkɜrɪdʒ",
+        "example": "Facing fear and taking action requires courage.",
+        "explain": "Can đảm",
+        "translatedExample": "Đối mặt với nỗi sợ hãi và hành động đòi hỏi lòng can đảm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is necessary to face fear and take action?",
+          "options": {
+            "A": "Empathy",
+            "B": "Courage",
+            "C": "Integrity",
+            "D": "Resilience"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Empathy' is understanding and sharing feelings, not facing fear. B: 'Courage' is the correct answer as it involves facing fear and taking action. C: 'Integrity' and D: 'Resilience' are valuable traits but not directly related to facing fear."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Altruism",
+        "type": "Noun",
+        "phonetic": "ˈæltruɪzəm",
+        "example": "Altruism is the selfless concern for the well-being of others.",
+        "explain": "Lòng vị tha",
+        "translatedExample": "Lòng vị tha là lo lắng vô điều kiện cho sự an bình của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Altruism'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Generosity",
+            "C": "Egoism",
+            "D": "Apathy"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Selfishness' is the opposite of altruism. B: 'Generosity' is a synonym as it reflects a selfless concern for others. C: 'Egoism' is self-centered, not altruistic. D: 'Apathy' is a lack of interest or concern."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Diligence",
+        "type": "Noun",
+        "phonetic": "ˈdɪlɪdʒəns",
+        "example": "Success often comes to those who work with diligence and perseverance.",
+        "explain": "Sự chăm chỉ",
+        "translatedExample": "Thành công thường đến với những người làm việc với sự chăm chỉ và kiên trì."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Diligence is the key to achieving goals through hard work and persistence.",
+          "sentenceWithBlank": "________ is the key to achieving goals through hard work and persistence.",
+          "wordBlank": "Diligence",
+          "translation": "Sự chăm chỉ là chìa khóa để đạt được mục tiêu thông qua công việc chăm chỉ và kiên trì."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empower",
+        "type": "Verb",
+        "phonetic": "ɛmˈpaʊər",
+        "example": "Education can empower individuals by providing knowledge and skills.",
+        "explain": "Tăng cường quyền lực",
+        "translatedExample": "Giáo dục có thể tăng cường quyền lực cho cá nhân bằng cách cung cấp kiến thức và kỹ năng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Empower'?",
+          "options": {
+            "A": "Enable",
+            "B": "Weaken",
+            "C": "Strengthen",
+            "D": "Authorize"
+          },
+          "correctAnswer": "B",
+          "explanation": "A and D: 'Enable' and 'Authorize' are related concepts but not antonyms. B: 'Weaken' is the correct antonym as it represents the opposite of empowering. C: 'Strengthen' is a synonym for empowering."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Compassion",
+        "type": "Noun",
+        "phonetic": "kəmˈpæʃən",
+        "example": "Compassion involves feeling and expressing concern for the suffering of others.",
+        "explain": " lòng trắc ẩn",
+        "translatedExample": " lòng trắc ẩn liên quan đến việc cảm nhận và thể hiện sự quan tâm đối với đau khổ của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does compassion involve?",
+          "options": {
+            "A": "Empathy",
+            "B": "Indifference",
+            "C": "Competition",
+            "D": "Joy"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Empathy' is the correct answer as compassion involves feeling and expressing concern for the suffering of others. B: 'Indifference' is the opposite of compassion. C: 'Competition' and D: 'Joy' are not directly related to the concept of compassion."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Adaptability",
+        "type": "Noun",
+        "phonetic": "əˌdæptəˈbɪləti",
+        "example": "In a rapidly changing world, adaptability is a valuable trait.",
+        "explain": "Khả năng thích nghi",
+        "translatedExample": "Trong một thế giới thay đổi nhanh, khả năng thích nghi là một đặc điểm quý giá."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Adaptability is crucial in navigating through diverse and unpredictable situations.",
+          "sentenceWithBlank": "________ is crucial in navigating through diverse and unpredictable situations.",
+          "wordBlank": "Adaptability",
+          "translation": "Khả năng thích nghi là quan trọng trong việc điều hướng qua các tình huống đa dạng và không dự đoán được."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Authenticity",
+        "type": "Noun",
+        "phonetic": "ˌɔːθɛnˈtɪsəti",
+        "example": "Authenticity involves being true to oneself and not pretending to be someone else.",
+        "explain": "Tính chân thực",
+        "translatedExample": "Tính chân thực liên quan đến việc trung thực với bản thân và không giả vờ làm người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Authenticity'?",
+          "options": {
+            "A": "Deception",
+            "B": "Honesty",
+            "C": "Forgery",
+            "D": "Pretense"
+          },
+          "correctAnswer": "B",
+          "explanation": "A and D: 'Deception' and 'Pretense' are opposite to authenticity. B: 'Honesty' is the correct synonym. C: 'Forgery' is the act of producing fake or fraudulent copies, not synonymous with authenticity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empower",
+        "type": "Verb",
+        "phonetic": "ɛmˈpaʊ.ər",
+        "example": "Education has the power to empower individuals and communities.",
+        "explain": "Tăng cường quyền lực, ủng hộ",
+        "translatedExample": "Giáo dục có sức mạnh để tăng cường quyền lực cho cá nhân và cộng đồng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Empower'?",
+          "options": {
+            "A": "Enable",
+            "B": "Weaken",
+            "C": "Strengthen",
+            "D": "Uplift"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Enable,' 'Strengthen,' and 'Uplift' are synonymous or related to empowering. B: 'Weaken' is the antonym, indicating a reduction in power or influence."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Authenticity",
+        "type": "Noun",
+        "phonetic": "ˌɑː.θɛnˈtɪs.ə.ti",
+        "example": "Living with authenticity means staying true to one's values and beliefs.",
+        "explain": "Tính chân thật",
+        "translatedExample": "Sống với tính chân thật có nghĩa là giữ vững giá trị và niềm tin của bản thân."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Living with ________ means staying true to one's values and beliefs.",
+          "sentenceWithBlank": "Living with authenticity means staying true to one's values and ________.",
+          "wordBlank": "beliefs",
+          "translation": "Sống với tính chân thật có nghĩa là giữ vững giá trị và niềm tin của bản thân."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Altruism",
+        "type": "Noun",
+        "phonetic": "ˈæl.tru.ɪ.zəm",
+        "example": "Acts of altruism involve selfless concern for the well-being of others.",
+        "explain": "Tính vị tha, lòng vị tha",
+        "translatedExample": "Những hành động vị tha liên quan đến sự quan tâm không vụ lợi đối với sự phúc lợi của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Altruism'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Generosity",
+            "C": "Egoism",
+            "D": "Selflessness"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Selfishness' and 'Egoism' are antonyms, indicating selfish motives. B: 'Generosity' is a synonym for altruism, representing a selfless and giving attitude. C: 'Selflessness' is synonymous with altruism. D: 'Selflessness' is synonymous with altruism."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkɝː.ɪdʒ",
+        "example": "Having courage means facing fears and challenges with determination.",
+        "explain": "Can đảm",
+        "translatedExample": "Có can đảm có nghĩa là đối mặt với nỗi sợ và thách thức với sự quyết tâm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Courage'?",
+          "options": {
+            "A": "Fearlessness",
+            "B": "Cowardice",
+            "C": "Bravery",
+            "D": "Boldness"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Fearlessness' is a synonym for courage. B: 'Cowardice' is the antonym, indicating a lack of courage. C: 'Bravery' is synonymous with courage. D: 'Boldness' is related to courage but not an antonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Adaptability",
+        "type": "Noun",
+        "phonetic": "əˌdæp.təˈbɪl.ə.ti",
+        "example": "Successful individuals often possess a high level of adaptability to changing circumstances.",
+        "explain": "Tính linh hoạt, khả năng thích ứng",
+        "translatedExample": "Những người thành công thường có mức độ linh hoạt cao trong việc thích ứng với các tình huống thay đổi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Successful individuals often possess a high level of ________ to changing circumstances.",
+          "sentenceWithBlank": "Successful individuals often possess a high level of adaptability to changing ________.",
+          "wordBlank": "adaptability",
+          "translation": "Những người thành công thường có mức độ linh hoạt cao trong việc thích ứng với các tình huống thay đổi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Compassion",
+        "type": "Noun",
+        "phonetic": "kəmˈpæʃ.ən",
+        "example": "Compassion involves feeling empathy and actively helping those in need.",
+        "explain": "Tình thương, lòng trắc ẩn",
+        "translatedExample": "Tình thương liên quan đến việc cảm nhận sự thông cảm và hỗ trợ tích cực những người đang cần giúp đỡ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Compassion'?",
+          "options": {
+            "A": "Apathy",
+            "B": "Indifference",
+            "C": "Mercy",
+            "D": "Cruelty"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Apathy' and 'Indifference' are antonyms, indicating a lack of compassion. B: 'Mercy' is synonymous with compassion, reflecting a kind and forgiving attitude. C: 'Cruelty' is the opposite of compassion."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empathy",
+        "type": "Noun",
+        "phonetic": "ˈɛm.pə.θi",
+        "example": "Empathy allows us to understand and share the feelings of others.",
+        "explain": "Sự thông cảm",
+        "translatedExample": "Sự thông cảm cho phép chúng ta hiểu và chia sẻ cảm xúc của người khác."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ allows us to understand and share the feelings of others.",
+          "sentenceWithBlank": "Empathy allows us to understand and share the ________ of others.",
+          "wordBlank": "feelings",
+          "translation": "Sự thông cảm cho phép chúng ta hiểu và chia sẻ cảm xúc của người khác."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Integrity",
+        "type": "Noun",
+        "phonetic": "ɪnˈtɛɡ.rə.t̬i",
+        "example": "Integrity involves honesty, strong moral principles, and consistency in actions.",
+        "explain": "Tính chính trực",
+        "translatedExample": "Tính chính trực liên quan đến sự trung thực, nguyên tắc đạo đức mạnh mẽ và sự nhất quán trong hành động."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Having honesty, strong moral principles, and consistency in actions is an example of ________.",
+          "options": {
+            "A": "Deceit",
+            "B": "Integrity",
+            "C": "Dishonesty",
+            "D": "Unreliability"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Deceit' and 'Dishonesty' are the opposite, indicating a lack of integrity. B: 'Integrity' involves honesty, strong moral principles, and consistency. C: 'Dishonesty' is the opposite of integrity. D: 'Unreliability' is not an antonym but implies inconsistency."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Resilience",
+        "type": "Noun",
+        "phonetic": "rɪˈzɪl.jəns",
+        "example": "Resilience is the ability to bounce back from challenges and adversity.",
+        "explain": "Khả năng phục hồi, sự kiên cường",
+        "translatedExample": "Khả năng phục hồi là khả năng đối mặt và hồi phục sau những thách thức và khó khăn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the ability to bounce back from challenges and adversity.",
+          "sentenceWithBlank": "Resilience is the ability to bounce back from challenges and ________.",
+          "wordBlank": "adversity",
+          "translation": "Khả năng phục hồi là khả năng đối mặt và hồi phục sau những thách thức và khó khăn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Diligence",
+        "type": "Noun",
+        "phonetic": "ˈdɪl.ɪ.dʒəns",
+        "example": "Diligence involves persistent effort and careful attention to tasks.",
+        "explain": "Sự chăm chỉ, siêng năng",
+        "translatedExample": "Sự chăm chỉ liên quan đến sự nỗ lực kiên trì và chú ý cẩn thận đối với các nhiệm vụ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does diligence involve?",
+          "options": {
+            "A": "Lazy behavior",
+            "B": "Persistent effort",
+            "C": "Random tasks",
+            "D": "Careless attention"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Lazy behavior' is the opposite of diligence. B: 'Persistent effort' is a key aspect of diligence. C: 'Random tasks' and 'Careless attention' are not characteristic of diligence."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empathy",
+        "type": "Noun",
+        "phonetic": "ˈɛm.pə.θi",
+        "example": "Empathy allows us to understand and share the feelings of others.",
+        "explain": "Sự thông cảm",
+        "translatedExample": "Sự thông cảm cho phép chúng ta hiểu và chia sẻ cảm xúc của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Empathy'?",
+          "options": {
+            "A": "Apathy",
+            "B": "Compassion",
+            "C": "Sympathy",
+            "D": "Understanding"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Apathy' is the antonym, indicating a lack of empathy. B: 'Compassion,' 'Sympathy,' and 'Understanding' are related to empathy and not antonyms."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Adaptability",
+        "type": "Noun",
+        "phonetic": "əˌdæp.təˈbɪl.ə.ti",
+        "example": "Adaptability is crucial in navigating the ever-changing demands of the modern world.",
+        "explain": "Tính linh hoạt, khả năng thích ứng",
+        "translatedExample": "Tính linh hoạt là quan trọng trong việc điều hướng các yêu cầu ngày càng biến đổi của thế giới hiện đại."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Adaptability'?",
+          "options": {
+            "A": "Stability",
+            "B": "Resistance",
+            "C": "Flexibility",
+            "D": "Rigidity"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Stability' and 'Rigidity' are opposites of adaptability. B: 'Resistance' is not a synonym but an antonym. C: 'Flexibility' is a synonym for adaptability. D: 'Rigidity' is the opposite of adaptability."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gratitude",
+        "type": "Noun",
+        "phonetic": "ˈɡræt̬.ə.tuːd",
+        "example": "Expressing gratitude contributes to a positive and appreciative mindset.",
+        "explain": "Sự biết ơn",
+        "translatedExample": "Việc bày tỏ lòng biết ơn đóng góp vào tư duy tích cực và trân trọng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Expressing gratitude contributes to a positive and appreciative mindset.",
+          "sentenceWithBlank": "Expressing ______ contributes to a positive and appreciative mindset.",
+          "wordBlank": "gratitude",
+          "translation": "Việc bày tỏ lòng biết ơn đóng góp vào tư duy tích cực và trân trọng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Humility",
+        "type": "Noun",
+        "phonetic": "hjuˈmɪl.ə.t̬i",
+        "example": "Humility involves recognizing one's limitations and being modest in achievements.",
+        "explain": "Tính khiêm tốn",
+        "translatedExample": "Tính khiêm tốn liên quan đến việc nhận ra những hạn chế của bản thân và giữ thái độ khiêm tốn trong các thành tựu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Humility involves recognizing one's limitations and being modest in achievements.",
+          "sentenceWithBlank": "_____ involves recognizing one's limitations and being modest in achievements.",
+          "wordBlank": "Humility",
+          "translation": "Tính khiêm tốn liên quan đến việc nhận ra những hạn chế của bản thân và giữ thái độ khiêm tốn trong các thành tựu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Perseverance",
+        "type": "Noun",
+        "phonetic": "ˌpɝː.səˈvɪər.əns",
+        "example": "Perseverance is the continued effort to achieve goals despite challenges.",
+        "explain": "Sự kiên trì",
+        "translatedExample": "Sự kiên trì là nỗ lực liên tục để đạt được mục tiêu bất kể những thách thức nào."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is perseverance?",
+          "options": {
+            "A": "Easy success",
+            "B": "Continued effort",
+            "C": "Quick achievement",
+            "D": "Immediate results"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Easy success' and 'Quick achievement' are the opposite of perseverance. B: 'Continued effort' is a key characteristic of perseverance. C: 'Quick achievement' is not indicative of perseverance. D: 'Immediate results' are not necessarily associated with perseverance."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sincerity",
+        "type": "Noun",
+        "phonetic": "sɪnˈsɛr.ə.t̬i",
+        "example": "Sincerity involves honesty of intention and genuine behavior.",
+        "explain": "Sự chân thành",
+        "translatedExample": "Sự chân thành liên quan đến sự trung thực trong ý định và hành vi chân thật."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Sincerity'?",
+          "options": {
+            "A": "Deceit",
+            "B": "Dishonesty",
+            "C": "Authenticity",
+            "D": "Insincerity"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Deceit' and 'Dishonesty' are opposites of sincerity. B: 'Insincerity' is the opposite of sincerity. C: 'Authenticity' is a synonym for sincerity. D: 'Insincerity' is the opposite of sincerity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tolerance",
+        "type": "Noun",
+        "phonetic": "ˈtɑː.lər.əns",
+        "example": "Tolerance involves accepting and respecting differences in opinions and beliefs.",
+        "explain": "Sự khoan dung",
+        "translatedExample": "Sự khoan dung liên quan đến việc chấp nhận và tôn trọng sự khác biệt về quan điểm và niềm tin."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Tolerance involves accepting and respecting differences in opinions and beliefs.",
+          "sentenceWithBlank": "_______ involves accepting and respecting differences in opinions and beliefs.",
+          "wordBlank": "Tolerance",
+          "translation": "Sự khoan dung liên quan đến việc chấp nhận và tôn trọng sự khác biệt về quan điểm và niềm tin."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Wisdom",
+        "type": "Noun",
+        "phonetic": "ˈwɪz.dəm",
+        "example": "Wisdom is the ability to make sound decisions based on knowledge and experience.",
+        "explain": "Sự khôn ngoan",
+        "translatedExample": "Sự khôn ngoan là khả năng đưa ra những quyết định sáng tạo dựa trên kiến thức và kinh nghiệm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Wisdom is the ability to make sound decisions based on knowledge and experience.",
+          "sentenceWithBlank": "_____ is the ability to make sound decisions based on knowledge and experience.",
+          "wordBlank": "Wisdom",
+          "translation": "Sự khôn ngoan là khả năng đưa ra những quyết định sáng tạo dựa trên kiến thức và kinh nghiệm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Patience",
+        "type": "Noun",
+        "phonetic": "ˈpeɪ.ʃəns",
+        "example": "Patience is the ability to endure waiting or difficult situations without becoming annoyed or anxious.",
+        "explain": "Sự kiên nhẫn",
+        "translatedExample": "Sự kiên nhẫn là khả năng chịu đựng sự chờ đợi hoặc tình huống khó khăn mà không trở nên bực bội hay lo lắng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Patience'?",
+          "options": {
+            "A": "Tolerance",
+            "B": "Impatience",
+            "C": "Endurance",
+            "D": "Perseverance"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Tolerance' is related to patience. B: 'Impatience' is the antonym, indicating a lack of patience. C: 'Endurance' and 'Perseverance' are related to patience but not antonyms."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Honesty",
+        "type": "Noun",
+        "phonetic": "ˈɑː.nəs.ti",
+        "example": "Honesty involves truthfulness and sincerity in actions, speech, and character.",
+        "explain": "Tính trung thực",
+        "translatedExample": "Tính trung thực liên quan đến sự chân thành và trung thực trong hành động, lời nói và tính cách."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Honesty involves truthfulness and sincerity in actions, speech, and character.",
+          "sentenceWithBlank": "______ involves truthfulness and sincerity in actions, speech, and character.",
+          "wordBlank": "Honesty",
+          "translation": "Tính trung thực liên quan đến sự chân thành và trung thực trong hành động, lời nói và tính cách."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Optimism",
+        "type": "Noun",
+        "phonetic": "ˈɑː.pəˌmɪz.əm",
+        "example": "Optimism is the belief that good things will happen, and a positive outlook on life.",
+        "explain": "Tính lạc quan",
+        "translatedExample": "Tính lạc quan là niềm tin rằng điều tốt lành sẽ xảy ra và một cái nhìn tích cực về cuộc sống."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Optimism'?",
+          "options": {
+            "A": "Pessimism",
+            "B": "Hopefulness",
+            "C": "Despair",
+            "D": "Negativity"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Pessimism' and 'Despair' are antonyms of optimism. B: 'Hopefulness' is a synonym for optimism. C: 'Despair' and 'Negativity' are opposites of optimism."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkɝː.ɪdʒ",
+        "example": "Courage is the ability to confront fear, pain, danger, uncertainty, or intimidation.",
+        "explain": "Tính dũng cảm",
+        "translatedExample": "Tính dũng cảm là khả năng đối mặt với nỗi sợ hãi, đau đớn, nguy hiểm, sự không chắc chắn hoặc sự đe dọa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Courage'?",
+          "options": {
+            "A": "Bravery",
+            "B": "Fearlessness",
+            "C": "Cowardice",
+            "D": "Valor"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Bravery' and 'Fearlessness' are synonymous with courage. B: 'Cowardice' is the antonym, indicating a lack of courage. C: 'Valor' is synonymous with courage."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Generosity",
+        "type": "Noun",
+        "phonetic": "ˌdʒen.əˈrɑː.sə.t̬i",
+        "example": "Generosity involves a willingness to give and share, often with an abundance of kindness.",
+        "explain": "Tính hào phóng",
+        "translatedExample": "Tính hào phóng liên quan đến sự sẵn sàng cho và chia sẻ, thường đi kèm với sự tốt bụng dồi dào."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Generosity involves a willingness to give and share, often with an abundance of kindness.",
+          "sentenceWithBlank": "_______ involves a willingness to give and share, often with abundance of kindness.",
+          "wordBlank": "Generosity",
+          "translation": "Tính hào phóng liên quan đến sự sẵn sàng cho và chia sẻ, thường đi kèm với sự tốt bụng dồi dào."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gratitude",
+        "type": "Noun",
+        "phonetic": "ˈɡræt̬.ə.tuːd",
+        "example": "Expressing gratitude contributes to a positive and appreciative mindset.",
+        "explain": "Sự biết ơn",
+        "translatedExample": "Việc bày tỏ lòng biết ơn đóng góp vào tư duy tích cực và trân trọng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Gratitude'?",
+          "options": {
+            "A": "Thankfulness",
+            "B": "Regret",
+            "C": "Ingratitude",
+            "D": "Resentment"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Thankfulness' is a synonym for gratitude. B: 'Regret' and 'Resentment' are opposites of gratitude. C: 'Ingratitude' is the opposite of gratitude."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Kindness",
+        "type": "Noun",
+        "phonetic": "ˈkaɪnd.nəs",
+        "example": "Kindness involves being friendly, generous, and considerate towards others.",
+        "explain": "Tính tốt lành",
+        "translatedExample": "Tính tốt lành liên quan đến việc thân thiện, hào phóng và chu đáo với người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Kindness'?",
+          "options": {
+            "A": "Cruelty",
+            "B": "Harshness",
+            "C": "Generosity",
+            "D": "Malice"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Cruelty' and 'Malice' are opposites of kindness. B: 'Harshness' is not synonymous with kindness. C: 'Generosity' is a synonym for kindness. D: 'Malice' is the opposite of kindness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Resilience",
+        "type": "Noun",
+        "phonetic": "rɪˈzɪl.jəns",
+        "example": "Resilience is the ability to bounce back from adversity and maintain a positive outlook.",
+        "explain": "Sự đàn hồi",
+        "translatedExample": "Sự đàn hồi là khả năng hồi phục từ khó khăn và duy trì một cái nhìn tích cực."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Resilience is the ability to bounce back from adversity and maintain a positive ________.",
+          "sentenceWithBlank": "Resilience is the ability to bounce back from adversity and maintain a positive ________.",
+          "wordBlank": "outlook",
+          "translation": "Sự đàn hồi là khả năng hồi phục từ khó khăn và duy trì một cái nhìn tích cực."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Selflessness",
+        "type": "Noun",
+        "phonetic": "ˈsɛlf.lɛs.nəs",
+        "example": "Selflessness involves putting the needs of others before one's own and prioritizing the welfare of others.",
+        "explain": "Sự vô thượng",
+        "translatedExample": "Sự vô thượng liên quan đến việc đặt nhu cầu của người khác lên trước nhu cầu của bản thân và ưu tiên phúc lợi của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Selflessness'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Altruism",
+            "C": "Generosity",
+            "D": "Compassion"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Selfishness' is the antonym of selflessness, indicating a focus on one's own needs rather than those of others. B: 'Altruism,' 'Generosity,' and 'Compassion' are synonymous with selflessness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Humility",
+        "type": "Noun",
+        "phonetic": "hjuːˈmɪl.ə.t̬i",
+        "example": "Humility is the quality of being humble, modest, and not overly self-confident.",
+        "explain": "Tính khiêm tốn",
+        "translatedExample": "Tính khiêm tốn là phẩm chất của việc khiêm tốn, giản dị và không quá tự tin."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Humility'?",
+          "options": {
+            "A": "Arrogance",
+            "B": "Confidence",
+            "C": "Pride",
+            "D": "Ego"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Arrogance' is the antonym of humility, representing an excessive or self-centered pride. B: 'Confidence' is not the antonym in this context. C: 'Pride' and 'Ego' are related to arrogance."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Diligence",
+        "type": "Noun",
+        "phonetic": "ˈdɪl.ɪ.dʒəns",
+        "example": "Diligence is the careful and persistent effort to achieve a goal.",
+        "explain": "Sự chăm chỉ",
+        "translatedExample": "Sự chăm chỉ là sự nỗ lực cẩn thận và kiên trì để đạt được một mục tiêu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the careful and persistent effort to achieve a goal.",
+          "sentenceWithBlank": "Diligence is the careful and persistent ________ to achieve a goal.",
+          "wordBlank": "effort",
+          "translation": "Sự chăm chỉ là sự nỗ lực cẩn thận và kiên trì để đạt được một mục tiêu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empower",
+        "type": "Verb",
+        "phonetic": "ɪmˈpaʊ.ər",
+        "example": "To empower is to give someone the authority or power to do something.",
+        "explain": "Hỗ trợ quyền lực",
+        "translatedExample": "Hỗ trợ quyền lực là việc ban cho ai đó quyền lực hoặc quyền hạn để làm điều gì đó."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Empower'?",
+          "options": {
+            "A": "Weaken",
+            "B": "Enable",
+            "C": "Constrain",
+            "D": "Inhibit"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Weaken,' 'Constrain,' and 'Inhibit' are antonyms of 'Empower.' B: 'Enable' is a synonym, indicating the act of granting authority or power. C: 'Inhibit' and 'Constrain' have opposite meanings."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Authenticity",
+        "type": "Noun",
+        "phonetic": "ˌɑː.θenˈtɪs.ɪ.t̬i",
+        "example": "Authenticity is the quality of being true to oneself and genuine in interactions.",
+        "explain": "Chân thành, đáng tin cậy",
+        "translatedExample": "Chân thành là phẩm chất của việc trung thực với bản thân và chân thực trong giao tiếp."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the quality of being true to oneself and genuine in interactions.",
+          "sentenceWithBlank": "Authenticity is the quality of being true to ________ and genuine in interactions.",
+          "wordBlank": "oneself",
+          "translation": "Chân thành là phẩm chất của việc trung thực với bản thân và chân thực trong giao tiếp."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Altruism",
+        "type": "Noun",
+        "phonetic": "ˈæltru.ɪ.zəm",
+        "example": "Altruism is the selfless concern for the well-being of others.",
+        "explain": "Nhân ái",
+        "translatedExample": "Nhân ái là sự quan tâm vô điều kiện đến sự phúc lợi của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Altruism'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Generosity",
+            "C": "Kindness",
+            "D": "Compassion"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Selfishness' is the antonym of 'Altruism,' representing a focus on one's own interests rather than the well-being of others. B: 'Generosity,' 'Kindness,' and 'Compassion' are synonymous with 'Altruism.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkɝː.ɪdʒ",
+        "example": "Courage is the ability to confront fear, pain, danger, uncertainty, or intimidation.",
+        "explain": "Tính dũng cảm",
+        "translatedExample": "Tính dũng cảm là khả năng đối mặt với nỗi sợ hãi, đau đớn, nguy hiểm, sự không chắc chắn hoặc sự đe dọa."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Courage'?",
+          "options": {
+            "A": "Bravery",
+            "B": "Fearlessness",
+            "C": "Cowardice",
+            "D": "Valor"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Bravery' and 'Fearlessness' are synonymous with courage. B: 'Cowardice' is the antonym, indicating a lack of courage. C: 'Valor' is synonymous with courage."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Adaptability",
+        "type": "Noun",
+        "phonetic": "əˌdæp.təˈbɪl.ə.t̬i",
+        "example": "Adaptability is the ability to adjust and thrive in changing environments or circumstances.",
+        "explain": "Khả năng thích ứng",
+        "translatedExample": "Khả năng thích ứng là khả năng điều chỉnh và phát triển trong môi trường hoặc hoàn cảnh thay đổi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Adaptability'?",
+          "options": {
+            "A": "Stagnation",
+            "B": "Rigidity",
+            "C": "Flexibility",
+            "D": "Resistance"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Stagnation' and 'Rigidity' are opposites of adaptability. B: 'Flexibility' is a synonym, indicating the ability to adjust and change. C: 'Resistance' is the opposite of adaptability."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Compassion",
+        "type": "Noun",
+        "phonetic": "kəmˈpæʃ.ən",
+        "example": "Compassion is the deep awareness of and sympathy for another's suffering, coupled with a desire to alleviate that suffering.",
+        "explain": " lòng trắc ẩn",
+        "translatedExample": "Lòng trắc ẩn là sự nhận thức sâu sắc về và lòng tr sympathy cho sự đau khổ của người khác, kèm theo mong muốn giảm bớt sự đau khổ đó."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the deep awareness of and sympathy for another's suffering.",
+          "sentenceWithBlank": "Compassion is the deep awareness of and ________ for another's suffering.",
+          "wordBlank": "sympathy",
+          "translation": "Lòng trắc ẩn là sự nhận thức sâu sắc về và lòng tr sympathy cho sự đau khổ của người khác, kèm theo mong muốn giảm bớt sự đau khổ đó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empathy",
+        "type": "Noun",
+        "phonetic": "ˈɛm.pə.θi",
+        "example": "Empathy is the ability to understand and share the feelings of another.",
+        "explain": "Sự thông cảm",
+        "translatedExample": "Sự thông cảm là khả năng hiểu và chia sẻ cảm xúc của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Empathy'?",
+          "options": {
+            "A": "Apathy",
+            "B": "Sympathy",
+            "C": "Compassion",
+            "D": "Antipathy"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Apathy' and 'Antipathy' are opposites of empathy. B: 'Sympathy' and 'Compassion' are related concepts, but 'Compassion' is a closer synonym. C: 'Compassion' is a synonym for empathy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Integrity",
+        "type": "Noun",
+        "phonetic": "ɪnˈtɛɡ.rə.t̬i",
+        "example": "Integrity is the quality of being honest, having strong moral principles, and adhering to ethical standards.",
+        "explain": "Chính trực",
+        "translatedExample": "Chính trực là phẩm chất của việc trung thực, có nguyên tắc đạo đức mạnh mẽ và tuân thủ các tiêu chuẩn đạo đức."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the quality of being honest and having strong moral principles.",
+          "sentenceWithBlank": "Integrity is the quality of being honest and having strong ________ principles.",
+          "wordBlank": "moral",
+          "translation": "Chính trực là phẩm chất của việc trung thực, có nguyên tắc đạo đức mạnh mẽ và tuân thủ các tiêu chuẩn đạo đức."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Patience",
+        "type": "Noun",
+        "phonetic": "ˈpeɪ.ʃəns",
+        "example": "Patience is the ability to endure waiting, delay, or provocation without becoming annoyed or anxious.",
+        "explain": "Kiên nhẫn",
+        "translatedExample": "Kiên nhẫn là khả năng chịu đựng sự chờ đợi, trì hoãn hoặc khiêu khích mà không trở nên tức giận hoặc lo lắng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Patience'?",
+          "options": {
+            "A": "Tolerance",
+            "B": "Endurance",
+            "C": "Impatience",
+            "D": "Perseverance"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Tolerance' and 'Endurance' are related to patience. B: 'Impatience' is the antonym, representing a lack of patience. C: 'Perseverance' is synonymous with patience."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Perseverance",
+        "type": "Noun",
+        "phonetic": "ˌpɜːr.səˈvɪr.əns",
+        "example": "Perseverance is the continued effort to achieve a goal despite difficulties, obstacles, or discouragement.",
+        "explain": "Sự kiên trì",
+        "translatedExample": "Sự kiên trì là nỗ lực liên tục để đạt được một mục tiêu mặc dù gặp khó khăn, trở ngại hoặc sự nản lòng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the continued effort to achieve a goal despite difficulties, obstacles, or discouragement.",
+          "sentenceWithBlank": "Perseverance is the continued effort to achieve a ________ despite difficulties, obstacles, or discouragement.",
+          "wordBlank": "goal",
+          "translation": "Sự kiên trì là nỗ lực liên tục để đạt được một mục tiêu mặc dù gặp khó khăn, trở ngại hoặc sự nản lòng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Generosity",
+        "type": "Noun",
+        "phonetic": "ˌdʒen.əˈrɑː.sə.t̬i",
+        "example": "Generosity is the quality of being kind, understanding, and willing to share with others.",
+        "explain": "Rộng lượng",
+        "translatedExample": "Rộng lượng là phẩm chất của việc tử tế, thấu hiểu và sẵn lòng chia sẻ với người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Generosity'?",
+          "options": {
+            "A": "Selfishness",
+            "B": "Stinginess",
+            "C": "Liberality",
+            "D": "Avarice"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Selfishness' and 'Stinginess' are opposites of generosity. B: 'Liberality' is a synonym, indicating a generous and open-handed nature. C: 'Avarice' is the opposite of generosity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gratitude",
+        "type": "Noun",
+        "phonetic": "ˈɡræt̬.ɪ.tuːd",
+        "example": "Gratitude is the expression of appreciation that contributes to positive thinking and acknowledgment.",
+        "explain": "Lòng biết ơn",
+        "translatedExample": "Lòng biết ơn là sự bày tỏ đánh giá đóng góp vào tư duy tích cực và công nhận."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Gratitude is the expression of appreciation that contributes to positive thinking and acknowledgment.",
+          "sentenceWithBlank": "______ is the expression of appreciation that contributes to positive thinking and acknowledgment.",
+          "wordBlank": "Gratitude",
+          "translation": "Lòng biết ơn là sự bày tỏ đánh giá đóng góp vào tư duy tích cực và công nhận."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empowerment",
+        "type": "Noun",
+        "phonetic": "ɪmˈpaʊ.ər.mənt",
+        "example": "Empowerment is the process of giving individuals or groups the authority and power to do something.",
+        "explain": "Quyền lực",
+        "translatedExample": "Quyền lực là quá trình trao cho cá nhân hoặc nhóm quyền lực và quyền hạn để làm điều gì đó."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Empowerment'?",
+          "options": {
+            "A": "Oppression",
+            "B": "Disempowerment",
+            "C": "Authorization",
+            "D": "Restriction"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Oppression' and 'Disempowerment' are opposites of empowerment. B: 'Authorization' is a synonym, indicating the granting of authority and power. C: 'Restriction' is the opposite of empowerment."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Honesty",
+        "type": "Noun",
+        "phonetic": "ˈɑː.nəs.ti",
+        "example": "Honesty is the quality of being truthful, sincere, and free from deceit or fraud.",
+        "explain": "Chân thành",
+        "translatedExample": "Chân thành là phẩm chất của việc trung thực, chân thành và không gian lận hoặc gian lận."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the quality of being truthful, sincere, and free from deceit or fraud.",
+          "sentenceWithBlank": "Honesty is the quality of being truthful, sincere, and free from ________ or fraud.",
+          "wordBlank": "deceit",
+          "translation": "Chân thành là phẩm chất của việc trung thực, chân thành và không gian lận hoặc gian lận."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Kindness",
+        "type": "Noun",
+        "phonetic": "ˈkaɪnd.nəs",
+        "example": "Kindness is the quality of being friendly, generous, and considerate towards others.",
+        "explain": "Lòng tốt",
+        "translatedExample": "Lòng tốt là phẩm chất của việc thân thiện, rộng lượng và quan tâm đến người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Kindness'?",
+          "options": {
+            "A": "Cruelty",
+            "B": "Harshness",
+            "C": "Benevolence",
+            "D": "Hostility"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Cruelty' and 'Harshness' are opposites of kindness. B: 'Benevolence' is a synonym, indicating goodwill and kindness. C: 'Hostility' is the opposite of kindness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courageous",
+        "type": "Adjective",
+        "phonetic": "kəˈreɪ.dʒəs",
+        "example": "Courageous describes someone who displays courage, bravery, and the ability to confront fear.",
+        "explain": "Dũng cảm",
+        "translatedExample": "Dũng cảm mô tả người nào đó thể hiện sự dũng cảm, gan dạ và khả năng đối mặt với nỗi sợ hãi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Courageous'?",
+          "options": {
+            "A": "Fearful",
+            "B": "Timid",
+            "C": "Cowardly",
+            "D": "Bold"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Fearful,' 'Timid,' and 'Bold' are related to courage. B: 'Cowardly' is the antonym, indicating a lack of courage and bravery. C: 'Bold' is synonymous with courage."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Resilience",
+        "type": "Noun",
+        "phonetic": "rɪˈzɪl·jəns",
+        "example": "Resilience is the ability to recover and bounce back from adversity or challenges.",
+        "explain": "Sự phục hồi",
+        "translatedExample": "Sự phục hồi là khả năng hồi phục và nhanh chóng hứng đựng lại sau gian khó hoặc thách thức."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the ability to recover and bounce back from adversity or challenges.",
+          "sentenceWithBlank": "Resilience is the ability to recover and bounce back from ________ or challenges.",
+          "wordBlank": "adversity",
+          "translation": "Sự phục hồi là khả năng hồi phục và nhanh chóng hứng đựng lại sau gian khó hoặc thách thức."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Wisdom",
+        "type": "Noun",
+        "phonetic": "ˈwɪz·dəm",
+        "example": "Wisdom is the ability to make sound judgments and decisions based on knowledge and experience.",
+        "explain": "Khôn ngoan",
+        "translatedExample": "Khôn ngoan là khả năng đưa ra những quyết định và lựa chọn chắc chắn dựa trên kiến thức và kinh nghiệm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Wisdom'?",
+          "options": {
+            "A": "Ignorance",
+            "B": "Folly",
+            "C": "Intelligence",
+            "D": "Stupidity"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Ignorance,' 'Folly,' and 'Stupidity' are opposites of wisdom. B: 'Intelligence' is a synonym, indicating the ability to comprehend and apply knowledge. C: 'Intelligence' is a closer synonym than the other options."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Optimism",
+        "type": "Noun",
+        "phonetic": "ˈɑː·ptɪ·mɪz·əm",
+        "example": "Optimism is the belief that positive outcomes are more likely and the expectation of favorable results.",
+        "explain": "Lạc quan",
+        "translatedExample": "Lạc quan là niềm tin rằng kết quả tích cực có khả năng cao và kỳ vọng vào những kết quả thuận lợi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Optimism'?",
+          "options": {
+            "A": "Pessimism",
+            "B": "Hopefulness",
+            "C": "Confidence",
+            "D": "Positivity"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Pessimism' is the antonym, representing a belief that negative outcomes are more likely. B: 'Hopefulness,' 'Confidence,' and 'Positivity' are related concepts to optimism."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sincerity",
+        "type": "Noun",
+        "phonetic": "sɪnˈsɪr·ə·t̬i",
+        "example": "Sincerity is the quality of being genuine, honest, and free from pretense or deceit.",
+        "explain": "Tính chân thành",
+        "translatedExample": "Tính chân thành là phẩm chất của việc chân thành, trung thực và không giả tạo hay lừa dối."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the quality of being genuine, honest, and free from pretense or deceit.",
+          "sentenceWithBlank": "Sincerity is the quality of being genuine, honest, and free from ________ or deceit.",
+          "wordBlank": "pretense",
+          "translation": "Tính chân thành là phẩm chất của việc chân thành, trung thực và không giả tạo hay lừa dối."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tolerance",
+        "type": "Noun",
+        "phonetic": "ˈtɑː·lə·rəns",
+        "example": "Tolerance is the acceptance and respect for the diversity of opinions, beliefs, and practices of others.",
+        "explain": "Tolerant",
+        "translatedExample": "Tolerant là sự chấp nhận và tôn trọng sự đa dạng về ý kiến, niềm tin và thực hành của người khác."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Tolerance'?",
+          "options": {
+            "A": "Bigotry",
+            "B": "Narrow-mindedness",
+            "C": "Acceptance",
+            "D": "Prejudice"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Bigotry' and 'Prejudice' are opposites of tolerance. B: 'Narrow-mindedness' is the opposite, indicating a lack of tolerance. C: 'Acceptance' is a synonym, representing an open and inclusive attitude."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Selflessness",
+        "type": "Noun",
+        "phonetic": "ˈsɛlf·lɛs·nəs",
+        "example": "Selflessness is the quality of being concerned more with the needs and wishes of others than with one's own.",
+        "explain": "Vô lòng",
+        "translatedExample": "Vô lòng là phẩm chất của việc quan tâm nhiều hơn đến nhu cầu và mong muốn của người khác hơn là của bản thân."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Selflessness'?",
+          "options": {
+            "A": "Altruism",
+            "B": "Generosity",
+            "C": "Egoism",
+            "D": "Benevolence"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Altruism' and 'Benevolence' are related concepts. B: 'Generosity' is also related. C: 'Egoism' is the antonym, indicating a focus on one's own interests and desires."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Humility",
+        "type": "Noun",
+        "phonetic": "hjuˈmɪl.ə.t̬i",
+        "example": "Humility is the quality of being humble, modest, and having a low view of one's own importance.",
+        "explain": "Khiêm nhường",
+        "translatedExample": "Khiêm nhường là phẩm chất của việc khiêm tốn, giản dị và có cái nhìn thấp về tầm quan trọng của bản thân."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Humility is the quality of being humble, modest, and having a low view of one's own importance.",
+          "sentenceWithBlank": "_______ is the quality of being humble, modest, and having a low view of one's own importance.",
+          "wordBlank": "Humility",
+          "translation": "Khiêm nhường là phẩm chất của việc khiêm tốn, giản dị và có cái nhìn thấp về tầm quan trọng của bản thân."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Foresight",
+        "type": "Noun",
+        "phonetic": "ˈfɔr·saɪt",
+        "example": "Foresight is the ability to predict or plan for the future with wisdom and careful consideration.",
+        "explain": "Tầm nhìn",
+        "translatedExample": "Tầm nhìn là khả năng dự đoán hoặc lên kế hoạch cho tương lai với sự khôn ngoan và xem xét cẩn thận."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Foresight'?",
+          "options": {
+            "A": "Hindsight",
+            "B": "Insight",
+            "C": "Oversight",
+            "D": "Prescience"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Hindsight' and 'Insight' are related but not synonyms. B: 'Oversight' is an antonym, indicating a failure to foresee. C: 'Prescience' is a synonym, representing the ability to predict or know about events before they happen."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Diligence",
+        "type": "Noun",
+        "phonetic": "ˈdɪl.ɪ.dʒəns",
+        "example": "Diligence is the careful and persistent effort to accomplish a task with attention to detail.",
+        "explain": "Chăm chỉ",
+        "translatedExample": "Chăm chỉ là sự nỗ lực cẩn thận và kiên trì để hoàn thành một nhiệm vụ với sự chú ý đến chi tiết."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "______ is the careful and persistent effort to accomplish a task with attention to detail.",
+          "sentenceWithBlank": "Diligence is the careful and persistent effort to accomplish a task with attention to ________.",
+          "wordBlank": "detail",
+          "translation": "Chăm chỉ là sự nỗ lực cẩn thận và kiên trì để hoàn thành một nhiệm vụ với sự chú ý đến chi tiết."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Integrity",
+        "type": "Noun",
+        "phonetic": "ɪnˈtɛɡ.rə.t̬i",
+        "example": "Integrity is the quality of being honest and having strong moral principles, even when no one is watching.",
+        "explain": "Chính trực",
+        "translatedExample": "Chính trực là phẩm chất của việc trung thực và có nguyên tắc đạo đức mạnh mẽ, ngay cả khi không ai theo dõi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Integrity'?",
+          "options": {
+            "A": "Honesty",
+            "B": "Deceit",
+            "C": "Dishonesty",
+            "D": "Corruption"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Honesty' and 'Dishonesty' are related but not opposites. B: 'Deceit' is an antonym. C: 'Corruption' is the opposite of integrity, representing dishonesty and unethical behavior."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Loyalty",
+        "type": "Noun",
+        "phonetic": "ˈlɔɪ.əl.ti",
+        "example": "His loyalty to his team was unquestionable.",
+        "explain": "Sự trung thành",
+        "translatedExample": "Sự trung thành của anh ấy với đội bóng là không thể nghi ngờ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Dogs are often admired for their _____.",
+          "options": {
+            "A": "Speed",
+            "B": "Loyalty",
+            "C": "Strength",
+            "D": "Intelligence"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Speed' is more related to physical ability. B: 'Loyalty' is a key trait often associated with dogs. C: 'Strength' is not specifically tied to loyalty. D: 'Intelligence' is a different quality than loyalty."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bravery",
+        "type": "Noun",
+        "phonetic": "ˈbreɪ.vər.i",
+        "example": "The firefighter showed great bravery in the rescue operation.",
+        "explain": "Sự dũng cảm",
+        "translatedExample": "Người lính cứu hỏa đã thể hiện sự dũng cảm lớn trong hoạt động cứu hộ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Bravery is not the absence of fear, but the action in the face of fear.",
+          "sentenceWithBlank": "Bravery is not the absence of fear, but the action in the face of _____.",
+          "wordBlank": "fear",
+          "translation": "Sự dũng cảm không phải là sự vắng mặt của nỗi sợ, mà là hành động trước nỗi sợ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Honor",
+        "type": "Noun",
+        "phonetic": "ˈɒn.ər",
+        "example": "He received a medal as an honor for his bravery.",
+        "explain": "Danh dự",
+        "translatedExample": "Anh ấy nhận được huy chương như một vinh dự cho sự dũng cảm của mình."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Honor'?",
+          "options": {
+            "A": "Disgrace",
+            "B": "Pride",
+            "C": "Respect",
+            "D": "Shame"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Disgrace' is the opposite of honor. B: 'Pride' is a feeling of self-respect, not necessarily honor. C: 'Respect' is a synonym for honor, implying esteem and regard. D: 'Shame' is antithetical to honor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Justice",
+        "type": "Noun",
+        "phonetic": "ˈdʒʌs.tɪs",
+        "example": "The court strives to ensure justice for all.",
+        "explain": "Công lý",
+        "translatedExample": "Tòa án nỗ lực để đảm bảo công lý cho mọi người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Justice'?",
+          "options": {
+            "A": "Inequality",
+            "B": "Fairness",
+            "C": "Impartiality",
+            "D": "Injustice"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Inequality' is a broader term, not a direct antonym. B: 'Fairness' is synonymous with justice. C: 'Impartiality' is a component of justice. D: 'Injustice' is the direct opposite of justice."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Virtue",
+        "type": "Noun",
+        "phonetic": "ˈvɜː.tʃuː",
+        "example": "Honesty is a widely respected virtue.",
+        "explain": "Đức hạnh",
+        "translatedExample": "Trung thực là một đức hạnh được tôn trọng rộng rãi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Patience is a virtue that can lead to many positive outcomes.",
+          "sentenceWithBlank": "Patience is a _____ that can lead to many positive outcomes.",
+          "wordBlank": "virtue",
+          "translation": "Kiên nhẫn là một đức hạnh có thể dẫn đến nhiều kết quả tích cực."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Wisdom",
+        "type": "Noun",
+        "phonetic": "ˈwɪz.dəm",
+        "example": "His decisions are always guided by wisdom.",
+        "explain": "Trí tuệ",
+        "translatedExample": "Những quyết định của anh ấy luôn được hướng dẫn bởi trí tuệ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The old man shared his _____ with the younger generation.",
+          "options": {
+            "A": "Energy",
+            "B": "Wisdom",
+            "C": "Wealth",
+            "D": "Experience"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Energy' is more about physical vitality. B: 'Wisdom' is the correct answer, reflecting knowledge and good judgment. C: 'Wealth' is about material possessions. D: 'Experience' is related but not the same as wisdom."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Integrity",
+        "type": "Noun",
+        "phonetic": "ɪnˈtɛɡrɪti",
+        "example": "She is known for her integrity and honesty.",
+        "explain": "Tính chính trực",
+        "translatedExample": "Cô ấy được biết đến với tính chính trực và sự trung thực."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "A person of _____ always keeps their promises.",
+          "options": {
+            "A": "Integrity",
+            "B": "Pride",
+            "C": "Fear",
+            "D": "Anger"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Integrity' is the quality of being honest and having strong moral principles. B: 'Pride' is a feeling of self-respect, not necessarily related to promise-keeping. C: 'Fear' is an emotion, unrelated to integrity. D: 'Anger' is also an emotion and not related to keeping promises."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gratitude",
+        "type": "Noun",
+        "phonetic": "ˈɡrætɪˌtjuːd",
+        "example": "He expressed his gratitude to everyone who helped him.",
+        "explain": "Lòng biết ơn",
+        "translatedExample": "Anh ấy bày tỏ lòng biết ơn với mọi người đã giúp đỡ mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Showing gratitude can improve your relationships and well-being.",
+          "sentenceWithBlank": "Showing _____ can improve your relationships and well-being.",
+          "wordBlank": "gratitude",
+          "translation": "Thể hiện lòng biết ơn có thể cải thiện mối quan hệ và sức khỏe của bạn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Patience",
+        "type": "Noun",
+        "phonetic": "ˈpeɪʃəns",
+        "example": "Patience is a valuable skill in dealing with difficult situations.",
+        "explain": "Sự kiên nhẫn",
+        "translatedExample": "Sự kiên nhẫn là một kỹ năng quý giá trong việc đối phó với những tình huống khó khăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Patience'?",
+          "options": {
+            "A": "Haste",
+            "B": "Endurance",
+            "C": "Rush",
+            "D": "Speed"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Haste' implies hurry, opposite of patience. B: 'Endurance' is a synonym, indicating the ability to withstand hardship or wait. C: 'Rush' is about moving quickly, not patiently. D: 'Speed' is also about quickness, not patience."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkʌrɪdʒ",
+        "example": "It takes courage to stand up for what you believe in.",
+        "explain": "Sự can đảm",
+        "translatedExample": "Cần có sự can đảm để đứng lên vì những gì bạn tin tưởng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Courage'?",
+          "options": {
+            "A": "Cowardice",
+            "B": "Bravery",
+            "C": "Strength",
+            "D": "Boldness"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Cowardice' is the direct antonym, indicating a lack of bravery. B: 'Bravery' is synonymous with courage. C: 'Strength' is more physical than moral. D: 'Boldness' is similar to courage, not its antonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Empathy",
+        "type": "Noun",
+        "phonetic": "ˈɛmpəθi",
+        "example": "Empathy allows us to understand the feelings of others.",
+        "explain": "Sự đồng cảm",
+        "translatedExample": "Sự đồng cảm cho phép chúng ta hiểu cảm xúc của người khác."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A good leader shows empathy towards their team members.",
+          "sentenceWithBlank": "A good leader shows _____ towards their team members.",
+          "wordBlank": "empathy",
+          "translation": "Một người lãnh đạo giỏi thể hiện sự đồng cảm với các thành viên trong nhóm của họ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Respect",
+        "type": "Noun",
+        "phonetic": "rɪˈspɛkt",
+        "example": "Showing respect to others is fundamental in a civil society.",
+        "explain": "Sự tôn trọng",
+        "translatedExample": "Thể hiện sự tôn trọng với người khác là cơ bản trong một xã hội văn minh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "In a team, it is important to have mutual _____.",
+          "options": {
+            "A": "Competition",
+            "B": "Conflict",
+            "C": "Respect",
+            "D": "Difference"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Competition' can be healthy but doesn't imply mutual regard. B: 'Conflict' is generally negative in a team setting. C: 'Respect' is the correct answer, indicating esteem for each other. D: 'Difference' doesn't necessarily imply respect."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Honesty",
+        "type": "Noun",
+        "phonetic": "ˈɒnɪsti",
+        "example": "Honesty is the best policy in all relationships.",
+        "explain": "Sự trung thực",
+        "translatedExample": "Sự trung thực là chính sách tốt nhất trong mọi mối quan hệ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Honesty builds trust and strengthens bonds between people.",
+          "sentenceWithBlank": "_____ builds trust and strengthens bonds between people.",
+          "wordBlank": "Honesty",
+          "translation": "Sự trung thực xây dựng lòng tin và củng cố mối quan hệ giữa mọi người."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Kindness",
+        "type": "Noun",
+        "phonetic": "ˈkaɪndnɪs",
+        "example": "A small act of kindness can make a big difference.",
+        "explain": "Sự tử tế",
+        "translatedExample": "Một hành động tử tế nhỏ có thể tạo ra sự khác biệt lớn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Kindness'?",
+          "options": {
+            "A": "Cruelty",
+            "B": "Generosity",
+            "C": "Harshness",
+            "D": "Rudeness"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Cruelty' is the opposite of kindness. B: 'Generosity' is a synonym, indicating the quality of being kind and generous. C: 'Harshness' is a negative trait, unlike kindness. D: 'Rudeness' is also opposite to kindness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Humility",
+        "type": "Noun",
+        "phonetic": "hjuːˈmɪlɪti",
+        "example": "Despite his success, he maintained a sense of humility.",
+        "explain": "Sự khiêm tốn",
+        "translatedExample": "Mặc dù thành công, anh ấy vẫn giữ được sự khiêm tốn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Humility'?",
+          "options": {
+            "A": "Arrogance",
+            "B": "Modesty",
+            "C": "Shyness",
+            "D": "Reserve"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Arrogance' is the direct antonym, indicating excessive pride. B: 'Modesty' is similar to humility. C: 'Shyness' is more about being reserved, not the opposite of humility. D: 'Reserve' is about being restrained, not the opposite of humility."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Diligence",
+        "type": "Noun",
+        "phonetic": "ˈdɪlɪdʒəns",
+        "example": "Her diligence in her studies earned her top grades.",
+        "explain": "Sự cần cù",
+        "translatedExample": "Sự cần cù trong học tập đã giúp cô ấy đạt được điểm số cao."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Diligence is a key factor in achieving success.",
+          "sentenceWithBlank": "_____ is a key factor in achieving success.",
+          "wordBlank": "Diligence",
+          "translation": "Sự cần cù là yếu tố then chốt để đạt được thành công."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Decency",
+        "type": "Noun",
+        "phonetic": "ˈdiː.sən.si",
+        "example": "He treated everyone with decency and respect.",
+        "explain": "Sự lịch sự",
+        "translatedExample": "Anh ấy đối xử với mọi người một cách lịch sự và tôn trọng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "In society, it's important to maintain a standard of _____.",
+          "options": {
+            "A": "Decency",
+            "B": "Pride",
+            "C": "Anger",
+            "D": "Fear"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Decency' refers to behavior that conforms to accepted standards of morality or respectability. B: 'Pride' is a feeling of self-respect, not necessarily related to societal standards. C: 'Anger' is an emotion, unrelated to decency. D: 'Fear' is also an emotion and not related to societal standards."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fairness",
+        "type": "Noun",
+        "phonetic": "ˈfeə.nɪs",
+        "example": "The judge is known for his fairness in the courtroom.",
+        "explain": "Sự công bằng",
+        "translatedExample": "Vị thẩm phán được biết đến với sự công bằng trong phòng xử án."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Fairness in decision-making is crucial for maintaining trust.",
+          "sentenceWithBlank": "_____ in decision-making is crucial for maintaining trust.",
+          "wordBlank": "Fairness",
+          "translation": "Sự công bằng trong ra quyết định là rất quan trọng để duy trì lòng tin."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Prudence",
+        "type": "Noun",
+        "phonetic": "ˈpruː.dəns",
+        "example": "Prudence is essential when making financial decisions.",
+        "explain": "Sự thận trọng",
+        "translatedExample": "Sự thận trọng là cần thiết khi đưa ra quyết định tài chính."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Prudence'?",
+          "options": {
+            "A": "Recklessness",
+            "B": "Caution",
+            "C": "Negligence",
+            "D": "Haste"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Recklessness' is the opposite of prudence. B: 'Caution' is a synonym, indicating carefulness and thoughtfulness. C: 'Negligence' is a lack of care, opposite of prudence. D: 'Haste' implies hurry, not carefulness."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Temperance",
+        "type": "Noun",
+        "phonetic": "ˈtɛm.pər.əns",
+        "example": "Temperance in all things is a good principle to live by.",
+        "explain": "Sự điều độ",
+        "translatedExample": "Sự điều độ trong mọi thứ là một nguyên tắc tốt để sống theo."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Temperance'?",
+          "options": {
+            "A": "Excess",
+            "B": "Moderation",
+            "C": "Restraint",
+            "D": "Balance"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Excess' is the direct antonym, indicating lack of moderation. B: 'Moderation' is synonymous with temperance. C: 'Restraint' is also a synonym of temperance. D: 'Balance' is similar to temperance, not its antonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fortitude",
+        "type": "Noun",
+        "phonetic": "ˈfɔː.tɪ.tjuːd",
+        "example": "She showed great fortitude during difficult times.",
+        "explain": "Sự kiên cường",
+        "translatedExample": "Cô ấy đã thể hiện sự kiên cường trong những thời kỳ khó khăn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Fortitude is essential for overcoming life's challenges.",
+          "sentenceWithBlank": "_____ is essential for overcoming life's challenges.",
+          "wordBlank": "Fortitude",
+          "translation": "Sự kiên cường là cần thiết để vượt qua những thách thức của cuộc sống."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Zeal",
+        "type": "Noun",
+        "phonetic": "ziːl",
+        "example": "He pursued his goals with great zeal.",
+        "explain": "Sự nhiệt huyết",
+        "translatedExample": "Anh ấy theo đuổi mục tiêu của mình với sự nhiệt huyết lớn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Zeal'?",
+          "options": {
+            "A": "Apathy",
+            "B": "Enthusiasm",
+            "C": "Indifference",
+            "D": "Laziness"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Apathy' is the lack of interest, opposite of zeal. B: 'Enthusiasm' is a synonym, indicating intense and eager enjoyment. C: 'Indifference' is a lack of interest or concern, not zeal. D: 'Laziness' is the unwillingness to work or use energy, opposite of zeal."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Fidelity",
+        "type": "Noun",
+        "phonetic": "fɪˈdɛlɪti",
+        "example": "He was admired for his fidelity to his principles.",
+        "explain": "Sự chung thủy",
+        "translatedExample": "Anh ấy được ngưỡng mộ vì sự chung thủy với nguyên tắc của mình."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Fidelity in a relationship builds a strong foundation of trust.",
+          "sentenceWithBlank": "_____ in a relationship builds a strong foundation of trust.",
+          "wordBlank": "Fidelity",
+          "translation": "Sự chung thủy trong một mối quan hệ xây dựng nền tảng vững chắc cho lòng tin."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Vigor",
+        "type": "Noun",
+        "phonetic": "ˈvɪɡ.ər",
+        "example": "He tackled the project with vigor and determination.",
+        "explain": "Sự mãnh liệt",
+        "translatedExample": "Anh ấy tiếp cận dự án với sự mãnh liệt và quyết tâm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Vigor'?",
+          "options": {
+            "A": "Weakness",
+            "B": "Strength",
+            "C": "Energy",
+            "D": "Lethargy"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Weakness' is a general lack of strength, not specifically opposite of vigor. B: 'Strength' is similar to vigor. C: 'Energy' is synonymous with vigor. D: 'Lethargy' is a state of sluggishness or apathy, the opposite of vigor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Curiosity",
+        "type": "Noun",
+        "phonetic": "ˌkjʊə.riˈɒs.ɪ.ti",
+        "example": "Her curiosity led her to explore new ideas.",
+        "explain": "Sự tò mò",
+        "translatedExample": "Sự tò mò của cô ấy đã dẫn cô ấy khám phá những ý tưởng mới."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Curiosity is a driving force behind scientific discovery.",
+          "sentenceWithBlank": "_____ is a driving force behind scientific discovery.",
+          "wordBlank": "Curiosity",
+          "translation": "Sự tò mò là lực lượng thúc đẩy đằng sau những phát hiện khoa học."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Purity",
+        "type": "Noun",
+        "phonetic": "ˈpjʊə.rɪ.ti",
+        "example": "The purity of her intentions was evident in her actions.",
+        "explain": "Sự trong sáng",
+        "translatedExample": "Sự trong sáng của ý định của cô ấy được thể hiện rõ ràng trong hành động của cô ấy."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Purity'?",
+          "options": {
+            "A": "Corruption",
+            "B": "Innocence",
+            "C": "Pollution",
+            "D": "Complexity"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Corruption' is the opposite of purity. B: 'Innocence' is a synonym, indicating the state of being pure. C: 'Pollution' is the opposite, indicating contamination. D: 'Complexity' is unrelated to the concept of purity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Modesty",
+        "type": "Noun",
+        "phonetic": "ˈmɒd.ɪ.sti",
+        "example": "She accepted the award with modesty and gratitude.",
+        "explain": "Sự khiêm tốn",
+        "translatedExample": "Cô ấy nhận giải thưởng với sự khiêm tốn và biết ơn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Modesty is a valuable quality in a leader.",
+          "sentenceWithBlank": "_____ is a valuable quality in a leader.",
+          "wordBlank": "Modesty",
+          "translation": "Sự khiêm tốn là một phẩm chất quý giá ở một nhà lãnh đạo."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Loyalty",
+        "type": "Noun",
+        "phonetic": "ˈlɔɪ.əl.ti",
+        "example": "His loyalty to his friends is unwavering.",
+        "explain": "Sự trung thành",
+        "translatedExample": "Sự trung thành của anh ấy với bạn bè là không dao động."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Loyalty'?",
+          "options": {
+            "A": "Betrayal",
+            "B": "Faithfulness",
+            "C": "Allegiance",
+            "D": "Devotion"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Betrayal' is the direct antonym, indicating disloyalty. B: 'Faithfulness' is synonymous with loyalty. C: 'Allegiance' is similar to loyalty. D: 'Devotion' is also a synonym of loyalty."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Valor",
+        "type": "Noun",
+        "phonetic": "ˈvæl.ər",
+        "example": "The soldier was awarded for his valor in battle.",
+        "explain": "Sự dũng cảm",
+        "translatedExample": "Người lính được tặng thưởng vì sự dũng cảm của mình trong trận chiến."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Valor is often recognized in acts of heroism.",
+          "sentenceWithBlank": "_____ is often recognized in acts of heroism.",
+          "wordBlank": "Valor",
+          "translation": "Sự dũng cảm thường được nhận ra trong những hành động anh hùng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Ethics",
+        "type": "Noun",
+        "phonetic": "ˈeθ.ɪks",
+        "example": "His decision was guided by strong ethics.",
+        "explain": "Đạo đức",
+        "translatedExample": "Quyết định của anh ấy được hướng dẫn bởi đạo đức vững chắc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Ethics'?",
+          "options": {
+            "A": "Immorality",
+            "B": "Principles",
+            "C": "Corruption",
+            "D": "Dishonesty"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Immorality' is the opposite of ethics. B: 'Principles' is a synonym, indicating moral rules or beliefs. C: 'Corruption' is the opposite, indicating lack of ethics. D: 'Dishonesty' is also the opposite of ethics."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Wisdom",
+        "type": "Noun",
+        "phonetic": "ˈwɪz.dəm",
+        "example": "His wisdom was apparent in every decision he made.",
+        "explain": "Sự khôn ngoan",
+        "translatedExample": "Sự khôn ngoan của ông ấy hiển hiện trong mọi quyết định mà ông ấy đưa ra."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Wisdom comes from experience and thoughtful reflection.",
+          "sentenceWithBlank": "_____ comes from experience and thoughtful reflection.",
+          "wordBlank": "Wisdom",
+          "translation": "Sự khôn ngoan đến từ kinh nghiệm và sự suy ngẫm cẩn thận."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Justice",
+        "type": "Noun",
+        "phonetic": "ˈdʒʌs.tɪs",
+        "example": "She fought for justice and equality for all.",
+        "explain": "Công lý",
+        "translatedExample": "Cô ấy đã chiến đấu vì công lý và bình đẳng cho tất cả mọi người."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Justice'?",
+          "options": {
+            "A": "Injustice",
+            "B": "Fairness",
+            "C": "Equity",
+            "D": "Honesty"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Injustice' is the direct antonym, indicating lack of fairness. B: 'Fairness' is synonymous with justice. C: 'Equity' is also related to justice. D: 'Honesty' is a component of justice but not its antonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Honor",
+        "type": "Noun",
+        "phonetic": "ˈɒn.ər",
+        "example": "He received a medal as a mark of honor.",
+        "explain": "Danh dự",
+        "translatedExample": "Anh ấy nhận được huy chương như một dấu hiệu của danh dự."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Living with honor means adhering to ethical principles.",
+          "sentenceWithBlank": "Living with _____ means adhering to ethical principles.",
+          "wordBlank": "Honor",
+          "translation": "Sống với danh dự có nghĩa là tuân theo các nguyên tắc đạo đức."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Courage",
+        "type": "Noun",
+        "phonetic": "ˈkʌr.ɪdʒ",
+        "example": "It takes courage to stand up for what you believe in.",
+        "explain": "Sự can đảm",
+        "translatedExample": "Cần có sự can đảm để đứng lên bảo vệ những gì bạn tin tưởng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Courage'?",
+          "options": {
+            "A": "Fear",
+            "B": "Cowardice",
+            "C": "Bravery",
+            "D": "Weakness"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Fear' is the opposite of courage. B: 'Cowardice' is also the opposite. C: 'Bravery' is a synonym, indicating the quality of being courageous. D: 'Weakness' is not directly related to courage."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Virtue",
+        "type": "Noun",
+        "phonetic": "ˈvɜː.tʃuː",
+        "example": "Patience is a virtue that can lead to great success.",
+        "explain": "Đức hạnh",
+        "translatedExample": "Kiên nhẫn là một đức hạnh có thể dẫn đến thành công lớn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Virtue is its own reward.",
+          "sentenceWithBlank": "_____ is its own reward.",
+          "wordBlank": "Virtue",
+          "translation": "Đức hạnh là phần thưởng cho chính nó."
+        }
+      }
+    }
+  ]
+}

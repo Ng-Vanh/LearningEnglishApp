@@ -1,0 +1,26 @@
+.answerTextField {
+    -fx-background-color: #ecf0f1; /* Light background color */
+    -fx-border-color: #3498db; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 8px; /* Border radius */
+    -fx-font-size: 16px; /* Font size */
+    -fx-text-fill: #2c3e50; /* Text color */
+    -fx-prompt-text-fill: #95a5a6; /* Prompt text color */
+    -fx-padding: 10px; /* Padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Drop shadow effect */
+    -fx-transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+    -fx-background-radius: 10;
+}
+
+.answerTextField:focused {
+    -fx-background-color: #fff; /* Background color on focus */
+    /*-fx-border-color: #3498db; /* Border color on focus */
+}
+
+.answerTextField:not(:focused) {
+    /*-fx-border-color: #95a5a6; /* Reset border color */
+}
+
+.answerTextField:hover {
+    -fx-background-color: #d5d8dc; /* Background color on hover */
+}

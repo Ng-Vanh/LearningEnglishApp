@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.geometry.Rectangle2D?>
+<VBox prefHeight="576.0" prefWidth="960.0" spacing="10.0" stylesheets="@../CSS/Dictation.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.Dictation.Dictation_Controller">
+    <children>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" styleClass="navbar" stylesheets="@../../../common/CSS/Navbar.css">
+            <children>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="back-btn" stylesheets="@../../../common/CSS/Navbar.css">
+                    <children>
+                        <ImageView fitHeight="43.0" fitWidth="100.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true" styleClass="back-btn" VBox.vgrow="ALWAYS">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/BackBtn.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+                    <children>
+                        <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="home-btn">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/home-button.png" />
+                            </image>
+                        </ImageView>
+                        <Label text="Home" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+                    <children>
+                        <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="game-btn">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/gamification.png" />
+                            </image>
+                        </ImageView>
+                        <Label text="Exercise" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" onMouseClicked="#clickEdict" prefHeight="57.0" prefWidth="57.0" styleClass="dict-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+                    <children>
+                        <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="dict-btn">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/dict.png" />
+                            </image>
+                            <viewport>
+                                <Rectangle2D />
+                            </viewport>
+                        </ImageView>
+                        <Label text="Dictionary" />
+                    </children></VBox>
+                <VBox alignment="CENTER" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+                    <children>
+                        <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/studyingg.png" />
+                            </image>
+                        </ImageView>
+                        <Label text="Learn" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="83.0" styleClass="wordOfDay-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+                    <children>
+                        <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/new-product.png" />
+                            </image>
+                        </ImageView>
+                        <Label styleClass="wordOfDay-btn" text="Word of day" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="user-btn" stylesheets="@../../../common/CSS/Navbar.css">
+                    <children>
+                        <ImageView fitHeight="57.0" fitWidth="49.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn" VBox.vgrow="ALWAYS">
+                            <image>
+                                <Image url="@../../../../MainDictionary/image/gamer.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </children>
+            <padding>
+                <Insets left="20.0" right="20.0" />
+            </padding>
+        </HBox>
+        <VBox prefHeight="0.0" prefWidth="920.0" spacing="10.0" VBox.vgrow="NEVER">
+            <children>
+                <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" spacing="100.0">
+                    <children>
+                        <Label fx:id="scoreLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="scoreLabel" stylesheets="@../../../common/CSS/Status.css" text="Score: " wrapText="true">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="questionIndexLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="questionIndexLabel" stylesheets="@../../../common/CSS/Status.css" text="Question: " wrapText="true">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="timerLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="timerLabel" stylesheets="@../../../common/CSS/Status.css" text="Time" wrapText="true">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="SOMETIMES">
+                    <children>
+                        <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="30.0" VBox.vgrow="ALWAYS">
+                            <children>
+
+                                <ImageView fx:id="audioIcon" fitHeight="42.0" fitWidth="42.0" onMouseClicked="#playAudio" preserveRatio="true" styleClass="audio-icon">
+                                    <image>
+                                        <Image url="@../../../common/assets/speaker.png" />
+                                    </image>
+                                </ImageView>
+                                <VBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                                    <children>
+                                        <Label fx:id="question" maxHeight="1.7976931348623157E308" styleClass="question-label" stylesheets="@../../../common/CSS/Question.css" text="a" textAlignment="CENTER" wrapText="true">
+                                            <font>
+                                                <Font size="29.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </VBox>
+                            </children>
+                            <VBox.margin>
+                                <Insets bottom="30.0" top="50.0" />
+                            </VBox.margin>
+                        </HBox>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </VBox>
+                <VBox alignment="BOTTOM_CENTER" spacing="30.0" VBox.vgrow="NEVER">
+                    <children>
+
+                        <TextField fx:id="answerTextField" maxWidth="321.0" onAction="#submitAnswer" prefHeight="82.0" prefWidth="321.0" promptText="Type your answer here" styleClass="answerTextField" stylesheets="@../CSS/TextField.css">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </TextField>
+
+                        <Button fx:id="submitButton" onAction="#submitAnswer" prefHeight="64.0" prefWidth="188.0" styleClass="submit-button" stylesheets="@../CSS/Submit.css" text="Submit">
+                            <font>
+                                <Font size="23.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+            <VBox.margin>
+                <Insets bottom="30.0" left="20.0" right="20.0" />
+            </VBox.margin>
+        </VBox>
+    </children>
+</VBox>

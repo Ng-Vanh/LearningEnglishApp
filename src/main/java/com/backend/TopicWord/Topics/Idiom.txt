@@ -1,0 +1,1880 @@
+{
+  "topic": "Idiom",
+  "words": [
+    {
+      "definition": {
+        "word": "Break the ice",
+        "type": "Phrase",
+        "phonetic": "breɪk ðə aɪs",
+        "example": "I told a joke to break the ice at the meeting.",
+        "explain": "Làm tan băng, tạo không khí thoải mái",
+        "translatedExample": "Tôi kể một câu chuyện cười để làm tan băng trong cuộc họp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "At the start of the negotiation, he made a small joke to _____.",
+          "options": {
+            "A": "cut corners",
+            "B": "break the ice",
+            "C": "hit the sack",
+            "D": "miss the boat"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Cut corners' means to do something in the easiest, quickest, or cheapest way, often sacrificing quality. B: 'Break the ice' means to do something to create a more relaxed and comfortable atmosphere. C: 'Hit the sack' means to go to bed or to sleep. D: 'Miss the boat' means to miss an opportunity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the sack",
+        "type": "Phrase",
+        "phonetic": "hɪt ðə sæk",
+        "example": "I'm really tired, I'm going to hit the sack.",
+        "explain": "Đi ngủ",
+        "translatedExample": "Tôi thực sự mệt, tôi sắp đi ngủ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After a long day of work, it's nice to hit the sack early.",
+          "sentenceWithBlank": "After a long day of work, it's nice to hit the _____ early.",
+          "wordBlank": "sack",
+          "translation": "Sau một ngày làm việc dài, thật tốt khi đi ngủ sớm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spill the beans",
+        "type": "Phrase",
+        "phonetic": "spɪl ðə biːnz",
+        "example": "He finally spilled the beans about their secret project.",
+        "explain": "Tiết lộ bí mật",
+        "translatedExample": "Cuối cùng anh ấy đã tiết lộ bí mật về dự án bí mật của họ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "During the meeting, someone accidentally _____ about the upcoming merger.",
+          "options": {
+            "A": "hit the roof",
+            "B": "spill the beans",
+            "C": "kick the bucket",
+            "D": "bite the bullet"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hit the roof' means to become very angry. B: 'Spill the beans' means to reveal a secret. C: 'Kick the bucket' is a euphemism for dying. D: 'Bite the bullet' means to endure a painful experience."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Phrase",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "I hate going to the dentist, but I'll just have to bite the bullet.",
+        "explain": "Chịu đựng, cam chịu",
+        "translatedExample": "Tôi ghét đi nha sĩ, nhưng tôi chỉ có thể cam chịu thôi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Sometimes, you just have to bite the bullet and face your fears.",
+          "sentenceWithBlank": "Sometimes, you just have to _____ the bullet and face your fears.",
+          "wordBlank": "bite",
+          "translation": "Đôi khi, bạn chỉ cần phải cam chịu và đối mặt với nỗi sợ của mình."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Kick the bucket",
+        "type": "Phrase",
+        "phonetic": "kɪk ðə ˈbʌkɪt",
+        "example": "My old car finally kicked the bucket on the way to work.",
+        "explain": "Chết, hỏng (về máy móc)",
+        "translatedExample": "Chiếc xe cũ của tôi cuối cùng đã hỏng trên đường đi làm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "When the old computer finally _____, we got a new one.",
+          "options": {
+            "A": "kicked the bucket",
+            "B": "hit the ceiling",
+            "C": "broke the ice",
+            "D": "turned the corner"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Kicked the bucket' means to die or stop working (for machines). B: 'Hit the ceiling' means to become extremely angry. C: 'Broke the ice' means to initiate a social interaction. D: 'Turned the corner' means to pass a critical point in a process."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Under the weather",
+        "type": "Phrase",
+        "phonetic": "ˈʌndər ðə ˈwɛðər",
+        "example": "I'm feeling a bit under the weather today, so I'll stay home.",
+        "explain": "Cảm thấy không khỏe",
+        "translatedExample": "Hôm nay tôi cảm thấy không khỏe, nên tôi sẽ ở nhà."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "She's under the weather and won't be coming to work today.",
+          "sentenceWithBlank": "She's _____ the weather and won't be coming to work today.",
+          "wordBlank": "under",
+          "translation": "Cô ấy cảm thấy không khỏe và sẽ không đến làm việc hôm nay."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut corners",
+        "type": "Phrase",
+        "phonetic": "kʌt ˈkɔːrnərz",
+        "example": "They cut corners to finish the project on time, but the quality suffered.",
+        "explain": "Làm việc qua loa, cẩu thả",
+        "translatedExample": "Họ làm việc qua loa để hoàn thành dự án đúng hạn, nhưng chất lượng đã giảm sút."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "To meet the deadline, the team decided to _____.",
+          "options": {
+            "A": "break the ice",
+            "B": "hit the sack",
+            "C": "cut corners",
+            "D": "spill the beans"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Break the ice' means to initiate a conversation or interaction. B: 'Hit the sack' means to go to bed. C: 'Cut corners' means to do something in the easiest, quickest, or cheapest way, often sacrificing quality. D: 'Spill the beans' means to reveal a secret."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the roof",
+        "type": "Phrase",
+        "phonetic": "hɪt ðə ruːf",
+        "example": "My dad hit the roof when he saw the dent in his car.",
+        "explain": "Nổi giận, tức giận",
+        "translatedExample": "Bố tôi nổi giận khi thấy vết lõm trên xe của ông ấy."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "When she saw the mess, she hit the roof.",
+          "sentenceWithBlank": "When she saw the mess, she hit the _____.",
+          "wordBlank": "roof",
+          "translation": "Khi cô ấy thấy bừa bộn, cô ấy đã nổi giận."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Piece of cake",
+        "type": "Phrase",
+        "phonetic": "piːs əv keɪk",
+        "example": "The test was a piece of cake; I finished it in ten minutes.",
+        "explain": "Dễ như ăn bánh",
+        "translatedExample": "Bài kiểm tra thật dễ như ăn bánh; tôi hoàn thành nó trong mười phút."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "I thought the job would be hard, but it was a _____.",
+          "options": {
+            "A": "hot potato",
+            "B": "piece of cake",
+            "C": "cold turkey",
+            "D": "bitter pill"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hot potato' refers to a controversial issue or situation that is difficult to handle. B: 'Piece of cake' means something very easy to do. C: 'Cold turkey' refers to the abrupt cessation of a habit. D: 'Bitter pill' refers to an unpleasant or painful necessity."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cold turkey",
+        "type": "Phrase",
+        "phonetic": "koʊld ˈtɜːrki",
+        "example": "He quit smoking cold turkey.",
+        "explain": "Cai nghiện đột ngột",
+        "translatedExample": "Anh ấy đã cai thuốc lá một cách đột ngột."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After years of drinking coffee, she quit cold turkey.",
+          "sentenceWithBlank": "After years of drinking coffee, she quit cold _____.",
+          "wordBlank": "turkey",
+          "translation": "Sau nhiều năm uống cà phê, cô ấy đã cai nghiện đột ngột."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bitter pill",
+        "type": "Phrase",
+        "phonetic": "ˈbɪtər pɪl",
+        "example": "Losing the championship was a bitter pill to swallow.",
+        "explain": "Điều khó chấp nhận",
+        "translatedExample": "Việc thua cuộc trong trận chung kết là điều khó chấp nhận."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "The team's defeat was a _____ to swallow.",
+          "options": {
+            "A": "hard nut",
+            "B": "bitter pill",
+            "C": "sweet cake",
+            "D": "tough cookie"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hard nut' refers to a difficult problem or situation. B: 'Bitter pill' means an unpleasant or painful necessity. C: 'Sweet cake' does not have a specific idiomatic meaning. D: 'Tough cookie' refers to someone who is strong and resilient."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hot potato",
+        "type": "Phrase",
+        "phonetic": "hɒt pəˈteɪtoʊ",
+        "example": "The political scandal became a hot potato for the government.",
+        "explain": "Vấn đề nóng hổi, nhạy cảm",
+        "translatedExample": "Vụ bê bối chính trị trở thành vấn đề nóng hổi đối với chính phủ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The issue of climate change is a hot potato in politics.",
+          "sentenceWithBlank": "The issue of climate change is a hot _____.",
+          "wordBlank": "potato",
+          "translation": "Vấn đề biến đổi khí hậu là một vấn đề nóng hổi trong chính trị."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cost an arm and a leg",
+        "type": "Idiom",
+        "phonetic": "kɒst æn ɑːm ənd ə lɛɡ",
+        "example": "Getting my car repaired is going to cost an arm and a leg.",
+        "explain": "Rất đắt đỏ, tốn rất nhiều tiền",
+        "translatedExample": "Việc sửa xe của tôi sẽ rất đắt đỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cost an arm and a leg'?",
+          "options": {
+            "A": "Budget-friendly",
+            "B": "Affordable",
+            "C": "Expensive",
+            "D": "Inexpensive"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Budget-friendly' and 'Affordable' are opposite meanings. B: 'Affordable' is the opposite of 'Cost an arm and a leg.' C: 'Expensive' is the synonym, meaning it costs a significant amount of money. D: 'Inexpensive' is the opposite of 'Cost an arm and a leg.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn the midnight oil",
+        "type": "Idiom",
+        "phonetic": "bɜːn ðə ˈmɪdnaɪt ɔɪl",
+        "example": "I had to burn the midnight oil to finish the project on time.",
+        "explain": "Làm việc cả đêm hoặc muộn hơn bình thường",
+        "translatedExample": "Tôi phải làm việc cả đêm để hoàn thành dự án đúng hạn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "To meet the deadline, he had to burn the midnight oil for several nights.",
+          "sentenceWithBlank": "To meet the deadline, he had to burn the midnight oil for several ________.",
+          "wordBlank": "nights",
+          "translation": "Để đáp ứng hạn chót, anh ta phải làm việc cả đêm trong vài đêm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jump on the bandwagon",
+        "type": "Idiom",
+        "phonetic": "dʒʌmp ɒn ðə ˈbændwæɡən",
+        "example": "Many companies are jumping on the bandwagon of sustainable practices.",
+        "explain": "Tham gia vào một xu hướng phổ biến hoặc thành công",
+        "translatedExample": "Nhiều công ty đang tham gia vào xu hướng thực hành bền vững."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Jump on the bandwagon'?",
+          "options": {
+            "A": "Follow the trend",
+            "B": "Trailblazing",
+            "C": "Adopt the trend",
+            "D": "Resist the trend"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Follow the trend' is similar in meaning. B: 'Trailblazing' is unrelated. C: 'Adopt the trend' is similar in meaning. D: 'Resist the trend' is the antonym, meaning not joining a popular or successful movement."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spill the tea",
+        "type": "Idiom",
+        "phonetic": "spɪl ðə tiː",
+        "example": "She loves to spill the tea about the latest office gossip.",
+        "explain": "Chia sẻ tin đồn hoặc thông tin mới nhất",
+        "translatedExample": "Cô ấy thích chia sẻ tin đồn về công việc mới nhất."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "During the lunch break, they often spill the tea about what's happening in the office.",
+          "sentenceWithBlank": "During the lunch break, they often spill the tea about what's happening in the ________.",
+          "wordBlank": "office",
+          "translation": "Trong giờ nghỉ trưa, họ thường xuyên chia sẻ tin đồn về những điều đang diễn ra trong văn phòng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the hay",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə heɪ",
+        "example": "After a long day at work, I'm ready to hit the hay.",
+        "explain": "Đi ngủ, đi nghỉ ngơi",
+        "translatedExample": "Sau một ngày làm việc dài, tôi sẵn sàng đi ngủ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hit the hay'?",
+          "options": {
+            "A": "Hit the road",
+            "B": "Hit the sack",
+            "C": "Hit the books",
+            "D": "Hit the beach"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Hit the road' means to start a journey. B: 'Hit the sack' is a synonym for going to bed. C: 'Hit the books' means to study. D: 'Hit the beach' means to go to the seaside."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Throw in the towel",
+        "type": "Idiom",
+        "phonetic": "θroʊ ɪn ðə ˈtaʊəl",
+        "example": "After trying to fix the computer for hours, he decided to throw in the towel.",
+        "explain": "Từ bỏ, từ chối tiếp tục một công việc khó khăn",
+        "translatedExample": "Sau khi cố gắng sửa máy tính suốt vài giờ, anh ấy quyết định từ bỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Throw in the towel'?",
+          "options": {
+            "A": "Keep going",
+            "B": "Continue trying",
+            "C": "Persist",
+            "D": "Give up"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Keep going' and 'Continue trying' are similar in meaning. B: 'Continue trying' is similar in meaning. C: 'Persist' is the antonym, meaning to continue despite difficulties. D: 'Give up' is the synonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn bridges",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ˈbrɪdʒɪz",
+        "example": "Be careful not to burn bridges with your colleagues; you might need their help in the future.",
+        "explain": "Tạo ra mối quan hệ xấu hoặc gặp khó khăn trong tương lai",
+        "translatedExample": "Hãy cẩn thận để không tạo ra mối quan hệ xấu với đồng nghiệp; bạn có thể cần sự giúp đỡ của họ trong tương lai."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "By speaking rudely to the client, he unintentionally burned bridges that could have led to future collaborations.",
+          "sentenceWithBlank": "By speaking rudely to the client, he unintentionally burned ________ that could have led to future collaborations.",
+          "wordBlank": "bridges",
+          "translation": "Bằng cách nói lời thô lỗ với khách hàng, anh ta không cố ý tạo ra mối quan hệ xấu có thể dẫn đến sự hợp tác trong tương lai."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut to the chase",
+        "type": "Idiom",
+        "phonetic": "kʌt tuː ðə tʃeɪs",
+        "example": "Let's skip the small talk and cut to the chase; what's the main point?",
+        "explain": "Điều trực tiếp vào vấn đề chính, không mất thời gian",
+        "translatedExample": "Hãy bỏ qua những cuộc trò chuyện nhỏ và đi thẳng vào vấn đề chính; điều quan trọng là gì?"
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In business negotiations, it's often more effective to cut to the chase and discuss key terms upfront.",
+          "sentenceWithBlank": "In business negotiations, it's often more effective to cut to the ________ and discuss key terms upfront.",
+          "wordBlank": "chase",
+          "translation": "Trong đàm phán kinh doanh, thường hiệu quả hơn khi đi thẳng vào vấn đề và thảo luận về các điều khoản chính ngay từ đầu."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jump through hoops",
+        "type": "Idiom",
+        "phonetic": "dʒʌmp θruː huːps",
+        "example": "To get the job, she had to jump through hoops during the interview process.",
+        "explain": "Phải vượt qua nhiều thách thức hoặc yêu cầu khó khăn",
+        "translatedExample": "Để có được công việc, cô ấy phải vượt qua nhiều thách thức trong quá trình phỏng vấn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Jump through hoops'?",
+          "options": {
+            "A": "Face challenges",
+            "B": "Overcome obstacles",
+            "C": "Bypass requirements",
+            "D": "Navigate difficulties"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Face challenges' and 'Overcome obstacles' are similar in meaning. B: 'Overcome obstacles' is similar in meaning. C: 'Bypass requirements' is the antonym, meaning to avoid difficult or unnecessary steps. D: 'Navigate difficulties' is similar in meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cost an arm and a leg",
+        "type": "Idiom",
+        "phonetic": "kɒst æn ɑːm ənd ə lɛɡ",
+        "example": "Getting my car repaired is going to cost an arm and a leg.",
+        "explain": "Rất đắt đỏ, tốn rất nhiều tiền",
+        "translatedExample": "Việc sửa xe của tôi sẽ rất đắt đỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cost an arm and a leg'?",
+          "options": {
+            "A": "Budget-friendly",
+            "B": "Affordable",
+            "C": "Expensive",
+            "D": "Inexpensive"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Budget-friendly' and 'Affordable' are opposite meanings. B: 'Affordable' is the opposite of 'Cost an arm and a leg.' C: 'Expensive' is the synonym, meaning it costs a significant amount of money. D: 'Inexpensive' is the opposite of 'Cost an arm and a leg.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Idiom",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "Facing the difficult decision, he had to bite the bullet and make a choice.",
+        "explain": "Chấp nhận một quyết định khó khăn hoặc một tình huống không dễ dàng",
+        "translatedExample": "Đối mặt với quyết định khó khăn, anh ta phải chấp nhận và đưa ra quyết định."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In times of crisis, leaders often have to bite the bullet and make tough decisions for the greater good.",
+          "sentenceWithBlank": "In times of crisis, leaders often have to bite the bullet and make tough ________ for the greater good.",
+          "wordBlank": "decisions",
+          "translation": "Trong thời kỳ khủng hoảng, các nhà lãnh đạo thường phải chấp nhận và đưa ra những quyết định khó khăn vì lợi ích chung."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break the ice",
+        "type": "Idiom",
+        "phonetic": "breɪk ðə aɪs",
+        "example": "Playing a fun game is a great way to break the ice at a party.",
+        "explain": "Làm cho môi trường trở nên thoải mái và thân thiện, thường khi gặp lần đầu tiên",
+        "translatedExample": "Chơi một trò chơi vui là cách tuyệt vời để làm cho bữa tiệc trở nên thoải mái và thân thiện khi gặp nhau lần đầu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "At the networking event, he told a joke to break the ice and start conversations with new people.",
+          "sentenceWithBlank": "At the networking event, he told a joke to break the ________ and start conversations with new people.",
+          "wordBlank": "ice",
+          "translation": "Tại sự kiện mạng lưới, anh ta kể một câu chuyện cười để làm cho môi trường trở nên thoải mái và bắt đầu cuộc trò chuyện với những người mới."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Back to the drawing board",
+        "type": "Idiom",
+        "phonetic": "bæk tuː ðə ˈdrɔːɪŋ bɔːrd",
+        "example": "The initial plan didn't work, so it's back to the drawing board for the team.",
+        "explain": "Bắt đầu lại từ đầu sau khi thất bại hoặc không thành công",
+        "translatedExample": "Kế hoạch ban đầu không thành công, vì vậy đội phải bắt đầu lại từ đầu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Back to the drawing board'?",
+          "options": {
+            "A": "Stick to the plan",
+            "B": "Continue with the plan",
+            "C": "Proceed as planned",
+            "D": "Start over"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Stick to the plan' is similar in meaning. B: 'Continue with the plan' is the antonym, meaning not starting over. C: 'Proceed as planned' is similar in meaning. D: 'Start over' is the synonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the nail on the head",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə neɪl ɒn ðə hɛd",
+        "example": "Her analysis of the situation really hit the nail on the head.",
+        "explain": "Hiểu đúng nguyên nhân hoặc vấn đề chính",
+        "translatedExample": "Phân tích của cô về tình hình thực sự hiểu đúng vấn đề chính."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hit the nail on the head'?",
+          "options": {
+            "A": "Miss the point",
+            "B": "Understand completely",
+            "C": "Misinterpret",
+            "D": "Get to the bottom of"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Miss the point' is the opposite. B: 'Understand completely' is similar in meaning. C: 'Misinterpret' is the opposite. D: 'Get to the bottom of' is a synonym, meaning to understand the core or root of the matter."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jump on the bandwagon",
+        "type": "Idiom",
+        "phonetic": "dʒʌmp ɒn ðə ˈbændwæɡən",
+        "example": "When a trend becomes popular, many people jump on the bandwagon.",
+        "explain": "Tham gia vào một xu hướng phổ biến hoặc thành công",
+        "translatedExample": "Khi một xu hướng trở nên phổ biến, nhiều người tham gia vào."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Jump on the bandwagon'?",
+          "options": {
+            "A": "Follow the trend",
+            "B": "Trailblazing",
+            "C": "Adopt the trend",
+            "D": "Resist the trend"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Follow the trend' is similar in meaning. B: 'Trailblazing' is unrelated. C: 'Adopt the trend' is similar in meaning. D: 'Resist the trend' is the antonym, meaning not joining a popular or successful movement."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn the midnight oil",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ðə ˈmɪdnaɪt ɔɪl",
+        "example": "I had to burn the midnight oil to finish the project on time.",
+        "explain": "Làm việc cả đêm hoặc muộn hơn bình thường",
+        "translatedExample": "Tôi phải làm việc cả đêm để hoàn thành dự án đúng hạn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "To meet the deadline, he had to burn the midnight oil for several nights.",
+          "sentenceWithBlank": "To meet the deadline, he had to burn the midnight oil for several ________.",
+          "wordBlank": "nights",
+          "translation": "Để đáp ứng hạn chót, anh ta phải làm việc cả đêm trong vài đêm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cry over spilled milk",
+        "type": "Idiom",
+        "phonetic": "kraɪ ˈoʊvər spɪld mɪlk",
+        "example": "There's no use crying over spilled milk; let's focus on finding a solution.",
+        "explain": "Lamenting a past mistake or misfortune that cannot be undone",
+        "translatedExample": "Không có ý nghĩa gì khi than vãn về một sai lầm hoặc điều không may đã xảy ra và không thể làm lại."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cry over spilled milk'?",
+          "options": {
+            "A": "Learn from mistakes",
+            "B": "Move forward",
+            "C": "Dwell on the past",
+            "D": "Find a solution"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Learn from mistakes' is similar in meaning. B: 'Move forward' is similar in meaning. C: 'Dwell on the past' is the opposite. D: 'Find a solution' is the antonym, encouraging a focus on resolving the issue."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn the candle at both ends",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ðə ˈkændl æt boʊθ ɛndz",
+        "example": "Working two jobs is like burning the candle at both ends; it's exhausting.",
+        "explain": "Overworking or exhausting oneself by doing too much",
+        "translatedExample": "Làm hai công việc giống như việc đốt cháy nến ở cả hai đầu; nó làm mệt mỏi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "She burned the candle at both ends to meet the project deadline, but it took a toll on her health.",
+          "sentenceWithBlank": "She burned the candle at both ends to meet the project ________, but it took a toll on her health.",
+          "wordBlank": "deadline",
+          "translation": "Cô ấy làm việc quá mức để đáp ứng hạn chót dự án, nhưng nó đã ảnh hưởng đến sức khỏe của cô ấy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the ground running",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə ɡraʊnd ˈrʌnɪŋ",
+        "example": "On her first day at the new job, she was ready to hit the ground running.",
+        "explain": "Starting a new project or job with energy and enthusiasm",
+        "translatedExample": "Ngày đầu tiên làm việc ở công ty mới, cô ấy đã sẵn sàng bắt đầu mạnh mẽ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hit the ground running'?",
+          "options": {
+            "A": "Start slowly",
+            "B": "Begin gradually",
+            "C": "Commence energetically",
+            "D": "Initiate cautiously"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Start slowly' and 'Begin gradually' are opposite meanings. B: 'Begin gradually' is similar in meaning. C: 'Commence energetically' is the synonym, indicating starting a task or project with energy. D: 'Initiate cautiously' is the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break a leg",
+        "type": "Idiom",
+        "phonetic": "breɪk ə lɛɡ",
+        "example": "Before going on stage, the actor wished his colleagues to break a leg for good luck.",
+        "explain": "Wishing someone good luck, especially in a performance or undertaking",
+        "translatedExample": "Trước khi bước lên sân khấu, diễn viên chúc đồng nghiệp 'break a leg' để chúc may mắn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a performance.",
+          "sentenceWithBlank": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a ________.",
+          "wordBlank": "performance",
+          "translation": "Trong thế giới sân khấu, nói 'break a leg' là một cách mê tín để chúc may mắn trước một buổi biểu diễn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite off more than one can chew",
+        "type": "Idiom",
+        "phonetic": "baɪt ɒf mɔːr ðæn wʌn kæn tʃuː",
+        "example": "Taking on two major projects at once, she realized she had bitten off more than she could chew.",
+        "explain": "Taking on a task that is way too big or committing to more than one can handle",
+        "translatedExample": "Nhận hai dự án lớn cùng một lúc, cô ấy nhận ra mình đã làm nhiều hơn mình có thể xử lý."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Bite off more than one can chew'?",
+          "options": {
+            "A": "Take manageable tasks",
+            "B": "Handle a reasonable workload",
+            "C": "Accept a modest challenge",
+            "D": "Commit to less than one can handle"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Take manageable tasks' is similar in meaning. B: 'Handle a reasonable workload' is similar in meaning. C: 'Accept a modest challenge' is similar in meaning. D: 'Commit to less than one can handle' is the antonym, advising against taking on too much."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut the mustard",
+        "type": "Idiom",
+        "phonetic": "kʌt ðə ˈmʌstərd",
+        "example": "His performance didn't quite cut the mustard for the lead role in the play.",
+        "explain": "Not meeting expectations or performing well enough",
+        "translatedExample": "Bản diễn của anh ấy không đạt đến mong đợi cho vai chính trong vở kịch."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In the audition, she tried her best, but her singing didn't cut the mustard for the musical lead.",
+          "sentenceWithBlank": "In the audition, she tried her best, but her singing didn't ________ for the musical lead.",
+          "wordBlank": "cut the mustard",
+          "translation": "Trong buổi thử giọng, cô ấy đã cố gắng hết sức, nhưng việc hát của cô ấy không đạt đến mong đợi cho vai chính trong vở nhạc kịch."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cost an arm and a leg",
+        "type": "Idiom",
+        "phonetic": "kɒst æn ɑːm ənd ə lɛɡ",
+        "example": "Getting my car repaired is going to cost an arm and a leg.",
+        "explain": "Rất đắt đỏ, tốn rất nhiều tiền",
+        "translatedExample": "Việc sửa xe của tôi sẽ rất đắt đỏ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cost an arm and a leg'?",
+          "options": {
+            "A": "Budget-friendly",
+            "B": "Affordable",
+            "C": "Expensive",
+            "D": "Inexpensive"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Budget-friendly' and 'Affordable' are opposite meanings. B: 'Affordable' is the opposite of 'Cost an arm and a leg.' C: 'Expensive' is the synonym, meaning it costs a significant amount of money. D: 'Inexpensive' is the opposite of 'Cost an arm and a leg.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Idiom",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "Facing the difficult decision, he had to bite the bullet and make a choice.",
+        "explain": "Chấp nhận một quyết định khó khăn hoặc một tình huống không dễ dàng",
+        "translatedExample": "Đối mặt với quyết định khó khăn, anh ta phải chấp nhận và đưa ra quyết định."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In times of crisis, leaders often have to bite the bullet and make tough decisions for the greater good.",
+          "sentenceWithBlank": "In times of crisis, leaders often have to bite the bullet and make tough ________ for the greater good.",
+          "wordBlank": "decisions",
+          "translation": "Trong thời kỳ khủng hoảng, các nhà lãnh đạo thường phải chấp nhận và đưa ra những quyết định khó khăn vì lợi ích chung."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break the ice",
+        "type": "Idiom",
+        "phonetic": "breɪk ðə aɪs",
+        "example": "Playing a fun game is a great way to break the ice at a party.",
+        "explain": "Làm cho môi trường trở nên thoải mái và thân thiện, thường khi gặp lần đầu tiên",
+        "translatedExample": "Chơi một trò chơi vui là cách tuyệt vời để làm cho bữa tiệc trở nên thoải mái và thân thiện khi gặp nhau lần đầu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "At the networking event, he told a joke to break the ice and start conversations with new people.",
+          "sentenceWithBlank": "At the networking event, he told a joke to break the ________ and start conversations with new people.",
+          "wordBlank": "ice",
+          "translation": "Tại sự kiện mạng lưới, anh ta kể một câu chuyện cười để làm cho môi trường trở nên thoải mái và bắt đầu cuộc trò chuyện với những người mới."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Back to the drawing board",
+        "type": "Idiom",
+        "phonetic": "bæk tuː ðə ˈdrɔːɪŋ bɔːrd",
+        "example": "The initial plan didn't work, so it's back to the drawing board for the team.",
+        "explain": "Bắt đầu lại từ đầu sau khi thất bại hoặc không thành công",
+        "translatedExample": "Kế hoạch ban đầu không thành công, vì vậy đội phải bắt đầu lại từ đầu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Back to the drawing board'?",
+          "options": {
+            "A": "Stick to the plan",
+            "B": "Continue with the plan",
+            "C": "Proceed as planned",
+            "D": "Start over"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Stick to the plan' is similar in meaning. B: 'Continue with the plan' is the antonym, meaning not starting over. C: 'Proceed as planned' is similar in meaning. D: 'Start over' is the synonym."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn the midnight oil",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ðə ˈmɪdnaɪt ɔɪl",
+        "example": "I had to burn the midnight oil to finish the project on time.",
+        "explain": "Làm việc cả đêm hoặc muộn hơn bình thường",
+        "translatedExample": "Tôi phải làm việc cả đêm để hoàn thành dự án đúng hạn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "To meet the deadline, he had to burn the midnight oil for several nights.",
+          "sentenceWithBlank": "To meet the deadline, he had to burn the midnight oil for several ________.",
+          "wordBlank": "nights",
+          "translation": "Để đáp ứng hạn chót, anh ta phải làm việc cả đêm trong vài đêm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Idiom",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "Facing the difficult decision, he had to bite the bullet and make a choice.",
+        "explain": "Chấp nhận một quyết định khó khăn hoặc một tình huống không dễ dàng",
+        "translatedExample": "Đối mặt với quyết định khó khăn, anh ta phải chấp nhận và đưa ra quyết định."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In times of crisis, leaders often have to bite the bullet and make tough decisions for the greater good.",
+          "sentenceWithBlank": "In times of crisis, leaders often have to bite the bullet and make tough ________ for the greater good.",
+          "wordBlank": "decisions",
+          "translation": "Trong thời kỳ khủng hoảng, các nhà lãnh đạo thường phải chấp nhận và đưa ra những quyết định khó khăn vì lợi ích chung."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn the candle at both ends",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ðə ˈkændl æt boʊθ ɛndz",
+        "example": "Working two jobs is like burning the candle at both ends; it's exhausting.",
+        "explain": "Overworking or exhausting oneself by doing too much",
+        "translatedExample": "Làm hai công việc giống như việc đốt cháy nến ở cả hai đầu; nó làm mệt mỏi."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "She burned the candle at both ends to meet the project deadline, but it took a toll on her health.",
+          "sentenceWithBlank": "She burned the candle at both ends to meet the project ________, but it took a toll on her health.",
+          "wordBlank": "deadline",
+          "translation": "Cô ấy làm việc quá mức để đáp ứng hạn chót dự án, nhưng nó đã ảnh hưởng đến sức khỏe của cô ấy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the ground running",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə ɡraʊnd ˈrʌnɪŋ",
+        "example": "On her first day at the new job, she was ready to hit the ground running.",
+        "explain": "Starting a new project or job with energy and enthusiasm",
+        "translatedExample": "Ngày đầu tiên làm việc ở công ty mới, cô ấy đã sẵn sàng bắt đầu mạnh mẽ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hit the ground running'?",
+          "options": {
+            "A": "Start slowly",
+            "B": "Begin gradually",
+            "C": "Commence energetically",
+            "D": "Initiate cautiously"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Start slowly' and 'Begin gradually' are opposite meanings. B: 'Begin gradually' is similar in meaning. C: 'Commence energetically' is the synonym, indicating starting a task or project with energy. D: 'Initiate cautiously' is the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break a leg",
+        "type": "Idiom",
+        "phonetic": "breɪk ə lɛɡ",
+        "example": "Before going on stage, the actor wished his colleagues to break a leg for good luck.",
+        "explain": "Wishing someone good luck, especially in a performance or undertaking",
+        "translatedExample": "Trước khi bước lên sân khấu, diễn viên chúc đồng nghiệp 'break a leg' để chúc may mắn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a performance.",
+          "sentenceWithBlank": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a ________.",
+          "wordBlank": "performance",
+          "translation": "Trong thế giới sân khấu, nói 'break a leg' là một cách mê tín để chúc may mắn trước một buổi biểu diễn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Beat around the bush",
+        "type": "Idiom",
+        "phonetic": "biːt əˈraʊnd ðə bʊʃ",
+        "example": "Stop beating around the bush and tell me directly what you want.",
+        "explain": "Tránh bàn luận trực tiếp, nói vòng vo để tránh chủ đề chính",
+        "translatedExample": "Ngưng nói vòng vo và nói cho tôi trực tiếp điều bạn muốn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Beat around the bush'?",
+          "options": {
+            "A": "Speak directly",
+            "B": "Avoid the issue",
+            "C": "Elaborate on details",
+            "D": "Discuss openly"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Speak directly' is the antonym, meaning not avoiding the main topic. B: 'Avoid the issue' is similar in meaning. C: 'Elaborate on details' is similar in meaning. D: 'Discuss openly' is similar in meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break a leg",
+        "type": "Idiom",
+        "phonetic": "breɪk ə lɛɡ",
+        "example": "Before going on stage, the actor wished his colleagues to break a leg for good luck.",
+        "explain": "Chúc ai đó may mắn, đặc biệt trong một buổi biểu diễn hoặc công việc quan trọng",
+        "translatedExample": "Trước khi bước lên sân khấu, diễn viên chúc đồng nghiệp 'break a leg' để chúc may mắn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a performance.",
+          "sentenceWithBlank": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a ________.",
+          "wordBlank": "performance",
+          "translation": "Trong thế giới sân khấu, nói 'break a leg' là một cách mê tín để chúc may mắn trước một buổi biểu diễn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Idiom",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "Facing the difficult decision, he had to bite the bullet and make a choice.",
+        "explain": "Chấp nhận một quyết định khó khăn hoặc một tình huống không dễ dàng",
+        "translatedExample": "Đối mặt với quyết định khó khăn, anh ta phải chấp nhận và đưa ra quyết định."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In times of crisis, leaders often have to bite the bullet and make tough decisions for the greater good.",
+          "sentenceWithBlank": "In times of crisis, leaders often have to bite the bullet and make tough ________ for the greater good.",
+          "wordBlank": "decisions",
+          "translation": "Trong thời kỳ khủng hoảng, các nhà lãnh đạo thường phải chấp nhận và đưa ra những quyết định khó khăn vì lợi ích chung."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn the midnight oil",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ðə ˈmɪdnaɪt ɔɪl",
+        "example": "I had to burn the midnight oil to finish the project on time.",
+        "explain": "Làm việc cả đêm hoặc muộn hơn bình thường",
+        "translatedExample": "Tôi phải làm việc cả đêm để hoàn thành dự án đúng hạn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "To meet the deadline, he had to burn the midnight oil for several nights.",
+          "sentenceWithBlank": "To meet the deadline, he had to burn the midnight oil for several ________.",
+          "wordBlank": "nights",
+          "translation": "Để đáp ứng hạn chót, anh ta phải làm việc cả đêm trong vài đêm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite off more than one can chew",
+        "type": "Idiom",
+        "phonetic": "baɪt ɒf mɔːr ðæn wʌn kæn tʃuː",
+        "example": "Taking on two major projects at once, she realized she had bitten off more than she could chew.",
+        "explain": "Nhận một nhiệm vụ quá lớn hoặc cam kết nhiều hơn mình có thể xử lý",
+        "translatedExample": "Nhận hai dự án lớn cùng một lúc, cô ấy nhận ra mình đã làm nhiều hơn mình có thể xử lý."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Bite off more than one can chew'?",
+          "options": {
+            "A": "Take manageable tasks",
+            "B": "Handle a reasonable workload",
+            "C": "Accept a modest challenge",
+            "D": "Commit to less than one can handle"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Take manageable tasks' is similar in meaning. B: 'Handle a reasonable workload' is similar in meaning. C: 'Accept a modest challenge' is similar in meaning. D: 'Commit to less than one can handle' is the antonym, meaning not taking on too much."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Blessing in disguise",
+        "type": "Idiom",
+        "phonetic": "ˈblɛsɪŋ ɪn dɪsˈɡaɪz",
+        "example": "Losing the job turned out to be a blessing in disguise as it led to a better opportunity.",
+        "explain": "Sự kiện ban đầu có vẻ xấu xa nhưng sau cùng lại mang lại điều tốt lành",
+        "translatedExample": "Việc mất việc cuối cùng lại trở thành một điều may mắn vì nó dẫn đến một cơ hội tốt hơn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Blessing in disguise'?",
+          "options": {
+            "A": "Unfortunate event",
+            "B": "Hidden misfortune",
+            "C": "Lucky break",
+            "D": "Cursed occurrence"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Unfortunate event' and 'Hidden misfortune' are similar in meaning. B: 'Hidden misfortune' is similar in meaning. C: 'Lucky break' is the synonym, indicating an unexpected stroke of luck. D: 'Cursed occurrence' is the opposite meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Blue in the face",
+        "type": "Idiom",
+        "phonetic": "bluː ɪn ðə feɪs",
+        "example": "I've argued with him until I'm blue in the face, but he won't change his mind.",
+        "explain": "Thực hiện một hành động một cách rất nhiều lần mà không có kết quả",
+        "translatedExample": "Tôi đã tranh cãi với anh ấy đến mức tôi đã làm xanh mặt, nhưng anh ấy không đổi ý kiến."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Blue in the face'?",
+          "options": {
+            "A": "Consistent effort",
+            "B": "Persistent persuasion",
+            "C": "Effective argument",
+            "D": "Give up easily"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Consistent effort' and 'Persistent persuasion' are similar in meaning. B: 'Persistent persuasion' is similar in meaning. C: 'Effective argument' is the opposite. D: 'Give up easily' is the antonym, indicating stopping an action after numerous attempts without success."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Burn bridges",
+        "type": "Idiom",
+        "phonetic": "bɜːrn ˈbrɪdʒɪz",
+        "example": "Quitting a job without notice can burn bridges and harm future opportunities.",
+        "explain": "Chấm dứt mối quan hệ hoặc kết nối một cách tiêu cực",
+        "translatedExample": "Nghỉ việc mà không thông báo trước có thể làm đứt mọi mối quan hệ và ảnh hưởng đến cơ hội tương lai."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Burn bridges'?",
+          "options": {
+            "A": "Foster connections",
+            "B": "Build relationships",
+            "C": "Strengthen ties",
+            "D": "Maintain links"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Foster connections' and 'Build relationships' are similar in meaning. B: 'Build relationships' is the antonym, indicating actively creating and maintaining connections. C: 'Strengthen ties' is similar in meaning. D: 'Maintain links' is similar in meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the sack",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə sæk",
+        "example": "After a long day at work, I can't wait to hit the sack and get some sleep.",
+        "explain": "Đi ngủ hoặc nghỉ ngơi, đặc biệt sau một ngày dài làm việc",
+        "translatedExample": "Sau một ngày làm việc dài, tôi không thể chờ đợi để đi ngủ và có một chút giấc ngủ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After the party, everyone was exhausted and ready to hit the sack for a good night's sleep.",
+          "sentenceWithBlank": "After the party, everyone was exhausted and ready to hit the ________ for a good night's sleep.",
+          "wordBlank": "sack",
+          "translation": "Sau bữa tiệc, mọi người đều mệt mỏi và sẵn sàng đi ngủ để có một đêm ngon giấc."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bitter pill",
+        "type": "Idiom",
+        "phonetic": "ˈbɪtər pɪl",
+        "example": "Receiving criticism can be a bitter pill to swallow, but it helps personal growth.",
+        "explain": "Một sự thực hoặc sự kiện khó chịu hoặc khó chấp nhận, nhưng thường mang lại lợi ích",
+        "translatedExample": "Nhận phê bình có thể là một sự thực khó chịu, nhưng nó giúp cho sự phát triển cá nhân."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Facing a setback can be a bitter pill, but it provides an opportunity to learn and improve.",
+          "sentenceWithBlank": "Facing a setback can be a ________ pill, but it provides an opportunity to learn and improve.",
+          "wordBlank": "bitter",
+          "translation": "Đối mặt với một thất bại có thể là một viên thuốc đắng, nhưng nó mang lại cơ hội học hỏi và cải thiện."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break a leg",
+        "type": "Idiom",
+        "phonetic": "breɪk ə lɛɡ",
+        "example": "Before going on stage, the actor wished his colleagues to break a leg for good luck.",
+        "explain": "Chúc ai đó may mắn, đặc biệt trong một buổi biểu diễn hoặc công việc quan trọng",
+        "translatedExample": "Trước khi bước lên sân khấu, diễn viên chúc đồng nghiệp 'break a leg' để chúc may mắn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a performance.",
+          "sentenceWithBlank": "In the theater world, saying 'break a leg' is a superstitious way to wish someone good luck before a ________.",
+          "wordBlank": "performance",
+          "translation": "Trong thế giới sân khấu, nói 'break a leg' là một cách mê tín để chúc may mắn trước một buổi biểu diễn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite off more than one can chew",
+        "type": "Idiom",
+        "phonetic": "baɪt ɒf mɔːr ðæn wʌn kæn tʃuː",
+        "example": "Taking on two major projects at once, she realized she had bitten off more than she could chew.",
+        "explain": "Nhận một nhiệm vụ quá lớn hoặc cam kết nhiều hơn mình có thể xử lý",
+        "translatedExample": "Nhận hai dự án lớn cùng một lúc, cô ấy nhận ra mình đã làm nhiều hơn mình có thể xử lý."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Bite off more than one can chew'?",
+          "options": {
+            "A": "Take manageable tasks",
+            "B": "Handle a reasonable workload",
+            "C": "Accept a modest challenge",
+            "D": "Commit to less than one can handle"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Take manageable tasks' is similar in meaning. B: 'Handle a reasonable workload' is similar in meaning. C: 'Accept a modest challenge' is similar in meaning. D: 'Commit to less than one can handle' is the antonym, meaning not taking on too much."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break the ice",
+        "type": "Idiom",
+        "phonetic": "breɪk ðə aɪs",
+        "example": "Playing a fun game is a great way to break the ice at a party.",
+        "explain": "Làm cho môi trường trở nên thoải mái và dễ thân thiện, đặc biệt là khi gặp lần đầu",
+        "translatedExample": "Chơi một trò chơi vui là cách tuyệt vời để làm cho bữa tiệc trở nên thoải mái và dễ thân thiện, đặc biệt là khi gặp lần đầu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Break the ice'?",
+          "options": {
+            "A": "Freeze the atmosphere",
+            "B": "Warm up the environment",
+            "C": "Maintain a chilly ambiance",
+            "D": "Keep the distance"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Freeze the atmosphere' and 'Maintain a chilly ambiance' are opposite meanings. B: 'Warm up the environment' is the synonym, indicating making the atmosphere more comfortable and friendly. C: 'Maintain a chilly ambiance' is the opposite. D: 'Keep the distance' is the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the bullet",
+        "type": "Idiom",
+        "phonetic": "baɪt ðə ˈbʊlɪt",
+        "example": "Facing the difficult decision, he had to bite the bullet and make a choice.",
+        "explain": "Chấp nhận một quyết định khó khăn hoặc một tình huống không dễ dàng",
+        "translatedExample": "Đối mặt với quyết định khó khăn, anh ta phải chấp nhận và đưa ra quyết định."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In times of crisis, leaders often have to bite the bullet and make tough decisions for the greater good.",
+          "sentenceWithBlank": "In times of crisis, leaders often have to bite the bullet and make tough ________ for the greater good.",
+          "wordBlank": "decisions",
+          "translation": "Trong thời kỳ khủng hoảng, các nhà lãnh đạo thường phải chấp nhận và đưa ra những quyết định khó khăn vì lợi ích chung."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite off more than one can chew",
+        "type": "Idiom",
+        "phonetic": "baɪt ɒf mɔːr ðæn wʌn kæn tʃuː",
+        "example": "Taking on two major projects at once, she realized she had bitten off more than she could chew.",
+        "explain": "Nhận một nhiệm vụ quá lớn hoặc cam kết nhiều hơn mình có thể xử lý",
+        "translatedExample": "Nhận hai dự án lớn cùng một lúc, cô ấy nhận ra mình đã làm nhiều hơn mình có thể xử lý."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Bite off more than one can chew'?",
+          "options": {
+            "A": "Take manageable tasks",
+            "B": "Handle a reasonable workload",
+            "C": "Accept a modest challenge",
+            "D": "Commit to less than one can handle"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Take manageable tasks' is similar in meaning. B: 'Handle a reasonable workload' is similar in meaning. C: 'Accept a modest challenge' is similar in meaning. D: 'Commit to less than one can handle' is the antonym, meaning not taking on too much."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break the ice",
+        "type": "Idiom",
+        "phonetic": "breɪk ðə aɪs",
+        "example": "Playing a fun game is a great way to break the ice at a party.",
+        "explain": "Làm cho môi trường trở nên thoải mái và dễ thân thiện, đặc biệt là khi gặp lần đầu",
+        "translatedExample": "Chơi một trò chơi vui là cách tuyệt vời để làm cho bữa tiệc trở nên thoải mái và dễ thân thiện, đặc biệt là khi gặp lần đầu."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Break the ice'?",
+          "options": {
+            "A": "Freeze the atmosphere",
+            "B": "Warm up the environment",
+            "C": "Maintain a chilly ambiance",
+            "D": "Keep the distance"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Freeze the atmosphere' and 'Maintain a chilly ambiance' are opposite meanings. B: 'Warm up the environment' is the synonym, indicating making the atmosphere more comfortable and friendly. C: 'Maintain a chilly ambiance' is the opposite. D: 'Keep the distance' is the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cold turkey",
+        "type": "Idiom",
+        "phonetic": "koʊld ˈtɜrki",
+        "example": "Quitting smoking cold turkey can be challenging, but it's an effective way to break the habit.",
+        "explain": "Ngừng một thói quen đột ngột mà không có sự chuẩn bị trước",
+        "translatedExample": "Ngừng hút thuốc lá đột ngột có thể thách thức, nhưng đó là một cách hiệu quả để bỏ thói quen."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cold turkey'?",
+          "options": {
+            "A": "Gradual reduction",
+            "B": "Slow withdrawal",
+            "C": "Gradual cessation",
+            "D": "Abrupt cessation"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Gradual reduction' and 'Slow withdrawal' are similar in meaning. B: 'Gradual cessation' is similar in meaning. C: 'Abrupt cessation' is the synonym, indicating stopping something suddenly and completely."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cost an arm and a leg",
+        "type": "Idiom",
+        "phonetic": "kɒst ən ɑːrm ænd ə lɛɡ",
+        "example": "Getting the car repaired is going to cost an arm and a leg.",
+        "explain": "Rất đắt đỏ hoặc tốn kém nhiều tiền",
+        "translatedExample": "Sửa chữa chiếc xe sẽ là một chiến dịch đắt đỏ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Buying a designer handbag can cost an arm and a leg, but some people find it worth the investment.",
+          "sentenceWithBlank": "Buying a designer handbag can cost an ________ and a leg, but some people find it worth the investment.",
+          "wordBlank": "arm",
+          "translation": "Mua một chiếc túi xách thương hiệu có thể rất đắt, nhưng một số người cho rằng đó là đáng đầu tư."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cry over spilled milk",
+        "type": "Idiom",
+        "phonetic": "kraɪ ˈoʊvər spɪld mɪlk",
+        "example": "There's no use crying over spilled milk; let's focus on finding a solution.",
+        "explain": "Không nên tiếc nuối về những điều đã xảy ra và thay vào đó hãy tập trung vào giải pháp tương lai",
+        "translatedExample": "Không có ý nghĩa gì khi than vãn về những chuyện đã xảy ra; hãy tập trung vào việc tìm ra giải pháp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cry over spilled milk'?",
+          "options": {
+            "A": "Learn from mistakes",
+            "B": "Dwell on past errors",
+            "C": "Move forward",
+            "D": "Reflect on the past"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Learn from mistakes' is similar in meaning. B: 'Dwell on past errors' is similar in meaning. C: 'Move forward' is the antonym, meaning not dwelling on past mistakes. D: 'Reflect on the past' is similar in meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut corners",
+        "type": "Idiom",
+        "phonetic": "kʌt ˈkɔːrnərz",
+        "example": "Trying to cut corners in a construction project can lead to poor quality and safety issues.",
+        "explain": "Làm việc một cách nhanh chóng hoặc tiết kiệm mà không đảm bảo chất lượng",
+        "translatedExample": "Cố gắng làm việc nhanh chóng trong một dự án xây dựng có thể dẫn đến chất lượng kém và vấn đề về an toàn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In business, it's important not to cut corners when it comes to ethical practices.",
+          "sentenceWithBlank": "In business, it's important not to cut ________ when it comes to ethical practices.",
+          "wordBlank": "corners",
+          "translation": "Trong kinh doanh, quan trọng là không nên làm mọi cách để tiết kiệm khi đến với các nguyên tắc đạo đức."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut the mustard",
+        "type": "Idiom",
+        "phonetic": "kʌt ðə ˈmʌstərd",
+        "example": "To succeed in this job, you need to prove you can cut the mustard.",
+        "explain": "Thực hiện một nhiệm vụ hoặc công việc một cách xuất sắc và đạt được yêu cầu",
+        "translatedExample": "Để thành công trong công việc này, bạn cần chứng minh được bạn có thể thực hiện nó một cách xuất sắc."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Cut the mustard'?",
+          "options": {
+            "A": "Meet the requirements",
+            "B": "Excel in the task",
+            "C": "Fulfill expectations",
+            "D": "Fall short"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Meet the requirements,' 'Excel in the task,' and 'Fulfill expectations' are similar in meaning. D: 'Fall short' is the antonym, indicating not meeting the expected standards."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the ground running",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə ɡraʊnd ˈrʌnɪŋ",
+        "example": "After the training, the new employee was ready to hit the ground running and contribute to the team.",
+        "explain": "Bắt đầu một công việc một cách nhanh chóng và hiệu quả ngay từ lúc đầu",
+        "translatedExample": "Sau khóa đào tạo, nhân viên mới đã sẵn sàng bắt đầu làm việc một cách nhanh chóng và đóng góp cho đội nhóm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In a dynamic work environment, it's essential to be able to hit the ground running and adapt quickly to changes.",
+          "sentenceWithBlank": "In a dynamic work environment, it's essential to be able to hit the ________ running and adapt quickly to changes.",
+          "wordBlank": "ground",
+          "translation": "Trong môi trường làm việc năng động, quan trọng là có khả năng bắt đầu một cách nhanh chóng và thích ứng nhanh chóng với sự thay đổi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the hay",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə heɪ",
+        "example": "After a long day, I'm ready to hit the hay and get a good night's sleep.",
+        "explain": "Đi ngủ hoặc chuẩn bị đi ngủ",
+        "translatedExample": "Sau một ngày dài, tôi sẵn sàng đi ngủ và có một đêm ngon giấc."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "After the celebration, everyone was exhausted and eager to hit the hay for a restful night.",
+          "sentenceWithBlank": "After the celebration, everyone was exhausted and eager to hit the ________ for a restful night.",
+          "wordBlank": "hay",
+          "translation": "Sau buổi kỷ niệm, mọi người đều mệt mỏi và háo hức đi ngủ để có một đêm thư giãn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the nail on the head",
+        "type": "Idiom",
+        "phonetic": "hɪt ðə neɪl ɒn ðə hɛd",
+        "example": "She really hit the nail on the head with her analysis of the market trends.",
+        "explain": "Mô tả một hành động nói hoặc làm chính xác và chính xác vấn đề",
+        "translatedExample": "Cô ấy thực sự làm rơi đúng mũi đinh vào đầu với phân tích của mình về xu hướng thị trường."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Hit the nail on the head'?",
+          "options": {
+            "A": "Miss the point",
+            "B": "Avoid the issue",
+            "C": "Address the concern",
+            "D": "Get to the heart of the matter"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Miss the point' and 'Avoid the issue' are opposite meanings. B: 'Avoid the issue' is the opposite. C: 'Address the concern' is similar in meaning. D: 'Get to the heart of the matter' is the synonym, indicating accurately identifying the central issue."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Jump on the bandwagon",
+        "type": "Idiom",
+        "phonetic": "dʒʌmp ɒn ðə ˈbændwæɡən",
+        "example": "After the team's success, many people wanted to jump on the bandwagon and support them.",
+        "explain": "Tham gia vào một trào lưu hoặc xu hướng sau khi nó đã trở nên phổ biến",
+        "translatedExample": "Sau sự thành công của đội, nhiều người muốn tham gia vào trào lưu và ủng hộ họ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "When the new product became popular, many companies tried to jump on the bandwagon and release similar items.",
+          "sentenceWithBlank": "When the new product became popular, many companies tried to jump on the ________ and release similar items.",
+          "wordBlank": "bandwagon",
+          "translation": "Khi sản phẩm mới trở nên phổ biến, nhiều công ty cố gắng tham gia vào trào lưu và phát hành những sản phẩm tương tự."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hold water",
+        "type": "Phrase",
+        "phonetic": "hoʊld ˈwɔː.tər",
+        "example": "His argument doesn't hold water in a court of law.",
+        "explain": "Lập luận không vững chắc",
+        "translatedExample": "Lập luận của anh ấy không vững chắc trong tòa án."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "If an explanation cannot _____, it's probably not a good argument.",
+          "options": {
+            "A": "Hold water",
+            "B": "Hold fire",
+            "C": "Hold air",
+            "D": "Hold ground"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Hold water' means to be sound, valid, or reasonable. B, C, D: These phrases do not convey the same meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cold feet",
+        "type": "Phrase",
+        "phonetic": "koʊld fiːt",
+        "example": "She got cold feet before her wedding and called it off.",
+        "explain": "Mất hết can đảm, lo sợ",
+        "translatedExample": "Cô ấy mất hết can đảm trước đám cưới và đã hủy bỏ nó."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Getting cold feet before a major decision is quite common.",
+          "sentenceWithBlank": "Getting _____ before a major decision is quite common.",
+          "wordBlank": "cold feet",
+          "translation": "Việc mất hết can đảm trước một quyết định lớn là khá phổ biến."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Red herring",
+        "type": "Phrase",
+        "phonetic": "rɛd ˈhɛr.ɪŋ",
+        "example": "The detective realized that the clue was a red herring.",
+        "explain": "Dấu vết lạc hướng",
+        "translatedExample": "Thám tử nhận ra rằng manh mối đó là dấu vết lạc hướng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which of the following is a synonym for 'Red herring'?",
+          "options": {
+            "A": "True clue",
+            "B": "False lead",
+            "C": "Direct evidence",
+            "D": "Honest hint"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'True clue' is an accurate piece of evidence. B: 'False lead' is a synonym for 'Red herring,' meaning misleading information. C: 'Direct evidence' is straightforward proof. D: 'Honest hint' suggests a genuine piece of advice."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Wild goose chase",
+        "type": "Phrase",
+        "phonetic": "waɪld ɡus tʃeɪs",
+        "example": "Looking for the lost key in the park was a wild goose chase.",
+        "explain": "Cuộc tìm kiếm vô ích",
+        "translatedExample": "Việc tìm chiếc chìa khóa bị mất trong công viên là một cuộc tìm kiếm vô ích."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Wild goose chase'?",
+          "options": {
+            "A": "Fruitful search",
+            "B": "Lazy effort",
+            "C": "Random walk",
+            "D": "Aimless journey"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Fruitful search' implies a successful and productive search, opposite of a 'Wild goose chase.' B, C, D: These do not represent the opposite meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sit tight",
+        "type": "Phrase",
+        "phonetic": "sɪt taɪt",
+        "example": "Just sit tight until we get more information.",
+        "explain": "Kiên nhẫn chờ đợi",
+        "translatedExample": "Hãy kiên nhẫn chờ đợi cho đến khi chúng ta có thêm thông tin."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In uncertain times, it's often best to sit tight and wait.",
+          "sentenceWithBlank": "In uncertain times, it's often best to _____ and wait.",
+          "wordBlank": "sit tight",
+          "translation": "Trong những thời điểm không chắc chắn, thường tốt nhất là kiên nhẫn chờ đợi và đợi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bite the dust",
+        "type": "Phrase",
+        "phonetic": "baɪt ðə dʌst",
+        "example": "Three of my favorite plants have bitten the dust this summer.",
+        "explain": "Chết, hỏng, thất bại",
+        "translatedExample": "Ba trong số các loại cây yêu thích của tôi đã chết trong mùa hè này."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "When a plan fails completely, it is said to have _____.",
+          "options": {
+            "A": "Bloomed",
+            "B": "Bite the dust",
+            "C": "Flourished",
+            "D": "Succeeded"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Bloomed' means to flower or grow. B: 'Bite the dust' means to fail or cease to exist. C: 'Flourished' means to grow or develop in a healthy way. D: 'Succeeded' is the opposite of failing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Break even",
+        "type": "Phrase",
+        "phonetic": "breɪk ˈiː.vən",
+        "example": "After paying all the expenses, the company just managed to break even.",
+        "explain": "Hòa vốn",
+        "translatedExample": "Sau khi trả hết các chi phí, công ty chỉ vừa đủ hòa vốn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "If your income and expenses are equal, you break even.",
+          "sentenceWithBlank": "If your income and expenses are equal, you _____ even.",
+          "wordBlank": "break",
+          "translation": "Nếu thu nhập và chi phí của bạn bằng nhau, bạn hòa vốn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Call it a day",
+        "type": "Phrase",
+        "phonetic": "kɔːl ɪt ə deɪ",
+        "example": "We've been working for ten hours; let's call it a day.",
+        "explain": "Ngừng làm việc",
+        "translatedExample": "Chúng ta đã làm việc mười giờ; hãy ngừng lại thôi."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which phrase is a synonym for 'Call it a day'?",
+          "options": {
+            "A": "Start early",
+            "B": "Work overtime",
+            "C": "Wrap it up",
+            "D": "Continue working"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Start early' means to begin something sooner than usual. B: 'Work overtime' means to work more than the regular hours. C: 'Wrap it up' is a synonym for 'Call it a day,' meaning to finish or stop working. D: 'Continue working' is the opposite of stopping."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cry wolf",
+        "type": "Phrase",
+        "phonetic": "kraɪ wʊlf",
+        "example": "If you keep crying wolf, people won't believe you when you're actually in trouble.",
+        "explain": "Báo động giả",
+        "translatedExample": "Nếu bạn cứ báo động giả, mọi người sẽ không tin bạn khi bạn thực sự gặp rắc rối."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym of 'Cry wolf'?",
+          "options": {
+            "A": "Tell the truth",
+            "B": "Sound the alarm",
+            "C": "Warn genuinely",
+            "D": "Lie blatantly"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Tell the truth' is not specifically the opposite of giving a false alarm. B: 'Sound the alarm' could be true or false. C: 'Warn genuinely' is the antonym as it means to give a true warning. D: 'Lie blatantly' is similar to 'Cry wolf.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Cut and dried",
+        "type": "Phrase",
+        "phonetic": "kʌt ænd draɪd",
+        "example": "The rules are pretty cut and dried; there's no room for interpretation.",
+        "explain": "Rõ ràng, không thể thay đổi",
+        "translatedExample": "Các quy tắc khá rõ ràng; không có chỗ cho sự giải thích."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "In this situation, the procedure is quite cut and dried.",
+          "sentenceWithBlank": "In this situation, the procedure is quite _____ and dried.",
+          "wordBlank": "cut",
+          "translation": "Trong tình huống này, quy trình khá rõ ràng và không thể thay đổi."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Down to earth",
+        "type": "Phrase",
+        "phonetic": "daʊn tə ɜːrθ",
+        "example": "Despite his fame, he's a very down to earth person.",
+        "explain": "Thực tế, không giả tạo",
+        "translatedExample": "Mặc dù nổi tiếng, anh ấy là một người rất thực tế."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Someone who is practical and realistic is described as being _____ to earth.",
+          "options": {
+            "A": "High",
+            "B": "Close",
+            "C": "Down",
+            "D": "Up"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'High' suggests something lofty or not grounded. B: 'Close' does not fit the idiom. C: 'Down to earth' means practical or realistic. D: 'Up' is the opposite of down and does not fit the idiom."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Draw the line",
+        "type": "Phrase",
+        "phonetic": "drɔː ðə laɪn",
+        "example": "I'm willing to help, but I draw the line at doing your work for you.",
+        "explain": "Đặt giới hạn",
+        "translatedExample": "Tôi sẵn lòng giúp đỡ, nhưng tôi đặt giới hạn ở việc làm công việc thay bạn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "It's important to draw the line between helping and doing everything for someone.",
+          "sentenceWithBlank": "It's important to _____ the line between helping and doing everything for someone.",
+          "wordBlank": "draw",
+          "translation": "Việc đặt giới hạn giữa việc giúp đỡ và làm mọi thứ cho ai đó là quan trọng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Face the music",
+        "type": "Phrase",
+        "phonetic": "feɪs ðə ˈmjuː.zɪk",
+        "example": "After making a huge mistake, he had to face the music.",
+        "explain": "Đối mặt với hậu quả",
+        "translatedExample": "Sau khi mắc một sai lầm lớn, anh ấy phải đối mặt với hậu quả."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "Which phrase is a synonym for 'Face the music'?",
+          "options": {
+            "A": "Enjoy the sound",
+            "B": "Confront the consequences",
+            "C": "Ignore the problem",
+            "D": "Dance to the beat"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Enjoy the sound' is not related to facing consequences. B: 'Confront the consequences' is a synonym for 'Face the music.' C: 'Ignore the problem' is the opposite. D: 'Dance to the beat' is unrelated."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Go the extra mile",
+        "type": "Phrase",
+        "phonetic": "ɡoʊ ðə ˈɛk.strə maɪl",
+        "example": "She always goes the extra mile to ensure her customers are happy.",
+        "explain": "Nỗ lực hơn mong đợi",
+        "translatedExample": "Cô ấy luôn nỗ lực hơn mong đợi để đảm bảo khách hàng của mình hài lòng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym of 'Go the extra mile'?",
+          "options": {
+            "A": "Do the bare minimum",
+            "B": "Run a marathon",
+            "C": "Take a shortcut",
+            "D": "Exceed expectations"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Do the bare minimum' means to do only what is absolutely necessary, opposite of 'Go the extra mile.' B: 'Run a marathon' is not directly relevant. C: 'Take a shortcut' suggests a quicker way, not necessarily less effort. D: 'Exceed expectations' is similar to 'Go the extra mile.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Hit the books",
+        "type": "Phrase",
+        "phonetic": "hɪt ðə bʊks",
+        "example": "I have to hit the books this weekend; I have an exam on Monday.",
+        "explain": "Học hành chăm chỉ",
+        "translatedExample": "Tôi phải học hành chăm chỉ vào cuối tuần này; tôi có kỳ thi vào thứ Hai."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "When exams are near, students often hit the books.",
+          "sentenceWithBlank": "When exams are near, students often _____ the books.",
+          "wordBlank": "hit",
+          "translation": "Khi kỳ thi đến gần, học sinh thường học hành chăm chỉ."
+        }
+      }
+    }
+  ]
+}

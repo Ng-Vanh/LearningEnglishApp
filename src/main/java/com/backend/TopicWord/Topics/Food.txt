@@ -1,0 +1,1330 @@
+{
+  "topic": "Food",
+  "words": [
+    {
+      "definition": {
+        "word": "Cuisine",
+        "type": "Noun",
+        "phonetic": "kwɪˈziːn",
+        "example": "Italian cuisine is known for its delicious pasta dishes.",
+        "explain": "Ẩm thực",
+        "translatedExample": "Ẩm thực Ý nổi tiếng với các món pasta ngon."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Cuisine'?",
+          "options": {
+            "A": "Recipe",
+            "B": "Dish",
+            "C": "Food",
+            "D": "Cooking"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Recipe' is a set of instructions for preparing a dish. B: 'Dish' refers to a specific prepared food item. C: 'Food' is the closest synonym, as cuisine encompasses various foods and cooking styles. D: 'Cooking' is the process of preparing food."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Spicy",
+        "type": "Adjective",
+        "phonetic": "ˈspaɪsi",
+        "example": "I love spicy food, especially dishes with chili peppers.",
+        "explain": "Cay nồng",
+        "translatedExample": "Tôi thích đồ ăn cay nồng, đặc biệt là những món có ớt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Spicy'?",
+          "options": {
+            "A": "Mild",
+            "B": "Bland",
+            "C": "Savory",
+            "D": "Flavorful"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Mild' is a synonym for not spicy. B: 'Bland' is the correct antonym as it means lacking strong flavor or spice. C: 'Savory' refers to food that is rich, flavorful, and not necessarily spicy. D: 'Flavorful' is a positive quality but not necessarily the opposite of spicy."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Gourmet",
+        "type": "Noun",
+        "phonetic": "ɡʊrˈmeɪ",
+        "example": "The restaurant is known for its gourmet desserts and fine dining experience.",
+        "explain": "Thực phẩm ngon",
+        "translatedExample": "Nhà hàng nổi tiếng với các món tráng miệng thực phẩm ngon và trải nghiệm ẩm thực tuyệt vời."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Gourmet cuisine often emphasizes high-quality ingredients and meticulous preparation.",
+          "sentenceWithBlank": "Gourmet cuisine often emphasizes high-quality ingredients and meticulous ________.",
+          "wordBlank": "preparation",
+          "translation": "Ẩm thực ngon thường nhấn mạnh vào nguyên liệu chất lượng cao và sự chuẩn bị tỉ mỉ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Organic",
+        "type": "Adjective",
+        "phonetic": "ɔːˈɡænɪk",
+        "example": "Many people prefer organic vegetables because they are grown without synthetic pesticides.",
+        "explain": "Hữu cơ",
+        "translatedExample": "Nhiều người ưa chuộng rau củ hữu cơ vì chúng được trồng không sử dụng thuốc trừ sâu tổng hợp."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a characteristic of 'Organic' food?",
+          "options": {
+            "A": "Genetically modified",
+            "B": "Grown with synthetic pesticides",
+            "C": "Highly processed",
+            "D": "Free from synthetic pesticides"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Genetically modified' refers to alterations in an organism's DNA. B: 'Grown with synthetic pesticides' is the opposite of organic. C: 'Highly processed' means food that has undergone extensive processing. D: 'Free from synthetic pesticides' is a key characteristic of organic food."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Savory",
+        "type": "Adjective",
+        "phonetic": "ˈseɪvəri",
+        "example": "The chef prepared a savory dish with a perfect balance of herbs and spices.",
+        "explain": "Mặn, ngon",
+        "translatedExample": "Đầu bếp đã chuẩn bị một món ăn mặn ngon với sự cân bằng hoàn hảo giữa thảo mộc và gia vị."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Savory dishes often combine herbs, spices, and other flavorful ingredients.",
+          "sentenceWithBlank": "Savory dishes often combine herbs, spices, and other flavorful ________.",
+          "wordBlank": "ingredients",
+          "translation": "Các món ăn mặn thường kết hợp thảo mộc, gia vị và các nguyên liệu ngon khác."
+        }
+      }
+    },
+    {
+       "definition": {
+         "word": "Vegetarian",
+         "type": "Noun/Adjective",
+         "phonetic": "ˌvɛdʒ.ɪˈtɛə.ri.ən",
+         "example": "My friend is a vegetarian and only eats plant-based foods.",
+         "explain": "Người ăn chay / Thuộc về chế độ ăn chay",
+         "translatedExample": "Bạn tôi là người ăn chay và chỉ ăn thực phẩm từ thực vật."
+       },
+       "quiz": {
+         "exerciseType": "MultipleChoice-Synonyms",
+         "description": {
+           "type": "MultipleChoice",
+           "question": "What is a synonym for 'Vegetarian'?",
+           "options": {
+             "A": "Carnivore",
+             "B": "Herbivore",
+             "C": "Omnivore",
+             "D": "Vegan"
+           },
+           "correctAnswer": "D",
+           "explanation": "A: 'Carnivore' eats meat. B: 'Herbivore' primarily eats plants. C: 'Omnivore' eats both plants and meat. D: 'Vegan' is the closest synonym as it refers to a person who does not eat or use animal products."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Fusion",
+         "type": "Noun",
+         "phonetic": "ˈfjuː.ʒən",
+         "example": "The restaurant offers a fusion of Asian and European cuisines.",
+         "explain": "Hỗn hợp, sự kết hợp",
+         "translatedExample": "Nhà hàng cung cấp một sự kết hợp giữa ẩm thực châu Á và châu Âu."
+       },
+       "quiz": {
+         "exerciseType": "MultipleChoice-Antonyms",
+         "description": {
+           "type": "MultipleChoice",
+           "question": "What is the antonym for 'Fusion'?",
+           "options": {
+             "A": "Blend",
+             "B": "Separation",
+             "C": "Isolation",
+             "D": "Division"
+           },
+           "correctAnswer": "B",
+           "explanation": "A: 'Blend' is a synonym for fusion. B: 'Separation' is the antonym, meaning the act of keeping things apart. C: 'Isolation' and 'Division' are related to being isolated or divided, not the opposite of fusion."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Locally Sourced",
+         "type": "Adjective",
+         "phonetic": "ˈloʊ.kə.li sɔrst",
+         "example": "The restaurant prides itself on using locally sourced ingredients.",
+         "explain": "Nguồn gốc địa phương",
+         "translatedExample": "Nhà hàng tự hào về việc sử dụng nguyên liệu có nguồn gốc địa phương."
+       },
+       "quiz": {
+         "exerciseType": "Dictation",
+         "description": {
+           "type": "Dictation",
+           "sentence": "Locally sourced foods support local farmers and reduce carbon emissions from transportation.",
+           "sentenceWithBlank": "Locally sourced foods support local farmers and reduce carbon emissions from ________.",
+           "wordBlank": "transportation",
+           "translation": "Thực phẩm có nguồn gốc địa phương hỗ trợ nông dân địa phương và giảm lượng khí thải carbon từ vận chuyển."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Umami",
+         "type": "Noun",
+         "phonetic": "uːˈmɑː.mi",
+         "example": "Seaweed is known for its umami flavor, adding depth to dishes.",
+         "explain": "Hương vị umami",
+         "translatedExample": "Rong biển nổi tiếng với hương vị umami, làm sâu đậm hương vị cho các món ăn."
+       },
+       "quiz": {
+         "exerciseType": "MultipleChoice-Blank",
+         "description": {
+           "type": "MultipleChoice",
+           "question": "Umami is often described as the fifth _______?",
+           "options": {
+             "A": "Flavor",
+             "B": "Color",
+             "C": "Texture",
+             "D": "Smell"
+           },
+           "correctAnswer": "A",
+           "explanation": "A: 'Flavor' is the correct term. B: 'Color' and 'Texture' are not related to taste. C: 'Smell' is related to aroma, not taste."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Fermented",
+         "type": "Adjective",
+         "phonetic": "ˈfɜːr.mɛnt.ɪd",
+         "example": "Kimchi is a popular fermented dish in Korean cuisine.",
+         "explain": "Lên men",
+         "translatedExample": "Kimchi là một món ăn lên men phổ biến trong ẩm thực Hàn Quốc."
+       },
+       "quiz": {
+         "exerciseType": "Dictation-Blank",
+         "description": {
+           "type": "Dictation",
+           "sentence": "Fermented foods undergo a process that involves the breakdown of sugars by bacteria and yeast.",
+           "sentenceWithBlank": "Fermented foods undergo a process that involves the breakdown of sugars by bacteria and ________.",
+           "wordBlank": "yeast",
+           "translation": "Thực phẩm lên men trải qua một quá trình liên quan đến việc phân giải đường hỗn hợp bởi vi khuẩn và men."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Exotic",
+         "type": "Adjective",
+         "phonetic": "ɪɡˈzɑː.tɪk",
+         "example": "Trying exotic fruits is one of the joys of traveling to different countries.",
+         "explain": "Kỳ lạ, độc đáo",
+         "translatedExample": "Thử nếp những loại trái cây kỳ lạ là một trong những niềm vui khi đi du lịch đến các quốc gia khác nhau."
+       },
+       "quiz": {
+         "exerciseType": "MultipleChoice-Synonyms",
+         "description": {
+           "type": "MultipleChoice",
+           "question": "What is a synonym for 'Exotic'?",
+           "options": {
+             "A": "Common",
+             "B": "Traditional",
+             "C": "Unusual",
+             "D": "Simple"
+           },
+           "correctAnswer": "C",
+           "explanation": "A: 'Common' is the opposite of exotic. B: 'Traditional' is different from exotic. C: 'Unusual' is the closest synonym as it means not commonly found or encountered. D: 'Simple' is the opposite of exotic."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Zesty",
+         "type": "Adjective",
+         "phonetic": "ˈzɛsti",
+         "example": "The salad dressing has a zesty kick from the addition of lemon and herbs.",
+         "explain": "Măng khô, hăng hái",
+         "translatedExample": "Nước sốt salad có hương vị măng khô và hăng hái từ sự thêm vào chanh và thảo mộc."
+       },
+       "quiz": {
+         "exerciseType": "MultipleChoice-Antonyms",
+         "description": {
+           "type": "MultipleChoice",
+           "question": "What is the antonym for 'Zesty'?",
+           "options": {
+             "A": "Bland",
+             "B": "Mild",
+             "C": "Spicy",
+             "D": "Flavorful"
+           },
+           "correctAnswer": "A",
+           "explanation": "A: 'Bland' is the correct antonym as it means lacking strong flavor or zest. B: 'Mild' is synonymous with not spicy. C: 'Spicy' is different from zesty. D: 'Flavorful' is a positive quality but not necessarily the opposite of zesty."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Simmer",
+         "type": "Verb",
+         "phonetic": "ˈsɪm.ər",
+         "example": "Allow the soup to simmer on low heat for better flavor absorption.",
+         "explain": "Hầm nhỏ lửa",
+         "translatedExample": "Để nồi canh hầm nhỏ lửa để hấp thụ hương vị tốt hơn."
+       },
+       "quiz": {
+         "exerciseType": "Dictation",
+         "description": {
+           "type": "Dictation",
+           "sentence": "To enhance the flavor, let the ingredients simmer gently in the sauce.",
+           "sentenceWithBlank": "To enhance the flavor, let the ingredients ________ gently in the sauce.",
+           "wordBlank": "simmer",
+           "translation": "Để tăng cường hương vị, hãy để các nguyên liệu hầm nhỏ lửa nhẹ trong sốt."
+         }
+       }
+     },
+     {
+       "definition": {
+         "word": "Palate",
+         "type": "Noun",
+         "phonetic": "ˈpæl.ɪt",
+         "example": "His palate prefers a combination of sweet and savory flavors.",
+         "explain": "Vị giác",
+         "translatedExample": "Vị giác của anh ấy ưa chuộng sự kết hợp giữa hương vị ngọt và mặn."
+       },
+       "quiz": {
+         "exerciseType": "MultipleChoice-Blank",
+         "description": {
+           "type": "MultipleChoice",
+           "question": "The term 'palate' refers to one's sense of _______.",
+           "options": {
+             "A": "Smell",
+             "B": "Hearing",
+             "C": "Taste",
+             "D": "Sight"
+           },
+           "correctAnswer": "C",
+           "explanation": "A: 'Smell' is related to the nose. B: 'Hearing' is unrelated to taste. C: 'Taste' is the correct term. D: 'Sight' is related to vision, not taste."
+         }
+       }
+     },
+    {
+      "definition": {
+        "word": "Mouthwatering",
+        "type": "Adjective",
+        "phonetic": "maʊθˈwɔː.t̬ər.ɪŋ",
+        "example": "The aroma of the freshly baked bread is mouthwatering.",
+        "explain": "Nước miếng, làm cho miệng ướt",
+        "translatedExample": "Hương thơm của chiếc bánh nướng mới làm cho miệng ướt."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Mouthwatering'?",
+          "options": {
+            "A": "Delicious",
+            "B": "Appetizing",
+            "C": "Unappealing",
+            "D": "Tasty"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Delicious' and 'Tasty' are synonyms for mouthwatering. B: 'Appetizing' is related to arousing the appetite. C: 'Unappealing' is the correct antonym, meaning not attractive or appetizing. D: 'Tasty' is a synonym for mouthwatering."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sustainable",
+        "type": "Adjective",
+        "phonetic": "səˈsteɪ.nə.bəl",
+        "example": "Choosing sustainable seafood helps protect marine ecosystems.",
+        "explain": "Bền vững",
+        "translatedExample": "Chọn lựa thực phẩm biển bền vững giúp bảo vệ hệ sinh thái biển."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Sustainable agriculture aims to provide food without depleting natural resources.",
+          "sentenceWithBlank": "Sustainable agriculture aims to provide food without depleting natural ________.",
+          "wordBlank": "resources",
+          "translation": "Nông nghiệp bền vững nhằm mục tiêu cung cấp thực phẩm mà không làm cạn kiệt tài nguyên tự nhiên."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Crispy",
+        "type": "Adjective",
+        "phonetic": "ˈkrɪspi",
+        "example": "The fried chicken has a crispy outer layer and tender inside.",
+        "explain": "Giòn tan",
+        "translatedExample": "Gà chiên có lớp vỏ bên ngoài giòn tan và bên trong mềm mại."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What texture does 'Crispy' refer to?",
+          "options": {
+            "A": "Soft",
+            "B": "Chewy",
+            "C": "Creamy",
+            "D": "Crunchy"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Soft' is the opposite of crispy. B: 'Chewy' is a different texture. C: 'Creamy' refers to a smooth, soft texture. D: 'Crunchy' is the correct term for a texture that is crisp and makes a sound when bitten."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Garnish",
+        "type": "Verb/Noun",
+        "phonetic": "ˈɡɑːr.nɪʃ",
+        "example": "The chef will garnish the dish with fresh herbs before serving.",
+        "explain": "Trang trí, rau sống trang trí",
+        "translatedExample": "Đầu bếp sẽ trang trí món ăn bằng rau sống trước khi phục vụ."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "A sprig of parsley is often used as a garnish for soups and salads.",
+          "sentenceWithBlank": "A sprig of parsley is often used as a ________ for soups and salads.",
+          "wordBlank": "garnish",
+          "translation": "Một cành mỡ được sử dụng thường xuyên làm trang trí cho các loại canh và salad."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mouthfeel",
+        "type": "Noun",
+        "phonetic": "maʊθ.fɪl",
+        "example": "The creamy mouthfeel of the chocolate enhances the overall experience.",
+        "explain": "Cảm giác khi nhai",
+        "translatedExample": "Cảm giác nhai kem của sô cô la tăng cường trải nghiệm tổng thể."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Mouthfeel'?",
+          "options": {
+            "A": "Flavor",
+            "B": "Texture",
+            "C": "Aroma",
+            "D": "Taste"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Flavor' is the overall taste. B: 'Texture' is the correct synonym, referring to the feel or consistency of food in the mouth. C: 'Aroma' is related to the smell. D: 'Taste' is the sensation on the tongue."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sizzling",
+        "type": "Adjective",
+        "phonetic": "ˈsɪz.əl.ɪŋ",
+        "example": "The steak is sizzling on the hot grill, creating an enticing aroma.",
+        "explain": "Tiếng xèo xèo, hấp dẫn",
+        "translatedExample": "Bò bít tết đang xèo xèo trên vỉ nướng nóng, tạo ra một hương thơm quyến rũ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the sound associated with 'Sizzling'?",
+          "options": {
+            "A": "Crunching",
+            "B": "Splashing",
+            "C": "Squeaking",
+            "D": "Hissing"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Crunching' is associated with a crisp sound. B: 'Splashing' is related to liquid movements. C: 'Squeaking' is a high-pitched sound. D: 'Hissing' is the correct term for the sound of something sizzling on a hot surface."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Infusion",
+        "type": "Noun",
+        "phonetic": "ɪnˈfjuː.ʒən",
+        "example": "Herbal tea is made through the infusion of dried herbs in hot water.",
+        "explain": "Thủy nhuận, sự ngâm",
+        "translatedExample": "Trà thảo mộc được tạo ra thông qua sự ngâm của thảo mộc khô trong nước nóng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Infusion'?",
+          "options": {
+            "A": "Mixture",
+            "B": "Dilution",
+            "C": "Soaking",
+            "D": "Extraction"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Mixture' is a general term. B: 'Dilution' refers to the process of making a liquid less concentrated. C: 'Soaking' is related but not a synonym. D: 'Extraction' is the correct synonym, indicating the process of extracting flavors by soaking or boiling."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Savory",
+        "type": "Adjective",
+        "phonetic": "ˈseɪ.vər.i",
+        "example": "The savory aroma of herbs and spices enhances the flavor of the dish.",
+        "explain": "Mặn, thơm ngon",
+        "translatedExample": "Hương thơm mặn của thảo mộc và gia vị tăng cường hương vị của món ăn."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Savory dishes often include a combination of herbs and spices to create rich and robust flavors.",
+          "sentenceWithBlank": "Savory dishes often include a combination of herbs and spices to create rich and ________ flavors.",
+          "wordBlank": "robust",
+          "translation": "Các món ăn mặn thường bao gồm sự kết hợp của thảo mộc và gia vị để tạo ra hương vị phong phú và mạnh mẽ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Delectable",
+        "type": "Adjective",
+        "phonetic": "dɪˈlɛk.tə.bl̩",
+        "example": "The chocolate cake is absolutely delectable, with a rich and moist texture.",
+        "explain": "Ngon, ngon miệng",
+        "translatedExample": "Chiếc bánh sô cô la thực sự ngon miệng, với hương vị đậm đà và bề mặt ẩm."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Delectable'?",
+          "options": {
+            "A": "Tasteless",
+            "B": "Bland",
+            "C": "Unappetizing",
+            "D": "Insipid"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Tasteless' is the correct antonym, meaning lacking in flavor. B: 'Bland' is also an antonym for delectable. C: 'Unappetizing' is related to not arousing the appetite. D: 'Insipid' means lacking in taste or flavor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mingle",
+        "type": "Verb",
+        "phonetic": "ˈmɪŋ.ɡəl",
+        "example": "During the party, guests can mingle and enjoy various appetizers.",
+        "explain": "Trò chuyện, giao lưu",
+        "translatedExample": "Trong bữa tiệc, khách mời có thể trò chuyện và thưởng thức các món khai vị khác nhau."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the verb 'Mingle' mean?",
+          "options": {
+            "A": "Cook",
+            "B": "Isolate",
+            "C": "Mix",
+            "D": "Taste"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Cook' is unrelated to social interaction. B: 'Isolate' is the opposite of mingle. C: 'Mix' is the correct term, meaning to interact with others in a social setting. D: 'Taste' is related to the sense of flavor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sustainable",
+        "type": "Adjective",
+        "phonetic": "səˈsteɪ.nə.bəl",
+        "example": "Choosing sustainable seafood helps protect marine ecosystems.",
+        "explain": "Bền vững",
+        "translatedExample": "Chọn lựa thực phẩm biển bền vững giúp bảo vệ hệ sinh thái biển."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Sustainable agriculture aims to provide food without depleting natural resources.",
+          "sentenceWithBlank": "Sustainable agriculture aims to provide food without depleting natural ________.",
+          "wordBlank": "resources",
+          "translation": "Nông nghiệp bền vững nhằm mục tiêu cung cấp thực phẩm mà không làm cạn kiệt tài nguyên tự nhiên."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Zest",
+        "type": "Noun",
+        "phonetic": "zɛst",
+        "example": "Lemon zest adds a burst of citrus flavor to the dish.",
+        "explain": "Vỏ chanh, hương vị măng khô",
+        "translatedExample": "Vỏ chanh thêm vào một hương vị măng khô của chanh cho món ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Zest'?",
+          "options": {
+            "A": "Spice",
+            "B": "Bitterness",
+            "C": "Aroma",
+            "D": "Pungency"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Spice' is a broad term. B: 'Bitterness' is a different taste. C: 'Aroma' is the closest synonym, referring to the fragrance or smell of a food or ingredient. D: 'Pungency' is related to a strong, sharp taste or smell."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sizzle",
+        "type": "Verb",
+        "phonetic": "ˈsɪz.əl",
+        "example": "The bacon began to sizzle in the hot pan.",
+        "explain": "Tiếng xèo xèo khi nướng",
+        "translatedExample": "Thịt xông khói bắt đầu xèo xèo khi nướng trên chảo nóng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The sound of sizzling is a sign that the food is being cooked at high heat.",
+          "sentenceWithBlank": "The sound of ________ is a sign that the food is being cooked at high heat.",
+          "wordBlank": "sizzling",
+          "translation": "Âm thanh của tiếng xèo xèo là một dấu hiệu cho thấy thức ăn đang được nấu ở nhiệt độ cao."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Marinate",
+        "type": "Verb",
+        "phonetic": "ˈmær.ə.neɪt",
+        "example": "Allow the meat to marinate in the flavorful sauce for at least an hour.",
+        "explain": "Ướp, ngâm",
+        "translatedExample": "Để thịt được ướp trong sốt đầy hương vị ít nhất một giờ."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Marinate'?",
+          "options": {
+            "A": "Soak",
+            "B": "Dry",
+            "C": "Season",
+            "D": "Infuse"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Soak' is related to wetting or saturating. B: 'Dry' is the correct antonym, meaning the opposite of marinating, which involves keeping something dry. C: 'Season' is related to adding flavor. D: 'Infuse' is similar to marinate but not the opposite."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mingle",
+        "type": "Verb",
+        "phonetic": "ˈmɪŋ.ɡəl",
+        "example": "During the party, guests can mingle and enjoy various appetizers.",
+        "explain": "Trò chuyện, giao lưu",
+        "translatedExample": "Trong bữa tiệc, khách mời có thể trò chuyện và thưởng thức các món khai vị khác nhau."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the verb 'Mingle' mean?",
+          "options": {
+            "A": "Cook",
+            "B": "Isolate",
+            "C": "Mix",
+            "D": "Taste"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Cook' is unrelated to social interaction. B: 'Isolate' is the opposite of mingle. C: 'Mix' is the correct term, meaning to interact with others in a social setting. D: 'Taste' is related to the sense of flavor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Umami",
+        "type": "Noun",
+        "phonetic": "uˈmɑː.mi",
+        "example": "Soy sauce and mushrooms are known for their rich umami flavor.",
+        "explain": "Hương vị ngon miệng",
+        "translatedExample": "Nước tương và nấm nổi tiếng với hương vị ngon miệng của chúng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Umami is considered the fifth basic taste, alongside sweet, salty, sour, and bitter.",
+          "sentenceWithBlank": "______ is considered the fifth basic taste, alongside sweet, salty, sour, and bitter.",
+          "wordBlank": "Umami",
+          "translation": "Umami được coi là hương vị cơ bản thứ năm, cùng với ngọt, mặn, chua và đắng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Drizzle",
+        "type": "Verb/Noun",
+        "phonetic": "ˈdrɪz.əl",
+        "example": "Drizzle olive oil over the salad for a light and flavorful dressing.",
+        "explain": "Rót nhỏ giọt, mưa phùn",
+        "translatedExample": "Rót dầu ô liu nhỏ giọt lên salad để có một lớp nước sốt nhẹ và đầy hương vị."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the verb 'Drizzle' mean?",
+          "options": {
+            "A": "Pour heavily",
+            "B": "Sprinkle",
+            "C": "Drop",
+            "D": "Pour slowly in fine drops"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Pour heavily' is the opposite of drizzle. B: 'Sprinkle' is a different action. C: 'Drop' is too general. D: 'Pour slowly in fine drops' is the correct definition of drizzle."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Culinary",
+        "type": "Adjective",
+        "phonetic": "ˈkʌl.ə.ner.i",
+        "example": "The culinary arts involve the preparation and cooking of food at an advanced level.",
+        "explain": "Thuộc về nấu ăn",
+        "translatedExample": "Nghệ thuật nấu ăn liên quan đến việc chuẩn bị và nấu ăn ở một cấp độ cao."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Culinary'?",
+          "options": {
+            "A": "Gastronomic",
+            "B": "Delicious",
+            "C": "Tasty",
+            "D": "Savory"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Gastronomic' is the correct synonym, referring to the practice of good cooking. B: 'Delicious' and 'Tasty' are related to flavor. C: 'Savory' is related to a specific taste but not as broad as 'Culinary.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Simmer",
+        "type": "Verb",
+        "phonetic": "ˈsɪm.ər",
+        "example": "Allow the soup to simmer on low heat to enhance the flavors.",
+        "explain": "Hầm, ninh nhỏ lửa",
+        "translatedExample": "Để súp hầm nhỏ lửa để tăng cường hương vị."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the verb 'Simmer' mean?",
+          "options": {
+            "A": "Boil vigorously",
+            "B": "Freeze quickly",
+            "C": "Cook slowly over low heat",
+            "D": "Grill over an open flame"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Boil vigorously' is the opposite of simmer. B: 'Freeze quickly' is unrelated. C: 'Cook slowly over low heat' is the correct definition of simmer. D: 'Grill over an open flame' is a different cooking method."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Crisp",
+        "type": "Adjective",
+        "phonetic": "krɪsp",
+        "example": "The chef achieved a perfect balance of tender inside and crisp outside for the fried chicken.",
+        "explain": "Giòn, giòn tan",
+        "translatedExample": "Đầu bếp đạt được sự cân bằng hoàn hảo giữa phần trong mềm mại và phần ngoài giòn tan cho gà chiên."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Achieving a crisp texture in baking often involves using high temperatures for a short duration.",
+          "sentenceWithBlank": "Achieving a ________ texture in baking often involves using high temperatures for a short duration.",
+          "wordBlank": "crisp",
+          "translation": "Đạt được độ giòn trong việc nướng thường liên quan đến việc sử dụng nhiệt độ cao trong một khoảng thời gian ngắn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Palate",
+        "type": "Noun",
+        "phonetic": "ˈpæl.ɪt",
+        "example": "A diverse palate allows individuals to appreciate a wide range of flavors in food.",
+        "explain": "Vị giác, khẩu vị",
+        "translatedExample": "Một khẩu vị đa dạng cho phép mọi người đánh giá một loạt các hương vị trong thức ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Palate'?",
+          "options": {
+            "A": "Plate",
+            "B": "Flavor",
+            "C": "Taste",
+            "D": "Dish"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Plate' is a different word related to serving food. B: 'Flavor' is a related term but not synonymous. C: 'Taste' is the correct synonym for palate, referring to the sense of taste. D: 'Dish' is related to a specific food item."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mince",
+        "type": "Verb",
+        "phonetic": "mɪns",
+        "example": "Finely mince the garlic to evenly distribute its flavor in the pasta sauce.",
+        "explain": "Băm nhỏ, nghiền nhuyễn",
+        "translatedExample": "Băm nhỏ tỏi để phân phối đều hương vị của nó trong sốt mỳ ống."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Mince'?",
+          "options": {
+            "A": "Chop",
+            "B": "Dice",
+            "C": "Grind",
+            "D": "Sear"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Chop' and 'Dice' are related actions. B: 'Dice' is also similar to mincing. C: 'Grind' is a synonym for mince. D: 'Sear' is the correct antonym, as it involves quickly cooking the surface of the food at high heat."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Exquisite",
+        "type": "Adjective",
+        "phonetic": "ɪkˈskwɪz.ɪt",
+        "example": "The pastry chef created an exquisite dessert with intricate details and flavors.",
+        "explain": "Tinh tế, xuất sắc",
+        "translatedExample": "Đầu bếp bánh ngọt tạo ra một món tráng miệng tinh tế với các chi tiết và hương vị tinh tế."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The art of plating aims to present food in an exquisite and visually appealing manner.",
+          "sentenceWithBlank": "The art of plating aims to present food in an ________ and visually appealing manner.",
+          "wordBlank": "exquisite",
+          "translation": "Nghệ thuật trình bày thức ăn nhằm mục tiêu trình bày thức ăn một cách tinh tế và hấp dẫn về mặt hình ảnh."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Aerate",
+        "type": "Verb",
+        "phonetic": "ˈer.eɪt",
+        "example": "Aerate the dough by folding it to incorporate air for a lighter texture.",
+        "explain": "Làm thoáng, thổi khí vào",
+        "translatedExample": "Làm thoáng bột bằng cách gấp để hòa khí vào cho cảm giác nhẹ nhàng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Aerate'?",
+          "options": {
+            "A": "Condense",
+            "B": "Compact",
+            "C": "Oxygenate",
+            "D": "Solidify"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Condense' is the opposite of aerate. B: 'Compact' is unrelated. C: 'Oxygenate' is the correct synonym, referring to the process of introducing air or oxygen. D: 'Solidify' is the opposite of the intended meaning."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Tenderize",
+        "type": "Verb",
+        "phonetic": "ˈtɛn.də.raɪz",
+        "example": "Marinate the meat to tenderize it before grilling.",
+        "explain": "Làm mềm thịt",
+        "translatedExample": "Ướp thịt để làm mềm trước khi nướng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Using a meat mallet can effectively tenderize tougher cuts of meat.",
+          "sentenceWithBlank": "Using a meat mallet can effectively ________ tougher cuts of meat.",
+          "wordBlank": "tenderize",
+          "translation": "Sử dụng búa thịt có thể làm mềm một cách hiệu quả các phần thịt cứng khó."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Infuse",
+        "type": "Verb",
+        "phonetic": "ɪnˈfjuz",
+        "example": "Infuse the tea with fresh herbs for a unique flavor profile.",
+        "explain": "Truyền hương, ủ hương",
+        "translatedExample": "Ủ hương trà với các loại thảo mộc tươi để có hương vị độc đáo."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Infuse'?",
+          "options": {
+            "A": "Steep",
+            "B": "Drain",
+            "C": "Extract",
+            "D": "Remove"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Steep' is related to infusing, not its antonym. B: 'Drain' is a different action. C: 'Extract' is related to obtaining flavors but not the opposite. D: 'Remove' is the correct antonym, as it involves taking something out rather than infusing."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Zest",
+        "type": "Noun",
+        "phonetic": "zɛst",
+        "example": "Lemon zest adds a burst of citrus flavor to the dish.",
+        "explain": "Vỏ chanh, hương vị măng khô",
+        "translatedExample": "Vỏ chanh thêm vào một hương vị măng khô của chanh cho món ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Zest'?",
+          "options": {
+            "A": "Spice",
+            "B": "Bitterness",
+            "C": "Aroma",
+            "D": "Pungency"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Spice' is a broad term. B: 'Bitterness' is a different taste. C: 'Aroma' is the closest synonym, referring to the fragrance or smell of a food or ingredient. D: 'Pungency' is related to a strong, sharp taste or smell."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Mince",
+        "type": "Verb",
+        "phonetic": "mɪns",
+        "example": "Finely mince the garlic to evenly distribute its flavor in the pasta sauce.",
+        "explain": "Băm nhỏ, nghiền nhuyễn",
+        "translatedExample": "Băm nhỏ tỏi để phân phối đều hương vị của nó trong sốt mỳ ống."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Mince'?",
+          "options": {
+            "A": "Chop",
+            "B": "Dice",
+            "C": "Grind",
+            "D": "Sear"
+          },
+          "correctAnswer": "D",
+          "explanation": "A: 'Chop' and 'Dice' are related actions. B: 'Dice' is also similar to mincing. C: 'Grind' is a synonym for mince. D: 'Sear' is the correct antonym, as it involves quickly cooking the surface of the food at high heat."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Culinary",
+        "type": "Adjective",
+        "phonetic": "ˈkʌl.ə.ner.i",
+        "example": "The culinary arts involve the preparation and cooking of food at an advanced level.",
+        "explain": "Thuộc về nấu ăn",
+        "translatedExample": "Nghệ thuật nấu ăn liên quan đến việc chuẩn bị và nấu ăn ở một cấp độ cao."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Culinary schools offer specialized training in various aspects of cooking, including techniques and culinary traditions.",
+          "sentenceWithBlank": "Culinary schools offer specialized training in various aspects of cooking, including techniques and ________ traditions.",
+          "wordBlank": "culinary",
+          "translation": "Các trường nghệ thuật ẩm thực cung cấp đào tạo chuyên sâu về các khía cạnh khác nhau của nấu ăn, bao gồm kỹ thuật và truyền thống nấu ăn."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sauté",
+        "type": "Verb",
+        "phonetic": "soʊˈteɪ",
+        "example": "Sauté the vegetables in olive oil until they are golden and tender.",
+        "explain": "Xào nhanh, chiên nhanh",
+        "translatedExample": "Xào rau trong dầu ô liu cho đến khi chúng trở nên vàng và mềm."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The chef demonstrated how to sauté mushrooms to bring out their rich flavor and aroma.",
+          "sentenceWithBlank": "The chef demonstrated how to ________ mushrooms to bring out their rich flavor and aroma.",
+          "wordBlank": "sauté",
+          "translation": "Đầu bếp hướng dẫn cách xào nhanh nấm để làm nổi bật hương vị và mùi thơm phong phú của chúng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Delectable",
+        "type": "Adjective",
+        "phonetic": "dɪˈlɛk.tə.bəl",
+        "example": "The dessert was truly delectable, pleasing everyone at the dinner table.",
+        "explain": "Ngon miệng, thú vị",
+        "translatedExample": "Món tráng miệng thực sự ngon miệng, làm hài lòng mọi người tại bàn ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the adjective 'Delectable' mean?",
+          "options": {
+            "A": "Unappetizing",
+            "B": "Tasty",
+            "C": "Bland",
+            "D": "Spicy"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Unappetizing' is the opposite of delectable. B: 'Tasty' is the correct term, meaning pleasing to the taste. C: 'Bland' is unrelated. D: 'Spicy' is related to a specific taste but not as broad as 'Delectable.'"
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Glaze",
+        "type": "Verb/Noun",
+        "phonetic": "ɡleɪz",
+        "example": "Brush the pastry with an egg wash to give it a shiny glaze when baked.",
+        "explain": "Phủ men, lớp phủ bóng",
+        "translatedExample": "Chải lớp nước trứng lên bánh để tạo nên một lớp phủ bóng khi nướng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What does the verb 'Glaze' mean?",
+          "options": {
+            "A": "Dry out",
+            "B": "Cover with a shiny coating",
+            "C": "Crush",
+            "D": "Steam"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Dry out' is the opposite of glazing. B: 'Cover with a shiny coating' is the correct definition. C: 'Crush' is unrelated. D: 'Steam' is a different cooking method."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Sear",
+        "type": "Verb",
+        "phonetic": "sɪr",
+        "example": "Sear the steak on high heat to lock in the juices and create a flavorful crust.",
+        "explain": "Nướng nhanh, chảo cháy",
+        "translatedExample": "Nướng nhanh thịt bò trên lửa lớn để kẹp lại nước và tạo ra lớp vỏ ngon miệng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Sear'?",
+          "options": {
+            "A": "Boil",
+            "B": "Roast",
+            "C": "Grill",
+            "D": "Steam"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Boil' is a different cooking method. B: 'Roast' is related but not synonymous. C: 'Grill' is the correct synonym for sear when referring to quickly cooking the surface of food at high heat. D: 'Steam' is a different cooking method."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Blend",
+        "type": "Verb",
+        "phonetic": "blend",
+        "example": "Blend the ingredients until smooth to make a delicious smoothie.",
+        "explain": "Trộn",
+        "translatedExample": "Hòa quyện các nguyên liệu cho đến khi mịn để tạo ra một ly sinh tố ngon."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Blend'?",
+          "options": {
+            "A": "Mix",
+            "B": "Chop",
+            "C": "Stir",
+            "D": "Saute"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Mix' is the closest synonym, as both involve combining ingredients. B: 'Chop' is to cut into pieces. C: 'Stir' is to move a substance around with a utensil. D: 'Saute' is to cook quickly in a small amount of oil."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Crunchy",
+        "type": "Adjective",
+        "phonetic": "ˈkrʌn.tʃi",
+        "example": "I love the crunchy texture of freshly baked cookies.",
+        "explain": "Giòn ngon",
+        "translatedExample": "Tôi thích cảm giác giòn ngon của bánh quy vừa mới nướng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "The salad was deliciously fresh and had a satisfying, crunchy texture.",
+          "sentenceWithBlank": "The salad was deliciously fresh and had a satisfying, ________ texture.",
+          "wordBlank": "crunchy",
+          "translation": "Cái salad tươi ngon và có cảm giác giòn ngon đầy hài lòng."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Melt",
+        "type": "Verb",
+        "phonetic": "mɛlt",
+        "example": "Melt the chocolate in a double boiler for a smooth fondue.",
+        "explain": "Nấu chảy",
+        "translatedExample": "Nấu chảy sô cô la trong nồi hấp để có một nồi fondue mịn màng."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Melt'?",
+          "options": {
+            "A": "Freeze",
+            "B": "Solidify",
+            "C": "Chill",
+            "D": "Solidify"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Freeze' is the antonym, as it means to turn a substance into a solid by lowering its temperature. B: 'Solidify' is a synonym for 'Melt'. C: 'Chill' is to cool but doesn't necessarily involve changing state. D: 'Solidify' is repeated and is a synonym for 'Melt'."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Steam",
+        "type": "Verb",
+        "phonetic": "stiːm",
+        "example": "Steam the vegetables to retain their nutrients and natural flavors.",
+        "explain": "Hấp",
+        "translatedExample": "Hấp rau để giữ lại chất dinh dưỡng và hương vị tự nhiên của chúng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Steaming is a healthy cooking method that preserves the color and nutrients of food.",
+          "sentenceWithBlank": "_______ is a healthy cooking method that preserves the color and nutrients of food.",
+          "wordBlank": "Steaming",
+          "translation": "Hấp là một phương pháp nấu ăn lành mạnh giữ lại màu sắc và chất dinh dưỡng của thực phẩm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Dice",
+        "type": "Verb",
+        "phonetic": "daɪs",
+        "example": "Dice the vegetables into small cubes for the stir-fry.",
+        "explain": "Băm nhỏ",
+        "translatedExample": "Băm nhỏ rau thành các khối nhỏ để xào nhanh."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the technique used to cut food into small, uniform cubes?",
+          "options": {
+            "A": "Sear",
+            "B": "Dice",
+            "C": "Simmer",
+            "D": "Marinate"
+          },
+          "correctAnswer": "B",
+          "explanation": "A: 'Sear' is to brown the surface of food quickly. B: 'Dice' is the correct term for cutting food into small, uniform cubes. C: 'Simmer' is to cook gently in liquid just below the boiling point. D: 'Marinate' is to soak food in a seasoned liquid to enhance flavor."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Season",
+        "type": "Verb",
+        "phonetic": "ˈsiː.zən",
+        "example": "Season the soup with salt and pepper to enhance the taste.",
+        "explain": "Gia vị",
+        "translatedExample": "Gia vị nồi súp bằng muối và tiêu để tăng cường hương vị."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Synonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is a synonym for 'Season'?",
+          "options": {
+            "A": "Chill",
+            "B": "Enhance",
+            "C": "Flavor",
+            "D": "Cook"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Chill' is to cool, not to add seasoning. B: 'Enhance' is a synonym, meaning to improve or intensify. C: 'Flavor' is the closest synonym, specifically referring to the taste quality of food. D: 'Cook' is too general and does not imply the addition of seasonings."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Bake",
+        "type": "Verb",
+        "phonetic": "beɪk",
+        "example": "Bake the cake at 350°F for 30 minutes until it's golden brown.",
+        "explain": "Nướng",
+        "translatedExample": "Nướng bánh ở 350°F trong 30 phút cho đến khi nó có màu vàng nâu."
+      },
+      "quiz": {
+        "exerciseType": "Dictation",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Baking is a dry heat cooking method commonly used for bread, cakes, and pastries.",
+          "sentenceWithBlank": "_______ is a dry heat cooking method commonly used for bread, cakes, and pastries.",
+          "wordBlank": "Baking",
+          "translation": "Nướng là một phương pháp nấu khô thường được sử dụng cho bánh mì, bánh ngọt và bánh ngọt nhỏ."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Chop",
+        "type": "Verb",
+        "phonetic": "tʃɑːp",
+        "example": "Chop the herbs finely for a burst of flavor in the dish.",
+        "explain": "Băm nhỏ",
+        "translatedExample": "Băm nhỏ thảo mộc để thêm hương vị cho món ăn."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Antonyms",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What is the antonym for 'Chop'?",
+          "options": {
+            "A": "Slice",
+            "B": "Dice",
+            "C": "Carve",
+            "D": "Mince"
+          },
+          "correctAnswer": "A",
+          "explanation": "A: 'Slice' is the antonym, as it means to cut into thin, broad pieces. B: 'Dice' is to cut into small cubes. C: 'Carve' is to cut into decorative shapes, often used with meat. D: 'Mince' is to cut into very small pieces."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Brew",
+        "type": "Verb",
+        "phonetic": "bruː",
+        "example": "Brew a cup of strong coffee for a morning pick-me-up.",
+        "explain": "Pha chế",
+        "translatedExample": "Pha chế một tách cà phê đậm để tỉnh táo buổi sáng."
+      },
+      "quiz": {
+        "exerciseType": "Dictation-Blank",
+        "description": {
+          "type": "Dictation",
+          "sentence": "Brewing involves steeping ingredients in hot water to extract flavors and aromas.",
+          "sentenceWithBlank": "_______ involves steeping ingredients in hot water to extract flavors and aromas.",
+          "wordBlank": "Brewing",
+          "translation": "Pha chế liên quan đến ngâm nguyên liệu trong nước nóng để chiết xuất hương vị và mùi thơm."
+        }
+      }
+    },
+    {
+      "definition": {
+        "word": "Grill",
+        "type": "Verb",
+        "phonetic": "ɡrɪl",
+        "example": "Grill the chicken until it's nicely charred for a smoky flavor.",
+        "explain": "Nướng grill",
+        "translatedExample": "Nướng gà trên grill cho đến khi có một hương vị khói thơm phức."
+      },
+      "quiz": {
+        "exerciseType": "MultipleChoice-Blank",
+        "description": {
+          "type": "MultipleChoice",
+          "question": "What cooking method involves exposing food to direct heat, often with distinct grill marks?",
+          "options": {
+            "A": "Steam",
+            "B": "Roast",
+            "C": "Grill",
+            "D": "Sauté"
+          },
+          "correctAnswer": "C",
+          "explanation": "A: 'Steam' involves cooking with steam, not direct heat. B: 'Roast' is a method of cooking in an oven. C: 'Grill' involves exposing food to direct heat, often creating distinct grill marks. D: 'Sauté' is to cook quickly in a small amount of oil."
+        }
+      }
+    }
+  ]
+}

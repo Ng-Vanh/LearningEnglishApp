@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.VBox?>
+<AnchorPane prefHeight="576.0" prefWidth="960.0" stylesheets="@../CSS/Learn.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Learning.Learn">
+   <AnchorPane prefHeight="70.0" prefWidth="960.0" styleClass="navbar">
+      <children>
+         <ImageView fitHeight="43.0" fitWidth="100.0" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickBackImg" pickOnBounds="true" preserveRatio="true" styleClass="back-btn">
+            <image>
+               <Image url="@../../MainDictionary/image/BackBtn.png" />
+            </image>
+         </ImageView>
+         <VBox alignment="CENTER" layoutX="209.0" layoutY="11.0" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn">
+            <children>
+               <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../MainDictionary/image/home-button.png" />
+                  </image>
+               </ImageView>
+               <Label text="Home" />
+            </children>
+         </VBox>
+         <VBox alignment="CENTER" layoutX="348.0" layoutY="11.0" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn">
+            <children>
+               <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../MainDictionary/image/gamification.png"/>
+                  </image>
+               </ImageView>
+               <Label text="Exercise" />
+            </children>
+         </VBox>
+         <VBox alignment="CENTER" layoutX="622.0" layoutY="6.0" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn">
+            <children>
+               <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../MainDictionary/image/studyingg.png" />
+                  </image>
+               </ImageView>
+               <Label text="Learn" />
+            </children>
+         </VBox>
+         <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="873.0" layoutY="15.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn">
+            <image>
+               <Image url="@../../MainDictionary/image/gamer.png" />
+            </image>
+         </ImageView>
+         <VBox alignment="CENTER" layoutX="744.0" layoutY="3.0" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="83.0" styleClass="wordOfDay-btn">
+            <children>
+               <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../MainDictionary/image/new-product.png" />
+                  </image>
+               </ImageView>
+               <Label text="Word of day" />
+            </children>
+         </VBox>
+         <VBox alignment="CENTER" layoutX="480.0" layoutY="4.0" onMouseClicked="#clickEdict" prefHeight="74.0" prefWidth="66.0" styleClass="dict-btn">
+            <children>
+               <ImageView fitHeight="53.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../HomePage/image/dict.png" />
+                  </image>
+               </ImageView>
+               <Label text="Dictionary" />
+            </children></VBox>
+      </children></AnchorPane>
+   <children>
+      <Pane fx:id="backFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
+         <children>
+            <Label fx:id="word" alignment="CENTER" layoutX="1.0" layoutY="53.0" prefHeight="106.0" prefWidth="258.0" text="Word" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="pronounce" alignment="CENTER" layoutX="1.0" layoutY="155.0" prefHeight="28.0" prefWidth="258.0" text="Pronounce" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="explain" alignment="CENTER" layoutX="4.0" layoutY="190.0" prefHeight="112.0" prefWidth="249.0" text="Explain" textAlignment="CENTER">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="pronounceImg1" fitHeight="28.0" fitWidth="26.0" layoutX="18.0" layoutY="14.0" onMouseClicked="#playAudio" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/speaker.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="starImg1" fitHeight="30.0" fitWidth="30.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/grayStar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Hyperlink fx:id="knowThisWordHpl" layoutX="402.0" layoutY="424.0" onMouseClicked="#clickKnowThisWord" prefHeight="25.0" prefWidth="156.0" text="I already know this word!!">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Hyperlink>
+      <Button fx:id="continueBtn" layoutX="421.0" layoutY="466.0" mnemonicParsing="false" onMouseClicked="#nextCard" prefHeight="49.0" prefWidth="118.0" text="Continue">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Pane fx:id="frontFlashCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0">
+         <children>
+            <Label fx:id="word1" alignment="CENTER" layoutY="50.0" prefHeight="106.0" prefWidth="258.0" text="Word" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="example" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="193.0" prefHeight="106.0" prefWidth="258.0" text="Example" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="pronounceImg2" fitHeight="28.0" fitWidth="28.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/speaker.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="starImg2" fitHeight="30.0" fitWidth="30.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/grayStar.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="type" alignment="CENTER" layoutX="5.0" layoutY="155.0" prefHeight="28.0" prefWidth="249.0" style="-fx-font-style: italic;" text="Type">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="backImg" fitHeight="42" fitWidth="100" layoutX="42.0" layoutY="15.0" onMouseClicked="#clickBackImg" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/back.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="listViewWordContainer" layoutX="351.0" layoutY="74.0" prefHeight="375.0" prefWidth="258.0" visible="false">
+         <children>
+            <ListView fx:id="listViewWord" layoutX="4.0" layoutY="49.0" prefHeight="326.0" prefWidth="249.0" />
+            <Label fx:id="topicTitle" alignment="CENTER" layoutX="8.0" layoutY="14.0" prefHeight="26.0" prefWidth="243.0" text="Topic">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="menuWordImg" fitHeight="58.0" fitWidth="28.0" layoutX="898.0" layoutY="476.0" onMouseClicked="#showListWord" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Menu.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="cloneFrontCard" layoutX="351.0" layoutY="102.0" onMouseClicked="#flipFlashCard" prefHeight="309.0" prefWidth="258.0" visible="false">
+         <children>
+            <Label fx:id="cloneWord" alignment="CENTER" layoutY="56.0" prefHeight="76.0" prefWidth="258.0" text="Word" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="cloneExample" alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="183.0" prefHeight="118.0" prefWidth="243.0" text="Example" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="clonePronounce" fitHeight="28.0" fitWidth="28.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/speaker.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cloneStar" fitHeight="30.0" fitWidth="30.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/grayStar.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="type1" alignment="CENTER" layoutX="6.0" layoutY="141.0" prefHeight="28.0" prefWidth="243.0" text="Type">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

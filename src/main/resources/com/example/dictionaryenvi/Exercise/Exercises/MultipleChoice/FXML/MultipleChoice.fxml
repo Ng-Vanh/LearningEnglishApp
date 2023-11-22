@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox minHeight="576.0" minWidth="850.0" prefHeight="576.0" prefWidth="960.0" spacing="10.0" stylesheets="@../CSS/MultipleChoice.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice.MultipleChoice_Controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" styleClass="navbar" stylesheets="@../../../common/CSS/Navbar.css">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="back-btn" stylesheets="@../../../common/CSS/Navbar.css">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="100.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true" styleClass="back-btn" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/BackBtn.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="home-btn">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/home-button.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Home" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" styleClass="game-btn">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/gamification.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Exercise" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" onMouseClicked="#clickEdict" prefHeight="57.0" prefWidth="57.0" styleClass="dict-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" styleClass="dict-btn">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/dict.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Label text="Dictionary" />
+               </children></VBox>
+            <VBox alignment="CENTER" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" styleClass="study-btn">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/studyingg.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Learn" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="83.0" styleClass="wordOfDay-btn" stylesheets="@../../../common/CSS/Navbar.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/new-product.png" />
+                     </image>
+                  </ImageView>
+                  <Label styleClass="wordOfDay-btn" text="Word of day" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="user-btn" stylesheets="@../../../common/CSS/Navbar.css">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="49.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@../../../../MainDictionary/image/gamer.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+      <VBox prefHeight="0.0" prefWidth="920.0" spacing="10.0" VBox.vgrow="NEVER">
+         <children>
+            <HBox alignment="CENTER" maxHeight="20.0" spacing="100.0" styleClass="question-box" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label fx:id="scoreLabel" styleClass="scoreLabel" stylesheets="@../../../common/CSS/Status.css" text="Score: 0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="questionIndexLabel" styleClass="questionIndexLabel" stylesheets="@../../../common/CSS/Status.css" text="Question 1 of 10" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="timerLabel" styleClass="timerLabel" stylesheets="@../../../common/CSS/Status.css" text="Timer" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+         <children>
+            <!-- Visualization box -->
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="question-box" VBox.vgrow="SOMETIMES">
+               <children>
+                  <HBox alignment="CENTER" styleClass="question-box" stylesheets="@../../../common/CSS/Question.css">
+                     <children>
+                        <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" styleClass="question-label" stylesheets="@../../../common/CSS/Question.css" text="src/main/java/com/backend/Exercise/ExerciseBank/MultipleChoice/MultipleChoice-Blank.txt" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <!-- Original box for growing -->
+            <GridPane alignment="CENTER" hgap="10.0" vgap="10.0" GridPane.hgrow="ALWAYS">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="NEVER" />
+                  <ColumnConstraints hgrow="NEVER" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints vgrow="ALWAYS" />
+                  <RowConstraints vgrow="ALWAYS" />
+               </rowConstraints>
+               <StackPane GridPane.columnIndex="0" GridPane.rowIndex="0">
+                  <ToggleButton fx:id="optionA" alignment="BOTTOM_RIGHT" mnemonicParsing="false" onAction="#submitAnswer" styleClass="multiple-choice-button" stylesheets="@../CSS/Button.css" text="Option A" wrapText="true" />
+               </StackPane>
+               <StackPane GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+                  <ToggleButton fx:id="optionB" alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#submitAnswer" styleClass="multiple-choice-button" stylesheets="@../CSS/Button.css" text="Option B" wrapText="true" />
+               </StackPane>
+               <StackPane GridPane.columnIndex="0" GridPane.rowIndex="1">
+                  <ToggleButton fx:id="optionC" alignment="TOP_RIGHT" mnemonicParsing="false" onAction="#submitAnswer" styleClass="multiple-choice-button" stylesheets="@../CSS/Button.css" text="Option C" wrapText="true" />
+               </StackPane>
+               <StackPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <ToggleButton fx:id="optionD" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#submitAnswer" styleClass="multiple-choice-button" stylesheets="@../CSS/Button.css" text="Option D" wrapText="true" />
+               </StackPane>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="20.0" right="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</VBox>

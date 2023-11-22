@@ -1,0 +1,68 @@
+/* General style for the dialog pane */
+.dialog-pane {
+    -fx-background-color: white; /* White background */
+    -fx-font-family: 'Open Sans', sans-serif; /* Readable font */
+    -fx-text-fill: #333; /* Dark grey text for readability */
+    -fx-padding: 20; /* Padding around the alert */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 20, 0, 0, 10); /* Drop shadow */
+}
+
+/* Style for correct alerts */
+.dialog-pane.correct-alert {
+    -fx-background-color: #4CAF50; /* Green for correct alerts */
+}
+
+/* Style for incorrect alerts */
+.dialog-pane.incorrect-alert {
+    -fx-background-color: #FF5733; /* Red for incorrect alerts */
+}
+
+/* Style for the content inside the alert */
+.dialog-pane .content {
+    -fx-text-fill: #333; /* Dark grey text for content */
+}
+
+/* Style for the header panel (title) */
+.dialog-pane .header-panel {
+    -fx-background-color: #333; /* Dark background for the header */
+    -fx-text-fill: white; /* White text for the header */
+    -fx-font-size: 18px; /* Larger font size for the title */
+    -fx-font-weight: bold; /* Bold text for the title */
+}
+
+/* Style for buttons */
+.dialog-pane .button {
+    -fx-background-color: #5cb85c; /* Green color for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-font-weight: bold; /* Bold text for buttons */
+}
+
+.dialog-pane .ok-button {
+    -fx-background-color: #3498db; /* Blue background */
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 2, 2); /* Subtle shadow for pressed effect */
+    -fx-cursor: hand;
+    -fx-font-size: 2em;
+    -fx-scale-x: 0.98; /* Slightly scaled down */
+    -fx-scale-y: 0.98; /* Slightly scaled down */
+}
+
+/* Hover effect for the OK button */
+.dialog-pane .ok-button:hover {
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 15, 0.3, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Pressed effect for the OK button */
+.dialog-pane .ok-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #2980b9, #3498db);
+    -fx-effect: dropshadow(three-pass-box, #2980b9, 5, 0, 0, 0);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}

@@ -72,7 +72,7 @@ Now let's take a closer look at some features:
 
 
 # Demo
- https://www.youtube.com/watch?v=R1t7ngTjUWY&ab_channel=Ng_Vanh
+ https://www.youtube.com/watch?v=9hguF34KLhg
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

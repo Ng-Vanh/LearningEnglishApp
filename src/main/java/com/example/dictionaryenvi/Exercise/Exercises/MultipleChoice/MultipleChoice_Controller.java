@@ -18,7 +18,6 @@ import static com.example.dictionaryenvi.Exercise.Utils.GlobalProperties.*;
 
 public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoice> {
 
-
     @FXML
     private ToggleButton optionA;
 

@@ -260,6 +260,8 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
     Stage dummyStage;
 
     protected void showScoreAfterFinish() {
+        timerManager.stopTimer();
+
         closeOpenAlerts();
 
         playEffect(congratulationsMediaPlayer);

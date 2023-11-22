@@ -177,21 +177,22 @@ public class Learn {
         List<UserLearnWord> newLearnWordList = new ArrayList<UserLearnWord>();
         for (Card card : cardList) {
             String wordStr = card.getWord();
+            String topicStr = card.getTopic();
             boolean isLearnWord = card.isLearnWord();
-//            System.out.println(wordStr + " " + isLearnWord);
+            System.out.println(wordStr + " " + isLearnWord);
             if(!learnedListWord.contains(wordStr) && isLearnWord) {
                 UserLearnWord newUserLearnWord = new UserLearnWord();
                 newUserLearnWord.setUsername(currentUserLearnWord.getUsername());
-                newUserLearnWord.setTopic(currentUserLearnWord.getTopic());
+                newUserLearnWord.setTopic(topicStr);
                 newUserLearnWord.setWord(wordStr);
                 newLearnWordList.add(newUserLearnWord);
             }
         }
-//        for (UserLearnWord userLearnWord : newLearnWordList) {
-//            System.out.println(userLearnWord.getUsername() + "  "
-//                    + userLearnWord.getTopic() + "  "
-//                    + userLearnWord.getWord());
-//        }
+        for (UserLearnWord userLearnWord : newLearnWordList) {
+            System.out.println(userLearnWord.getUsername() + "  "
+                    + userLearnWord.getTopic() + "  "
+                    + userLearnWord.getWord());
+        }
         if (newLearnWordList.isEmpty()) {
             return;
         }
@@ -228,13 +229,13 @@ public class Learn {
             String explainStr = detailedTopicWord.getDefinition().getExplain();
             UserLearnWord newUserLearnWord = new UserLearnWord();
             newUserLearnWord.setUsername(currentUsernameStr);
-            newUserLearnWord.setTopic(currentTopicStr);
+            newUserLearnWord.setTopic(topicStr);
             newUserLearnWord.setWord(wordStr);
             boolean isLearnWord = learnedListWord.contains(newUserLearnWord);
             if(topicStr.equals(currentTopicStr) || currentTopicStr.equals("Random")) {
                 currentId += 1;
                 System.out.println(currentId + " " + wordStr + " " + topicStr);
-                Card card = new Card(wordStr , typeStr , exampleStr , pronounceStr , explainStr , isLearnWord);
+                Card card = new Card(wordStr , topicStr , typeStr , exampleStr , pronounceStr , explainStr , isLearnWord);
                 cardList.add(card);
                 hashMap.put(wordStr , currentId);
             }
@@ -425,14 +426,17 @@ public class Learn {
     }
 
     public void goToHome(MouseEvent mouseEvent) {
+        updateLearnWordToDatabase();
         HomePage.moveToHomePageNavbar(mouseEvent);
     }
 
     public void goToGame(MouseEvent mouseEvent) {
+        updateLearnWordToDatabase();
         HomePage.moveToExerciseNavbar(mouseEvent);
     }
 
     public void goToLearn(MouseEvent mouseEvent) {
+        updateLearnWordToDatabase();
         HomePage.moveToLearnTopicWordNavbar(mouseEvent);
     }
 
@@ -441,10 +445,13 @@ public class Learn {
     }
 
     public void clickLearnWordOfDay(MouseEvent mouseEvent) {
+        updateLearnWordToDatabase();
         HomePage.moveToLearnWordOfDayNavbar(mouseEvent);
     }
 
     public void clickEdict(MouseEvent mouseEvent) {
+        updateLearnWordToDatabase();
+        HomePage.moveToDictionaryNavbar(mouseEvent);
     }
 }
 

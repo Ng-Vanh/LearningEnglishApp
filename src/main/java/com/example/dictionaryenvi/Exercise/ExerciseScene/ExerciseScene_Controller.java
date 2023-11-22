@@ -131,7 +131,7 @@ public class ExerciseScene_Controller {
 
             fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
 
-            globalDurations = 2;
+            globalDurations = 60;
             globalIsRunningExercise = true;
             globalExerciseIndex = 0;
             globalScore = 0;

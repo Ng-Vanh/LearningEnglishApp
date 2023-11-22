@@ -47,6 +47,7 @@ module com.example.dictionaryenvi {
     opens com.backend.TopicWord.TopicWords.SimpleTopicWord to com.fasterxml.jackson.databind;
     exports com.backend.TopicWord.TopicWords.DetailedTopicWord to com.fasterxml.jackson.databind;
     opens com.backend.TopicWord.TopicWords.DetailedTopicWord to com.fasterxml.jackson.databind;
+    opens com.backend.User to javafx.base;
 
     exports com.example.dictionaryenvi.Exercise.ExerciseScene;
     exports com.example.dictionaryenvi.Exercise.Utils;

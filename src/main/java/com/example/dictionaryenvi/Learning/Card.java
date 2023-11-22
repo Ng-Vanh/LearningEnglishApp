@@ -3,6 +3,7 @@ package com.example.dictionaryenvi.Learning;
 import org.apache.poi.ss.usermodel.Cell;
 
 public class Card {
+    private String topic;
     private String word;
     private String example;
     private String type;
@@ -18,8 +19,9 @@ public class Card {
         isLearnWord = learnWord;
     }
 
-    public Card(String word , String type , String example , String pronounce , String explain , boolean isLearnWord) {
+    public Card(String word , String topic , String type , String example , String pronounce , String explain , boolean isLearnWord) {
         this.word = word;
+        this.topic = topic;
         this.type = type;
         this.example = example;
         this.pronounce = pronounce;
@@ -37,7 +39,13 @@ public class Card {
     public String getType() {
         return type;
     }
+    public String getTopic() {
+        return topic;
+    }
 
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
     public void setType(String type) {
         this.type = type;
     }

@@ -148,6 +148,9 @@ public class ExerciseScene_Controller {
         for (UserLearnWord userLearnWord : userLearnWordList) {
             String topic = userLearnWord.getTopic();
             String word = userLearnWord.getWord();
+            if (topic == null || word == null || topic.equalsIgnoreCase("Random")) {
+                continue;
+            }
             SimpleTopicWord simpleTopicWord = new SimpleTopicWord(topic, word);
             simpleTopicWordList.add(simpleTopicWord);
         }

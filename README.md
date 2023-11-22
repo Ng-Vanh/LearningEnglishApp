@@ -1,3 +1,4 @@
+
 # Application to support learning English by Java
 # Author
 TEAM : Nhom nay Manh
@@ -5,11 +6,12 @@ TEAM : Nhom nay Manh
 2. Nguyen Viet Anh - 22021162
 3. Tran Anh Duc - 22021165
 # Description
-Welcome to the English learning application. The application is designed to help users improve their English proficiency through features such as lookup , excercise and more ...
-1. The application is developed using javaFX and the javaFX library.
+Welcome to the English learning application! 
+The application is designed to help users improve their English proficiency through features such as lookup, exercise and various other functionalities.
+1. The application is developed using JavaFX and the JavaFX library.
 2. The application allows users to look up words from English to Vietnamese and vice versa.
 3. Information within the application is stored in a database , including data about words and user information.
-4. The application utilizes the Google Transalate API and ChatGpt.
+4. The application utilizes the Google Transalate API and ChatGPT.
 
 # UML Diagram
 ![src_uml](https://github.com/mikebilly/dictionaryEn-Vi/assets/55441313/f8bed12f-5fe5-40e7-b7d1-c3b7a3288365)
@@ -49,10 +51,17 @@ Now let's take a closer look at some features:
   - Users can click the speaker icon to listen to the pronunciation and click the star icon to save the word. The list of all saved words can be viewed by clicking the menu button.
     
 - **Excercise**
+  
 
-   ![Screenshot 2023-11-22 201603](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/bb241b78-38a8-4bc5-b4fb-7097b0f994bc)
-   ![Screenshot 2023-11-22 201626](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/6e0e3839-37ad-43d9-b917-086607c57d18)
-  - Our exercises come in two types: multiple-choice questions or listening exercises, which will appear randomly in a set of questions related to the words the user has learned. It will help users practice applying the words they have just learned.
+	***Multiple Choice***
+  ![Screenshot 2023-11-22 201603](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/bb241b78-38a8-4bc5-b4fb-7097b0f994bc)
+   
+   ***Dictation***![Screenshot 2023-11-22 201626](https://github.com/mikebilly/dictionaryEn-Vi/assets/113889413/6e0e3839-37ad-43d9-b917-086607c57d18)
+  - Our exercises come in two types: 
+	* multiple-choice questions
+	* dictation exercises
+	  
+  - The exercises will appear randomly, tailored to the set of words which the user has learned. This will help learners practice applying the words in practical examples.
   - Upon completing the exercise, the number of correct answers will be updated and reflected in the leaderboard.
 
 

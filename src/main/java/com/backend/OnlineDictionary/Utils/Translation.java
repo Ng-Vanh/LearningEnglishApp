@@ -33,7 +33,5 @@ public class Translation {
     public static void main(String[] args) {
         Translation translation = new Translation("hi");
         System.out.println(translation.getTranslation());
-
-//        System.out.println(translation);
     }
 }

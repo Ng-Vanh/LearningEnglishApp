@@ -13,30 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-//@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
-//@JsonSubTypes({
-//        @JsonSubTypes.Type(value = MultipleChoice.class, name = "MultipleChoice"),
-//        @JsonSubTypes.Type(value = Dictation.class, name = "Dictation")
-//})
 public abstract class Exercise {
-//    private String type;
-//    private String exerciseType;
-//
-//    public String getType() {
-//        return type;
-//    }
-//
-//    public void setType(String type) {
-//        this.type = type;
-//    }
-//
-//    public String getExerciseType() {
-//        return exerciseType;
-//    }
-//
-//    public void setExerciseType(String exerciseType) {
-//        this.exerciseType = exerciseType;
-//    }
 
     public Exercise() {
 
@@ -59,18 +36,15 @@ public abstract class Exercise {
 
             while ((line = br.readLine()) != null) {
                 if (!line.trim().isEmpty()) {
-                    // Append non-empty lines to the StringBuilder
                     jsonStringBuilder.append(line);
                 } else {
-                    // If an empty line is encountered, add the JSON object to the list
                     if (!jsonStringBuilder.isEmpty()) {
                         jsonStringList.add(jsonStringBuilder.toString());
-                        jsonStringBuilder.setLength(0);  // Clear the StringBuilder for the next JSON object
+                        jsonStringBuilder.setLength(0);
                     }
                 }
             }
 
-            // Check for any remaining JSON object after the last empty line
             if (!jsonStringBuilder.isEmpty()) {
                 jsonStringList.add(jsonStringBuilder.toString());
             }

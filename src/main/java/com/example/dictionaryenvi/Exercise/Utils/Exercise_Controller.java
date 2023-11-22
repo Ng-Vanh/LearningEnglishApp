@@ -130,12 +130,10 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         System.out.println("HANDLE TIMEOUT HERE");
         saveUserScore();
 
-        // Use Platform.runLater to switch to the JavaFX Application Thread
         Platform.runLater(() -> {
             showScoreAfterFinish();
         });
     }
-
 
     protected void showAlert(boolean isCorrect, String correctAnswer, String extraContent) {
         String title;
@@ -154,46 +152,38 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         dialog.setTitle(title);
         dialog.setHeaderText(null);
 
-        // Create an ImageView based on correctness
         ImageView imageView = new ImageView();
         String imagePath = isCorrect ? "/com/example/dictionaryenvi/Exercise/common/assets/correct.png" : "/com/example/dictionaryenvi/Exercise/common/assets/incorrect.png";
         imageView.setImage(new Image(getClass().getResource(imagePath).toExternalForm()));
-        double fitSize = 50; // Adjust the size as needed
+        double fitSize = 50;
         imageView.setFitWidth(fitSize);
         imageView.setFitHeight(fitSize);
 
         Label contentLabel = new Label(content);
-        contentLabel.setWrapText(true); // Ensure text wrapping for longer content
+        contentLabel.setWrapText(true);
 
-        // Set style class for content
         contentLabel.getStyleClass().add("content");
 
-        // Create an HBox to hold the image and content
         HBox hbox = new HBox(imageView, contentLabel);
-        hbox.setSpacing(10); // Adjust spacing as needed
+        hbox.setSpacing(10);
 
-        // Create a ScrollPane to make content scrollable if it's too large
         ScrollPane scrollPane = new ScrollPane(hbox);
         scrollPane.setFitToWidth(true);
         scrollPane.setFitToHeight(true);
 
-        // Set the ScrollPane as the content of the DialogPane
         DialogPane dialogPane = dialog.getDialogPane();
         dialogPane.setContent(scrollPane);
 
-        // Remove the close button
         dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
         Node closeButton = dialogPane.lookupButton(ButtonType.CLOSE);
         closeButton.setVisible(false);
 
-        // Set background color based on correctness
         if (isCorrect) {
             dialogPane.getStyleClass().add("correct-alert");
         } else {
             dialogPane.getStyleClass().add("incorrect-alert");
         }
 
-        // Set a style class for the OK button
         ButtonType okButtonType = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().add(okButtonType);
         Button okButton = (Button) dialog.getDialogPane().lookupButton(okButtonType);
@@ -203,32 +193,26 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
             System.err.println("OK button not found in the dialog");
         }
 
-        // Set style class for header panel (title)
         Node titleNode = dialogPane.lookup(".header-panel");
         if (titleNode instanceof Label) {
             Label titleLabel = (Label) titleNode;
             titleLabel.getStyleClass().add("header-panel");
         }
 
-        // Load updated CSS file
         String cssFile = getClass().getResource("/com/example/dictionaryenvi/Exercise/common/CSS/Alert.css").toExternalForm();
         dialogPane.getStylesheets().add(cssFile);
 
-        // Fields to store initial position
         final double[] xOffset = new double[1];
         final double[] yOffset = new double[1];
 
-        // Mouse press event handler to store initial position
         EventHandler<MouseEvent> mousePressedHandler = event -> {
             xOffset[0] = event.getSceneX();
             yOffset[0] = event.getSceneY();
 
-            // Reduce opacity when dragging
             Stage stage = (Stage) dialogPane.getScene().getWindow();
-            stage.setOpacity(0.7); // Adjust the value as needed
+            stage.setOpacity(0.7);
         };
 
-        // Mouse drag event handler to adjust the alert position
         EventHandler<MouseEvent> mouseDraggedHandler = event -> {
             Stage stage = (Stage) dialogPane.getScene().getWindow();
             stage.setX(event.getScreenX() - xOffset[0]);
@@ -237,7 +221,7 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
         EventHandler<MouseEvent> mouseReleasedHandler = event -> {
             Stage stage = (Stage) dialogPane.getScene().getWindow();
-            stage.setOpacity(1.0); // Reset to full opacity
+            stage.setOpacity(1.0);
         };
 
         dialogPane.setOnMousePressed(mousePressedHandler);
@@ -284,13 +268,10 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
         dialog.setTitle("Time is up!");
         dialog.setHeaderText(null);
 
-        // Create a Label for the content text
         Label contentLabel = new Label("Congratulations! Your score is: " + globalScore);
 
-        // Set styles for the content label if needed
         contentLabel.getStyleClass().add("content-label");
 
-        // Set the content of the dialog to the Label
         dialog.getDialogPane().setContent(contentLabel);
 
         ButtonType okButton = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
@@ -301,11 +282,8 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
         dialog.initStyle(StageStyle.UNDECORATED);
 
-        // Set a handler for the dialog's hiding event
         dialog.setOnHiding(dialogEvent -> {
-            // Perform actions after the user clicks OK (e.g., go back)
             goBack(null);
-            // Schedule the delayed actions using ScheduledExecutorService
             ScheduledExecutorService executorService = Executors.newScheduledThreadPool(1);
             executorService.schedule(() -> {
                 Platform.runLater(() -> {
@@ -313,20 +291,16 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
                     globalShowingDictation = false;
                     globalShowingMultipleChoice = false;
                 });
-                executorService.shutdown(); // Shutdown the executor after executing the delayed actions
+                executorService.shutdown();
             }, 1, TimeUnit.SECONDS);
         });
 
-        // Show the dialog
         dialog.showAndWait();
-
     }
 
     private void closeOpenAlerts() {
-        // Get all open windows
         List<Window> openWindows = javafx.stage.Window.getWindows();
 
-        // Filter and close only Alert type windows
         openWindows.stream()
                 .filter(window -> window instanceof Stage)
                 .map(stage -> (Stage) stage)
@@ -347,21 +321,18 @@ public abstract class Exercise_Controller<T extends Exercise> extends Scene_Cont
 
         Stage curStage;
         if (event == null) {
-            // If event is null, use dummyStage or the default stage
-            curStage =  getStage();
+            curStage = getStage();
             if (curStage == null) {
                 curStage = exerciseStage;
             }
         } else {
-            // If event is not null, get the stage from the event source
             curStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         }
 
         if (curStage == null) {
             System.err.println("Current stage is null");
-            return; // Return or handle appropriately
+            return;
         }
-
         simpleSetScene("/com/example/dictionaryenvi/HomePage/HomePage.fxml", curStage);
     }
 

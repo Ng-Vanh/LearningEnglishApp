@@ -8,18 +8,6 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonTypeName;
 
-//@JsonTypeName("MultipleChoice")
-//@JsonTypeInfo(
-//        use = JsonTypeInfo.Id.NAME,
-//        include = JsonTypeInfo.As.PROPERTY,
-//        property = "type",
-//        defaultImpl = MultipleChoiceDescription.class
-//)
-//@JsonSubTypes({
-//        @JsonSubTypes.Type(value = MultipleChoiceDescription.class, name = "MultipleChoice")
-//})
-
-//@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type", defaultImpl = MultipleChoiceDescription.class)
 @JsonTypeName("MultipleChoice")
 public class MultipleChoiceDescription extends Description {
     @JsonProperty("type")
@@ -63,6 +51,7 @@ public class MultipleChoiceDescription extends Description {
     public MultipleChoice getMultipleChoice(MultipleChoiceDescription multipleChoiceDescription) {
         return new MultipleChoice(question, options, correctAnswer, explanation);
     }
+
     public String getType() {
         return type;
     }

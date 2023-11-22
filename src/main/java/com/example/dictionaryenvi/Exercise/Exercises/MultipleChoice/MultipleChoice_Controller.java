@@ -117,12 +117,11 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
     }
 
     private ToggleButton getSelectedButton() {
-        // Get the selected button from the ToggleGroup
         return (ToggleButton) optionsGroup.getSelectedToggle();
     }
 
     private void resetButtonColor(ToggleButton button) {
-        button.setStyle(""); // This resets the style to the default state
+        button.setStyle("");
     }
 
     private void setButtonColor(ToggleButton button, Color color) {
@@ -166,41 +165,14 @@ public class MultipleChoice_Controller extends Exercise_Controller<MultipleChoic
         }
 
         globalShowingMultipleChoice = false;
-//        globalShowingMultipleChoiceProperty.set(false);
         Platform.runLater(() -> {
             globalShowingMultipleChoiceProperty.set(false);
             if (!globalIsRunningExerciseProperty.get()) {
                 showScoreAfterFinish();
             }
         });
-//        closeStage();
         System.out.println("CLOSING MULTIPLE CHOICE");
         System.out.println("global mul FALSE " + globalShowingMultipleChoice);
     }
 
-
-//    @FXML
-//    protected void goBack(MouseEvent event) { // fix this
-//        timerManager.resetTimer(globalDurations);
-//        timerManager.stopTimer();
-//
-//        Platform.runLater(() -> {
-//            globalIsRunningExerciseProperty.set(false);
-//            globalShowingMultipleChoiceProperty.set(false);
-//            globalShowingDictationProperty.set(false);
-//        });
-//
-//        Stage curStage;
-//        if (event == null) {
-//            curStage = getStage();
-//            if (curStage == null) {
-//                throw new RuntimeException("WTF CURSTAGE IS NULL");
-//            }
-//        }
-//        else {
-//            curStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        }
-//
-//        simpleSetScene("/com/example/dictionaryenvi/HomePage/HomePage.fxml", curStage);
-//    }
 }

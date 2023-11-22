@@ -33,22 +33,8 @@ public class MultipleChoice extends Exercise {
 
     private static final String bankFolderPath = "src/main/java/com/backend/Exercise/ExerciseBank/MultipleChoice/";
 
-//    @JsonProperty("type")
-//    private String type = prefix;
-
-//    @JsonProperty("exerciseType")
-//    private String exerciseType;
-
     @JsonProperty("description")
     private MultipleChoiceDescription description;
-
-//    public String getExerciseType() {
-//        return exerciseType;
-//    }
-
-//    public void setExerciseType(String exerciseType) {
-//        this.exerciseType = exerciseType;
-//    }
 
     public MultipleChoiceDescription getDescription() {
         return description;
@@ -59,7 +45,7 @@ public class MultipleChoice extends Exercise {
     }
 
     public static MultipleChoice getDefaultMultipleChoice() {
-        return new MultipleChoice("Question", new Options("A", "B", "C", "D"), "Correct answer","Explanation");
+        return new MultipleChoice("Question", new Options("A", "B", "C", "D"), "Correct answer", "Explanation");
     }
 
     public MultipleChoice() {
@@ -86,7 +72,6 @@ public class MultipleChoice extends Exercise {
         try {
             String prompt = PromptLoader.getPrompt(promptName);
             generateExercise(prompt);
-//            this.exerciseType = prefix + "-" + exerciseType;
         } catch (IllegalArgumentException e) {
             System.err.println(e.getMessage());
         }
@@ -95,31 +80,23 @@ public class MultipleChoice extends Exercise {
     public MultipleChoice(String exerciseType, String jsonDescription) {
         if (!exerciseType.contains(prefix)) {
             throw new IllegalArgumentException("Not a multiple choice");
-        }
-        else {
+        } else {
             MultipleChoice multipleChoice = loadFromJson(jsonDescription);
-//            this.exerciseType = prefix + "-" + exerciseType;
             assign(multipleChoice);
         }
     }
 
     private static String formatExplanation(String explanation) {
-        // Split the input string using "A:", "B:", "C:", and "D:" as delimiters
         String[] parts = explanation.split("(A:|B:|C:|D:)");
 
         StringBuilder result = new StringBuilder();
 
-        // Initialize a variable to keep track of the option
         char option = 'A';
 
-        // Format each part and append to the result
         for (String part : parts) {
-            // Skip empty and whitespace-only parts
             if (!part.trim().isEmpty()) {
-                // Append the option (A., B., C., D.) followed by the formatted part
                 result.append(option).append(". ").append(part.trim()).append("\n\n");
 
-                // Increment the option for the next iteration
                 option++;
             }
         }
@@ -129,9 +106,6 @@ public class MultipleChoice extends Exercise {
 
     private static MultipleChoice loadFromJson(String jsonString) {
         try {
-//            System.out.println(jsonString);
-//            System.out.println("-------------------------------------\n");
-
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode jsonNode = objectMapper.readTree(jsonString);
             JsonNode optionsNode = jsonNode.get("options");
@@ -155,14 +129,8 @@ public class MultipleChoice extends Exercise {
         return new MultipleChoice();
     }
 
-
     @Override
     protected void generateExercise(String query) {
-
-//            String query = "Generate one, only one challenging English vocabulary practice exercise in JSON-like format with a sentence containing a blank in the question, four options (A, B, C, D) for completion, a specified correct answer, and a brief explanation for the definition of each of the options. For the explanation, it should be like a paragraph, no special characters. The format should follow this pattern: {question: , options: {A: , B: , C: , D: }, correctAnswer: , explanation: }.";
-//            ChatGPT chatGPT = new ChatGPT();
-//            String jsonString = chatGPT.getGPTAnswer(query);
-
         String jsonString = ChatGPT.getGPTAnswer(query);
         MultipleChoice multipleChoice = loadFromJson(jsonString);
 
@@ -178,8 +146,6 @@ public class MultipleChoice extends Exercise {
             System.out.println(filepath);
 
             ArrayList<String> jsonList = new ArrayList<>(readJsonFile(filepath));
-
-//            ArrayList<String> jsonList = new ArrayList<>(readJsonFile(filepath.toString()));
 
             ArrayList<MultipleChoice> multipleChoiceList = new ArrayList<>();
 

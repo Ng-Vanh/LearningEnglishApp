@@ -57,8 +57,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
     @Override
     protected void extraInit() {
-
-
         submitButton.setOnMouseEntered(event -> {
             playHover();
         });
@@ -103,7 +101,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
     private void startBreathingAnimation() {
         if (breathingAnimation == null) {
-            // Set the initial scale to normal
             audioIcon.setScaleX(1.0);
             audioIcon.setScaleY(1.0);
 
@@ -118,15 +115,12 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
     private void stopBreathingAnimation() {
         if (breathingAnimation != null) {
-            // Set the scale back to normal at the end of the current cycle
             breathingAnimation.setOnFinished(event -> {
                 audioIcon.setScaleX(1.0);
                 audioIcon.setScaleY(1.0);
             });
 
-            // Stop the animation after the current cycle is complete
             breathingAnimation.stop();
-
             breathingAnimation = null;
         }
     }
@@ -144,9 +138,8 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
     }
 
     private void resetButtonColor(Button button) {
-        button.setStyle(""); // This resets the style to the default state
+        button.setStyle("");
     }
-
 
     @Override
     @FXML
@@ -159,7 +152,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
 
         String userAnswer = getUserAnswer();
         timerManager.stopTimer();
-        // Add logic to handle the submitted answer
         System.out.println("Submitted answer: " + userAnswer);
         if (userAnswer != null) {
             if (exercise.isCorrect(userAnswer)) {
@@ -182,7 +174,6 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
         }
 
         answerTextField.clear();
-
         globalShowingDictation = false;
 
         Platform.runLater(() -> {
@@ -192,33 +183,7 @@ public class Dictation_Controller extends Exercise_Controller<Dictation> {
                 showScoreAfterFinish();
             }
         });
-//        closeStage();
         System.out.println("CLOSING DICTATION");
         System.out.println("global Dic FALSE " + globalShowingDictation);
     }
-
-//    @FXML
-//    protected void goBack(MouseEvent event) { // fix this
-//        timerManager.resetTimer(globalDurations);
-//        timerManager.stopTimer();
-//
-//        Platform.runLater(() -> {
-//            globalIsRunningExerciseProperty.set(false);
-//            globalShowingMultipleChoiceProperty.set(false);
-//            globalShowingDictationProperty.set(false);
-//        });
-//
-//        Stage curStage;
-//        if (event == null) {
-//            curStage = getStage();
-//            if (curStage == null) {
-//                curStage =
-//            }
-//        }
-//        else {
-//            curStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        }
-//
-//        simpleSetScene("/com/example/dictionaryenvi/HomePage/HomePage.fxml", curStage);
-//    }
 }

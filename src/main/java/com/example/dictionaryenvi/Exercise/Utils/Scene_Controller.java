@@ -36,7 +36,7 @@ public class Scene_Controller {
             rootPane.getChildren().addAll(snapshot, root);
 
             double sceneWidth = currentScene.getWidth();
-            root.translateXProperty().set(slideFromRight ? sceneWidth : -sceneWidth); // Initial position off the scene
+            root.translateXProperty().set(slideFromRight ? sceneWidth : -sceneWidth);
 
             Scene newScene = new Scene(rootPane, sceneWidth, currentScene.getHeight());
 
@@ -50,7 +50,6 @@ public class Scene_Controller {
                 transition.setToX(0);
                 transition.play();
 
-                // Apply a bouncing effect with acceleration and deceleration
                 transition.setOnFinished(eventTransition -> {
                     Timeline timeline = new Timeline();
                     KeyValue keyValue = new KeyValue(root.translateXProperty(), slideFromRight ? -30 : 30);
@@ -82,9 +81,9 @@ public class Scene_Controller {
             StackPane rootPane = new StackPane();
             rootPane.getChildren().addAll(snapshot, root);
 
-            double sceneWidth = 960; // Set the desired width
-            double sceneHeight = 576; // Set the desired height
-            root.translateXProperty().set(slideFromRight ? sceneWidth : -sceneWidth); // Initial position off the scene
+            double sceneWidth = 960;
+            double sceneHeight = 576;
+            root.translateXProperty().set(slideFromRight ? sceneWidth : -sceneWidth);
 
             Scene newScene = new Scene(rootPane, sceneWidth, sceneHeight);
 
@@ -94,13 +93,12 @@ public class Scene_Controller {
             FadeTransition fadeOut = new FadeTransition(Duration.seconds(0.5), snapshot);
             fadeOut.setToValue(0);
             fadeOut.setOnFinished(e -> {
-                stage.show();  // Show the new stage
+                stage.show();
 
                 TranslateTransition transition = new TranslateTransition(Duration.seconds(0.5), root);
                 transition.setToX(0);
                 transition.play();
 
-                // Apply a bouncing effect with acceleration and deceleration
                 transition.setOnFinished(eventTransition -> {
                     Timeline timeline = new Timeline();
                     KeyValue keyValue = new KeyValue(root.translateXProperty(), slideFromRight ? -30 : 30);

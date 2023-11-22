@@ -18,13 +18,10 @@ module com.example.dictionaryenvi {
     opens com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice to javafx.fxml;
     opens com.example.dictionaryenvi.Exercise.Exercises.Dictation to javafx.fxml;
     opens com.example.dictionaryenvi.Exercise.Utils to javafx.fxml;
-    opens com.example.dictionaryenvi.Exercise.ExerciseSelection to javafx.fxml;
-    opens com.backend.User to javafx.base;
 
     exports com.example.dictionaryenvi;
     exports com.example.dictionaryenvi.Exercise.Exercises.Dictation;
     exports com.example.dictionaryenvi.Exercise.Exercises.MultipleChoice;
-    exports com.example.dictionaryenvi.Exercise.ExerciseSelection;
     exports com.example.dictionaryenvi.Account;
     opens com.example.dictionaryenvi.Account to javafx.fxml;
     exports com.example.dictionaryenvi.Learning;

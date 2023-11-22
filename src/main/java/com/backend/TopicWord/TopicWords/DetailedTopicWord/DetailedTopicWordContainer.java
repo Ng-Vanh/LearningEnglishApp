@@ -10,12 +10,6 @@ public class DetailedTopicWordContainer {
 
     }
 
-//    public TopicContainer(String topic, ArrayList<TopicWord> words) {
-//        this.topic = topic;
-//        this.words = words;
-//    }
-
-    // Getters and setters
     public String getTopic() {
         return topic;
     }

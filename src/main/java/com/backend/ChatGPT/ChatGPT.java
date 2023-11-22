@@ -59,7 +59,6 @@ public class ChatGPT {
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode rootNode = objectMapper.readTree(text);
 
-            // Get the "content" field from the JSON
             String content = rootNode
                     .path("choices")
                     .get(0)

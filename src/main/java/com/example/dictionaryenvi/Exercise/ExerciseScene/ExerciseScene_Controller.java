@@ -91,9 +91,7 @@ public class ExerciseScene_Controller {
                 globalIsRunningExerciseProperty.set(false);
                 return;
             }
-//
             exerciseStage.show();
-
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -128,7 +126,6 @@ public class ExerciseScene_Controller {
 
             exerciseStage.show();
 
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -139,8 +136,7 @@ public class ExerciseScene_Controller {
     public boolean canGetUser() {
         if (currentUser == null) {
             return false;
-        }
-        else {
+        } else {
             return true;
         }
     }
@@ -149,7 +145,7 @@ public class ExerciseScene_Controller {
         String currentUserStr = currentUser.getUsername();
         ArrayList<UserLearnWord> userLearnWordList = LearnedDataAccess.getInstance().getWordsFollowEachUser(currentUserStr);
         ArrayList<SimpleTopicWord> simpleTopicWordList = new ArrayList<>();
-        for (UserLearnWord userLearnWord: userLearnWordList) {
+        for (UserLearnWord userLearnWord : userLearnWordList) {
             String topic = userLearnWord.getTopic();
             String word = userLearnWord.getWord();
             SimpleTopicWord simpleTopicWord = new SimpleTopicWord(topic, word);
@@ -172,9 +168,7 @@ public class ExerciseScene_Controller {
             simpleTopicWordListFromDataAccess = new ArrayList<>(getSimpleTopicWordListFromDataAccess());
             System.out.println("User has: " + simpleTopicWordListFromDataAccess);
             System.out.println();
-//            fullSimpleTopicWordSet.addAll(simpleTopicWordListFromDataAccess);
-        }
-        else {
+        } else {
             System.out.println("Cannot get user.");
         }
 
@@ -186,31 +180,20 @@ public class ExerciseScene_Controller {
             fullExerciseList.clear();
         }
 
-//        fullExerciseList.add(globalCurrentMultipleChoice);
-
         if (canGetUser()) {
             fullSimpleTopicWordSet.addAll(simpleTopicWordListFromDataAccess);
-//            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(simpleTopicWordListFromDataAccess));
         }
         if (!randomWordList.isEmpty()) {
             fullSimpleTopicWordSet.addAll(randomWordList);
-//            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(randomWordList));
-        }
-        else {
+        } else {
             fullSimpleTopicWordSet.addAll(globalFullSimpleTopicWordList);
-//            fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList));
         }
-
 
         ArrayList<SimpleTopicWord> fullSimpleTopicWordList = new ArrayList<>(fullSimpleTopicWordSet);
 
         fullExerciseList.addAll(getExerciseListFromSimpleTopicWordList(fullSimpleTopicWordList));
         Platform.runLater(() -> {
             exerciseStage = (Stage) dummyLabel.getScene().getWindow();
-//            stage.close();
-
-//            fullExerciseList = getExerciseListFromSimpleTopicWordList(globalFullSimpleTopicWordList);
-
 
             globalDurations = 60;
             globalIsRunningExercise = true;
@@ -244,9 +227,6 @@ public class ExerciseScene_Controller {
             return;
         }
 
-//        Platform.runLater(() -> {
-
-
         globalCurrentExercise = fullExerciseList.remove(0);
         globalExerciseIndex += 1;
 
@@ -276,6 +256,5 @@ public class ExerciseScene_Controller {
 
             loadDictationScene();
         }
-
     }
 }

@@ -14,7 +14,6 @@ public class SimpleTopicWordLoader {
     public static ArrayList<SimpleTopicWord> getSimpleTopicWordList() {
         File file = new File(FILE_DIR);
         try {
-            // Directly deserialize the JSON file into a container class
             SimpleTopicWordContainer container = objectMapper.readValue(file, SimpleTopicWordContainer.class);
 
             HashSet<SimpleTopicWord> simpleTopicWordSet = new HashSet<>(container.getWords());

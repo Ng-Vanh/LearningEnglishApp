@@ -57,15 +57,13 @@ public class DetailedTopicWordLoader {
     public static ArrayList<DetailedTopicWord> getWordsFromTopic(String topicName) {
         File file = new File(TOPIC_WORD_DIR + topicName + ".txt");
         try {
-            // Directly deserialize the JSON file into a container class
             DetailedTopicWordContainer container = objectMapper.readValue(file, DetailedTopicWordContainer.class);
             String topic = container.getTopic();
 
             HashSet<DetailedTopicWord> detailedTopicWordSet = new HashSet<>(container.getWords());
             ArrayList<DetailedTopicWord> detailedTopicWordList = new ArrayList<>(detailedTopicWordSet);
-//            System.out.println(topic);
 
-            for (DetailedTopicWord detailedTopicWord: detailedTopicWordList) {
+            for (DetailedTopicWord detailedTopicWord : detailedTopicWordList) {
                 addMissingFields(detailedTopicWord, topicName);
 
                 String word = detailedTopicWord.getDefinition().getWord();
@@ -73,12 +71,6 @@ public class DetailedTopicWordLoader {
 
                 SimpleTopicWord simpleTopicWord = new SimpleTopicWord(topic, word);
                 simpleTopicWordToDetailedTopicWordMap.put(simpleTopicWord, detailedTopicWord);
-
-//                System.out.println(detailedTopicWord.getDefinition());
-//                System.out.println("---------------------------------");
-//                System.out.println(detailedTopicWord.getQuiz().getExercise());
-////
-//                System.out.println();
             }
 
             return detailedTopicWordList;
@@ -132,7 +124,7 @@ public class DetailedTopicWordLoader {
 
     public static ArrayList<DetailedTopicWord> getDetailedTopicWordListFromSimpleTopicWordList(ArrayList<SimpleTopicWord> simpleTopicWordList) {
         ArrayList<DetailedTopicWord> detailedTopicWordList = new ArrayList<>();
-        for (SimpleTopicWord simpleTopicWord: simpleTopicWordList) {
+        for (SimpleTopicWord simpleTopicWord : simpleTopicWordList) {
             detailedTopicWordList.add(simpleTopicWordToDetailedTopicWordMap.get(simpleTopicWord));
         }
         return detailedTopicWordList;
@@ -172,7 +164,7 @@ public class DetailedTopicWordLoader {
 //            System.out.println("Topic: " + topic + "\nCnt: " + topicCntMap.get(topic) + "\n");
 //        }
 
-        for (SimpleTopicWord simpleTopicWord: globalFullSimpleTopicWordList) {
+        for (SimpleTopicWord simpleTopicWord : globalFullSimpleTopicWordList) {
             System.out.println(simpleTopicWord);
             System.out.println();
         }
@@ -180,11 +172,11 @@ public class DetailedTopicWordLoader {
         int cnt = 0;
         StringBuilder sb = new StringBuilder();
         HashMap<String, Integer> topicCntMap = new HashMap<>();
-        for (String topic: globalFullDetailedTopicWordMap.keySet()) {
+        for (String topic : globalFullDetailedTopicWordMap.keySet()) {
             System.out.println("Topic: " + topic);
             sb.append(topic).append(", ");
             ArrayList<DetailedTopicWord> detailedTopicWordList = globalFullDetailedTopicWordMap.get(topic);
-            for (DetailedTopicWord detailedTopicWord: detailedTopicWordList) {
+            for (DetailedTopicWord detailedTopicWord : detailedTopicWordList) {
                 System.out.println(detailedTopicWord);
                 System.out.println();
                 cnt += 1;
@@ -196,7 +188,7 @@ public class DetailedTopicWordLoader {
         System.out.println("Total words: " + cnt);
         System.out.println("Number of topics: " + topicCntMap.keySet().size());
         System.out.println(sb.toString() + "\n");
-        for (String topic: topicCntMap.keySet()) {
+        for (String topic : topicCntMap.keySet()) {
             System.out.println("Topic: " + topic + "\nCnt: " + topicCntMap.get(topic) + "\n");
         }
     }

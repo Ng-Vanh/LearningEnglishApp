@@ -11,7 +11,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
-public class GoogleTranslate extends AudioTranslation  {
+public class GoogleTranslate extends AudioTranslation {
 
     @Override
     public String getAudioLink() {

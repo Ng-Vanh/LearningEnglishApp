@@ -5,18 +5,6 @@ import com.backend.OnlineDictionary.OnlineDictionaries.GoogleTranslate;
 import com.backend.TopicWord.Utils.Description;
 import com.fasterxml.jackson.annotation.*;
 
-//@JsonTypeName("Dictation")
-//@JsonTypeInfo(
-//        use = JsonTypeInfo.Id.NAME,
-//        include = JsonTypeInfo.As.PROPERTY,
-//        property = "type",
-//        defaultImpl = DictationDescription.class
-//)
-//@JsonSubTypes({
-//        @JsonSubTypes.Type(value = DictationDescription.class, name = "Dictation")
-//})
-
-//@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "type", defaultImpl = DictationDescription.class)
 @JsonTypeName("Dictation")
 public class DictationDescription extends Description {
     @JsonProperty("type")
@@ -57,7 +45,6 @@ public class DictationDescription extends Description {
             this.sentence = dictation.getSentence();
             this.sentenceWithBlank = dictation.getSentenceWithBlank();
             this.wordBlank = dictation.getWordBlank();
-//            this.translation = googleTranslate.getTranslation(this.sentence);
             this.translation = "DITME";
         }
     }

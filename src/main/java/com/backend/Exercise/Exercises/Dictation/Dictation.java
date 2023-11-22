@@ -29,17 +29,7 @@ public class Dictation extends Exercise {
 
     private static final String bankFolderPath = "src/main/java/com/backend/Exercise/ExerciseBank/Dictation/";
 
-    //    private String type = "Dictation";
-//    private String exerciseType;
     private DictationDescription description;
-
-//    public String getExerciseType() {
-//        return exerciseType;
-//    }
-//
-//    public void setExerciseType(String exerciseType) {
-//        this.exerciseType = exerciseType;
-//    }
 
     public DictationDescription getDescription() {
         return description;
@@ -52,10 +42,6 @@ public class Dictation extends Exercise {
     public static Dictation getDefaultDictation() {
         return new Dictation("Sentence", "sentenceWithBlank", "wordBlank", "audioLink", "translation");
     }
-
-//    public static Dictation getDefaultDictation() {
-//        return new Dictation("Sentence", "aasdjfhlaksdhflaskdfhljhlhlshlksadfsdfhsadflkjasdflkjasdflkjhasdljkfhahlhlkjasdfsdhlkajsdfhlaksdjfhlsadlkjfhslkjhlkjlkjsdasdfasdf", "wordBlank", "audioLink", "translation");
-//    }
 
     public Dictation() {
 
@@ -88,7 +74,6 @@ public class Dictation extends Exercise {
         try {
             String prompt = PromptLoader.getPrompt(promptName);
             generateExercise(prompt);
-//            this.exerciseType = prefix + "-" + exerciseType;
         } catch (IllegalArgumentException e) {
             System.err.println(e.getMessage());
         }
@@ -97,23 +82,14 @@ public class Dictation extends Exercise {
     public Dictation(String exerciseType, String jsonString) {
         if (!exerciseType.contains(prefix)) {
             throw new IllegalArgumentException("Not a dictation");
-        }
-        else {
+        } else {
             Dictation dictation = loadFromJson(jsonString);
             assign(dictation);
-//            this.exerciseType = prefix + "-" + exerciseType;
         }
     }
 
     private static Dictation loadFromJson(String jsonString) {
         try {
-//            ChatGPT chatGPT = new ChatGPT();
-//            String jsonString = chatGPT.getGPTAnswer(query);
-
-
-//            System.out.println(jsonString);
-//            System.out.println("-------------------------------------\n");
-
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode jsonNode = objectMapper.readTree(jsonString);
 
@@ -129,7 +105,6 @@ public class Dictation extends Exercise {
             } else {
                 return new Dictation(sentence, sentenceWithBlank, wordBlank);
             }
-
 
         } catch (JsonProcessingException e) {
             e.printStackTrace();
@@ -147,8 +122,6 @@ public class Dictation extends Exercise {
             System.out.println(filepath);
 
             ArrayList<String> jsonList = new ArrayList<>(readJsonFile(filepath));
-
-//            ArrayList<String> jsonList = new ArrayList<>(readJsonFile(filepath.toString()));
 
             ArrayList<Dictation> dictationList = new ArrayList<>();
 
@@ -174,7 +147,6 @@ public class Dictation extends Exercise {
         }
         return dictationList;
     }
-
 
     @Override
     protected void generateExercise(String query) {

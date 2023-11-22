@@ -23,10 +23,10 @@ public class DictionaryManagement extends Trie {
 
     public DictionaryManagement() {
         try {
-            readDataFromTxtFile();
+//            readDataFromTxtFile();
             readFavoriteWordFromTxtFile();
             readHistorySearchFromTxtFile();
-//            readDataFromDatabase();
+            readDataFromDatabase();
         } catch (IOException e) {
             e.printStackTrace();
         }

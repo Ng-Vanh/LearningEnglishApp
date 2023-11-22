@@ -8,10 +8,6 @@
     -fx-background-color: linear-gradient(to right, #E1F9A9 0%, #A6E1AE 80%);
 }
 
-.home-btn:hover {
-    -fx-border-width: 0 0 2 0;
-    -fx-border-color: #ff6200;
-}
 .back-btn:hover,
 .study-btn:hover,
 .home-btn:hover,
@@ -60,6 +56,7 @@
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-cursor: HAND;
+    -fx-font-size: 15;
 }
 
 #continueBtn:hover {
@@ -67,6 +64,8 @@
     -fx-border-color: black;
     -fx-border-radius: 5;
     -fx-background-radius: 5;
+    -fx-font-size: 15;
+
 }
 
 #pronounceImg1:hover {

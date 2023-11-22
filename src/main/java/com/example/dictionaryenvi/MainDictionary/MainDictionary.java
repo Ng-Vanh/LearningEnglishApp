@@ -474,4 +474,8 @@ public class MainDictionary {
     public void clickLearnWordOfDay(MouseEvent mouseEvent) {
         moveToLearnWordOfDayNavbar(mouseEvent);
     }
+
+    public void clickEdict(MouseEvent mouseEvent) {
+        moveToDictionaryNavbar(mouseEvent);
+    }
 }

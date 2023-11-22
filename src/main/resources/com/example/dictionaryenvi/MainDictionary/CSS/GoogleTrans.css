@@ -4,7 +4,8 @@
 .speaker-right-btn:hover,
 .study-btn:hover,
 .home-btn:hover,
-.game-btn:hover
+.game-btn:hover,
+.dict-btn:hover
 {
     -fx-cursor:hand;
     -fx-scale-x:1.05;

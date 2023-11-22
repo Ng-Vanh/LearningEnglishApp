@@ -20,7 +20,7 @@
                                 <Image url="@image/BackBtn.png" />
                             </image>
                         </ImageView>
-                        <VBox alignment="CENTER" layoutX="212.0" layoutY="11.0" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn">
+                        <VBox alignment="CENTER" layoutX="209.0" layoutY="11.0" onMouseClicked="#goToHome" prefHeight="57.0" prefWidth="57.0" styleClass="home-btn">
                             <children>
                                 <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -30,7 +30,7 @@
                                 <Label text="Home" />
                             </children>
                         </VBox>
-                        <VBox alignment="CENTER" layoutX="365.0" layoutY="11.0" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn">
+                        <VBox alignment="CENTER" layoutX="348.0" layoutY="11.0" onMouseClicked="#goToGame" prefHeight="57.0" prefWidth="57.0" styleClass="game-btn">
                             <children>
                                 <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -40,7 +40,7 @@
                                 <Label text="Exercise" />
                             </children>
                         </VBox>
-                        <VBox alignment="CENTER" layoutX="522.0" layoutY="8.0" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn">
+                        <VBox alignment="CENTER" layoutX="622.0" layoutY="6.0" onMouseClicked="#goToLearn" prefHeight="67.0" prefWidth="50.0" styleClass="study-btn">
                             <children>
                                 <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -50,12 +50,12 @@
                                 <Label text="Learn" />
                             </children>
                         </VBox>
-                        <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="861.0" layoutY="12.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn">
+                        <ImageView fitHeight="57.0" fitWidth="49.0" layoutX="873.0" layoutY="15.0" onMouseClicked="#clickUserInfo" pickOnBounds="true" preserveRatio="true" styleClass="user-btn">
                             <image>
                                 <Image url="@image/gamer.png" />
                             </image>
                         </ImageView>
-                        <VBox alignment="CENTER" layoutX="679.0" layoutY="4.0" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="71.0" styleClass="wordOfDay-btn">
+                        <VBox alignment="CENTER" layoutX="744.0" layoutY="3.0" onMouseClicked="#clickLearnWordOfDay" prefHeight="67.0" prefWidth="71.0" styleClass="wordOfDay-btn">
                             <children>
                                 <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -65,6 +65,15 @@
                                 <Label text="Word of day" />
                             </children>
                         </VBox>
+                        <VBox alignment="CENTER" layoutX="480.0" layoutY="4.0" onMouseClicked="#clickEdict" prefHeight="74.0" prefWidth="58.0" styleClass="dict-btn">
+                            <children>
+                                <ImageView fitHeight="53.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@image/dict.png" />
+                                    </image>
+                                </ImageView>
+                                <Label text="Dictionary" />
+                            </children></VBox>
                     </children></AnchorPane>
                 <AnchorPane prefHeight="506.0" prefWidth="960.0" style="-fx-background-color: #E8F7EA;">
                     <children>

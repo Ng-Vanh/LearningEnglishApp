@@ -64,3 +64,21 @@
     -fx-scale-y:1.05;
     -fx-cursor:hand;
 }
+.navbar{
+    -fx-background-color: linear-gradient(to right, #E1F9A9 0%, #A6E1AE 80%);
+}
+.back-btn:hover,
+.study-btn:hover,
+.home-btn:hover,
+.game-btn:hover,
+.wordOfDay-btn:hover,
+.user-btn:hover,
+.dict-btn:hover
+{
+    -fx-cursor:hand;
+    -fx-scale-x:1.05;
+    -fx-scale-y:1.05;
+}
+.input-area{
+    -fx-font-size:24px;
+}
